@@ -11,6 +11,9 @@ import { RouterModule } from '@angular/router';
 import { And001Component } from './components/ANDROID/and001/and001.component';
 import { FrasesComponent } from './shared/frases/frases.component';
 
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +26,8 @@ import { FrasesComponent } from './shared/frases/frases.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    CarouselModule,
+    BrowserAnimationsModule,
     RouterModule.forRoot (ROUTES)
   ],
   providers: [],
