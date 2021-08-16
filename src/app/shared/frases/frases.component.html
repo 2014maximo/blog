@@ -1,13 +1,25 @@
-<div>Some tags before</div>
-<owl-carousel-o [options]="customOptions">
-  <ng-template carouselSlide>
-    <img src="../../../assets/img/sliders/home-desktop/android.jpg" alt="">
-  </ng-template>  
-  <ng-template carouselSlide>
-    <img src="../../../assets/img/sliders/home-desktop/angular.jpg" alt="">
-  </ng-template>  
-  <ng-template carouselSlide>
-    <img src="../../../assets/img/sliders/home-desktop/dart.jpg" alt="">
-  </ng-template>  
-</owl-carousel-o>
-<div>Some tags after</div>
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-11">
+    <h2 class="comillas text-light text-left">“</h2>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10">
+    <div class="p-2">
+      <owl-carousel-o [options]="customOptions">
+      <ng-container *ngFor="let frase of frases">
+        <ng-template carouselSlide>
+          <div class="frases border {{frase.borde}} p-5 m-3">
+            <h4 class="font-italic text-light tamanoUno tituloDos sombra-texto">{{frase.frase}}</h4>
+            <h5 class="text-right {{frase.colorText}} tituloCuatro sombra-texto">{{frase.autor}}</h5>
+          </div>
+        </ng-template>
+      </ng-container>
+    </owl-carousel-o>
+    </div>
+  </div>
+  <div class="col-md-1"></div>
+</div>
+
