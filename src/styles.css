@@ -24,6 +24,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://anijs.github.io/lib/anicollection/anicollection.css');
 
 /* ESTILOS GENÉRICOS PARA TODO --------------------------------------*/
 .row,.col{
@@ -463,4 +464,9 @@ a:hover {
     font-weight: bold;
     letter-spacing: 12px;
     border-bottom: 2px solid #dc9047;
+}
+
+.linkCategoria {
+    cursor: pointer;
+    transition: 0.3s;
 }

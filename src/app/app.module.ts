@@ -3,32 +3,28 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderHomeComponent } from './shared/header-home/header-home.component';
-import { SliderHomeComponent } from './shared/slider-home/slider-home.component';
-import { HomeComponent } from './components/home/home.component';
 import { ROUTES } from './app.routes';
 import { RouterModule } from '@angular/router';
-import { And001Component } from './components/ANDROID/and001/and001.component';
-import { FrasesComponent } from './shared/frases/frases.component';
 
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SharedModule } from './shared/shared.module';
+import { ComponentsModule } from './components/components.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HeaderHomeComponent,
-    SliderHomeComponent,
-    HomeComponent,
-    And001Component,
-    FrasesComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CarouselModule,
     BrowserAnimationsModule,
+    SharedModule,
+    ComponentsModule,
     RouterModule.forRoot (ROUTES)
+  ],
+  exports: [
   ],
   providers: [],
   bootstrap: [AppComponent]

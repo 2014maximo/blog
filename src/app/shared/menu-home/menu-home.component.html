@@ -1,0 +1,90 @@
+<div class="row d-none d-md-block">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="row flex-lg-row-reverse">
+            <div class="col-lg-4">
+                <h2 class="text-light categorias">CATEGORIAS</h2>
+            </div>
+            <div class="col-lg-8" data-aos="flip-left">
+                <div class='p-3 d-flex justify-content-around align-items-center text-center drop'
+                     style='background-image:url("assets/img/categorias/tablaMenu1.png");background-repeat:no-repeat;background-size:cover;'>
+                    <div *ngFor="let menu of menus.menuUno">
+                        <div class="linkCategoria" (click)="abrirMenuCategoria(menu.categoria, menu.abertura)">
+                            <img src="{{ menu.rutaIcono }}" alt="" width="auto" height="{{menu.alturaIcono}}" class="drop">
+                        </div>
+                    </div>
+                </div>
+                <div class='p-3 d-flex justify-content-around align-items-center text-center drop'
+                     style='background-image:url("assets/img/categorias/tablaMenu1.png");background-repeat:no-repeat;background-size:cover;'>
+                    <div *ngFor="let menu of menus.menuDos">
+                        <div class="linkCategoria" (click)="abrirMenuCategoria(menu.categoria, menu.abertura)">
+                            <img src="{{ menu.rutaIcono }}" alt="" width="auto" height="{{menu.alturaIcono}}" class="drop">
+                        </div>
+                    </div>
+                </div>
+                <div class='p-2 d-flex justify-content-around align-items-center text-center drop'
+                     style='background-image:url("assets/img/categorias/tablaMenu1.png");background-repeat:no-repeat;background-size:cover;'>
+                    <div *ngFor="let menu of menus.menuTres">
+                        <div class="linkCategoria" (click)="abrirMenuCategoria(menu.categoria, menu.abertura)">
+                            <img src="{{ menu.rutaIcono }}" alt="" width="auto" height="{{menu.alturaIcono}}" class="drop">
+                        </div>
+                    </div>
+                </div>
+                <div class='p-4 d-flex justify-content-around align-items-center text-center drop'
+                     style='background-image:url("assets/img/categorias/tablaMenu1.png");background-repeat:no-repeat;background-size:cover;'>
+                    <div *ngFor="let menu of menus.menuCuatro">
+                        <div class="linkCategoria" (click)="abrirMenuCategoria(menu.categoria, menu.abertura)">
+                            <img src="{{ menu.rutaIcono }}" alt="" width="auto" height="{{menu.alturaIcono}}" class="drop" data-anijs="if: mouseover, do: swing animated">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+
+
+<div *ngFor="let categoria of categorias">
+    <div class="row {{ categoria.categoria }} sidenav">
+        <div class="col-md-12">
+            <div class="text-right">
+                <a href="javascript:void(0)" class="closebtn" (click)="cierreMenu(categoria.categoria)">&times;</a>
+            </div>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div class="text-right">
+                        <a href="componentes/ANDROID/categoria.html">
+                            <img src="{{ categoria.rutaIcono }}" alt="" width="auto" height="{{ categoria.alturaIcono }}" class="drop h-zoom">
+                        </a>
+                    </div>
+                    <div  class="row m-3">
+                        <div *ngFor="let post of categoria.post" class="col {{ categoria.color }} {{ post.posicion}} l-menu">
+                            <a href="{{ post.ruta }}">
+                                <del *ngIf="!post.activo">{{ post.nombre }}</del>
+                                <span *ngIf="post.activo">{{ post.nombre }}</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <div *ngFor="let postMas of categoria.postMas" class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <h2 class="fuenteSeis text-light mt-5 fs-40">{{ postMas.subCategoria }}</h2>
+                    <div class="row m-3">
+                        <div *ngFor="let postAdd of postMas.post" class="col {{ categoria.color }} {{ postAdd.posicion}} l-menu">
+                            <a href="{{ postAdd.ruta }}">
+                                <del *ngIf="!postAdd.activo">{{ postAdd.nombre }}</del>
+                                <span *ngIf="postAdd.activo">{{ postAdd.nombre }}</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </div>
+</div>
