@@ -1,6 +1,7 @@
 import { CategoriasModel } from '../models/categorias.model';
 
 export const CATEGORIAS: CategoriasModel [] = [
+/*     ANDROID */
     {
         id:1,
         categoria: 'android',
@@ -41,6 +42,7 @@ export const CATEGORIAS: CategoriasModel [] = [
             },
         ]
     },
+/*     ANGULAR */
     {
         id:2,
         categoria: 'angular',
@@ -52,7 +54,7 @@ export const CATEGORIAS: CategoriasModel [] = [
             {
                 nombre: 'INSTALACIÓN',
                 posicion: 'pos-z',
-                ruta:'componentes/ANGULAR/ang_001.html',
+                ruta:'angular-instalacion',
                 activo: true
             },
             {
@@ -159,6 +161,7 @@ export const CATEGORIAS: CategoriasModel [] = [
             },
         ]
     },
+/*      CSS    */
     {
         id:3,
         categoria: 'css',
@@ -168,7 +171,7 @@ export const CATEGORIAS: CategoriasModel [] = [
         color: 'bg-Css',
         post: [
             {
-                nombre: 'INSTALACIÓN',
+                nombre: 'ATRIBUTOS CSS',
                 posicion: 'pos-z',
                 ruta:'componentes/ANGULAR/ang_001.html',
                 activo: true
