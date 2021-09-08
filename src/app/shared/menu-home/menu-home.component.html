@@ -55,13 +55,13 @@
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
                     <div class="text-right">
-                        <a class="nav-link" routerLink="ang-aaa">
+                        <a class="nav-link" href="{{ categoria.rutaCategoria }}">
                             <img src="{{ categoria.rutaIcono }}" alt="" width="auto" height="{{ categoria.alturaIcono }}" class="drop h-zoom">
                         </a>
                     </div>
                     <div  class="row m-3">
                         <div *ngFor="let post of categoria.post" class="col {{ categoria.color }} {{ post.posicion}} l-menu">
-                            <a routerLink="" href="{{ post.ruta }}">
+                            <a href="{{ post.ruta }}">
                                 <del *ngIf="!post.activo">{{ post.nombre }}</del>
                                 <span *ngIf="post.activo">{{ post.nombre }}</span>
                             </a>
