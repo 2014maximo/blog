@@ -133,7 +133,7 @@ export const FRASES = [
         id:19
     },
     {
-        frase: 'Tienes que aprender la reglas del juego y despues jugar mejor que nadie.El diablo susurró en mi oído, -No eres lo suficientemente fuerte para resistir la tormenta. Hoy le susurré al diablo en el oído, -Yo soy la tormenta.',
+        frase: 'El diablo susurró en mi oído, -No eres lo suficientemente fuerte para resistir la tormenta. Hoy le susurré al diablo en el oído, -Yo soy la tormenta.',
         autor: 'Anónimo',
         borde: 'border-warning',
         colorText: 'text-warning',

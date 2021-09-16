@@ -26,23 +26,23 @@ export const MENU_1 = [
         abertura: '80%',
         rutaIcono: 'assets/img/categorias/dart_text_white.png',
         alturaIcono: '40'
-    }
+    },
 ]
 
 export const MENU_2 = [
     {
         id:1,
-        categoria: 'develop',
+        categoria: 'developer',
         abertura: '80%',
-        rutaIcono: 'assets/img/categorias/devlop.png',
-        alturaIcono: '60'
+        rutaIcono: 'assets/img/categorias/developer.png',
+        alturaIcono: '90'
     },
     {
         id:2,
         categoria: 'flutter',
         abertura: '80%',
         rutaIcono: 'assets/img/categorias/flutter_text_white.png',
-        alturaIcono: '70'
+        alturaIcono: '80'
     },
     {
         id:3,

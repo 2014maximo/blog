@@ -262,50 +262,50 @@ export const CATEGORIAS: CategoriasModel [] = [
         ]
     },
 /*      DEVELOPER    */
-{
-    id:5,
-    categoria: 'developer',
-    rutaCategoria: 'categoria-developer',
-    rutaIcono: 'assets/img/categorias/devlop.png',
-    alturaIcono: '80',
-    color: 'bg-Developer',
-    post: [
-        {
-            nombre: 'INSTALACIÓN',
-            posicion: 'pos-z',
-            ruta:'instalacion-dart',
-            activo: false
-        },
-        {
-            nombre: 'ELEMENTOS Y DESCRIPCIÓN',
-            posicion: 'rot-2',
-            ruta:'dart-elementos-descripcion',
-            activo: false
-        },
-        {
-            nombre: 'CRUD',
-            posicion: 'rot-1',
-            ruta:'crud-dart',
-            activo: false
-        },
-        {
-            nombre: 'TERMINOS AVANZADOS',
-            posicion: 'rot-2',
-            ruta:'dart-terminos-avanzados',
-            activo: false
-        },
-        {
-            nombre: 'CONTEXTO DART',
-            posicion: 'pos-z',
-            ruta:'contexto-dart',
-            activo: false
-        },
-        {
-            nombre: 'PRUEBAS UNITARIAS',
-            posicion: 'pos-z',
-            ruta:'dart-pruebas-unitarias',
-            activo: false
-        },
-    ]
-},
+    {
+        id:5,
+        categoria: 'developer',
+        rutaCategoria: 'categoria-developer',
+        rutaIcono: 'assets/img/categorias/developer.png',
+        alturaIcono: '80',
+        color: 'bg-Developer',
+        post: [
+            {
+                nombre: 'INSTALACIÓN',
+                posicion: 'pos-z',
+                ruta:'instalacion-dart',
+                activo: false
+            },
+            {
+                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                posicion: 'rot-2',
+                ruta:'dart-elementos-descripcion',
+                activo: false
+            },
+            {
+                nombre: 'CRUD',
+                posicion: 'rot-1',
+                ruta:'crud-dart',
+                activo: false
+            },
+            {
+                nombre: 'TERMINOS AVANZADOS',
+                posicion: 'rot-2',
+                ruta:'dart-terminos-avanzados',
+                activo: false
+            },
+            {
+                nombre: 'CONTEXTO DART',
+                posicion: 'pos-z',
+                ruta:'contexto-dart',
+                activo: false
+            },
+            {
+                nombre: 'PRUEBAS UNITARIAS',
+                posicion: 'pos-z',
+                ruta:'dart-pruebas-unitarias',
+                activo: false
+            },
+        ]
+    }
 ]
