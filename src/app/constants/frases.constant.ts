@@ -167,5 +167,26 @@ export const FRASES = [
         colorText: 'text-danger',
         id:24
     },
+    {
+        frase: 'Recuerda que solo porque tocaste fondo no significa que tengas que quedarte allí',
+        autor: 'Robert Downey Jr.',
+        borde: 'border-success',
+        colorText: 'text-success',
+        id:25
+    },
+    {
+        frase: 'Si quieres ser rico, mira lo que todo el mundo hace y haz todo lo contrario.',
+        autor: 'R. Kiyosaki',
+        borde: 'border-secondary',
+        colorText: 'text-secondary',
+        id:26
+    },
+    {
+        frase: 'No importa lo despacio que vayas, siempre y cuando no te detengas.',
+        autor: 'Confucio',
+        borde: 'border-info',
+        colorText: 'text-info',
+        id:27
+    },
 
 ]
