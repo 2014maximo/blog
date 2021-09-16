@@ -6,13 +6,15 @@ import { SliderHomeComponent } from './slider-home/slider-home.component';
 import { HeaderHomeComponent } from './header-home/header-home.component';
 import { FrasesComponent } from './frases/frases.component';
 import { MenuHomeComponent } from './menu-home/menu-home.component';
+import { FooterHomeComponent } from './footer-home/footer-home.component';
 
 @NgModule({
   declarations: [
     SliderHomeComponent,
     HeaderHomeComponent,
     FrasesComponent,
-    MenuHomeComponent
+    MenuHomeComponent,
+    FooterHomeComponent
   ],
   imports: [
     CommonModule,
@@ -23,6 +25,7 @@ import { MenuHomeComponent } from './menu-home/menu-home.component';
     SliderHomeComponent,
     HeaderHomeComponent,
     FrasesComponent,
+    FooterHomeComponent,
     MenuHomeComponent
   ]
 })
