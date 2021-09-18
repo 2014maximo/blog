@@ -7,6 +7,7 @@ import { HeaderHomeComponent } from './header-home/header-home.component';
 import { FrasesComponent } from './frases/frases.component';
 import { MenuHomeComponent } from './menu-home/menu-home.component';
 import { FooterHomeComponent } from './footer-home/footer-home.component';
+import { HeaderPostComponent } from './header-post/header-post.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FooterHomeComponent } from './footer-home/footer-home.component';
     HeaderHomeComponent,
     FrasesComponent,
     MenuHomeComponent,
-    FooterHomeComponent
+    FooterHomeComponent,
+    HeaderPostComponent
   ],
   imports: [
     CommonModule,
