@@ -262,50 +262,473 @@ export const CATEGORIAS: CategoriasModel [] = [
         ]
     },
 /*      DEVELOPER    */
-{
-    id:5,
-    categoria: 'developer',
-    rutaCategoria: 'categoria-developer',
-    rutaIcono: 'assets/img/categorias/devlop.png',
-    alturaIcono: '80',
-    color: 'bg-Developer',
-    post: [
-        {
-            nombre: 'INSTALACIÓN',
-            posicion: 'pos-z',
-            ruta:'instalacion-dart',
-            activo: false
-        },
-        {
-            nombre: 'ELEMENTOS Y DESCRIPCIÓN',
-            posicion: 'rot-2',
-            ruta:'dart-elementos-descripcion',
-            activo: false
-        },
-        {
-            nombre: 'CRUD',
-            posicion: 'rot-1',
-            ruta:'crud-dart',
-            activo: false
-        },
-        {
-            nombre: 'TERMINOS AVANZADOS',
-            posicion: 'rot-2',
-            ruta:'dart-terminos-avanzados',
-            activo: false
-        },
-        {
-            nombre: 'CONTEXTO DART',
-            posicion: 'pos-z',
-            ruta:'contexto-dart',
-            activo: false
-        },
-        {
-            nombre: 'PRUEBAS UNITARIAS',
-            posicion: 'pos-z',
-            ruta:'dart-pruebas-unitarias',
-            activo: false
-        },
-    ]
-},
+    {
+        id:5,
+        categoria: 'developer',
+        rutaCategoria: 'categoria-developer',
+        rutaIcono: 'assets/img/categorias/developer.png',
+        alturaIcono: '80',
+        color: 'bg-Developer',
+        post: [
+            {
+                nombre: 'INSTALACIÓN',
+                posicion: 'pos-z',
+                ruta:'instalacion-dart',
+                activo: false
+            },
+            {
+                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                posicion: 'rot-2',
+                ruta:'dart-elementos-descripcion',
+                activo: false
+            },
+            {
+                nombre: 'CRUD',
+                posicion: 'rot-1',
+                ruta:'crud-dart',
+                activo: false
+            },
+            {
+                nombre: 'TERMINOS AVANZADOS',
+                posicion: 'rot-2',
+                ruta:'dart-terminos-avanzados',
+                activo: false
+            },
+            {
+                nombre: 'CONTEXTO DART',
+                posicion: 'pos-z',
+                ruta:'contexto-dart',
+                activo: false
+            },
+            {
+                nombre: 'PRUEBAS UNITARIAS',
+                posicion: 'pos-z',
+                ruta:'dart-pruebas-unitarias',
+                activo: false
+            },
+        ]
+    },
+/*      FLUTTER    */
+    {
+        id:6,
+        categoria: 'flutter',
+        rutaCategoria: 'categoria-flutter',
+        rutaIcono: 'assets/img/categorias/flutter_text_white.png',
+        alturaIcono: '80',
+        color: 'bg-Flutter',
+        post: [
+            {
+                nombre: 'INSTALACIÓN',
+                posicion: 'pos-z',
+                ruta:'instalacion-dart',
+                activo: false
+            },
+            {
+                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                posicion: 'rot-2',
+                ruta:'dart-elementos-descripcion',
+                activo: false
+            },
+            {
+                nombre: 'CRUD',
+                posicion: 'rot-1',
+                ruta:'crud-dart',
+                activo: false
+            },
+            {
+                nombre: 'TERMINOS AVANZADOS',
+                posicion: 'rot-2',
+                ruta:'dart-terminos-avanzados',
+                activo: false
+            },
+            {
+                nombre: 'CONTEXTO DART',
+                posicion: 'pos-z',
+                ruta:'contexto-dart',
+                activo: false
+            },
+            {
+                nombre: 'PRUEBAS UNITARIAS',
+                posicion: 'pos-z',
+                ruta:'dart-pruebas-unitarias',
+                activo: false
+            },
+        ]
+    },
+/*      GIT    */
+    {
+        id:7,
+        categoria: 'git',
+        rutaCategoria: 'categoria-git',
+        rutaIcono: 'assets/img/categorias/git-light.png',
+        alturaIcono: '80',
+        color: 'bg-Git',
+        post: [
+            {
+                nombre: 'INSTALACIÓN',
+                posicion: 'pos-z',
+                ruta:'instalacion-dart',
+                activo: false
+            },
+            {
+                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                posicion: 'rot-2',
+                ruta:'dart-elementos-descripcion',
+                activo: false
+            },
+            {
+                nombre: 'CRUD',
+                posicion: 'rot-1',
+                ruta:'crud-dart',
+                activo: false
+            },
+            {
+                nombre: 'TERMINOS AVANZADOS',
+                posicion: 'rot-2',
+                ruta:'dart-terminos-avanzados',
+                activo: false
+            },
+            {
+                nombre: 'CONTEXTO DART',
+                posicion: 'pos-z',
+                ruta:'contexto-dart',
+                activo: false
+            },
+            {
+                nombre: 'PRUEBAS UNITARIAS',
+                posicion: 'pos-z',
+                ruta:'dart-pruebas-unitarias',
+                activo: false
+            },
+        ]
+    },
+/*      HTML    */
+    {
+        id:8,
+        categoria: 'html',
+        rutaCategoria: 'categoria-html',
+        rutaIcono: 'assets/img/categorias/html-white.png',
+        alturaIcono: '80',
+        color: 'bg-Html',
+        post: [
+            {
+                nombre: 'INSTALACIÓN',
+                posicion: 'pos-z',
+                ruta:'instalacion-dart',
+                activo: false
+            },
+            {
+                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                posicion: 'rot-2',
+                ruta:'dart-elementos-descripcion',
+                activo: false
+            },
+            {
+                nombre: 'CRUD',
+                posicion: 'rot-1',
+                ruta:'crud-dart',
+                activo: false
+            },
+            {
+                nombre: 'TERMINOS AVANZADOS',
+                posicion: 'rot-2',
+                ruta:'dart-terminos-avanzados',
+                activo: false
+            },
+            {
+                nombre: 'CONTEXTO DART',
+                posicion: 'pos-z',
+                ruta:'contexto-dart',
+                activo: false
+            },
+            {
+                nombre: 'PRUEBAS UNITARIAS',
+                posicion: 'pos-z',
+                ruta:'dart-pruebas-unitarias',
+                activo: false
+            },
+        ]
+    },
+/*      JAVA    */
+    {
+        id:9,
+        categoria: 'java',
+        rutaCategoria: 'categoria-java',
+        rutaIcono: 'assets/img/categorias/logo-java.png',
+        alturaIcono: '80',
+        color: 'bg-Java',
+        post: [
+            {
+                nombre: 'INSTALACIÓN',
+                posicion: 'pos-z',
+                ruta:'instalacion-dart',
+                activo: false
+            },
+            {
+                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                posicion: 'rot-2',
+                ruta:'dart-elementos-descripcion',
+                activo: false
+            },
+            {
+                nombre: 'CRUD',
+                posicion: 'rot-1',
+                ruta:'crud-dart',
+                activo: false
+            },
+            {
+                nombre: 'TERMINOS AVANZADOS',
+                posicion: 'rot-2',
+                ruta:'dart-terminos-avanzados',
+                activo: false
+            },
+            {
+                nombre: 'CONTEXTO DART',
+                posicion: 'pos-z',
+                ruta:'contexto-dart',
+                activo: false
+            },
+            {
+                nombre: 'PRUEBAS UNITARIAS',
+                posicion: 'pos-z',
+                ruta:'dart-pruebas-unitarias',
+                activo: false
+            },
+        ]
+    },
+/*      JAVASCRIPT    */
+    {
+        id:10,
+        categoria: 'javascript',
+        rutaCategoria: 'categoria-javascript',
+        rutaIcono: 'assets/img/categorias/javascript.png',
+        alturaIcono: '80',
+        color: 'bg-Javascript',
+        post: [
+            {
+                nombre: 'INSTALACIÓN',
+                posicion: 'pos-z',
+                ruta:'instalacion-dart',
+                activo: false
+            },
+            {
+                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                posicion: 'rot-2',
+                ruta:'dart-elementos-descripcion',
+                activo: false
+            },
+            {
+                nombre: 'CRUD',
+                posicion: 'rot-1',
+                ruta:'crud-dart',
+                activo: false
+            },
+            {
+                nombre: 'TERMINOS AVANZADOS',
+                posicion: 'rot-2',
+                ruta:'dart-terminos-avanzados',
+                activo: false
+            },
+            {
+                nombre: 'CONTEXTO DART',
+                posicion: 'pos-z',
+                ruta:'contexto-dart',
+                activo: false
+            },
+            {
+                nombre: 'REVISIÓN A VERSIONES NODE JS',
+                posicion: 'pos-z',
+                ruta:'revision-versiones-node-js',
+                activo: false
+            },
+        ]
+    },
+/*      LINUX    */
+    {
+        id:11,
+        categoria: 'linux',
+        rutaCategoria: 'categoria-linux',
+        rutaIcono: 'assets/img/categorias/linux-white.png',
+        alturaIcono: '80',
+        color: 'bg-Linux',
+        post: [
+            {
+                nombre: 'INSTALACIÓN',
+                posicion: 'pos-z',
+                ruta:'instalacion-dart',
+                activo: false
+            },
+            {
+                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                posicion: 'rot-2',
+                ruta:'dart-elementos-descripcion',
+                activo: false
+            },
+            {
+                nombre: 'CRUD',
+                posicion: 'rot-1',
+                ruta:'crud-dart',
+                activo: false
+            },
+            {
+                nombre: 'TERMINOS AVANZADOS',
+                posicion: 'rot-2',
+                ruta:'dart-terminos-avanzados',
+                activo: false
+            },
+            {
+                nombre: 'CONTEXTO DART',
+                posicion: 'pos-z',
+                ruta:'contexto-dart',
+                activo: false
+            },
+            {
+                nombre: 'PRUEBAS UNITARIAS',
+                posicion: 'pos-z',
+                ruta:'dart-pruebas-unitarias',
+                activo: false
+            },
+        ]
+    },
+/*      SQL    */
+    {
+        id:12,
+        categoria: 'sql',
+        rutaCategoria: 'categoria-sql',
+        rutaIcono: 'assets/img/categorias/sql.png',
+        alturaIcono: '80',
+        color: 'bg-Sql',
+        post: [
+            {
+                nombre: 'INSTALACIÓN',
+                posicion: 'pos-z',
+                ruta:'instalacion-dart',
+                activo: false
+            },
+            {
+                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                posicion: 'rot-2',
+                ruta:'dart-elementos-descripcion',
+                activo: false
+            },
+            {
+                nombre: 'CRUD',
+                posicion: 'rot-1',
+                ruta:'crud-dart',
+                activo: false
+            },
+            {
+                nombre: 'TERMINOS AVANZADOS',
+                posicion: 'rot-2',
+                ruta:'dart-terminos-avanzados',
+                activo: false
+            },
+            {
+                nombre: 'CONTEXTO DART',
+                posicion: 'pos-z',
+                ruta:'contexto-dart',
+                activo: false
+            },
+            {
+                nombre: 'PRUEBAS UNITARIAS',
+                posicion: 'pos-z',
+                ruta:'dart-pruebas-unitarias',
+                activo: false
+            },
+        ]
+    },
+/*      PHP    */
+    {
+        id:13,
+        categoria: 'php',
+        rutaCategoria: 'categoria-php',
+        rutaIcono: 'assets/img/categorias/php.png',
+        alturaIcono: '80',
+        color: 'bg-Php',
+        post: [
+            {
+                nombre: 'INSTALACIÓN',
+                posicion: 'pos-z',
+                ruta:'instalacion-dart',
+                activo: false
+            },
+            {
+                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                posicion: 'rot-2',
+                ruta:'dart-elementos-descripcion',
+                activo: false
+            },
+            {
+                nombre: 'CRUD',
+                posicion: 'rot-1',
+                ruta:'crud-dart',
+                activo: false
+            },
+            {
+                nombre: 'TERMINOS AVANZADOS',
+                posicion: 'rot-2',
+                ruta:'dart-terminos-avanzados',
+                activo: false
+            },
+            {
+                nombre: 'CONTEXTO DART',
+                posicion: 'pos-z',
+                ruta:'contexto-dart',
+                activo: false
+            },
+            {
+                nombre: 'PRUEBAS UNITARIAS',
+                posicion: 'pos-z',
+                ruta:'dart-pruebas-unitarias',
+                activo: false
+            },
+        ]
+    },
+/*      WORDPRESS    */
+    {
+        id:14,
+        categoria: 'wordpress',
+        rutaCategoria: 'categoria-wordpress',
+        rutaIcono: 'assets/img/categorias/wordpress2.png',
+        alturaIcono: '80',
+        color: 'bg-Wordpress',
+        post: [
+            {
+                nombre: 'INSTALACIÓN',
+                posicion: 'pos-z',
+                ruta:'instalacion-dart',
+                activo: false
+            },
+            {
+                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                posicion: 'rot-2',
+                ruta:'dart-elementos-descripcion',
+                activo: false
+            },
+            {
+                nombre: 'CRUD',
+                posicion: 'rot-1',
+                ruta:'crud-dart',
+                activo: false
+            },
+            {
+                nombre: 'TERMINOS AVANZADOS',
+                posicion: 'rot-2',
+                ruta:'dart-terminos-avanzados',
+                activo: false
+            },
+            {
+                nombre: 'CONTEXTO DART',
+                posicion: 'pos-z',
+                ruta:'contexto-dart',
+                activo: false
+            },
+            {
+                nombre: 'PRUEBAS UNITARIAS',
+                posicion: 'pos-z',
+                ruta:'dart-pruebas-unitarias',
+                activo: false
+            },
+        ]
+    },
 ]

@@ -6,13 +6,18 @@ import { SliderHomeComponent } from './slider-home/slider-home.component';
 import { HeaderHomeComponent } from './header-home/header-home.component';
 import { FrasesComponent } from './frases/frases.component';
 import { MenuHomeComponent } from './menu-home/menu-home.component';
+import { FooterHomeComponent } from './footer-home/footer-home.component';
+import { HeaderPostComponent } from './header-post/header-post.component';
 
 @NgModule({
   declarations: [
     SliderHomeComponent,
+    HeaderPostComponent,
     HeaderHomeComponent,
     FrasesComponent,
-    MenuHomeComponent
+    MenuHomeComponent,
+    FooterHomeComponent,
+    HeaderPostComponent
   ],
   imports: [
     CommonModule,
@@ -21,8 +26,10 @@ import { MenuHomeComponent } from './menu-home/menu-home.component';
   ],
   exports: [
     SliderHomeComponent,
+    HeaderPostComponent,
     HeaderHomeComponent,
     FrasesComponent,
+    FooterHomeComponent,
     MenuHomeComponent
   ]
 })

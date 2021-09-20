@@ -34,7 +34,7 @@
                      style='background-image:url("assets/img/categorias/tablaMenu1.png");background-repeat:no-repeat;background-size:cover;'>
                     <div *ngFor="let menu of menus.menuCuatro">
                         <div class="linkCategoria" (click)="abrirMenuCategoria(menu.categoria, menu.abertura)">
-                            <img src="{{ menu.rutaIcono }}" alt="" width="auto" height="{{menu.alturaIcono}}" class="drop" data-anijs="if: mouseover, do: swing animated">
+                            <img src="{{ menu.rutaIcono }}" alt="" width="auto" height="{{menu.alturaIcono}}" class="drop">
                         </div>
                     </div>
                 </div>

@@ -133,7 +133,7 @@ export const FRASES = [
         id:19
     },
     {
-        frase: 'Tienes que aprender la reglas del juego y despues jugar mejor que nadie.El diablo susurró en mi oído, -No eres lo suficientemente fuerte para resistir la tormenta. Hoy le susurré al diablo en el oído, -Yo soy la tormenta.',
+        frase: 'El diablo susurró en mi oído, -No eres lo suficientemente fuerte para resistir la tormenta. Hoy le susurré al diablo en el oído, -Yo soy la tormenta.',
         autor: 'Anónimo',
         borde: 'border-warning',
         colorText: 'text-warning',
@@ -166,6 +166,27 @@ export const FRASES = [
         borde: 'border-danger',
         colorText: 'text-danger',
         id:24
+    },
+    {
+        frase: 'Recuerda que solo porque tocaste fondo no significa que tengas que quedarte allí',
+        autor: 'Robert Downey Jr.',
+        borde: 'border-success',
+        colorText: 'text-success',
+        id:25
+    },
+    {
+        frase: 'Si quieres ser rico, mira lo que todo el mundo hace y haz todo lo contrario.',
+        autor: 'R. Kiyosaki',
+        borde: 'border-secondary',
+        colorText: 'text-secondary',
+        id:26
+    },
+    {
+        frase: 'No importa lo despacio que vayas, siempre y cuando no te detengas.',
+        autor: 'Confucio',
+        borde: 'border-info',
+        colorText: 'text-info',
+        id:27
     },
 
 ]

@@ -4,6 +4,7 @@ import { And001Component } from './ANDROID/and001/and001.component';
 import { HomeComponent } from './home/home.component';
 import { SharedModule } from '../shared/shared.module';
 import { InstalacionAngularComponent } from './ANGULAR/instalacion-angular/instalacion-angular.component';
+import { PruebasUnitariasComponent } from './ANGULAR/pruebas-unitarias/pruebas-unitarias.component';
 
 
 
@@ -11,7 +12,8 @@ import { InstalacionAngularComponent } from './ANGULAR/instalacion-angular/insta
   declarations: [
     And001Component,
     HomeComponent,
-    InstalacionAngularComponent
+    InstalacionAngularComponent,
+    PruebasUnitariasComponent
   ],
   imports: [
     CommonModule,
