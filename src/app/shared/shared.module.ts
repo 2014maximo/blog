@@ -12,6 +12,7 @@ import { HeaderPostComponent } from './header-post/header-post.component';
 @NgModule({
   declarations: [
     SliderHomeComponent,
+    HeaderPostComponent,
     HeaderHomeComponent,
     FrasesComponent,
     MenuHomeComponent,
@@ -25,6 +26,7 @@ import { HeaderPostComponent } from './header-post/header-post.component';
   ],
   exports: [
     SliderHomeComponent,
+    HeaderPostComponent,
     HeaderHomeComponent,
     FrasesComponent,
     FooterHomeComponent,

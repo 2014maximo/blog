@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { HeaderPostModel } from 'src/app/models/post.model';
 
 @Component({
   selector: 'app-header-post',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderPostComponent implements OnInit {
 
-  constructor() { }
+  @Input() cabecera: HeaderPostModel = {
+    rutaImagen: '',
+    fondo:  false,
+    tituloPost: '',
+    alturaImagen: ''
+  };
+
+  constructor() {
+   }
 
   ngOnInit(): void {
   }
+
 
 }
