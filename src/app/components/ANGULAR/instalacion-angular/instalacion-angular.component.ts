@@ -12,7 +12,7 @@ export class InstalacionAngularComponent implements OnInit {
     rutaImagen: 'assets/img/banner/Instalaciona-angular.jpg',
     fondo: false,
     tituloPost: 'INSTALACIÓN DE ANGULAR',
-    alturaImagen: ''
+    alturaImagen: '200'
   }
 
   constructor() { }
