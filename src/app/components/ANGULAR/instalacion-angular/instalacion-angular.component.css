@@ -12,3 +12,11 @@
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
+.subTituloPost {
+    font-family: 'Open Sans Condensed';
+    color: #f6921e;
+    font-size: 40px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: 600 !important;
+    line-height: 40px;
+}

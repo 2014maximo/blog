@@ -11,8 +11,8 @@ export class InstalacionAngularComponent implements OnInit {
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: 'assets/img/banner/Instalaciona-angular.jpg',
     fondo: false,
-    tituloPost: 'INSTALACIÓN DE ANGULAR',
-    alturaImagen: '200'
+    tituloPost: 'INSTALACIÓN DE ANGULAR Y RECOMENDACIONES',
+    alturaImagen: ''
   }
 
   constructor() { }
