@@ -12,3 +12,8 @@
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
+.imagenPost{
+    background: url(assets/img/banner/Instalaciona-angular.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
