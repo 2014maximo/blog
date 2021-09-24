@@ -10,7 +10,7 @@ export class AccordeonComponent implements OnInit {
 
   @Input() contenido: AccordeonPostModel = {
     idHeading: '',
-
+    idCollapse: ''
   };
 
   constructor() { }
