@@ -12,8 +12,18 @@
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
+<<<<<<< HEAD
 .imagenPost{
     background: url(assets/img/banner/Instalaciona-angular.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+=======
+.subTituloPost {
+    font-family: 'Open Sans Condensed';
+    color: #f6921e;
+    font-size: 40px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: 600 !important;
+    line-height: 40px;
+>>>>>>> refs/remotes/origin/main
 }

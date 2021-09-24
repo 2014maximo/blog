@@ -6,3 +6,7 @@ export class HeaderPostModel {
     alturaImagen: string = '';
 
 }
+
+export class AccordeonPostModel {
+    idHeading: string = '';
+}

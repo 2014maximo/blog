@@ -8,6 +8,7 @@ import { FrasesComponent } from './frases/frases.component';
 import { MenuHomeComponent } from './menu-home/menu-home.component';
 import { FooterHomeComponent } from './footer-home/footer-home.component';
 import { HeaderPostComponent } from './header-post/header-post.component';
+import { AccordeonComponent } from './accordeon/accordeon.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HeaderPostComponent } from './header-post/header-post.component';
     FrasesComponent,
     MenuHomeComponent,
     FooterHomeComponent,
-    HeaderPostComponent
+    HeaderPostComponent,
+    AccordeonComponent
   ],
   imports: [
     CommonModule,
@@ -30,7 +32,8 @@ import { HeaderPostComponent } from './header-post/header-post.component';
     HeaderHomeComponent,
     FrasesComponent,
     FooterHomeComponent,
-    MenuHomeComponent
+    MenuHomeComponent,
+    AccordeonComponent
   ]
 })
 export class SharedModule { }
