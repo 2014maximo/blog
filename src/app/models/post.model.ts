@@ -12,6 +12,7 @@ export class ObjectAccordeonPostModel {
 }
 export class AccordeonPostModel {
     idHeading: string = '';
+    contentHead: string = '';
     idCollapse: string = '';
-
+    contendBody: string = '';
 }

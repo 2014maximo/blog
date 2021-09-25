@@ -10,30 +10,50 @@ import { AccordeonPostModel, ObjectAccordeonPostModel } from '../../../models/po
 export class InstalacionAngularComponent implements OnInit {
 
   public cabeceraPost: HeaderPostModel = {
-    rutaImagen: 'assets/img/banner/Instalaciona-angular.jpg',
+    rutaImagen: '',
+    alturaImagen: '',
     fondo: false,
-    tituloPost: 'INSTALACIÓN DE ANGULAR Y RECOMENDACIONES',
-    alturaImagen: ''
-  };
+    tituloPost: ''
+  }
   public accordeonContend: ObjectAccordeonPostModel = {
     dataParent: '',
-    content: [
-    {
-      idHeading: 'headingOne',
-      idCollapse: 'collapseOne'
-    },
-    {
-      idHeading: 'headingTwo',
-      idCollapse: 'collapseTwo'
-    }
-  ]
+    content: []
   }
   
 
 
-  constructor() { }
+  constructor() { 
+    this.inicializarVariables();
+  }
 
   ngOnInit(): void {
+  }
+
+  private inicializarVariables(){
+    this.accordeonContend = {
+      dataParent: 'accordeon',
+      content: [
+        {
+          idHeading: 'headingOne',
+          contentHead: 'AngularJS: El inicio',
+          idCollapse: 'collapseOne',
+          contendBody: 'El punto de partida de angular 20 de octubre de 2010'
+        },
+        {
+          idHeading: 'headingTwo',
+          contentHead: 'Angular II',
+          idCollapse: 'collapseTwo',
+          contendBody: 'Estabilidad al ecosistema, ahora con "Operación Byelog" un proceso al que en Angular llaman “Operación Byelog”'
+        }
+      ]
+    }
+
+    this.cabeceraPost = {
+      rutaImagen: 'assets/img/banner/Instalaciona-angular.jpg',
+      fondo: false,
+      tituloPost: 'INSTALACIÓN DE ANGULAR Y RECOMENDACIONES',
+      alturaImagen: ''
+    };
   }
 
 }

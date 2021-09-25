@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { AccordeonPostModel } from '../../models/post.model';
+import { AccordeonPostModel, ObjectAccordeonPostModel } from '../../models/post.model';
 
 @Component({
   selector: 'app-accordeon',
@@ -8,9 +8,9 @@ import { AccordeonPostModel } from '../../models/post.model';
 })
 export class AccordeonComponent implements OnInit {
 
-  @Input() contenido: AccordeonPostModel = {
-    idHeading: '',
-    idCollapse: ''
+  @Input() contenido: ObjectAccordeonPostModel = {
+    dataParent: '',
+    content: []
   };
 
   constructor() { }
