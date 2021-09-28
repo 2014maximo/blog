@@ -2,9 +2,9 @@
     <div class="col-md-12">
         <div *ngFor="let contenidos of contenido">
             <div>
-                <h2 (click)="abrirContenido(contenidos.nClass)">{{ contenidos.elemento }}</h2>
-                <div class="{{ contenidos.nClass }} mostrado">
-                    <p>{{ contenidos.contenido }}</p>
+                <h2 class="t5 fuenteSeis cursor-p"(click)="contenidos.mostrarlo = !contenidos.mostrarlo">{{ contenidos.elemento }}</h2>
+                <div *ngIf="contenidos.mostrarlo">
+                    <p class="text-light fuenteDos">{{ contenidos.contenido }}</p>
                 </div>
             </div>
         </div>

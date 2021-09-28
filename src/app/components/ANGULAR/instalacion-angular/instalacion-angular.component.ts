@@ -36,11 +36,13 @@ export class InstalacionAngularComponent implements OnInit {
         {
           elemento: 'AngularJS: El inicio',
           nClass: 'motrarUno',
+          mostrarlo: false,
           contenido: 'El punto de partida de angular 20 de octubre de 2010'
         },
         {
           elemento: 'Angular II',
           nClass: 'motrarDos',
+          mostrarlo: false,
           contenido: 'Estabilidad al ecosistema, ahora con "Operación Byelog" un proceso al que en Angular llaman “Operación Byelog”'
         }
       ]

@@ -20,6 +20,7 @@ export class AccordeonPostModel {
 export class AccordeonModel {
     nClass: string = '';
     elemento: string = '';
+    mostrarlo?: boolean = false;
     contenido?: string = '';
     contenidoLista?:[] = [];
 }

@@ -1,11 +1,27 @@
 <app-header-home></app-header-home>
 <app-header-post [cabecera]="cabeceraPost"></app-header-post>
 
+<div class="espacio"></div>
+
 <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10">
-        <h3 class="fuenteSeis text-light fw-6 fs-60 text-center">VERSIONES</h3>
-        <app-accordeon [contenido]="accordeonContend"></app-accordeon>
+        <div class="row">
+            <div class="col-md-2">
+                <h2 class="text-light tituloUno mr-2 fs-160">1</h2>
+            </div>
+            <div class="col-md-10">
+                <img src="assets/img/icons/angular_cli_white.png" alt="logo angular cli" height="60" width="auto" class="drop mb-3">
+                <p class="text-light fuenteDos fs-17 lh-18">
+                    Instalar el angular cli que es una herramienta de gestión del framework de angular, se instala por consola y es recomendado estar como administrador. Copiar el siguiente comando:
+                </p>
+                <h3 class="text-danger tituloTres font-weight-lighter fs-17 font-italic">npm install -g @angular/cli <i class="fa fa-clone cursor-p" aria-hidden="true" title="Copiar"></i></h3>
+                <div class="espacio"></div>
+                <h3 class="fuenteSeis text-light fw-6 fs-60">VERSIONES</h3>
+                <app-accordeon [contenido]="accordeonContend"></app-accordeon>
+
+            </div>
+        </div>
     </div>
     <div class="col-md-1"></div>
 </div>
