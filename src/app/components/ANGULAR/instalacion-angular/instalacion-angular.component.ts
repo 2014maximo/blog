@@ -40,7 +40,7 @@ export class InstalacionAngularComponent implements OnInit {
           contenido: 'El punto de partida de angular 20 de octubre de 2010'
         },
         {
-          elemento: 'Angular II',
+          elemento: 'Angular v2',
           nClass: 'motrarDos',
           mostrarlo: false,
           contenido: 'Estabilidad al ecosistema, ahora con "Operación Byelog" un proceso al que en Angular llaman “Operación Byelog”'
@@ -54,6 +54,20 @@ export class InstalacionAngularComponent implements OnInit {
       tituloPost: 'INSTALACIÓN DE ANGULAR Y RECOMENDACIONES',
       alturaImagen: ''
     };
+  }
+
+  public copiarAlPortapapeles(cadenaAlclipboard: string) {
+    const selBox = document.createElement('textarea');
+    selBox.style.position = 'fixed';
+    selBox.style.left = '0';
+    selBox.style.top = '0';
+    selBox.style.opacity = '0';
+    selBox.value = cadenaAlclipboard;
+    document.body.appendChild(selBox);
+    selBox.focus();
+    selBox.select();
+    document.execCommand('copy');
+    document.body.removeChild(selBox);
   }
 
 }

@@ -1,31 +1,135 @@
 <app-header-home></app-header-home>
 <app-header-post [cabecera]="cabeceraPost"></app-header-post>
 
-<div class="espacio"></div>
+<div class="espaciado d-none d-md-block"></div>
 
 <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10">
         <div class="row">
-            <div class="col-md-2">
-                <h2 class="text-light tituloUno mr-2 fs-160">1</h2>
+            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                <h2 class="text-light tituloUno fs-160">1</h2>
             </div>
             <div class="col-md-10">
-                <img src="assets/img/icons/angular_cli_white.png" alt="logo angular cli" height="60" width="auto" class="drop mb-3">
-                <p class="text-light fuenteDos fs-17 lh-18">
+                <a href="https://cli.angular.io/" target="_blank">
+                    <img src="assets/img/icons/angular_cli_white.png" alt="logo angular cli" height="60" width="auto" class="drop mb-3 h-zoom" title="Visita ANGULAR CLI">
+                </a>
+                <p class="text-light fuenteDos fs-20 lh-20">
                     Instalar el angular cli que es una herramienta de gestión del framework de angular, se instala por consola y es recomendado estar como administrador. Copiar el siguiente comando:
                 </p>
-                <h3 class="text-danger tituloTres font-weight-lighter fs-17 font-italic">npm install -g @angular/cli <i class="fa fa-clone cursor-p" aria-hidden="true" title="Copiar"></i></h3>
+                
+                <h3 class="text-danger fuenteDos font-weight-lighter fs-18 font-italic">npm install -g @angular/cli <i class="fa fa-clone cursor-p ml-2" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g @angular/cli')"></i></h3>
                 <div class="espacio"></div>
-                <h3 class="fuenteSeis text-light fw-6 fs-60">VERSIONES</h3>
-                <app-accordeon [contenido]="accordeonContend"></app-accordeon>
+                
+                <h3 class="fuenteDos text-light fw-6 fs-30">COMANDOS ANGULAR CLI</h3>
+                
+                <h4 class="text-danger fuenteDos font-weight-lighter fs-17 font-italic">
+                    ng new nombre_aplicacion <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng new nombre_aplicacion')"></i>
+                </h4>
+                <p class="text-light fuenteDos font-weight-lighter fs-18">
+                    1. Crear un proyecto Angular nuevo para empezar a desarrollar.
+                </p>
 
+                <h4 class="text-danger fuenteDos font-weight-lighter fs-17 font-italic">ng serve <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng serve')"></i></h4>
+                <p class="text-light fuenteDos font-weight-lighter fs-18">
+                    2. Compila el proyecto y lo expone en una url para visualizarlo en un navegador.
+                </p>
+
+                <h4 class="text-danger fuenteDos font-weight-lighter fs-17 font-italic">ng serve o <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng serve o')"></i></h4>
+                <p class="text-light fuenteDos font-weight-lighter fs-18">
+                    3. Lo mismo que el comando anterior pero abre el proyecto automáticamente en el navegador.
+                </p>
+                
+                <h4 class="text-danger fuenteDos font-weight-lighter fs-17 font-italic">ng serve --port 4201 <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng serve --port 4201 ')"></i></h4>
+                <p class="text-light fuenteDos font-weight-lighter fs-18">
+                    4. Compila el proyecto en un puerto específico, en este caso saldría por el "localhost:4201".
+                </p>
+                
+                <h4 class="text-danger fuenteDos font-weight-lighter fs-17 font-italic">ng component ruta/nombredelcomponente <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng serve --port 4201 ')"></i></h4>
+                <p class="text-light fuenteDos font-weight-lighter fs-18">
+                    4. Compila el proyecto en un puerto específico, en este caso saldría por el "localhost:4201".
+                </p>
+            </div>
+        </div>
+        <div class="espaciado d-none d-md-block"></div>
+        <div class="row">
+            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                <h2 class="text-light tituloUno mr-2 fs-160">2</h2>
+            </div>
+            <div class="col-md-10">
+                <p class="text-light fuenteDos fs-20 lh-20">
+                    Instalar un editor de texto de preferencia, en especial si este maneja consola de comandos
+                </p>
+                <div class="d-flex justify-content-between row">
+                    <a href="https://code.visualstudio.com/download" target="_blank" class="col text-center"> 
+                        <img src="assets/img/icons/visual_studio_code.png" title="VISUAL STUDIO CODE Visita para descargar" height="70" class="drop h-zoom mb-2" alt="Visual Studio Code">
+                        <p class="text-light fuenteDos fs-18 lh-18">Visual Studio Code</p>
+                    </a>
+                    <a href="https://atom.io/" target="_blank" class="col text-center"> 
+                        <img src="assets/img/icons/atom3.png" title="ATOM Visita para descargar" height="70" class="drop h-zoom mb-2" alt="ATOM">
+                        <p class="text-light fuenteDos fs-18 lh-18">Atom</p>
+                    </a>
+                    <a href="https://developer.android.com/studio?hl=es-419&gclid=Cj0KCQjw0oCDBhCPARIsAII3C_HyJCDAGaBlisOgo8PCB7qTFDSXy6E6TtHBriDye3-asbdUBKS8nxgaAuTAEALw_wcB&gclsrc=aw.ds" target="_blank" class="col"> 
+                        <img src="assets/img/categorias/android-studio_text_white.png" title="ANDROID STUDIO Visita para descargar" height="70" class="drop h-zoom" alt="Android Studio">
+                    </a>
+                    <a href="https://notepad-plus-plus.org/downloads/" target="_blank" class="col"> 
+                        <img src="assets/img/icons/notepad-hoja.png" title="NOTEPAD Visita para descargar" height="70" class="drop h-zoom mb-2" alt="NOTEPAD">
+                        <p class="text-light fuenteDos fs-18 lh-18">Notepad</p>
+                    </a>
+                    <a href="https://www.sublimetext.com/3" target="_blank" class="col text-center"> 
+                        <img src="assets/img/icons/sublime_text.png" height="70" class="drop h-zoom mb-2" title="SUBLIME TEXT 4 Visita para descargar" alt="SublimeText 4">
+                        <p class="text-light fuenteDos fs-18 lh-18">Sublime text 4</p>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-between mt-4 row">
+                    <a href="https://code.visualstudio.com/insiders/" target="_blank" class="col text-center"> 
+                        <img src="assets/img/icons/insiders.png" title="VISUAL STUDIO INSIDERS Visita para descargar" height="70" class="mb-2 drop h-zoom">
+                        <p class="text-light fuenteDos fs-18 lh-18">Visual Studio Insiders</p>
+                    </a>
+                    <a href="https://www.eclipse.org/downloads/" target="_blank" class="col"> 
+                        <img src="assets/img/icons/Eclipse-foundation.png" alt="Eclipse Foundation" title="ECLIPSE FOUNDATION Visita para descargar" height="70" class="drop h-zoom">
+                    </a>
+                    <a href="https://www.jetbrains.com/es-es/idea/download/#section=windows" target="_blank" class="col text-center"> 
+                        <img src="assets/img/icons/intellij.png" alt="Intellij" title="INTELLIJ Visita para descargar"height="70" class="mb-2 drop h-zoom">
+                        <p class="text-light fuenteDos fs-18 lh-18">Intellij Idea</p>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="espaciado d-none d-md-block"></div>
+        <div class="row">
+            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                <h2 class="text-light tituloUno mr-2 fs-160">3</h2>
+            </div>
+            <div class="col-md-10">
+                <a href="https://nodejs.org/es/" target="_blank">
+                    <img src="assets/img/icons/Node.js_logo_black.png" alt="logo NODE JS" height="90" width="auto" class="drop mb-3 h-zoom" title="Visita ANGULAR CLI">
+                </a>
+                <p class="text-light fuenteDos fs-20 lh-20">
+                    Instalar Node JS<br>
+                    se recomienda la versión LTS. Node JS es un entorno en tiempo de ejecución multiplataforma, basado en Javascript, en realidad esta descripción es compleja de entender a primera vista, tal vez basta con describir que es un programa para cualquiera de los sistemas operativos, que permite instalar a través de comandos un proyecto base dentro de una carpeta con todos los archivos necesarios para un desarrollo, en este caso Angular. Entre otras muchas cosas o frameworks.
+                </p>
+            </div>
+        </div>
+
+        <div class="espaciado d-none d-md-block"></div>
+        <div class="row">
+            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                <h2 class="text-light tituloUno mr-2 fs-160">4</h2>
+            </div>
+            <div class="col-md-10">
+                <p class="text-light fuenteDos fs-20 lh-20">
+                    Crear un proyecto de angular según la versión de angular requerida, que por defecto es la última.
+                </p>
+                <h3 class="fuenteDos text-light fw-6 fs-30">VERSIONES</h3>
+                <app-accordeon [contenido]="accordeonContend"></app-accordeon>
             </div>
         </div>
     </div>
     <div class="col-md-1"></div>
 </div>
 
-
+<div class="espaciado"></div>
 
 <app-footer-home></app-footer-home>

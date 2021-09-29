@@ -2,9 +2,10 @@
     <div class="col-md-12">
         <div *ngFor="let contenidos of contenido">
             <div>
-                <h2 class="t5 fuenteSeis cursor-p"(click)="contenidos.mostrarlo = !contenidos.mostrarlo">{{ contenidos.elemento }}</h2>
+                <h2 class="t1 fuenteDos font-weight-lighter fs-18 cursor-p h-zoom"(click)="contenidos.mostrarlo = !contenidos.mostrarlo">{{ contenidos.elemento }}</h2>
                 <div *ngIf="contenidos.mostrarlo">
                     <p class="text-light fuenteDos">{{ contenidos.contenido }}</p>
+                    <div class="espacio"></div>
                 </div>
             </div>
         </div>

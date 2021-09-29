@@ -22,8 +22,6 @@ export class AccordeonComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    const clicks = fromEvent(document, 'click');
-    clicks.subscribe(x => console.log(x));
   }
 
 /*   public abrirContenido(nombreClase: string){
