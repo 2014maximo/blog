@@ -5,6 +5,11 @@
                 <h2 class="t1 fuenteDos font-weight-lighter fs-18 cursor-p h-zoom"(click)="contenidos.mostrarlo = !contenidos.mostrarlo">{{ contenidos.elemento }}</h2>
                 <div *ngIf="contenidos.mostrarlo">
                     <p class="text-light fuenteDos">{{ contenidos.contenido }}</p>
+                    <ul>
+                        <li *ngFor="let lista of contenidos.contenidoLista" class="text-light fuenteDos">
+                            {{ lista.contenido }}
+                        </li>
+                    </ul>
                     <div class="espacio"></div>
                 </div>
             </div>

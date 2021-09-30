@@ -1,13 +1,34 @@
 <app-header-home></app-header-home>
 <app-header-post [cabecera]="cabeceraPost"></app-header-post>
 
-<div class="espaciado d-none d-md-block"></div>
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10 text-right">
+        <p class="t5 fuenteDos fs-17 lh-17 m-0 p-0 sombra-texto">
+            30 Sep. 2021<br>
+        </p>
+        <p class="t5 fuenteDos lh-17 sombra-texto">
+            <small>Última actualización: </small>
+        </p>
+    </div>
+    <div class="col-md-1"></div>
+</div>
 
 <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10">
         <div class="row">
-            <div class="col-md-2 d-flex justify-content-center align-items-center">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 pr-5 pl-5">
+                <p class="text-light fuenteDos fs-20 lh-20">
+                    4 pasos para la instalación de un proyecto de ANGULAR, adicional estan sus versiones y características, editores recomendados, características de las versiones de NODE-JS como tambien los comandos más utilizados de ANGULAR CLI.
+                </p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="espaciado d-none d-md-block"></div>
+        <div class="row">
+            <div class="col-md-2 d-flex justify-content-center">
                 <h2 class="text-light tituloUno fs-160">1</h2>
             </div>
             <div class="col-md-10">
@@ -18,42 +39,62 @@
                     Instalar el angular cli que es una herramienta de gestión del framework de angular, se instala por consola y es recomendado estar como administrador. Copiar el siguiente comando:
                 </p>
                 
-                <h3 class="text-danger fuenteDos font-weight-lighter fs-18 font-italic">npm install -g @angular/cli <i class="fa fa-clone cursor-p ml-2" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g @angular/cli')"></i></h3>
+                <h3 class="text-danger fuenteTres font-weight-lighter fs-18">npm install -g @angular/cli <i class="fa fa-clone cursor-p ml-2" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g @angular/cli')"></i></h3>
                 <div class="espacio"></div>
                 
-                <h3 class="fuenteDos text-light fw-6 fs-30">COMANDOS ANGULAR CLI</h3>
-                
-                <h4 class="text-danger fuenteDos font-weight-lighter fs-17 font-italic">
-                    ng new nombre_aplicacion <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng new nombre_aplicacion')"></i>
-                </h4>
-                <p class="text-light fuenteDos font-weight-lighter fs-18">
-                    1. Crear un proyecto Angular nuevo para empezar a desarrollar.
-                </p>
 
-                <h4 class="text-danger fuenteDos font-weight-lighter fs-17 font-italic">ng serve <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng serve')"></i></h4>
-                <p class="text-light fuenteDos font-weight-lighter fs-18">
-                    2. Compila el proyecto y lo expone en una url para visualizarlo en un navegador.
-                </p>
+                <h3 class="fuenteDos text-light fw-6 fs-30 mb-4 cursor-p" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true" aria-controls="collapseExample">COMANDOS ANGULAR CLI <i class="fa fa-eye" aria-hidden="true"></i></h3>
+                
+                <div class="collapse" id="collapseExample">
+                    <p class="text-light fuenteDos font-weight-lighter fs-18 m-0">
+                        1. Crear un proyecto Angular nuevo para empezar a desarrollar.
+                    </p>
+                    <h4 class="text-danger fuenteTres font-weight-lighter fs-17 mb-4">
+                        ng new nombre_aplicacion <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng new nombre_aplicacion')"></i>
+                    </h4>
+                    
+                    <p class="text-light fuenteDos font-weight-lighter fs-18 m-0">
+                        2. Compila el proyecto y lo expone en una url para visualizarlo en un navegador.
+                    </p>
+                    <h4 class="text-danger fuenteTres font-weight-lighter fs-17 mb-4">ng serve <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng serve')"></i></h4>
+                    
+                    <p class="text-light fuenteDos font-weight-lighter fs-18 m-0">
+                        3. Lo mismo que el comando anterior pero abre el proyecto automáticamente en el navegador.
+                    </p>
+                    <h4 class="text-danger fuenteTres font-weight-lighter fs-17 mb-4">ng serve o <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng serve o')"></i></h4>
+                    
+                    <p class="text-light fuenteDos font-weight-lighter fs-18 m-0">
+                        4. Compila el proyecto en un puerto específico, en este caso saldría por el "localhost:4201".
+                    </p>
+                    <h4 class="text-danger fuenteTres font-weight-lighter fs-17 mb-4">ng serve --port 4201 <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng serve --port 4201 ')"></i></h4>
+                    
+                    <p class="text-light fuenteDos font-weight-lighter fs-18 m-0">
+                        5. Crea un conjunto de 3 tipos de archivos: nombredelcomponente.html, nombredelcomponente.ts, nombredelcomponente.spec.ts.
+                    </p>
+                    <h4 class="text-danger fuenteTres font-weight-lighter fs-17 mb-4">ng component ruta/nombredelcomponente <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng component ruta/nombredelcomponente')"></i></h4>
 
-                <h4 class="text-danger fuenteDos font-weight-lighter fs-17 font-italic">ng serve o <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng serve o')"></i></h4>
-                <p class="text-light fuenteDos font-weight-lighter fs-18">
-                    3. Lo mismo que el comando anterior pero abre el proyecto automáticamente en el navegador.
-                </p>
+                    <p class="text-light fuenteDos font-weight-lighter fs-18 m-0">
+                        6. Lo mismo que lo anterior sin el archivo de pruebas.spec.ts.
+                    </p>
+                    <h4 class="text-danger fuenteTres font-weight-lighter fs-17 mb-4">ng g c nombre/componente --skipTests <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng g c nombre/componente --skipTests')"></i></h4>
+
+                    <p class="text-light fuenteDos font-weight-lighter fs-18 m-0">
+                        7. Crea un archivo.service.ts con la extructura de un archivo de servicios de Angular base para desarrollar.
+                    </p>
+                    <h4 class="text-danger fuenteTres font-weight-lighter fs-17 mb-4">ng g s ruta/nombreArchivoService <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng g s ruta/nombreArchivoService')"></i></h4>
+
+                    <p class="text-light fuenteDos font-weight-lighter fs-18 m-0">
+                        8. Actualiza la version de "Angular CLI".
+                    </p>
+                    <h4 class="text-danger fuenteTres font-weight-lighter fs-17 mb-5">ng update @angular/cli @angular/core <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng update @angular/cli @angular/core')"></i></h4>
+                </div>
+
                 
-                <h4 class="text-danger fuenteDos font-weight-lighter fs-17 font-italic">ng serve --port 4201 <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng serve --port 4201 ')"></i></h4>
-                <p class="text-light fuenteDos font-weight-lighter fs-18">
-                    4. Compila el proyecto en un puerto específico, en este caso saldría por el "localhost:4201".
-                </p>
-                
-                <h4 class="text-danger fuenteDos font-weight-lighter fs-17 font-italic">ng component ruta/nombredelcomponente <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng serve --port 4201 ')"></i></h4>
-                <p class="text-light fuenteDos font-weight-lighter fs-18">
-                    4. Compila el proyecto en un puerto específico, en este caso saldría por el "localhost:4201".
-                </p>
             </div>
         </div>
         <div class="espaciado d-none d-md-block"></div>
         <div class="row">
-            <div class="col-md-2 d-flex justify-content-center align-items-center">
+            <div class="col-md-2 d-flex justify-content-center">
                 <h2 class="text-light tituloUno mr-2 fs-160">2</h2>
             </div>
             <div class="col-md-10">
@@ -99,7 +140,7 @@
         </div>
         <div class="espaciado d-none d-md-block"></div>
         <div class="row">
-            <div class="col-md-2 d-flex justify-content-center align-items-center">
+            <div class="col-md-2 d-flex justify-content-center">
                 <h2 class="text-light tituloUno mr-2 fs-160">3</h2>
             </div>
             <div class="col-md-10">
@@ -115,14 +156,19 @@
 
         <div class="espaciado d-none d-md-block"></div>
         <div class="row">
-            <div class="col-md-2 d-flex justify-content-center align-items-center">
+            <div class="col-md-2 d-flex justify-content-center">
                 <h2 class="text-light tituloUno mr-2 fs-160">4</h2>
             </div>
             <div class="col-md-10">
-                <p class="text-light fuenteDos fs-20 lh-20">
-                    Crear un proyecto de angular según la versión de angular requerida, que por defecto es la última.
+                <p class="text-light fuenteDos fs-20 lh-20 m-0">
+                    Una vez reunidas las anteriores herramientas esta todo listo para tirar el comando:</p>
+                    <h4 class="text-danger fuenteTres font-weight-lighter fs-17">
+                        ng new nombre_aplicacion <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng new nombre_aplicacion')"></i>
+                    </h4>
+                    <p class="text-light fuenteDos fs-20 lh-20"> Con este comando se instala angular en la carpeta que se requiera generar nuestro nuevo proyecto.<br>
+                    Ya de preferirse se puede optar por alguna versión específica según ser requiera con sus características a continuación se muestra, por defecto el Angular CLI  instala siempre la última.
                 </p>
-                <h3 class="fuenteDos text-light fw-6 fs-30">VERSIONES</h3>
+                <h3 class="fuenteDos text-light fw-6 fs-30 mt-5">VERSIONES</h3>
                 <app-accordeon [contenido]="accordeonContend"></app-accordeon>
             </div>
         </div>

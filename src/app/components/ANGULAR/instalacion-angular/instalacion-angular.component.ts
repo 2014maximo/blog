@@ -43,7 +43,19 @@ export class InstalacionAngularComponent implements OnInit {
           elemento: 'Angular v2',
           nClass: 'motrarDos',
           mostrarlo: false,
-          contenido: 'Estabilidad al ecosistema, ahora con "Operación Byelog" un proceso al que en Angular llaman “Operación Byelog”'
+          contenido: '',
+          contenidoLista: [
+            {
+              contenido: 'Utiliza un sistema de inyección de dependencias jerárquico impulsando su rendimiento de forma brutal.'
+            },
+            {
+              contenido: 'Implementa la detección de cambios basados en árboles unidireccionales, que también incrementa el rendimiento. Según algunos datos oficiales, Angular puede llegar a ser 5 veces más rápido que AngularJS.'
+            },
+            {
+              contenido: 'Orientado a móviles.'
+            },
+          ]
+
         }
       ]
     

@@ -22,5 +22,10 @@ export class AccordeonModel {
     elemento: string = '';
     mostrarlo?: boolean = false;
     contenido?: string = '';
-    contenidoLista?:[] = [];
+    contenidoLista?: ListaModel[] = [];
+}
+
+export class ListaModel {
+    indice?: string = '';
+    contenido: string = ''
 }
