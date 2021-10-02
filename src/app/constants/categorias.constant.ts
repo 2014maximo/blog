@@ -271,10 +271,10 @@ export const CATEGORIAS: CategoriasModel [] = [
         color: 'bg-Developer',
         post: [
             {
-                nombre: 'INSTALACIÓN',
+                nombre: 'SUPER RECURSOS DE INTERNET',
                 posicion: 'pos-z',
-                ruta:'instalacion-dart',
-                activo: false
+                ruta:'super-recursos-internet',
+                activo: true
             },
             {
                 nombre: 'ELEMENTOS Y DESCRIPCIÓN',

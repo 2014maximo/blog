@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { SharedModule } from '../shared/shared.module';
 import { InstalacionAngularComponent } from './ANGULAR/instalacion-angular/instalacion-angular.component';
 import { PruebasUnitariasComponent } from './ANGULAR/pruebas-unitarias/pruebas-unitarias.component';
+import { SuperRecursosInternetComponent } from './DEVELOPER/super-recursos-internet/super-recursos-internet.component';
 
 
 
@@ -13,7 +14,8 @@ import { PruebasUnitariasComponent } from './ANGULAR/pruebas-unitarias/pruebas-u
     And001Component,
     HomeComponent,
     InstalacionAngularComponent,
-    PruebasUnitariasComponent
+    PruebasUnitariasComponent,
+    SuperRecursosInternetComponent
   ],
   imports: [
     CommonModule,
