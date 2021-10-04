@@ -94,7 +94,7 @@ export class SuperRecursosInternetComponent implements OnInit {
       {
         nombre: 'LIBRERÍAS Y FRAMEWORKS',
         posicion: 'pos-z',
-        ruta: 'librerias-frameworks',
+        ruta: 'head',
         fondo: 'bg-Angular',
         colorTexto: 'text-light'
       },

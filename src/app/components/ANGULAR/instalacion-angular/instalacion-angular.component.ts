@@ -82,4 +82,8 @@ export class InstalacionAngularComponent implements OnInit {
     document.body.removeChild(selBox);
   }
 
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
+}
+
 }

@@ -21,7 +21,7 @@ import { IndiceContenidosComponent } from './indice-contenidos/indice-contenidos
     FooterHomeComponent,
     HeaderPostComponent,
     AccordeonComponent,
-    IndiceContenidosComponent
+    IndiceContenidosComponent,
   ],
   imports: [
     CommonModule,
@@ -36,7 +36,7 @@ import { IndiceContenidosComponent } from './indice-contenidos/indice-contenidos
     FooterHomeComponent,
     MenuHomeComponent,
     AccordeonComponent,
-    IndiceContenidosComponent
+    IndiceContenidosComponent,
   ]
 })
 export class SharedModule { }
