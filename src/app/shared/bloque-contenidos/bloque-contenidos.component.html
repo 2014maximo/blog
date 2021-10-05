@@ -5,14 +5,25 @@
         </div>
     </div>
     <div class="col-lg-10 col-12 border-bottom border-warning pb-5">
-        <div *ngIf="bloque.contenidoIcons" class="wrappers row">
-            <div *ngFor="let links of bloque.bloque" class="icon {{ links.red }} col mt-2" (click)="navegar('https://web.telegram.org/')">
-                <div class="tooltips">{{ links.red }}</div>
-                <span><i class="fa fa-{{ links.red }}" aria-hidden="true"></i></span>
+        <div *ngIf="bloque.contenidoIcons">
+            <div *ngFor="let links of bloque.bloque" class="wrappers row" >
+                <div *ngFor="let link of links.links" class="icon {{ link.red }} col mt-2" (click)="navegar('https://web.telegram.org/')">
+                    <div class="tooltips">{{ link.red }}</div>
+                    <span><i class="fa fa-{{ link.red }}" aria-hidden="true"></i></span>
+                </div>
             </div>
-        </div>
-        <div *ngIf="!bloque.contenidoIcons">
 
         </div>
+        <div *ngIf="!bloque.contenidoIcons">
+            <div *ngFor="let links of bloque.bloque" class="d-flex justify-content-between row">
+                <div *ngFor="let link of links.links" class="p-3 text-center col">
+                    <a href="https://get.google.com/albumarchive/" target="_blank">
+                        <img src="../../styles/assets/icon/google-favicon.png" width="auto" height="55" class="drops">
+                    </a>
+                    <p class="text-light fs-18 fuenteDos mt-3 lh-18">Archivo de albumnes de la cuenta.</p>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="espacio"></div>
 </div>

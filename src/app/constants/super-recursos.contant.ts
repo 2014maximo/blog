@@ -8,21 +8,27 @@ export const LINKS: BloqueContenidoModel [] = [
         contenidoIcons: true,
         bloque: [
             {
-                img: '',
-                nombreRecurso: '',
-                height: '',
-                rutaRecurso: '',
-                descripcion:  '',
-                red: 'telegram'
-            },
-            {
-                img: '',
-                nombreRecurso: '',
-                height: '',
-                rutaRecurso: '',
-                descripcion:  '',
-                red: 'telegram'
-            },
+                index: '1',
+                links: [
+                    {
+                        img: '',
+                        nombreRecurso: '',
+                        height: '',
+                        rutaRecurso: '',
+                        descripcion:  '',
+                        red: 'whatsapp'
+                    },
+                    {
+                        img: '',
+                        nombreRecurso: '',
+                        height: '',
+                        rutaRecurso: '',
+                        descripcion:  '',
+                        red: 'telegram'
+                    },
+                ]
+            }
+
         ] 
     },
     {
@@ -31,13 +37,28 @@ export const LINKS: BloqueContenidoModel [] = [
         contenidoIcons: true,
         bloque: [
             {
+                index: '1',
+                links: [
+                               {
                 img: '',
                 nombreRecurso: '',
                 height: '',
                 rutaRecurso: '',
                 descripcion:  '',
-                red: 'whatsapp'
+                red: 'telegram'
+            },
+            {
+                img: '',
+                nombreRecurso: '',
+                height: '',
+                rutaRecurso: '',
+                descripcion:  '',
+                red: 'telegram'
+            },
+                ]
             }
+
         ] 
     },
+
 ]
