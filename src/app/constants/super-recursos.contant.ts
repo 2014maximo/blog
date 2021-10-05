@@ -1,34 +1,43 @@
-export const LINKS = [
+import { BloqueContenidoModel } from '../models/bloque-contenidos.model';
+
+
+export const LINKS: BloqueContenidoModel [] = [
     {
         id: 'redes',
-        tituloRedes: 'Redes Sociales',
+        titulo: 'Redes Sociales',
+        contenidoIcons: true,
         bloque: [
             {
-                linksBase: true,
-                links:[
-                    {
-                        img: 'assets/img/....',
-                        nombreRecurso: '',
-                        height: '',
-                        rutaRecurso: '',
-                        descripcion: ''
-                    }
-                ]
-
+                img: '',
+                nombreRecurso: '',
+                height: '',
+                rutaRecurso: '',
+                descripcion:  '',
+                red: 'telegram'
             },
-            {    
-                linksBase: false,
-                links:[
-                    {
-                        img: 'assets/img/....',
-                        nombreRecurso: '',
-                        height: '',
-                        rutaRecurso: '',
-                        descripcion: ''
-                    }
-                ]
-
+            {
+                img: '',
+                nombreRecurso: '',
+                height: '',
+                rutaRecurso: '',
+                descripcion:  '',
+                red: 'telegram'
+            },
+        ] 
+    },
+    {
+        id: 'redes-dev',
+        titulo: 'Redes Dev',
+        contenidoIcons: true,
+        bloque: [
+            {
+                img: '',
+                nombreRecurso: '',
+                height: '',
+                rutaRecurso: '',
+                descripcion:  '',
+                red: 'whatsapp'
             }
         ] 
-    }
+    },
 ]

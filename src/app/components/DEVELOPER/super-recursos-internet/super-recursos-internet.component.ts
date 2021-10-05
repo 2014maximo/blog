@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel } from '../../../models/post.model';
 import { IndiceDeContenidosModel } from '../../../models/indice.model';
+import { BloqueContenidoModel } from '../../../models/bloque-contenidos.model';
+import { LINKS } from '../../../constants/super-recursos.contant';
 
 @Component({
   selector: 'app-super-recursos-internet',
@@ -16,15 +18,9 @@ export class SuperRecursosInternetComponent implements OnInit {
     tituloPost: ''
   }
   
-  public pasoDeIndice: IndiceDeContenidosModel [] = [
-    {
-      nombre: '',
-      posicion: '',
-      ruta: '',
-      fondo: '',
-      colorTexto: ''
-    }
-  ]
+  public pasoDeIndice: IndiceDeContenidosModel [] = []
+
+  public pasoBloques: BloqueContenidoModel [] = [];
 
   constructor() { 
     this.inicializarVariables();
@@ -99,6 +95,8 @@ export class SuperRecursosInternetComponent implements OnInit {
         colorTexto: 'text-light'
       },
     ]
+
+    this.pasoBloques = LINKS;
   }
 
 }

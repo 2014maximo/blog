@@ -10,6 +10,7 @@ import { FooterHomeComponent } from './footer-home/footer-home.component';
 import { HeaderPostComponent } from './header-post/header-post.component';
 import { AccordeonComponent } from './accordeon/accordeon.component';
 import { IndiceContenidosComponent } from './indice-contenidos/indice-contenidos.component';
+import { BloqueContenidosComponent } from './bloque-contenidos/bloque-contenidos.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { IndiceContenidosComponent } from './indice-contenidos/indice-contenidos
     HeaderPostComponent,
     AccordeonComponent,
     IndiceContenidosComponent,
+    BloqueContenidosComponent,
   ],
   imports: [
     CommonModule,
@@ -37,6 +39,7 @@ import { IndiceContenidosComponent } from './indice-contenidos/indice-contenidos
     MenuHomeComponent,
     AccordeonComponent,
     IndiceContenidosComponent,
+    BloqueContenidosComponent,
   ]
 })
 export class SharedModule { }

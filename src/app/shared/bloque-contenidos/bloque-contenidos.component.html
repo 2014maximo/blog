@@ -1,0 +1,18 @@
+<div *ngFor="let bloque of bloques" class="row" id="{{ bloque.id }}">
+    <div class="col-lg-2 col-12">
+        <div class="titulo-vertical">
+            <h2 class="text-center">{{ bloque.titulo }}</h2>
+        </div>
+    </div>
+    <div class="col-lg-10 col-12 border-bottom border-warning pb-5">
+        <div *ngIf="bloque.contenidoIcons" class="wrappers row">
+            <div *ngFor="let links of bloque.bloque" class="icon {{ links.red }} col mt-2" (click)="navegar('https://web.telegram.org/')">
+                <div class="tooltips">{{ links.red }}</div>
+                <span><i class="fa fa-{{ links.red }}" aria-hidden="true"></i></span>
+            </div>
+        </div>
+        <div *ngIf="!bloque.contenidoIcons">
+
+        </div>
+    </div>
+</div>
