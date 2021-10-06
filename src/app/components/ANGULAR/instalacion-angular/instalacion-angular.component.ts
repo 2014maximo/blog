@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel } from 'src/app/models/post.model';
-import { AccordeonPostModel, ObjectAccordeonPostModel } from '../../../models/post.model';
+import { AccordeonPostModel, ObjectAccordeonPostModel, AccordeonModel } from '../../../models/post.model';
 
 @Component({
   selector: 'app-instalacion-angular',
@@ -15,10 +15,12 @@ export class InstalacionAngularComponent implements OnInit {
     fondo: false,
     tituloPost: ''
   }
-  public accordeonContend: ObjectAccordeonPostModel = {
-    dataParent: '',
-    content: []
+  public accordeonContend: AccordeonModel [] = [
+  {
+    elemento: '',
+    nClass: '',
   }
+]
   
 
 
@@ -30,23 +32,33 @@ export class InstalacionAngularComponent implements OnInit {
   }
 
   private inicializarVariables(){
-    this.accordeonContend = {
-      dataParent: 'accordeon',
-      content: [
+    this.accordeonContend = [
         {
-          idHeading: 'headingOne',
-          contentHead: 'AngularJS: El inicio',
-          idCollapse: 'collapseOne',
-          contendBody: 'El punto de partida de angular 20 de octubre de 2010'
+          elemento: 'AngularJS: El inicio',
+          nClass: 'motrarUno',
+          mostrarlo: false,
+          contenido: 'El punto de partida de angular 20 de octubre de 2010'
         },
         {
-          idHeading: 'headingTwo',
-          contentHead: 'Angular II',
-          idCollapse: 'collapseTwo',
-          contendBody: 'Estabilidad al ecosistema, ahora con "Operación Byelog" un proceso al que en Angular llaman “Operación Byelog”'
+          elemento: 'Angular v2',
+          nClass: 'motrarDos',
+          mostrarlo: false,
+          contenido: '',
+          contenidoLista: [
+            {
+              contenido: 'Utiliza un sistema de inyección de dependencias jerárquico impulsando su rendimiento de forma brutal.'
+            },
+            {
+              contenido: 'Implementa la detección de cambios basados en árboles unidireccionales, que también incrementa el rendimiento. Según algunos datos oficiales, Angular puede llegar a ser 5 veces más rápido que AngularJS.'
+            },
+            {
+              contenido: 'Orientado a móviles.'
+            },
+          ]
+
         }
       ]
-    }
+    
 
     this.cabeceraPost = {
       rutaImagen: 'assets/img/banner/Instalaciona-angular.jpg',
@@ -55,5 +67,23 @@ export class InstalacionAngularComponent implements OnInit {
       alturaImagen: ''
     };
   }
+
+  public copiarAlPortapapeles(cadenaAlclipboard: string) {
+    const selBox = document.createElement('textarea');
+    selBox.style.position = 'fixed';
+    selBox.style.left = '0';
+    selBox.style.top = '0';
+    selBox.style.opacity = '0';
+    selBox.value = cadenaAlclipboard;
+    document.body.appendChild(selBox);
+    selBox.focus();
+    selBox.select();
+    document.execCommand('copy');
+    document.body.removeChild(selBox);
+  }
+
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
+}
 
 }

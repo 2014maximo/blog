@@ -3,6 +3,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center, center !important;
 }
 .tituloPost {
     font-size: 3.5rem;
@@ -19,4 +22,10 @@
     text-shadow: black 0.1em 0.1em 0.2em;
     font-weight: 600 !important;
     line-height: 40px;
+}
+
+@media (max-width: 600px) {
+    .tituloPost {
+        font-size: 40px;
+    }
 }

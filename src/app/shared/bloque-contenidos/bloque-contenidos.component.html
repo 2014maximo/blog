@@ -1,0 +1,30 @@
+<div *ngFor="let bloque of bloques" class="row" id="{{ bloque.id }}">
+    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
+        <div class="d-md-none espacio"></div>
+        <div class="titulo-vertical">
+            <h2 class="text-center lh-30">{{ bloque.titulo }}</h2>
+        </div>
+    </div>
+    <div class="col-lg-10 col-12 border-bottom border-warning pb-5">
+        <div *ngIf="bloque.contenidoIcons">
+            <div *ngFor="let links of bloque.bloque" class="wrappers row mt-5" >
+                <div *ngFor="let link of links.links" class="icon {{ link.red }} col mt-2" (click)="navegar(link.rutaRecurso)">
+                    <div class="tooltips">{{ link.nombreRecurso }}</div>
+                    <span><i class="fa fa-{{ link.red }}" aria-hidden="true"></i></span>
+                </div>
+            </div>
+
+        </div>
+        <div *ngIf="!bloque.contenidoIcons">
+            <div *ngFor="let links of bloque.bloque" class="d-flex justify-content-between row mt-5">
+                <div *ngFor="let link of links.links" class="p-3 text-center col">
+                    <a href="{{ link.rutaRecurso }}" target="_blank">
+                        <img src="{{ link.img }}" width="auto" height="{{ link.height }}" class="drops">
+                    </a>
+                    <p class="text-light fs-18 fuenteDos mt-3 lh-18">{{ link.descripcion }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="espacio"></div>
+</div>

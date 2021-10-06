@@ -9,6 +9,8 @@ import { MenuHomeComponent } from './menu-home/menu-home.component';
 import { FooterHomeComponent } from './footer-home/footer-home.component';
 import { HeaderPostComponent } from './header-post/header-post.component';
 import { AccordeonComponent } from './accordeon/accordeon.component';
+import { IndiceContenidosComponent } from './indice-contenidos/indice-contenidos.component';
+import { BloqueContenidosComponent } from './bloque-contenidos/bloque-contenidos.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { AccordeonComponent } from './accordeon/accordeon.component';
     MenuHomeComponent,
     FooterHomeComponent,
     HeaderPostComponent,
-    AccordeonComponent
+    AccordeonComponent,
+    IndiceContenidosComponent,
+    BloqueContenidosComponent,
   ],
   imports: [
     CommonModule,
@@ -33,7 +37,9 @@ import { AccordeonComponent } from './accordeon/accordeon.component';
     FrasesComponent,
     FooterHomeComponent,
     MenuHomeComponent,
-    AccordeonComponent
+    AccordeonComponent,
+    IndiceContenidosComponent,
+    BloqueContenidosComponent,
   ]
 })
 export class SharedModule { }

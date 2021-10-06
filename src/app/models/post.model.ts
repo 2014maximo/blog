@@ -16,3 +16,16 @@ export class AccordeonPostModel {
     idCollapse: string = '';
     contendBody: string = '';
 }
+
+export class AccordeonModel {
+    nClass: string = '';
+    elemento: string = '';
+    mostrarlo?: boolean = false;
+    contenido?: string = '';
+    contenidoLista?: ListaModel[] = [];
+}
+
+export class ListaModel {
+    indice?: string = '';
+    contenido: string = ''
+}

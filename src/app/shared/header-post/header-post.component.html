@@ -1,17 +1,18 @@
 <div class="row" *ngIf="!cabecera.fondo">
     <div class="col-md-12">
                 <!-- IMAGEN TITULAR ------------------------------------>
-                <div class="headerPost sombraUno" [ngStyle]="{'background-image': 'url(' + cabecera.rutaImagen + ')'}">
+                <div class="headerPost sombraUno d-none d-md-block" [ngStyle]="{'background-image': 'url(' + cabecera.rutaImagen + ')'}">
                 </div>
                 <div class="espacio"></div>
         <h2 class="tituloPost p-2 text-center">{{ this.cabecera.tituloPost }}</h2>
-
+        
     </div>
 </div>
-<div class="espacio"></div>
 <div class="row" *ngIf="cabecera.fondo">
     <div class="col-md-12 text-center">
         <img src="{{ this.cabecera.rutaImagen }}" alt="" height="{{ this.cabecera.alturaImagen }}">
-
+        
+        <div class="espacio"></div>
+        <h2 class="tituloPost p-2 text-center">{{ this.cabecera.tituloPost }}</h2>
     </div>
 </div>

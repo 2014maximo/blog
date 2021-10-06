@@ -1,21 +1,19 @@
 <div class="row">
     <div class="col-md-12">
-
-      
-        <div class="accordion" id="{{this.contenido.dataParent}}">
-          <div class="border" *ngFor="let collap of contenido.content">
-            <div id="{{ collap.idHeading }}">
-              <a class="fuenteSeis fw-6 t5 fs-25 mb-0 cursor-p" data-toggle="collapse" data-target="#{{ collap.idCollapse }}" aria-expanded="true" aria-controls="collap.idCollapse">
-                {{ collap.contentHead }}
-              </a>
+        <div *ngFor="let contenidos of contenido">
+            <div>
+                <h2 class="t1 fuenteDos font-weight-lighter fs-18 cursor-p h-zoom"(click)="contenidos.mostrarlo = !contenidos.mostrarlo">{{ contenidos.elemento }}</h2>
+                <div *ngIf="contenidos.mostrarlo">
+                    <p class="text-light fuenteDos">{{ contenidos.contenido }}</p>
+                    <ul>
+                        <li *ngFor="let lista of contenidos.contenidoLista" class="text-light fuenteDos">
+                            {{ lista.contenido }}
+                        </li>
+                    </ul>
+                    <div class="espacio"></div>
+                </div>
             </div>
-            <div id="{{ collap.idCollapse }}" class="collapse show" aria-labelledby="headingOne" data-parent="#+this.contenido.dataParent">
-              <p class="fuenteDos text-light fs-18 fs-2">
-                {{ collap.contendBody }}
-              </p>
-            </div>
-          </div>
         </div>
-
     </div>
 </div>
+
