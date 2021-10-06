@@ -17,7 +17,7 @@ export class LinksModel {
     img?: string = '';
     nombreRecurso?: string = '';
     height?: string = '';
-    rutaRecurso?: string = '';
+    rutaRecurso?: any;
     descripcion?: string = '';
     red?: string = ''
 }

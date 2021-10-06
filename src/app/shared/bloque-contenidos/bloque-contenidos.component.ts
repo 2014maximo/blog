@@ -15,7 +15,7 @@ export class BloqueContenidosComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  public navegar(ulr: string){ 
+  public navegar(ulr: string){
     window.open(ulr, "_blank");
   }
 

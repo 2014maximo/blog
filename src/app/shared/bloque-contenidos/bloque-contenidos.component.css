@@ -120,8 +120,8 @@
 .wrappers .skype:hover .tooltips::before {
     background: #1e8cdb;
 }
-.wrappers .messenger:hover span,
-.wrappers .messenger:hover .tooltips, 
-.wrappers .messenger:hover .tooltips::before {
+.wrappers .user:hover span,
+.wrappers .user:hover .tooltips, 
+.wrappers .user:hover .tooltips::before {
     background: #009df7;
 }
