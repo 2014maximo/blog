@@ -278,7 +278,7 @@ export const LINKS: BloqueContenidoModel[] = [
                         red: ''
                     },
                     {
-                        img: '/assets/img/icons/unminify.png',
+                        img: 'assets/img/icons/unminify.png',
                         nombreRecurso: '',
                         height: '60',
                         rutaRecurso: 'https://unminify.com',
