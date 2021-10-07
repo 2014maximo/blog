@@ -125,3 +125,12 @@
 .wrappers .user:hover .tooltips::before {
     background: #009df7;
 }
+
+.subTituloPost {
+    font-family: 'OperatorMono';
+    color: #f6921e;
+    font-size: 40px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: 600 !important;
+    line-height: 40px;
+}
