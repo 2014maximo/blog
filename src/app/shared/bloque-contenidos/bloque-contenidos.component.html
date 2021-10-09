@@ -22,7 +22,8 @@
                         <img src="{{ link.img }}" width="auto" height="{{ link.height }}" class="drops">
                         <p class="subTituloPost">{{ link.nombreRecurso }}</p>
                     </a>
-                    <p class="text-light fs-18 fuenteDos mt-3 lh-18">{{ link.descripcion }}</p>
+                    <p *ngIf="!link.clipBoard" class="text-light fs-18 fuenteDos mt-3 lh-18">{{ link.descripcion }}</p>
+                    <p *ngIf="link.clipBoard" class="text-light fs-18 fuenteDos mt-3 lh-18">{{ link.descripcion }} <i class="fa fa-clone cursor-p t1 fs-25" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles(link.clipBoard)"></i></p>
                 </div>
             </div>
         </div>

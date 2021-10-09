@@ -21,4 +21,5 @@ export class LinksModel {
     descripcion?: string = '';
     red?: string = '';
     rutaAdicional?: string = '';
+    clipBoard?: any;
 }

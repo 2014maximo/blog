@@ -668,5 +668,168 @@ export const LINKS: BloqueContenidoModel[] = [
 
         ]
     },
+    {
+        id: 'librerias-frameworks',
+        titulo: 'Librerías y Frameworks',
+        contenidoIcons: false,
+        bloque: [
+            {
+                index: '1',
+                links: [
+                    {
+                        img: 'assets/img/icons/bootstrap3.3.7.png',
+                        nombreRecurso: '',
+                        height: '65',
+                        rutaRecurso: 'https://getbootstrap.com/docs/3.3/getting-started/',
+                        descripcion: 'Versión 3.3.7',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/Bootstrap.png',
+                        nombreRecurso: '',
+                        height: '65',
+                        rutaRecurso: 'https://getbootstrap.com/docs/5.0/getting-started/introduction/',
+                        descripcion: 'Versión 5.0',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/bootstrap5.png',
+                        nombreRecurso: '',
+                        height: '45',
+                        rutaRecurso: 'https://cssminifier.com',
+                        descripcion: 'Compresor de CSS.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/owl-carousel.png',
+                        nombreRecurso: '',
+                        height: '45',
+                        rutaRecurso: 'https://owlcarousel2.github.io/OwlCarousel2/',
+                        descripcion: 'OWL CAROUSEL 2" librería para crear sliders.',
+                        red: ''
+                    },
+                    {
+                        img: '',
+                        nombreRecurso: 'AOS',
+                        height: '',
+                        rutaRecurso: 'https://michalsnik.github.io/aos/',
+                        descripcion: 'Librería de animaciones con scroll.',
+                        red: ''
+                    },
+                ]
+            },
+            {
+                index: '2',
+                links: [
+                    {
+                        img: 'assets/img/icons/normalize.png',
+                        nombreRecurso: '',
+                        height: '65',
+                        rutaRecurso: 'https://necolas.github.io/normalize.css/',
+                        descripcion: 'NORMALIZE, Framework CSS, actualmente en la versión 8',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/faticon.png',
+                        nombreRecurso: '',
+                        height: '45',
+                        rutaRecurso: 'https://www.flaticon.com',
+                        descripcion: 'Acceso a 4,716,000 vectores e íconos.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/font-awesome.png',
+                        nombreRecurso: '',
+                        height: '30',
+                        rutaRecurso: 'https://fontawesome.com/v4.7/icons/',
+                        descripcion: 'Version 4.7.0 con 675 íconos.',
+                        red: '',
+                        clipBoard: '<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">'
+                    },
+                ]
+            },
+            {
+                index: '3',
+                links: [
+                    {
+                        img: 'assets/img/icons/w3schools.png',
+                        nombreRecurso: '',
+                        height: '45',
+                        rutaRecurso: 'https://www.w3schools.com/colors/colors_converter.asp',
+                        descripcion: 'Convertidor de colores CSS de la w3schools.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/w3schools.png',
+                        nombreRecurso: '',
+                        height: '45',
+                        rutaRecurso: 'https://www.w3schools.com/colors/colors_picker.asp',
+                        descripcion: 'Mostrario de colores de la w3schools.',
+                        red: ''
+                    },
+                    {
+                        img: '',
+                        nombreRecurso: 'CSS ICON Space',
+                        height: '',
+                        rutaRecurso: 'https://cssicon.space/#/',
+                        descripcion: 'Paquete de íconos básicos.',
+                        red: ''
+                    },
+                ]
+            },
+            {
+                index: '4',
+                links: [
+                    {
+                        img: '',
+                        nombreRecurso: 'Creative Link Effects',
+                        height: '',
+                        rutaRecurso: 'https://tympanus.net/Development/CreativeLinkEffects/',
+                        descripcion: 'Excelentes diseños de muestra para links.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/csslab.png',
+                        nombreRecurso: '',
+                        height: '100',
+                        rutaRecurso: 'http://www.csslab.cl',
+                        descripcion: 'Tutoriales y explicaciones CSS.',
+                        red: ''
+                    },
+                    {
+                        img: '',
+                        nombreRecurso: 'Hover.css',
+                        height: '',
+                        rutaRecurso: 'https://cssicon.space/#/',
+                        descripcion: 'Una colección de efectos de desplazamiento impulsados ​​por CSS3 que se aplicarán a enlaces, botones, logotipos, SVG, imágenes destacadas, etc. Aplíquelo fácilmente a sus propios elementos, modifíquelos o simplemente úselos como inspiración. Disponible en CSS, Sass y LESS.',
+                        red: ''
+                    },
+                ]
+            },
+            {
+                index: '5',
+                links: [
+                    {
+                        img: 'assets/img/icons/css-shake.png',
+                        nombreRecurso: '',
+                        height: '100',
+                        rutaRecurso: 'https://elrumordelaluz.github.io/csshake/',
+                        descripcion: 'Algunas clases de CSS para mover tu DOM!.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/Animate-css.png',
+                        nombreRecurso: '',
+                        height: '30',
+                        rutaRecurso: 'https://animate.style/',
+                        descripcion: 'Librería CSS de animaciones.',
+                        red: ''
+                    },
+                ]
+            },
+
+
+        ]
+    },
 
 ]
