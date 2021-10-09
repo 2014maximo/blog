@@ -19,5 +19,6 @@ export class LinksModel {
     height?: string = '';
     rutaRecurso?: any;
     descripcion?: string = '';
-    red?: string = ''
+    red?: string = '';
+    rutaAdicional?: string = '';
 }
