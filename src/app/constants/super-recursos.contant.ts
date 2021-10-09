@@ -435,27 +435,231 @@ export const LINKS: BloqueContenidoModel[] = [
                 index: '2',
                 links: [
                     {
-                        img: 'assets/img/icons/php-manual.png',
+                        img: '',
+                        nombreRecurso: 'Jerarquía Wordpress',
+                        height: '',
+                        rutaRecurso: 'https://wphierarchy.com',
+                        descripcion: 'Mira la jerarquía de las plantillas de Wordpress.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/underscores.png',
                         nombreRecurso: '',
-                        height: '45',
-                        rutaRecurso: 'https://www.php.net/manual/es/indexes.functions.php',
-                        descripcion: 'Listado de Funciones y Métodos. Excelentes y completas explicaciones en español.',
+                        height: '120',
+                        rutaRecurso: 'https://underscores.me',
+                        descripcion: 'Crea una plantilla básica de Wordpress con todo lo necesario.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/woocommerce-docs.png',
+                        nombreRecurso: '',
+                        height: '35',
+                        rutaRecurso: 'https://docs.woocommerce.com/document/woocommerce-shortcodes/',
+                        descripcion: 'Documentación para la creación de comercios en Wordpress.',
+                        red: ''
+                    },
+                ]
+            },
+            {
+                index: '3',
+                links: [
+                    {
+                        img: 'assets/img/icons/placetopay.png',
+                        nombreRecurso: '',
+                        height: '50',
+                        rutaRecurso: 'https://www.placetopay.com/web/',
+                        descripcion: 'Plataforma de pagos a través de un botón.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/slider-revolution.png',
+                        nombreRecurso: '',
+                        height: '70',
+                        rutaRecurso: 'https://www.sliderrevolution.com',
+                        descripcion: 'Slider para Wordpress supercompleto.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/woodemia.png',
+                        nombreRecurso: '',
+                        height: '70',
+                        rutaRecurso: 'https://woodemia.com',
+                        descripcion: 'Conviértete en un profesional del ecommerce.',
+                        red: ''
+                    },
+                ]
+            },
+            {
+                index: '4',
+                links: [
+                    {
+                        img: 'assets/img/icons/AdvanceCustomFields.png',
+                        nombreRecurso: '',
+                        height: '50',
+                        rutaRecurso: 'https://www.advancedcustomfields.com',
+                        descripcion: 'Documentación para plugin Wordpress que permite crear campos personalizados.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/plantilla-stack.png',
+                        nombreRecurso: '',
+                        height: '50',
+                        rutaRecurso: 'https://elements.envato.com/es/stack-multi-purpose-responsive-wordpress-theme-WK3A4E8',
+                        descripcion: 'Plantilla Wordpress.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/hooks-woocommerce.png',
+                        nombreRecurso: '',
+                        height: '50',
+                        rutaRecurso: 'http://hookr.io/plugins/woocommerce/#index=a',
+                        descripcion: 'Ganchos Woocommerce Wordpress.',
+                        red: ''
+                    },
+                ]
+            },
+
+
+        ]
+    },
+    {
+        id: 'css',
+        titulo: 'CSS',
+        contenidoIcons: false,
+        bloque: [
+            {
+                index: '1',
+                links: [
+                    {
+                        img: '',
+                        nombreRecurso: 'Clean CSS',
+                        height: '',
+                        rutaRecurso: 'https://www.cleancss.com/css-beautify/',
+                        descripcion: 'Embellece tu código CSS.',
                         red: ''
                     },
                     {
                         img: '',
-                        nombreRecurso: 'Tutorial PDO',
+                        nombreRecurso: 'HTML Color codes',
                         height: '',
-                        rutaRecurso: 'https://diego.com.es/tutorial-de-pdo',
-                        descripcion: 'Tutorial para conectar nuestro código PHP con base de datos.',
+                        rutaRecurso: 'https://htmlcolorcodes.com/es/',
+                        descripcion: 'Obtener códigos de color HTML, códigos de color Hex, RGB y HSL valores con nuestra selección de colores, tablas de colores y nombres de colores HTML. ¡Vamonos!.',
                         red: ''
                     },
                     {
-                        img: 'assets/img/icons/worpress-org.png',
+                        img: 'assets/img/icons/cssminifier.png',
                         nombreRecurso: '',
                         height: '45',
-                        rutaRecurso: 'https://developer.wordpress.org',
-                        descripcion: 'Referencias de código, estandares de código, editor de código, aplicaciones comunes, temas, plugins, entre otras cosas.',
+                        rutaRecurso: 'https://cssminifier.com',
+                        descripcion: 'Compresor de CSS.',
+                        red: ''
+                    },
+                ]
+            },
+            {
+                index: '2',
+                links: [
+                    {
+                        img: '',
+                        nombreRecurso: 'CSS 3.0 MAKER',
+                        height: '',
+                        rutaRecurso: 'https://www.css3maker.com/index.html',
+                        descripcion: 'Esta herramienta facilita realizar "border-radius", "flexbox", "gradient", "transform", "animation", "transition", "RGBA", "text-shadow", "box-shadow", "text-rotation".',
+                        red: ''
+                    },
+                    {
+                        img: '',
+                        nombreRecurso: '*CSS-TRICKS',
+                        height: '',
+                        rutaRecurso: 'https://css-tricks.com',
+                        descripcion: 'Documentación y referencia CSS con Flexbox y Web.',
+                        red: ''
+                    },
+                    {
+                        img: '',
+                        nombreRecurso: 'Simple CSS',
+                        height: '',
+                        rutaRecurso: 'https://simplecss.eu/pxtoems.html',
+                        descripcion: 'Convertir entre px, ems, pts, porcentaje.',
+                        red: ''
+                    },
+                ]
+            },
+            {
+                index: '3',
+                links: [
+                    {
+                        img: 'assets/img/icons/w3schools.png',
+                        nombreRecurso: '',
+                        height: '45',
+                        rutaRecurso: 'https://www.w3schools.com/colors/colors_converter.asp',
+                        descripcion: 'Convertidor de colores CSS de la w3schools.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/w3schools.png',
+                        nombreRecurso: '',
+                        height: '45',
+                        rutaRecurso: 'https://www.w3schools.com/colors/colors_picker.asp',
+                        descripcion: 'Mostrario de colores de la w3schools.',
+                        red: ''
+                    },
+                    {
+                        img: '',
+                        nombreRecurso: 'CSS ICON Space',
+                        height: '',
+                        rutaRecurso: 'https://cssicon.space/#/',
+                        descripcion: 'Paquete de íconos básicos.',
+                        red: ''
+                    },
+                ]
+            },
+            {
+                index: '4',
+                links: [
+                    {
+                        img: '',
+                        nombreRecurso: 'Creative Link Effects',
+                        height: '',
+                        rutaRecurso: 'https://tympanus.net/Development/CreativeLinkEffects/',
+                        descripcion: 'Excelentes diseños de muestra para links.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/csslab.png',
+                        nombreRecurso: '',
+                        height: '100',
+                        rutaRecurso: 'http://www.csslab.cl',
+                        descripcion: 'Tutoriales y explicaciones CSS.',
+                        red: ''
+                    },
+                    {
+                        img: '',
+                        nombreRecurso: 'Hover.css',
+                        height: '',
+                        rutaRecurso: 'https://cssicon.space/#/',
+                        descripcion: 'Una colección de efectos de desplazamiento impulsados ​​por CSS3 que se aplicarán a enlaces, botones, logotipos, SVG, imágenes destacadas, etc. Aplíquelo fácilmente a sus propios elementos, modifíquelos o simplemente úselos como inspiración. Disponible en CSS, Sass y LESS.',
+                        red: ''
+                    },
+                ]
+            },
+            {
+                index: '5',
+                links: [
+                    {
+                        img: 'assets/img/icons/css-shake.png',
+                        nombreRecurso: '',
+                        height: '100',
+                        rutaRecurso: 'https://elrumordelaluz.github.io/csshake/',
+                        descripcion: 'Algunas clases de CSS para mover tu DOM!.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/Animate-css.png',
+                        nombreRecurso: '',
+                        height: '30',
+                        rutaRecurso: 'https://animate.style/',
+                        descripcion: 'Librería CSS de animaciones.',
                         red: ''
                     },
                 ]

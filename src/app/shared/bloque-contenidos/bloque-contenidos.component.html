@@ -16,7 +16,7 @@
 
         </div>
         <div *ngIf="!bloque.contenidoIcons">
-            <div *ngFor="let links of bloque.bloque" class="d-flex justify-content-between row mt-5">
+            <div *ngFor="let links of bloque.bloque" class="d-flex justify-content-between row mt-5 align-items-center">
                 <div *ngFor="let link of links.links" class="p-3 text-center col">
                     <a href="{{ link.rutaRecurso }}" target="_blank">
                         <img src="{{ link.img }}" width="auto" height="{{ link.height }}" class="drops">
