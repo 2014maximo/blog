@@ -102,9 +102,16 @@ export class SuperRecursosInternetComponent implements OnInit {
         colorTexto: 't2'
       },
       {
-        nombre: 'PROGRAMAS Y RECURSOS',
+        nombre: 'RECURSOS Y CONTENIDOS',
         posicion: 'rot-2',
-        ruta: 'programas-recursos',
+        ruta: 'recursos',
+        fondo: 'bg-light',
+        colorTexto: 't2'
+      },
+      {
+        nombre: 'PROGRAMAS Y DESCARGAS',
+        posicion: 'pos-z',
+        ruta: 'programas',
         fondo: 'bg-Android',
         colorTexto: 'text-light'
       },

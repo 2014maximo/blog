@@ -864,48 +864,40 @@ export const LINKS: BloqueContenidoModel[] = [
                         descripcion: 'El entorno de desarrollo más rápido y seguro del planeta. Para: Next JS, Graphql, Servidor Http NodeJs, Node Js, Angular, React, React TS, Vue, Svelte, RXJS, Ionic, Angular JS, Static HTML, JavaScript, Typescript.',
                         red: ''
                     },
+                    {
+                        img: 'assets/img/icons/udemy.png',
+                        nombreRecurso: '',
+                        height: '50',
+                        rutaRecurso: 'https://www.udemy.com/',
+                        descripcion: 'plataforma de aprendizaje en línea. Está dirigido a adultos profesionales.​ A diferencia de los programas académicos MOOC conducidos por tradicionales cursos de trabajo creados por las universidades, Udemy utiliza contenido de creadores en línea para vender y así conseguir ganancias.​.',
+                        red: ''
+                    },
                 ]
             },
         ]
     },
     {
-        id: 'programas-recursos',
-        titulo: 'Programas y recursos',
+        id: 'recursos',
+        titulo: 'Recursos y contenidos',
         contenidoIcons: false,
         bloque: [
             {
                 index: '1',
                 links: [
                     {
-                        img: 'assets/img/icons/codepen.png',
+                        img: 'assets/img/icons/w3c.png',
                         nombreRecurso: '',
-                        height: '35',
-                        rutaRecurso: 'https://codepen.io',
-                        descripcion: 'Este editor online presenta 4 pantallas, 1 que es la presentación diseñada, las otras 3 son HTML, CSS Y JAVASCRIPT para el código que da forma al diseño.',
+                        height: '60',
+                        rutaRecurso: 'https://www.w3c.es',
+                        descripcion: 'El World Wide Web Consortium (W3C) es una comunidad internacional que desarrolla estándares que aseguran el crecimiento de la Web a largo plazo.',
                         red: ''
                     },
                     {
-                        img: 'assets/img/icons/w3schools.png',
+                        img: 'assets/img/icons/freepik.png',
                         nombreRecurso: '',
-                        height: '45',
-                        rutaRecurso: 'https://www.w3schools.com/default.asp',
-                        descripcion: 'Plataforma de aprendizaje de programación recien actualizaron la plataforma con más lenguajes.',
-                        red: ''
-                    },
-                    {
-                        img: 'assets/img/icons/liveweave.png',
-                        nombreRecurso: '',
-                        height: '35',
-                        rutaRecurso: 'https://liveweave.com',
-                        descripcion: 'Plataforma de desarrollo HTML, CSS y JavaScript para diseñadores y desarrolladores web.',
-                        red: ''
-                    },
-                    {
-                        img: 'assets/img/icons/typescript.png',
-                        nombreRecurso: '',
-                        height: '30',
-                        rutaRecurso: 'https://www.typescriptlang.org/play',
-                        descripcion: 'Este es un sitio web que te da la oportunidad de escribir, compartir y aprender TypeScript.',
+                        height: '60',
+                        rutaRecurso: 'https://www.freepik.es',
+                        descripcion: 'Recurso de imágenes, vectores gratis, fotos y PSD para descargar.',
                         red: ''
                     },
                 ]
@@ -914,19 +906,19 @@ export const LINKS: BloqueContenidoModel[] = [
                 index: '2',
                 links: [
                     {
-                        img: 'assets/img/icons/layoutit.png',
+                        img: 'assets/img/icons/richmond-front.png',
                         nombreRecurso: '',
-                        height: '30',
-                        rutaRecurso: 'https://www.layoutit.com/build',
-                        descripcion: 'Este sitio es un constructor de interfaces para CSS Grid y Bootstrap que quiere ser el la gran plataforma de salida para tus desarrollos frontales.',
+                        height: '150',
+                        rutaRecurso: 'https://www.tomrichmond.com/art/illustration/',
+                        descripcion: 'Caricaturas artísticas de famosos, tipo cómicas. Del creador de la famosa revista MAD.',
                         red: ''
                     },
                     {
-                        img: 'assets/img/icons/jsbin.png',
+                        img: 'assets/img/icons/pixabay.png',
                         nombreRecurso: '',
-                        height: '60',
-                        rutaRecurso: 'https://jsbin.com/',
-                        descripcion: 'Servicio web que ofrece un espacio de experimentación y desarrollo para HTML, JavaScript y CSS.',
+                        height: '85',
+                        rutaRecurso: 'https://pixabay.com',
+                        descripcion: 'Puedes copiar, modificar, distribuir y usar las imágenes, incluso para fines profesionales o comerciales, sin solicitar permiso ni atribuir su autoría. Sin embargo, el contenido mostrado puede estar protegido por marcas registradas, publicidad o por el derecho a la intimidad.',
                         red: ''
                     },
                     {
@@ -940,24 +932,45 @@ export const LINKS: BloqueContenidoModel[] = [
                     },
                 ]
             },
+        ]
+    },
+    {
+        id: 'programas',
+        titulo: 'Programas - Descargas',
+        contenidoIcons: false,
+        bloque: [
             {
-                index: '3',
+                index: '1',
                 links: [
                     {
-                        img: 'assets/img/icons/cesarcancino.png',
+                        img: 'assets/img/icons/firefox-developer.png',
                         nombreRecurso: '',
-                        height: '80',
-                        rutaRecurso: 'https://www.cesarcancino.com/home',
-                        descripcion: 'Cesar Cansino. Talleres prácticos Javascript, PHP, Java, Python, Net, Android.',
+                        height: '60',
+                        rutaRecurso: 'https://www.mozilla.org/es-ES/firefox/66.0a2/whatsnew/all/',
+                        descripcion: 'Navegador especializado para desarrolladores.',
                         red: ''
                     },
                     {
-                        img: 'assets/img/icons/stackBlitzWhite.png',
+                        img: 'assets/img/icons/firefox-beta.png',
                         nombreRecurso: '',
-                        height: '50',
-                        rutaRecurso: 'https://stackblitz.com/',
-                        descripcion: 'El entorno de desarrollo más rápido y seguro del planeta. Para: Next JS, Graphql, Servidor Http NodeJs, Node Js, Angular, React, React TS, Vue, Svelte, RXJS, Ionic, Angular JS, Static HTML, JavaScript, Typescript.',
+                        height: '60',
+                        rutaRecurso: 'https://www.mozilla.org/en-US/firefox/channel/desktop/#beta',
+                        descripcion: 'Consigue las últimas versiones de Firefox.',
                         red: ''
+                    },
+                ]
+            },
+            {
+                index: '2',
+                links: [
+                    {
+                        img: 'assets/img/icons/code-avengers.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://www.codeavengers.com',
+                        descripcion: 'Aprende a programar jugando.',
+                        red: '',
+                        clipBoard: ''
                     },
                 ]
             },
