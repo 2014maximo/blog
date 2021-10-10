@@ -134,3 +134,9 @@
     font-weight: 600 !important;
     line-height: 40px;
 }
+
+@media (max-width: 600px) {
+    .alturaQuery{
+        height: 15px !important;
+    }
+}

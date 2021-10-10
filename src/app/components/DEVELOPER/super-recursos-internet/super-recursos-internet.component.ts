@@ -155,4 +155,8 @@ export class SuperRecursosInternetComponent implements OnInit {
     this.pasoBloques = LINKS;
   }
 
+  public scroll(el: HTMLElement) {
+    el.scrollIntoView();
+  }
+
 }

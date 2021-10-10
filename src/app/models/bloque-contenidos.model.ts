@@ -22,4 +22,5 @@ export class LinksModel {
     red?: string = '';
     rutaAdicional?: string = '';
     clipBoard?: any;
+    mediaQuery?: any;
 }

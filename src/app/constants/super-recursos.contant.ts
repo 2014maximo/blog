@@ -313,7 +313,9 @@ export const LINKS: BloqueContenidoModel[] = [
                         height: '30',
                         rutaRecurso: 'https://www.ascii-art-generator.org',
                         descripcion: 'Convierte texto en arte ASCII, con este editor online.',
-                        red: ''
+                        red: '',
+                        mediaQuery: 'alturaQuery'
+
                     },
 
                 ]
@@ -752,83 +754,213 @@ export const LINKS: BloqueContenidoModel[] = [
                 index: '3',
                 links: [
                     {
-                        img: 'assets/img/icons/w3schools.png',
-                        nombreRecurso: '',
-                        height: '45',
-                        rutaRecurso: 'https://www.w3schools.com/colors/colors_converter.asp',
-                        descripcion: 'Convertidor de colores CSS de la w3schools.',
-                        red: ''
-                    },
-                    {
-                        img: 'assets/img/icons/w3schools.png',
-                        nombreRecurso: '',
-                        height: '45',
-                        rutaRecurso: 'https://www.w3schools.com/colors/colors_picker.asp',
-                        descripcion: 'Mostrario de colores de la w3schools.',
-                        red: ''
-                    },
-                    {
                         img: '',
-                        nombreRecurso: 'CSS ICON Space',
+                        nombreRecurso: 'Mínimamente',
                         height: '',
-                        rutaRecurso: 'https://cssicon.space/#/',
-                        descripcion: 'Paquete de íconos básicos.',
+                        rutaRecurso: 'https://www.minimamente.com/project/magic/',
+                        descripcion: 'Efectos de animación para botones.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/select2.png',
+                        nombreRecurso: '',
+                        height: '45',
+                        rutaRecurso: 'https://select2.org/',
+                        descripcion: 'El reemplazo de jQuery para cajas de selección.',
                         red: ''
                     },
                 ]
             },
+        ]
+    },
+    {
+        id: 'editores-online',
+        titulo: 'Editores online y plataformas de aprendizaje',
+        contenidoIcons: false,
+        bloque: [
             {
-                index: '4',
+                index: '1',
                 links: [
                     {
-                        img: '',
-                        nombreRecurso: 'Creative Link Effects',
-                        height: '',
-                        rutaRecurso: 'https://tympanus.net/Development/CreativeLinkEffects/',
-                        descripcion: 'Excelentes diseños de muestra para links.',
-                        red: ''
-                    },
-                    {
-                        img: 'assets/img/icons/csslab.png',
+                        img: 'assets/img/icons/codepen.png',
                         nombreRecurso: '',
-                        height: '100',
-                        rutaRecurso: 'http://www.csslab.cl',
-                        descripcion: 'Tutoriales y explicaciones CSS.',
+                        height: '35',
+                        rutaRecurso: 'https://codepen.io',
+                        descripcion: 'Este editor online presenta 4 pantallas, 1 que es la presentación diseñada, las otras 3 son HTML, CSS Y JAVASCRIPT para el código que da forma al diseño.',
                         red: ''
                     },
                     {
-                        img: '',
-                        nombreRecurso: 'Hover.css',
-                        height: '',
-                        rutaRecurso: 'https://cssicon.space/#/',
-                        descripcion: 'Una colección de efectos de desplazamiento impulsados ​​por CSS3 que se aplicarán a enlaces, botones, logotipos, SVG, imágenes destacadas, etc. Aplíquelo fácilmente a sus propios elementos, modifíquelos o simplemente úselos como inspiración. Disponible en CSS, Sass y LESS.',
-                        red: ''
-                    },
-                ]
-            },
-            {
-                index: '5',
-                links: [
-                    {
-                        img: 'assets/img/icons/css-shake.png',
+                        img: 'assets/img/icons/w3schools.png',
                         nombreRecurso: '',
-                        height: '100',
-                        rutaRecurso: 'https://elrumordelaluz.github.io/csshake/',
-                        descripcion: 'Algunas clases de CSS para mover tu DOM!.',
+                        height: '45',
+                        rutaRecurso: 'https://www.w3schools.com/default.asp',
+                        descripcion: 'Plataforma de aprendizaje de programación recien actualizaron la plataforma con más lenguajes.',
                         red: ''
                     },
                     {
-                        img: 'assets/img/icons/Animate-css.png',
+                        img: 'assets/img/icons/liveweave.png',
+                        nombreRecurso: '',
+                        height: '35',
+                        rutaRecurso: 'https://liveweave.com',
+                        descripcion: 'Plataforma de desarrollo HTML, CSS y JavaScript para diseñadores y desarrolladores web.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/typescript.png',
                         nombreRecurso: '',
                         height: '30',
-                        rutaRecurso: 'https://animate.style/',
-                        descripcion: 'Librería CSS de animaciones.',
+                        rutaRecurso: 'https://www.typescriptlang.org/play',
+                        descripcion: 'Este es un sitio web que te da la oportunidad de escribir, compartir y aprender TypeScript.',
                         red: ''
                     },
                 ]
             },
-
-
+            {
+                index: '2',
+                links: [
+                    {
+                        img: 'assets/img/icons/layoutit.png',
+                        nombreRecurso: '',
+                        height: '30',
+                        rutaRecurso: 'https://www.layoutit.com/build',
+                        descripcion: 'Este sitio es un constructor de interfaces para CSS Grid y Bootstrap que quiere ser el la gran plataforma de salida para tus desarrollos frontales.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/jsbin.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://jsbin.com/',
+                        descripcion: 'Servicio web que ofrece un espacio de experimentación y desarrollo para HTML, JavaScript y CSS.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/code-avengers.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://www.codeavengers.com',
+                        descripcion: 'Aprende a programar jugando.',
+                        red: '',
+                        clipBoard: ''
+                    },
+                ]
+            },
+            {
+                index: '3',
+                links: [
+                    {
+                        img: 'assets/img/icons/cesarcancino.png',
+                        nombreRecurso: '',
+                        height: '80',
+                        rutaRecurso: 'https://www.cesarcancino.com/home',
+                        descripcion: 'Cesar Cansino. Talleres prácticos Javascript, PHP, Java, Python, Net, Android.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/stackBlitzWhite.png',
+                        nombreRecurso: '',
+                        height: '50',
+                        rutaRecurso: 'https://stackblitz.com/',
+                        descripcion: 'El entorno de desarrollo más rápido y seguro del planeta. Para: Next JS, Graphql, Servidor Http NodeJs, Node Js, Angular, React, React TS, Vue, Svelte, RXJS, Ionic, Angular JS, Static HTML, JavaScript, Typescript.',
+                        red: ''
+                    },
+                ]
+            },
+        ]
+    },
+    {
+        id: 'programas-recursos',
+        titulo: 'Programas y recursos',
+        contenidoIcons: false,
+        bloque: [
+            {
+                index: '1',
+                links: [
+                    {
+                        img: 'assets/img/icons/codepen.png',
+                        nombreRecurso: '',
+                        height: '35',
+                        rutaRecurso: 'https://codepen.io',
+                        descripcion: 'Este editor online presenta 4 pantallas, 1 que es la presentación diseñada, las otras 3 son HTML, CSS Y JAVASCRIPT para el código que da forma al diseño.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/w3schools.png',
+                        nombreRecurso: '',
+                        height: '45',
+                        rutaRecurso: 'https://www.w3schools.com/default.asp',
+                        descripcion: 'Plataforma de aprendizaje de programación recien actualizaron la plataforma con más lenguajes.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/liveweave.png',
+                        nombreRecurso: '',
+                        height: '35',
+                        rutaRecurso: 'https://liveweave.com',
+                        descripcion: 'Plataforma de desarrollo HTML, CSS y JavaScript para diseñadores y desarrolladores web.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/typescript.png',
+                        nombreRecurso: '',
+                        height: '30',
+                        rutaRecurso: 'https://www.typescriptlang.org/play',
+                        descripcion: 'Este es un sitio web que te da la oportunidad de escribir, compartir y aprender TypeScript.',
+                        red: ''
+                    },
+                ]
+            },
+            {
+                index: '2',
+                links: [
+                    {
+                        img: 'assets/img/icons/layoutit.png',
+                        nombreRecurso: '',
+                        height: '30',
+                        rutaRecurso: 'https://www.layoutit.com/build',
+                        descripcion: 'Este sitio es un constructor de interfaces para CSS Grid y Bootstrap que quiere ser el la gran plataforma de salida para tus desarrollos frontales.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/jsbin.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://jsbin.com/',
+                        descripcion: 'Servicio web que ofrece un espacio de experimentación y desarrollo para HTML, JavaScript y CSS.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/code-avengers.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://www.codeavengers.com',
+                        descripcion: 'Aprende a programar jugando.',
+                        red: '',
+                        clipBoard: ''
+                    },
+                ]
+            },
+            {
+                index: '3',
+                links: [
+                    {
+                        img: 'assets/img/icons/cesarcancino.png',
+                        nombreRecurso: '',
+                        height: '80',
+                        rutaRecurso: 'https://www.cesarcancino.com/home',
+                        descripcion: 'Cesar Cansino. Talleres prácticos Javascript, PHP, Java, Python, Net, Android.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/stackBlitzWhite.png',
+                        nombreRecurso: '',
+                        height: '50',
+                        rutaRecurso: 'https://stackblitz.com/',
+                        descripcion: 'El entorno de desarrollo más rápido y seguro del planeta. Para: Next JS, Graphql, Servidor Http NodeJs, Node Js, Angular, React, React TS, Vue, Svelte, RXJS, Ionic, Angular JS, Static HTML, JavaScript, Typescript.',
+                        red: ''
+                    },
+                ]
+            },
         ]
     },
 

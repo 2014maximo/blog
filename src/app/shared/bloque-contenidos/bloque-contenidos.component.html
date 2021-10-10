@@ -19,7 +19,7 @@
             <div *ngFor="let links of bloque.bloque" class="d-flex justify-content-between row mt-5 align-items-center">
                 <div *ngFor="let link of links.links" class="p-3 text-center col">
                     <a href="{{ link.rutaRecurso }}" target="_blank">
-                        <img src="{{ link.img }}" width="auto" height="{{ link.height }}" class="drops">
+                        <img src="{{ link.img }}" width="auto" height="{{ link.height }}" class="drops {{ link.mediaQuery }}">
                         <p class="subTituloPost">{{ link.nombreRecurso }}</p>
                     </a>
                     <p *ngIf="!link.clipBoard" class="text-light fs-18 fuenteDos mt-3 lh-18">{{ link.descripcion }}</p>
