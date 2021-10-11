@@ -964,10 +964,10 @@ export const LINKS: BloqueContenidoModel[] = [
                 index: '2',
                 links: [
                     {
-                        img: 'assets/img/icons/code-avengers.png',
+                        img: 'assets/img/icons/sublime-text.png',
                         nombreRecurso: '',
-                        height: '60',
-                        rutaRecurso: 'https://www.codeavengers.com',
+                        height: '30',
+                        rutaRecurso: 'https://www.sublimetext.com',
                         descripcion: 'Aprende a programar jugando.',
                         red: '',
                         clipBoard: ''
