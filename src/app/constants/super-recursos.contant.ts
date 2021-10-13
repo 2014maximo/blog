@@ -932,7 +932,7 @@ export const LINKS: BloqueContenidoModel[] = [
                         height: '150',
                         rutaRecurso: 'https://www.tomrichmond.com/art/illustration/',
                         descripcion: 'Caricaturas artísticas de famosos, tipo cómicas. Del creador de la famosa revista MAD.',
-                        red: ''
+                            red: ''
                     },
                     {
                         img: 'assets/img/icons/pixabay.png',
@@ -1262,6 +1262,22 @@ export const LINKS: BloqueContenidoModel[] = [
                         height: '60',
                         rutaRecurso: 'https://www.curso-ingles.com/',
                         descripcion: '',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/linguee.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://www.linguee.es/espanol-ingles/',
+                        descripcion: 'Diccionario de inglés.',
+                        red: ''
+                    },
+                    {
+                        img: '',
+                        nombreRecurso: 'To phonetics',
+                        height: '',
+                        rutaRecurso: 'https://tophonetics.com/',
+                        descripcion: 'Pronuncación Británica y Americana del inglés.',
                         red: ''
                     },
                 ]
