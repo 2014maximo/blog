@@ -900,6 +900,15 @@ export const LINKS: BloqueContenidoModel[] = [
                         descripcion: 'Recurso de imágenes, vectores gratis, fotos y PSD para descargar.',
                         red: ''
                     },
+                    {
+                        img: 'assets/img/icons/manualsbrain.png',
+                        nombreRecurso: '',
+                        height: '40',
+                        rutaRecurso: 'https://manualsbrain.com/es/',
+                        descripcion: 'Aquí se puede encontrar miles de guías de usuarios diferentes a casi todos los electrodomésticos fabricados por los mas populares fabricantes del mundo. Desde la nevera en su cosina hasta la placa base del PC. Todos los archivos que usted puede encontrar en nuestro portal son totalmente gratuitos para descargar.',
+                        red: '',
+                        clipBoard: ''
+                    },
                 ]
             },
             {
@@ -922,11 +931,25 @@ export const LINKS: BloqueContenidoModel[] = [
                         red: ''
                     },
                     {
-                        img: 'assets/img/icons/code-avengers.png',
+                        img: 'assets/img/icons/emmet.png',
                         nombreRecurso: '',
-                        height: '60',
-                        rutaRecurso: 'https://www.codeavengers.com',
-                        descripcion: 'Aprende a programar jugando.',
+                        height: '40',
+                        rutaRecurso: 'https://docs.emmet.io/cheat-sheet/',
+                        descripcion: 'Simplificación para escribir extructuras de código.',
+                        red: '',
+                        clipBoard: ''
+                    },
+                ]
+            },
+            {
+                index: '3',
+                links: [
+                    {
+                        img: '',
+                        nombreRecurso: 'Java™ Platform Standard Ed. 7',
+                        height: '',
+                        rutaRecurso: 'https://docs.oracle.com/javase/7/docs/api/',
+                        descripcion: 'Documentación para la especificación API para Java ™ Platform, Standard Edition.',
                         red: '',
                         clipBoard: ''
                     },
@@ -958,22 +981,280 @@ export const LINKS: BloqueContenidoModel[] = [
                         descripcion: 'Consigue las últimas versiones de Firefox.',
                         red: ''
                     },
+                    {
+                        img: 'assets/img/icons/sublime-text.png',
+                        nombreRecurso: '',
+                        height: '30',
+                        rutaRecurso: 'https://www.sublimetext.com',
+                        descripcion: 'editor de texto avanzado que soporta multitud de lenguajes como ASP, C, C++, C#, CSS, D, Erlang, Groovy, Haskell, HTML, Java, Javascript, LaText, Lisp, Lua, Markdown, Matlab, Ocaml, Pascal, Perl, Perl, PHP, Python, R, Ruby, SQL, TCL, Textile y XML entre otros.',
+                        red: '',
+                        clipBoard: ''
+                    },
+                    {
+                        img: 'assets/img/icons/package-control.png',
+                        nombreRecurso: '',
+                        height: '30',
+                        rutaRecurso: 'https://packagecontrol.io',
+                        descripcion: 'Complemento de Sublime Text para agregar extensiones. La versión 4 de sublime text lo incluye por defecto.',
+                        red: '',
+                        clipBoard: ''
+                    },
+                ]
+            },
+            {
+                index: '2',
+                links: [
+
+                    {
+                        img: 'assets/img/icons/visual_studio_code_text_white.png',
+                        nombreRecurso: '',
+                        height: '90',
+                        rutaRecurso: 'https://code.visualstudio.com/download',
+                        descripcion: 'Dedique más tiempo a programar y menos tiempo a cambiar de una herramienta a otra. Use las características y extensiones que se integran con Azure y GitHub para desarrollar, depurar e implementar todas sus soluciones desde un mismo lugar.',
+                        red: '',
+                        clipBoard: ''
+                    },
+                    {
+                        img: '',
+                        nombreRecurso: 'Marketplace',
+                        height: '90',
+                        rutaRecurso: 'https://marketplace.visualstudio.com/VSCode',
+                        descripcion: 'Extensiones para la familia de productos de Visual Studio.',
+                        red: '',
+                        clipBoard: ''
+                    },
+                    {
+                        img: 'assets/img/icons/insiders.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://code.visualstudio.com/insiders/',
+                        descripcion: 'Versión beta. Incluye las últimas funciones y correcciones de errores, pero las nuevas funciones pueden o no ser estables.',
+                        red: '',
+                        clipBoard: ''
+                    },
+                ]
+            },
+            {
+                index: '3',
+                links: [
+
+                    {
+                        img: 'assets/img/icons/atom3.png',
+                        nombreRecurso: '',
+                        height: '90',
+                        rutaRecurso: 'https://atom.io',
+                        descripcion: 'Atom editor de texto muy completo con actualizaciones constantes.',
+                        red: '',
+                        clipBoard: ''
+                    },
+                    {
+                        img: 'assets/img/icons/Eclipse-foundation.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://www.eclipse.org/downloads/',
+                        descripcion: 'Plataforma de software compuesto por un conjunto de herramientas de programación de código abierto multiplataforma para desarrollar lo que el proyecto llama "Aplicaciones de Cliente Enriquecido", opuesto a las aplicaciones "Cliente-liviano" basadas en navegadores. Esta plataforma, típicamente ha sido usada para desarrollar entornos de desarrollo integrados (del inglés IDE), como el IDE de Java llamado Java Development Toolkit (JDT) y el compilador (ECJ) que se entrega como parte de Eclipse (y que son usados también para desarrollar el mismo Eclipse).',
+                        red: '',
+                        clipBoard: ''
+                    },
+                    {
+                        img: 'assets/img/icons/apacheTomcat.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://tomcat.apache.org/',
+                        descripcion: 'Software desarrollado con Java (con lo cual puede funcionar en cualquier sistema operativo, con su máquina virtual java correspondiente) que sirve como servidor web con soporte de servlets y JSPs.',
+                        red: '',
+                        clipBoard: ''
+                    },
+                ]
+            }
+        ]
+    },
+    {
+        id: 'linux',
+        titulo: 'Linux',
+        contenidoIcons: false,
+        bloque: [
+            {
+                index: '1',
+                links: [
+                    {
+                        img: 'assets/img/icons/distrowatch.png',
+                        nombreRecurso: '',
+                        height: '25',
+                        rutaRecurso: 'https://distrowatch.com/',
+                        descripcion: 'Sitio web que proporciona noticias, clasificaciones de popularidad y otra información general sobre varios sistemas operativos de código abierto, como distribuciones GNU/Linux y otros sistemas libres (como BSD y OpenSolaris), así como noticias sobre software libre en general.',
+                        red: ''
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 'comercio',
+        titulo: 'Comercio',
+        contenidoIcons: false,
+        bloque: [
+            {
+                index: '1',
+                links: [
+                    {
+                        img: 'assets/img/icons/mercado_libre.png',
+                        nombreRecurso: '',
+                        height: '40',
+                        rutaRecurso: 'https://www.mercadolibre.com.co/',
+                        descripcion: 'Empresa argentina dedicada al comercio electrónico. Cuenta con operaciones en Argentina, Bolivia, Brasil, Chile, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Honduras, México, Nicaragua, Panamá, Paraguay, Perú, República Dominicana, Uruguay y Venezuela.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/aliexpress.png',
+                        nombreRecurso: '',
+                        height: '40',
+                        rutaRecurso: 'https://best.aliexpress.com/?lan=en&gclid=Cj0KCQjwktKFBhCkARIsAJeDT0j7NplddkgvWDqwqDXghptKTSuCfruyPz7FUMplVbaeEvjgRGGGOuoaAq8dEALw_wcB',
+                        descripcion: 'AliExpress es una plataforma de ventas on-line fundada en el año 2010 por pequeñas empresas de China y de otros lugares que ofrece productos para compradores internacionales. Es propiedad de Alibaba Group.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/olx.png',
+                        nombreRecurso: '',
+                        height: '40',
+                        rutaRecurso: 'https://www.olx.com.co/',
+                        descripcion: 'Plataforma líder mundial de avisos clasificados que sirve a las comunidades locales en mercados de alto potencial de crecimiento con vibrantes mercados en línea: OLX conecta la comunidad local para vender, comprar e intercambiar sus bienes usados y servicios haciéndolo rápido y fácil para que cualquier persona publique un anuncio desde su celular o en el sitio web.',
+                        red: ''
+                    },
                 ]
             },
             {
                 index: '2',
                 links: [
                     {
-                        img: 'assets/img/icons/sublime-text.png',
+                        img: 'assets/img/icons/amazon.png',
                         nombreRecurso: '',
-                        height: '30',
-                        rutaRecurso: 'https://www.sublimetext.com',
-                        descripcion: 'Aprende a programar jugando.',
-                        red: '',
-                        clipBoard: ''
+                        height: '40',
+                        rutaRecurso: 'https://www.amazon.com/',
+                        descripcion: 'Compañía estadounidense de comercio electrónico y servicios de computación en la nube a todos los niveles.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/alkosto.png',
+                        nombreRecurso: '',
+                        height: '50',
+                        rutaRecurso: 'https://www.alkosto.com/home',
+                        descripcion: 'Cadena de almacenes colombiana, comercializadora de electrodomésticos, mercado, llantas, tecnología, motos y productos del hogar, de propiedad del Grupo Corbeta.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/falabella.png',
+                        nombreRecurso: '',
+                        height: '40',
+                        rutaRecurso: 'https://www.falabella.com.co/falabella-co',
+                        descripcion: 'Tienda por departamentos chilena fundada en 1889 por una familia italiana radicada en Chile, perteneciente al grupo del mismo nombre.',
+                        red: ''
                     },
                 ]
             },
+        ]
+    },
+    {
+        id: 'libros',
+        titulo: 'Libros',
+        contenidoIcons: false,
+        bloque: [
+            {
+                index: '1',
+                links: [
+                    {
+                        img: '',
+                        nombreRecurso: 'Library genesis',
+                        height: '',
+                        rutaRecurso: 'https://libgen.is/',
+                        descripcion: 'Esta página suele ser temporal, pero es una excelente alternativa para conseguir recursos y libros.',
+                        red: ''
+                    },
+                    {
+                        img: '',
+                        nombreRecurso: 'Letmeread',
+                        height: '',
+                        rutaRecurso: 'https://www.letmeread.net/',
+                        descripcion: 'Libros por categorías.',
+                        red: ''
+                    },
+                ]
+            },
+
+        ]
+    },
+    {
+        id: 'almacenamiento',
+        titulo: 'Almacenamiento',
+        contenidoIcons: false,
+        bloque: [
+            {
+                index: '1',
+                links: [
+                    {
+                        img: 'assets/img/icons/mega.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://mega.nz/',
+                        descripcion: 'Nube con 50gb gratuitos y 6gb de trasferencias al mes.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/onedrive.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://onedrive.live.com/',
+                        descripcion: 'Nube de Microsoft con 5gb gratis.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/dropbox.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://www.dropbox.com/',
+                        descripcion: 'Nube de google con 1gb gratis.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/icloud.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://www.icloud.com',
+                        descripcion: 'Nube de Apple con 5gb gratis.',
+                        red: ''
+                    },
+                ]
+            },
+
+        ]
+    },
+    {
+        id: 'traductores',
+        titulo: 'Traductores y herramientas',
+        contenidoIcons: false,
+        bloque: [
+            {
+                index: '1',
+                links: [
+                    {
+                        img: 'assets/img/icons/deepl.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://www.deepl.com/es/translator',
+                        descripcion: 'Traductor con excelente sintaxis.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/curso_ingles.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://www.curso-ingles.com/',
+                        descripcion: '',
+                        red: ''
+                    },
+                ]
+            },
+
         ]
     },
 
