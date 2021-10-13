@@ -775,7 +775,7 @@ export const LINKS: BloqueContenidoModel[] = [
     },
     {
         id: 'editores-online',
-        titulo: 'Editores online y plataformas de aprendizaje',
+        titulo: 'Editores online',
         contenidoIcons: false,
         bloque: [
             {
@@ -835,6 +835,26 @@ export const LINKS: BloqueContenidoModel[] = [
                         red: ''
                     },
                     {
+                        img: 'assets/img/icons/stackBlitzWhite.png',
+                        nombreRecurso: '',
+                        height: '50',
+                        rutaRecurso: 'https://stackblitz.com/',
+                        descripcion: 'El entorno de desarrollo más rápido y seguro del planeta. Para: Next JS, Graphql, Servidor Http NodeJs, Node Js, Angular, React, React TS, Vue, Svelte, RXJS, Ionic, Angular JS, Static HTML, JavaScript, Typescript.',
+                        red: ''
+                    },
+                ]
+            },
+        ]
+    },
+    {
+        id: 'plataformas-aprendizaje',
+        titulo: 'Plataformas de aprendizaje',
+        contenidoIcons: false,
+        bloque: [
+            {
+                index: '1',
+                links: [
+                    {
                         img: 'assets/img/icons/code-avengers.png',
                         nombreRecurso: '',
                         height: '60',
@@ -846,7 +866,7 @@ export const LINKS: BloqueContenidoModel[] = [
                 ]
             },
             {
-                index: '3',
+                index: '2',
                 links: [
                     {
                         img: 'assets/img/icons/cesarcancino.png',
@@ -854,14 +874,6 @@ export const LINKS: BloqueContenidoModel[] = [
                         height: '80',
                         rutaRecurso: 'https://www.cesarcancino.com/home',
                         descripcion: 'Cesar Cansino. Talleres prácticos Javascript, PHP, Java, Python, Net, Android.',
-                        red: ''
-                    },
-                    {
-                        img: 'assets/img/icons/stackBlitzWhite.png',
-                        nombreRecurso: '',
-                        height: '50',
-                        rutaRecurso: 'https://stackblitz.com/',
-                        descripcion: 'El entorno de desarrollo más rápido y seguro del planeta. Para: Next JS, Graphql, Servidor Http NodeJs, Node Js, Angular, React, React TS, Vue, Svelte, RXJS, Ionic, Angular JS, Static HTML, JavaScript, Typescript.',
                         red: ''
                     },
                     {

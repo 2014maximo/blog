@@ -95,11 +95,18 @@ export class SuperRecursosInternetComponent implements OnInit {
         colorTexto: 'text-light'
       },
       {
-        nombre: 'EDITORES ONLINE...',
+        nombre: 'EDITORES ONLINE',
         posicion: 'pos-z',
         ruta: 'editores-online',
         fondo: 'bg-light',
         colorTexto: 't2'
+      },
+      {
+        nombre: 'PLATAFORMAS APRENDIZAJE',
+        posicion: 'pos-z',
+        ruta: 'plataformas-aprendizaje',
+        fondo: 'bg-Flutter',
+        colorTexto: 'text-light'
       },
       {
         nombre: 'RECURSOS Y CONTENIDOS',
