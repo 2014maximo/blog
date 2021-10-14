@@ -297,7 +297,7 @@ export const LINKS: BloqueContenidoModel[] = [
                 ]
             },
             {
-                index: '4',
+                index: '5',
                 links: [
                     {
                         img: '',
@@ -321,7 +321,7 @@ export const LINKS: BloqueContenidoModel[] = [
                 ]
             },
             {
-                index: '5',
+                index: '6',
                 links: [
                     {
                         img: 'assets/img/icons/IlovePDF.png',
@@ -345,6 +345,14 @@ export const LINKS: BloqueContenidoModel[] = [
                         height: '90',
                         rutaRecurso: 'https://surge.sh',
                         descripcion: 'Surge es un servicio para implementar y alojar sitios web y aplicaciones estáticos. ... Su plan gratuito es óptimo para casi cualquier sitio estático, y la configuración del servicio se puede realizar con solo unas pocas teclas en la línea de comandos.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/gorest.png',
+                        nombreRecurso: '',
+                        height: '45',
+                        rutaRecurso: 'https://gorest.co.in/',
+                        descripcion: 'API REST en línea para pruebas y creación de prototipos.',
                         red: ''
                     },
 
