@@ -859,7 +859,16 @@ export const LINKS: BloqueContenidoModel[] = [
                         nombreRecurso: '',
                         height: '60',
                         rutaRecurso: 'https://www.codeavengers.com',
-                        descripcion: 'Aprende a programar jugando.',
+                        descripcion: 'CODE AVENGERS, aprende a programar jugando.',
+                        red: '',
+                        clipBoard: ''
+                    },
+                    {
+                        img: 'assets/img/icons/medium-white.png',
+                        nombreRecurso: '',
+                        height: '35',
+                        rutaRecurso: 'https://medium.com',
+                        descripcion: 'Medium es un lugar para escribir, leer y conectarse, plataforma de aprendizaje a través publicación de desarrolladores y autores de contenidos.',
                         red: '',
                         clipBoard: ''
                     },
@@ -890,7 +899,7 @@ export const LINKS: BloqueContenidoModel[] = [
     },
     {
         id: 'recursos',
-        titulo: 'Recursos y contenidos',
+        titulo: 'Recursos y documentación',
         contenidoIcons: false,
         bloque: [
             {
@@ -962,6 +971,15 @@ export const LINKS: BloqueContenidoModel[] = [
                         height: '',
                         rutaRecurso: 'https://docs.oracle.com/javase/7/docs/api/',
                         descripcion: 'Documentación para la especificación API para Java ™ Platform, Standard Edition.',
+                        red: '',
+                        clipBoard: ''
+                    },
+                    {
+                        img: '',
+                        nombreRecurso: 'Artbreeder',
+                        height: '',
+                        rutaRecurso: 'https://www.artbreeder.com',
+                        descripcion: 'Simplemente siga seleccionando la imagen más interesante para descubrir imágenes totalmente nuevas. A partir de cada imagen se crean infinitamente nuevos "hijos" aleatorios. Artbreeder convierte el simple acto de exploración en creatividad.',
                         red: '',
                         clipBoard: ''
                     },
@@ -1074,6 +1092,21 @@ export const LINKS: BloqueContenidoModel[] = [
                         height: '60',
                         rutaRecurso: 'https://tomcat.apache.org/',
                         descripcion: 'Software desarrollado con Java (con lo cual puede funcionar en cualquier sistema operativo, con su máquina virtual java correspondiente) que sirve como servidor web con soporte de servlets y JSPs.',
+                        red: '',
+                        clipBoard: ''
+                    },
+                ]
+            },
+            {
+                index: '4',
+                links: [
+
+                    {
+                        img: 'assets/img/icons/android-studio_text_white.png',
+                        nombreRecurso: '',
+                        height: '90',
+                        rutaRecurso: 'https://developer.android.com/studio',
+                        descripcion: 'proporciona las herramientas más rápidas para crear aplicaciones en todo tipo de dispositivo Android.',
                         red: '',
                         clipBoard: ''
                     },
@@ -1314,20 +1347,117 @@ export const LINKS: BloqueContenidoModel[] = [
                         nombreRecurso: '',
                         height: '60',
                         rutaRecurso: 'http://centrodeserviciosygestionempresarial.blogspot.com/',
-                        descripcion: 'Diccionario de inglés.',
+                        descripcion: 'BLOG de contenidos actuales, noticias y muchas más cosas.',
                         red: ''
                     },
                     {
-                        img: '',
-                        nombreRecurso: 'To phonetics',
-                        height: '',
-                        rutaRecurso: 'https://tophonetics.com/',
-                        descripcion: 'Pronuncación Británica y Americana del inglés.',
+                        img: 'assets/img/icons/cisco.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://id.cisco.com/',
+                        descripcion: 'Cursos de CISCO en asociación con el SENA.',
                         red: ''
                     },
                 ]
             },
+            {
+                index: '2',
+                links: [
+                    {
+                        img: 'assets/img/icons/sena.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'http://sis.senavirtual.edu.co/cuentas_misena/restablecer/consulta.php',
+                        descripcion: 'Para restablecer contraseña.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/agencia-publica-empleo.png',
+                        nombreRecurso: '',
+                        height: '45',
+                        rutaRecurso: 'https://agenciapublicadeempleo.sena.edu.co/Paginas/inicio.aspx',
+                        descripcion: 'Agencia pública de empleo del SENA.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/sigti-sena.png',
+                        nombreRecurso: '',
+                        height: '150',
+                        rutaRecurso: 'http://181.57.135.132/sigti/',
+                        descripcion: 'Gestión de tiempos.',
+                        red: ''
+                    }
+                ]
+            },
 
+        ]
+    },
+    {
+        id: 'pagos',
+        titulo: 'Pagos',
+        contenidoIcons: false,
+        bloque: [
+            {
+                index: '1',
+                links: [
+                    {
+                        img: 'assets/img/icons/epm.svg',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://www.epm.com.co/site/home/paga-tu-factura',
+                        descripcion: 'Paga la factura de energía de Medellín',
+                        red: ''
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 'legales',
+        titulo: 'Legales',
+        contenidoIcons: false,
+        bloque: [
+            {
+                index: '1',
+                links: [
+                    {
+                        img: 'assets/img/icons/simit.svg',
+                        nombreRecurso: 'Comparendos',
+                        height: '130',
+                        rutaRecurso: 'https://www.fcm.org.co/simit/#/home-public',
+                        descripcion: 'Consulta de ESTADO de Simit por documento de identidad. Consulta aquí comparendos, multas y acuerdos de pago',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/simit.svg',
+                        nombreRecurso: 'Fotomultas',
+                        height: '130',
+                        rutaRecurso: 'https://medellin.gov.co/portal-movilidad/#/public',
+                        descripcion: 'Consulta de Movilidad Simit por documento de identidad. Consulta aquí fotodetecciones, multas y acuerdos de pago',
+                        red: ''
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 'videos-peliculas',
+        titulo: 'Videos y películas',
+        contenidoIcons: false,
+        bloque: [
+            {
+                index: '1',
+                links: [
+                    {
+                        img: 'assets/img/icons/animeflv.png',
+                        nombreRecurso: '',
+                        height: '45',
+                        rutaRecurso: 'https://www3.animeflv.net/',
+                        descripcion: 'Anime Online - Ningún vídeo se encuentra alojado en nuestros servidores.',
+                        red: ''
+                    }
+                ]
+            }
         ]
     },
 

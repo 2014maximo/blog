@@ -109,8 +109,8 @@ export class SuperRecursosInternetComponent implements OnInit {
         colorTexto: 'text-light'
       },
       {
-        nombre: 'RECURSOS Y CONTENIDOS',
-        posicion: 'rot-2',
+        nombre: 'RECURSOS Y DOCUMENTACIÓN',
+        posicion: 'rot-1',
         ruta: 'recursos',
         fondo: 'bg-light',
         colorTexto: 't2'
@@ -163,6 +163,27 @@ export class SuperRecursosInternetComponent implements OnInit {
         ruta: 'sena',
         fondo: 'bg-light',
         colorTexto: 't2'
+      },
+      {
+        nombre: 'LEGALES',
+        posicion: 'pos-z',
+        ruta: 'legales',
+        fondo: 'bg-Javascript',
+        colorTexto: 't2'
+      },
+      {
+        nombre: 'PAGOS',
+        posicion: 'rot-3',
+        ruta: 'pagos',
+        fondo: 'bg-light',
+        colorTexto: 't2'
+      },
+      {
+        nombre: 'VIDEOS Y PELÍCULAS',
+        posicion: 'rot-3',
+        ruta: 'videos-peliculas',
+        fondo: 'bg-Git',
+        colorTexto: 'text-light'
       },
     ]
 
