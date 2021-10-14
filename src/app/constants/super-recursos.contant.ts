@@ -1285,5 +1285,50 @@ export const LINKS: BloqueContenidoModel[] = [
 
         ]
     },
+    {
+        id: 'sena',
+        titulo: 'SENA',
+        contenidoIcons: false,
+        bloque: [
+            {
+                index: '1',
+                links: [
+                    {
+                        img: 'assets/img/icons/sena-sofia.png',
+                        nombreRecurso: '',
+                        height: '35',
+                        rutaRecurso: 'http://oferta.senasofiaplus.edu.co/sofia-oferta/',
+                        descripcion: 'Principal plataforma del SENA.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/territorio-sena2.png',
+                        nombreRecurso: '',
+                        height: '40',
+                        rutaRecurso: 'https://sena.territorio.la/init.php',
+                        descripcion: 'Entorno de administración de recursos educativos.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/blog-sena.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'http://centrodeserviciosygestionempresarial.blogspot.com/',
+                        descripcion: 'Diccionario de inglés.',
+                        red: ''
+                    },
+                    {
+                        img: '',
+                        nombreRecurso: 'To phonetics',
+                        height: '',
+                        rutaRecurso: 'https://tophonetics.com/',
+                        descripcion: 'Pronuncación Británica y Americana del inglés.',
+                        red: ''
+                    },
+                ]
+            },
+
+        ]
+    },
 
 ]
