@@ -1203,6 +1203,14 @@ export const LINKS: BloqueContenidoModel[] = [
                         descripcion: 'Tienda por departamentos chilena fundada en 1889 por una familia italiana radicada en Chile, perteneciente al grupo del mismo nombre.',
                         red: ''
                     },
+                    {
+                        img: 'assets/img/icons/jbl.png',
+                        nombreRecurso: '',
+                        height: '120',
+                        rutaRecurso: 'https://co.jbl.com/',
+                        descripcion: 'JBL es una compañía de audio y electrónica Estadounidense bajo el mando de Harman International Industries que se fundó en 1946 por James Bullough Lansing. Sus principales productos son altavoces y cualquier tipo de electrónicos asociados..',
+                        red: ''
+                    },
                 ]
             },
         ]
@@ -1462,6 +1470,26 @@ export const LINKS: BloqueContenidoModel[] = [
                         height: '45',
                         rutaRecurso: 'https://www3.animeflv.net/',
                         descripcion: 'Anime Online - Ningún vídeo se encuentra alojado en nuestros servidores.',
+                        red: ''
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 'juegos',
+        titulo: 'Juegos',
+        contenidoIcons: false,
+        bloque: [
+            {
+                index: '1',
+                links: [
+                    {
+                        img: 'assets/img/icons/game-torrens.png',
+                        nombreRecurso: '',
+                        height: '30',
+                        rutaRecurso: 'https://www.gamestorrents.nz/',
+                        descripcion: 'Descarga de juegos gratis.',
                         red: ''
                     }
                 ]
