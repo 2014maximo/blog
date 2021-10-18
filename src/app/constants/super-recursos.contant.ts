@@ -1451,6 +1451,14 @@ export const LINKS: BloqueContenidoModel[] = [
                         rutaRecurso: 'https://medellin.gov.co/portal-movilidad/#/public',
                         descripcion: 'Consulta de Movilidad Simit por documento de identidad. Consulta aquí fotodetecciones, multas y acuerdos de pago',
                         red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/runt.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://www.runt.com.co/consultaCiudadana/#/consultaVehiculo',
+                        descripcion: 'Información que reposa en el RUNT sobre su vehículo o motocicleta.',
+                        red: ''
                     }
                 ]
             }
