@@ -6,6 +6,7 @@ import { SharedModule } from '../shared/shared.module';
 import { InstalacionAngularComponent } from './ANGULAR/instalacion-angular/instalacion-angular.component';
 import { PruebasUnitariasComponent } from './ANGULAR/pruebas-unitarias/pruebas-unitarias.component';
 import { SuperRecursosInternetComponent } from './DEVELOPER/super-recursos-internet/super-recursos-internet.component';
+import { InicioComponent } from './ESTADISTICA/inicio/inicio.component';
 
 
 
@@ -15,7 +16,8 @@ import { SuperRecursosInternetComponent } from './DEVELOPER/super-recursos-inter
     HomeComponent,
     InstalacionAngularComponent,
     PruebasUnitariasComponent,
-    SuperRecursosInternetComponent
+    SuperRecursosInternetComponent,
+    InicioComponent
   ],
   imports: [
     CommonModule,
