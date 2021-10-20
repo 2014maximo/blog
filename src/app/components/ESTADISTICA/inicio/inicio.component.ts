@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ContactFormService } from 'src/app/services/contact-form.service';
+import { DataModel, PersonaModel } from '../../../models/persona.model';
 
 @Component({
   selector: 'app-inicio',
@@ -8,11 +9,15 @@ import { ContactFormService } from 'src/app/services/contact-form.service';
 })
 export class InicioComponent implements OnInit {
 
+  public bloqueDatos: any;
+
   constructor(private contactFormService: ContactFormService) { }
 
   ngOnInit(): void {
     this.contactFormService.consultaPersonas().subscribe( data => {
-      console.log(data, 'LOST DATOS QUE VIENEN');
+
+      this.bloqueDatos = data.data;
+      
     })
     
   }

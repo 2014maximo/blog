@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { PersonaModel } from '../models/persona.model';
+import { PersonaModel, DataModel } from '../models/persona.model';
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +12,7 @@ export class ContactFormService {
 
   constructor(private http: HttpClient) { }
 
-  consultaPersonas(): Observable<PersonaModel[]> {
-    return this.http.get<PersonaModel[]>(`${this.url}/public/v1/users`);
+  consultaPersonas(): Observable<any> {
+    return this.http.get<any>(`${this.url}/public/v1/users`);
   }
 }

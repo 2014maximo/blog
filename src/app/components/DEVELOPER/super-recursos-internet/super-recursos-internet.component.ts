@@ -185,6 +185,13 @@ export class SuperRecursosInternetComponent implements OnInit {
         fondo: 'bg-Git',
         colorTexto: 'text-light'
       },
+      {
+        nombre: 'JUEGOS',
+        posicion: 'rot-3',
+        ruta: 'juegos',
+        fondo: 'bg-Linux',
+        colorTexto: 'text-light'
+      },
     ]
 
     this.pasoBloques = LINKS;
