@@ -901,6 +901,14 @@ export const LINKS: BloqueContenidoModel[] = [
                         descripcion: 'plataforma de aprendizaje en línea. Está dirigido a adultos profesionales.​ A diferencia de los programas académicos MOOC conducidos por tradicionales cursos de trabajo creados por las universidades, Udemy utiliza contenido de creadores en línea para vender y así conseguir ganancias.​.',
                         red: ''
                     },
+                    {
+                        img: 'assets/img/icons/hackeRank.svg',
+                        nombreRecurso: '',
+                        height: '30',
+                        rutaRecurso: 'https://www.hackerrank.com/',
+                        descripcion: 'Compañía tecnológica que se enfoca en desafíos de programación competitivos tanto para consumidores como para empresas, donde los desarrolladores compiten al tratar de programar de acuerdo con las especificaciones proporcionadas',
+                        red: ''
+                    },
                 ]
             },
         ]
