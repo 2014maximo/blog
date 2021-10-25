@@ -133,8 +133,8 @@ export class SuperRecursosInternetComponent implements OnInit {
         nombre: 'COMERCIO',
         posicion: 'pos-z',
         ruta: 'comercio',
-        fondo: 'bg-light',
-        colorTexto: 't2'
+        fondo: 'bg-secondary',
+        colorTexto: 'text-warning'
       },
       {
         nombre: 'LIBROS',

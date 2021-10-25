@@ -16,7 +16,24 @@ export const sorteosInitialState: SorteoState = {
 }
 
 const _counterReducer = createReducer( sorteosInitialState, 
+
     on( cargarSorteos, state => ({ ...state, loading: true })),
+
+    on( cargarSorteosSuccess, (state, { sorteos }) => ({
+        ...state,
+        loading: false,
+        loaded: true,
+        users: [ ...sorteos ]
+    })),
+
+    on( cargarSorteosError, (state, { payload }) => ({
+        ...state,
+        loading: false,
+        loaded: false,
+        error: payload
+    })),
+
+
 );
 
 /* export function counterReducer(state, action) {
