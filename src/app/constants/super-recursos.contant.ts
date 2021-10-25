@@ -777,6 +777,22 @@ export const LINKS: BloqueContenidoModel[] = [
                         descripcion: 'El reemplazo de jQuery para cajas de selección.',
                         red: ''
                     },
+                    {
+                        img: 'assets/img/icons/angular-nav.png',
+                        nombreRecurso: '',
+                        height: '45',
+                        rutaRecurso: 'https://angular.io/cli',
+                        descripcion: 'Framework para aplicaciones web desarrollado en TypeScript, de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/ngrx.svg',
+                        nombreRecurso: '',
+                        height: '80',
+                        rutaRecurso: 'https://ngrx.io/',
+                        descripcion: '"NGRX" Es el estándar de facto para implementar Redux en Angular. Está basada en RxJS y es una librería modular con todo lo necesario para crear grandes aplicaciones.',
+                        red: ''
+                    },
                 ]
             },
         ]
