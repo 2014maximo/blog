@@ -1,1 +1,1 @@
-export * from './estadistica.reducers';
+export * from './estadistica.reducer';

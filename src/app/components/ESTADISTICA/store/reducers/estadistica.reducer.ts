@@ -1,4 +1,5 @@
 import { createReducer, on } from '@ngrx/store';
+import { PersonaModel } from 'src/app/models/persona.model';
 import { cargarSorteos, cargarSorteosError, cargarSorteosSuccess } from '../actions';
 
 export interface SorteoState {
@@ -8,14 +9,14 @@ export interface SorteoState {
     error   : any
 }
 
-export const sorteosInitialState: SorteoState = {
-    sorteos : [],
+/* export const sorteosInitialState: SorteoState = {
+    // sorteos : PersonaModel[],
     loaded  : false,
     loading : false,
     error   : null
-}
+} */
 
-const _counterReducer = createReducer( sorteosInitialState, 
+/* const _sorteosReducer = createReducer( sorteosInitialState, 
 
     on( cargarSorteos, state => ({ ...state, loading: true })),
 
@@ -23,7 +24,7 @@ const _counterReducer = createReducer( sorteosInitialState,
         ...state,
         loading: false,
         loaded: true,
-        users: [ ...sorteos ]
+        sorteo: [ ...sorteos ]
     })),
 
     on( cargarSorteosError, (state, { payload }) => ({
@@ -34,9 +35,9 @@ const _counterReducer = createReducer( sorteosInitialState,
     })),
 
 
-);
+); */
 
-/* export function counterReducer(state, action) {
-    return _counterReducer(state, action);
+/* export function sorteosReducer(state, action) {
+    return _sorteosReducer(state, action);
 } */
 

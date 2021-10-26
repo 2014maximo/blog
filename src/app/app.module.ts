@@ -11,6 +11,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './shared/shared.module';
 import { ComponentsModule } from './components/components.module';
+import { StoreModule } from '@ngrx/store';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ComponentsModule } from './components/components.module';
     HttpClientModule,
     SharedModule,
     ComponentsModule,
-    RouterModule.forRoot (ROUTES)
+    RouterModule.forRoot (ROUTES),
+    // StoreModule.forRoot()
   ],
   exports: [
   ],
