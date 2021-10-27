@@ -1263,6 +1263,14 @@ export const LINKS: BloqueContenidoModel[] = [
                         descripcion: 'Libros por categorías.',
                         red: ''
                     },
+                    {
+                        img: 'assets/img/icons/elejandria.png',
+                        nombreRecurso: '',
+                        height: '50',
+                        rutaRecurso: 'https://www.elejandria.com/',
+                        descripcion: 'Descargar libros gratis de dominio público.',
+                        red: ''
+                    },
                 ]
             },
 

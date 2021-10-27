@@ -6,6 +6,6 @@ export interface AppState {
     sorteos: reducers.SorteoState
 }
 
-/* export const appReducers: ActionReducerMap<AppState> = {
-    sorteos:
-} */
+export const appReducers: ActionReducerMap<AppState> = {
+    sorteos: reducers.sorteosReducer
+}

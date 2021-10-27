@@ -3,20 +3,20 @@ import { PersonaModel } from 'src/app/models/persona.model';
 import { cargarSorteos, cargarSorteosError, cargarSorteosSuccess } from '../actions';
 
 export interface SorteoState {
-    sorteos : [],
+    sorteos : PersonaModel[],
     loaded  : boolean,
     loading : boolean,
     error   : any
 }
 
-/* export const sorteosInitialState: SorteoState = {
-    // sorteos : PersonaModel[],
+export const sorteosInitialState: SorteoState = {
+    sorteos : [],
     loaded  : false,
     loading : false,
     error   : null
-} */
+}
 
-/* const _sorteosReducer = createReducer( sorteosInitialState, 
+const _sorteosReducer = createReducer( sorteosInitialState, 
 
     on( cargarSorteos, state => ({ ...state, loading: true })),
 
@@ -35,9 +35,9 @@ export interface SorteoState {
     })),
 
 
-); */
+);
 
-/* export function sorteosReducer(state, action) {
+export function sorteosReducer(state:any, action:any) {
     return _sorteosReducer(state, action);
-} */
+}
 
