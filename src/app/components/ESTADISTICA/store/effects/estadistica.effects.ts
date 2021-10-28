@@ -8,7 +8,7 @@ import * as usuariosActions from "../actions/estadistica.actions";
 export class SorteosEffects {
 
     constructor( private actions$: Actions,
-                 private sorteosService: ContactFormService ){
+                private sorteosService: ContactFormService ){
 
     }
 
@@ -18,7 +18,7 @@ export class SorteosEffects {
             tap( data => console.log('effect tap', data)),
             mergeMap( () => this.sorteosService.consultaPersonas()
                     .pipe(
-                        map( sorteos => sorteos )
+                        map( sorteos => usuariosActions.cargarSorteosSuccess({ sorteos: sorteos}))
                     )
             )
         )

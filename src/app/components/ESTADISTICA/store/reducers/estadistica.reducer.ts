@@ -24,7 +24,7 @@ const _sorteosReducer = createReducer( sorteosInitialState,
         ...state,
         loading: false,
         loaded: true,
-        sorteo: [ ...sorteos ]
+        sorteos: [ ...sorteos ]
     })),
 
     on( cargarSorteosError, (state, { payload }) => ({

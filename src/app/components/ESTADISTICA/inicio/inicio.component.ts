@@ -18,6 +18,10 @@ export class InicioComponent implements OnInit {
 
   ngOnInit(): void {
 
+    this.store.select('sorteos').subscribe( sorteos => {
+      console.log(sorteos, 'LOS SORTEOS');
+    })
+
     this.store.dispatch( cargarSorteos())
 /*     this.contactFormService.consultaPersonas().subscribe( data => {
 
