@@ -1536,5 +1536,25 @@ export const LINKS: BloqueContenidoModel[] = [
             }
         ]
     },
+    {
+        id: 'utilidades',
+        titulo: 'Utilidades',
+        contenidoIcons: false,
+        bloque: [
+            {
+                index: '1',
+                links: [
+                    {
+                        img: 'assets/img/icons/siata.png',
+                        nombreRecurso: '',
+                        height: '90',
+                        rutaRecurso: 'https://siata.gov.co/siata_nuevo/',
+                        descripcion: 'Estado del clima en Antioquia - Colombia.',
+                        red: ''
+                    }
+                ]
+            }
+        ]
+    },
 
 ]
