@@ -27,11 +27,7 @@ export class InicioComponent implements OnInit {
     })
 
     this.store.dispatch( cargarSorteos()) */
-/*     this.contactFormService.consultaPersonas().subscribe( data => {
-
-      this.bloqueDatos = data.data;
-      
-    }) */
+/* toro */
     
   }
 
