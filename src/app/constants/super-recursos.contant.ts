@@ -695,7 +695,15 @@ export const LINKS: BloqueContenidoModel[] = [
                         red: ''
                     },
                     {
-                        img: 'assets/img/icons/Bootstrap.png',
+                        img: 'assets/img/icons/bootstrap-4.png',
+                        nombreRecurso: '',
+                        height: '100',
+                        rutaRecurso: 'https://getbootstrap.com/docs/4.6/getting-started/introduction/',
+                        descripcion: 'Versión 4.6',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/bootstrap5.png',
                         nombreRecurso: '',
                         height: '65',
                         rutaRecurso: 'https://getbootstrap.com/docs/5.0/getting-started/introduction/',
@@ -703,7 +711,7 @@ export const LINKS: BloqueContenidoModel[] = [
                         red: ''
                     },
                     {
-                        img: 'assets/img/icons/bootstrap5.png',
+                        img: 'assets/img/icons/cssminifier.png',
                         nombreRecurso: '',
                         height: '45',
                         rutaRecurso: 'https://cssminifier.com',
@@ -718,6 +726,11 @@ export const LINKS: BloqueContenidoModel[] = [
                         descripcion: 'OWL CAROUSEL 2" librería para crear sliders.',
                         red: ''
                     },
+                ]
+            },
+            {
+                index: '2',
+                links: [
                     {
                         img: '',
                         nombreRecurso: 'AOS',
@@ -726,11 +739,6 @@ export const LINKS: BloqueContenidoModel[] = [
                         descripcion: 'Librería de animaciones con scroll.',
                         red: ''
                     },
-                ]
-            },
-            {
-                index: '2',
-                links: [
                     {
                         img: 'assets/img/icons/normalize.png',
                         nombreRecurso: '',

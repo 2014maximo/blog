@@ -14,15 +14,19 @@ export class InicioComponent implements OnInit {
 
   public bloqueDatos: any;
 
-  constructor(private store: Store<AppState>) { }
+  constructor(private store: Store<AppState>,
+              private consultaSorteos: ContactFormService) { }
 
   ngOnInit(): void {
 
-    this.store.select('sorteos').subscribe( sorteos => {
+    this.consultaSorteos.consultaSorteos().subscribe( (datos:any) =>{
+      console.log(datos, 'LO QUE TRAE EL SERVICIO DE CONSULTA');
+    })
+/*     this.store.select('sorteos').subscribe( sorteos => {
       console.log(sorteos, 'LOS SORTEOS');
     })
 
-    this.store.dispatch( cargarSorteos())
+    this.store.dispatch( cargarSorteos()) */
 /*     this.contactFormService.consultaPersonas().subscribe( data => {
 
       this.bloqueDatos = data.data;
