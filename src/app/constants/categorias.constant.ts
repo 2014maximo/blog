@@ -731,4 +731,98 @@ export const CATEGORIAS: CategoriasModel [] = [
             },
         ]
     },
+/*      NET-FRAMEWORK    */
+    {
+        id:15,
+        categoria: 'net-framework',
+        rutaCategoria: 'categoria-net-framework',
+        rutaIcono: 'assets/img/categorias/net-framework.png',
+        alturaIcono: '80',
+        color: 'bg-NetFramework',
+        post: [
+            {
+                nombre: 'INSTALACIÓN',
+                posicion: 'pos-z',
+                ruta:'net-instalacion',
+                activo: true
+            },
+            {
+                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                posicion: 'rot-2',
+                ruta:'dart-elementos-descripcion',
+                activo: false
+            },
+            {
+                nombre: 'CRUD',
+                posicion: 'rot-1',
+                ruta:'crud-dart',
+                activo: false
+            },
+            {
+                nombre: 'TERMINOS AVANZADOS',
+                posicion: 'rot-2',
+                ruta:'dart-terminos-avanzados',
+                activo: false
+            },
+            {
+                nombre: 'CONTEXTO DART',
+                posicion: 'pos-z',
+                ruta:'contexto-dart',
+                activo: false
+            },
+            {
+                nombre: 'PRUEBAS UNITARIAS',
+                posicion: 'pos-z',
+                ruta:'dart-pruebas-unitarias',
+                activo: false
+            },
+        ]
+    },
+/*      SENA    */
+    {
+        id:16,
+        categoria: 'sena',
+        rutaCategoria: 'categoria-sena',
+        rutaIcono: 'assets/img/categorias/sena.png',
+        alturaIcono: '80',
+        color: 'bg-Sena',
+        post: [
+            {
+                nombre: 'FICHA 2276732',
+                posicion: 'pos-z',
+                ruta:'ficha-2276732',
+                activo: true
+            },
+            {
+                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                posicion: 'rot-2',
+                ruta:'dart-elementos-descripcion',
+                activo: false
+            },
+            {
+                nombre: 'CRUD',
+                posicion: 'rot-1',
+                ruta:'crud-dart',
+                activo: false
+            },
+            {
+                nombre: 'TERMINOS AVANZADOS',
+                posicion: 'rot-2',
+                ruta:'dart-terminos-avanzados',
+                activo: false
+            },
+            {
+                nombre: 'CONTEXTO DART',
+                posicion: 'pos-z',
+                ruta:'contexto-dart',
+                activo: false
+            },
+            {
+                nombre: 'PRUEBAS UNITARIAS',
+                posicion: 'pos-z',
+                ruta:'dart-pruebas-unitarias',
+                activo: false
+            },
+        ]
+    },
 ]

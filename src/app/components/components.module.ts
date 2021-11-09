@@ -9,6 +9,7 @@ import { SuperRecursosInternetComponent } from './DEVELOPER/super-recursos-inter
 import { InicioComponent } from './ESTADISTICA/inicio/inicio.component';
 import { Primeng7DescripcionElementosComponent } from './ANGULAR/primeng7-descripcion-elementos/primeng7-descripcion-elementos.component';
 import { AngularDescripcionElementosComponent } from './ANGULAR/angular-descripcion-elementos/angular-descripcion-elementos.component';
+import { NetInstalacionComponent } from './NET-FRAMEWORK/net-instalacion/net-instalacion.component';
 
 
 
@@ -21,7 +22,8 @@ import { AngularDescripcionElementosComponent } from './ANGULAR/angular-descripc
     SuperRecursosInternetComponent,
     InicioComponent,
     Primeng7DescripcionElementosComponent,
-    AngularDescripcionElementosComponent
+    AngularDescripcionElementosComponent,
+    NetInstalacionComponent
   ],
   imports: [
     CommonModule,

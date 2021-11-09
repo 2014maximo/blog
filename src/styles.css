@@ -187,6 +187,12 @@ html{
 .bg-Wordpress{
     background-color: #35697d;
 }
+.bg-NetFramework{
+    background-color: #5b2d90;
+}
+.bg-Sena{
+    background-color: #fe6719;
+}
 /* HEADER  ----------------*/
 .header {
     padding: 0px;

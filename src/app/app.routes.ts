@@ -5,6 +5,7 @@ import { SuperRecursosInternetComponent } from './components/DEVELOPER/super-rec
 import { InicioComponent } from './components/ESTADISTICA/inicio/inicio.component';
 import { Primeng7DescripcionElementosComponent } from './components/ANGULAR/primeng7-descripcion-elementos/primeng7-descripcion-elementos.component';
 import { AngularDescripcionElementosComponent } from './components/ANGULAR/angular-descripcion-elementos/angular-descripcion-elementos.component';
+import { NetInstalacionComponent } from './components/NET-FRAMEWORK/net-instalacion/net-instalacion.component';
 
 
 export const ROUTES: Routes = [
@@ -14,6 +15,8 @@ export const ROUTES: Routes = [
     { path: 'angular-instalacion', component: InstalacionAngularComponent },
     { path: 'p-ng-descripcion-elementos', component: Primeng7DescripcionElementosComponent },
     { path: 'angular-descripcion-elementos', component: AngularDescripcionElementosComponent },
+// NET-FRAMEWORKS
+    { path: 'net-instalacion', component: NetInstalacionComponent },
 // DEVELOPER
     { path: 'super-recursos-internet', component: SuperRecursosInternetComponent },
 // ESTADISTICA
