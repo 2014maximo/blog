@@ -7,6 +7,8 @@ import { InstalacionAngularComponent } from './ANGULAR/instalacion-angular/insta
 import { PruebasUnitariasComponent } from './ANGULAR/pruebas-unitarias/pruebas-unitarias.component';
 import { SuperRecursosInternetComponent } from './DEVELOPER/super-recursos-internet/super-recursos-internet.component';
 import { InicioComponent } from './ESTADISTICA/inicio/inicio.component';
+import { Primeng7DescripcionElementosComponent } from './ANGULAR/primeng7-descripcion-elementos/primeng7-descripcion-elementos.component';
+import { AngularDescripcionElementosComponent } from './ANGULAR/angular-descripcion-elementos/angular-descripcion-elementos.component';
 
 
 
@@ -17,7 +19,9 @@ import { InicioComponent } from './ESTADISTICA/inicio/inicio.component';
     InstalacionAngularComponent,
     PruebasUnitariasComponent,
     SuperRecursosInternetComponent,
-    InicioComponent
+    InicioComponent,
+    Primeng7DescripcionElementosComponent,
+    AngularDescripcionElementosComponent
   ],
   imports: [
     CommonModule,

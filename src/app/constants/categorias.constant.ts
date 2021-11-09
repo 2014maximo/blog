@@ -70,10 +70,10 @@ export const CATEGORIAS: CategoriasModel [] = [
                 activo: false
             },
             {
-                nombre: 'ELEMENTOS DESCRIPCIÓN...',
+                nombre: 'DESCRIPCIÓN ELEMENTOS',
                 posicion: 'rot-2',
-                ruta:'componentes/ANGULAR/ang_004.html',
-                activo: false
+                ruta:'angular-descripcion-elementos',
+                activo: true
             },
             {
                 nombre: 'CRUD CON UN MOCKDATA',
@@ -143,7 +143,7 @@ export const CATEGORIAS: CategoriasModel [] = [
                 ]
             },
             {
-                subCategoria: 'PrimeNG',
+                subCategoria: 'PrimeNG 7.2.6 lts',
                 post: [
                     {
                         nombre: 'INSTALACIÓN',
@@ -152,10 +152,10 @@ export const CATEGORIAS: CategoriasModel [] = [
                         activo: false
                     },
                     {
-                        nombre: 'ELEMENTOS DESCRIPCIÓN',
+                        nombre: 'DESCRIPCIÓN ELEMENTOS',
                         posicion: 'rot-2',
-                        ruta: 'componentes/ANGULAR/ang_002.html',
-                        activo: false
+                        ruta: 'p-ng-descripcion-elementos',
+                        activo: true
                     },
                 ]
             },

@@ -84,6 +84,6 @@ export class InstalacionAngularComponent implements OnInit {
 
   scroll(el: HTMLElement) {
     el.scrollIntoView();
-}
+  }
 
 }
