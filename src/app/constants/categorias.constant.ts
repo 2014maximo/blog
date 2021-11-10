@@ -790,39 +790,15 @@ export const CATEGORIAS: CategoriasModel [] = [
             {
                 nombre: 'FICHA 2276732',
                 posicion: 'pos-z',
-                ruta:'ficha-2276732',
+                ruta:'ficha-actual',
                 activo: true
             },
             {
-                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                nombre: 'RECURSOS INFORMATIVOS',
                 posicion: 'rot-2',
-                ruta:'dart-elementos-descripcion',
+                ruta:'recursos-informativos',
                 activo: false
-            },
-            {
-                nombre: 'CRUD',
-                posicion: 'rot-1',
-                ruta:'crud-dart',
-                activo: false
-            },
-            {
-                nombre: 'TERMINOS AVANZADOS',
-                posicion: 'rot-2',
-                ruta:'dart-terminos-avanzados',
-                activo: false
-            },
-            {
-                nombre: 'CONTEXTO DART',
-                posicion: 'pos-z',
-                ruta:'contexto-dart',
-                activo: false
-            },
-            {
-                nombre: 'PRUEBAS UNITARIAS',
-                posicion: 'pos-z',
-                ruta:'dart-pruebas-unitarias',
-                activo: false
-            },
+            }
         ]
     },
 ]
