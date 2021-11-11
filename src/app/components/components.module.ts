@@ -12,6 +12,7 @@ import { AngularDescripcionElementosComponent } from './ANGULAR/angular-descripc
 import { NetInstalacionComponent } from './NET-FRAMEWORK/net-instalacion/net-instalacion.component';
 import { FichaActualComponent } from './SENA/ficha-actual/ficha-actual.component';
 import { RecursosInformativosComponent } from './SENA/recursos-informativos/recursos-informativos.component';
+import { RecorrerArraysObjetosComponent } from './JAVASCRIPT/recorrer-arrays-objetos/recorrer-arrays-objetos.component';
 
 
 
@@ -27,7 +28,8 @@ import { RecursosInformativosComponent } from './SENA/recursos-informativos/recu
     AngularDescripcionElementosComponent,
     NetInstalacionComponent,
     FichaActualComponent,
-    RecursosInformativosComponent
+    RecursosInformativosComponent,
+    RecorrerArraysObjetosComponent
   ],
   imports: [
     CommonModule,

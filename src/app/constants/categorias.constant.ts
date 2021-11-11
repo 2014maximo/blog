@@ -506,10 +506,10 @@ export const CATEGORIAS: CategoriasModel [] = [
         color: 'bg-Javascript',
         post: [
             {
-                nombre: 'INSTALACIÓN',
+                nombre: 'RECORRER ARRAYS OBJETOS',
                 posicion: 'pos-z',
-                ruta:'instalacion-dart',
-                activo: false
+                ruta:'recorrer-arrays-objetos',
+                activo: true
             },
             {
                 nombre: 'ELEMENTOS Y DESCRIPCIÓN',
