@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MENU_1, MENU_2, MENU_3, MENU_4 } from '../../constants/menu-home.constant';
 import { CATEGORIAS } from '../../constants/categorias.constant';
 import { CategoriasModel } from '../../models/categorias.model';
+import { IndiceDeContenidosModel } from '../../models/indice.model';
 
 @Component({
   selector: 'app-menu-home',
@@ -12,6 +13,7 @@ export class MenuHomeComponent implements OnInit {
 
   public menus: any;
   public categorias: CategoriasModel[] = [];
+  public pasoDeIndice: IndiceDeContenidosModel [] = []
 
   constructor() {
     this.inicializarVariables();
@@ -28,6 +30,23 @@ export class MenuHomeComponent implements OnInit {
       menuCuatro: MENU_4,
     }
     this.categorias = CATEGORIAS;
+
+    this.pasoDeIndice = [
+      {
+        nombre: 'ANDROID STUDIO',
+        posicion: 'pos-z',
+        rutaExterna: 'android-studio',
+        fondo: 'bg-Android',
+        colorTexto: 'text-light'
+      },
+      {
+        nombre: 'REDES DEV',
+        posicion: 'rot-2',
+        rutaExterna: 'redes-dev',
+        fondo: 'bg-light',
+        colorTexto: 't2'
+      },
+    ]
 
   }
 

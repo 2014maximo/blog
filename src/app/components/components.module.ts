@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { And001Component } from './ANDROID/and001/and001.component';
 import { HomeComponent } from './home/home.component';
 import { SharedModule } from '../shared/shared.module';
 import { InstalacionAngularComponent } from './ANGULAR/instalacion-angular/instalacion-angular.component';
@@ -13,12 +12,12 @@ import { NetInstalacionComponent } from './NET-FRAMEWORK/net-instalacion/net-ins
 import { FichaActualComponent } from './SENA/ficha-actual/ficha-actual.component';
 import { RecursosInformativosComponent } from './SENA/recursos-informativos/recursos-informativos.component';
 import { RecorrerArraysObjetosComponent } from './JAVASCRIPT/recorrer-arrays-objetos/recorrer-arrays-objetos.component';
+import { AndroidStudioComponent } from './ANDROID/android-studio/android-studio.component';
 
 
 
 @NgModule({
   declarations: [
-    And001Component,
     HomeComponent,
     InstalacionAngularComponent,
     PruebasUnitariasComponent,
@@ -29,14 +28,14 @@ import { RecorrerArraysObjetosComponent } from './JAVASCRIPT/recorrer-arrays-obj
     NetInstalacionComponent,
     FichaActualComponent,
     RecursosInformativosComponent,
-    RecorrerArraysObjetosComponent
+    RecorrerArraysObjetosComponent,
+    AndroidStudioComponent
   ],
   imports: [
     CommonModule,
     SharedModule
   ],
   exports: [
-    And001Component,
     HomeComponent
   ]
 })
