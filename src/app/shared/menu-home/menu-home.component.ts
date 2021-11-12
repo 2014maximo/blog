@@ -40,11 +40,18 @@ export class MenuHomeComponent implements OnInit {
         colorTexto: 'text-light'
       },
       {
-        nombre: 'REDES DEV',
+        nombre: 'ANGULAR',
         posicion: 'rot-2',
-        rutaExterna: 'redes-dev',
-        fondo: 'bg-light',
-        colorTexto: 't2'
+        rutaExterna: 'angular',
+        fondo: 'bg-Angular',
+        colorTexto: 'text-light'
+      },
+      {
+        nombre: 'CSS',
+        posicion: 'rot-2',
+        rutaExterna: 'css',
+        fondo: 'bg-Css',
+        colorTexto: 'text-light'
       },
     ]
 
