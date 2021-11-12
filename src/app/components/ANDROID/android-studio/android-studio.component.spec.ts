@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { And001Component } from './and001.component';
+import { AndroidStudioComponent } from './android-studio.component';
 
-describe('And001Component', () => {
-  let component: And001Component;
-  let fixture: ComponentFixture<And001Component>;
+describe('AndroidStudioComponent', () => {
+  let component: AndroidStudioComponent;
+  let fixture: ComponentFixture<AndroidStudioComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ And001Component ]
+      declarations: [ AndroidStudioComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(And001Component);
+    fixture = TestBed.createComponent(AndroidStudioComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
