@@ -10,6 +10,9 @@ import { FichaActualComponent } from './components/SENA/ficha-actual/ficha-actua
 import { RecursosInformativosComponent } from './components/SENA/recursos-informativos/recursos-informativos.component';
 import { RecorrerArraysObjetosComponent } from './components/JAVASCRIPT/recorrer-arrays-objetos/recorrer-arrays-objetos.component';
 import { AndroidStudioComponent } from './components/ANDROID/android-studio/android-studio.component';
+import { AngularComponent } from './components/ANGULAR/angular/angular.component';
+import { CssComponent } from './components/CSS/css/css.component';
+import { DartComponent } from './components/DART/dart/dart.component';
 
 
 export const ROUTES: Routes = [
@@ -18,9 +21,14 @@ export const ROUTES: Routes = [
 // ANDROID STUDIO
     { path: 'android-studio', component: AndroidStudioComponent },
 // ANGULAR
+    { path: 'angular', component: AngularComponent },
     { path: 'angular-instalacion', component: InstalacionAngularComponent },
     { path: 'p-ng-descripcion-elementos', component: Primeng7DescripcionElementosComponent },
     { path: 'angular-descripcion-elementos', component: AngularDescripcionElementosComponent },
+// CSS
+    { path: 'css', component: CssComponent },
+// DART
+    { path: 'dart', component: DartComponent },
 // DEVELOPER
     { path: 'super-recursos-internet', component: SuperRecursosInternetComponent },
 // ESTADISTICA

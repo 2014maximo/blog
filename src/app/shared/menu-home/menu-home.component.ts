@@ -53,6 +53,20 @@ export class MenuHomeComponent implements OnInit {
         fondo: 'bg-Css',
         colorTexto: 'text-light'
       },
+      {
+        nombre: 'DART',
+        posicion: 'rot-2',
+        rutaExterna: 'dart',
+        fondo: 'bg-Dart',
+        colorTexto: 'text-light'
+      },
+      {
+        nombre: 'DEVELOPER',
+        posicion: 'rot-2',
+        rutaExterna: 'developer',
+        fondo: 'bg-Developer',
+        colorTexto: 'text-light'
+      },
     ]
 
   }

@@ -13,6 +13,9 @@ import { FichaActualComponent } from './SENA/ficha-actual/ficha-actual.component
 import { RecursosInformativosComponent } from './SENA/recursos-informativos/recursos-informativos.component';
 import { RecorrerArraysObjetosComponent } from './JAVASCRIPT/recorrer-arrays-objetos/recorrer-arrays-objetos.component';
 import { AndroidStudioComponent } from './ANDROID/android-studio/android-studio.component';
+import { CssComponent } from './CSS/css/css.component';
+import { AngularComponent } from './ANGULAR/angular/angular.component';
+import { DartComponent } from './DART/dart/dart.component';
 
 
 
@@ -29,7 +32,10 @@ import { AndroidStudioComponent } from './ANDROID/android-studio/android-studio.
     FichaActualComponent,
     RecursosInformativosComponent,
     RecorrerArraysObjetosComponent,
-    AndroidStudioComponent
+    AndroidStudioComponent,
+    CssComponent,
+    AngularComponent,
+    DartComponent
   ],
   imports: [
     CommonModule,
