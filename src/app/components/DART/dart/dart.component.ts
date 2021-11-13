@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HeaderPostModel } from '../../../models/post.model';
 
 @Component({
   selector: 'app-dart',
@@ -7,9 +8,31 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DartComponent implements OnInit {
 
-  constructor() { }
+  public cabeceraPost: HeaderPostModel = {
+    rutaImagen: '',
+    alturaImagen: '',
+    fondo: false,
+    tituloPost: ''
+  }
+
+  constructor() {
+    this.inicializarVariables();
+   }
 
   ngOnInit(): void {
+  }
+
+  private inicializarVariables() {
+    this.cabeceraPost = {
+      rutaImagen: 'assets/img/banner/Instalaciona-angular.jpg',
+      fondo: false,
+      tituloPost: 'DART',
+      alturaImagen: ''
+    };
+  }
+
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
   }
 
 }

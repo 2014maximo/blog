@@ -1463,6 +1463,14 @@ export const LINKS: BloqueContenidoModel[] = [
                         rutaRecurso: 'https://www.epm.com.co/site/home/paga-tu-factura',
                         descripcion: 'Paga la factura de energía de Medellín',
                         red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/claroletras.png',
+                        nombreRecurso: '',
+                        height: '90',
+                        rutaRecurso: 'https://portalpagos.claro.com.co/',
+                        descripcion: 'Portal de PAGOS Y RECARGAS',
+                        red: ''
                     }
                 ]
             }

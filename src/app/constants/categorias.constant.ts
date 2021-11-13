@@ -5,7 +5,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     {
         id:1,
         categoria: 'android',
-        rutaCategoria: 'componentes/ANDROID/categoria.html',
+        rutaCategoria: 'android-studio',
         rutaIcono: 'assets/img/categorias/android-studio_text_white.png',
         alturaIcono: '80',
         color: 'bg-Android',
@@ -218,7 +218,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     {
         id:4,
         categoria: 'dart',
-        rutaCategoria: 'categoria-dart',
+        rutaCategoria: 'dart',
         rutaIcono: 'assets/img/categorias/dart_text_white.png',
         alturaIcono: '40',
         color: 'bg-Dart',

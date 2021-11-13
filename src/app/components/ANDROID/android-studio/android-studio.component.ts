@@ -24,7 +24,7 @@ export class AndroidStudioComponent implements OnInit {
 
   private inicializarVariables() {
     this.cabeceraPost = {
-      rutaImagen: 'assets/img/banner/Instalaciona-angular.jpg',
+      rutaImagen: 'assets/img/banner/android-studio-robot.png',
       fondo: false,
       tituloPost: 'ANDROID STUDIO',
       alturaImagen: ''
