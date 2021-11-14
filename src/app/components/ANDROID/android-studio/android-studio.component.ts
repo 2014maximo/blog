@@ -28,10 +28,11 @@ export class AndroidStudioComponent implements OnInit {
   private inicializarVariables() {
 
     this.cabeceraPost = {
-      rutaImagen: 'assets/img/banner/android-studio-robot.png',
-      fondo: false,
+      rutaImagen: 'assets/img/icons/android.png',
+      fondo: true,
       tituloPost: 'ANDROID STUDIO',
-      alturaImagen: ''
+      alturaImagen: '150',
+      sombra: 'drop'
     };
     this.clasePaso = 'mt-5'
     this.pasoDeIndice = [
