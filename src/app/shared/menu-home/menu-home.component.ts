@@ -14,6 +14,7 @@ export class MenuHomeComponent implements OnInit {
   public menus: any;
   public categorias: CategoriasModel[] = [];
   public pasoDeIndice: IndiceDeContenidosModel [] = []
+  public claseContenedor: string = '';
 
   constructor() {
     this.inicializarVariables();
@@ -30,6 +31,8 @@ export class MenuHomeComponent implements OnInit {
       menuCuatro: MENU_4,
     }
     this.categorias = CATEGORIAS;
+
+    this.claseContenedor = 'mt-2'
 
     this.pasoDeIndice = [
       {

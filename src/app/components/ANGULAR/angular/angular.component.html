@@ -1,7 +1,24 @@
 <div #target></div>
 <app-header-home></app-header-home>
+<div class="espaciado"></div>
 <app-header-post [cabecera]="cabeceraPost"></app-header-post>
 
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <app-indice-contenidos [indice]="indiceAngular" [clase]="claseAngular"></app-indice-contenidos>
+        <div class="espacio"></div>
+        
+        <img src="assets/img/icons/ionic.png" alt="" class="drop mb-3" height="60" width="auto">
+        <app-indice-contenidos [indice]="indiceIonic"></app-indice-contenidos>
+        
+        <div class="espacio"></div>
+        <img src="assets/img/icons/primeng.png" alt="" class="drop mb-3" height="60" width="auto">
+        <app-indice-contenidos [indice]="indicePrime"></app-indice-contenidos>
+    </div>
+    <div class="col-md-2"></div>
+</div>
 
 <div class="espaciado"></div>
 

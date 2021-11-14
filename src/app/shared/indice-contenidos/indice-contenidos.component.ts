@@ -16,7 +16,9 @@ export class IndiceContenidosComponent implements OnInit {
       fondo: '',
       colorTexto: ''
     },
-]
+  ]
+  
+  @Input() clase: string = '';
 
 
   constructor() { }

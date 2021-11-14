@@ -19,8 +19,9 @@ export class SuperRecursosInternetComponent implements OnInit {
   }
   
   public pasoDeIndice: IndiceDeContenidosModel [] = []
-
   public pasoBloques: BloqueContenidoModel [] = [];
+  public claseContenedor: string = '';
+
 
   constructor() { 
     this.inicializarVariables();
@@ -36,6 +37,7 @@ export class SuperRecursosInternetComponent implements OnInit {
       tituloPost: 'SUPER RECURSOS DE INTERNET',
       alturaImagen: ''
     };
+    this.claseContenedor = 'mt-5'
 
     this.pasoDeIndice = [
       {

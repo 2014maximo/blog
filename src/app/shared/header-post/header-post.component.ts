@@ -12,11 +12,13 @@ export class HeaderPostComponent implements OnInit {
     rutaImagen: '',
     fondo:  false,
     tituloPost: '',
-    alturaImagen: ''
+    alturaImagen: '',
+    sombra: ''
+
   };
 
   constructor() {
-   }
+  }
 
   ngOnInit(): void {
   }

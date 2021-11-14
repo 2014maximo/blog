@@ -15,7 +15,7 @@ export class AndroidStudioComponent implements OnInit {
     fondo: false,
     tituloPost: ''
   }
-
+  public clasePaso: string = '';
   public pasoDeIndice: IndiceDeContenidosModel [] = []
 
   constructor() {
@@ -33,20 +33,21 @@ export class AndroidStudioComponent implements OnInit {
       tituloPost: 'ANDROID STUDIO',
       alturaImagen: ''
     };
+    this.clasePaso = 'mt-5'
     this.pasoDeIndice = [
       {
         nombre: 'INSTALACIÓN',
         posicion: 'pos-z',
         rutaExterna: 'android-instalacion',
-        fondo: 'bg-light',
-        colorTexto: 't2'
+        fondo: 'bg-Android',
+        colorTexto: 'text-light'
       },
       {
         nombre: 'ELEMENTOS Y DESCRIPCIÓN',
         posicion: 'rot-2',
         rutaExterna: 'android-elementos',
-        fondo: 'bg-light',
-        colorTexto: 't2'
+        fondo: 'bg-Android',
+        colorTexto: 'text-light'
       },
     ]
   }

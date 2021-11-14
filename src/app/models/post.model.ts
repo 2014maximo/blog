@@ -4,6 +4,7 @@ export class HeaderPostModel {
     fondo: boolean = false;
     tituloPost: string = '';
     alturaImagen: string = '';
+    sombra?: string = '';
 
 }
 export class ObjectAccordeonPostModel {

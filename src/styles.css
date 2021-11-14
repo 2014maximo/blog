@@ -169,6 +169,9 @@ html{
 .bg-Html{
     background-color: #f37001;
 }
+.bg-Ionic{
+    background-color: #377ffe;
+}
 .bg-Java{
     background-color: #eb2025;
 }
@@ -180,6 +183,9 @@ html{
 }
 .bg-Php{
     background-color: #45538b;
+}
+.bg-Prime{
+    background-color: #36474f;
 }
 .bg-Sql{
     background-color: #fdb200;
@@ -348,7 +354,6 @@ a:hover {
 .retire-dots .owl-dots {
     display: none !important;
 }
-
 
 .drop {
     filter: drop-shadow(0 11px 1px rgba(0, 0, 0, 0.7));

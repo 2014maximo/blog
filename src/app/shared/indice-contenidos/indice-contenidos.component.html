@@ -1,4 +1,4 @@
-<div class="row mt-5">
+<div class="row {{ clase }}">
     <div *ngFor="let contenido of indice" class="col {{ contenido.fondo }} {{ contenido.posicion }} l-menu cursor-p pr-2 pl-2">
         <a *ngIf="contenido.ruta" (click)="scroll(contenido.ruta)" class="{{ contenido.colorTexto }}" >{{ contenido.nombre }}</a>
         <a *ngIf="contenido.rutaExterna" href="{{contenido.rutaExterna}}" class="{{ contenido.colorTexto }}" >{{ contenido.nombre }}</a>
