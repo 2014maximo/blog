@@ -38,7 +38,7 @@ export class AngularComponent implements OnInit {
       alturaImagen: '300',
       sombra: 'drop'
     };
-    this.claseAngular = 'mt-5';
+    this.claseAngular = 'mt-2';
     this.indiceAngular = [
       {
         nombre: 'INSTALACIÓN',
