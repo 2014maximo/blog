@@ -11,15 +11,15 @@ export const CATEGORIAS: CategoriasModel [] = [
         color: 'bg-Android',
         post: [
             {
-                nombre: 'ATRIBUTOS CSS',
+                nombre: 'INSTALACION',
                 posicion: 'pos-z',
-                ruta:'componentes/ANDROID/and_001.html',
+                ruta:'android-instalacion',
                 activo: false
             },
             {
                 nombre: 'ELEMENTOS Y DESCRIPCIÓN',
                 posicion: 'rot-2',
-                ruta:'componentes/ANDROID/and_002.html',
+                ruta:'android-elementos',
                 activo: false
             },
             {
@@ -46,7 +46,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     {
         id:2,
         categoria: 'angular',
-        rutaCategoria: 'componentes/ANGULAR/categoria.html',
+        rutaCategoria: 'angular',
         rutaIcono: 'assets/img/categorias/angular.png',
         alturaIcono: '80',
         color: 'bg-Angular',
