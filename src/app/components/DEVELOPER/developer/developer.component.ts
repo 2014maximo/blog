@@ -38,7 +38,7 @@ export class DeveloperComponent implements OnInit {
 
     this.indiceDeveloper = [
       {
-        nombre: 'SUPER RECURSOS DE INTERNET',
+        nombre: 'RECURSOS DE INTERNET',
         posicion: 'pos-z',
         rutaExterna: 'super-recursos-internet',
         fondo: 'bg-Developer',
@@ -95,7 +95,7 @@ export class DeveloperComponent implements OnInit {
         colorTexto: 'text-light',
       },
       {
-        nombre: 'EXTENSIONES VISUAL STUDIO CODE',
+        nombre: 'EXTENSIONES VS CODE',
         posicion: 'rot-2',
         rutaExterna: 'android-elementos',
         fondo: 'bg-Developer',

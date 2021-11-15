@@ -40,35 +40,40 @@ export class MenuHomeComponent implements OnInit {
         posicion: 'pos-z',
         rutaExterna: 'android-studio',
         fondo: 'bg-Android',
-        colorTexto: 'text-light'
+        colorTexto: 'text-light',
+        activo: true
       },
       {
         nombre: 'ANGULAR',
         posicion: 'rot-2',
         rutaExterna: 'angular',
         fondo: 'bg-Angular',
-        colorTexto: 'text-light'
+        colorTexto: 'text-light',
+        activo: true
       },
       {
         nombre: 'CSS',
         posicion: 'rot-2',
         rutaExterna: 'css',
         fondo: 'bg-Css',
-        colorTexto: 'text-light'
+        colorTexto: 'text-light',
+        activo: true
       },
       {
         nombre: 'DART',
         posicion: 'rot-2',
         rutaExterna: 'dart',
         fondo: 'bg-Dart',
-        colorTexto: 'text-light'
+        colorTexto: 'text-light',
+        activo: true
       },
       {
         nombre: 'DEVELOPER',
         posicion: 'rot-2',
         rutaExterna: 'developer',
         fondo: 'bg-Developer',
-        colorTexto: 'text-light'
+        colorTexto: 'text-light',
+        activo: true
       },
     ]
 
