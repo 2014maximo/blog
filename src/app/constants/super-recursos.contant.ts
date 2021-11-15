@@ -1546,7 +1546,8 @@ export const LINKS: BloqueContenidoModel[] = [
                         height: '30',
                         rutaRecurso: 'https://www.gamestorrents.nz/',
                         descripcion: 'Descarga de juegos gratis.',
-                        red: ''
+                        red: '',
+                        mediaQuery: 'img-fluid'
                     }
                 ]
             }
