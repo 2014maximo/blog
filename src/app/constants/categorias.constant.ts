@@ -165,7 +165,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     {
         id:3,
         categoria: 'css',
-        rutaCategoria: 'componentes/CSS/categoria.html',
+        rutaCategoria: 'css',
         rutaIcono: 'assets/img/categorias/css.png',
         alturaIcono: '80',
         color: 'bg-Css',
@@ -265,7 +265,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     {
         id:5,
         categoria: 'developer',
-        rutaCategoria: 'categoria-developer',
+        rutaCategoria: 'developer',
         rutaIcono: 'assets/img/categorias/developer.png',
         alturaIcono: '80',
         color: 'bg-Developer',

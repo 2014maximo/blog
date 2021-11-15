@@ -38,21 +38,105 @@ export class AngularComponent implements OnInit {
       alturaImagen: '300',
       sombra: 'drop'
     };
+
     this.claseAngular = 'mt-2';
+
     this.indiceAngular = [
       {
         nombre: 'INSTALACIÓN',
         posicion: 'pos-z',
         rutaExterna: 'angular-instalacion',
         fondo: 'bg-Angular',
-        colorTexto: 'text-light'
+        colorTexto: 'text-light',
+        activo: true
       },
       {
         nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+        posicion: 'pos-z',
+        rutaExterna: 'android-elementos',
+        fondo: 'bg-Angular',
+        colorTexto: 'text-light',
+        activo: true
+      },
+      {
+        nombre: 'PRUEBAS UNITARIAS',
         posicion: 'rot-2',
         rutaExterna: 'android-elementos',
         fondo: 'bg-Angular',
-        colorTexto: 'text-light'
+        colorTexto: 'text-light',
+        activo: false
+      },
+      {
+        nombre: 'INPUT Y OUTPUT',
+        posicion: 'rot-3',
+        rutaExterna: 'android-elementos',
+        fondo: 'bg-Angular',
+        colorTexto: 'text-light',
+        activo: false
+      },
+      {
+        nombre: 'CRUD CON MOCKDATA',
+        posicion: 'pos-z',
+        rutaExterna: 'android-elementos',
+        fondo: 'bg-Angular',
+        colorTexto: 'text-light',
+        activo: false
+      },
+      {
+        nombre: 'RXJS',
+        posicion: 'rot-2',
+        rutaExterna: 'android-elementos',
+        fondo: 'bg-Angular',
+        colorTexto: 'text-light',
+        activo: false
+      },
+      {
+        nombre: 'MICROFRONTENDS',
+        posicion: 'pos-z',
+        rutaExterna: 'android-elementos',
+        fondo: 'bg-Angular',
+        colorTexto: 'text-light',
+        activo: false
+      },
+      {
+        nombre: 'DESPLEGAR EN GITHUB',
+        posicion: 'pos-z',
+        rutaExterna: 'android-elementos',
+        fondo: 'bg-Angular',
+        colorTexto: 'text-light',
+        activo: false
+      },
+      {
+        nombre: 'REDUX',
+        posicion: 'pos-z',
+        rutaExterna: 'android-elementos',
+        fondo: 'bg-Angular',
+        colorTexto: 'text-light',
+        activo: false
+      },
+      {
+        nombre: 'MÉTODO DEL BARRIL',
+        posicion: 'rot-1',
+        rutaExterna: 'android-elementos',
+        fondo: 'bg-Angular',
+        colorTexto: 'text-light',
+        activo: false
+      },
+      {
+        nombre: 'TIEPO REAL SOCKET Y REST',
+        posicion: 'rot-2',
+        rutaExterna: 'android-elementos',
+        fondo: 'bg-Angular',
+        colorTexto: 'text-light',
+        activo: false
+      },
+      {
+        nombre: 'DEBUGGEAR EN CHROME',
+        posicion: 'pos-z',
+        rutaExterna: 'android-elementos',
+        fondo: 'bg-Angular',
+        colorTexto: 'text-light',
+        activo: false
       },
     ]
 

@@ -16,6 +16,7 @@ import { AndroidStudioComponent } from './ANDROID/android-studio/android-studio.
 import { CssComponent } from './CSS/css/css.component';
 import { AngularComponent } from './ANGULAR/angular/angular.component';
 import { DartComponent } from './DART/dart/dart.component';
+import { DeveloperComponent } from './DEVELOPER/developer/developer.component';
 
 
 
@@ -35,7 +36,8 @@ import { DartComponent } from './DART/dart/dart.component';
     AndroidStudioComponent,
     CssComponent,
     AngularComponent,
-    DartComponent
+    DartComponent,
+    DeveloperComponent
   ],
   imports: [
     CommonModule,

@@ -13,6 +13,7 @@ import { AndroidStudioComponent } from './components/ANDROID/android-studio/andr
 import { AngularComponent } from './components/ANGULAR/angular/angular.component';
 import { CssComponent } from './components/CSS/css/css.component';
 import { DartComponent } from './components/DART/dart/dart.component';
+import { DeveloperComponent } from './components/DEVELOPER/developer/developer.component';
 
 
 export const ROUTES: Routes = [
@@ -30,6 +31,7 @@ export const ROUTES: Routes = [
 // DART
     { path: 'dart', component: DartComponent },
 // DEVELOPER
+    { path: 'developer', component: DeveloperComponent },
     { path: 'super-recursos-internet', component: SuperRecursosInternetComponent },
 // ESTADISTICA
     { path: 'estadistica-inicio', component: InicioComponent },
