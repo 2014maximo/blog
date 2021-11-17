@@ -17,6 +17,8 @@ import { CssComponent } from './CSS/css/css.component';
 import { AngularComponent } from './ANGULAR/angular/angular.component';
 import { DartComponent } from './DART/dart/dart.component';
 import { DeveloperComponent } from './DEVELOPER/developer/developer.component';
+import { FlutterComponent } from './FLUTTER/flutter/flutter.component';
+import { FlutterInstalacionComponent } from './FLUTTER/flutter-instalacion/flutter-instalacion.component';
 
 
 
@@ -37,7 +39,9 @@ import { DeveloperComponent } from './DEVELOPER/developer/developer.component';
     CssComponent,
     AngularComponent,
     DartComponent,
-    DeveloperComponent
+    DeveloperComponent,
+    FlutterComponent,
+    FlutterInstalacionComponent
   ],
   imports: [
     CommonModule,

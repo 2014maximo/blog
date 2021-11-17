@@ -312,7 +312,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     {
         id:6,
         categoria: 'flutter',
-        rutaCategoria: 'categoria-flutter',
+        rutaCategoria: 'flutter',
         rutaIcono: 'assets/img/categorias/flutter_text_white.png',
         alturaIcono: '80',
         color: 'bg-Flutter',
@@ -320,8 +320,8 @@ export const CATEGORIAS: CategoriasModel [] = [
             {
                 nombre: 'INSTALACIÓN',
                 posicion: 'pos-z',
-                ruta:'instalacion-dart',
-                activo: false
+                ruta:'flutter-instalacion',
+                activo: true
             },
             {
                 nombre: 'ELEMENTOS Y DESCRIPCIÓN',

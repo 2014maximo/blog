@@ -1,22 +1,17 @@
 <div #target></div>
 <app-header-home></app-header-home>
-
 <div class="espaciado"></div>
-
 <app-header-post [cabecera]="cabeceraPost"></app-header-post>
-
 
 <div class="row">
     <div class="col-md-2"></div>
     <div class="col-md-8 text-center">
-        <app-indice-contenidos [indice]="indiceDeveloper" [clase]="claseDeveloper"></app-indice-contenidos>
-        <div class="espacio"></div>
+        <app-indice-contenidos [indice]="indiceFlutter" [clase]="claseFlutter"></app-indice-contenidos>
     </div>
     <div class="col-md-2"></div>
 </div>
 
-<div class="espaciar"></div>
-
+<div class="espaciado"></div>
 
 <app-footer-home></app-footer-home>
 <div class="go-up" (click)="scroll(target)">

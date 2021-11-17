@@ -14,6 +14,8 @@ import { AngularComponent } from './components/ANGULAR/angular/angular.component
 import { CssComponent } from './components/CSS/css/css.component';
 import { DartComponent } from './components/DART/dart/dart.component';
 import { DeveloperComponent } from './components/DEVELOPER/developer/developer.component';
+import { FlutterComponent } from './components/FLUTTER/flutter/flutter.component';
+import { FlutterInstalacionComponent } from './components/FLUTTER/flutter-instalacion/flutter-instalacion.component';
 
 
 export const ROUTES: Routes = [
@@ -35,6 +37,9 @@ export const ROUTES: Routes = [
     { path: 'super-recursos-internet', component: SuperRecursosInternetComponent },
 // ESTADISTICA
     { path: 'estadistica-inicio', component: InicioComponent },
+// FLUTTER
+    { path: 'flutter', component: FlutterComponent },
+    { path: 'flutter-instalacion', component: FlutterInstalacionComponent },
 // JAVASCRIPT
     { path: 'recorrer-arrays-objetos', component: RecorrerArraysObjetosComponent },
 // NET-FRAMEWORKS
