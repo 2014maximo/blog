@@ -75,6 +75,14 @@ export class MenuHomeComponent implements OnInit {
         colorTexto: 'text-light',
         activo: true
       },
+      {
+        nombre: 'FLUTTER',
+        posicion: 'rot-2',
+        rutaExterna: 'flutter',
+        fondo: 'bg-Flutter',
+        colorTexto: 'text-light',
+        activo: true
+      },
     ]
 
   }
