@@ -77,9 +77,33 @@ export class MenuHomeComponent implements OnInit {
       },
       {
         nombre: 'FLUTTER',
-        posicion: 'rot-2',
+        posicion: 'rot-1',
         rutaExterna: 'flutter',
         fondo: 'bg-Flutter',
+        colorTexto: 'text-light',
+        activo: true
+      },
+      {
+        nombre: 'GIT',
+        posicion: 'rot-3',
+        rutaExterna: 'git',
+        fondo: 'bg-Git',
+        colorTexto: 'text-light',
+        activo: true
+      },
+      {
+        nombre: 'HTML',
+        posicion: 'pos-z',
+        rutaExterna: 'html',
+        fondo: 'bg-Html',
+        colorTexto: 'text-light',
+        activo: true
+      },
+      {
+        nombre: 'JAVA',
+        posicion: 'rot-2',
+        rutaExterna: 'java',
+        fondo: 'bg-Java',
         colorTexto: 'text-light',
         activo: true
       },

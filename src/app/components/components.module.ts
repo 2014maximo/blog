@@ -19,6 +19,9 @@ import { DartComponent } from './DART/dart/dart.component';
 import { DeveloperComponent } from './DEVELOPER/developer/developer.component';
 import { FlutterComponent } from './FLUTTER/flutter/flutter.component';
 import { FlutterInstalacionComponent } from './FLUTTER/flutter-instalacion/flutter-instalacion.component';
+import { GitComponent } from './GIT/git/git.component';
+import { HtmlComponent } from './HTML/html/html.component';
+import { JavaComponent } from './JAVA/java/java.component';
 
 
 
@@ -41,7 +44,10 @@ import { FlutterInstalacionComponent } from './FLUTTER/flutter-instalacion/flutt
     DartComponent,
     DeveloperComponent,
     FlutterComponent,
-    FlutterInstalacionComponent
+    FlutterInstalacionComponent,
+    GitComponent,
+    HtmlComponent,
+    JavaComponent
   ],
   imports: [
     CommonModule,

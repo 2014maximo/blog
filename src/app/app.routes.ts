@@ -16,6 +16,9 @@ import { DartComponent } from './components/DART/dart/dart.component';
 import { DeveloperComponent } from './components/DEVELOPER/developer/developer.component';
 import { FlutterComponent } from './components/FLUTTER/flutter/flutter.component';
 import { FlutterInstalacionComponent } from './components/FLUTTER/flutter-instalacion/flutter-instalacion.component';
+import { GitComponent } from './components/GIT/git/git.component';
+import { HtmlComponent } from './components/HTML/html/html.component';
+import { JavaComponent } from './components/JAVA/java/java.component';
 
 
 export const ROUTES: Routes = [
@@ -40,6 +43,12 @@ export const ROUTES: Routes = [
 // FLUTTER
     { path: 'flutter', component: FlutterComponent },
     { path: 'flutter-instalacion', component: FlutterInstalacionComponent },
+// GIT
+    { path: 'git', component: GitComponent },
+// HTML
+    { path: 'html', component: HtmlComponent },
+// JAVA
+    { path: 'java', component: JavaComponent},
 // JAVASCRIPT
     { path: 'recorrer-arrays-objetos', component: RecorrerArraysObjetosComponent },
 // NET-FRAMEWORKS

@@ -359,7 +359,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     {
         id:7,
         categoria: 'git',
-        rutaCategoria: 'categoria-git',
+        rutaCategoria: 'git',
         rutaIcono: 'assets/img/categorias/git-light.png',
         alturaIcono: '80',
         color: 'bg-Git',
@@ -406,15 +406,15 @@ export const CATEGORIAS: CategoriasModel [] = [
     {
         id:8,
         categoria: 'html',
-        rutaCategoria: 'categoria-html',
+        rutaCategoria: 'html',
         rutaIcono: 'assets/img/categorias/html-white.png',
         alturaIcono: '80',
         color: 'bg-Html',
         post: [
             {
-                nombre: 'INSTALACIÓN',
+                nombre: 'DESCRIPCIÓN ETIQUETAS',
                 posicion: 'pos-z',
-                ruta:'instalacion-dart',
+                ruta:'html-etiquetas',
                 activo: false
             },
             {
@@ -453,7 +453,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     {
         id:9,
         categoria: 'java',
-        rutaCategoria: 'categoria-java',
+        rutaCategoria: 'java',
         rutaIcono: 'assets/img/categorias/logo-java.png',
         alturaIcono: '80',
         color: 'bg-Java',
@@ -461,13 +461,13 @@ export const CATEGORIAS: CategoriasModel [] = [
             {
                 nombre: 'INSTALACIÓN',
                 posicion: 'pos-z',
-                ruta:'instalacion-dart',
+                ruta:'java-instalacion',
                 activo: false
             },
             {
                 nombre: 'ELEMENTOS Y DESCRIPCIÓN',
                 posicion: 'rot-2',
-                ruta:'dart-elementos-descripcion',
+                ruta:'java-elementos',
                 activo: false
             },
             {
