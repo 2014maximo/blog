@@ -19,6 +19,8 @@ import { FlutterInstalacionComponent } from './components/FLUTTER/flutter-instal
 import { GitComponent } from './components/GIT/git/git.component';
 import { HtmlComponent } from './components/HTML/html/html.component';
 import { JavaComponent } from './components/JAVA/java/java.component';
+import { JavascriptComponent } from './components/JAVASCRIPT/javascript/javascript.component';
+import { LinuxComponent } from './components/LINUX/linux/linux.component';
 
 
 export const ROUTES: Routes = [
@@ -51,8 +53,11 @@ export const ROUTES: Routes = [
     { path: 'java', component: JavaComponent},
 // JAVASCRIPT
     { path: 'recorrer-arrays-objetos', component: RecorrerArraysObjetosComponent },
+    { path: 'javascript', component: JavascriptComponent },
+// LINUX
+    { path: 'linux', component: LinuxComponent },
 // NET-FRAMEWORKS
-        { path: 'net-instalacion', component: NetInstalacionComponent },
+    { path: 'net-instalacion', component: NetInstalacionComponent },
 // SENA
     { path: 'ficha-actual', component: FichaActualComponent },
     { path: 'recursos-informativos', component: RecursosInformativosComponent },

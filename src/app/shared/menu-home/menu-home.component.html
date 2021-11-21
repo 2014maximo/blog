@@ -78,7 +78,7 @@
                     </div>
                     <div  class="row m-3">
                         <div *ngFor="let post of categoria.post" class="col {{ categoria.color }} {{ post.posicion}} l-menu">
-                            <a href="{{ post.ruta }}">
+                            <a href="{{ post.ruta }}" class="{{post.color}}">
                                 <del *ngIf="!post.activo">{{ post.nombre }}</del>
                                 <span *ngIf="post.activo">{{ post.nombre }}</span>
                             </a>

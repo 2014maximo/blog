@@ -93,11 +93,11 @@ html{
     background: black;
 }
 .t1 {
-    color: var(--color-uno) 
+    color: var(--color-uno)
    /* NARANJA */
 }
 .t2{
-    color: var(--color-dos) 
+    color: var(--color-dos) !important;
    /* NEGRO */
 }
 .t3{
@@ -453,6 +453,12 @@ a:hover {
 }
 .l-menu a:hover {
     color:#010101
+}
+.textoHoverNegro:hover{
+    color:#010101;
+}
+.textoHoverBlanco:hover{
+    color: #fff !important;
 }
 .post-z{
     z-index: 1;

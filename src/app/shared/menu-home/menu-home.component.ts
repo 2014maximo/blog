@@ -107,6 +107,14 @@ export class MenuHomeComponent implements OnInit {
         colorTexto: 'text-light',
         activo: true
       },
+      {
+        nombre: 'JAVASCRIPT',
+        posicion: 'rot-2',
+        rutaExterna: 'javascript',
+        fondo: 'bg-Javascript',
+        colorTexto: 't2',
+        activo: true
+      },
     ]
 
   }

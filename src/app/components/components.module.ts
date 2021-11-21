@@ -22,6 +22,8 @@ import { FlutterInstalacionComponent } from './FLUTTER/flutter-instalacion/flutt
 import { GitComponent } from './GIT/git/git.component';
 import { HtmlComponent } from './HTML/html/html.component';
 import { JavaComponent } from './JAVA/java/java.component';
+import { JavascriptComponent } from './JAVASCRIPT/javascript/javascript.component';
+import { LinuxComponent } from './LINUX/linux/linux.component';
 
 
 
@@ -47,7 +49,9 @@ import { JavaComponent } from './JAVA/java/java.component';
     FlutterInstalacionComponent,
     GitComponent,
     HtmlComponent,
-    JavaComponent
+    JavaComponent,
+    JavascriptComponent,
+    LinuxComponent
   ],
   imports: [
     CommonModule,

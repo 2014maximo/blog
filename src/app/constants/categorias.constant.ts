@@ -500,46 +500,52 @@ export const CATEGORIAS: CategoriasModel [] = [
     {
         id:10,
         categoria: 'javascript',
-        rutaCategoria: 'categoria-javascript',
+        rutaCategoria: 'javascript',
         rutaIcono: 'assets/img/categorias/javascript.png',
         alturaIcono: '80',
         color: 'bg-Javascript',
         post: [
             {
+                nombre: 'PROPIEDADES',
+                posicion: 'rot-2',
+                ruta:'javascript-propiedades',
+                activo: false,
+                color: 't2 textoHoverBlanco'
+            },
+            {
                 nombre: 'RECORRER ARRAYS OBJETOS',
                 posicion: 'pos-z',
                 ruta:'recorrer-arrays-objetos',
-                activo: true
-            },
-            {
-                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
-                posicion: 'rot-2',
-                ruta:'dart-elementos-descripcion',
-                activo: false
+                activo: true,
+                color: 't2 textoHoverBlanco'
             },
             {
                 nombre: 'CRUD',
                 posicion: 'rot-1',
                 ruta:'crud-dart',
-                activo: false
+                activo: false,
+                color: 't2 textoHoverBlanco'
             },
             {
                 nombre: 'TERMINOS AVANZADOS',
                 posicion: 'rot-2',
                 ruta:'dart-terminos-avanzados',
-                activo: false
+                activo: false,
+                color: 't2 textoHoverBlanco'
             },
             {
                 nombre: 'CONTEXTO DART',
                 posicion: 'pos-z',
                 ruta:'contexto-dart',
-                activo: false
+                activo: false,
+                color: 't2 textoHoverBlanco'
             },
             {
                 nombre: 'REVISIÓN A VERSIONES NODE JS',
                 posicion: 'pos-z',
                 ruta:'revision-versiones-node-js',
-                activo: false
+                activo: false,
+                color: 't2 textoHoverBlanco'
             },
         ]
     },

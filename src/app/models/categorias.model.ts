@@ -16,6 +16,7 @@ export class PostsModel {
     posicion: string = '';
     ruta: string = '';
     activo: boolean = false;
+    color?: string = '';
 }
 
 export class PostMasModel {
