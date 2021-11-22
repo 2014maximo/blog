@@ -8,7 +8,7 @@ import { SuperRecursosInternetComponent } from './DEVELOPER/super-recursos-inter
 import { InicioComponent } from './ESTADISTICA/inicio/inicio.component';
 import { Primeng7DescripcionElementosComponent } from './ANGULAR/primeng7-descripcion-elementos/primeng7-descripcion-elementos.component';
 import { AngularDescripcionElementosComponent } from './ANGULAR/angular-descripcion-elementos/angular-descripcion-elementos.component';
-import { NetInstalacionComponent } from './NET-FRAMEWORK/net-instalacion/net-instalacion.component';
+import { NetInstalacionComponent } from './NET/net-instalacion/net-instalacion.component';
 import { FichaActualComponent } from './SENA/ficha-actual/ficha-actual.component';
 import { RecursosInformativosComponent } from './SENA/recursos-informativos/recursos-informativos.component';
 import { RecorrerArraysObjetosComponent } from './JAVASCRIPT/recorrer-arrays-objetos/recorrer-arrays-objetos.component';
@@ -24,6 +24,7 @@ import { HtmlComponent } from './HTML/html/html.component';
 import { JavaComponent } from './JAVA/java/java.component';
 import { JavascriptComponent } from './JAVASCRIPT/javascript/javascript.component';
 import { LinuxComponent } from './LINUX/linux/linux.component';
+import { NetFrameworkComponent } from './NET/net-framework/net-framework.component';
 
 
 
@@ -51,7 +52,8 @@ import { LinuxComponent } from './LINUX/linux/linux.component';
     HtmlComponent,
     JavaComponent,
     JavascriptComponent,
-    LinuxComponent
+    LinuxComponent,
+    NetFrameworkComponent
   ],
   imports: [
     CommonModule,

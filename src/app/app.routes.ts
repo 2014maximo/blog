@@ -5,7 +5,7 @@ import { SuperRecursosInternetComponent } from './components/DEVELOPER/super-rec
 import { InicioComponent } from './components/ESTADISTICA/inicio/inicio.component';
 import { Primeng7DescripcionElementosComponent } from './components/ANGULAR/primeng7-descripcion-elementos/primeng7-descripcion-elementos.component';
 import { AngularDescripcionElementosComponent } from './components/ANGULAR/angular-descripcion-elementos/angular-descripcion-elementos.component';
-import { NetInstalacionComponent } from './components/NET-FRAMEWORK/net-instalacion/net-instalacion.component';
+import { NetInstalacionComponent } from './components/NET/net-instalacion/net-instalacion.component';
 import { FichaActualComponent } from './components/SENA/ficha-actual/ficha-actual.component';
 import { RecursosInformativosComponent } from './components/SENA/recursos-informativos/recursos-informativos.component';
 import { RecorrerArraysObjetosComponent } from './components/JAVASCRIPT/recorrer-arrays-objetos/recorrer-arrays-objetos.component';
@@ -21,6 +21,7 @@ import { HtmlComponent } from './components/HTML/html/html.component';
 import { JavaComponent } from './components/JAVA/java/java.component';
 import { JavascriptComponent } from './components/JAVASCRIPT/javascript/javascript.component';
 import { LinuxComponent } from './components/LINUX/linux/linux.component';
+import { NetFrameworkComponent } from './components/NET/net-framework/net-framework.component';
 
 
 export const ROUTES: Routes = [
@@ -57,6 +58,7 @@ export const ROUTES: Routes = [
 // LINUX
     { path: 'linux', component: LinuxComponent },
 // NET-FRAMEWORKS
+    { path: 'net-framework', component: NetFrameworkComponent},
     { path: 'net-instalacion', component: NetInstalacionComponent },
 // SENA
     { path: 'ficha-actual', component: FichaActualComponent },

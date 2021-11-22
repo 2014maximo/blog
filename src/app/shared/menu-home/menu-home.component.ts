@@ -115,6 +115,14 @@ export class MenuHomeComponent implements OnInit {
         colorTexto: 't2',
         activo: true
       },
+      {
+        nombre: 'LINUX',
+        posicion: 'rot-2',
+        rutaExterna: 'linux',
+        fondo: 'bg-Linux',
+        colorTexto: 'text-light',
+        activo: true
+      },
     ]
 
   }
