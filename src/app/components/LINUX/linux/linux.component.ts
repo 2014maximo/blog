@@ -51,7 +51,7 @@ export class LinuxComponent implements OnInit {
         nombre: 'PROPIEDADES',
         posicion: 'pos-z',
         rutaExterna: 'java-propiedades',
-        fondo: 'bg-Java',
+        fondo: 'bg-Linux',
         colorTexto: 'text-light',
         activo: false
       }

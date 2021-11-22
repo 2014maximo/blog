@@ -553,7 +553,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     {
         id:11,
         categoria: 'linux',
-        rutaCategoria: 'categoria-linux',
+        rutaCategoria: 'linux',
         rutaIcono: 'assets/img/categorias/linux-white.png',
         alturaIcono: '80',
         color: 'bg-Linux',
