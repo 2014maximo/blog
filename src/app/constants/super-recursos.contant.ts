@@ -1536,7 +1536,23 @@ export const LINKS: BloqueContenidoModel[] = [
                         rutaRecurso: 'https://www3.animeflv.net/',
                         descripcion: 'Anime Online - Ningún vídeo se encuentra alojado en nuestros servidores.',
                         red: ''
-                    }
+                    },
+                    {
+                        img: 'assets/img/icons/movie-circle.png',
+                        nombreRecurso: '',
+                        height: '80',
+                        rutaRecurso: 'https://devxploit.xyz/descargas.html#',
+                        descripcion: 'Red de películas y series.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/telelatino.png',
+                        nombreRecurso: '',
+                        height: '80',
+                        rutaRecurso: 'https://telelatinoapk.com/',
+                        descripcion: 'Con esta aplicación vas a poder ver canales de televisión, películas y series completamente gratis, cuenta con canales latinos y españoles.',
+                        red: ''
+                    },
                 ]
             }
         ]
