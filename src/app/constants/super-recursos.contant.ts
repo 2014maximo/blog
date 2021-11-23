@@ -1150,6 +1150,15 @@ export const LINKS: BloqueContenidoModel[] = [
                         red: '',
                         clipBoard: ''
                     },
+                    {
+                        img: 'assets/img/icons/GitHub-Logo.png',
+                        nombreRecurso: '',
+                        height: '90',
+                        rutaRecurso: 'https://github.com/FaisalUmair/udemy-downloader-gui',
+                        descripcion: 'UDELER | UDEMY COURSE DOWNLOADER (GUI), una aplicación de escritorio multiplataforma (Windows, Mac, Linux) para descargar cursos Udemy.',
+                        red: '',
+                        clipBoard: ''
+                    },
                 ]
             }
         ]
