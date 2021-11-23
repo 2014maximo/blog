@@ -308,9 +308,57 @@ export const CATEGORIAS: CategoriasModel [] = [
             },
         ]
     },
-/*      FLUTTER    */
+/*      ELECTRON    */
     {
         id:6,
+        categoria: 'electron',
+        rutaCategoria: 'electron',
+        rutaIcono: 'assets/img/categorias/electron.png',
+        alturaIcono: '80',
+        color: 'bg-Electron',
+        post: [
+            {
+                nombre: 'INSTALACIÓN',
+                posicion: 'pos-z',
+                ruta:'flutter-instalacion',
+                activo: true,
+                color: 't2'
+            },
+            {
+                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                posicion: 'rot-2',
+                ruta:'dart-elementos-descripcion',
+                activo: false
+            },
+            {
+                nombre: 'CRUD',
+                posicion: 'rot-1',
+                ruta:'crud-dart',
+                activo: false
+            },
+            {
+                nombre: 'TERMINOS AVANZADOS',
+                posicion: 'rot-2',
+                ruta:'dart-terminos-avanzados',
+                activo: false
+            },
+            {
+                nombre: 'CONTEXTO DART',
+                posicion: 'pos-z',
+                ruta:'contexto-dart',
+                activo: false
+            },
+            {
+                nombre: 'PRUEBAS UNITARIAS',
+                posicion: 'pos-z',
+                ruta:'dart-pruebas-unitarias',
+                activo: false
+            },
+        ]
+    },
+/*      FLUTTER    */
+    {
+        id:7,
         categoria: 'flutter',
         rutaCategoria: 'flutter',
         rutaIcono: 'assets/img/categorias/flutter_text_white.png',
@@ -357,7 +405,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      GIT    */
     {
-        id:7,
+        id:8,
         categoria: 'git',
         rutaCategoria: 'git',
         rutaIcono: 'assets/img/categorias/git-light.png',
@@ -404,7 +452,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      HTML    */
     {
-        id:8,
+        id:9,
         categoria: 'html',
         rutaCategoria: 'html',
         rutaIcono: 'assets/img/categorias/html-white.png',
@@ -451,7 +499,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      JAVA    */
     {
-        id:9,
+        id:10,
         categoria: 'java',
         rutaCategoria: 'java',
         rutaIcono: 'assets/img/categorias/logo-java.png',
@@ -498,7 +546,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      JAVASCRIPT    */
     {
-        id:10,
+        id:11,
         categoria: 'javascript',
         rutaCategoria: 'javascript',
         rutaIcono: 'assets/img/categorias/javascript.png',
@@ -549,9 +597,56 @@ export const CATEGORIAS: CategoriasModel [] = [
             },
         ]
     },
+/*      KOTLIN    */
+    {
+        id:12,
+        categoria: 'kotlin',
+        rutaCategoria: 'kotlin',
+        rutaIcono: 'assets/img/categorias/kotlin-white.png',
+        alturaIcono: '80',
+        color: 'bg-Kotlin',
+        post: [
+            {
+                nombre: 'INSTALACIÓN',
+                posicion: 'pos-z',
+                ruta:'instalacion-dart',
+                activo: false
+            },
+            {
+                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                posicion: 'rot-2',
+                ruta:'dart-elementos-descripcion',
+                activo: false
+            },
+            {
+                nombre: 'CRUD',
+                posicion: 'rot-1',
+                ruta:'crud-dart',
+                activo: false
+            },
+            {
+                nombre: 'TERMINOS AVANZADOS',
+                posicion: 'rot-2',
+                ruta:'dart-terminos-avanzados',
+                activo: false
+            },
+            {
+                nombre: 'CONTEXTO DART',
+                posicion: 'pos-z',
+                ruta:'contexto-dart',
+                activo: false
+            },
+            {
+                nombre: 'PRUEBAS UNITARIAS',
+                posicion: 'pos-z',
+                ruta:'dart-pruebas-unitarias',
+                activo: false
+            },
+        ]
+    },
 /*      LINUX    */
     {
-        id:11,
+        id:13,
         categoria: 'linux',
         rutaCategoria: 'linux',
         rutaIcono: 'assets/img/categorias/linux-white.png',
@@ -598,7 +693,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      SQL    */
     {
-        id:12,
+        id:14,
         categoria: 'sql',
         rutaCategoria: 'categoria-sql',
         rutaIcono: 'assets/img/categorias/sql.png',
@@ -645,7 +740,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      PHP    */
     {
-        id:13,
+        id:15,
         categoria: 'php',
         rutaCategoria: 'categoria-php',
         rutaIcono: 'assets/img/categorias/php.png',
@@ -692,7 +787,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      WORDPRESS    */
     {
-        id:14,
+        id:16,
         categoria: 'wordpress',
         rutaCategoria: 'categoria-wordpress',
         rutaIcono: 'assets/img/categorias/wordpress2.png',
@@ -739,7 +834,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      NET-FRAMEWORK    */
     {
-        id:15,
+        id:17,
         categoria: 'net-framework',
         rutaCategoria: 'categoria-net-framework',
         rutaIcono: 'assets/img/categorias/net-framework.png',
@@ -786,7 +881,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      SENA    */
     {
-        id:16,
+        id:18,
         categoria: 'sena',
         rutaCategoria: 'categoria-sena',
         rutaIcono: 'assets/img/categorias/sena.png',

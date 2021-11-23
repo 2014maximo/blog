@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MENU_1, MENU_2, MENU_3, MENU_4 } from '../../constants/menu-home.constant';
+import { MENU_1, MENU_2, MENU_3, MENU_4, MENU_5 } from '../../constants/menu-home.constant';
 import { CATEGORIAS } from '../../constants/categorias.constant';
 import { CategoriasModel } from '../../models/categorias.model';
 import { IndiceDeContenidosModel } from '../../models/indice.model';
@@ -29,6 +29,7 @@ export class MenuHomeComponent implements OnInit {
       menuDos: MENU_2,
       menuTres: MENU_3,
       menuCuatro: MENU_4,
+      menuCinco: MENU_5
     }
     this.categorias = CATEGORIAS;
 

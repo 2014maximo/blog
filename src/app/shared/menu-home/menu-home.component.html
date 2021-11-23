@@ -38,6 +38,14 @@
                         </div>
                     </div>
                 </div>
+                <div class='p-4 d-flex justify-content-around align-items-center text-center drop'
+                     style='background-image:url("assets/img/categorias/tablaMenu1.png");background-repeat:no-repeat;background-size:cover;'>
+                    <div *ngFor="let menu of menus.menuCinco">
+                        <div class="linkCategoria" (click)="abrirMenuCategoria(menu.categoria, menu.abertura)">
+                            <img src="{{ menu.rutaIcono }}" alt="" width="auto" height="{{menu.alturaIcono}}" class="drop">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
