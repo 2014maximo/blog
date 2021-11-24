@@ -22,6 +22,10 @@ import { JavaComponent } from './components/JAVA/java/java.component';
 import { JavascriptComponent } from './components/JAVASCRIPT/javascript/javascript.component';
 import { LinuxComponent } from './components/LINUX/linux/linux.component';
 import { NetFrameworkComponent } from './components/NET/net-framework/net-framework.component';
+import { ElectronComponent } from './components/ELECTRON/electron/electron.component';
+import { KotlinComponent } from './components/KOTLIN/kotlin/kotlin.component';
+import { EstadisticaComponent } from './components/ESTADISTICA/estadistica/estadistica.component';
+import { AstroSIngresoComponent } from './components/ESTADISTICA/astro-s-ingreso/astro-s-ingreso.component';
 
 
 export const ROUTES: Routes = [
@@ -42,7 +46,11 @@ export const ROUTES: Routes = [
     { path: 'developer', component: DeveloperComponent },
     { path: 'super-recursos-internet', component: SuperRecursosInternetComponent },
 // ESTADISTICA
+    { path: 'astro-sol-ingreso', component: AstroSIngresoComponent },
     { path: 'estadistica-inicio', component: InicioComponent },
+    { path: 'estadistica', component: EstadisticaComponent },
+// ELECTRON
+    { path: 'electron', component: ElectronComponent },
 // FLUTTER
     { path: 'flutter', component: FlutterComponent },
     { path: 'flutter-instalacion', component: FlutterInstalacionComponent },
@@ -57,6 +65,8 @@ export const ROUTES: Routes = [
     { path: 'javascript', component: JavascriptComponent },
 // LINUX
     { path: 'linux', component: LinuxComponent },
+// KOTLIN
+    { path: 'kotlin', component: KotlinComponent },
 // NET-FRAMEWORKS
     { path: 'net-framework', component: NetFrameworkComponent},
     { path: 'net-instalacion', component: NetInstalacionComponent },

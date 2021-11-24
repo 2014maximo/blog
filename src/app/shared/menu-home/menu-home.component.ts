@@ -77,6 +77,14 @@ export class MenuHomeComponent implements OnInit {
         activo: true
       },
       {
+        nombre: 'ELECTRON',
+        posicion: 'pos-z',
+        rutaExterna: 'electron',
+        fondo: 'bg-Electron',
+        colorTexto: 't2',
+        activo: true
+      },
+      {
         nombre: 'FLUTTER',
         posicion: 'rot-1',
         rutaExterna: 'flutter',
@@ -117,10 +125,26 @@ export class MenuHomeComponent implements OnInit {
         activo: true
       },
       {
+        nombre: 'KOTLIN',
+        posicion: 'pos-z',
+        rutaExterna: 'kotlin',
+        fondo: 'bg-Kotlin',
+        colorTexto: 'text-light',
+        activo: true
+      },
+      {
         nombre: 'LINUX',
         posicion: 'rot-2',
         rutaExterna: 'linux',
         fondo: 'bg-Linux',
+        colorTexto: 'text-light',
+        activo: true
+      },
+      {
+        nombre: 'NET FRAMEWORK',
+        posicion: 'rot-2',
+        rutaExterna: 'net-framework',
+        fondo: 'bg-NetFramework',
         colorTexto: 'text-light',
         activo: true
       },

@@ -25,6 +25,10 @@ import { JavaComponent } from './JAVA/java/java.component';
 import { JavascriptComponent } from './JAVASCRIPT/javascript/javascript.component';
 import { LinuxComponent } from './LINUX/linux/linux.component';
 import { NetFrameworkComponent } from './NET/net-framework/net-framework.component';
+import { ElectronComponent } from './ELECTRON/electron/electron.component';
+import { KotlinComponent } from './KOTLIN/kotlin/kotlin.component';
+import { EstadisticaComponent } from './ESTADISTICA/estadistica/estadistica.component';
+import { AstroSIngresoComponent } from './ESTADISTICA/astro-s-ingreso/astro-s-ingreso.component';
 
 
 
@@ -53,7 +57,11 @@ import { NetFrameworkComponent } from './NET/net-framework/net-framework.compone
     JavaComponent,
     JavascriptComponent,
     LinuxComponent,
-    NetFrameworkComponent
+    NetFrameworkComponent,
+    ElectronComponent,
+    KotlinComponent,
+    EstadisticaComponent,
+    AstroSIngresoComponent
   ],
   imports: [
     CommonModule,

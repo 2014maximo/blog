@@ -187,6 +187,9 @@ html{
 .bg-Linux{
     background-color: #010101;
 }
+.bg-NetFramework{
+    background-color: #5b2d90;
+}
 .bg-Php{
     background-color: #45538b;
 }
@@ -198,9 +201,6 @@ html{
 }
 .bg-Wordpress{
     background-color: #35697d;
-}
-.bg-NetFramework{
-    background-color: #5b2d90;
 }
 .bg-Sena{
     background-color: #fe6719;

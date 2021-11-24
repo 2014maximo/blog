@@ -1,5 +1,6 @@
 import { CategoriasModel } from '../models/categorias.model';
 
+
 export const CATEGORIAS: CategoriasModel [] = [
 /*     ANDROID */
     {
@@ -328,31 +329,36 @@ export const CATEGORIAS: CategoriasModel [] = [
                 nombre: 'ELEMENTOS Y DESCRIPCIÓN',
                 posicion: 'rot-2',
                 ruta:'dart-elementos-descripcion',
-                activo: false
+                activo: false,
+                color: 't2'
             },
             {
                 nombre: 'CRUD',
                 posicion: 'rot-1',
                 ruta:'crud-dart',
-                activo: false
+                activo: false,
+                color: 't2'
             },
             {
                 nombre: 'TERMINOS AVANZADOS',
                 posicion: 'rot-2',
                 ruta:'dart-terminos-avanzados',
-                activo: false
+                activo: false,
+                color: 't2'
             },
             {
                 nombre: 'CONTEXTO DART',
                 posicion: 'pos-z',
                 ruta:'contexto-dart',
-                activo: false
+                activo: false,
+                color: 't2'
             },
             {
                 nombre: 'PRUEBAS UNITARIAS',
                 posicion: 'pos-z',
                 ruta:'dart-pruebas-unitarias',
-                activo: false
+                activo: false,
+                color: 't2'
             },
         ]
     },
