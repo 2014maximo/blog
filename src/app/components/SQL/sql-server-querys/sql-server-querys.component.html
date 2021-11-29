@@ -1,0 +1,67 @@
+<div #target></div>
+<app-header-home></app-header-home>
+<div class="espaciado"></div>
+<app-header-post [cabecera]="cabeceraPost"></app-header-post>
+<div class="espaciado"></div>
+
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <h2 class="fuenteDos fs-30 t8 sombra-texto" >PROCEDIMIENTOS DE ALMACENADO</h2>
+        <p class="fuenteDos text-light fs-20">
+            Son procesos que llevan a cabo varios pasos DDL ó DML y se ejecutan todos al llamar al título del procedimiento.
+        </p>
+        <div class="espacio"></div>
+        <p class="fuenteDos text-light fs-20">
+            <span class="t8 fuenteSeis fs-60">1.</span> En este caso, este procedimiento requiere un "id" como parámetro y lo que realiza simplemente es traer dos tipos de campos según el "id" solicitado.
+        </p>
+        <h3 class="fuenteSeis fs-30 t5 sombra-texto">CREATE PROCEDURE PDA_ListaCamas<br>
+            @idCama int<br>
+            <br>
+            AS BEGIN<br>
+                SELECT nombre, descripcion FROM listaCamas<br>
+                WHERE idCama = @idCama<br>
+            END
+        </h3>
+        <img src="{{ rutaExternaImagenes }}assets/categorias/SQL/sql-server-querys/PA-listar.png" alt="" class="drop mb-3">
+        <div class="espacio bBlancoSuperior mb-5"></div>
+        <p class="fuenteDos text-light fs-20">
+            <span class="t8 fuenteSeis fs-60">2.</span> En este caso, este procedimiento requiere un "id" como parámetro y lo que realiza simplemente es traer dos tipos de campos según el "id" solicitado.
+        </p>
+        <h3 class="fuenteSeis fs-30 t5 sombra-texto">
+            CREATE PROCEDURE PDA_guardarActualizarTipoHabitacion<br>
+            @id int,<br>
+            @nombre varchar(50),<br>
+            @descripcion varchar(150)<br>
+            <br>
+            AS BEGIN<br>
+            if @id = 0<br>
+                INSERT INTO listarTipoHabitacion(nombre, descripcion)<br>
+                VALUES (@nombre, @descripcion)<br>
+            else<br>
+                UPDATE listarTipoHabitacion<br>
+                SET nombre = @nombre, descripcion = @descripcion<br>
+                WHERE id = @id<br>
+            END<br>
+        </h3>
+        <div class="espacio bBlancoSuperior mb-5"></div>
+        <p class="fuenteDos text-light fs-20">
+            <span class="t8 fuenteSeis fs-60">3.</span> En este caso, este procedimiento requiere un "id" como parámetro y lo que realiza simplemente es traer dos tipos de campos según el "id" solicitado.
+        </p>
+        <h3 class="fuenteSeis fs-30 t5 sombra-texto">
+            CREATE PROCEDURE PDA_eliminarTipoHabitacion<br>
+            @id int<br>
+            <br>
+            AS BEGIN<br>
+                DELETE FROM listarTipoHabitacion<br>
+                WHERE id = @id<br>
+            END
+        </h3>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+<div class="espaciado"></div>
+<app-footer-home></app-footer-home>
+<div class="go-up" (click)="scroll(target)">
+    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+</div>

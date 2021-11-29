@@ -26,6 +26,9 @@ import { ElectronComponent } from './components/ELECTRON/electron/electron.compo
 import { KotlinComponent } from './components/KOTLIN/kotlin/kotlin.component';
 import { EstadisticaComponent } from './components/ESTADISTICA/estadistica/estadistica.component';
 import { AstroSIngresoComponent } from './components/ESTADISTICA/astro-s-ingreso/astro-s-ingreso.component';
+import { NetDescripcionElementosComponent } from './components/NET/net-descripcion-elementos/net-descripcion-elementos.component';
+import { SqlComponent } from './components/SQL/sql/sql.component';
+import { SqlServerQuerysComponent } from './components/SQL/sql-server-querys/sql-server-querys.component';
 
 
 export const ROUTES: Routes = [
@@ -70,7 +73,22 @@ export const ROUTES: Routes = [
 // NET-FRAMEWORKS
     { path: 'net-framework', component: NetFrameworkComponent},
     { path: 'net-instalacion', component: NetInstalacionComponent },
+    { path: 'net-descripcion-elementos', component: NetDescripcionElementosComponent },
 // SENA
     { path: 'ficha-actual', component: FichaActualComponent },
     { path: 'recursos-informativos', component: RecursosInformativosComponent },
+// SQL
+    { path: 'sql', component: SqlComponent },
+    { path: 'sql-server-querys', component: SqlServerQuerysComponent },
+
 ];
+
+function recorrerComponentes(array: any) {
+    
+    let lista;
+
+    for(let i=0; i> array.length; i++){
+        lista = [{ path: array.ruta, component: array.componente },]
+    }
+    return lista
+}

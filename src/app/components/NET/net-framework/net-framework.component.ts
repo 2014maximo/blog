@@ -40,20 +40,20 @@ export class NetFrameworkComponent implements OnInit {
 
     this.indiceNetFramework = [
       {
-        nombre: 'PROPIEDADES',
+        nombre: 'NET INSTALACION',
         posicion: 'pos-z',
-        rutaExterna: 'javascript-propiedades',
+        rutaExterna: 'net-instalacion',
         fondo: 'bg-NetFramework',
         colorTexto: 'text-light',
         activo: true
       },
       {
-        nombre: 'RECORRER ARRAY OBJETOS',
+        nombre: 'NET DESCRIPCION ELEMENTOS',
         posicion: 'pos-z',
-        rutaExterna: 'recorrer-arrays-objetos',
+        rutaExterna: 'net-descripcion-elementos',
         fondo: 'bg-NetFramework',
         colorTexto: 'text-light',
-        activo: false
+        activo: true
       }
     ]
   }

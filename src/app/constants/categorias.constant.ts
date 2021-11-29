@@ -701,22 +701,22 @@ export const CATEGORIAS: CategoriasModel [] = [
     {
         id:14,
         categoria: 'sql',
-        rutaCategoria: 'categoria-sql',
+        rutaCategoria: 'sql',
         rutaIcono: 'assets/img/categorias/sql.png',
         alturaIcono: '80',
         color: 'bg-Sql',
         post: [
             {
-                nombre: 'INSTALACIÓN',
+                nombre: 'INSTALACIONES',
                 posicion: 'pos-z',
-                ruta:'instalacion-dart',
+                ruta:'sql-instalaciones',
                 activo: false
             },
             {
-                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                nombre: 'SQL-SERVER-QUERYS',
                 posicion: 'rot-2',
-                ruta:'dart-elementos-descripcion',
-                activo: false
+                ruta:'sql-server-querys',
+                activo: true
             },
             {
                 nombre: 'CRUD',
@@ -856,8 +856,8 @@ export const CATEGORIAS: CategoriasModel [] = [
             {
                 nombre: 'ELEMENTOS Y DESCRIPCIÓN',
                 posicion: 'rot-2',
-                ruta:'dart-elementos-descripcion',
-                activo: false
+                ruta:'net-descripcion-elementos',
+                activo: true
             },
             {
                 nombre: 'CRUD',

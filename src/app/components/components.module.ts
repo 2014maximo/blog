@@ -29,6 +29,9 @@ import { ElectronComponent } from './ELECTRON/electron/electron.component';
 import { KotlinComponent } from './KOTLIN/kotlin/kotlin.component';
 import { EstadisticaComponent } from './ESTADISTICA/estadistica/estadistica.component';
 import { AstroSIngresoComponent } from './ESTADISTICA/astro-s-ingreso/astro-s-ingreso.component';
+import { NetDescripcionElementosComponent } from './NET/net-descripcion-elementos/net-descripcion-elementos.component';
+import { SqlComponent } from './SQL/sql/sql.component';
+import { SqlServerQuerysComponent } from './SQL/sql-server-querys/sql-server-querys.component';
 
 
 
@@ -61,7 +64,10 @@ import { AstroSIngresoComponent } from './ESTADISTICA/astro-s-ingreso/astro-s-in
     ElectronComponent,
     KotlinComponent,
     EstadisticaComponent,
-    AstroSIngresoComponent
+    AstroSIngresoComponent,
+    NetDescripcionElementosComponent,
+    SqlComponent,
+    SqlServerQuerysComponent
   ],
   imports: [
     CommonModule,
