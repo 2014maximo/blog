@@ -108,30 +108,37 @@ export const MENU_4 = [
     },
     {
         id:3,
+        categoria: 'react',
+        abertura: '80%',
+        rutaIcono: 'assets/img/categorias/react.png',
+        alturaIcono: '100'
+    },
+    {
+        id:4,
         categoria: 'sena',
         abertura: '80%',
         rutaIcono: 'assets/img/categorias/sena.png',
         alturaIcono: '70'
-    },
-    {
-        id:4,
-        categoria: 'sql',
-        abertura: '80%',
-        rutaIcono: 'assets/img/categorias/sql.png',
-        alturaIcono: '55'
     },
 ]
 
 export const MENU_5 = [
     {
         id:1,
+        categoria: 'sql',
+        abertura: '80%',
+        rutaIcono: 'assets/img/categorias/sql.png',
+        alturaIcono: '55'
+    },
+    {
+        id:2,
         categoria: 'php',
         abertura: '80%',
         rutaIcono: 'assets/img/categorias/php.png',
         alturaIcono: '60'
     },
     {
-        id:2,
+        id:3,
         categoria: 'wordpress',
         abertura: '80%',
         rutaIcono: 'assets/img/categorias/wordpress2.png',

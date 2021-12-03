@@ -149,6 +149,14 @@ export class MenuHomeComponent implements OnInit {
         activo: true
       },
       {
+        nombre: 'REACT',
+        posicion: 'rot-2',
+        rutaExterna: 'react',
+        fondo: 'bg-React',
+        colorTexto: 't2',
+        activo: true
+      },
+      {
         nombre: 'SENA',
         posicion: 'rot-2',
         rutaExterna: 'sena',

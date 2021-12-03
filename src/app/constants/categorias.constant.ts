@@ -885,9 +885,62 @@ export const CATEGORIAS: CategoriasModel [] = [
             },
         ]
     },
-/*      SENA    */
+/*      REACT    */
     {
         id:18,
+        categoria: 'react',
+        rutaCategoria: 'react',
+        rutaIcono: 'assets/img/categorias/react-white.png',
+        alturaIcono: '80',
+        color: 'bg-React',
+        post: [
+            {
+                nombre: 'INSTALACIÓN',
+                posicion: 'pos-z',
+                ruta:'net-instalacion',
+                activo: false,
+                color: 't2'
+            },
+            {
+                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                posicion: 'rot-2',
+                ruta:'net-descripcion-elementos',
+                activo: false,
+                color: 't2'
+            },
+            {
+                nombre: 'CRUD',
+                posicion: 'rot-1',
+                ruta:'crud-dart',
+                activo: false,
+                color: 't2'
+            },
+            {
+                nombre: 'TERMINOS AVANZADOS',
+                posicion: 'rot-2',
+                ruta:'dart-terminos-avanzados',
+                activo: false,
+                color: 't2'
+            },
+            {
+                nombre: 'CONTEXTO DART',
+                posicion: 'pos-z',
+                ruta:'contexto-dart',
+                activo: false,
+                color: 't2'
+            },
+            {
+                nombre: 'PRUEBAS UNITARIAS',
+                posicion: 'pos-z',
+                ruta:'dart-pruebas-unitarias',
+                activo: false,
+                color: 't2'
+            },
+        ]
+    },
+/*      SENA    */
+    {
+        id:19,
         categoria: 'sena',
         rutaCategoria: 'sena',
         rutaIcono: 'assets/img/categorias/sena.png',

@@ -33,6 +33,7 @@ import { NetDescripcionElementosComponent } from './NET/net-descripcion-elemento
 import { SqlComponent } from './SQL/sql/sql.component';
 import { SqlServerQuerysComponent } from './SQL/sql-server-querys/sql-server-querys.component';
 import { SenaComponent } from './SENA/sena/sena.component';
+import { ReactComponent } from './REACT/react/react.component';
 
 
 
@@ -69,7 +70,8 @@ import { SenaComponent } from './SENA/sena/sena.component';
     NetDescripcionElementosComponent,
     SqlComponent,
     SqlServerQuerysComponent,
-    SenaComponent
+    SenaComponent,
+    ReactComponent
   ],
   imports: [
     CommonModule,

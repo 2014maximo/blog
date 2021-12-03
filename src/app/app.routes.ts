@@ -30,6 +30,7 @@ import { NetDescripcionElementosComponent } from './components/NET/net-descripci
 import { SqlComponent } from './components/SQL/sql/sql.component';
 import { SqlServerQuerysComponent } from './components/SQL/sql-server-querys/sql-server-querys.component';
 import { SenaComponent } from './components/SENA/sena/sena.component';
+import { ReactComponent } from './components/REACT/react/react.component';
 
 
 export const ROUTES: Routes = [
@@ -79,6 +80,8 @@ export const ROUTES: Routes = [
     { path: 'sena', component: SenaComponent },
     { path: 'ficha-actual', component: FichaActualComponent },
     { path: 'recursos-informativos', component: RecursosInformativosComponent },
+// REACT
+    { path: 'react', component: ReactComponent },
 // SQL
     { path: 'sql', component: SqlComponent },
     { path: 'sql-server-querys', component: SqlServerQuerysComponent },
