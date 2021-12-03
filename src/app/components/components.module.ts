@@ -32,6 +32,7 @@ import { AstroSIngresoComponent } from './ESTADISTICA/astro-s-ingreso/astro-s-in
 import { NetDescripcionElementosComponent } from './NET/net-descripcion-elementos/net-descripcion-elementos.component';
 import { SqlComponent } from './SQL/sql/sql.component';
 import { SqlServerQuerysComponent } from './SQL/sql-server-querys/sql-server-querys.component';
+import { SenaComponent } from './SENA/sena/sena.component';
 
 
 
@@ -67,7 +68,8 @@ import { SqlServerQuerysComponent } from './SQL/sql-server-querys/sql-server-que
     AstroSIngresoComponent,
     NetDescripcionElementosComponent,
     SqlComponent,
-    SqlServerQuerysComponent
+    SqlServerQuerysComponent,
+    SenaComponent
   ],
   imports: [
     CommonModule,

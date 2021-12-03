@@ -148,6 +148,14 @@ export class MenuHomeComponent implements OnInit {
         colorTexto: 'text-light',
         activo: true
       },
+      {
+        nombre: 'SENA',
+        posicion: 'rot-2',
+        rutaExterna: 'sena',
+        fondo: 'bg-Sena',
+        colorTexto: 'text-light',
+        activo: true
+      },
     ]
 
   }

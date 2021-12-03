@@ -842,7 +842,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     {
         id:17,
         categoria: 'net-framework',
-        rutaCategoria: 'categoria-net-framework',
+        rutaCategoria: 'net-framework',
         rutaIcono: 'assets/img/categorias/net-framework.png',
         alturaIcono: '80',
         color: 'bg-NetFramework',
@@ -889,7 +889,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     {
         id:18,
         categoria: 'sena',
-        rutaCategoria: 'categoria-sena',
+        rutaCategoria: 'sena',
         rutaIcono: 'assets/img/categorias/sena.png',
         alturaIcono: '80',
         color: 'bg-Sena',

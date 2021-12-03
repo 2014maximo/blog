@@ -29,6 +29,7 @@ import { AstroSIngresoComponent } from './components/ESTADISTICA/astro-s-ingreso
 import { NetDescripcionElementosComponent } from './components/NET/net-descripcion-elementos/net-descripcion-elementos.component';
 import { SqlComponent } from './components/SQL/sql/sql.component';
 import { SqlServerQuerysComponent } from './components/SQL/sql-server-querys/sql-server-querys.component';
+import { SenaComponent } from './components/SENA/sena/sena.component';
 
 
 export const ROUTES: Routes = [
@@ -75,6 +76,7 @@ export const ROUTES: Routes = [
     { path: 'net-instalacion', component: NetInstalacionComponent },
     { path: 'net-descripcion-elementos', component: NetDescripcionElementosComponent },
 // SENA
+    { path: 'sena', component: SenaComponent },
     { path: 'ficha-actual', component: FichaActualComponent },
     { path: 'recursos-informativos', component: RecursosInformativosComponent },
 // SQL
