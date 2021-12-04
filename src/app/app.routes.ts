@@ -8,7 +8,6 @@ import { AngularDescripcionElementosComponent } from './components/ANGULAR/angul
 import { NetInstalacionComponent } from './components/NET/net-instalacion/net-instalacion.component';
 import { FichaActualComponent } from './components/SENA/ficha-actual/ficha-actual.component';
 import { RecursosInformativosComponent } from './components/SENA/recursos-informativos/recursos-informativos.component';
-import { RecorrerArraysObjetosComponent } from './components/JAVASCRIPT/recorrer-arrays-objetos/recorrer-arrays-objetos.component';
 import { AndroidStudioComponent } from './components/ANDROID/android-studio/android-studio.component';
 import { AngularComponent } from './components/ANGULAR/angular/angular.component';
 import { CssComponent } from './components/CSS/css/css.component';
@@ -31,6 +30,9 @@ import { SqlComponent } from './components/SQL/sql/sql.component';
 import { SqlServerQuerysComponent } from './components/SQL/sql-server-querys/sql-server-querys.component';
 import { SenaComponent } from './components/SENA/sena/sena.component';
 import { ReactComponent } from './components/REACT/react/react.component';
+import { JsRecorrerArraysObjetosComponent } from './components/JAVASCRIPT/js-recorrer-arrays-objetos/js-recorrer-arrays-objetos.component';
+import { JsTrabajoFechasComponent } from './components/JAVASCRIPT/js-trabajo-fechas/js-trabajo-fechas.component';
+import { PhpComponent } from './components/PHP/php/php.component';
 
 
 export const ROUTES: Routes = [
@@ -66,8 +68,9 @@ export const ROUTES: Routes = [
 // JAVA
     { path: 'java', component: JavaComponent},
 // JAVASCRIPT
-    { path: 'recorrer-arrays-objetos', component: RecorrerArraysObjetosComponent },
     { path: 'javascript', component: JavascriptComponent },
+    { path: 'js-recorrer-arrays-objetos', component: JsRecorrerArraysObjetosComponent },
+    { path: 'js-trabajo-fechas', component: JsTrabajoFechasComponent },
 // LINUX
     { path: 'linux', component: LinuxComponent },
 // KOTLIN
@@ -85,6 +88,8 @@ export const ROUTES: Routes = [
 // SQL
     { path: 'sql', component: SqlComponent },
     { path: 'sql-server-querys', component: SqlServerQuerysComponent },
+// PHP
+    { path: 'php', component: PhpComponent },
 
 ];
 

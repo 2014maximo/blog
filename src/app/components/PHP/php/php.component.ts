@@ -3,11 +3,11 @@ import { HeaderPostModel } from '../../../models/post.model';
 import { IndiceDeContenidosModel } from '../../../models/indice.model';
 
 @Component({
-  selector: 'app-sql',
-  templateUrl: './sql.component.html',
-  styleUrls: ['./sql.component.css']
+  selector: 'app-php',
+  templateUrl: './php.component.html',
+  styleUrls: ['./php.component.css']
 })
-export class SqlComponent implements OnInit {
+export class PhpComponent implements OnInit {
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',
@@ -17,8 +17,8 @@ export class SqlComponent implements OnInit {
     sombra: ''
   }
 
-  public indiceSql: IndiceDeContenidosModel [] = [];
-  public claseSql = '';
+  public indicePhp: IndiceDeContenidosModel [] = [];
+  public clasePhp = '';
 
   constructor() {
     this.inicializarVariables();
@@ -29,30 +29,30 @@ export class SqlComponent implements OnInit {
 
   private inicializarVariables() {
     this.cabeceraPost = {
-      rutaImagen: 'assets/img/categorias/sql.png',
+      rutaImagen: 'assets/img/categorias/php.png',
       fondo: true,
       tituloPost: '',
       alturaImagen: '150',
       sombra: 'drop'
     };
 
-    this.claseSql = 'mt-2';
+    this.clasePhp = 'mt-2';
 
-    this.indiceSql = [
+    this.indicePhp = [
       {
-        nombre: 'SQL INSTALACIONES',
+        nombre: 'PHP INSTALACION',
         posicion: 'pos-z',
-        rutaExterna: 'sql-instalaciones',
-        fondo: 'bg-Sql',
-        colorTexto: 't2',
+        rutaExterna: 'php-instalacion',
+        fondo: 'bg-Php',
+        colorTexto: 'text-light',
         activo: true
       },
       {
-        nombre: 'MODELO RELACIONAL Y ENTIDAD RELACIÓN',
+        nombre: 'PHP DESCRIPCION ELEMENTOS',
         posicion: 'pos-z',
-        rutaExterna: 'sql-modelo-relacional-entidad-relacion',
-        fondo: 'bg-Sql',
-        colorTexto: 't2',
+        rutaExterna: 'net-descripcion-elementos',
+        fondo: 'bg-Php',
+        colorTexto: 'text-light',
         activo: true
       }
     ]

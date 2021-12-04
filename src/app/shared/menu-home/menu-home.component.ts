@@ -149,6 +149,14 @@ export class MenuHomeComponent implements OnInit {
         activo: true
       },
       {
+        nombre: 'PHP',
+        posicion: 'rot-2',
+        rutaExterna: 'php',
+        fondo: 'bg-Php',
+        colorTexto: 'text-light',
+        activo: true
+      },
+      {
         nombre: 'REACT',
         posicion: 'rot-2',
         rutaExterna: 'react',
@@ -161,6 +169,14 @@ export class MenuHomeComponent implements OnInit {
         posicion: 'rot-2',
         rutaExterna: 'sena',
         fondo: 'bg-Sena',
+        colorTexto: 'text-light',
+        activo: true
+      },
+      {
+        nombre: 'SQL',
+        posicion: 'rot-2',
+        rutaExterna: 'sql',
+        fondo: 'bg-Sql',
         colorTexto: 'text-light',
         activo: true
       },

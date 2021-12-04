@@ -697,148 +697,7 @@ export const CATEGORIAS: CategoriasModel [] = [
             },
         ]
     },
-/*      SQL    */
-    {
-        id:14,
-        categoria: 'sql',
-        rutaCategoria: 'sql',
-        rutaIcono: 'assets/img/categorias/sql.png',
-        alturaIcono: '80',
-        color: 'bg-Sql',
-        post: [
-            {
-                nombre: 'INSTALACIONES',
-                posicion: 'pos-z',
-                ruta:'sql-instalaciones',
-                activo: false
-            },
-            {
-                nombre: 'SQL-SERVER-QUERYS',
-                posicion: 'rot-2',
-                ruta:'sql-server-querys',
-                activo: true
-            },
-            {
-                nombre: 'CRUD',
-                posicion: 'rot-1',
-                ruta:'crud-dart',
-                activo: false
-            },
-            {
-                nombre: 'TERMINOS AVANZADOS',
-                posicion: 'rot-2',
-                ruta:'dart-terminos-avanzados',
-                activo: false
-            },
-            {
-                nombre: 'CONTEXTO DART',
-                posicion: 'pos-z',
-                ruta:'contexto-dart',
-                activo: false
-            },
-            {
-                nombre: 'PRUEBAS UNITARIAS',
-                posicion: 'pos-z',
-                ruta:'dart-pruebas-unitarias',
-                activo: false
-            },
-        ]
-    },
-/*      PHP    */
-    {
-        id:15,
-        categoria: 'php',
-        rutaCategoria: 'categoria-php',
-        rutaIcono: 'assets/img/categorias/php.png',
-        alturaIcono: '80',
-        color: 'bg-Php',
-        post: [
-            {
-                nombre: 'INSTALACIÓN',
-                posicion: 'pos-z',
-                ruta:'instalacion-dart',
-                activo: false
-            },
-            {
-                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
-                posicion: 'rot-2',
-                ruta:'dart-elementos-descripcion',
-                activo: false
-            },
-            {
-                nombre: 'CRUD',
-                posicion: 'rot-1',
-                ruta:'crud-dart',
-                activo: false
-            },
-            {
-                nombre: 'TERMINOS AVANZADOS',
-                posicion: 'rot-2',
-                ruta:'dart-terminos-avanzados',
-                activo: false
-            },
-            {
-                nombre: 'CONTEXTO DART',
-                posicion: 'pos-z',
-                ruta:'contexto-dart',
-                activo: false
-            },
-            {
-                nombre: 'PRUEBAS UNITARIAS',
-                posicion: 'pos-z',
-                ruta:'dart-pruebas-unitarias',
-                activo: false
-            },
-        ]
-    },
-/*      WORDPRESS    */
-    {
-        id:16,
-        categoria: 'wordpress',
-        rutaCategoria: 'categoria-wordpress',
-        rutaIcono: 'assets/img/categorias/wordpress2.png',
-        alturaIcono: '80',
-        color: 'bg-Wordpress',
-        post: [
-            {
-                nombre: 'INSTALACIÓN',
-                posicion: 'pos-z',
-                ruta:'instalacion-dart',
-                activo: false
-            },
-            {
-                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
-                posicion: 'rot-2',
-                ruta:'dart-elementos-descripcion',
-                activo: false
-            },
-            {
-                nombre: 'CRUD',
-                posicion: 'rot-1',
-                ruta:'crud-dart',
-                activo: false
-            },
-            {
-                nombre: 'TERMINOS AVANZADOS',
-                posicion: 'rot-2',
-                ruta:'dart-terminos-avanzados',
-                activo: false
-            },
-            {
-                nombre: 'CONTEXTO DART',
-                posicion: 'pos-z',
-                ruta:'contexto-dart',
-                activo: false
-            },
-            {
-                nombre: 'PRUEBAS UNITARIAS',
-                posicion: 'pos-z',
-                ruta:'dart-pruebas-unitarias',
-                activo: false
-            },
-        ]
-    },
-/*      NET-FRAMEWORK    */
+    /*      NET-FRAMEWORK    */
     {
         id:17,
         categoria: 'net-framework',
@@ -885,9 +744,32 @@ export const CATEGORIAS: CategoriasModel [] = [
             },
         ]
     },
-/*      REACT    */
+/*      PHP    */
     {
         id:18,
+        categoria: 'php',
+        rutaCategoria: 'php',
+        rutaIcono: 'assets/img/categorias/php.png',
+        alturaIcono: '80',
+        color: 'bg-Php',
+        post: [
+            {
+                nombre: 'INSTALACIÓN',
+                posicion: 'pos-z',
+                ruta:'net-instalacion',
+                activo: true
+            },
+            {
+                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                posicion: 'rot-2',
+                ruta:'net-descripcion-elementos',
+                activo: true
+            },
+        ]
+    },
+/*      REACT    */
+    {
+        id:19,
         categoria: 'react',
         rutaCategoria: 'react',
         rutaIcono: 'assets/img/categorias/react-white.png',
@@ -940,7 +822,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      SENA    */
     {
-        id:19,
+        id:20,
         categoria: 'sena',
         rutaCategoria: 'sena',
         rutaIcono: 'assets/img/categorias/sena.png',
@@ -959,6 +841,100 @@ export const CATEGORIAS: CategoriasModel [] = [
                 ruta:'recursos-informativos',
                 activo: false
             }
+        ]
+    },
+    /*      SQL    */
+    {
+            id:14,
+            categoria: 'sql',
+            rutaCategoria: 'sql',
+            rutaIcono: 'assets/img/categorias/sql.png',
+            alturaIcono: '80',
+            color: 'bg-Sql',
+            post: [
+                {
+                    nombre: 'INSTALACIONES',
+                    posicion: 'pos-z',
+                    ruta:'sql-instalaciones',
+                    activo: false
+                },
+                {
+                    nombre: 'SQL-SERVER-QUERYS',
+                    posicion: 'rot-2',
+                    ruta:'sql-server-querys',
+                    activo: true
+                },
+                {
+                    nombre: 'CRUD',
+                    posicion: 'rot-1',
+                    ruta:'crud-dart',
+                    activo: false
+                },
+                {
+                    nombre: 'TERMINOS AVANZADOS',
+                    posicion: 'rot-2',
+                    ruta:'dart-terminos-avanzados',
+                    activo: false
+                },
+                {
+                    nombre: 'CONTEXTO DART',
+                    posicion: 'pos-z',
+                    ruta:'contexto-dart',
+                    activo: false
+                },
+                {
+                    nombre: 'PRUEBAS UNITARIAS',
+                    posicion: 'pos-z',
+                    ruta:'dart-pruebas-unitarias',
+                    activo: false
+                },
+            ]
+    },
+    /*      WORDPRESS    */
+    {
+        id:16,
+        categoria: 'wordpress',
+        rutaCategoria: 'categoria-wordpress',
+        rutaIcono: 'assets/img/categorias/wordpress2.png',
+        alturaIcono: '80',
+        color: 'bg-Wordpress',
+        post: [
+            {
+                nombre: 'INSTALACIÓN',
+                posicion: 'pos-z',
+                ruta:'instalacion-dart',
+                activo: false
+            },
+            {
+                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                posicion: 'rot-2',
+                ruta:'dart-elementos-descripcion',
+                activo: false
+            },
+            {
+                nombre: 'CRUD',
+                posicion: 'rot-1',
+                ruta:'crud-dart',
+                activo: false
+            },
+            {
+                nombre: 'TERMINOS AVANZADOS',
+                posicion: 'rot-2',
+                ruta:'dart-terminos-avanzados',
+                activo: false
+            },
+            {
+                nombre: 'CONTEXTO DART',
+                posicion: 'pos-z',
+                ruta:'contexto-dart',
+                activo: false
+            },
+            {
+                nombre: 'PRUEBAS UNITARIAS',
+                posicion: 'pos-z',
+                ruta:'dart-pruebas-unitarias',
+                activo: false
+            },
         ]
     },
 ]

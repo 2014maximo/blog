@@ -11,7 +11,6 @@ import { AngularDescripcionElementosComponent } from './ANGULAR/angular-descripc
 import { NetInstalacionComponent } from './NET/net-instalacion/net-instalacion.component';
 import { FichaActualComponent } from './SENA/ficha-actual/ficha-actual.component';
 import { RecursosInformativosComponent } from './SENA/recursos-informativos/recursos-informativos.component';
-import { RecorrerArraysObjetosComponent } from './JAVASCRIPT/recorrer-arrays-objetos/recorrer-arrays-objetos.component';
 import { AndroidStudioComponent } from './ANDROID/android-studio/android-studio.component';
 import { CssComponent } from './CSS/css/css.component';
 import { AngularComponent } from './ANGULAR/angular/angular.component';
@@ -34,6 +33,9 @@ import { SqlComponent } from './SQL/sql/sql.component';
 import { SqlServerQuerysComponent } from './SQL/sql-server-querys/sql-server-querys.component';
 import { SenaComponent } from './SENA/sena/sena.component';
 import { ReactComponent } from './REACT/react/react.component';
+import { JsTrabajoFechasComponent } from './JAVASCRIPT/js-trabajo-fechas/js-trabajo-fechas.component';
+import { JsRecorrerArraysObjetosComponent } from './JAVASCRIPT/js-recorrer-arrays-objetos/js-recorrer-arrays-objetos.component';
+import { PhpComponent } from './PHP/php/php.component';
 
 
 
@@ -49,7 +51,6 @@ import { ReactComponent } from './REACT/react/react.component';
     NetInstalacionComponent,
     FichaActualComponent,
     RecursosInformativosComponent,
-    RecorrerArraysObjetosComponent,
     AndroidStudioComponent,
     CssComponent,
     AngularComponent,
@@ -71,7 +72,10 @@ import { ReactComponent } from './REACT/react/react.component';
     SqlComponent,
     SqlServerQuerysComponent,
     SenaComponent,
-    ReactComponent
+    ReactComponent,
+    JsTrabajoFechasComponent,
+    JsRecorrerArraysObjetosComponent,
+    PhpComponent
   ],
   imports: [
     CommonModule,
