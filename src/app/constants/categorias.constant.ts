@@ -563,7 +563,7 @@ export const CATEGORIAS: CategoriasModel [] = [
                 nombre: 'PROPIEDADES',
                 posicion: 'rot-2',
                 ruta:'javascript-propiedades',
-                activo: false,
+                activo: true,
                 color: 't2 textoHoverBlanco'
             },
             {
@@ -574,10 +574,10 @@ export const CATEGORIAS: CategoriasModel [] = [
                 color: 't2 textoHoverBlanco'
             },
             {
-                nombre: 'CRUD',
+                nombre: 'TRABAJO CON FECHAS',
                 posicion: 'rot-1',
-                ruta:'crud-dart',
-                activo: false,
+                ruta:'js-trabajo-fechas',
+                activo: true,
                 color: 't2 textoHoverBlanco'
             },
             {

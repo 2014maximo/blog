@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HeaderPostModel } from '../../../models/post.model';
 
 @Component({
   selector: 'app-astro-s-ingreso',
@@ -7,9 +8,34 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AstroSIngresoComponent implements OnInit {
 
-  constructor() { }
+  public cabeceraPost: HeaderPostModel = {
+    rutaImagen: '',
+    alturaImagen: '',
+    fondo: false,
+    tituloPost: ''
+  }
+
+
+  constructor() {
+    this.inicializarVariables();
+  }
 
   ngOnInit(): void {
+  }
+
+  private inicializarVariables() {
+    this.cabeceraPost = {
+      rutaImagen: 'assets/img/icons/astro-sol.png',
+      fondo: true,
+      tituloPost: '',
+      alturaImagen: '150',
+      sombra: 'drop'
+    };
+
+  }
+
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
   }
 
 }

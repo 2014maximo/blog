@@ -53,8 +53,16 @@ export class JavascriptComponent implements OnInit {
         rutaExterna: 'recorrer-arrays-objetos',
         fondo: 'bg-Javascript',
         colorTexto: 't2 textoHoverBlanco',
-        activo: false
-      }
+        activo: true
+      },
+      {
+        nombre: 'TRABAJO CON FECHAS',
+        posicion: 'pos-z',
+        rutaExterna: 'js-trabajo-fechas',
+        fondo: 'bg-Javascript',
+        colorTexto: 't2 textoHoverBlanco',
+        activo: true
+      },
     ]
   }
 
