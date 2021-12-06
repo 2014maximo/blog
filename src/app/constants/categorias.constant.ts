@@ -894,7 +894,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     {
         id:16,
         categoria: 'wordpress',
-        rutaCategoria: 'categoria-wordpress',
+        rutaCategoria: 'wordpress',
         rutaIcono: 'assets/img/categorias/wordpress2.png',
         alturaIcono: '80',
         color: 'bg-Wordpress',

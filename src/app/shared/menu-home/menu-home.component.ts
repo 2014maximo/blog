@@ -180,6 +180,14 @@ export class MenuHomeComponent implements OnInit {
         colorTexto: 'text-light',
         activo: true
       },
+      {
+        nombre: 'WORDPRESS',
+        posicion: 'rot-2',
+        rutaExterna: 'wordpress',
+        fondo: 'bg-Wordpress',
+        colorTexto: 'text-light',
+        activo: true
+      },
     ]
 
   }

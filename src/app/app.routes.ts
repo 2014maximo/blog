@@ -33,6 +33,7 @@ import { ReactComponent } from './components/REACT/react/react.component';
 import { JsRecorrerArraysObjetosComponent } from './components/JAVASCRIPT/js-recorrer-arrays-objetos/js-recorrer-arrays-objetos.component';
 import { JsTrabajoFechasComponent } from './components/JAVASCRIPT/js-trabajo-fechas/js-trabajo-fechas.component';
 import { PhpComponent } from './components/PHP/php/php.component';
+import { WordpressComponent } from './components/WORDPRESS/wordpress/wordpress.component';
 
 
 export const ROUTES: Routes = [
@@ -90,6 +91,8 @@ export const ROUTES: Routes = [
     { path: 'sql-server-querys', component: SqlServerQuerysComponent },
 // PHP
     { path: 'php', component: PhpComponent },
+// WORDPRESS
+    { path: 'wordpress', component: WordpressComponent },
 
 ];
 
