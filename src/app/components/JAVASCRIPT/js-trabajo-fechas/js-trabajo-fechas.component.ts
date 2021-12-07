@@ -51,21 +51,8 @@ export class JsTrabajoFechasComponent implements OnInit {
 
     switch(caso){
       case 1:
-
-      
-      let cadena = '2014-12-03';
-      let fechaArray = cadena.split('-');
-      // fechaArray [
-      //   0:'2014',
-      //   1:'12',
-      //   2:'03'
-      // ]
-      fechaFormateada = new Date(Number(fechaArray[0]),Number(fechaArray[1]), Number(fechaArray[2]));
-      // fechaFormateada = 'Thu Nov 04 2004 00:00:00 GMT-0500 (hora estándar de Colombia)'
-
-
-
-
+      anio = fecha.split('-');   
+      fechaFormateada = new Date(Number(anio[0]),Number(anio[1]), Number(anio[2]));
       console.log(fechaFormateada,'EL STRING SIN GUION');
       break
 
