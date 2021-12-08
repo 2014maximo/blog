@@ -45,7 +45,7 @@ export class AngularComponent implements OnInit {
       {
         nombre: 'INSTALACIÓN',
         posicion: 'pos-z',
-        rutaExterna: 'angular-instalacion',
+        rutaExterna: 'ng-instalacion',
         fondo: 'bg-Angular',
         colorTexto: 'text-light',
         activo: true
@@ -53,7 +53,7 @@ export class AngularComponent implements OnInit {
       {
         nombre: 'ELEMENTOS Y DESCRIPCIÓN',
         posicion: 'pos-z',
-        rutaExterna: 'android-elementos',
+        rutaExterna: 'ng-descripcion-elementos',
         fondo: 'bg-Angular',
         colorTexto: 'text-light',
         activo: true
@@ -61,7 +61,7 @@ export class AngularComponent implements OnInit {
       {
         nombre: 'PRUEBAS UNITARIAS',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
+        rutaExterna: 'ng-pruebas-unitarias',
         fondo: 'bg-Angular',
         colorTexto: 'text-light',
         activo: false

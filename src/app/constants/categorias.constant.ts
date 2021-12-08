@@ -55,26 +55,20 @@ export const CATEGORIAS: CategoriasModel [] = [
             {
                 nombre: 'INSTALACIÓN',
                 posicion: 'pos-z',
-                ruta:'angular-instalacion',
+                ruta:'ng-instalacion',
                 activo: true
             },
             {
-                nombre: 'PRUEBAS UNITARIAS',
+                nombre: 'DESCRIPCIÓN ELEMENTOS',
                 posicion: 'rot-2',
-                ruta:'componentes/ANGULAR/ang_002.html',
-                activo: false
+                ruta:'ng-descripcion-elementos',
+                activo: true
             },
             {
                 nombre: 'INPUT Y OUTPUT',
                 posicion: 'rot-1',
                 ruta:'componentes/ANGULAR/ang_003.html',
                 activo: false
-            },
-            {
-                nombre: 'DESCRIPCIÓN ELEMENTOS',
-                posicion: 'rot-2',
-                ruta:'angular-descripcion-elementos',
-                activo: true
             },
             {
                 nombre: 'CRUD CON UN MOCKDATA',
@@ -124,6 +118,12 @@ export const CATEGORIAS: CategoriasModel [] = [
                 ruta:'componentes/ANGULAR/ang_012.html',
                 activo: false
             },
+            {
+                nombre: 'PRUEBAS UNITARIAS',
+                posicion: 'rot-2',
+                ruta:'componentes/ANGULAR/ang_002.html',
+                activo: false
+            },
         ],
         postMas: [
             {
@@ -132,13 +132,13 @@ export const CATEGORIAS: CategoriasModel [] = [
                     {
                         nombre: 'INSTALACIÓN',
                         posicion: 'pos-z',
-                        ruta: 'componentes/ANGULAR/ang_001.html',
+                        ruta: 'ionic-instalacion',
                         activo: false
                     },
                     {
                         nombre: 'ELEMENTOS DESCRIPCIÓN',
                         posicion: 'rot-2',
-                        ruta: 'componentes/ANGULAR/ang_002.html',
+                        ruta: 'ionic-elementos-descripción',
                         activo: false
                     },
                 ]
@@ -149,13 +149,13 @@ export const CATEGORIAS: CategoriasModel [] = [
                     {
                         nombre: 'INSTALACIÓN',
                         posicion: 'pos-z',
-                        ruta: 'componentes/ANGULAR/ang_001.html',
+                        ruta: 'prime-instalacion',
                         activo: false
                     },
                     {
                         nombre: 'DESCRIPCIÓN ELEMENTOS',
                         posicion: 'rot-2',
-                        ruta: 'p-ng-descripcion-elementos',
+                        ruta: 'prime-descripcion-elementos',
                         activo: true
                     },
                 ]

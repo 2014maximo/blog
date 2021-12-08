@@ -43,9 +43,9 @@ export const ROUTES: Routes = [
     { path: 'android-studio', component: AndroidStudioComponent },
 // ANGULAR
     { path: 'angular', component: AngularComponent },
-    { path: 'angular-instalacion', component: InstalacionAngularComponent },
-    { path: 'p-ng-descripcion-elementos', component: Primeng7DescripcionElementosComponent },
-    { path: 'angular-descripcion-elementos', component: AngularDescripcionElementosComponent },
+    { path: 'ng-instalacion', component: InstalacionAngularComponent },
+    { path: 'primeng-descripcion-elementos', component: Primeng7DescripcionElementosComponent },
+    { path: 'ng-descripcion-elementos', component: AngularDescripcionElementosComponent },
 // CSS
     { path: 'css', component: CssComponent },
 // DART
