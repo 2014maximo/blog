@@ -93,11 +93,11 @@ html{
     background: black;
 }
 .t1 {
-    color: var(--color-uno) 
+    color: var(--color-uno)
    /* NARANJA */
 }
 .t2{
-    color: var(--color-dos) 
+    color: var(--color-dos) !important;
    /* NEGRO */
 }
 .t3{
@@ -160,6 +160,9 @@ html{
 .bg-Developer{
     background-color: #e6b430;
 }
+.bg-Electron{
+    background-color: #afe3e8;
+}
 .bg-Flutter{
     background-color: #065b9c;
 }
@@ -178,8 +181,14 @@ html{
 .bg-Javascript{
     background-color: #f6d037;
 }
+.bg-Kotlin{
+    background-color: #6576df;
+}
 .bg-Linux{
     background-color: #010101;
+}
+.bg-NetFramework{
+    background-color: #5b2d90;
 }
 .bg-Php{
     background-color: #45538b;
@@ -187,14 +196,14 @@ html{
 .bg-Prime{
     background-color: #36474f;
 }
+.bg-React{
+    background-color: #5adafd;
+}
 .bg-Sql{
     background-color: #fdb200;
 }
 .bg-Wordpress{
     background-color: #35697d;
-}
-.bg-NetFramework{
-    background-color: #5b2d90;
 }
 .bg-Sena{
     background-color: #fe6719;
@@ -241,9 +250,6 @@ input#email, textarea#texarea {
     font-family: 'OperatorMono';
     margin-top: 7rem;
 }
-.cursor-p {
-    cursor: pointer;
-}
 a {
     color: #fff;
     transition: 0.3s;
@@ -251,14 +257,11 @@ a {
 a:hover {
     text-decoration: none !important;
 }
-.espacio{
-    height: 50px;
+.bBlancoSuperior{
+    border-top: 5px dotted gray;
 }
-.espaciar {
-    height: 100px;
-}
-.espaciado{
-    height: 150px;
+.bBlancoInferior{
+    border-bottom: 5px dotted gray;
 }
 .tituloUno{
     font-family: var(--fuente-uno);
@@ -275,58 +278,10 @@ a:hover {
 .titleBig{
     font-size: 146px;
 }
-.fw-3 {
-    font-weight: 300 !important;
-}
-.fw-6{
-    font-weight: 600 !important;
-}
 .fw-3{
 @media only screen and (max-width:414px) and (min-width:320px){
 }
     font-weight: 300 !important;
-}
-.fs-17 {
-    font-size: 17px !important;
-}
-.fs-18 {
-    font-size: 18px !important;
-}
-.fs-20 {
-    font-size: 20px !important;
-}
-.fs-25{
-    font-size: 25px !important;
-}
-.fs-30{
-    font-size: 30px !important;
-}
-.fs-40{
-    font-size: 40px !important;
-}
-.fs-60 {
-    font-size: 60px !important;
-}
-.fs-50 {
-    font-size: 50px !important;
-}
-.fs-160 {
-    font-size: 160px;
-}
-.lh-17{
-    line-height: 17px !important;
-}
-.lh-18{
-    line-height: 18px !important;
-}
-.lh-20{
-    line-height: 20px !important;
-}
-.lh-25{
-    line-height: 25px !important;
-}
-.lh-30{
-    line-height: 30px !important;
 }
 .ww-break {
     word-wrap: break-word;
@@ -453,6 +408,12 @@ a:hover {
 }
 .l-menu a:hover {
     color:#010101
+}
+.textoHoverNegro:hover{
+    color:#010101;
+}
+.textoHoverBlanco:hover{
+    color: #fff !important;
 }
 .post-z{
     z-index: 1;

@@ -8,8 +8,8 @@ export class BloqueContenidoModel {
 }
 
 export class GrupoLinks {
-   index: string = '';
-   links: LinksModel [] = [];
+    index: string = '';
+    links: LinksModel [] = [];
 }
 
 export class LinksModel {

@@ -1150,6 +1150,15 @@ export const LINKS: BloqueContenidoModel[] = [
                         red: '',
                         clipBoard: ''
                     },
+                    {
+                        img: 'assets/img/icons/GitHub-Logo.png',
+                        nombreRecurso: '',
+                        height: '90',
+                        rutaRecurso: 'https://github.com/FaisalUmair/udemy-downloader-gui',
+                        descripcion: 'UDELER | UDEMY COURSE DOWNLOADER (GUI), una aplicación de escritorio multiplataforma (Windows, Mac, Linux) para descargar cursos Udemy.',
+                        red: '',
+                        clipBoard: ''
+                    },
                 ]
             }
         ]
@@ -1527,7 +1536,23 @@ export const LINKS: BloqueContenidoModel[] = [
                         rutaRecurso: 'https://www3.animeflv.net/',
                         descripcion: 'Anime Online - Ningún vídeo se encuentra alojado en nuestros servidores.',
                         red: ''
-                    }
+                    },
+                    {
+                        img: 'assets/img/icons/movie-circle.png',
+                        nombreRecurso: '',
+                        height: '80',
+                        rutaRecurso: 'https://devxploit.xyz/descargas.html#',
+                        descripcion: 'Red de películas y series.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/telelatino.png',
+                        nombreRecurso: '',
+                        height: '80',
+                        rutaRecurso: 'https://telelatinoapk.com/',
+                        descripcion: 'Con esta aplicación vas a poder ver canales de televisión, películas y series completamente gratis, cuenta con canales latinos y españoles.',
+                        red: ''
+                    },
                 ]
             }
         ]
@@ -1546,7 +1571,8 @@ export const LINKS: BloqueContenidoModel[] = [
                         height: '30',
                         rutaRecurso: 'https://www.gamestorrents.nz/',
                         descripcion: 'Descarga de juegos gratis.',
-                        red: ''
+                        red: '',
+                        mediaQuery: 'img-fluid'
                     }
                 ]
             }

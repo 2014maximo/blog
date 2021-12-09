@@ -1,1 +1,42 @@
-<p>css works!</p>
+<div #target></div>
+<app-header-home></app-header-home>
+<div class="espaciado"></div>
+<app-header-post [cabecera]="cabeceraPost"></app-header-post>
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8 text-center">
+        <app-indice-contenidos [indice]="indiceCss" [clase]="claseCss"></app-indice-contenidos>
+        <div class="espacio"></div>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+
+<div class="espaciado"></div>
+
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        
+        <h2 class="fuenteSeis fs-40 t10 sombra-texto">HISTORIA</h2>
+        <p class="fuenteDos fs-20 text-light">
+            Las hojas de estilos aparecieron poco después que el lenguaje de etiquetas SGML, alrededor del año 1970. Desde la creación de SGML, se observó la necesidad de definir un mecanismo que permitiera aplicar de forma consistente diferentes estilos a los documentos electrónicos.<br>
+            <br>
+            El gran impulso de los lenguajes de hojas de estilos se produjo con el boom de Internet y el crecimiento exponencial del lenguaje HTML para la creación de documentos electrónicos. La guerra de navegadores y la falta de un estándar para la definición de los estilos dificultaban la creación de documentos con la misma apariencia en diferentes navegadores.<br>
+            <br>
+            El organismo W3C (World Wide Web Consortium), encargado de crear todos los estándares relacionados con la web, propuso la creación de un lenguaje de hojas de estilos específico para el lenguaje HTML y se presentaron nueve propuestas. Las dos propuestas que se tuvieron en cuenta fueron la CHSS (Cascading HTML Style Sheets) y la SSP (Stream-based Style Sheet Proposal).<br>
+            <br>
+            La propuesta CHSS fue realizada por Håkon Wium Lie y SSP fue propuesto por Bert Bos. Entre finales de 1994 y 1995 Lie y Bos se unieron para definir un nuevo lenguaje que tomaba lo mejor de cada propuesta y lo llamaron CSS (Cascading Style Sheets).<br>
+            <br>
+            En 1995, el W3C decidió apostar por el desarrollo y estandarización de CSS y lo añadió a su grupo de trabajo de HTML. A finales de 1996, el W3C publicó la primera recomendación oficial, conocida como "CSS nivel 1".
+            <br>
+            A principios de 1997, el W3C decide separar los trabajos del grupo de HTML en tres secciones: el grupo de trabajo de HTML, el grupo de trabajo de DOM y el grupo de trabajo de CSS.
+        </p>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+
+<app-footer-home></app-footer-home>
+<div class="go-up" (click)="scroll(target)">
+    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+</div>

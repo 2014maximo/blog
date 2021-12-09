@@ -2,17 +2,18 @@ import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel } from '../../../models/post.model';
 
 @Component({
-  selector: 'app-recorrer-arrays-objetos',
-  templateUrl: './recorrer-arrays-objetos.component.html',
-  styleUrls: ['./recorrer-arrays-objetos.component.css']
+  selector: 'app-net-descripcion-elementos',
+  templateUrl: './net-descripcion-elementos.component.html',
+  styleUrls: ['./net-descripcion-elementos.component.css']
 })
-export class RecorrerArraysObjetosComponent implements OnInit {
+export class NetDescripcionElementosComponent implements OnInit {
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',
     alturaImagen: '',
     fondo: false,
-    tituloPost: ''
+    tituloPost: '',
+    sombra: ''
   }
 
   constructor() {
@@ -24,10 +25,11 @@ export class RecorrerArraysObjetosComponent implements OnInit {
 
   private inicializarVariables() {
     this.cabeceraPost = {
-      rutaImagen: 'assets/img/banner/Instalaciona-angular.jpg',
-      fondo: false,
-      tituloPost: 'RECORRER ARRAYS Y OBJETOS',
-      alturaImagen: ''
+      rutaImagen: '',
+      fondo: true,
+      tituloPost: '.NET DESCRIPCIÓN ELEMENTOS',
+      alturaImagen: '150',
+      sombra: 'drop'
     };
   }
 

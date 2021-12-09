@@ -5,4 +5,5 @@ export class IndiceDeContenidosModel {
     rutaExterna?: any;
     fondo: string = '';
     colorTexto: string = '';
+    activo?: boolean = false;
 }
