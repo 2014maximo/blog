@@ -569,7 +569,7 @@ export const CATEGORIAS: CategoriasModel [] = [
             {
                 nombre: 'RECORRER ARRAYS OBJETOS',
                 posicion: 'pos-z',
-                ruta:'recorrer-arrays-objetos',
+                ruta:'js-recorrer-arrays-objetos',
                 activo: true,
                 color: 't2 textoHoverBlanco'
             },

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { repositorioContenidoImagenes } from 'src/app/constants/globales.constant';
 import { HeaderPostModel } from '../../../models/post.model';
 
 @Component({
@@ -15,6 +16,7 @@ export class JsRecorrerArraysObjetosComponent implements OnInit {
     tituloPost: '',
     sombra: ''
   }
+  public rutaImagen: string = '';
 
   constructor() {
     this.inicializarVariables();
@@ -31,6 +33,8 @@ export class JsRecorrerArraysObjetosComponent implements OnInit {
       alturaImagen: '150',
       sombra: 'drop'
     };
+
+    this.rutaImagen = repositorioContenidoImagenes;
   }
 
   scroll(el: HTMLElement) {
