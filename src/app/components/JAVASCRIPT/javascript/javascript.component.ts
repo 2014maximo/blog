@@ -50,7 +50,7 @@ export class JavascriptComponent implements OnInit {
       {
         nombre: 'RECORRER ARRAY OBJETOS',
         posicion: 'pos-z',
-        rutaExterna: 'recorrer-arrays-objetos',
+        rutaExterna: 'js-recorrer-arrays-objetos',
         fondo: 'bg-Javascript',
         colorTexto: 't2 textoHoverBlanco',
         activo: true
