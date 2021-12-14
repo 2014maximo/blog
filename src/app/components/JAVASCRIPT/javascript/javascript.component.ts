@@ -40,9 +40,9 @@ export class JavascriptComponent implements OnInit {
 
     this.indiceJavascript = [
       {
-        nombre: 'PROPIEDADES',
+        nombre: 'ELEMENTOS',
         posicion: 'pos-z',
-        rutaExterna: 'javascript-propiedades',
+        rutaExterna: 'js-elementos',
         fondo: 'bg-Javascript',
         colorTexto: 't2 textoHoverBlanco',
         activo: true

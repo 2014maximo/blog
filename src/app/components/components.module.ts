@@ -37,6 +37,7 @@ import { JsTrabajoFechasComponent } from './JAVASCRIPT/js-trabajo-fechas/js-trab
 import { JsRecorrerArraysObjetosComponent } from './JAVASCRIPT/js-recorrer-arrays-objetos/js-recorrer-arrays-objetos.component';
 import { PhpComponent } from './PHP/php/php.component';
 import { WordpressComponent } from './WORDPRESS/wordpress/wordpress.component';
+import { JsElementosComponent } from './JAVASCRIPT/js-elementos/js-elementos.component';
 
 
 
@@ -77,7 +78,8 @@ import { WordpressComponent } from './WORDPRESS/wordpress/wordpress.component';
     JsTrabajoFechasComponent,
     JsRecorrerArraysObjetosComponent,
     PhpComponent,
-    WordpressComponent
+    WordpressComponent,
+    JsElementosComponent
   ],
   imports: [
     CommonModule,

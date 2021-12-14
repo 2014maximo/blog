@@ -1,13 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { repositorioContenidoImagenes } from 'src/app/constants/globales.constant';
 import { HeaderPostModel } from '../../../models/post.model';
 
 @Component({
-  selector: 'app-js-recorrer-arrays-objetos',
-  templateUrl: './js-recorrer-arrays-objetos.component.html',
-  styleUrls: ['./js-recorrer-arrays-objetos.component.css']
+  selector: 'app-js-elementos',
+  templateUrl: './js-elementos.component.html',
+  styleUrls: ['./js-elementos.component.css']
 })
-export class JsRecorrerArraysObjetosComponent implements OnInit {
+export class JsElementosComponent implements OnInit {
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',
@@ -16,27 +15,24 @@ export class JsRecorrerArraysObjetosComponent implements OnInit {
     tituloPost: '',
     sombra: ''
   }
-  public rutaImagen: string = '';
 
   constructor() {
     this.inicializarVariables();
   }
-
+  
   ngOnInit(): void {
   }
 
-  private inicializarVariables() {
+  inicializarVariables() {
+
     this.cabeceraPost = {
       rutaImagen: 'assets/img/categorias/javascript.png',
-      fondo: false,
+      fondo: true,
       tituloPost: 'ELEMENTOS',
-      alturaImagen: '150',
-      sombra: 'drop'
+      alturaImagen: '300'
     };
-
-    this.rutaImagen = repositorioContenidoImagenes;
   }
-
+  
   scroll(el: HTMLElement) {
     el.scrollIntoView();
   }

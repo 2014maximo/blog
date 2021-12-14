@@ -34,6 +34,7 @@ import { JsRecorrerArraysObjetosComponent } from './components/JAVASCRIPT/js-rec
 import { JsTrabajoFechasComponent } from './components/JAVASCRIPT/js-trabajo-fechas/js-trabajo-fechas.component';
 import { PhpComponent } from './components/PHP/php/php.component';
 import { WordpressComponent } from './components/WORDPRESS/wordpress/wordpress.component';
+import { JsElementosComponent } from './components/JAVASCRIPT/js-elementos/js-elementos.component';
 
 
 export const ROUTES: Routes = [
@@ -70,6 +71,7 @@ export const ROUTES: Routes = [
     { path: 'java', component: JavaComponent},
 // JAVASCRIPT
     { path: 'javascript', component: JavascriptComponent },
+    { path: 'js-elementos', component: JsElementosComponent},
     { path: 'js-recorrer-arrays-objetos', component: JsRecorrerArraysObjetosComponent },
     { path: 'js-trabajo-fechas', component: JsTrabajoFechasComponent },
 // LINUX

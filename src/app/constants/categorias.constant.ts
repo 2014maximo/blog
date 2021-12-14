@@ -560,9 +560,9 @@ export const CATEGORIAS: CategoriasModel [] = [
         color: 'bg-Javascript',
         post: [
             {
-                nombre: 'PROPIEDADES',
+                nombre: 'ELEMENTOS',
                 posicion: 'rot-2',
-                ruta:'javascript-propiedades',
+                ruta:'js-elementos',
                 activo: true,
                 color: 't2 textoHoverBlanco'
             },
