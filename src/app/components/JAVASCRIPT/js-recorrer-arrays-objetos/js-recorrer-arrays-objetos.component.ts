@@ -28,7 +28,7 @@ export class JsRecorrerArraysObjetosComponent implements OnInit {
   private inicializarVariables() {
     this.cabeceraPost = {
       rutaImagen: 'assets/img/categorias/javascript.png',
-      fondo: false,
+      fondo: true,
       tituloPost: 'ELEMENTOS',
       alturaImagen: '150',
       sombra: 'drop'
