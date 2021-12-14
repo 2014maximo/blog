@@ -358,7 +358,19 @@ export const LINKS: BloqueContenidoModel[] = [
 
                 ]
             },
-
+            {
+                index: '7',
+                links: [
+                    {
+                        img: '',
+                        nombreRecurso: 'reqres',
+                        height: '',
+                        rutaRecurso: 'https://reqres.in/',
+                        descripcion: 'Pruebe su front-end contra una API real.',
+                        red: ''
+                    },
+                ]
+            },
         ]
     },
     {

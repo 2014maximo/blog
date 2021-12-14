@@ -1,0 +1,8 @@
+.input-ingress{
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-family: var(--f-shadow-into-l);
+    font-size: 60px;
+}

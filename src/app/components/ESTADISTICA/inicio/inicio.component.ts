@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { ContactFormService } from 'src/app/services/contact-form.service';
-import { DataModel, PersonaModel } from '../../../models/persona.model';
+import { DataModel, PersonaModel, Usuario } from '../../../models/persona.model';
 import { cargarSorteos } from '../store/actions';
 import { AppState } from '../store/app.reducers';
+import { PersonService } from '../../../services/person.service';
 
 @Component({
   selector: 'app-inicio',
@@ -12,22 +13,19 @@ import { AppState } from '../store/app.reducers';
 })
 export class InicioComponent implements OnInit {
 
-  public bloqueDatos: any;
+  public usuarios: Usuario [] = [];
 
   constructor(private store: Store<AppState>,
-              private consultaSorteos: ContactFormService) { }
+              private consultaSorteos: ContactFormService,
+              private usuarioService: PersonService) { }
 
   ngOnInit(): void {
+    this.usuarioService.getUser()
+        .subscribe( users => {
+          console.log(users);
+          this.usuarios = users;
+        })
 
-    this.consultaSorteos.consultaSorteos().subscribe( (datos:any) =>{
-      console.log(datos, 'LO QUE TRAE EL SERVICIO DE CONSULTA');
-    })
-/*     this.store.select('sorteos').subscribe( sorteos => {
-      console.log(sorteos, 'LOS SORTEOS');
-    })
-
-    this.store.dispatch( cargarSorteos()) */
-/* toro */
     
   }
 

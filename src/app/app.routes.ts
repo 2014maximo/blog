@@ -54,9 +54,9 @@ export const ROUTES: Routes = [
     { path: 'developer', component: DeveloperComponent },
     { path: 'super-recursos-internet', component: SuperRecursosInternetComponent },
 // ESTADISTICA
+    { path: 'estadistica', component: EstadisticaComponent },
     { path: 'astro-sol-ingreso', component: AstroSIngresoComponent },
     { path: 'estadistica-inicio', component: InicioComponent },
-    { path: 'estadistica', component: EstadisticaComponent },
 // ELECTRON
     { path: 'electron', component: ElectronComponent },
 // FLUTTER

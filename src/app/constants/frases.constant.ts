@@ -188,5 +188,12 @@ export const FRASES = [
         colorText: 'text-info',
         id:27
     },
+    {
+        frase: 'Los hombres pierden la salud para hacer dinero, y luego pierden dinero para recuperar la salud, y por pensar ansiosamente en el futuro, olvidan el presente. Viven como si nunca fueran a morir y mueren como si nunca hubieran vivido.',
+        autor: 'Dalai Lama',
+        borde: 'border-primary',
+        colorText: 'text-primary',
+        id:28
+    },
 
 ]
