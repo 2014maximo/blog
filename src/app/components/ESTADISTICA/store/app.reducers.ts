@@ -3,9 +3,9 @@ import * as reducers from './reducers';
 
 
 export interface AppState {
-    sorteos: reducers.SorteoState
+    usuarios: reducers.UsuariosState
 }
 
 export const appReducers: ActionReducerMap<AppState> = {
-    sorteos: reducers.sorteosReducer
+    usuarios: reducers.usuariosReducer,
 }
