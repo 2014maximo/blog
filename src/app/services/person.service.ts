@@ -7,13 +7,13 @@ import { map } from 'rxjs/operators';
 })
 export class PersonService {
 
-   private url = 'https://reqres.in/api/';
+   private url = 'https://reqres.in/api';
 
 
   constructor(private http: HttpClient) { }
 
   getUser() {
-    return this.http.get(`${this.url}users?per_page=6`)
+    return this.http.get(`${this.url}/users?per_page=6`)
     .pipe(
       map( (resp: any) => {
         return resp["data"];
