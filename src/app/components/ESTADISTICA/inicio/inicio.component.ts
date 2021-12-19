@@ -20,6 +20,9 @@ export class InicioComponent implements OnInit {
               private usuarioService: PersonService) { }
 
   ngOnInit(): void {
+    this.store.select('usuarios').subscribe( ({ users }) =>{
+      this.usuarios = users;
+    })
 /*     this.usuarioService.getUser()
         .subscribe( users => {
           console.log(users);
