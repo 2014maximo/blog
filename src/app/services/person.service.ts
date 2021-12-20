@@ -13,7 +13,7 @@ export class PersonService {
   constructor(private http: HttpClient) { }
 
   getUser() {
-    return this.http.get(`${this.url}/users?per_page=6`)
+    return this.http.get(`${this.url}/users?per_page=6&delay=3`)
     .pipe(
       map( (resp: any) => {
         return resp["data"];

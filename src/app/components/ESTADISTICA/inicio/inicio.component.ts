@@ -14,14 +14,18 @@ import { PersonService } from '../../../services/person.service';
 export class InicioComponent implements OnInit {
 
   public usuarios: Usuario [] = [];
+  public loading: boolean = false;
+  public error: any;
 
   constructor(private store: Store<AppState>,
               private consultaSorteos: ContactFormService,
               private usuarioService: PersonService) { }
 
   ngOnInit(): void {
-    this.store.select('usuarios').subscribe( ({ users }) =>{
+    this.store.select('usuarios').subscribe( ({ users, loading, error }) =>{
       this.usuarios = users;
+      this.loading = loading;
+      this.error = error;
     })
 /*     this.usuarioService.getUser()
         .subscribe( users => {
