@@ -650,9 +650,56 @@ export const CATEGORIAS: CategoriasModel [] = [
             },
         ]
     },
-/*      LINUX    */
+/*      KUBERNETES    */
     {
         id:13,
+        categoria: 'kubernetes',
+        rutaCategoria: 'kubernetes',
+        rutaIcono: 'assets/img/categorias/kubernetes.png',
+        alturaIcono: '100',
+        color: 'bg-Kubernetes',
+        post: [
+            {
+                nombre: 'INSTALACIÓN',
+                posicion: 'pos-z',
+                ruta:'instalacion-dart',
+                activo: false
+            },
+            {
+                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                posicion: 'rot-2',
+                ruta:'dart-elementos-descripcion',
+                activo: false
+            },
+            {
+                nombre: 'CRUD',
+                posicion: 'rot-1',
+                ruta:'crud-dart',
+                activo: false
+            },
+            {
+                nombre: 'TERMINOS AVANZADOS',
+                posicion: 'rot-2',
+                ruta:'dart-terminos-avanzados',
+                activo: false
+            },
+            {
+                nombre: 'CONTEXTO DART',
+                posicion: 'pos-z',
+                ruta:'contexto-dart',
+                activo: false
+            },
+            {
+                nombre: 'PRUEBAS UNITARIAS',
+                posicion: 'pos-z',
+                ruta:'dart-pruebas-unitarias',
+                activo: false
+            },
+        ]
+    },
+/*      LINUX    */
+    {
+        id:14,
         categoria: 'linux',
         rutaCategoria: 'linux',
         rutaIcono: 'assets/img/categorias/linux-white.png',
@@ -699,7 +746,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
     /*      NET-FRAMEWORK    */
     {
-        id:17,
+        id:15,
         categoria: 'net-framework',
         rutaCategoria: 'net-framework',
         rutaIcono: 'assets/img/categorias/net-framework.png',
@@ -746,7 +793,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      PHP    */
     {
-        id:18,
+        id:16,
         categoria: 'php',
         rutaCategoria: 'php',
         rutaIcono: 'assets/img/categorias/php.png',
@@ -769,7 +816,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      REACT    */
     {
-        id:19,
+        id:17,
         categoria: 'react',
         rutaCategoria: 'react',
         rutaIcono: 'assets/img/categorias/react-white.png',
@@ -822,7 +869,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      SENA    */
     {
-        id:20,
+        id:18,
         categoria: 'sena',
         rutaCategoria: 'sena',
         rutaIcono: 'assets/img/categorias/sena.png',
@@ -845,7 +892,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
     /*      SQL    */
     {
-            id:14,
+            id:19,
             categoria: 'sql',
             rutaCategoria: 'sql',
             rutaIcono: 'assets/img/categorias/sql.png',
@@ -892,7 +939,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
     /*      WORDPRESS    */
     {
-        id:16,
+        id:20,
         categoria: 'wordpress',
         rutaCategoria: 'wordpress',
         rutaIcono: 'assets/img/categorias/wordpress2.png',

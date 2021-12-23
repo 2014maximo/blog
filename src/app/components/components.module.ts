@@ -38,6 +38,7 @@ import { JsRecorrerArraysObjetosComponent } from './JAVASCRIPT/js-recorrer-array
 import { PhpComponent } from './PHP/php/php.component';
 import { WordpressComponent } from './WORDPRESS/wordpress/wordpress.component';
 import { JsElementosComponent } from './JAVASCRIPT/js-elementos/js-elementos.component';
+import { KubernetesComponent } from './KUBERNETES/kubernetes/kubernetes.component';
 
 
 
@@ -79,7 +80,8 @@ import { JsElementosComponent } from './JAVASCRIPT/js-elementos/js-elementos.com
     JsRecorrerArraysObjetosComponent,
     PhpComponent,
     WordpressComponent,
-    JsElementosComponent
+    JsElementosComponent,
+    KubernetesComponent
   ],
   imports: [
     CommonModule,

@@ -133,6 +133,14 @@ export class MenuHomeComponent implements OnInit {
         activo: true
       },
       {
+        nombre: 'KUBERNETES',
+        posicion: 'pos-z',
+        rutaExterna: 'kubernetes',
+        fondo: 'bg-Kubernetes',
+        colorTexto: 'text-light',
+        activo: true
+      },
+      {
         nombre: 'LINUX',
         posicion: 'rot-2',
         rutaExterna: 'linux',

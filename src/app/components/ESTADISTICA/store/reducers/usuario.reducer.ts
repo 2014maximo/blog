@@ -4,7 +4,7 @@ import { Usuario } from '../../../../models/persona.model';
 
 export interface UsuarioState {
     id     : string,
-    user   : Usuario,
+    //user   : Usuario,
     loaded : boolean,
     loading: boolean,
     error  : any
@@ -12,7 +12,7 @@ export interface UsuarioState {
 
 export const UsuarioInitialState: UsuarioState = {
     id     : '',
-    user   : [],
+   //user   : [],
     loaded : false,
     loading: false,
     error  : null

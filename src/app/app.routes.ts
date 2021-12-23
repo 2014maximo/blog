@@ -35,6 +35,7 @@ import { JsTrabajoFechasComponent } from './components/JAVASCRIPT/js-trabajo-fec
 import { PhpComponent } from './components/PHP/php/php.component';
 import { WordpressComponent } from './components/WORDPRESS/wordpress/wordpress.component';
 import { JsElementosComponent } from './components/JAVASCRIPT/js-elementos/js-elementos.component';
+import { KubernetesComponent } from './components/KUBERNETES/kubernetes/kubernetes.component';
 
 
 export const ROUTES: Routes = [
@@ -78,6 +79,8 @@ export const ROUTES: Routes = [
     { path: 'linux', component: LinuxComponent },
 // KOTLIN
     { path: 'kotlin', component: KotlinComponent },
+// KUBERNETES
+    { path: 'kubernetes', component: KubernetesComponent },
 // NET-FRAMEWORKS
     { path: 'net-framework', component: NetFrameworkComponent},
     { path: 'net-instalacion', component: NetInstalacionComponent },

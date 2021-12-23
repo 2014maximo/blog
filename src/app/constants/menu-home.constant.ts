@@ -94,6 +94,13 @@ export const MENU_3 = [
 export const MENU_4 = [
     {
         id:1,
+        categoria: 'kubernetes',
+        abertura: '80%',
+        rutaIcono: 'assets/img/categorias/kubernetes.png',
+        alturaIcono: '100'
+    },
+    {
+        id:1,
         categoria: 'linux',
         abertura: '80%',
         rutaIcono: 'assets/img/categorias/linux-white.png',
@@ -113,32 +120,32 @@ export const MENU_4 = [
         rutaIcono: 'assets/img/categorias/php.png',
         alturaIcono: '70'
     },
-    {
-        id:4,
-        categoria: 'react',
-        abertura: '80%',
-        rutaIcono: 'assets/img/categorias/react.png',
-        alturaIcono: '100'
-    },
 ]
 
 export const MENU_5 = [
     {
         id:1,
+        categoria: 'react',
+        abertura: '80%',
+        rutaIcono: 'assets/img/categorias/react.png',
+        alturaIcono: '100'
+    },
+    {
+        id:2,
         categoria: 'sena',
         abertura: '80%',
         rutaIcono: 'assets/img/categorias/sena.png',
         alturaIcono: '70'
     },
     {
-        id:2,
+        id:3,
         categoria: 'sql',
         abertura: '80%',
         rutaIcono: 'assets/img/categorias/sql.png',
         alturaIcono: '55'
     },
     {
-        id:3,
+        id:4,
         categoria: 'wordpress',
         abertura: '80%',
         rutaIcono: 'assets/img/categorias/wordpress2.png',
