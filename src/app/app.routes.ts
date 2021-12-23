@@ -36,6 +36,7 @@ import { PhpComponent } from './components/PHP/php/php.component';
 import { WordpressComponent } from './components/WORDPRESS/wordpress/wordpress.component';
 import { JsElementosComponent } from './components/JAVASCRIPT/js-elementos/js-elementos.component';
 import { KubernetesComponent } from './components/KUBERNETES/kubernetes/kubernetes.component';
+import { Primeng7TablecheckboxComponent } from './components/ANGULAR/primeng7-tablecheckbox/primeng7-tablecheckbox.component';
 
 
 export const ROUTES: Routes = [
@@ -46,8 +47,10 @@ export const ROUTES: Routes = [
 // ANGULAR
     { path: 'angular', component: AngularComponent },
     { path: 'ng-instalacion', component: InstalacionAngularComponent },
-    { path: 'primeng-descripcion-elementos', component: Primeng7DescripcionElementosComponent },
     { path: 'ng-descripcion-elementos', component: AngularDescripcionElementosComponent },
+    // ANGULAR-PRIMENG7
+    { path: 'primeng-descripcion-elementos', component: Primeng7DescripcionElementosComponent },
+    { path: 'primeng7-tablecheckbox', component: Primeng7TablecheckboxComponent },
 // CSS
     { path: 'css', component: CssComponent },
 // DART

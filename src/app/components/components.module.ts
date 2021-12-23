@@ -39,6 +39,7 @@ import { PhpComponent } from './PHP/php/php.component';
 import { WordpressComponent } from './WORDPRESS/wordpress/wordpress.component';
 import { JsElementosComponent } from './JAVASCRIPT/js-elementos/js-elementos.component';
 import { KubernetesComponent } from './KUBERNETES/kubernetes/kubernetes.component';
+import { Primeng7TablecheckboxComponent } from './ANGULAR/primeng7-tablecheckbox/primeng7-tablecheckbox.component';
 
 
 
@@ -81,7 +82,8 @@ import { KubernetesComponent } from './KUBERNETES/kubernetes/kubernetes.componen
     PhpComponent,
     WordpressComponent,
     JsElementosComponent,
-    KubernetesComponent
+    KubernetesComponent,
+    Primeng7TablecheckboxComponent
   ],
   imports: [
     CommonModule,
