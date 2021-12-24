@@ -155,7 +155,13 @@ export const CATEGORIAS: CategoriasModel [] = [
                     {
                         nombre: 'DESCRIPCIÓN ELEMENTOS',
                         posicion: 'rot-2',
-                        ruta: 'prime-descripcion-elementos',
+                        ruta: 'primeng-descripcion-elementos',
+                        activo: true
+                    },
+                    {
+                        nombre: 'TABLE CHECKBOX',
+                        posicion: 'rot-2',
+                        ruta: 'primeng7-tablecheckbox',
                         activo: true
                     },
                 ]
