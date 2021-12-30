@@ -807,10 +807,23 @@ export const LINKS: BloqueContenidoModel[] = [
                     },
                     {
                         img: 'assets/img/icons/ngrx.svg',
-                        nombreRecurso: '',
+                        nombreRecurso: 'Redux',
                         height: '80',
                         rutaRecurso: 'https://ngrx.io/',
                         descripcion: '"NGRX" Es el estándar de facto para implementar Redux en Angular. Está basada en RxJS y es una librería modular con todo lo necesario para crear grandes aplicaciones.',
+                        red: ''
+                    },
+                ]
+            },
+            {
+                index: '4',
+                links: [
+                    {
+                        img: 'assets/img/icons/RXJS.png',
+                        nombreRecurso: 'RXJS',
+                        height: '80',
+                        rutaRecurso: 'https://rxjs.dev/',
+                        descripcion: 'RxJS es una biblioteca para programación reactiva que utiliza Observables, para facilitar la composición de código asincrónico o basado en devolución de llamada. Este proyecto es una reescritura de Reactive-Extensions / RxJS con mejor rendimiento, mejor modularidad, mejores pilas de llamadas depurables, mientras se mantiene en su mayoría compatible con versiones anteriores, con algunos cambios importantes que reducen la superficie de la API.',
                         red: ''
                     },
                 ]

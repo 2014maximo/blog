@@ -4,37 +4,38 @@ import { Usuario } from '../../../../models/persona.model';
 
 export interface UsuarioState {
     id     : string,
-    //user   : Usuario,
+    user   : Usuario,
     loaded : boolean,
     loading: boolean,
     error  : any
-};
+}
 
 export const UsuarioInitialState: UsuarioState = {
-    id     : '',
-   //user   : [],
+    id     : null as any,
+    user   : null as any,
     loaded : false,
     loading: false,
     error  : null
-};
+}
 
-const _UsuarioReducer = createReducer(UsuarioInitialState,
+const _UsuarioReducer = createReducer( UsuarioInitialState,
 
     on( cargarUsuario, (state, { id }) => ({ 
-        ...state,
-        loading: true ,
+        ...state, 
+        loading: true,
         id: id
     })),
     
-    on( cargarUsuarioSuccess, (state, { usuario }) => ({
-        ...state,
+    
+    on( cargarUsuarioSuccess, (state, { usuario }) => ({ 
+        ...state, 
         loading: false,
         loaded: true,
         user: { ...usuario }
-     })),
+    })),
 
-     on( cargarUsuarioError, (state, { payload }) => ({
-        ...state,
+    on( cargarUsuarioError, (state, { payload }) => ({ 
+        ...state, 
         loading: false,
         loaded: false,
         error: {
@@ -44,8 +45,11 @@ const _UsuarioReducer = createReducer(UsuarioInitialState,
         }
     })),
 
+
+
+
 );
 
-export function usuarioReducer(state:any, action:any) {
-    return _UsuarioReducer(state, action)
+export function UsuarioReducer(state:any, action:any) {
+    return _UsuarioReducer(state, action);
 }

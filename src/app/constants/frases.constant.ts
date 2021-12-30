@@ -195,5 +195,12 @@ export const FRASES = [
         colorText: 'text-primary',
         id:28
     },
+    {
+        frase: 'Aquel que niega sus impulsos, esta negando todo aquello que nos hace humanos.',
+        autor: 'Mouse - Matrix',
+        borde: 'border-secondary',
+        colorText: 'text-secondary',
+        id:29
+    },
 
 ]

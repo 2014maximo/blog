@@ -20,4 +20,11 @@ export class PersonService {
       })
     );
   }
+
+  getUserById( id: string ) {
+    return this.http.get(`${this.url}/users/${ id }`)
+    .pipe(
+      map( (resp: any) => resp['data'])
+    );
+  }
 }
