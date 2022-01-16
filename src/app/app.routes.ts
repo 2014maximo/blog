@@ -26,8 +26,8 @@ import { KotlinComponent } from './components/KOTLIN/kotlin/kotlin.component';
 import { EstadisticaComponent } from './components/ESTADISTICA/estadistica/estadistica.component';
 import { AstroSIngresoComponent } from './components/ESTADISTICA/astro-s-ingreso/astro-s-ingreso.component';
 import { NetDescripcionElementosComponent } from './components/NET/net-descripcion-elementos/net-descripcion-elementos.component';
-import { SqlComponent } from './components/SQL/sql/sql.component';
-import { SqlServerQuerysComponent } from './components/SQL/sql-server-querys/sql-server-querys.component';
+import { SqlComponent } from './components/DB/sql/sql.component';
+import { SqlServerQuerysComponent } from './components/DB/sql-server-querys/sql-server-querys.component';
 import { SenaComponent } from './components/SENA/sena/sena.component';
 import { ReactComponent } from './components/REACT/react/react.component';
 import { JsRecorrerArraysObjetosComponent } from './components/JAVASCRIPT/js-recorrer-arrays-objetos/js-recorrer-arrays-objetos.component';
@@ -37,6 +37,8 @@ import { WordpressComponent } from './components/WORDPRESS/wordpress/wordpress.c
 import { JsElementosComponent } from './components/JAVASCRIPT/js-elementos/js-elementos.component';
 import { KubernetesComponent } from './components/KUBERNETES/kubernetes/kubernetes.component';
 import { Primeng7TablecheckboxComponent } from './components/ANGULAR/primeng7-tablecheckbox/primeng7-tablecheckbox.component';
+import { FirebaseComponent } from './components/DB/firebase/firebase.component';
+import { DbComponent } from './components/DB/db/db.component';
 
 
 export const ROUTES: Routes = [
@@ -95,8 +97,10 @@ export const ROUTES: Routes = [
 // REACT
     { path: 'react', component: ReactComponent },
 // SQL
-    { path: 'sql', component: SqlComponent },
-    { path: 'sql-server-querys', component: SqlServerQuerysComponent },
+    { path: 'db', component: DbComponent },
+    { path: 'db-firebase', component: FirebaseComponent },
+    { path: 'db-sql', component: SqlComponent },
+    { path: 'db-sql-server-querys', component: SqlServerQuerysComponent },
 // PHP
     { path: 'php', component: PhpComponent },
 // WORDPRESS

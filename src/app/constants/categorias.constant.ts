@@ -896,50 +896,32 @@ export const CATEGORIAS: CategoriasModel [] = [
             }
         ]
     },
-    /*      SQL    */
+    /*      DB    */
     {
             id:19,
-            categoria: 'sql',
-            rutaCategoria: 'sql',
+            categoria: 'db',
+            rutaCategoria: 'db',
             rutaIcono: 'assets/img/categorias/sql.png',
             alturaIcono: '80',
             color: 'bg-Sql',
             post: [
                 {
-                    nombre: 'INSTALACIONES',
+                    nombre: 'FIREBASE',
                     posicion: 'pos-z',
-                    ruta:'sql-instalaciones',
-                    activo: false
+                    ruta:'db-firebase',
+                    activo: true
+                },
+                {
+                    nombre: 'SQL',
+                    posicion: 'rot-1',
+                    ruta:'db-sql',
+                    activo: true
                 },
                 {
                     nombre: 'SQL-SERVER-QUERYS',
                     posicion: 'rot-2',
-                    ruta:'sql-server-querys',
+                    ruta:'db-sql-server-querys',
                     activo: true
-                },
-                {
-                    nombre: 'CRUD',
-                    posicion: 'rot-1',
-                    ruta:'crud-dart',
-                    activo: false
-                },
-                {
-                    nombre: 'TERMINOS AVANZADOS',
-                    posicion: 'rot-2',
-                    ruta:'dart-terminos-avanzados',
-                    activo: false
-                },
-                {
-                    nombre: 'CONTEXTO DART',
-                    posicion: 'pos-z',
-                    ruta:'contexto-dart',
-                    activo: false
-                },
-                {
-                    nombre: 'PRUEBAS UNITARIAS',
-                    posicion: 'pos-z',
-                    ruta:'dart-pruebas-unitarias',
-                    activo: false
                 },
             ]
     },

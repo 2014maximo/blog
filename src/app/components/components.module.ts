@@ -29,8 +29,8 @@ import { KotlinComponent } from './KOTLIN/kotlin/kotlin.component';
 import { EstadisticaComponent } from './ESTADISTICA/estadistica/estadistica.component';
 import { AstroSIngresoComponent } from './ESTADISTICA/astro-s-ingreso/astro-s-ingreso.component';
 import { NetDescripcionElementosComponent } from './NET/net-descripcion-elementos/net-descripcion-elementos.component';
-import { SqlComponent } from './SQL/sql/sql.component';
-import { SqlServerQuerysComponent } from './SQL/sql-server-querys/sql-server-querys.component';
+import { SqlComponent } from './DB/sql/sql.component';
+import { SqlServerQuerysComponent } from './DB/sql-server-querys/sql-server-querys.component';
 import { SenaComponent } from './SENA/sena/sena.component';
 import { ReactComponent } from './REACT/react/react.component';
 import { JsTrabajoFechasComponent } from './JAVASCRIPT/js-trabajo-fechas/js-trabajo-fechas.component';
@@ -40,6 +40,8 @@ import { WordpressComponent } from './WORDPRESS/wordpress/wordpress.component';
 import { JsElementosComponent } from './JAVASCRIPT/js-elementos/js-elementos.component';
 import { KubernetesComponent } from './KUBERNETES/kubernetes/kubernetes.component';
 import { Primeng7TablecheckboxComponent } from './ANGULAR/primeng7-tablecheckbox/primeng7-tablecheckbox.component';
+import { FirebaseComponent } from './DB/firebase/firebase.component';
+import { DbComponent } from './DB/db/db.component';
 
 
 
@@ -83,7 +85,9 @@ import { Primeng7TablecheckboxComponent } from './ANGULAR/primeng7-tablecheckbox
     WordpressComponent,
     JsElementosComponent,
     KubernetesComponent,
-    Primeng7TablecheckboxComponent
+    Primeng7TablecheckboxComponent,
+    FirebaseComponent,
+    DbComponent
   ],
   imports: [
     CommonModule,

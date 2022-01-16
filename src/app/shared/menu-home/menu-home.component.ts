@@ -181,9 +181,9 @@ export class MenuHomeComponent implements OnInit {
         activo: true
       },
       {
-        nombre: 'SQL',
+        nombre: 'DB',
         posicion: 'rot-2',
-        rutaExterna: 'sql',
+        rutaExterna: 'db',
         fondo: 'bg-Sql',
         colorTexto: 'text-light',
         activo: true

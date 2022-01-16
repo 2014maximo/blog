@@ -3,11 +3,11 @@ import { HeaderPostModel } from '../../../models/post.model';
 import { IndiceDeContenidosModel } from '../../../models/indice.model';
 
 @Component({
-  selector: 'app-sql',
-  templateUrl: './sql.component.html',
-  styleUrls: ['./sql.component.css']
+  selector: 'app-db',
+  templateUrl: './db.component.html',
+  styleUrls: ['./db.component.css']
 })
-export class SqlComponent implements OnInit {
+export class DbComponent implements OnInit {
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',
@@ -17,8 +17,8 @@ export class SqlComponent implements OnInit {
     sombra: ''
   }
 
-  public indiceSql: IndiceDeContenidosModel [] = [];
-  public claseSql = '';
+  public indiceDb: IndiceDeContenidosModel [] = [];
+  public claseDb = '';
 
   constructor() {
     this.inicializarVariables();
@@ -36,21 +36,29 @@ export class SqlComponent implements OnInit {
       sombra: 'drop'
     };
 
-    this.claseSql = 'mt-2';
+    this.claseDb = 'mt-2';
 
-    this.indiceSql = [
+    this.indiceDb = [
       {
-        nombre: 'SQL INSTALACIONES',
+        nombre: 'FIREBASE',
         posicion: 'pos-z',
-        rutaExterna: 'sql-instalaciones',
+        rutaExterna: 'db-firebase',
         fondo: 'bg-Sql',
         colorTexto: 't2',
         activo: true
       },
       {
-        nombre: 'MODELO RELACIONAL Y ENTIDAD RELACIÓN',
+        nombre: 'SQL',
         posicion: 'pos-z',
-        rutaExterna: 'sql-modelo-relacional-entidad-relacion',
+        rutaExterna: 'db-sql',
+        fondo: 'bg-Sql',
+        colorTexto: 't2',
+        activo: true
+      },
+      {
+        nombre: 'SQL SERVER QUERYS',
+        posicion: 'pos-z',
+        rutaExterna: 'db-sql',
         fondo: 'bg-Sql',
         colorTexto: 't2',
         activo: true

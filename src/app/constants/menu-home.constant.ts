@@ -139,7 +139,7 @@ export const MENU_5 = [
     },
     {
         id:3,
-        categoria: 'sql',
+        categoria: 'db',
         abertura: '80%',
         rutaIcono: 'assets/img/categorias/sql.png',
         alturaIcono: '55'
