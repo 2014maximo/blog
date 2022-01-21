@@ -5,14 +5,14 @@
 export const environment = {
 	production: false,
 	firebase: {
-		apiKey: "Your Api Key",
-		authDomain: "your.fireside.firebaseapp.com",
-		databaseURL: "https://your.fireside.firebaseio.com",
-		projectId: "your.fireside",
-		storageBucket: "your.fireside.appspot.com",
-		messagingSenderId: "messagingSenderId"
+	  apiKey: "XXX",
+	  authDomain: "XXX",
+	  databaseURL: "XXX",
+	  projectId: "XXX",
+	  storageBucket: "XXX",
+	  messagingSenderId: "XXX"  
 	}
-}
+  };
 
 /*
  * For easier debugging in development mode, you can import the following file

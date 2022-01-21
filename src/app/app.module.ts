@@ -18,8 +18,6 @@ import { environment } from 'src/environments/environment';
 import { EffectsModule } from '@ngrx/effects';
 import { EffectsArray } from './components/ESTADISTICA/store/effects/index';
 
-// FIREBASE
-
 
 @NgModule({
   declarations: [

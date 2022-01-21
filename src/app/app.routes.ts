@@ -39,6 +39,7 @@ import { KubernetesComponent } from './components/KUBERNETES/kubernetes/kubernet
 import { Primeng7TablecheckboxComponent } from './components/ANGULAR/primeng7-tablecheckbox/primeng7-tablecheckbox.component';
 import { FirebaseComponent } from './components/DB/firebase/firebase.component';
 import { DbComponent } from './components/DB/db/db.component';
+import { AsInstalacionComponent } from './components/ANDROID/as-instalacion/as-instalacion.component';
 
 
 export const ROUTES: Routes = [
@@ -46,6 +47,7 @@ export const ROUTES: Routes = [
     { path: 'home', component: HomeComponent },
 // ANDROID STUDIO
     { path: 'android-studio', component: AndroidStudioComponent },
+    { path: 'as-instalacion', component: AsInstalacionComponent },
 // ANGULAR
     { path: 'angular', component: AngularComponent },
     { path: 'ng-instalacion', component: InstalacionAngularComponent },

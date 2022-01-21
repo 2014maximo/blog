@@ -14,8 +14,8 @@ export const CATEGORIAS: CategoriasModel [] = [
             {
                 nombre: 'INSTALACION',
                 posicion: 'pos-z',
-                ruta:'android-instalacion',
-                activo: false
+                ruta:'as-instalacion',
+                activo: true
             },
             {
                 nombre: 'ELEMENTOS Y DESCRIPCIÓN',

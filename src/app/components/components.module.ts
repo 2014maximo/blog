@@ -42,6 +42,8 @@ import { KubernetesComponent } from './KUBERNETES/kubernetes/kubernetes.componen
 import { Primeng7TablecheckboxComponent } from './ANGULAR/primeng7-tablecheckbox/primeng7-tablecheckbox.component';
 import { FirebaseComponent } from './DB/firebase/firebase.component';
 import { DbComponent } from './DB/db/db.component';
+import { AsInstalacionComponent } from './ANDROID/as-instalacion/as-instalacion.component';
+
 
 
 
@@ -87,11 +89,12 @@ import { DbComponent } from './DB/db/db.component';
     KubernetesComponent,
     Primeng7TablecheckboxComponent,
     FirebaseComponent,
-    DbComponent
+    DbComponent,
+    AsInstalacionComponent
   ],
   imports: [
     CommonModule,
-    SharedModule
+    SharedModule,
   ],
   exports: [
     HomeComponent

@@ -32,7 +32,7 @@ export class DbComponent implements OnInit {
       rutaImagen: 'assets/img/categorias/sql.png',
       fondo: true,
       tituloPost: '',
-      alturaImagen: '150',
+      alturaImagen: '100',
       sombra: 'drop'
     };
 
@@ -44,7 +44,7 @@ export class DbComponent implements OnInit {
         posicion: 'pos-z',
         rutaExterna: 'db-firebase',
         fondo: 'bg-Sql',
-        colorTexto: 't2',
+        colorTexto: 'text-light',
         activo: true
       },
       {
@@ -52,7 +52,7 @@ export class DbComponent implements OnInit {
         posicion: 'pos-z',
         rutaExterna: 'db-sql',
         fondo: 'bg-Sql',
-        colorTexto: 't2',
+        colorTexto: 'text-light',
         activo: true
       },
       {
@@ -60,7 +60,7 @@ export class DbComponent implements OnInit {
         posicion: 'pos-z',
         rutaExterna: 'db-sql-server-querys',
         fondo: 'bg-Sql',
-        colorTexto: 't2',
+        colorTexto: 'text-light',
         activo: true
       }
     ]
