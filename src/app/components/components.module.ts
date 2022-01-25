@@ -43,6 +43,7 @@ import { Primeng7TablecheckboxComponent } from './ANGULAR/primeng7-tablecheckbox
 import { FirebaseComponent } from './DB/firebase/firebase.component';
 import { DbComponent } from './DB/db/db.component';
 import { AsInstalacionComponent } from './ANDROID/as-instalacion/as-instalacion.component';
+import { HtmlEtiquetasComponent } from './HTML/html-etiquetas/html-etiquetas.component';
 
 
 
@@ -90,7 +91,8 @@ import { AsInstalacionComponent } from './ANDROID/as-instalacion/as-instalacion.
     Primeng7TablecheckboxComponent,
     FirebaseComponent,
     DbComponent,
-    AsInstalacionComponent
+    AsInstalacionComponent,
+    HtmlEtiquetasComponent
   ],
   imports: [
     CommonModule,

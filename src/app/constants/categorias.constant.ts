@@ -472,10 +472,10 @@ export const CATEGORIAS: CategoriasModel [] = [
         color: 'bg-Html',
         post: [
             {
-                nombre: 'DESCRIPCIÓN ETIQUETAS',
+                nombre: 'ETIQUETAS',
                 posicion: 'pos-z',
                 ruta:'html-etiquetas',
-                activo: false
+                activo: true
             },
             {
                 nombre: 'ELEMENTOS Y DESCRIPCIÓN',

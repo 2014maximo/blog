@@ -8,15 +8,41 @@
     <div class="col-md-1"></div>
     <div class="col-md-10">
         <p class="f-open-sans-c text-light fs-18 lh-18">
-            Lo primero que consideraba de "FIREBASE", era que sus servicios eran de una base de datos no relacional con la cual conectaba mis aplicaciones frontend y podia realizar todas las operaciones CRUD, ya. En realidad son muchos servicios para aplicaciones móviles y web de los cuales son asequibles gratuitamente con limitantes que no evitan desarrollar en pruebas cualquier aplicación.
+            De manera simple "FIREBASE", aloja nuestros datos y nos presta el servicio de backend para solo enviar las peticiones directo a la ruta de los servicios.<br><br>
+            Anteriormente lo que consideraba de "FIREBASE", era que sus servicios eran de una base de datos no relacional, a la cual conectaba mi aplicación de "ANGULAR" y podia realizar todas las operaciones CRUD, ya.<br><br>
+            En realidad son muchos servicios para aplicaciones móviles y web de los cuales son asequibles gratuitamente con limitantes que no evitan desarrollar en pruebas cualquier aplicación.
+            <br><br>
+            Actualmente se requiere tener muy en cuenta el control de acceso y para conectar una base de datos "FIREBASE" a una aplicación de angular.<br><br>
+            Actualmente se puede hacer en modo de prueba por pocos días, luego "FIREBASE" nos recordará por medio de email que se deben configurar las reglas de acceso, ya que cualquier usuario puede acceder a la base de datos y realizar cambios sin autorización. Luego de eso se deshabilita el acceso a la base de datos y se vuelve tedioso estar habilitando el acceso por pocos días.
+            <br><br>
+            Lo ideal sería aplicar el proceso adecuado de control de acceso a los datos mediante un login de autorización de usuario y luego de eso permitir el acceso a los datos mediante un token.
         </p>
         <div class="espacio"></div>
         <h4 class="f-shadow-into-l fs-25 tc-green-one text-shadow-one">REALTIME DATABASE</h4>
         <p class="f-open-sans-c text-light fs-18 lh-18">
             <b>
                 (SECURE RULES) REGLAS SEGURAS EN ANGULAR
-            </b><br>
+            </b>
+            <br><br>
+            Una manera efectiva de aplicar reglas seguras se puede lograr utilizando el "FIREBASE LOCAL EMULATOR SUITE", que es un conjunto de herramientas para probar localmente como funciona todo antes de aplicar cambios directamente en "FIREBASE".
+            
         </p>
+        <div class="espacio"></div>
+        <h4 class="f-shadow-into-l fs-25 tc-green-one text-shadow-one">
+            FIREBASE CLI LOGIN 
+        </h4>
+        <p class="f-open-sans-c text-light fs-18 lh-18">
+            <b>
+                INICIA SESIÓN EN LA INTERFAZ DE LÍNEA DE COMANDOS DE FIREBASE.
+            </b>
+            <br><br>
+            Utiliza la línea de comandos para loguearte en tu base de datos de firebase con:
+        </p>
+        <h3 class="tc-green-one fuenteTres font-weight-lighter fs-18">npm install -g firebase-tools <i class="fa fa-clone cursor-p ml-2" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g firebase-tools')"></i>
+        </h3>
+        <p class="tc-gray-one fuenteTres font-weight-lighter fs-18">//instalar las herramientas de firebase</p>
+        <div class="espacio"></div>
+        <img src="{{ rutaImagen }}assets/categorias/DB/firebase/woohoo.jpg" alt="" width="auto" height="auto" class="shadow-two">
     </div>
     <div class="col-md-1"></div>
 </div>

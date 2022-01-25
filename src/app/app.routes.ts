@@ -40,6 +40,7 @@ import { Primeng7TablecheckboxComponent } from './components/ANGULAR/primeng7-ta
 import { FirebaseComponent } from './components/DB/firebase/firebase.component';
 import { DbComponent } from './components/DB/db/db.component';
 import { AsInstalacionComponent } from './components/ANDROID/as-instalacion/as-instalacion.component';
+import { HtmlEtiquetasComponent } from './components/HTML/html-etiquetas/html-etiquetas.component';
 
 
 export const ROUTES: Routes = [
@@ -75,6 +76,7 @@ export const ROUTES: Routes = [
     { path: 'git', component: GitComponent },
 // HTML
     { path: 'html', component: HtmlComponent },
+    { path: 'html-etiquetas', component: HtmlEtiquetasComponent },
 // JAVA
     { path: 'java', component: JavaComponent},
 // JAVASCRIPT
