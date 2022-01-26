@@ -113,7 +113,8 @@ export class DeveloperComponent implements OnInit {
         posicion: 'rot-2',
         rutaExterna: 'dev-glosario',
         fondo: 'bg-Developer',
-        colorTexto: 'text-light'
+        colorTexto: 'text-light',
+        activo: true
       }
     ]
   }
