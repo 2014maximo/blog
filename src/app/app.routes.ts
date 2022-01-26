@@ -41,6 +41,7 @@ import { FirebaseComponent } from './components/DB/firebase/firebase.component';
 import { DbComponent } from './components/DB/db/db.component';
 import { AsInstalacionComponent } from './components/ANDROID/as-instalacion/as-instalacion.component';
 import { HtmlEtiquetasComponent } from './components/HTML/html-etiquetas/html-etiquetas.component';
+import { DevGlosarioComponent } from './components/DEVELOPER/dev-glosario/dev-glosario.component';
 
 
 export const ROUTES: Routes = [
@@ -63,6 +64,7 @@ export const ROUTES: Routes = [
 // DEVELOPER
     { path: 'developer', component: DeveloperComponent },
     { path: 'super-recursos-internet', component: SuperRecursosInternetComponent },
+    { path: 'dev-glosario', component: DevGlosarioComponent },
 // ESTADISTICA
     { path: 'estadistica', component: EstadisticaComponent },
     { path: 'astro-sol-ingreso', component: AstroSIngresoComponent },

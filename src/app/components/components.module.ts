@@ -44,6 +44,7 @@ import { FirebaseComponent } from './DB/firebase/firebase.component';
 import { DbComponent } from './DB/db/db.component';
 import { AsInstalacionComponent } from './ANDROID/as-instalacion/as-instalacion.component';
 import { HtmlEtiquetasComponent } from './HTML/html-etiquetas/html-etiquetas.component';
+import { DevGlosarioComponent } from './DEVELOPER/dev-glosario/dev-glosario.component';
 
 
 
@@ -92,7 +93,8 @@ import { HtmlEtiquetasComponent } from './HTML/html-etiquetas/html-etiquetas.com
     FirebaseComponent,
     DbComponent,
     AsInstalacionComponent,
-    HtmlEtiquetasComponent
+    HtmlEtiquetasComponent,
+    DevGlosarioComponent
   ],
   imports: [
     CommonModule,

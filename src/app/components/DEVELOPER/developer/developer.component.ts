@@ -109,9 +109,9 @@ export class DeveloperComponent implements OnInit {
         colorTexto: 'text-light',
       },
       {
-        nombre: 'MOCKUPS Y RECOMENDACIONES',
+        nombre: 'GLOSARIO',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
+        rutaExterna: 'dev-glosario',
         fondo: 'bg-Developer',
         colorTexto: 'text-light'
       }

@@ -308,10 +308,10 @@ export const CATEGORIAS: CategoriasModel [] = [
                 activo: false
             },
             {
-                nombre: 'PRUEBAS UNITARIAS',
+                nombre: 'GLOSARIO',
                 posicion: 'pos-z',
-                ruta:'dart-pruebas-unitarias',
-                activo: false
+                ruta:'dev-glosario',
+                activo: true
             },
         ]
     },
