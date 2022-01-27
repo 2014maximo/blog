@@ -522,7 +522,7 @@ export const CATEGORIAS: CategoriasModel [] = [
                 nombre: 'INSTALACIÓN',
                 posicion: 'pos-z',
                 ruta:'java-instalacion',
-                activo: false
+                activo: true
             },
             {
                 nombre: 'ELEMENTOS Y DESCRIPCIÓN',

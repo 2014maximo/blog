@@ -30,6 +30,21 @@
         <img src="{{ rutaImagen }}assets/categorias/DEVELOPER/firebase-console.png" alt="" width="600" height="auto" class="img-fluid shadow-two">
         <div class="espacio"></div>
 
+        <!-- P -->
+        <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one">PETICIONES HTTP <br><span class="fs-25 tc-blue-one">Método post</span></h4>
+        <p class="f-open-sans-c text-light fs-20 lh-20">
+            Solemos pensar que enviando las peticiones por método POST los datos viajan seguros, por no ir como parte de la URL como lo hace GET. Este concepto es erróneo, estas no son las diferencias entre links y formularios.<br>
+            <br>
+            El concepto POST es enviar información desde el cliente para que sea procesada y actualice o agregue información en el servidor, como sería la carga o actualización en si de un artículo. Cuando enviamos (request) datos a través de un formulario, estos son procesados y luego a través de una redirección, ejemplo devolvemos (response) alguna página con información.<br>
+            <br>
+            Tanto GET como POST solicitan una respuesta del servidor y ahí donde parecen que los conceptos son iguales ya que con ambos se podría lograr los mismos objetivos. Yo podría, aunque no es correcto, enviar por GET ciertos datos en una URL u actualizar o insertar dicha información en mi base de datos, pero realmente eso le corresponde al método POST. De la misma manera podría solicitar una página diferente por medio de POST y simplemente mostrarla como respuesta, aunque eso debería ser a través de una llamada GET.<br>
+            <br>
+            Las llamadas por método GET pueden ser cacheadas (historial navegador), indexadas por buscadores, agregar los enlaces a nuestros favoritos o hasta pasar una URL completa a otra persona para que ingresa a dicha página. Con el método POST sin embargo no se puede hacer esto.<br>
+            <br>
+            Generalmente usamos links para ejecutar llamadas GET ya que la idea del link es simplemente “solicitar” una información (pagina) al servidor y que sea devuelta como una respuesta. Mientras usamos formularios para actualizar datos, como artículos, usuarios, etc. también en cuenta que por el método POST también se puede enviar más cantidad de datos que por GET.
+        </p>
+        <div class="espacio"></div>
+
         <!-- S -->
         <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one">SDK <br><span class="fs-25 tc-blue-one">(Kit de Desarrollo de Software)</span></h4>
         <p class="f-open-sans-c text-light fs-20 lh-20">

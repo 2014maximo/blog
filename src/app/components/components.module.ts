@@ -45,6 +45,7 @@ import { DbComponent } from './DB/db/db.component';
 import { AsInstalacionComponent } from './ANDROID/as-instalacion/as-instalacion.component';
 import { HtmlEtiquetasComponent } from './HTML/html-etiquetas/html-etiquetas.component';
 import { DevGlosarioComponent } from './DEVELOPER/dev-glosario/dev-glosario.component';
+import { JavaInstalacionComponent } from './JAVA/java-instalacion/java-instalacion.component';
 
 
 
@@ -94,7 +95,8 @@ import { DevGlosarioComponent } from './DEVELOPER/dev-glosario/dev-glosario.comp
     DbComponent,
     AsInstalacionComponent,
     HtmlEtiquetasComponent,
-    DevGlosarioComponent
+    DevGlosarioComponent,
+    JavaInstalacionComponent
   ],
   imports: [
     CommonModule,

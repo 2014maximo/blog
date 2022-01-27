@@ -42,6 +42,7 @@ import { DbComponent } from './components/DB/db/db.component';
 import { AsInstalacionComponent } from './components/ANDROID/as-instalacion/as-instalacion.component';
 import { HtmlEtiquetasComponent } from './components/HTML/html-etiquetas/html-etiquetas.component';
 import { DevGlosarioComponent } from './components/DEVELOPER/dev-glosario/dev-glosario.component';
+import { JavaInstalacionComponent } from './components/JAVA/java-instalacion/java-instalacion.component';
 
 
 export const ROUTES: Routes = [
@@ -81,6 +82,7 @@ export const ROUTES: Routes = [
     { path: 'html-etiquetas', component: HtmlEtiquetasComponent },
 // JAVA
     { path: 'java', component: JavaComponent},
+    { path: 'java-instalacion', component: JavaInstalacionComponent},
 // JAVASCRIPT
     { path: 'javascript', component: JavascriptComponent },
     { path: 'js-elementos', component: JsElementosComponent},

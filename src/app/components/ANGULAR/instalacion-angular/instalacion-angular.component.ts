@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel } from 'src/app/models/post.model';
+import { copiarAlPortapapeles } from 'src/app/shared/funciones/portapapeles';
 import { AccordeonModel } from '../../../models/post.model';
 
 @Component({
@@ -165,17 +166,7 @@ export class InstalacionAngularComponent implements OnInit {
   }
 
   public copiarAlPortapapeles(cadenaAlclipboard: string) {
-    const selBox = document.createElement('textarea');
-    selBox.style.position = 'fixed';
-    selBox.style.left = '0';
-    selBox.style.top = '0';
-    selBox.style.opacity = '0';
-    selBox.value = cadenaAlclipboard;
-    document.body.appendChild(selBox);
-    selBox.focus();
-    selBox.select();
-    document.execCommand('copy');
-    document.body.removeChild(selBox);
+    copiarAlPortapapeles(cadenaAlclipboard);
   }
 
   scroll(el: HTMLElement) {
