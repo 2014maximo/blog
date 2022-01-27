@@ -39,9 +39,10 @@ export class AndroidStudioComponent implements OnInit {
       {
         nombre: 'INSTALACIÓN',
         posicion: 'pos-z',
-        rutaExterna: 'android-instalacion',
+        rutaExterna: 'as-instalacion',
         fondo: 'bg-Android',
-        colorTexto: 'text-light'
+        colorTexto: 'text-light',
+        activo: true
       },
       {
         nombre: 'ELEMENTOS Y DESCRIPCIÓN',
