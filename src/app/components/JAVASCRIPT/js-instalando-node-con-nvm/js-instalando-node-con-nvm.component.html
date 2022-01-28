@@ -1,0 +1,34 @@
+<div #target></div>
+<app-header-home></app-header-home>
+<div class="espaciado"></div>
+<app-header-post [cabecera]="cabeceraPost"></app-header-post>
+
+
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+            <p class="f-open-sans-c text-light fs-20 lh-20">
+                Node JS como todo en el mundo de desarrollo tiene cambios de alto impacto, no por eso hay que parar y bararse en versiones viejas o a veces por las nuevas, nuestros desarrollos anteriores se entorpecen.<br>
+                Aquí es cuando aparece una solución muy recursiva que funciona como un suiche entre versiones, denominado "NVM"
+            </p>
+        
+        <div class="espacio"></div>
+
+        <h4 class="f-shadow-into-l fs-35 tc-green-one text-shadow-one">NVM PARA WINDOWS</h4>
+        <p class="f-open-sans-c text-light fs-20 lh-20">
+            Node.js utiliza la arquitectura «Single Threaded Event Loop» para manejar múltiples clientes al mismo tiempo. Para entender en qué se diferencia de otros tiempos de ejecución, tenemos que entender cómo se manejan los clientes concurrentes multihilo en lenguajes como Java.<br>
+            <br>
+            En un modelo de solicitud-respuesta multihilo, varios clientes envían una solicitud y el servidor procesa cada una de ellas antes de devolver la respuesta. Sin embargo, se utilizan múltiples hilos para procesar las llamadas concurrentes. Estos hilos se definen en un pool de hilos, y cada vez que llega una petición, se asigna un hilo individual para manejarla.
+        </p>
+        <div class="espacio"></div>
+
+    </div>
+    <div class="col-md-1"></div>
+</div>
+
+<div class="espaciado"></div>
+
+<app-footer-home></app-footer-home>
+<div class="go-up" (click)="scroll(target)">
+    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+</div>

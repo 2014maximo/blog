@@ -46,6 +46,8 @@ import { AsInstalacionComponent } from './ANDROID/as-instalacion/as-instalacion.
 import { HtmlEtiquetasComponent } from './HTML/html-etiquetas/html-etiquetas.component';
 import { DevGlosarioComponent } from './DEVELOPER/dev-glosario/dev-glosario.component';
 import { JavaInstalacionComponent } from './JAVA/java-instalacion/java-instalacion.component';
+import { JsNodeJsComponent } from './JAVASCRIPT/js-node-js/js-node-js.component';
+import { JsInstalandoNodeConNvmComponent } from './JAVASCRIPT/js-instalando-node-con-nvm/js-instalando-node-con-nvm.component';
 
 
 
@@ -96,7 +98,9 @@ import { JavaInstalacionComponent } from './JAVA/java-instalacion/java-instalaci
     AsInstalacionComponent,
     HtmlEtiquetasComponent,
     DevGlosarioComponent,
-    JavaInstalacionComponent
+    JavaInstalacionComponent,
+    JsNodeJsComponent,
+    JsInstalandoNodeConNvmComponent
   ],
   imports: [
     CommonModule,

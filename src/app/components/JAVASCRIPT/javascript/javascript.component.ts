@@ -18,6 +18,7 @@ export class JavascriptComponent implements OnInit {
   }
 
   public indiceJavascript: IndiceDeContenidosModel [] = [];
+  public indiceNodeJs: IndiceDeContenidosModel [] = [];
   public claseJavascript = '';
 
   constructor() {
@@ -48,6 +49,14 @@ export class JavascriptComponent implements OnInit {
         activo: true
       },
       {
+        nombre: 'NODE JS',
+        posicion: 'pos-z',
+        rutaExterna: 'js-node-js',
+        fondo: 'bg-Javascript',
+        colorTexto: 't2 textoHoverBlanco',
+        activo: true
+      },
+      {
         nombre: 'RECORRER ARRAY OBJETOS',
         posicion: 'pos-z',
         rutaExterna: 'js-recorrer-arrays-objetos',
@@ -59,6 +68,16 @@ export class JavascriptComponent implements OnInit {
         nombre: 'TRABAJO CON FECHAS',
         posicion: 'pos-z',
         rutaExterna: 'js-trabajo-fechas',
+        fondo: 'bg-Javascript',
+        colorTexto: 't2 textoHoverBlanco',
+        activo: true
+      },
+    ]
+    this.indiceNodeJs = [
+      {
+        nombre: 'NODE JS',
+        posicion: 'pos-z',
+        rutaExterna: 'js-node-js',
         fondo: 'bg-Javascript',
         colorTexto: 't2 textoHoverBlanco',
         activo: true

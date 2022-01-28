@@ -43,6 +43,8 @@ import { AsInstalacionComponent } from './components/ANDROID/as-instalacion/as-i
 import { HtmlEtiquetasComponent } from './components/HTML/html-etiquetas/html-etiquetas.component';
 import { DevGlosarioComponent } from './components/DEVELOPER/dev-glosario/dev-glosario.component';
 import { JavaInstalacionComponent } from './components/JAVA/java-instalacion/java-instalacion.component';
+import { JsNodeJsComponent } from './components/JAVASCRIPT/js-node-js/js-node-js.component';
+import { JsInstalandoNodeConNvmComponent } from './components/JAVASCRIPT/js-instalando-node-con-nvm/js-instalando-node-con-nvm.component';
 
 
 export const ROUTES: Routes = [
@@ -88,6 +90,8 @@ export const ROUTES: Routes = [
     { path: 'js-elementos', component: JsElementosComponent},
     { path: 'js-recorrer-arrays-objetos', component: JsRecorrerArraysObjetosComponent },
     { path: 'js-trabajo-fechas', component: JsTrabajoFechasComponent },
+    { path: 'js-node-js', component: JsNodeJsComponent },
+    { path: 'js-instalando-node-con-nvm', component: JsInstalandoNodeConNvmComponent },
 // LINUX
     { path: 'linux', component: LinuxComponent },
 // KOTLIN

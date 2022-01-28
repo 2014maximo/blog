@@ -607,7 +607,25 @@ export const CATEGORIAS: CategoriasModel [] = [
                 activo: false,
                 color: 't2 textoHoverBlanco'
             },
-        ]
+        ],
+        postMas: [
+            {
+                subCategoria: 'Node JS',
+                post: [
+                    {
+                        nombre: 'NODE JS',
+                        posicion: 'pos-z',
+                        ruta: 'js-node-js',
+                        activo: true
+                    },
+                    {
+                        nombre: 'INSTALANDO NODE JS CON NVM',
+                        posicion: 'rot-2',
+                        ruta: 'js-instalando-node-con-nvm',
+                        activo: true
+                    },
+                ]
+            },]
     },
 /*      KOTLIN    */
     {
