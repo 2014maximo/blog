@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AccordeonModel, HeaderPostModel } from '../../../models/post.model';
+import { AccordeonModel, HeaderPostModel, CategoriaModel } from '../../../models/post.model';
 
 @Component({
   selector: 'app-js-instalando-node-con-nvm',
@@ -15,6 +15,14 @@ export class JsInstalandoNodeConNvmComponent implements OnInit {
     tituloPost: '',
     sombra: ''
   }
+
+  public breadcrumb: CategoriaModel = {
+    activo: true,
+    categoria: 'JAVASCRIPT',
+    colorText: 'tc-yellow-one',
+    ruta: 'javascript'
+  }
+
   public accordeonContend: AccordeonModel [] = [
     {
       elemento: '',

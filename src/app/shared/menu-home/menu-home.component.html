@@ -101,7 +101,7 @@
                     <h2 class="fuenteSeis text-light mt-5 fs-40">{{ postMas.subCategoria }}</h2>
                     <div class="row m-3">
                         <div *ngFor="let postAdd of postMas.post" class="col {{ categoria.color }} {{ postAdd.posicion}} l-menu">
-                            <a href="{{ postAdd.ruta }}">
+                            <a href="{{ postAdd.ruta }}" class="{{postAdd.color}}">
                                 <del *ngIf="!postAdd.activo">{{ postAdd.nombre }}</del>
                                 <span *ngIf="postAdd.activo">{{ postAdd.nombre }}</span>
                             </a>

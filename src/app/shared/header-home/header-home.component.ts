@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { CategoriaModel } from '../../models/post.model';
 
 @Component({
   selector: 'app-header-home',
@@ -7,9 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderHomeComponent implements OnInit {
 
-  constructor() { }
+  @Input() categoria: CategoriaModel = {
+    activo: false,
+    categoria: '',
+    ruta: '',
+    colorText: ''
+  };
+
+  constructor() {
+    
+  }
 
   ngOnInit(): void {
+  }
+
+  private inicializarVariables() {
+
   }
 
 }

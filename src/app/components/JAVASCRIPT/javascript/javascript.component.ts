@@ -82,6 +82,14 @@ export class JavascriptComponent implements OnInit {
         colorTexto: 't2 textoHoverBlanco',
         activo: true
       },
+      {
+        nombre: 'NODE JS CON NVM',
+        posicion: 'pos-z',
+        rutaExterna: 'js-instalando-node-con-nvm',
+        fondo: 'bg-Javascript',
+        colorTexto: 't2 textoHoverBlanco',
+        activo: true
+      },
     ]
   }
 

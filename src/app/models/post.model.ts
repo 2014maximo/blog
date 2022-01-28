@@ -30,3 +30,12 @@ export class ListaModel {
     indice?: string = '';
     contenido: string = ''
 }
+
+export class CategoriaModel {
+    activo: boolean = false;
+    categoria: string = '';
+    ruta: string = '';
+    colorText: string = '';
+    nClass?: string = '';
+    icon?: string = '';
+}

@@ -53,9 +53,9 @@ export class DeveloperComponent implements OnInit {
         colorTexto: 'text-light',
       },
       {
-        nombre: 'VISUAL STUDIO CODE',
+        nombre: 'CONTROLES VISUAL STUDIO CODE',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
+        rutaExterna: 'dev-controles-visual-studio-code',
         fondo: 'bg-Developer',
         colorTexto: 'text-light',
       },

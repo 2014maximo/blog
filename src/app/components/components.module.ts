@@ -48,6 +48,7 @@ import { DevGlosarioComponent } from './DEVELOPER/dev-glosario/dev-glosario.comp
 import { JavaInstalacionComponent } from './JAVA/java-instalacion/java-instalacion.component';
 import { JsNodeJsComponent } from './JAVASCRIPT/js-node-js/js-node-js.component';
 import { JsInstalandoNodeConNvmComponent } from './JAVASCRIPT/js-instalando-node-con-nvm/js-instalando-node-con-nvm.component';
+import { DevControlesVisualStudioCodeComponent } from './DEVELOPER/dev-controles-visual-studio-code/dev-controles-visual-studio-code.component';
 
 
 
@@ -100,7 +101,8 @@ import { JsInstalandoNodeConNvmComponent } from './JAVASCRIPT/js-instalando-node
     DevGlosarioComponent,
     JavaInstalacionComponent,
     JsNodeJsComponent,
-    JsInstalandoNodeConNvmComponent
+    JsInstalandoNodeConNvmComponent,
+    DevControlesVisualStudioCodeComponent
   ],
   imports: [
     CommonModule,

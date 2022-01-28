@@ -1,5 +1,5 @@
 <div #target></div>
-<app-header-home></app-header-home>
+<app-header-home [categoria]="breadcrumb"></app-header-home>
 <div class="espaciado"></div>
 <app-header-post [cabecera]="cabeceraPost"></app-header-post>
 
@@ -14,12 +14,15 @@
         
         <div class="espacio"></div>
 
-        <h4 class="f-shadow-into-l fs-35 tc-green-one text-shadow-one">NVM PARA WINDOWS</h4>
+        <h4 class="f-shadow-into-l fs-35 tc-green-one text-shadow-one">
+            NVM PARA WINDOWS
+        </h4>
         <p class="f-open-sans-c text-light fs-20 lh-20">
-            Node.js utiliza la arquitectura «Single Threaded Event Loop» para manejar múltiples clientes al mismo tiempo. Para entender en qué se diferencia de otros tiempos de ejecución, tenemos que entender cómo se manejan los clientes concurrentes multihilo en lenguajes como Java.<br>
-            <br>
-            En un modelo de solicitud-respuesta multihilo, varios clientes envían una solicitud y el servidor procesa cada una de ellas antes de devolver la respuesta. Sin embargo, se utilizan múltiples hilos para procesar las llamadas concurrentes. Estos hilos se definen en un pool de hilos, y cada vez que llega una petición, se asigna un hilo individual para manejarla.
+            NVM solo esta disponible en Linux y macOS, pero existe una versión separada de la versión oficial llamada "nvm-windows" con limitaciones pero que permite usar las utilidades principales y más prácticas.
         </p>
+        <a href="https://github.com/coreybutler/nvm-windows/releases" target="_blank">
+            <img src="assets/img/icons/GitHub-Logo.png" alt="" width="auto" height="60" class="drop" title="Versiones para windows">
+        </a>
         <div class="espacio"></div>
 
     </div>

@@ -284,10 +284,10 @@ export const CATEGORIAS: CategoriasModel [] = [
                 activo: true
             },
             {
-                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                nombre: 'CONTROLES VISUAL STUDIO CODE',
                 posicion: 'rot-2',
-                ruta:'dart-elementos-descripcion',
-                activo: false
+                ruta:'dev-controles-visual-studio-code',
+                activo: true
             },
             {
                 nombre: 'CRUD',
@@ -616,13 +616,15 @@ export const CATEGORIAS: CategoriasModel [] = [
                         nombre: 'NODE JS',
                         posicion: 'pos-z',
                         ruta: 'js-node-js',
-                        activo: true
+                        activo: true,
+                        color: 't2 textoHoverBlanco'
                     },
                     {
-                        nombre: 'INSTALANDO NODE JS CON NVM',
+                        nombre: 'NODE JS CON NVM',
                         posicion: 'rot-2',
                         ruta: 'js-instalando-node-con-nvm',
-                        activo: true
+                        activo: true,
+                        color: 't2 textoHoverBlanco'
                     },
                 ]
             },]

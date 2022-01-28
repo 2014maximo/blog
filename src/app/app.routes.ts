@@ -45,6 +45,7 @@ import { DevGlosarioComponent } from './components/DEVELOPER/dev-glosario/dev-gl
 import { JavaInstalacionComponent } from './components/JAVA/java-instalacion/java-instalacion.component';
 import { JsNodeJsComponent } from './components/JAVASCRIPT/js-node-js/js-node-js.component';
 import { JsInstalandoNodeConNvmComponent } from './components/JAVASCRIPT/js-instalando-node-con-nvm/js-instalando-node-con-nvm.component';
+import { DevControlesVisualStudioCodeComponent } from './components/DEVELOPER/dev-controles-visual-studio-code/dev-controles-visual-studio-code.component';
 
 
 export const ROUTES: Routes = [
@@ -68,6 +69,7 @@ export const ROUTES: Routes = [
     { path: 'developer', component: DeveloperComponent },
     { path: 'super-recursos-internet', component: SuperRecursosInternetComponent },
     { path: 'dev-glosario', component: DevGlosarioComponent },
+    { path: 'dev-controles-visual-studio-code', component: DevControlesVisualStudioCodeComponent },
 // ESTADISTICA
     { path: 'estadistica', component: EstadisticaComponent },
     { path: 'astro-sol-ingreso', component: AstroSIngresoComponent },

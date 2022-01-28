@@ -22,4 +22,5 @@ export class PostsModel {
 export class PostMasModel {
     subCategoria: string = '';
     post: PostsModel [] = [];
+    color?: string = ''
 }
