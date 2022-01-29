@@ -1,13 +1,9 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
-import { InstalacionAngularComponent } from './components/ANGULAR/instalacion-angular/instalacion-angular.component';
-import { SuperRecursosInternetComponent } from './components/DEVELOPER/super-recursos-internet/super-recursos-internet.component';
 import { InicioComponent } from './components/ESTADISTICA/inicio/inicio.component';
-import { Primeng7DescripcionElementosComponent } from './components/ANGULAR/primeng7-descripcion-elementos/primeng7-descripcion-elementos.component';
 import { NetInstalacionComponent } from './components/NET/net-instalacion/net-instalacion.component';
 import { FichaActualComponent } from './components/SENA/ficha-actual/ficha-actual.component';
 import { RecursosInformativosComponent } from './components/SENA/recursos-informativos/recursos-informativos.component';
-import { AndroidStudioComponent } from './components/ANDROID/android-studio/android-studio.component';
 import { AngularComponent } from './components/ANGULAR/angular/angular.component';
 import { CssComponent } from './components/CSS/css/css.component';
 import { DartComponent } from './components/DART/dart/dart.component';
@@ -25,8 +21,6 @@ import { KotlinComponent } from './components/KOTLIN/kotlin/kotlin.component';
 import { EstadisticaComponent } from './components/ESTADISTICA/estadistica/estadistica.component';
 import { AstroSIngresoComponent } from './components/ESTADISTICA/astro-s-ingreso/astro-s-ingreso.component';
 import { NetDescripcionElementosComponent } from './components/NET/net-descripcion-elementos/net-descripcion-elementos.component';
-import { SqlComponent } from './components/DB/sql/sql.component';
-import { SqlServerQuerysComponent } from './components/DB/sql-server-querys/sql-server-querys.component';
 import { SenaComponent } from './components/SENA/sena/sena.component';
 import { ReactComponent } from './components/REACT/react/react.component';
 import { JsRecorrerArraysObjetosComponent } from './components/JAVASCRIPT/js-recorrer-arrays-objetos/js-recorrer-arrays-objetos.component';
@@ -35,10 +29,7 @@ import { PhpComponent } from './components/PHP/php/php.component';
 import { WordpressComponent } from './components/WORDPRESS/wordpress/wordpress.component';
 import { JsElementosComponent } from './components/JAVASCRIPT/js-elementos/js-elementos.component';
 import { KubernetesComponent } from './components/KUBERNETES/kubernetes/kubernetes.component';
-import { Primeng7TablecheckboxComponent } from './components/ANGULAR/primeng7-tablecheckbox/primeng7-tablecheckbox.component';
-import { FirebaseComponent } from './components/DB/firebase/firebase.component';
 import { DbComponent } from './components/DB/db/db.component';
-import { AsInstalacionComponent } from './components/ANDROID/as-instalacion/as-instalacion.component';
 import { HtmlEtiquetasComponent } from './components/HTML/html-etiquetas/html-etiquetas.component';
 import { DevGlosarioComponent } from './components/DEVELOPER/dev-glosario/dev-glosario.component';
 import { JavaInstalacionComponent } from './components/JAVA/java-instalacion/java-instalacion.component';
@@ -46,33 +37,42 @@ import { JsNodeJsComponent } from './components/JAVASCRIPT/js-node-js/js-node-js
 import { JsInstalandoNodeConNvmComponent } from './components/JAVASCRIPT/js-instalando-node-con-nvm/js-instalando-node-con-nvm.component';
 import { DevControlesVisualStudioCodeComponent } from './components/DEVELOPER/dev-controles-visual-studio-code/dev-controles-visual-studio-code.component';
 import { NgDescripcionElementosComponent } from './components/ANGULAR/ng-descripcion-elementos/ng-descripcion-elementos.component';
+import { NgInstalacionComponent } from './components/ANGULAR/ng-instalacion/ng-instalacion.component';
+import { Prime7DescripcionElementosComponent } from './components/ANGULAR/prime7-descripcion-elementos/prime7-descripcion-elementos.component';
+import { Prime7TablecheckboxComponent } from './components/ANGULAR/prime7-tablecheckbox/prime7-tablecheckbox.component';
+import { AndroidComponent } from './components/ANDROID/android/android.component';
+import { AndrAndroidStudioComponent } from './components/ANDROID/andr-android-studio/andr-android-studio.component';
+import { DbFirebaseComponent } from './components/DB/db-firebase/db-firebase.component';
+import { DbSqlComponent } from './components/DB/db-sql/db-sql.component';
+import { DbSqlServerComponent } from './components/DB/db-sql-server/db-sql-server.component';
+import { DevSuperRecursosComponent } from './components/DEVELOPER/dev-super-recursos/dev-super-recursos.component';
 
 
 export const ROUTES: Routes = [
     { path: '', pathMatch: 'full', redirectTo: 'home'},
     { path: 'home', component: HomeComponent },
 // ANDROID STUDIO
-    { path: 'android-studio', component: AndroidStudioComponent },
-    { path: 'as-instalacion', component: AsInstalacionComponent },
+    { path: 'android', component: AndroidComponent },
+    { path: 'andr-android-studio', component: AndrAndroidStudioComponent },
 // ANGULAR
     { path: 'angular', component: AngularComponent },
-    { path: 'ng-instalacion', component: InstalacionAngularComponent },
+    { path: 'ng-instalacion', component: NgInstalacionComponent },
     { path: 'ng-descripcion-elementos', component: NgDescripcionElementosComponent },
     // ANGULAR-PRIMENG7
-    { path: 'primeng-descripcion-elementos', component: Primeng7DescripcionElementosComponent },
-    { path: 'primeng7-tablecheckbox', component: Primeng7TablecheckboxComponent },
+    { path: 'prime7-descripcion-elementos', component: Prime7DescripcionElementosComponent },
+    { path: 'prime7-tablecheckbox', component: Prime7TablecheckboxComponent },
 // CSS
     { path: 'css', component: CssComponent },
 // DART
     { path: 'dart', component: DartComponent },
 // DB
     { path: 'db', component: DbComponent },
-    { path: 'db-firebase', component: FirebaseComponent },
-    { path: 'db-sql', component: SqlComponent },
-    { path: 'db-sql-server-querys', component: SqlServerQuerysComponent },
+    { path: 'db-firebase', component: DbFirebaseComponent },
+    { path: 'db-sql', component: DbSqlComponent },
+    { path: 'db-sql-server', component: DbSqlServerComponent },
 // DEVELOPER
     { path: 'developer', component: DeveloperComponent },
-    { path: 'super-recursos-internet', component: SuperRecursosInternetComponent },
+    { path: 'dev-super-recursos', component: DevSuperRecursosComponent },
     { path: 'dev-glosario', component: DevGlosarioComponent },
     { path: 'dev-controles-visual-studio-code', component: DevControlesVisualStudioCodeComponent },
 // ESTADISTICA

@@ -1,13 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-import { repositorioContenidoImagenes } from 'src/app/constants/globales.constant';
 import { HeaderPostModel, CategoriaModel } from '../../../models/post.model';
+import { repositorioContenidoImagenes } from '../../../constants/globales.constant';
+import { copiarAlPortapapeles } from 'src/app/shared/funciones/portapapeles';
 
 @Component({
-  selector: 'app-firebase',
-  templateUrl: './firebase.component.html',
-  styleUrls: ['./firebase.component.css']
+  selector: 'app-db-firebase',
+  templateUrl: './db-firebase.component.html',
+  styles: [
+  ]
 })
-export class FirebaseComponent implements OnInit {
+export class DbFirebaseComponent implements OnInit {
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: 'assets/img/icons/firebase.png',
@@ -42,17 +44,7 @@ export class FirebaseComponent implements OnInit {
   }
 
   public copiarAlPortapapeles(cadenaAlclipboard: string) {
-    const selBox = document.createElement('textarea');
-    selBox.style.position = 'fixed';
-    selBox.style.left = '0';
-    selBox.style.top = '0';
-    selBox.style.opacity = '0';
-    selBox.value = cadenaAlclipboard;
-    document.body.appendChild(selBox);
-    selBox.focus();
-    selBox.select();
-    document.execCommand('copy');
-    document.body.removeChild(selBox);
+    copiarAlPortapapeles(cadenaAlclipboard);
   }
 
 }

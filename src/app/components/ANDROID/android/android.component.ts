@@ -3,11 +3,12 @@ import { HeaderPostModel } from '../../../models/post.model';
 import { IndiceDeContenidosModel } from '../../../models/indice.model';
 
 @Component({
-  selector: 'app-android-studio',
-  templateUrl: './android-studio.component.html',
-  styleUrls: ['./android-studio.component.css']
+  selector: 'app-android',
+  templateUrl: './android.component.html',
+  styles: [
+  ]
 })
-export class AndroidStudioComponent implements OnInit {
+export class AndroidComponent implements OnInit {
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',
@@ -30,16 +31,16 @@ export class AndroidStudioComponent implements OnInit {
     this.cabeceraPost = {
       rutaImagen: 'assets/img/icons/android.png',
       fondo: true,
-      tituloPost: 'ANDROID STUDIO',
+      tituloPost: 'ANDROID',
       alturaImagen: '150',
       sombra: 'drop'
     };
     this.clasePaso = 'mt-5'
     this.pasoDeIndice = [
       {
-        nombre: 'INSTALACIÓN',
+        nombre: 'ANDROID STUDIO',
         posicion: 'pos-z',
-        rutaExterna: 'as-instalacion',
+        rutaExterna: 'andr-android-studio',
         fondo: 'bg-Android',
         colorTexto: 'text-light',
         activo: true

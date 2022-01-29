@@ -1,15 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel } from '../../../models/post.model';
-import { IndiceDeContenidosModel } from '../../../models/indice.model';
+import { LINKS } from 'src/app/constants/super-recursos.contant';
 import { BloqueContenidoModel } from '../../../models/bloque-contenidos.model';
-import { LINKS } from '../../../constants/super-recursos.contant';
+import { IndiceDeContenidosModel } from '../../../models/indice.model';
+import { HeaderPostModel } from '../../../models/post.model';
 
 @Component({
-  selector: 'app-super-recursos-internet',
-  templateUrl: './super-recursos-internet.component.html',
-  styleUrls: ['./super-recursos-internet.component.css']
+  selector: 'app-dev-super-recursos',
+  templateUrl: './dev-super-recursos.component.html',
+  styles: [
+  ]
 })
-export class SuperRecursosInternetComponent implements OnInit {
+export class DevSuperRecursosComponent implements OnInit {
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',

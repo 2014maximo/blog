@@ -2,14 +2,10 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { SharedModule } from '../shared/shared.module';
-import { InstalacionAngularComponent } from './ANGULAR/instalacion-angular/instalacion-angular.component';
-import { SuperRecursosInternetComponent } from './DEVELOPER/super-recursos-internet/super-recursos-internet.component';
 import { InicioComponent } from './ESTADISTICA/inicio/inicio.component';
-import { Primeng7DescripcionElementosComponent } from './ANGULAR/primeng7-descripcion-elementos/primeng7-descripcion-elementos.component';
 import { NetInstalacionComponent } from './NET/net-instalacion/net-instalacion.component';
 import { FichaActualComponent } from './SENA/ficha-actual/ficha-actual.component';
 import { RecursosInformativosComponent } from './SENA/recursos-informativos/recursos-informativos.component';
-import { AndroidStudioComponent } from './ANDROID/android-studio/android-studio.component';
 import { CssComponent } from './CSS/css/css.component';
 import { AngularComponent } from './ANGULAR/angular/angular.component';
 import { DartComponent } from './DART/dart/dart.component';
@@ -27,8 +23,6 @@ import { KotlinComponent } from './KOTLIN/kotlin/kotlin.component';
 import { EstadisticaComponent } from './ESTADISTICA/estadistica/estadistica.component';
 import { AstroSIngresoComponent } from './ESTADISTICA/astro-s-ingreso/astro-s-ingreso.component';
 import { NetDescripcionElementosComponent } from './NET/net-descripcion-elementos/net-descripcion-elementos.component';
-import { SqlComponent } from './DB/sql/sql.component';
-import { SqlServerQuerysComponent } from './DB/sql-server-querys/sql-server-querys.component';
 import { SenaComponent } from './SENA/sena/sena.component';
 import { ReactComponent } from './REACT/react/react.component';
 import { JsTrabajoFechasComponent } from './JAVASCRIPT/js-trabajo-fechas/js-trabajo-fechas.component';
@@ -37,10 +31,7 @@ import { PhpComponent } from './PHP/php/php.component';
 import { WordpressComponent } from './WORDPRESS/wordpress/wordpress.component';
 import { JsElementosComponent } from './JAVASCRIPT/js-elementos/js-elementos.component';
 import { KubernetesComponent } from './KUBERNETES/kubernetes/kubernetes.component';
-import { Primeng7TablecheckboxComponent } from './ANGULAR/primeng7-tablecheckbox/primeng7-tablecheckbox.component';
-import { FirebaseComponent } from './DB/firebase/firebase.component';
 import { DbComponent } from './DB/db/db.component';
-import { AsInstalacionComponent } from './ANDROID/as-instalacion/as-instalacion.component';
 import { HtmlEtiquetasComponent } from './HTML/html-etiquetas/html-etiquetas.component';
 import { DevGlosarioComponent } from './DEVELOPER/dev-glosario/dev-glosario.component';
 import { JavaInstalacionComponent } from './JAVA/java-instalacion/java-instalacion.component';
@@ -48,6 +39,15 @@ import { JsNodeJsComponent } from './JAVASCRIPT/js-node-js/js-node-js.component'
 import { JsInstalandoNodeConNvmComponent } from './JAVASCRIPT/js-instalando-node-con-nvm/js-instalando-node-con-nvm.component';
 import { DevControlesVisualStudioCodeComponent } from './DEVELOPER/dev-controles-visual-studio-code/dev-controles-visual-studio-code.component';
 import { NgDescripcionElementosComponent } from './ANGULAR/ng-descripcion-elementos/ng-descripcion-elementos.component';
+import { NgInstalacionComponent } from './ANGULAR/ng-instalacion/ng-instalacion.component';
+import { Prime7DescripcionElementosComponent } from './ANGULAR/prime7-descripcion-elementos/prime7-descripcion-elementos.component';
+import { Prime7TablecheckboxComponent } from './ANGULAR/prime7-tablecheckbox/prime7-tablecheckbox.component';
+import { AndroidComponent } from './ANDROID/android/android.component';
+import { AndrAndroidStudioComponent } from './ANDROID/andr-android-studio/andr-android-studio.component';
+import { DbFirebaseComponent } from './DB/db-firebase/db-firebase.component';
+import { DbSqlComponent } from './DB/db-sql/db-sql.component';
+import { DbSqlServerComponent } from './DB/db-sql-server/db-sql-server.component';
+import { DevSuperRecursosComponent } from './DEVELOPER/dev-super-recursos/dev-super-recursos.component';
 
 
 
@@ -55,14 +55,10 @@ import { NgDescripcionElementosComponent } from './ANGULAR/ng-descripcion-elemen
 @NgModule({
   declarations: [
     HomeComponent,
-    InstalacionAngularComponent,
-    SuperRecursosInternetComponent,
     InicioComponent,
-    Primeng7DescripcionElementosComponent,
     NetInstalacionComponent,
     FichaActualComponent,
     RecursosInformativosComponent,
-    AndroidStudioComponent,
     CssComponent,
     AngularComponent,
     DartComponent,
@@ -80,8 +76,6 @@ import { NgDescripcionElementosComponent } from './ANGULAR/ng-descripcion-elemen
     EstadisticaComponent,
     AstroSIngresoComponent,
     NetDescripcionElementosComponent,
-    SqlComponent,
-    SqlServerQuerysComponent,
     SenaComponent,
     ReactComponent,
     JsTrabajoFechasComponent,
@@ -90,17 +84,23 @@ import { NgDescripcionElementosComponent } from './ANGULAR/ng-descripcion-elemen
     WordpressComponent,
     JsElementosComponent,
     KubernetesComponent,
-    Primeng7TablecheckboxComponent,
-    FirebaseComponent,
     DbComponent,
-    AsInstalacionComponent,
     HtmlEtiquetasComponent,
     DevGlosarioComponent,
     JavaInstalacionComponent,
     JsNodeJsComponent,
     JsInstalandoNodeConNvmComponent,
     DevControlesVisualStudioCodeComponent,
-    NgDescripcionElementosComponent
+    NgDescripcionElementosComponent,
+    NgInstalacionComponent,
+    Prime7DescripcionElementosComponent,
+    Prime7TablecheckboxComponent,
+    AndroidComponent,
+    AndrAndroidStudioComponent,
+    DbFirebaseComponent,
+    DbSqlComponent,
+    DbSqlServerComponent,
+    DevSuperRecursosComponent
   ],
   imports: [
     CommonModule,

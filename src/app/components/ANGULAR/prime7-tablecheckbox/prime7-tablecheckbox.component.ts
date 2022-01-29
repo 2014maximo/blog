@@ -2,11 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel, CategoriaModel } from '../../../models/post.model';
 
 @Component({
-  selector: 'app-primeng7-tablecheckbox',
-  templateUrl: './primeng7-tablecheckbox.component.html',
-  styleUrls: ['./primeng7-tablecheckbox.component.css']
+  selector: 'app-prime7-tablecheckbox',
+  templateUrl: './prime7-tablecheckbox.component.html',
+  styles: [
+  ]
 })
-export class Primeng7TablecheckboxComponent implements OnInit {
+export class Prime7TablecheckboxComponent implements OnInit {
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',

@@ -56,9 +56,9 @@ export class DbComponent implements OnInit {
         activo: true
       },
       {
-        nombre: 'SQL SERVER QUERYS',
+        nombre: 'SQL SERVER',
         posicion: 'pos-z',
-        rutaExterna: 'db-sql-server-querys',
+        rutaExterna: 'db-sql-server',
         fondo: 'bg-Sql',
         colorTexto: 'text-light',
         activo: true

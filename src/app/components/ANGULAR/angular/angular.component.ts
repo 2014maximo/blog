@@ -161,7 +161,7 @@ export class AngularComponent implements OnInit {
       {
         nombre: 'ELEMENTOS Y DESCRIPCIÓN',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
+        rutaExterna: 'prime7-descripcion-elementos',
         fondo: 'bg-Prime',
         colorTexto: 'text-light',
         activo: true
@@ -169,7 +169,7 @@ export class AngularComponent implements OnInit {
       {
         nombre: 'TABLE CHECKBOX',
         posicion: 'pos-z',
-        rutaExterna: 'primeng7-tablecheckbox',
+        rutaExterna: 'prime7-tablecheckbox',
         fondo: 'bg-Prime',
         colorTexto: 'text-light',
         activo: true

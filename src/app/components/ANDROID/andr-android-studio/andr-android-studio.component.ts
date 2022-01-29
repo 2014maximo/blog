@@ -1,12 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel, AccordeonModel, CategoriaModel } from '../../../models/post.model';
+import { HeaderPostModel, CategoriaModel, AccordeonModel } from '../../../models/post.model';
 
 @Component({
-  selector: 'app-as-instalacion',
-  templateUrl: './as-instalacion.component.html',
-  styleUrls: ['./as-instalacion.component.css']
+  selector: 'app-andr-android-studio',
+  templateUrl: './andr-android-studio.component.html',
+  styles: [
+  ]
 })
-export class AsInstalacionComponent implements OnInit {
+export class AndrAndroidStudioComponent implements OnInit {
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',

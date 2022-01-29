@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel } from '../../../models/post.model';
-import { IndiceDeContenidosModel } from '../../../models/indice.model';
 
 @Component({
-  selector: 'app-sql',
-  templateUrl: './sql.component.html',
-  styleUrls: ['./sql.component.css']
+  selector: 'app-db-sql',
+  templateUrl: './db-sql.component.html',
+  styles: [
+  ]
 })
-export class SqlComponent implements OnInit {
+export class DbSqlComponent implements OnInit {
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',

@@ -1,13 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel } from '../../../models/post.model';
 import { repositorioContenidoImagenes } from '../../../constants/globales.constant';
+import { HeaderPostModel } from '../../../models/post.model';
 
 @Component({
-  selector: 'app-sql-server-querys',
-  templateUrl: './sql-server-querys.component.html',
-  styleUrls: ['./sql-server-querys.component.css']
+  selector: 'app-db-sql-server',
+  templateUrl: './db-sql-server.component.html',
+  styles: [
+  ]
 })
-export class SqlServerQuerysComponent implements OnInit {
+export class DbSqlServerComponent implements OnInit {
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',

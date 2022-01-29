@@ -40,7 +40,7 @@ export class DeveloperComponent implements OnInit {
       {
         nombre: 'RECURSOS DE INTERNET',
         posicion: 'pos-z',
-        rutaExterna: 'super-recursos-internet',
+        rutaExterna: 'dev-super-recursos',
         fondo: 'bg-Developer',
         colorTexto: 'text-light',
         activo: true

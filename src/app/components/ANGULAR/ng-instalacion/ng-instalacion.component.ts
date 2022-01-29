@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel } from 'src/app/models/post.model';
 import { copiarAlPortapapeles } from 'src/app/shared/funciones/portapapeles';
-import { AccordeonModel, CategoriaModel } from '../../../models/post.model';
+import { HeaderPostModel, CategoriaModel, AccordeonModel } from '../../../models/post.model';
 
 @Component({
-  selector: 'app-instalacion-angular',
-  templateUrl: './instalacion-angular.component.html',
-  styleUrls: ['./instalacion-angular.component.css']
+  selector: 'app-ng-instalacion',
+  templateUrl: './ng-instalacion.component.html',
+  styles: [
+  ]
 })
-export class InstalacionAngularComponent implements OnInit {
+export class NgInstalacionComponent implements OnInit {
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',

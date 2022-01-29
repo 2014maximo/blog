@@ -6,15 +6,15 @@ export const CATEGORIAS: CategoriasModel [] = [
     {
         id:1,
         categoria: 'android',
-        rutaCategoria: 'android-studio',
+        rutaCategoria: 'android',
         rutaIcono: 'assets/img/categorias/android-studio_text_white.png',
         alturaIcono: '80',
         color: 'bg-Android',
         post: [
             {
-                nombre: 'INSTALACION',
+                nombre: 'ANDROID STUDIO',
                 posicion: 'pos-z',
-                ruta:'as-instalacion',
+                ruta:'andr-android-studio',
                 activo: true
             },
             {
@@ -147,21 +147,15 @@ export const CATEGORIAS: CategoriasModel [] = [
                 subCategoria: 'PrimeNG 7.2.6 lts',
                 post: [
                     {
-                        nombre: 'INSTALACIÓN',
-                        posicion: 'pos-z',
-                        ruta: 'prime-instalacion',
-                        activo: false
-                    },
-                    {
                         nombre: 'DESCRIPCIÓN ELEMENTOS',
                         posicion: 'rot-2',
-                        ruta: 'primeng-descripcion-elementos',
+                        ruta: 'prime7-descripcion-elementos',
                         activo: true
                     },
                     {
                         nombre: 'TABLE CHECKBOX',
                         posicion: 'rot-2',
-                        ruta: 'primeng7-tablecheckbox',
+                        ruta: 'prime7-tablecheckbox',
                         activo: true
                     },
                 ]
@@ -268,9 +262,38 @@ export const CATEGORIAS: CategoriasModel [] = [
             },
         ]
     },
-/*      DEVELOPER    */
+    /*      DB    */
     {
         id:5,
+        categoria: 'db',
+        rutaCategoria: 'db',
+        rutaIcono: 'assets/img/categorias/sql.png',
+        alturaIcono: '80',
+        color: 'bg-Sql',
+        post: [
+            {
+                nombre: 'FIREBASE',
+                posicion: 'pos-z',
+                ruta:'db-firebase',
+                activo: true
+            },
+            {
+                nombre: 'SQL',
+                posicion: 'rot-1',
+                ruta:'db-sql',
+                activo: true
+            },
+            {
+                nombre: 'SQL-SERVER',
+                posicion: 'rot-2',
+                ruta:'db-sql-server',
+                activo: true
+            },
+        ]
+    },
+/*      DEVELOPER    */
+    {
+        id:6,
         categoria: 'developer',
         rutaCategoria: 'developer',
         rutaIcono: 'assets/img/categorias/developer.png',
@@ -278,9 +301,9 @@ export const CATEGORIAS: CategoriasModel [] = [
         color: 'bg-Developer',
         post: [
             {
-                nombre: 'SUPER RECURSOS DE INTERNET',
+                nombre: 'RECURSOS DE INTERNET',
                 posicion: 'pos-z',
-                ruta:'super-recursos-internet',
+                ruta:'dev-super-recursos',
                 activo: true
             },
             {
@@ -317,7 +340,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      ELECTRON    */
     {
-        id:6,
+        id:7,
         categoria: 'electron',
         rutaCategoria: 'electron',
         rutaIcono: 'assets/img/categorias/electron.png',
@@ -370,7 +393,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      FLUTTER    */
     {
-        id:7,
+        id:8,
         categoria: 'flutter',
         rutaCategoria: 'flutter',
         rutaIcono: 'assets/img/categorias/flutter_text_white.png',
@@ -417,7 +440,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      GIT    */
     {
-        id:8,
+        id:9,
         categoria: 'git',
         rutaCategoria: 'git',
         rutaIcono: 'assets/img/categorias/git-light.png',
@@ -464,7 +487,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      HTML    */
     {
-        id:9,
+        id:10,
         categoria: 'html',
         rutaCategoria: 'html',
         rutaIcono: 'assets/img/categorias/html-white.png',
@@ -511,7 +534,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      JAVA    */
     {
-        id:10,
+        id:11,
         categoria: 'java',
         rutaCategoria: 'java',
         rutaIcono: 'assets/img/categorias/logo-java.png',
@@ -558,7 +581,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      JAVASCRIPT    */
     {
-        id:11,
+        id:12,
         categoria: 'javascript',
         rutaCategoria: 'javascript',
         rutaIcono: 'assets/img/categorias/javascript.png',
@@ -631,7 +654,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      KOTLIN    */
     {
-        id:12,
+        id:13,
         categoria: 'kotlin',
         rutaCategoria: 'kotlin',
         rutaIcono: 'assets/img/categorias/kotlin-white.png',
@@ -678,7 +701,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      KUBERNETES    */
     {
-        id:13,
+        id:14,
         categoria: 'kubernetes',
         rutaCategoria: 'kubernetes',
         rutaIcono: 'assets/img/categorias/kubernetes.png',
@@ -725,7 +748,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      LINUX    */
     {
-        id:14,
+        id:15,
         categoria: 'linux',
         rutaCategoria: 'linux',
         rutaIcono: 'assets/img/categorias/linux-white.png',
@@ -772,7 +795,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
     /*      NET-FRAMEWORK    */
     {
-        id:15,
+        id:16,
         categoria: 'net-framework',
         rutaCategoria: 'net-framework',
         rutaIcono: 'assets/img/categorias/net-framework.png',
@@ -819,7 +842,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      PHP    */
     {
-        id:16,
+        id:17,
         categoria: 'php',
         rutaCategoria: 'php',
         rutaIcono: 'assets/img/categorias/php.png',
@@ -842,7 +865,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      REACT    */
     {
-        id:17,
+        id:18,
         categoria: 'react',
         rutaCategoria: 'react',
         rutaIcono: 'assets/img/categorias/react-white.png',
@@ -895,7 +918,7 @@ export const CATEGORIAS: CategoriasModel [] = [
     },
 /*      SENA    */
     {
-        id:18,
+        id:19,
         categoria: 'sena',
         rutaCategoria: 'sena',
         rutaIcono: 'assets/img/categorias/sena.png',
@@ -915,35 +938,6 @@ export const CATEGORIAS: CategoriasModel [] = [
                 activo: false
             }
         ]
-    },
-    /*      DB    */
-    {
-            id:19,
-            categoria: 'db',
-            rutaCategoria: 'db',
-            rutaIcono: 'assets/img/categorias/sql.png',
-            alturaIcono: '80',
-            color: 'bg-Sql',
-            post: [
-                {
-                    nombre: 'FIREBASE',
-                    posicion: 'pos-z',
-                    ruta:'db-firebase',
-                    activo: true
-                },
-                {
-                    nombre: 'SQL',
-                    posicion: 'rot-1',
-                    ruta:'db-sql',
-                    activo: true
-                },
-                {
-                    nombre: 'SQL-SERVER-QUERYS',
-                    posicion: 'rot-2',
-                    ruta:'db-sql-server-querys',
-                    activo: true
-                },
-            ]
     },
     /*      WORDPRESS    */
     {
