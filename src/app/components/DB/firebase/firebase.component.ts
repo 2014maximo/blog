@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { repositorioContenidoImagenes } from 'src/app/constants/globales.constant';
-import { HeaderPostModel } from '../../../models/post.model';
+import { HeaderPostModel, CategoriaModel } from '../../../models/post.model';
 
 @Component({
   selector: 'app-firebase',
@@ -16,6 +16,14 @@ export class FirebaseComponent implements OnInit {
     tituloPost: '',
     sombra: 'drop'
   }
+
+  public breadcrumb: CategoriaModel = {
+    activo: true,
+    categoria: 'DB',
+    colorText: 'tc-yellow-one',
+    ruta: 'db'
+  }
+
   public rutaImagen: string = '';
 
   constructor() {

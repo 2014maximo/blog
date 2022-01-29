@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel, AccordeonModel } from '../../../models/post.model';
+import { HeaderPostModel, AccordeonModel, CategoriaModel } from '../../../models/post.model';
 
 @Component({
   selector: 'app-as-instalacion',
@@ -14,6 +14,13 @@ export class AsInstalacionComponent implements OnInit {
     fondo: true,
     tituloPost: 'ANDROID STUDIO INSTALACIÓN',
     sombra: 'drop'
+  }
+
+  public breadcrumb: CategoriaModel = {
+    activo: true,
+    categoria: 'ANDROID STUDIO',
+    colorText: 'tc-green-one',
+    ruta: 'android-studio'
   }
 
   public accordeonContend: AccordeonModel [] = [

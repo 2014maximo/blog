@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel } from 'src/app/models/post.model';
 import { copiarAlPortapapeles } from 'src/app/shared/funciones/portapapeles';
-import { AccordeonModel } from '../../../models/post.model';
+import { AccordeonModel, CategoriaModel } from '../../../models/post.model';
 
 @Component({
   selector: 'app-instalacion-angular',
@@ -16,15 +16,21 @@ export class InstalacionAngularComponent implements OnInit {
     fondo: false,
     tituloPost: ''
   }
-  public accordeonContend: AccordeonModel [] = [
-  {
-    elemento: '',
-    nClass: '',
+
+  public breadcrumb: CategoriaModel = {
+    activo: true,
+    categoria: 'ANGULAR',
+    colorText: 'tc-red-one',
+    ruta: 'angular'
   }
-]
+
+  public accordeonContend: AccordeonModel [] = [
+    {
+      elemento: '',
+      nClass: '',
+    }
+  ]
   
-
-
   constructor() { 
     this.inicializarVariables();
   }

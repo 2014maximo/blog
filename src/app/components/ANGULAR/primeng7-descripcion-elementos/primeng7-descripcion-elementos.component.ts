@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel } from 'src/app/models/post.model';
+import { CategoriaModel } from '../../../models/post.model';
 
 @Component({
   selector: 'app-primeng7-descripcion-elementos',
@@ -13,6 +14,13 @@ export class Primeng7DescripcionElementosComponent implements OnInit {
     alturaImagen: '',
     fondo: false,
     tituloPost: ''
+  }
+
+  public breadcrumb: CategoriaModel = {
+    activo: true,
+    categoria: 'ANGULAR',
+    colorText: 'tc-red-one',
+    ruta: 'angular'
   }
 
   constructor() {

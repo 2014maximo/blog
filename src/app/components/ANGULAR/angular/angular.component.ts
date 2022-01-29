@@ -159,18 +159,20 @@ export class AngularComponent implements OnInit {
 
     this.indicePrime = [
       {
-        nombre: 'INSTALACIÓN',
-        posicion: 'pos-z',
-        rutaExterna: 'android-instalacion',
-        fondo: 'bg-Prime',
-        colorTexto: 'text-light'
-      },
-      {
         nombre: 'ELEMENTOS Y DESCRIPCIÓN',
         posicion: 'rot-2',
         rutaExterna: 'android-elementos',
         fondo: 'bg-Prime',
-        colorTexto: 'text-light'
+        colorTexto: 'text-light',
+        activo: true
+      },
+      {
+        nombre: 'TABLE CHECKBOX',
+        posicion: 'pos-z',
+        rutaExterna: 'primeng7-tablecheckbox',
+        fondo: 'bg-Prime',
+        colorTexto: 'text-light',
+        activo: true
       },
     ]
   }

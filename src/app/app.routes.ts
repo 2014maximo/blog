@@ -4,7 +4,6 @@ import { InstalacionAngularComponent } from './components/ANGULAR/instalacion-an
 import { SuperRecursosInternetComponent } from './components/DEVELOPER/super-recursos-internet/super-recursos-internet.component';
 import { InicioComponent } from './components/ESTADISTICA/inicio/inicio.component';
 import { Primeng7DescripcionElementosComponent } from './components/ANGULAR/primeng7-descripcion-elementos/primeng7-descripcion-elementos.component';
-import { AngularDescripcionElementosComponent } from './components/ANGULAR/angular-descripcion-elementos/angular-descripcion-elementos.component';
 import { NetInstalacionComponent } from './components/NET/net-instalacion/net-instalacion.component';
 import { FichaActualComponent } from './components/SENA/ficha-actual/ficha-actual.component';
 import { RecursosInformativosComponent } from './components/SENA/recursos-informativos/recursos-informativos.component';
@@ -46,6 +45,7 @@ import { JavaInstalacionComponent } from './components/JAVA/java-instalacion/jav
 import { JsNodeJsComponent } from './components/JAVASCRIPT/js-node-js/js-node-js.component';
 import { JsInstalandoNodeConNvmComponent } from './components/JAVASCRIPT/js-instalando-node-con-nvm/js-instalando-node-con-nvm.component';
 import { DevControlesVisualStudioCodeComponent } from './components/DEVELOPER/dev-controles-visual-studio-code/dev-controles-visual-studio-code.component';
+import { NgDescripcionElementosComponent } from './components/ANGULAR/ng-descripcion-elementos/ng-descripcion-elementos.component';
 
 
 export const ROUTES: Routes = [
@@ -57,7 +57,7 @@ export const ROUTES: Routes = [
 // ANGULAR
     { path: 'angular', component: AngularComponent },
     { path: 'ng-instalacion', component: InstalacionAngularComponent },
-    { path: 'ng-descripcion-elementos', component: AngularDescripcionElementosComponent },
+    { path: 'ng-descripcion-elementos', component: NgDescripcionElementosComponent },
     // ANGULAR-PRIMENG7
     { path: 'primeng-descripcion-elementos', component: Primeng7DescripcionElementosComponent },
     { path: 'primeng7-tablecheckbox', component: Primeng7TablecheckboxComponent },
@@ -65,6 +65,11 @@ export const ROUTES: Routes = [
     { path: 'css', component: CssComponent },
 // DART
     { path: 'dart', component: DartComponent },
+// DB
+    { path: 'db', component: DbComponent },
+    { path: 'db-firebase', component: FirebaseComponent },
+    { path: 'db-sql', component: SqlComponent },
+    { path: 'db-sql-server-querys', component: SqlServerQuerysComponent },
 // DEVELOPER
     { path: 'developer', component: DeveloperComponent },
     { path: 'super-recursos-internet', component: SuperRecursosInternetComponent },
@@ -110,11 +115,7 @@ export const ROUTES: Routes = [
     { path: 'recursos-informativos', component: RecursosInformativosComponent },
 // REACT
     { path: 'react', component: ReactComponent },
-// SQL
-    { path: 'db', component: DbComponent },
-    { path: 'db-firebase', component: FirebaseComponent },
-    { path: 'db-sql', component: SqlComponent },
-    { path: 'db-sql-server-querys', component: SqlServerQuerysComponent },
+
 // PHP
     { path: 'php', component: PhpComponent },
 // WORDPRESS

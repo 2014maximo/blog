@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel } from '../../../models/post.model';
+import { HeaderPostModel, CategoriaModel } from '../../../models/post.model';
 import { IndiceDeContenidosModel } from '../../../models/indice.model';
 
 @Component({
-  selector: 'app-angular-descripcion-elementos',
-  templateUrl: './angular-descripcion-elementos.component.html',
-  styleUrls: ['./angular-descripcion-elementos.component.css']
+  selector: 'app-ng-descripcion-elementos',
+  templateUrl: './ng-descripcion-elementos.component.html',
+  styleUrls: ['./ng-descripcion-elementos.component.css']
 })
-export class AngularDescripcionElementosComponent implements OnInit {
+export class NgDescripcionElementosComponent implements OnInit {
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',
@@ -16,6 +16,12 @@ export class AngularDescripcionElementosComponent implements OnInit {
     tituloPost: ''
   }
 
+  public breadcrumb: CategoriaModel = {
+    activo: true,
+    categoria: 'ANGULAR',
+    colorText: 'tc-red-one',
+    ruta: 'angular'
+  }
   public claseContenedor: string = '';
   public pasoDeIndice: IndiceDeContenidosModel [] = []
 

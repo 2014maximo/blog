@@ -34,6 +34,14 @@
     <nav class="navbar navbar-dark bg-dark text-light transparenciaUno">
         <a href="home">
             <h2 class="fuenteDos">TRUCOS PA' DESARROLLO</h2>
+            <span *ngIf="categoria.activo">
+                <a href="{{categoria.ruta}}" class="f-shadow-into-l {{categoria.colorText}} fs-17 text-shadow-one">
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    {{ categoria.categoria }}
+                </a>
+            </span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
