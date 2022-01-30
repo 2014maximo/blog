@@ -49,14 +49,6 @@ export class JavascriptComponent implements OnInit {
         activo: true
       },
       {
-        nombre: 'NODE JS',
-        posicion: 'pos-z',
-        rutaExterna: 'js-node-js',
-        fondo: 'bg-Javascript',
-        colorTexto: 't2 textoHoverBlanco',
-        activo: true
-      },
-      {
         nombre: 'RECORRER ARRAY OBJETOS',
         posicion: 'pos-z',
         rutaExterna: 'js-recorrer-arrays-objetos',

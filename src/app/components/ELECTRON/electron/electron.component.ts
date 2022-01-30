@@ -42,35 +42,35 @@ export class ElectronComponent implements OnInit {
         nombre: 'INSTALACIÓN',
         posicion: 'pos-z',
         rutaExterna: 'android-instalacion',
-        fondo: 'bg-Electron',
+        fondo: 'bg-Electron border border-dark',
         colorTexto: 't2'
       },
       {
         nombre: 'ELEMENTOS Y DESCRIPCIÓN',
         posicion: 'rot-2',
         rutaExterna: 'android-elementos',
-        fondo: 'bg-Electron',
+        fondo: 'bg-Electron border border-dark',
         colorTexto: 't2'
       },
       {
         nombre: 'CRUD',
         posicion: 'rot-2',
         rutaExterna: 'android-elementos',
-        fondo: 'bg-Electron',
+        fondo: 'bg-Electron border border-dark',
         colorTexto: 't2'
       },
       {
         nombre: 'TERMINOS AVANZADOS',
         posicion: 'rot-2',
         rutaExterna: 'android-elementos',
-        fondo: 'bg-Electron',
+        fondo: 'bg-Electron border border-dark',
         colorTexto: 't2'
       },
       {
         nombre: 'PRUEBAS UNITARIAS',
         posicion: 'rot-2',
         rutaExterna: 'android-elementos',
-        fondo: 'bg-Electron',
+        fondo: 'bg-Electron border border-dark',
         colorTexto: 't2'
       },
     ]

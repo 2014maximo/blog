@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { repositorioContenidoImagenes } from '../../../constants/globales.constant';
-import { HeaderPostModel } from '../../../models/post.model';
+import { HeaderPostModel, CategoriaModel } from '../../../models/post.model';
 
 @Component({
   selector: 'app-db-sql-server',
@@ -18,6 +18,13 @@ export class DbSqlServerComponent implements OnInit {
     sombra: ''
   }
   public rutaExternaImagenes: string = ''
+
+  public breadcrumb: CategoriaModel = {
+    activo: true,
+    categoria: 'DB',
+    colorText: 'tc-yellow-one',
+    ruta: 'db'
+  }
 
   constructor() {
     this.inicializarVariables();

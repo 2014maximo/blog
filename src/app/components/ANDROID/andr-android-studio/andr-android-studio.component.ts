@@ -21,7 +21,7 @@ export class AndrAndroidStudioComponent implements OnInit {
     activo: true,
     categoria: 'ANDROID STUDIO',
     colorText: 'tc-green-one',
-    ruta: 'android-studio'
+    ruta: 'android'
   }
 
   public accordeonContend: AccordeonModel [] = [

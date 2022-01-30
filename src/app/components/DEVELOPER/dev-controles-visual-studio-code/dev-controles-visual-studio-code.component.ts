@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CategoriaModel, HeaderPostModel } from '../../../models/post.model';
+import { repositorioContenidoImagenes } from '../../../constants/globales.constant';
 
 @Component({
   selector: 'app-dev-controles-visual-studio-code',
@@ -7,9 +9,41 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DevControlesVisualStudioCodeComponent implements OnInit {
 
-  constructor() { }
+  public breadcrumb: CategoriaModel = {
+    activo: true,
+    categoria: 'DEVELOPER',
+    colorText: 'tc-yellow-one',
+    ruta: 'developer'
+  }
+
+  public cabeceraPost: HeaderPostModel = {
+    rutaImagen: '',
+    alturaImagen: '',
+    fondo: false,
+    tituloPost: '',
+    sombra: ''
+  }
+  public rutaExternaImagenes: string = ''
+  constructor() {
+    this.inicializarVariables();
+  }
 
   ngOnInit(): void {
+  }
+
+  private inicializarVariables() {
+    this.cabeceraPost = {
+      rutaImagen: 'assets/img/icons/microsoft_sqlserver.png',
+      fondo: true,
+      tituloPost: 'DESCRIPCIÓN QUERYS',
+      alturaImagen: '150',
+      sombra: 'drop'
+    };
+    this.rutaExternaImagenes = repositorioContenidoImagenes;
+  }
+
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
   }
 
 }

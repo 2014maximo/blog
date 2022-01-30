@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel } from '../../../models/post.model';
+import { HeaderPostModel, CategoriaModel } from '../../../models/post.model';
 import { repositorioContenidoImagenes } from '../../../constants/globales.constant';
 
 @Component({
@@ -17,6 +17,13 @@ export class DevGlosarioComponent implements OnInit {
     sombra: ''
   }
   public rutaImagen: string = '';
+
+  public breadcrumb: CategoriaModel = {
+    activo: true,
+    categoria: 'DEVELOPER',
+    colorText: 'tc-yellow-one',
+    ruta: 'developer'
+  }
 
   constructor() {
     this.inicializarVariables();

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel } from '../../../models/post.model';
+import { HeaderPostModel, CategoriaModel } from '../../../models/post.model';
 
 @Component({
   selector: 'app-db-sql',
@@ -15,6 +15,13 @@ export class DbSqlComponent implements OnInit {
     fondo: false,
     tituloPost: '',
     sombra: ''
+  }
+
+  public breadcrumb: CategoriaModel = {
+    activo: true,
+    categoria: 'DB',
+    colorText: 'tc-yellow-one',
+    ruta: 'db'
   }
 
   public claseSql = '';

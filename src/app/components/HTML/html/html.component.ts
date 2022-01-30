@@ -40,10 +40,10 @@ export class HtmlComponent implements OnInit {
 
     this.indiceHtml = [
       {
-        nombre: 'DESCRIPCIÓN ETIQUETAS',
+        nombre: 'ETIQUETAS',
         posicion: 'pos-z',
-        rutaExterna: 'git-instalacion',
-        fondo: 'bg-Git',
+        rutaExterna: 'html-etiquetas',
+        fondo: 'bg-Html',
         colorTexto: 'text-light',
         activo: true
       },
@@ -51,7 +51,7 @@ export class HtmlComponent implements OnInit {
         nombre: 'PROPIEDADES',
         posicion: 'pos-z',
         rutaExterna: 'html-propiedades',
-        fondo: 'bg-Git',
+        fondo: 'bg-Html',
         colorTexto: 'text-light',
         activo: false
       }
