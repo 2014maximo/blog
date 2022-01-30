@@ -2,8 +2,6 @@ import { Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { InicioComponent } from './components/ESTADISTICA/inicio/inicio.component';
 import { NetInstalacionComponent } from './components/NET/net-instalacion/net-instalacion.component';
-import { FichaActualComponent } from './components/SENA/ficha-actual/ficha-actual.component';
-import { RecursosInformativosComponent } from './components/SENA/recursos-informativos/recursos-informativos.component';
 import { AngularComponent } from './components/ANGULAR/angular/angular.component';
 import { CssComponent } from './components/CSS/css/css.component';
 import { DartComponent } from './components/DART/dart/dart.component';
@@ -46,6 +44,8 @@ import { DbFirebaseComponent } from './components/DB/db-firebase/db-firebase.com
 import { DbSqlComponent } from './components/DB/db-sql/db-sql.component';
 import { DbSqlServerComponent } from './components/DB/db-sql-server/db-sql-server.component';
 import { DevSuperRecursosComponent } from './components/DEVELOPER/dev-super-recursos/dev-super-recursos.component';
+import { SenaFichaActualComponent } from './components/SENA/sena-ficha-actual/sena-ficha-actual.component';
+import { SenaRecursosInformativosComponent } from './components/SENA/sena-recursos-informativos/sena-recursos-informativos.component';
 
 
 export const ROUTES: Routes = [
@@ -111,8 +111,8 @@ export const ROUTES: Routes = [
     { path: 'net-descripcion-elementos', component: NetDescripcionElementosComponent },
 // SENA
     { path: 'sena', component: SenaComponent },
-    { path: 'ficha-actual', component: FichaActualComponent },
-    { path: 'recursos-informativos', component: RecursosInformativosComponent },
+    { path: 'sena-ficha-actual', component: SenaFichaActualComponent },
+    { path: 'sena-recursos-informativos', component: SenaRecursosInformativosComponent },
 // REACT
     { path: 'react', component: ReactComponent },
 

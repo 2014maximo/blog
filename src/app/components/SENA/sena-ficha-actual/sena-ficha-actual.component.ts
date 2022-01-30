@@ -2,11 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel } from '../../../models/post.model';
 
 @Component({
-  selector: 'app-ficha-actual',
-  templateUrl: './ficha-actual.component.html',
-  styleUrls: ['./ficha-actual.component.css']
+  selector: 'app-sena-ficha-actual',
+  templateUrl: './sena-ficha-actual.component.html',
+  styles: [
+  ]
 })
-export class FichaActualComponent implements OnInit {
+export class SenaFichaActualComponent implements OnInit {
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',

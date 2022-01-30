@@ -4,8 +4,6 @@ import { HomeComponent } from './home/home.component';
 import { SharedModule } from '../shared/shared.module';
 import { InicioComponent } from './ESTADISTICA/inicio/inicio.component';
 import { NetInstalacionComponent } from './NET/net-instalacion/net-instalacion.component';
-import { FichaActualComponent } from './SENA/ficha-actual/ficha-actual.component';
-import { RecursosInformativosComponent } from './SENA/recursos-informativos/recursos-informativos.component';
 import { CssComponent } from './CSS/css/css.component';
 import { AngularComponent } from './ANGULAR/angular/angular.component';
 import { DartComponent } from './DART/dart/dart.component';
@@ -48,6 +46,8 @@ import { DbFirebaseComponent } from './DB/db-firebase/db-firebase.component';
 import { DbSqlComponent } from './DB/db-sql/db-sql.component';
 import { DbSqlServerComponent } from './DB/db-sql-server/db-sql-server.component';
 import { DevSuperRecursosComponent } from './DEVELOPER/dev-super-recursos/dev-super-recursos.component';
+import { SenaFichaActualComponent } from './SENA/sena-ficha-actual/sena-ficha-actual.component';
+import { SenaRecursosInformativosComponent } from './SENA/sena-recursos-informativos/sena-recursos-informativos.component';
 
 
 
@@ -57,8 +57,6 @@ import { DevSuperRecursosComponent } from './DEVELOPER/dev-super-recursos/dev-su
     HomeComponent,
     InicioComponent,
     NetInstalacionComponent,
-    FichaActualComponent,
-    RecursosInformativosComponent,
     CssComponent,
     AngularComponent,
     DartComponent,
@@ -100,7 +98,9 @@ import { DevSuperRecursosComponent } from './DEVELOPER/dev-super-recursos/dev-su
     DbFirebaseComponent,
     DbSqlComponent,
     DbSqlServerComponent,
-    DevSuperRecursosComponent
+    DevSuperRecursosComponent,
+    SenaFichaActualComponent,
+    SenaRecursosInformativosComponent
   ],
   imports: [
     CommonModule,

@@ -928,13 +928,13 @@ export const CATEGORIAS: CategoriasModel [] = [
             {
                 nombre: 'FICHA 2276732',
                 posicion: 'pos-z',
-                ruta:'ficha-actual',
+                ruta:'sena-ficha-actual',
                 activo: true
             },
             {
                 nombre: 'RECURSOS INFORMATIVOS',
                 posicion: 'rot-2',
-                ruta:'recursos-informativos',
+                ruta:'sena-recursos-informativos',
                 activo: false
             }
         ]
