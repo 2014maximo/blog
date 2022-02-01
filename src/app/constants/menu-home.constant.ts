@@ -108,7 +108,7 @@ export const MENU_4 = [
     },
     {
         id:2,
-        categoria: 'net-framework',
+        categoria: 'net',
         abertura: '80%',
         rutaIcono: 'assets/img/categorias/net-framework.png',
         alturaIcono: '80'

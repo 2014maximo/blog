@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel } from '../../../models/post.model';
+import { HeaderPostModel, CategoriaModel } from '../../../models/post.model';
 
 @Component({
   selector: 'app-net-instalacion',
@@ -15,6 +15,12 @@ export class NetInstalacionComponent implements OnInit {
     tituloPost: ''
   }
 
+  public breadcrumb: CategoriaModel = {
+    activo: true,
+    categoria: 'NET',
+    colorText: 'tc-violet-one',
+    ruta: 'net'
+  }
   constructor() { }
 
   ngOnInit(): void {

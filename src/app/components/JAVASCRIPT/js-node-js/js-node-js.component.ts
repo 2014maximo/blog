@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel, AccordeonModel } from '../../../models/post.model';
+import { HeaderPostModel, AccordeonModel, CategoriaModel } from '../../../models/post.model';
 
 @Component({
   selector: 'app-js-node-js',
@@ -14,6 +14,12 @@ export class JsNodeJsComponent implements OnInit {
     fondo: false,
     tituloPost: '',
     sombra: ''
+  }
+  public breadcrumb: CategoriaModel = {
+    activo: true,
+    categoria: 'JAVASCRIPT',
+    colorText: 'tc-yellow-one',
+    ruta: 'javascript'
   }
   public accordeonContend: AccordeonModel [] = [
     {

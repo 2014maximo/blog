@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel } from '../../../models/post.model';
+import { HeaderPostModel, CategoriaModel } from '../../../models/post.model';
 
 @Component({
   selector: 'app-js-trabajo-fechas',
@@ -16,6 +16,12 @@ export class JsTrabajoFechasComponent implements OnInit {
     sombra: ''
   }
 
+  public breadcrumb: CategoriaModel = {
+    activo: true,
+    categoria: 'JAVASCRIPT',
+    colorText: 'tc-yellow-one',
+    ruta: 'javascript'
+  }
   public fecha: any;
 
   constructor() {

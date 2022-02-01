@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel } from '../../../models/post.model';
+import { HeaderPostModel, CategoriaModel } from '../../../models/post.model';
 
 @Component({
   selector: 'app-sena-ficha-actual',
@@ -15,6 +15,13 @@ export class SenaFichaActualComponent implements OnInit {
     fondo: false,
     tituloPost: '',
     sombra: ''
+  }
+
+  public breadcrumb: CategoriaModel = {
+    activo: true,
+    categoria: 'SENA',
+    colorText: 'tc-orange-three',
+    ruta: 'sena'
   }
 
   constructor() {

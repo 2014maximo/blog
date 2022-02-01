@@ -796,8 +796,8 @@ export const CATEGORIAS: CategoriasModel [] = [
     /*      NET-FRAMEWORK    */
     {
         id:16,
-        categoria: 'net-framework',
-        rutaCategoria: 'net-framework',
+        categoria: 'net',
+        rutaCategoria: 'net',
         rutaIcono: 'assets/img/categorias/net-framework.png',
         alturaIcono: '80',
         color: 'bg-NetFramework',

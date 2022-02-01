@@ -106,7 +106,7 @@ export const ROUTES: Routes = [
 // KUBERNETES
     { path: 'kubernetes', component: KubernetesComponent },
 // NET-FRAMEWORKS
-    { path: 'net-framework', component: NetFrameworkComponent},
+    { path: 'net', component: NetFrameworkComponent},
     { path: 'net-instalacion', component: NetInstalacionComponent },
     { path: 'net-descripcion-elementos', component: NetDescripcionElementosComponent },
 // SENA

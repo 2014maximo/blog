@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { repositorioContenidoImagenes } from 'src/app/constants/globales.constant';
-import { HeaderPostModel } from '../../../models/post.model';
+import { HeaderPostModel, CategoriaModel } from '../../../models/post.model';
 
 @Component({
   selector: 'app-js-recorrer-arrays-objetos',
@@ -17,6 +17,13 @@ export class JsRecorrerArraysObjetosComponent implements OnInit {
     sombra: ''
   }
   public rutaImagen: string = '';
+
+  public breadcrumb: CategoriaModel = {
+    activo: true,
+    categoria: 'JAVASCRIPT',
+    colorText: 'tc-yellow-one',
+    ruta: 'javascript'
+  }
 
   constructor() {
     this.inicializarVariables();

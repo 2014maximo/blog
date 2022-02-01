@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CategoriaModel } from '../../../models/post.model';
 
 @Component({
   selector: 'app-sena-recursos-informativos',
@@ -7,6 +8,13 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class SenaRecursosInformativosComponent implements OnInit {
+
+  public breadcrumb: CategoriaModel = {
+    activo: true,
+    categoria: 'NET',
+    colorText: 'tc-violet-one',
+    ruta: 'net'
+  }
 
   constructor() { }
 

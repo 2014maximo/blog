@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { LINKS } from 'src/app/constants/super-recursos.contant';
 import { BloqueContenidoModel } from '../../../models/bloque-contenidos.model';
 import { IndiceDeContenidosModel } from '../../../models/indice.model';
-import { HeaderPostModel } from '../../../models/post.model';
+import { HeaderPostModel, CategoriaModel } from '../../../models/post.model';
 
 @Component({
   selector: 'app-dev-super-recursos',
@@ -18,7 +18,12 @@ export class DevSuperRecursosComponent implements OnInit {
     fondo: false,
     tituloPost: ''
   }
-  
+  public breadcrumb: CategoriaModel = {
+    activo: true,
+    categoria: 'DEVELOPER',
+    colorText: 'tc-yellow-one',
+    ruta: 'developer'
+  }
   public pasoDeIndice: IndiceDeContenidosModel [] = []
   public pasoBloques: BloqueContenidoModel [] = [];
   public claseContenedor: string = '';
