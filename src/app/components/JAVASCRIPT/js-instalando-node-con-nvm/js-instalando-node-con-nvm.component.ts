@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { copiarAlPortapapeles } from 'src/app/shared/funciones/portapapeles';
 import { AccordeonModel, HeaderPostModel, CategoriaModel } from '../../../models/post.model';
 
 @Component({
@@ -82,6 +83,10 @@ export class JsInstalandoNodeConNvmComponent implements OnInit {
         ]
       }
     ]
+  }
+
+  public copiarAlPortapapeles(cadenaAlclipboard: string) {
+    copiarAlPortapapeles(cadenaAlclipboard);
   }
   
   scroll(el: HTMLElement) {

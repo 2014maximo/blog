@@ -3,7 +3,7 @@ export const MENU_1 = [
         id:1,
         categoria: 'android',
         abertura: '80%',
-        rutaIcono: 'assets/img/categorias/android-studio_text_white.png',
+        rutaIcono: 'assets/img/categorias/android.png',
         alturaIcono: '80'
     },
     {

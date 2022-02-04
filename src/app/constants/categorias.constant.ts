@@ -7,7 +7,7 @@ export const CATEGORIAS: CategoriasModel [] = [
         id:1,
         categoria: 'android',
         rutaCategoria: 'android',
-        rutaIcono: 'assets/img/categorias/android-studio_text_white.png',
+        rutaIcono: 'assets/img/categorias/android.png',
         alturaIcono: '80',
         color: 'bg-Android',
         post: [
