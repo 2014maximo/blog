@@ -1594,7 +1594,7 @@ export const LINKS: BloqueContenidoModel[] = [
                         img: 'assets/img/icons/game-torrens.png',
                         nombreRecurso: '',
                         height: '30',
-                        rutaRecurso: 'https://www.gamestorrents.nz/',
+                        rutaRecurso: 'https://www.gamestorrents.fm/juegos-pc/',
                         descripcion: 'Descarga de juegos gratis.',
                         red: '',
                         mediaQuery: 'img-fluid'
