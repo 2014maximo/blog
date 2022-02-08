@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel } from '../../../models/post.model';
 import { initializeApp } from 'firebase/app';
+import { getDatabase } from "firebase/database";
+
 
 @Component({
   selector: 'app-astro-s-ingreso',
@@ -30,7 +32,9 @@ export class AstroSIngresoComponent implements OnInit {
       messagingSenderId: "64729521444",
       appId: "1:64729521444:web:ca61334b52ca487072e7b1"
     };
-    initializeApp(firebaseConfig);
+    const app = initializeApp(firebaseConfig);
+    const database = getDatabase(app);
+    console.log(database, 'MIREMOS A VER QUE LLEGA');
   }
 
   private inicializarVariables() {

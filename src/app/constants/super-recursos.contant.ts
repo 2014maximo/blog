@@ -104,7 +104,7 @@ export const LINKS: BloqueContenidoModel[] = [
                         img: '',
                         nombreRecurso: 'gitlab',
                         height: '',
-                        rutaRecurso: 'https://gitlab.com/',
+                        rutaRecurso: 'https://gitlab.com/users/sign_in',
                         descripcion: '',
                         red: 'gitlab'
                     },
