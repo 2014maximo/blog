@@ -45,6 +45,9 @@ Apache-2.0
 @firebase/component
 Apache-2.0
 
+@firebase/database
+Apache-2.0
+
 @firebase/logger
 Apache-2.0
 
@@ -61,6 +64,8 @@ MIT
 MIT
 
 firebase/app
+
+firebase/database
 
 ngx-owl-carousel-o
 MIT
