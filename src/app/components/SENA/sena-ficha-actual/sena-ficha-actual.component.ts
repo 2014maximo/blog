@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel, CategoriaModel } from '../../../models/post.model';
+import { repositorioContenidoImagenes } from '../../../constants/globales.constant';
 
 @Component({
   selector: 'app-sena-ficha-actual',
@@ -16,6 +17,8 @@ export class SenaFichaActualComponent implements OnInit {
     tituloPost: '',
     sombra: ''
   }
+
+  public rutaImagen: string = '';
 
   public breadcrumb: CategoriaModel = {
     activo: true,
@@ -35,10 +38,12 @@ export class SenaFichaActualComponent implements OnInit {
     this.cabeceraPost = {
       rutaImagen: 'assets/img/categorias/sena.png',
       fondo: true,
-      tituloPost: '7622732',
+      tituloPost: '7622734',
       alturaImagen: '300',
       sombra: 'drop'
     };
+
+    this.rutaImagen = repositorioContenidoImagenes;
   }
 
   scroll(el: HTMLElement) {
