@@ -18,6 +18,7 @@ export class SenaFichaActualComponent implements OnInit {
     sombra: ''
   }
 
+  public profes: any;
   public rutaImagen: string = '';
 
   public breadcrumb: CategoriaModel = {
@@ -43,10 +44,21 @@ export class SenaFichaActualComponent implements OnInit {
       sombra: 'drop'
     };
 
+    this.profes = {
+      nicth: 'nicth'
+    }
+
     this.rutaImagen = repositorioContenidoImagenes;
   }
 
-  scroll(el: HTMLElement) {
+  scrolls(el: HTMLElement) {
+    el.scrollIntoView();
+  }
+
+  scroll(id: string) {
+    console.log(`scrolling to ${id}`);
+    let el = document.getElementById(id);
+    // @ts-ignore: Object is possibly 'null'.
     el.scrollIntoView();
   }
 

@@ -7,7 +7,41 @@
 <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10">
-        <h2 class="tc-orange-one f-alex-brush fs-160 text-shadow-one">Nicth</h2>
+        <div class="row">
+            <div class="col-md-2 bg-Flutter shadow-two text-center">
+                <h3 class="f-open-sans-c fs-30 text-light mt-3">LUNES</h3>
+            </div>
+            <div class="col-md-2 bg-Android shadow-two text-center">
+                <h3 class="f-open-sans-c fs-30 text-light mt-3">MARTES</h3>
+                <div class="pos-z bg-light border mt-4 mb-4 cursor-p shadow-three">
+                    <a class="f-shadow-into-l fs-20 tc-green-one" (click)='scroll(profes.nicth)'>JAVA - Nicth (6pm-9pm)</a>
+                </div>
+                <div class="pos-z bg-light border mt-4 mb-4 cursor-p shadow-three">
+                    <a class="f-shadow-into-l fs-20 tc-green-one" (click)='scroll(profes.nicth)'>PHP - Nicth (6pm-9pm)</a>
+                </div>
+            </div>
+            <div class="col-md-2 bg-Java shadow-two text-center">
+                <h3 class="f-open-sans-c fs-30 text-light mt-3">MIÉRCOLES</h3>
+            </div>
+            <div class="col-md-2 bg-NetFramework shadow-two text-center">
+                <h3 class="f-open-sans-c fs-30 text-light mt-3">JUEVES</h3>
+            </div>
+            <div class="col-md-2 bg-yellow-one shadow-two text-center">
+                <h3 class="f-open-sans-c fs-30 mt-3">VIERNES</h3>
+            </div>
+            <div class="col-md-2 bg-Git shadow-two text-center">
+                <h3 class="f-open-sans-c fs-30 text-light mt-3">SÁBADOS</h3>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+<div class="espaciado"></div>
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <h3 class="tc-orange-one f-alex-brush fs-160 text-shadow-one" id="nicth">Nicth</h3>
         <a href="https://meet.google.com/dbj-hyco-ecr" target="_blank" class="f-open-sans-c fs-20 lh-20">
             (LINK REUNIÓN MEET)<br>https://meet.google.com/dbj-hyco-ecr
         </a>
@@ -55,6 +89,6 @@
 </div>
 <div class="espaciado"></div>
 
-<div class="go-up" (click)="scroll(target)">
+<div class="go-up" (click)="scrolls(target)">
     <i class="fa fa-chevron-up" aria-hidden="true"></i>
 </div>
