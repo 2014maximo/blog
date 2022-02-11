@@ -979,6 +979,14 @@ export const LINKS: BloqueContenidoModel[] = [
                         red: ''
                     },
                     {
+                        img: 'assets/img/icons/w3c-docs.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://w3c.github.io/aria/',
+                        descripcion: 'El World Wide Web Consortium (W3C) documentación al 2022.',
+                        red: ''
+                    },
+                    {
                         img: 'assets/img/icons/freepik.png',
                         nombreRecurso: '',
                         height: '60',
