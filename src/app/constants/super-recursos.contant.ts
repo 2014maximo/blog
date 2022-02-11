@@ -1279,6 +1279,19 @@ export const LINKS: BloqueContenidoModel[] = [
                     },
                 ]
             },
+            {
+                index: '3',
+                links: [
+                    {
+                        img: 'assets/img/icons/pg.png',
+                        nombreRecurso: '',
+                        height: '80',
+                        rutaRecurso: 'https://tiendapg.com/',
+                        descripcion: '2022 Tienda P&G.',
+                        red: ''
+                    },
+                ]
+            },
         ]
     },
     {
