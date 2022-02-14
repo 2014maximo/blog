@@ -49,6 +49,7 @@ import { DevSuperRecursosComponent } from './DEVELOPER/dev-super-recursos/dev-su
 import { SenaFichaActualComponent } from './SENA/sena-ficha-actual/sena-ficha-actual.component';
 import { SenaRecursosInformativosComponent } from './SENA/sena-recursos-informativos/sena-recursos-informativos.component';
 import { JavaGlassfishComponent } from './JAVA/java-glassfish/java-glassfish.component';
+import { JsTypescriptElementosComponent } from './JAVASCRIPT/js-typescript-elementos/js-typescript-elementos.component';
 
 
 
@@ -102,7 +103,8 @@ import { JavaGlassfishComponent } from './JAVA/java-glassfish/java-glassfish.com
     DevSuperRecursosComponent,
     SenaFichaActualComponent,
     SenaRecursosInformativosComponent,
-    JavaGlassfishComponent
+    JavaGlassfishComponent,
+    JsTypescriptElementosComponent
   ],
   imports: [
     CommonModule,

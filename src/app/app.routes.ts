@@ -47,6 +47,7 @@ import { DevSuperRecursosComponent } from './components/DEVELOPER/dev-super-recu
 import { SenaFichaActualComponent } from './components/SENA/sena-ficha-actual/sena-ficha-actual.component';
 import { SenaRecursosInformativosComponent } from './components/SENA/sena-recursos-informativos/sena-recursos-informativos.component';
 import { JavaGlassfishComponent } from './components/JAVA/java-glassfish/java-glassfish.component';
+import { JsTypescriptElementosComponent } from './components/JAVASCRIPT/js-typescript-elementos/js-typescript-elementos.component';
 
 
 export const ROUTES: Routes = [
@@ -101,6 +102,7 @@ export const ROUTES: Routes = [
     { path: 'js-trabajo-fechas', component: JsTrabajoFechasComponent },
     { path: 'js-node-js', component: JsNodeJsComponent },
     { path: 'js-instalando-node-con-nvm', component: JsInstalandoNodeConNvmComponent },
+    { path: 'js-typescript-elementos', component: JsTypescriptElementosComponent },
 // LINUX
     { path: 'linux', component: LinuxComponent },
 // KOTLIN

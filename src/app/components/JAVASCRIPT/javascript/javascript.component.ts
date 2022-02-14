@@ -19,6 +19,7 @@ export class JavascriptComponent implements OnInit {
 
   public indiceJavascript: IndiceDeContenidosModel [] = [];
   public indiceNodeJs: IndiceDeContenidosModel [] = [];
+  public indiceTypescript: IndiceDeContenidosModel [] = [];
   public claseJavascript = '';
 
   constructor() {
@@ -78,6 +79,16 @@ export class JavascriptComponent implements OnInit {
         nombre: 'NODE JS CON NVM',
         posicion: 'pos-z',
         rutaExterna: 'js-instalando-node-con-nvm',
+        fondo: 'bg-Javascript',
+        colorTexto: 't2 textoHoverBlanco',
+        activo: true
+      },
+    ]
+    this.indiceTypescript = [
+      {
+        nombre: 'ELEMENTOS',
+        posicion: 'pos-z',
+        rutaExterna: 'js-typescript-elementos',
         fondo: 'bg-Javascript',
         colorTexto: 't2 textoHoverBlanco',
         activo: true

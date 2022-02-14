@@ -650,7 +650,27 @@ export const CATEGORIAS: CategoriasModel [] = [
                         color: 't2 textoHoverBlanco'
                     },
                 ]
-            },]
+            },
+            {
+                subCategoria: 'Typescript',
+                post: [
+                    {
+                        nombre: 'TYPESCRIPT',
+                        posicion: 'pos-z',
+                        ruta: 'js-node-js',
+                        activo: true,
+                        color: 't2 textoHoverBlanco'
+                    },
+                    {
+                        nombre: 'ELEMENTOS',
+                        posicion: 'rot-2',
+                        ruta: 'js-typescript-elementos',
+                        activo: true,
+                        color: 't2 textoHoverBlanco'
+                    },
+                ]
+            },
+        ],
     },
 /*      KOTLIN    */
     {

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel } from '../../../models/post.model';
 import { initializeApp } from 'firebase/app';
 import { getDatabase } from "firebase/database";
+import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
 
 
 @Component({
@@ -18,10 +19,11 @@ export class AstroSIngresoComponent implements OnInit {
     tituloPost: ''
   }
 
+  
   constructor() {
     this.inicializarVariables();
   }
-
+  
   ngOnInit(): void {
     const firebaseConfig = {
       apiKey: "AIzaSyCSZ_jjFVuKWQV-MN1y11Jns6LKLX6vtA4",
@@ -34,9 +36,18 @@ export class AstroSIngresoComponent implements OnInit {
     };
     const app = initializeApp(firebaseConfig);
     const database = getDatabase(app);
-    console.log(database, 'MIREMOS A VER QUE LLEGA');
-  }
+    const db = getFirestore(app);
 
+    async function getCities(db:any) {
+      const citiesCol = collection(db, 'cities');
+      const citySnapshot = await getDocs(citiesCol);
+      const cityList = citySnapshot.docs.map(doc => doc.data());
+      return cityList;
+    }
+
+    console.log(getCities(db), 'MIREMOS A VER QUE LLEGA')
+  }
+  
   private inicializarVariables() {
     this.cabeceraPost = {
       rutaImagen: 'assets/img/icons/astro-sol.png',
@@ -45,8 +56,8 @@ export class AstroSIngresoComponent implements OnInit {
       alturaImagen: '150',
       sombra: 'drop'
     };
-
   }
+
 
   scroll(el: HTMLElement) {
     el.scrollIntoView();
