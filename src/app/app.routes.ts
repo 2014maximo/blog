@@ -46,6 +46,7 @@ import { DbSqlServerComponent } from './components/DB/db-sql-server/db-sql-serve
 import { DevSuperRecursosComponent } from './components/DEVELOPER/dev-super-recursos/dev-super-recursos.component';
 import { SenaFichaActualComponent } from './components/SENA/sena-ficha-actual/sena-ficha-actual.component';
 import { SenaRecursosInformativosComponent } from './components/SENA/sena-recursos-informativos/sena-recursos-informativos.component';
+import { JavaGlassfishComponent } from './components/JAVA/java-glassfish/java-glassfish.component';
 
 
 export const ROUTES: Routes = [
@@ -92,6 +93,7 @@ export const ROUTES: Routes = [
 // JAVA
     { path: 'java', component: JavaComponent},
     { path: 'java-instalacion', component: JavaInstalacionComponent},
+    { path: 'java-glassfish', component: JavaGlassfishComponent},
 // JAVASCRIPT
     { path: 'javascript', component: JavascriptComponent },
     { path: 'js-elementos', component: JsElementosComponent},

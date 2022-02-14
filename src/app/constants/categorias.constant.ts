@@ -554,10 +554,10 @@ export const CATEGORIAS: CategoriasModel [] = [
                 activo: false
             },
             {
-                nombre: 'CRUD',
+                nombre: 'GLASSFISH',
                 posicion: 'rot-1',
-                ruta:'crud-dart',
-                activo: false
+                ruta:'java-glassfish',
+                activo: true
             },
             {
                 nombre: 'TERMINOS AVANZADOS',
