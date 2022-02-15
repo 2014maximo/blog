@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel, CategoriaModel } from '../../../models/post.model';
 import { repositorioContenidoImagenes } from '../../../constants/globales.constant';
+import { copiarAlPortapapeles } from 'src/app/shared/funciones/portapapeles';
+
 
 @Component({
   selector: 'app-sena-ficha-actual',
@@ -60,6 +62,10 @@ export class SenaFichaActualComponent implements OnInit {
     let el = document.getElementById(id);
     // @ts-ignore: Object is possibly 'null'.
     el.scrollIntoView();
+  }
+
+  public copiarPortapapeles(cadenaAlclipboard: string) {
+    copiarAlPortapapeles(cadenaAlclipboard);
   }
 
 }
