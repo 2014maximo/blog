@@ -45,7 +45,7 @@ export class AstroSIngresoComponent implements OnInit {
       return cityList;
     }
 
-    console.log(getCities(db), 'MIREMOS A VER QUE LLEGA')
+    console.log(getCities(database), 'MIREMOS A VER QUE LLEGA')
   }
   
   private inicializarVariables() {
