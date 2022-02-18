@@ -7,14 +7,32 @@
 <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10">
-        <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one">VARIABLES </h4>
+        <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one mb-4">VARIABLES </h4>
         <p class="f-open-sans-c text-light fs-20 lh-20">
             En PHP las variables se representan con un signo de dólar seguido por el nombre de la variable. El nombre de la variable es sensible a minúsculas y mayúsculas.<br><br>
             Los nombres de variables siguen las mismas reglas que otras etiquetas en PHP. Un nombre de variable válido tiene que empezar con una letra o un carácter de subrayado (underscore), seguido de cualquier número de letras, números y caracteres de subrayado. Como expresión regular se podría expresar como: '[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*' 
         </p>
-        <div class="imagen-real">
-            <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/variables-01.png" alt="" height="350" width="auto" class="shadow-two">
+        <div class="mb-5">
+            <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/variables-01.png" alt="" class="shadow-two mt-3 img-mh-300 img-fluid">
+            <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/variables-02.png" alt="" class="shadow-two mt-3 img-mh-250 img-fluid">
         </div>
+        <p class="f-open-sans-c text-light fs-20 lh-20">
+            Sólo las variables con nombre pueden ser asignadas por referencia. 
+        </p>
+        <div class="mb-5">
+            <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/variables-03.png" alt="" class="shadow-two img-mh-350 img-fluid">
+        </div>
+        
+        <p class="f-open-sans-c text-light fs-20 lh-20">
+            No es necesario inicializar variables en PHP, sin embargo, es una muy buena práctica. Las variables no inicializadas tienen un valor predeterminado de acuerdo a su tipo dependiendo del contexto en el que son usadas - las booleanas se asumen como false, los enteros y flotantes como cero, las cadenas (p.ej. usadas en echo) se establecen como una cadena vacía y los arrays se convierten en un array vacío.<br>
+            <br>
+            Valores predeterminados en variables sin inicializar:
+        </p>
+
+        <div class="mb-5">
+            <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/variables-04.png" alt="" class="shadow-two img-mh-450 img-fluid">
+        </div>
+
         <div class="p-3 m-5 shadow-two border border-secondary">
             <p class="fs-20 f-open-sans-c text-light m-0"><b>Nota:</b></p><span class="f-shadow-into-l fs-25 tc-yellow-one">"$this" </span><span class="fs-20 f-open-sans-c text-light">es una variable especial que no puede ser asignada.</span>
         </div>
