@@ -35,17 +35,21 @@ export class AstroSIngresoComponent implements OnInit {
       appId: "1:64729521444:web:ca61334b52ca487072e7b1"
     };
     const app = initializeApp(firebaseConfig);
-    const database = getDatabase(app);
+
+
+    console.log(app, 'MIREMOS A VER QUE LLEGA');
     const db = getFirestore(app);
 
-    async function getCities(db:any) {
-      const citiesCol = collection(db, 'cities');
-      const citySnapshot = await getDocs(citiesCol);
-      const cityList = citySnapshot.docs.map(doc => doc.data());
-      return cityList;
-    }
+// Get a list of cities from your database
+let fechas = getCities(db);
+async function getCities(db:any) {
+  const citiesCol = collection(db, 'fecha');
+  const citySnapshot = await getDocs(citiesCol);
+  const cityList = citySnapshot.docs.map(doc => doc.data());
+  return cityList;
+}
+console.log(fechas, 'LISTA DE CITIES');
 
-    console.log(getCities(database), 'MIREMOS A VER QUE LLEGA')
   }
   
   private inicializarVariables() {

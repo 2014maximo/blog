@@ -47,7 +47,9 @@ export class SenaFichaActualComponent implements OnInit {
     };
 
     this.profes = {
-      nicth: 'nicth'
+      nicth: 'nicth',
+      ingo: 'ingo',
+      yhoan: 'yhoan',
     }
 
     this.rutaImagen = repositorioContenidoImagenes;

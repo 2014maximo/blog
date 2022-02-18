@@ -1298,6 +1298,14 @@ export const LINKS: BloqueContenidoModel[] = [
                         descripcion: '2022 Tienda P&G.',
                         red: ''
                     },
+                    {
+                        img: 'assets/img/icons/tms.png',
+                        nombreRecurso: '',
+                        height: '80',
+                        rutaRecurso: 'https://tmsmusic.co/',
+                        descripcion: 'Tienda especializada en comercio de instrumentos y partes de música.',
+                        red: ''
+                    },
                 ]
             },
         ]
