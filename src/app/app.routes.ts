@@ -48,53 +48,67 @@ import { SenaFichaActualComponent } from './components/SENA/sena-ficha-actual/se
 import { SenaRecursosInformativosComponent } from './components/SENA/sena-recursos-informativos/sena-recursos-informativos.component';
 import { JavaGlassfishComponent } from './components/JAVA/java-glassfish/java-glassfish.component';
 import { JsTypescriptElementosComponent } from './components/JAVASCRIPT/js-typescript-elementos/js-typescript-elementos.component';
+import { PhpElementosComponent } from './components/PHP/php-elementos/php-elementos.component';
 
 
 export const ROUTES: Routes = [
     { path: '', pathMatch: 'full', redirectTo: 'home'},
     { path: 'home', component: HomeComponent },
+
 // ANDROID STUDIO
     { path: 'android', component: AndroidComponent },
     { path: 'andr-android-studio', component: AndrAndroidStudioComponent },
+
 // ANGULAR
     { path: 'angular', component: AngularComponent },
     { path: 'ng-instalacion', component: NgInstalacionComponent },
     { path: 'ng-descripcion-elementos', component: NgDescripcionElementosComponent },
-    // ANGULAR-PRIMENG7
+// PRIMENG7
     { path: 'prime7-descripcion-elementos', component: Prime7DescripcionElementosComponent },
     { path: 'prime7-tablecheckbox', component: Prime7TablecheckboxComponent },
+
 // CSS
     { path: 'css', component: CssComponent },
+
 // DART
     { path: 'dart', component: DartComponent },
+
 // DB
     { path: 'db', component: DbComponent },
     { path: 'db-firebase', component: DbFirebaseComponent },
     { path: 'db-sql', component: DbSqlComponent },
     { path: 'db-sql-server', component: DbSqlServerComponent },
+
 // DEVELOPER
     { path: 'developer', component: DeveloperComponent },
     { path: 'dev-super-recursos', component: DevSuperRecursosComponent },
     { path: 'dev-glosario', component: DevGlosarioComponent },
     { path: 'dev-controles-visual-studio-code', component: DevControlesVisualStudioCodeComponent },
+
 // ESTADISTICA
     { path: 'estadistica', component: EstadisticaComponent },
     { path: 'astro-sol-ingreso', component: AstroSIngresoComponent },
     { path: 'estadistica-inicio', component: InicioComponent },
+
 // ELECTRON
     { path: 'electron', component: ElectronComponent },
+
 // FLUTTER
     { path: 'flutter', component: FlutterComponent },
     { path: 'flutter-instalacion', component: FlutterInstalacionComponent },
+
 // GIT
     { path: 'git', component: GitComponent },
+
 // HTML
     { path: 'html', component: HtmlComponent },
     { path: 'html-etiquetas', component: HtmlEtiquetasComponent },
+
 // JAVA
     { path: 'java', component: JavaComponent},
     { path: 'java-instalacion', component: JavaInstalacionComponent},
     { path: 'java-glassfish', component: JavaGlassfishComponent},
+
 // JAVASCRIPT
     { path: 'javascript', component: JavascriptComponent },
     { path: 'js-elementos', component: JsElementosComponent},
@@ -103,28 +117,35 @@ export const ROUTES: Routes = [
     { path: 'js-node-js', component: JsNodeJsComponent },
     { path: 'js-instalando-node-con-nvm', component: JsInstalandoNodeConNvmComponent },
     { path: 'js-typescript-elementos', component: JsTypescriptElementosComponent },
+
 // LINUX
     { path: 'linux', component: LinuxComponent },
+
 // KOTLIN
     { path: 'kotlin', component: KotlinComponent },
+
 // KUBERNETES
     { path: 'kubernetes', component: KubernetesComponent },
+
 // NET-FRAMEWORKS
     { path: 'net', component: NetFrameworkComponent},
     { path: 'net-instalacion', component: NetInstalacionComponent },
     { path: 'net-descripcion-elementos', component: NetDescripcionElementosComponent },
+
 // SENA
     { path: 'sena', component: SenaComponent },
     { path: 'sena-ficha-actual', component: SenaFichaActualComponent },
     { path: 'sena-recursos-informativos', component: SenaRecursosInformativosComponent },
+
 // REACT
     { path: 'react', component: ReactComponent },
 
 // PHP
     { path: 'php', component: PhpComponent },
+    { path: 'php-elementos', component: PhpElementosComponent },
+
 // WORDPRESS
     { path: 'wordpress', component: WordpressComponent },
-
 ];
 
 function recorrerComponentes(array: any) {

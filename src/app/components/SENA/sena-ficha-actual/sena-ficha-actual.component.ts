@@ -48,6 +48,8 @@ export class SenaFichaActualComponent implements OnInit {
 
     this.profes = {
       nicth: 'nicth',
+      nicthphp: 'nicth-php',
+      nicthjava: 'nicth-java',
       ingo: 'ingo',
       yhoan: 'yhoan',
     }

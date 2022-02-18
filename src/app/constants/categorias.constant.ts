@@ -870,15 +870,9 @@ export const CATEGORIAS: CategoriasModel [] = [
         color: 'bg-Php',
         post: [
             {
-                nombre: 'INSTALACIÓN',
-                posicion: 'pos-z',
-                ruta:'net-instalacion',
-                activo: true
-            },
-            {
-                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                nombre: 'PHP DESCRIPCIÓN ELEMENTOS',
                 posicion: 'rot-2',
-                ruta:'net-descripcion-elementos',
+                ruta:'php-elementos',
                 activo: true
             },
         ]

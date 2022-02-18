@@ -45,12 +45,12 @@ export class PhpComponent implements OnInit {
         rutaExterna: 'php-instalacion',
         fondo: 'bg-Php',
         colorTexto: 'text-light',
-        activo: true
+        activo: false
       },
       {
         nombre: 'PHP DESCRIPCION ELEMENTOS',
         posicion: 'pos-z',
-        rutaExterna: 'net-descripcion-elementos',
+        rutaExterna: 'php-elementos',
         fondo: 'bg-Php',
         colorTexto: 'text-light',
         activo: true

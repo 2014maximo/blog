@@ -50,6 +50,7 @@ import { SenaFichaActualComponent } from './SENA/sena-ficha-actual/sena-ficha-ac
 import { SenaRecursosInformativosComponent } from './SENA/sena-recursos-informativos/sena-recursos-informativos.component';
 import { JavaGlassfishComponent } from './JAVA/java-glassfish/java-glassfish.component';
 import { JsTypescriptElementosComponent } from './JAVASCRIPT/js-typescript-elementos/js-typescript-elementos.component';
+import { PhpElementosComponent } from './PHP/php-elementos/php-elementos.component';
 
 
 
@@ -104,7 +105,8 @@ import { JsTypescriptElementosComponent } from './JAVASCRIPT/js-typescript-eleme
     SenaFichaActualComponent,
     SenaRecursosInformativosComponent,
     JavaGlassfishComponent,
-    JsTypescriptElementosComponent
+    JsTypescriptElementosComponent,
+    PhpElementosComponent
   ],
   imports: [
     CommonModule,
