@@ -61,11 +61,203 @@
         <div class="mb-5">
             <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/constantes-01.png" alt="" class="shadow-two img-mh-450 img-fluid">
         </div>
+
         <div class="espacio"></div>
-        <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one mb-4">ARRAYS </h4>
+
+        <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one mb-4">ARRAYS <br><span class="fs-25 tc-blue-one">(Descripción)</span> </h4>
         <p class="f-open-sans-c text-light fs-20 lh-20">
             Un array en PHP es en realidad un mapa ordenado. Un mapa es un tipo de datos que asocia valores con claves. Este tipo se optimiza para varios usos diferentes; se puede emplear como un array, lista (vector), tabla asociativa (tabla hash - una implementación de un mapa), diccionario, colección, pila, cola, y posiblemente más. Ya que los valores de un array pueden ser otros arrays, también son posibles árboles y arrays multidimensionales.
         </p>
+        <br>
+        <i class="fa fa-clone cursor-p text-light mb-3" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles(arrays.valorUno? arrays.valorUno: '')"></i>
+        <br>
+        <div class="mb-5">
+            <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/arrays-01.png" alt="" class="shadow-two img-mh-320 img-fluid">
+        </div>
+
+        <div class="espacio"></div>
+
+        <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one mb-4">ARRAYS <br><span class="fs-25 tc-blue-one">(Ordenamiento)</span> </h4>
+        <p class="f-open-sans-c text-light fs-20 lh-20">
+            PHP tiene varias funciones que se ocupan de ordenar arrays (matrices) y este documento existe para ayudar a aclararlo todo.<br>
+            <br>
+            Las principales diferencias son:</p>
+            <br>
+            <ul class="f-open-sans-c text-light fs-20">
+                <li>
+                    Algunas ordenan basados en las key de la array, mientras que otras por los valores: $array['key'] = 'valor';
+                </li>
+                <li>
+                    Si se mantiene o no la correlación entre las key y los valores después de la clasificación, lo cual puede significar que las key se restablecen numéricamente (0,1,2 ...)
+                </li>
+                <li>
+                    El orden de la clasificación: alfabético, de menor a mayor (ascendente), de mayor a menor (descendente), numérico, natural, aleatorio o definido por el usuario
+                </li>
+                <li>
+                    <b>Nota:</b> Todas estas funciones de clasificación actúan directamente sobre la variable de array misma, en lugar de devolver un nuevo array ordenado.
+                </li>
+                <li>
+                    Si alguna de estas funciones de clasificación evalúa a dos miembros como iguales, entonces el orden no queda definido (la clasificación no es estable).
+                </li>
+            </ul>
+        <br>
+        <table class="fs-20 f-open-sans-c table table-sm bg-light shadow-one text-center">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Nombre de la función</th>
+                <th scope="col">Ordena por</th>
+                <th scope="col">Mantiene asociación con las key</th>
+                <th scope="col">Orden de la clasificación</th>
+                <th scope="col">Funciones relacionadas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">array_multisort()</th>
+                <td>valor</td>
+                <td>sí si es asociativa, no si es númerica</td>
+                <td>primer array u opciones de clasificación</td>
+                <th scope="row">array_walk()</th>
+              </tr>
+              <tr>
+                <th scope="row">asort()</th>
+                <td>valor</td>
+                <td>sí</td>
+                <td>menor a mayor</td>
+                <th scope="row">arsort()</th>
+              </tr>
+              <tr>
+                <th scope="row">arsort()</th>
+                <td>valor</td>
+                <td>sí</td>
+                <td>mayor a menor</td>
+                <th scope="row">asort()</th>
+              </tr>
+              <tr>
+                <th scope="row">krsort()</th>
+                <td>key</td>
+                <td>sí</td>
+                <td>mayor a menor</td>
+                <th scope="row">ksort()</th>
+              </tr>
+              <tr>
+                <th scope="row">krsort()</th>
+                <td>key</td>
+                <td>sí</td>
+                <td>menor a mayor</td>
+                <th scope="row">asort()</th>
+              </tr>
+              <tr>
+                <th scope="row">natcasesort()</th>
+                <td>valores</td>
+                <td>sí</td>
+                <td>natural, insensible a mayúsculas y minúsculas</td>
+                <th scope="row">natsort()</th>
+              </tr>
+              <tr>
+                <th scope="row">natsort()</th>
+                <td>valor</td>
+                <td>sí</td>
+                <td>natural</td>
+                <th scope="row">natcasesort()</th>
+              </tr>
+              <tr>
+                <th scope="row">rsort()</th>
+                <td>valor</td>
+                <td>no</td>
+                <td>mayor a menor</td>
+                <th scope="row">sort()</th>
+              </tr>
+              <tr>
+                <th scope="row">shuffle()</th>
+                <td>valor</td>
+                <td>no</td>
+                <td>aleatorio</td>
+                <th scope="row">array_rand()</th>
+              </tr>
+              <tr>
+                <th scope="row">sort()</th>
+                <td>valor</td>
+                <td>no</td>
+                <td>menor a mayor</td>
+                <th scope="row">rsort()</th>
+              </tr>
+              <tr>
+                <th scope="row">uasort()</th>
+                <td>valor</td>
+                <td>sí</td>
+                <td>definido por el usuario</td>
+                <th scope="row">uksort()</th>
+              </tr>
+              <tr>
+                <th scope="row">uksort()</th>
+                <td>key</td>
+                <td>sí</td>
+                <td>definido por el usuario</td>
+                <th scope="row">uasort()</th>
+              </tr>
+              <tr>
+                <th scope="row">usort()</th>
+                <td>valor</td>
+                <td>no</td>
+                <td>definido por el usuario</td>
+                <th scope="row">uasort()</th>
+              </tr>
+            </tbody>
+          </table>
+        <br>
+        
+        <div class="espacio"></div>
+        
+        <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one mb-4">FOR <br><span class="fs-25 tc-blue-one">(Ciclo)</span></h4>
+        <p class="f-open-sans-c text-light fs-20 lh-20">
+            Los bucles for son los más complejos en PHP. Se comportan como sus homólogos en C.
+        </p>
+        <br>
+        <i class="fa fa-clone cursor-p text-light mb-3" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles(cicloFor.valorUno? cicloFor.valorUno: '')"></i>
+        <br>
+        <div class="mb-5">
+            <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/for-01.png" alt="" class="shadow-two img-mh-700 img-fluid">
+        </div>
+
+        <div class="espacio"></div>
+        
+        <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one mb-4">FOREACH <br><span class="fs-25 tc-blue-one">(Ciclo)</span></h4>
+        <p class="f-open-sans-c text-light fs-20 lh-20">
+            El constructor foreach proporciona un modo sencillo de iterar sobre arrays. foreach funciona sólo sobre arrays y objetos, y emitirá un error al intentar usarlo con una variable de un tipo diferente de datos o una variable no inicializada.
+        </p>
+        <br>
+        <i class="fa fa-clone cursor-p text-light mb-3" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles(cicloFor.valorDos? cicloFor.valorDos: '')"></i>
+        <br>
+        <div class="mb-5">
+            <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/for-02.png" alt="" class="shadow-two img-mh-250 img-fluid">
+        </div>
+
+        <div class="espacio"></div>
+        
+        <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one mb-4">IF - ELSE</h4>
+        <p class="f-open-sans-c text-light fs-20 lh-20">
+            El constructor if es una de las características más importantes de muchos lenguajes, incluido PHP. Permite la ejecución condicional de fragmentos de código.
+        </p>
+        <br>
+        <i class="fa fa-clone cursor-p text-light mb-3" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles(condicionalIf.valorUno? condicionalIf.valorUno: '')"></i>
+        <br>
+        <div class="mb-5">
+            <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/if-01.png" alt="" class="shadow-two img-mh-200 img-fluid">
+        </div>
+
+        <div class="espacio"></div>
+        
+        <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one mb-4">SWITCH</h4>
+        <p class="f-open-sans-c text-light fs-20 lh-20">
+            La sentencia switch es similar a una serie de sentencias IF en la misma expresión. En muchas ocasiones, es posible que se quiera comparar la misma variable (o expresión) con muchos valores diferentes, y ejecutar una parte de código distinta dependiendo de a que valor es igual. Para esto es exactamente la expresión switch.
+        </p>
+        <br>
+        <i class="fa fa-clone cursor-p text-light mb-3" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles(condicionalIf.valorDos? condicionalIf.valorDos: '')"></i>
+        <br>
+        <div class="mb-5">
+            <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/switch-01.png" alt="" class="shadow-two img-mh-500 img-fluid">
+        </div>
     </div>
     <div class="col-md-1"></div>
 </div>

@@ -26,6 +26,15 @@ export class PhpElementosComponent implements OnInit {
   public constantes: ClipboardModel = {
     valorUno:''
   }
+  public arrays: ClipboardModel = {
+    valorUno:''
+  }
+  public cicloFor: ClipboardModel = {
+    valorUno:''
+  }
+  public condicionalIf: ClipboardModel = {
+    valorUno:''
+  }
 
   public breadcrumb: CategoriaModel = {
     activo: true,
@@ -121,6 +130,87 @@ export class PhpElementosComponent implements OnInit {
     // que rompiera el script
     define("__FOO__", "something"); 
       
+?>`}
+    this.arrays = {
+      valorUno: `<?php
+      $array = array(
+        "foo" => "bar",
+        "bar" => "foo",
+      );
+    
+      // a partir de PHP 5.4
+      $array = [
+        "foo" => "bar",
+        "bar" => "foo",
+      ];
+?>`
+    }
+    this.cicloFor = {
+      valorUno: `<?php
+  /* ejemplo 1 */
+  
+  for ($i = 1; $i <= 10; $i++) {
+      echo $i;
+  }
+  
+  /* ejemplo 2 */
+  
+  -for ($i = 1; ; $i++) {
+      -if ($i > 10) {
+          break;
+      }
+      echo $i;
+  }
+  
+  /* ejemplo 3 */
+  
+  $i = 1;
+  -for (; ; ) {
+      -if ($i > 10) {
+          break;
+      }
+      echo $i;
+      $i++;
+  }
+  
+  /* ejemplo 4 */
+  
+  -for ($i = 1, $j = 0; $i <= 10; $j += $i, print $i, $i++);
+?>`,
+      valorDos: `<?php
+  $array = array(1, 2, 3, 4);
+  foreach ($array as &$valor) {
+      $valor = $valor * 2;
+  }
+  // $array ahora es array(2, 4, 6, 8)
+  unset($valor); // rompe la referencia con el último elemento
+?>`}
+    this.condicionalIf = {
+      valorUno: `<?php
+    if ($a > $b) {
+      echo "a es mayor que b";
+    }
+?>`,
+      valorDos: `<?php
+    -if ($i == 0) {
+        echo "i es igual a 0";
+    } -elseif ($i == 1) {
+        echo "i es igual a 1";
+    } -elseif ($i == 2) {
+        echo "i es igual a 2";
+    }
+    
+    switch ($i) {
+        -case 0:
+            echo "i es igual a 0";
+            break;
+        -case 1:
+            echo "i es igual a 1";
+            break;
+        case 2:
+            echo "i es igual a 2";
+            break;
+    }
 ?>`}
   }
 
