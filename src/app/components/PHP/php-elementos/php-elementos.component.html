@@ -8,6 +8,7 @@
 <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10">
+      <!-- VARIABLES ----------------------------------------------------------------------------------------------->
         <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one mb-4">VARIABLES </h4>
         <p class="f-open-sans-c text-light fs-20 lh-20">
             En PHP las variables se representan con un signo de dólar seguido por el nombre de la variable. El nombre de la variable es sensible a minúsculas y mayúsculas.<br><br>
@@ -49,6 +50,7 @@
             <p class="fs-20 f-open-sans-c text-light m-0"><b>Nota:</b></p><span class="f-shadow-into-l fs-25 tc-yellow-one">"$this" </span><span class="fs-20 f-open-sans-c text-light">es una variable especial que no puede ser asignada.</span>
         </div>
         <div class="espacio"></div>
+        <!-- CONSTANTES ----------------------------------------------------------------------------------------------->
         <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one mb-4">CONSTANTES </h4>
         <p class="f-open-sans-c text-light fs-20 lh-20">
             Una constante es un identificador (nombre) para un valor simple. Como el nombre sugiere, este valor no puede variar durante la ejecución del script (a excepción de las constantes mágicas, que en realidad no son constantes). Por defecto, una constante distingue mayúsculas y minúsculas. Por convención, los identificadores de constantes siempre se declaran en mayúsculas.<br>
@@ -64,6 +66,7 @@
 
         <div class="espacio"></div>
 
+        <!-- ARRAYS ----------------------------------------------------------------------------------------------->
         <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one mb-4">ARRAYS <br><span class="fs-25 tc-blue-one">(Descripción)</span> </h4>
         <p class="f-open-sans-c text-light fs-20 lh-20">
             Un array en PHP es en realidad un mapa ordenado. Un mapa es un tipo de datos que asocia valores con claves. Este tipo se optimiza para varios usos diferentes; se puede emplear como un array, lista (vector), tabla asociativa (tabla hash - una implementación de un mapa), diccionario, colección, pila, cola, y posiblemente más. Ya que los valores de un array pueden ser otros arrays, también son posibles árboles y arrays multidimensionales.
@@ -77,6 +80,7 @@
 
         <div class="espacio"></div>
 
+        <!-- ARRAYS ----------------------------------------------------------------------------------------------->
         <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one mb-4">ARRAYS <br><span class="fs-25 tc-blue-one">(Ordenamiento)</span> </h4>
         <p class="f-open-sans-c text-light fs-20 lh-20">
             PHP tiene varias funciones que se ocupan de ordenar arrays (matrices) y este documento existe para ayudar a aclararlo todo.<br>
@@ -209,6 +213,7 @@
         
         <div class="espacio"></div>
         
+        <!-- FOR ----------------------------------------------------------------------------------------------->
         <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one mb-4">FOR <br><span class="fs-25 tc-blue-one">(Ciclo)</span></h4>
         <p class="f-open-sans-c text-light fs-20 lh-20">
             Los bucles for son los más complejos en PHP. Se comportan como sus homólogos en C.
@@ -222,6 +227,7 @@
 
         <div class="espacio"></div>
         
+        <!-- FOREACH ----------------------------------------------------------------------------------------------->
         <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one mb-4">FOREACH <br><span class="fs-25 tc-blue-one">(Ciclo)</span></h4>
         <p class="f-open-sans-c text-light fs-20 lh-20">
             El constructor foreach proporciona un modo sencillo de iterar sobre arrays. foreach funciona sólo sobre arrays y objetos, y emitirá un error al intentar usarlo con una variable de un tipo diferente de datos o una variable no inicializada.
@@ -235,6 +241,7 @@
 
         <div class="espacio"></div>
         
+        <!-- IF - ELSE ----------------------------------------------------------------------------------------------->
         <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one mb-4">IF - ELSE</h4>
         <p class="f-open-sans-c text-light fs-20 lh-20">
             El constructor if es una de las características más importantes de muchos lenguajes, incluido PHP. Permite la ejecución condicional de fragmentos de código.
@@ -248,6 +255,7 @@
 
         <div class="espacio"></div>
         
+        <!-- SWITCH ----------------------------------------------------------------------------------------------->
         <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one mb-4">SWITCH</h4>
         <p class="f-open-sans-c text-light fs-20 lh-20">
             La sentencia switch es similar a una serie de sentencias IF en la misma expresión. En muchas ocasiones, es posible que se quiera comparar la misma variable (o expresión) con muchos valores diferentes, y ejecutar una parte de código distinta dependiendo de a que valor es igual. Para esto es exactamente la expresión switch.
@@ -258,6 +266,39 @@
         <div class="mb-5">
             <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/switch-01.png" alt="" class="shadow-two img-mh-500 img-fluid">
         </div>
+
+        <div class="espacio"></div>
+        
+
+        <!-- WHILE ----------------------------------------------------------------------------------------------->
+        <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one mb-4">WHILE</h4>
+        <p class="f-open-sans-c text-light fs-20 lh-20">
+          Los bucles while son el tipo más sencillo de bucle en PHP. Se comportan igual que su contrapartida en C. .
+        </p>
+        <br>
+        <i class="fa fa-clone cursor-p text-light mb-3" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles(condicionalWhile.valorUno? condicionalWhile.valorUno: '')"></i>
+        <br>
+        <div class="mb-5">
+            <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/while-01.png" alt="" class="shadow-two img-mh-450 img-fluid">
+        </div>
+
+        <div class="espacio"></div>
+
+        <!-- DO WHILE ----------------------------------------------------------------------------------------------->
+        <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one mb-4">DO WHILE</h4>
+        <p class="f-open-sans-c text-light fs-20 lh-20">
+          Los bucles do-while son muy similares a los bucles while, excepto que la expresión verdadera es verificada al final de cada iteración en lugar que al principio. La diferencia principal con los bucles while es que está garantizado que corra la primera iteración de un bucle do-while (la expresión verdadera sólo es verificada al final de la iteración), mientras que no necesariamente va a correr con un bucle while regular (la expresión verdadera es verificada al principio de cada iteración, si se evalúa como false justo desde el comienzo, la ejecución del bucle terminaría inmediatamente).<br>
+          <br>
+          Hay una sola sintaxis para bucles do-while: <br>
+        </p>
+        <br>
+        <i class="fa fa-clone cursor-p text-light mb-3" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles(condicionalDoWhile.valorUno? condicionalDoWhile.valorUno: '')"></i>
+        <br>
+        <div class="mb-5">
+            <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/do-while-01.png" alt="" class="shadow-two img-mh-180 img-fluid">
+        </div>
+
+        <div class="espacio"></div>
     </div>
     <div class="col-md-1"></div>
 </div>
