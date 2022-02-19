@@ -3,6 +3,7 @@
 <div class="espaciado"></div>
 <app-header-post [cabecera]="cabeceraPost"></app-header-post>
 
+<div class="espaciado"></div>
 
 <div class="row">
     <div class="col-md-1"></div>
@@ -13,12 +14,21 @@
             Los nombres de variables siguen las mismas reglas que otras etiquetas en PHP. Un nombre de variable válido tiene que empezar con una letra o un carácter de subrayado (underscore), seguido de cualquier número de letras, números y caracteres de subrayado. Como expresión regular se podría expresar como: '[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*' 
         </p>
         <div class="mb-5">
-            <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/variables-01.png" alt="" class="shadow-two mt-3 img-mh-300 img-fluid">
-            <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/variables-02.png" alt="" class="shadow-two mt-3 img-mh-250 img-fluid">
+
+            <i class="fa fa-clone cursor-p text-light" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles(variables.valorUno)"></i>
+            <br>
+            <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/variables-01.png" alt="" class="shadow-two mt-3 img-mh-250 img-fluid">
+            <div class="espacio"></div>
+
+            <i class="fa fa-clone cursor-p text-light" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles(variables.valorDos? variables.valorDos: '')"></i>
+            <br>
+            <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/variables-02.png" alt="" class="shadow-two mt-3 img-mh-220 img-fluid">
         </div>
         <p class="f-open-sans-c text-light fs-20 lh-20">
             Sólo las variables con nombre pueden ser asignadas por referencia. 
         </p>
+        <i class="fa fa-clone cursor-p text-light mb-3" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles(variables.valorTres? variables.valorTres: '')"></i>
+        <br>
         <div class="mb-5">
             <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/variables-03.png" alt="" class="shadow-two img-mh-350 img-fluid">
         </div>
@@ -28,15 +38,34 @@
             <br>
             Valores predeterminados en variables sin inicializar:
         </p>
-
+        <i class="fa fa-clone cursor-p text-light mb-3" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles(variables.valorCuatro? variables.valorCuatro: '')"></i>
+        <br>
+        
         <div class="mb-5">
-            <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/variables-04.png" alt="" class="shadow-two img-mh-450 img-fluid">
+            <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/variables-04.png" alt="" class="shadow-two img-mh-650 img-fluid">
         </div>
-
+        
         <div class="p-3 m-5 shadow-two border border-secondary">
             <p class="fs-20 f-open-sans-c text-light m-0"><b>Nota:</b></p><span class="f-shadow-into-l fs-25 tc-yellow-one">"$this" </span><span class="fs-20 f-open-sans-c text-light">es una variable especial que no puede ser asignada.</span>
         </div>
         <div class="espacio"></div>
+        <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one mb-4">CONSTANTES </h4>
+        <p class="f-open-sans-c text-light fs-20 lh-20">
+            Una constante es un identificador (nombre) para un valor simple. Como el nombre sugiere, este valor no puede variar durante la ejecución del script (a excepción de las constantes mágicas, que en realidad no son constantes). Por defecto, una constante distingue mayúsculas y minúsculas. Por convención, los identificadores de constantes siempre se declaran en mayúsculas.<br>
+            <br>
+            El nombre de una constante sigue las mismas reglas que cualquier otra etiqueta de PHP. Un nombre de constante válido empieza por una letra o guion bajo, seguido por cualquier número de letras, números o guiones bajos. Usando una expresión regular, se representaría de la siguiente manera: [a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]* 
+        </p>
+        <br>
+        <i class="fa fa-clone cursor-p text-light mb-3" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles(constantes.valorUno? constantes.valorUno: '')"></i>
+        <br>
+        <div class="mb-5">
+            <img src="{{ rutaImagen }}assets/categorias/PHP/php-elementos/constantes-01.png" alt="" class="shadow-two img-mh-450 img-fluid">
+        </div>
+        <div class="espacio"></div>
+        <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one mb-4">ARRAYS </h4>
+        <p class="f-open-sans-c text-light fs-20 lh-20">
+            Un array en PHP es en realidad un mapa ordenado. Un mapa es un tipo de datos que asocia valores con claves. Este tipo se optimiza para varios usos diferentes; se puede emplear como un array, lista (vector), tabla asociativa (tabla hash - una implementación de un mapa), diccionario, colección, pila, cola, y posiblemente más. Ya que los valores de un array pueden ser otros arrays, también son posibles árboles y arrays multidimensionales.
+        </p>
     </div>
     <div class="col-md-1"></div>
 </div>
