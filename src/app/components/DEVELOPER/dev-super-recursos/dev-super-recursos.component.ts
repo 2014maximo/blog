@@ -207,7 +207,7 @@ export class DevSuperRecursosComponent implements OnInit {
         activo: true
       },
       {
-        nombre: 'VIDEOS Y PELÍCULAS',
+        nombre: 'VIDEOS Y AUDIO',
         posicion: 'rot-3',
         ruta: 'videos-peliculas',
         fondo: 'bg-Git',

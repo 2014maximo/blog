@@ -1577,7 +1577,7 @@ export const LINKS: BloqueContenidoModel[] = [
     },
     {
         id: 'videos-peliculas',
-        titulo: 'Videos y películas',
+        titulo: 'Video y audio',
         contenidoIcons: false,
         bloque: [
             {
@@ -1608,7 +1608,28 @@ export const LINKS: BloqueContenidoModel[] = [
                         red: ''
                     },
                 ]
-            }
+            },
+            {
+                index: '2',
+                links: [
+                    {
+                        img: '',
+                        nombreRecurso: 'Vocal Remover',
+                        height: '45',
+                        rutaRecurso: 'https://vocalremover.org/',
+                        descripcion: 'Separe la voz de la música de una canción gratis con potentes algoritmos de IA.',
+                        red: ''
+                    },
+                    {
+                        img: '',
+                        nombreRecurso: 'Melody',
+                        height: '80',
+                        rutaRecurso: 'https://melody.ml/',
+                        descripcion: 'Separe las pistas de música usando el aprendizaje automático.',
+                        red: ''
+                    },
+                ]
+            },
         ]
     },
     {
