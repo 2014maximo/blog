@@ -1306,6 +1306,14 @@ export const LINKS: BloqueContenidoModel[] = [
                         descripcion: 'Tienda especializada en comercio de instrumentos y partes de música.',
                         red: ''
                     },
+                    {
+                        img: 'https://plantillas_dev.gitlab.io/styles/assets/icon/lava-music.png',
+                        nombreRecurso: '',
+                        height: '50',
+                        rutaRecurso: 'https://www.lavamusic.com/es',
+                        descripcion: 'Guitarra del futuro.',
+                        red: ''
+                    },
                 ]
             },
         ]
