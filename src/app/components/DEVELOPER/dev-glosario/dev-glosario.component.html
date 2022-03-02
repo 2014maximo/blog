@@ -60,6 +60,41 @@
         </p>
         <div class="espacio"></div>
 
+        <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one">PROTOCOLO OAuth 2.0<br></h4>
+        <p class="f-open-sans-c text-light fs-20 lh-20">
+            Para autorización y autenticación, es un framework mediante el cual se delega el acceso a un recurso, sin acceder a los datos del usuario permitiendo así seguridad en datos de este tipo.
+        </p>
+        <span class="fs-25 f-shadow-into-l tc-blue-one ml-4">
+            (Términos dentro de este ámbito):
+        </span>
+        <ul class="f-open-sans-c fs-20 lh-20 text-light">
+            <li class="mb-2">
+                <b>PROPIETARIO:</b><br>Se trata de la entidad/persona encargada de otorgar el acceso a determinado recurso que se encuentra protegido. 
+            </li>
+            <li class="mb-2">
+                <b>SERVIDOR DE RECURSOS:</b><br>Es la herramienta que aloja los recursos protegidos y a través de la cual se otorga o no el acceso.
+            </li>
+            <li class="mb-2">
+                <b>CLIENTE:</b><br>Es la aplicación que solicita el acceso a un recurso protegido en nombre del propietario del mismo y con su autorización.
+            </li>
+            <li class="mb-2">
+                <b>SERVIDOR DE AUTORIZACIÓN:</b><br>Es el servidor encargado de brindar el token de acceso al cliente luego de autenticar al propietario y conseguir la autorización.
+            </li>
+            <li class="mb-2">
+                <b>TOKENS:</b><br>Los access tokens o tokens de acceso son las credenciales que autorizan el acceso al recurso que se encuentra protegido. Se conforman por una duración y ámbito de acceso específico.
+            </li>
+            <li class="mb-2">
+                <b>TOKEN DE ACTUALIZACIÓN:</b><br>Se trata de una credencial para obtener el token de acceso. El proceso se conforma de la siguiente manera: el servidor de autorización envía tokens de actualización que recibe el cliente y usa para generar un nuevo token de acceso cuando éste ya no es válido.
+            </li>
+            <li class="mb-2">
+                <b>ALCANCE:</b><br>Se trata del nivel de acceso solicitado ya que el servidor, de acuerdo a políticas internas, puede ignorar el alcance solicitado.
+            </li>
+            <li class="mb-2">
+                <b>SCOPES:</b><br>Refiere a identificadores que determinan a qué recurso se solicita acceso en la aplicación y a qué recurso se autoriza a acceder al usuario.
+            </li>
+        </ul>
+        <div class="espacio"></div>
+
         <!-- S -->
         <h4 class="f-shadow-into-l fs-35 lh-25 tc-yellow-one text-shadow-one">SDK <br><span class="fs-25 tc-blue-one">(Kit de Desarrollo de Software)</span></h4>
         <p class="f-open-sans-c text-light fs-20 lh-20">

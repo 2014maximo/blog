@@ -54,6 +54,14 @@ export class JavaComponent implements OnInit {
         fondo: 'bg-Java',
         colorTexto: 'text-light',
         activo: false
+      },
+      {
+        nombre: 'GLASSFISH',
+        posicion: 'pos-z',
+        rutaExterna: 'java-glassfish',
+        fondo: 'bg-Java',
+        colorTexto: 'text-light',
+        activo: true
       }
     ]
   }

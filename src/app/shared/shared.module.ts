@@ -11,6 +11,7 @@ import { HeaderPostComponent } from './header-post/header-post.component';
 import { AccordeonComponent } from './accordeon/accordeon.component';
 import { IndiceContenidosComponent } from './indice-contenidos/indice-contenidos.component';
 import { BloqueContenidosComponent } from './bloque-contenidos/bloque-contenidos.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { BloqueContenidosComponent } from './bloque-contenidos/bloque-contenidos
     AccordeonComponent,
     IndiceContenidosComponent,
     BloqueContenidosComponent,
+    LoginComponent,
   ],
   imports: [
     CommonModule,

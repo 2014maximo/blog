@@ -554,10 +554,10 @@ export const CATEGORIAS: CategoriasModel [] = [
                 activo: false
             },
             {
-                nombre: 'CRUD',
+                nombre: 'GLASSFISH',
                 posicion: 'rot-1',
-                ruta:'crud-dart',
-                activo: false
+                ruta:'java-glassfish',
+                activo: true
             },
             {
                 nombre: 'TERMINOS AVANZADOS',
@@ -650,7 +650,27 @@ export const CATEGORIAS: CategoriasModel [] = [
                         color: 't2 textoHoverBlanco'
                     },
                 ]
-            },]
+            },
+            {
+                subCategoria: 'Typescript',
+                post: [
+                    {
+                        nombre: 'TYPESCRIPT',
+                        posicion: 'pos-z',
+                        ruta: 'js-node-js',
+                        activo: true,
+                        color: 't2 textoHoverBlanco'
+                    },
+                    {
+                        nombre: 'ELEMENTOS',
+                        posicion: 'rot-2',
+                        ruta: 'js-typescript-elementos',
+                        activo: true,
+                        color: 't2 textoHoverBlanco'
+                    },
+                ]
+            },
+        ],
     },
 /*      KOTLIN    */
     {
@@ -850,15 +870,9 @@ export const CATEGORIAS: CategoriasModel [] = [
         color: 'bg-Php',
         post: [
             {
-                nombre: 'INSTALACIÓN',
-                posicion: 'pos-z',
-                ruta:'net-instalacion',
-                activo: true
-            },
-            {
-                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                nombre: 'PHP DESCRIPCIÓN ELEMENTOS',
                 posicion: 'rot-2',
-                ruta:'net-descripcion-elementos',
+                ruta:'php-elementos',
                 activo: true
             },
         ]

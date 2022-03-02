@@ -1,11 +1,213 @@
 <div #target></div>
-<app-header-home [categoria]="breadcrumb"></app-header-home>
 <div class="espaciado"></div>
 <app-header-post [cabecera]="cabeceraPost"></app-header-post>
 
 <div class="espaciado"></div>
 
-<app-footer-home></app-footer-home>
-<div class="go-up" (click)="scroll(target)">
-    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="row">
+            <div class="col-md-2 bg-Flutter shadow-two text-center">
+                <h3 class="f-open-sans-c fs-30 text-light mt-3 mb-3">LUNES</h3>
+                <a (click)='scroll(profes.ingo)' class="cursor-p">
+                    <img src="assets/img/icons/comunicacion.png" alt="" height="60" width="auto" class="drop-two">
+                    <p class="f-shadow-into-l fs-20 text-light lh-20">
+                        COMUNICACIÓN<br>
+                        Ingo Schussler R.(6pm-9pm)
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-2 bg-Android shadow-two text-center">
+                <h3 class="f-open-sans-c fs-30 text-light mt-3">MARTES</h3>
+                <a (click)='scroll(profes.nicthjava)' class="cursor-p">
+                    <img src="assets/img/categorias/logo-java.png" alt="" height="80" width="auto" class="drop-two">
+                    <p class="f-shadow-into-l fs-20 text-light">Nicth (6pm-9pm)</p>
+                </a>
+            </div>
+            <div class="col-md-2 bg-dark shadow-two text-center">
+                <h3 class="f-open-sans-c fs-30 text-light mt-3">MIÉRCOLES</h3>
+                <a (click)='scroll(profes.nicthjava)' class="cursor-p">
+                    <img src="assets/img/categorias/logo-java.png" alt="" height="80" width="auto" class="drop-two">
+                    <p class="f-shadow-into-l fs-20 text-light">Nicth (6pm-9pm)</p>
+                </a>
+            </div>
+            <div class="col-md-2 bg-NetFramework shadow-two text-center">
+                <h3 class="f-open-sans-c fs-30 text-light mt-3">JUEVES</h3>
+                <a (click)='scroll(profes.nicthphp)' class="cursor-p">
+                    <img src="assets/img/categorias/php.png" alt="" height="60" width="auto" class="drop-two">
+                    <p class="f-shadow-into-l fs-20 text-light">Nicth (6pm-9pm)</p>
+                </a>
+            </div>
+            <div class="col-md-2 bg-yellow-one shadow-two text-center">
+                <h3 class="f-open-sans-c fs-30 mt-3">VIERNES</h3>
+                <a (click)='scroll(profes.yhoan)' class="cursor-p">
+                    <img src="assets/img/icons/case.png" alt="" height="60" width="auto" class="drop-two">
+                    <p class="f-shadow-into-l fs-20 lh-20">
+                        HERRAMIENTAS CASE<br>
+                        Yhoan (6pm-9pm)
+                    </p>
+                </a>
+
+            </div>
+            <div class="col-md-2 bg-Git shadow-two text-center">
+                <h3 class="f-open-sans-c fs-30 text-light mt-3">SÁBADOS</h3>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+<div class="espaciado"></div>
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <!-- NICTH ------------------------------------------------------------------------------->
+        <h3 class="tc-orange-one f-alex-brush fs-110 text-shadow-one" id="nicth">Nicth</h3>
+        <a href="https://meet.google.com/dbj-hyco-ecr" target="_blank" class="f-open-sans-c fs-20 lh-20">
+            (LINK REUNIÓN MEET)<br>https://meet.google.com/dbj-hyco-ecr
+        </a>
+        <div class="espacio"></div>
+        <div class="row">
+            <div class="col-md-2 text-center">
+                <a href="https://drive.google.com/drive/folders/11tgmhlgv7Z6WOOO91K775N1HvhS8dUPn?usp=sharing" target="_blank">
+                    <p class="tc-orange-one f-shadow-into-l fs-20 m-0">JAVA</p>
+                    <img src="assets/img/icons/drive.png" alt="drive"  height="60" width="auto" class="drop br-5">
+                    <p class="tc-orange-one f-shadow-into-l fs-20 m-0">(Videos clases)</p>
+                </a>
+            </div>
+            <div class="col-md-10"></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-2 text-center d-flex justify-content-between">
+                <a href="https://drive.google.com/drive/folders/1dQ4Ta3N3zexYpg6bi9wiA3NcSBsLEHns" target="_blank">
+                    <p class="tc-orange-one f-shadow-into-l fs-20 m-0">PHP</p>
+                    <img src="assets/img/icons/drive.png" alt="drive"  height="60" width="auto" class="drop br-5">
+                    <p class="tc-orange-one f-shadow-into-l fs-20 m-0">(Trabajos)</p>
+                </a>
+                <a href="https://drive.google.com/drive/folders/1MFnaI9KBYVFGn7wMudG8AYcbDhS_gxBL?usp=sharing" target="_blank">
+                    <p class="tc-orange-one f-shadow-into-l fs-20 m-0">PHP</p>
+                    <img src="assets/img/icons/drive.png" alt="drive"  height="60" width="auto" class="drop br-5">
+                    <p class="tc-orange-one f-shadow-into-l fs-20 m-0">(Videos clases)</p>
+                </a>
+            </div>
+            <div class="col-md-10"></div>
+        </div>
+        <div class="espacio"></div>
+        <h2 class="text-center f-shadow-into-l fs-40 tc-orange-three text-shadow-one">
+            ---PENDIENTES---
+        </h2>
+        <img src="assets/img/categorias/logo-java.png" alt="" height="120" width="auto" class="drop" id="nicth-java">
+        <ul class="f-open-sans-c fs-20 text-light mt-3">
+            <li class="mb-3">
+                <span class="f-shadow-into-l tc-orange-three fs-25">Fecha entrega (FEB - MAR 22)</span><br>Instalar y dejar listo el entorno de trabajo para las clases teniendo en cuenta estos programas para windows:<br>
+                <b>PROGRAMAS REQUERIDOS:</b><br>
+                <a href="https://www.oracle.com/java/technologies/downloads/#jdk17-windows" target="_blank" title="Visitar para descargar">- JDK</a><br>
+                <a href="https://javaee.github.io/glassfish/download" target="_blank" title="Visitar para descargar">- GlasFish</a><br>
+                <a href="https://netbeans.apache.org/" target="_blank" title="Visitar para descargar">- APACHE NETBEANS</a><br>
+                <a href="https://www.wampserver.com/en/download-wampserver-64bits/" target="_blank" title="Visitar para descargar">- WAMPSERVER</a><br>
+                <a href="https://www.oracle.com/java/technologies/java-ee-sdk-download.html" target="_blank" title="Visitar para descargar">- SDK JAVA <small>(El profe recomienda descargar por el glassfish)</small></a>
+            </li>
+            <li>
+                Revisar los videos que estan en la carpeta JAVA en el drive.
+            </li>
+        </ul>
+        
+        <div class="espacio"></div>
+        <img src="assets/img/categorias/php.png" alt="" height="80" width="auto" class="drop" id="nicth-php">
+
+        <ul class="f-open-sans-c fs-20 text-light mt-3">
+            <li>
+                <span class="f-shadow-into-l tc-red-one fs-25"><del>Fecha entrega (FEB - MAR 16) subir a carpeta drive de PHP</del></span><br>
+                Consultar los siguientes temas a manera de entenderlos con ejemplos:<br>
+                - Creación de variables<br>
+                - Creación de constantes<br>
+                - Cómo crear arreglos<br>
+                - Cómo recorrer esos arreglos con (FOR, FOREACH)<br>
+                - Ordenar los arreglos<br>
+                - Condicionales "if" y "else"<br>
+                - Condicional "Switch"<br>
+                - Condicional "While", "Do While"<br>
+            </li>
+            <li class="mt-3">
+                <span class="f-shadow-into-l tc-orange-three fs-25">Fecha entrega (FEB - MIER 23)</span><br>
+                Entregar el proyecto formulario visto en la última clase de la siguiente manera.<br>
+                - Agregar un textarea.<br>
+                - Agregar un checkbox con minimo 5 campos.<br>
+                - Agregar un select con un for que imprima los años desde 1999 - 2022.<br>
+                - Crear una tabla para mostrar de manera organizada los resultados en el archivo recibe.php.<br>
+                - Colocar estilos de manera general en el formulario.
+            </li>
+        </ul>
+        
+        <div class="espaciado"></div>
+        
+        <!-- INGO SCHUSSLER ------------------------------------------------------------------------------->
+        <h3 class="tc-orange-one f-alex-brush fs-110 text-shadow-one" id="ingo">Ingo Schussler R.</h3>
+
+                <a href="meet.google.com/nud-yhgg-yeb" target="_blank" class="f-open-sans-c fs-20 lh-20">
+                    (ÚLTIMO LINK REUNIÓN MEET)<br>meet.google.com/nud-yhgg-yeb
+                </a>
+                <br>
+                <i class="fa text-light fa-clone cursor-p fs-25 mt-2" title="Copiar" aria-hidden="true" (click)="copiarPortapapeles('meet.google.com/nud-yhgg-yeb')"></i>
+                
+                <div class="espacio"></div>
+                
+                <a href="https://chat.whatsapp.com/DgjTpXTYQ0UGxbBwMIwMO1" target="_blank">
+                    <img src="assets/img/icons/whatsapp.png" alt="drive"  height="60" width="auto" class="drop br-5">
+                    <p class="text-light f-open-sans-c fs-20">
+                        (Unirse a grupo COMUNICACIÓN 732-734)
+                    </p>
+                </a>
+                <i class="fa text-light fa-clone cursor-p fs-25" title="Copiar" aria-hidden="true" (click)="copiarPortapapeles('https://chat.whatsapp.com/DgjTpXTYQ0UGxbBwMIwMO1')"></i>
+
+                <div class="espacio"></div>
+
+                <p class="text-light f-open-sans-c fs-20">
+                    (EMAIL)<br>iaschussler51@misena.edu.co
+                </p>
+                <i class="fa text-light fa-clone cursor-p fs-25" title="Copiar" aria-hidden="true" (click)="copiarPortapapeles('iaschussler51@misena.edu.co')"></i>
+
+        
+        <div class="espaciado"></div>
+
+        <!-- YHOAN ------------------------------------------------------------------------------->
+        <h3 class="tc-orange-one f-alex-brush fs-110 text-shadow-one" id="yhoan">Yhoan</h3>
+
+        <a href="https://meet.google.com/cvw-gcpn-rgt" target="_blank" class="f-open-sans-c fs-20 lh-20">
+            (ÚLTIMO LINK REUNIÓN MEET)<br>https://meet.google.com/cvw-gcpn-rgt
+        </a>
+        <br>
+        <i class="fa text-light fa-clone cursor-p fs-25 mt-2" title="Copiar" aria-hidden="true" (click)="copiarPortapapeles('https://meet.google.com/cvw-gcpn-rgt')"></i>
+        
+        <div class="espacio"></div>
+
+
+        <div class="espacio"></div>
+        <h2 class="text-center f-shadow-into-l fs-40 tc-orange-three text-shadow-one">
+            ---PENDIENTES---
+        </h2>
+
+        <ul class="f-open-sans-c fs-20 text-light mt-3">
+            <li>
+                <span class="f-shadow-into-l tc-red-one fs-25"><del>Fecha entrega (FEB VIE 18)</del></span><br>
+                Realizar consulta de los siguientes diagramas<br>
+                - Diagrama de clase<br>
+                - Diagrama de secuencia<br>
+                - Diagrama de colaboración<br>
+                - Diagrama de estados<br>
+                - Diagrama de actividad<br>
+                - Diagrama de componentes<br>
+                - Diagrama de despliegue<br>
+                - Diagrama de composición estructural()
+            </li>
+        </ul>
+        
+    </div>
+    <div class="col-md-1"></div>
+</div>
+<div class="espaciado"></div>
+
+<div class="go-up" (click)="scrolls(target)">
+    <i class="fa fa-chevron-up" aria-hidden="true"></i><br>
 </div>

@@ -48,6 +48,9 @@ import { DbSqlServerComponent } from './DB/db-sql-server/db-sql-server.component
 import { DevSuperRecursosComponent } from './DEVELOPER/dev-super-recursos/dev-super-recursos.component';
 import { SenaFichaActualComponent } from './SENA/sena-ficha-actual/sena-ficha-actual.component';
 import { SenaRecursosInformativosComponent } from './SENA/sena-recursos-informativos/sena-recursos-informativos.component';
+import { JavaGlassfishComponent } from './JAVA/java-glassfish/java-glassfish.component';
+import { JsTypescriptElementosComponent } from './JAVASCRIPT/js-typescript-elementos/js-typescript-elementos.component';
+import { PhpElementosComponent } from './PHP/php-elementos/php-elementos.component';
 
 
 
@@ -100,7 +103,10 @@ import { SenaRecursosInformativosComponent } from './SENA/sena-recursos-informat
     DbSqlServerComponent,
     DevSuperRecursosComponent,
     SenaFichaActualComponent,
-    SenaRecursosInformativosComponent
+    SenaRecursosInformativosComponent,
+    JavaGlassfishComponent,
+    JsTypescriptElementosComponent,
+    PhpElementosComponent
   ],
   imports: [
     CommonModule,

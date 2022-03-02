@@ -24,3 +24,28 @@ export class PostMasModel {
     post: PostsModel [] = [];
     color?: string = ''
 }
+
+export class ClipboardModel {
+    valorUno: string;
+    valorDos?: string;
+    valorTres?: string;
+    valorCuatro?: string;
+    valorCinco?: string;
+    valorSeis?: string;
+    valorSiete?: string;
+    valorOcho?: string;
+    valorNueve?: string;
+    valorDiez?: string;
+    constructor(){
+        this.valorUno = '';
+        this.valorDos = '';
+        this.valorTres = '';
+        this.valorCuatro = '';
+        this.valorCinco = '';
+        this.valorSeis = '';
+        this.valorSiete = '';
+        this.valorOcho = '';
+        this.valorNueve = '';
+        this.valorDiez = '';
+    }
+}

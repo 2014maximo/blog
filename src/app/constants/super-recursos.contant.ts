@@ -104,7 +104,7 @@ export const LINKS: BloqueContenidoModel[] = [
                         img: '',
                         nombreRecurso: 'gitlab',
                         height: '',
-                        rutaRecurso: 'https://gitlab.com/',
+                        rutaRecurso: 'https://gitlab.com/users/sign_in',
                         descripcion: '',
                         red: 'gitlab'
                     },
@@ -979,6 +979,14 @@ export const LINKS: BloqueContenidoModel[] = [
                         red: ''
                     },
                     {
+                        img: 'assets/img/icons/w3c-docs.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://w3c.github.io/aria/',
+                        descripcion: 'El World Wide Web Consortium (W3C) documentación al 2022.',
+                        red: ''
+                    },
+                    {
                         img: 'assets/img/icons/freepik.png',
                         nombreRecurso: '',
                         height: '60',
@@ -1279,6 +1287,35 @@ export const LINKS: BloqueContenidoModel[] = [
                     },
                 ]
             },
+            {
+                index: '3',
+                links: [
+                    {
+                        img: 'assets/img/icons/pg.png',
+                        nombreRecurso: '',
+                        height: '80',
+                        rutaRecurso: 'https://tiendapg.com/',
+                        descripcion: '2022 Tienda P&G.',
+                        red: ''
+                    },
+                    {
+                        img: 'assets/img/icons/tms.png',
+                        nombreRecurso: '',
+                        height: '80',
+                        rutaRecurso: 'https://tmsmusic.co/',
+                        descripcion: 'Tienda especializada en comercio de instrumentos y partes de música.',
+                        red: ''
+                    },
+                    {
+                        img: 'https://plantillas_dev.gitlab.io/styles/assets/icon/lava-music.png',
+                        nombreRecurso: '',
+                        height: '50',
+                        rutaRecurso: 'https://www.lavamusic.com/es',
+                        descripcion: 'Guitarra del futuro.',
+                        red: ''
+                    },
+                ]
+            },
         ]
     },
     {
@@ -1548,7 +1585,7 @@ export const LINKS: BloqueContenidoModel[] = [
     },
     {
         id: 'videos-peliculas',
-        titulo: 'Videos y películas',
+        titulo: 'Video y audio',
         contenidoIcons: false,
         bloque: [
             {
@@ -1579,7 +1616,28 @@ export const LINKS: BloqueContenidoModel[] = [
                         red: ''
                     },
                 ]
-            }
+            },
+            {
+                index: '2',
+                links: [
+                    {
+                        img: '',
+                        nombreRecurso: 'Vocal Remover',
+                        height: '45',
+                        rutaRecurso: 'https://vocalremover.org/',
+                        descripcion: 'Separe la voz de la música de una canción gratis con potentes algoritmos de IA.',
+                        red: ''
+                    },
+                    {
+                        img: '',
+                        nombreRecurso: 'Melody',
+                        height: '80',
+                        rutaRecurso: 'https://melody.ml/',
+                        descripcion: 'Separe las pistas de música usando el aprendizaje automático.',
+                        red: ''
+                    },
+                ]
+            },
         ]
     },
     {
