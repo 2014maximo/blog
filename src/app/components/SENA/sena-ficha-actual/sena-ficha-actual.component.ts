@@ -20,6 +20,8 @@ export class SenaFichaActualComponent implements OnInit {
     sombra: ''
   }
 
+  public urlImg: string = repositorioContenidoImagenes;
+
   public profes: any;
   public rutaImagen: string = '';
 
@@ -41,7 +43,7 @@ export class SenaFichaActualComponent implements OnInit {
     this.cabeceraPost = {
       rutaImagen: 'assets/img/categorias/sena.png',
       fondo: true,
-      tituloPost: '7622734',
+      tituloPost: '7622732-734',
       alturaImagen: '300',
       sombra: 'drop'
     };
