@@ -52,8 +52,14 @@
 </div>
 
 <div class="espaciado"></div>
-    <!-- <button (click)="crearLista()">GUARDAR</button> -->
+<ul>
+    <li class="text" *ngFor="let item of items | async">
+      {{item.name}}
+    </li>
+  </ul>
 <div class="espaciado"></div>
+
+
 <app-footer-home></app-footer-home>
 <div class="go-up" (click)="scroll(target)">
     <i class="fa fa-chevron-up" aria-hidden="true"></i>

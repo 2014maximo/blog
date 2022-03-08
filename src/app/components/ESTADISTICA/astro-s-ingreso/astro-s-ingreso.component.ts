@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel } from '../../../models/post.model';
-import { GeneralService } from '../../../services/general.service';
-import { ListContenidoGeneral } from '../../../models/general.model';
+import { AngularFirestore } from '@angular/fire/compat/firestore';
+import { Observable } from 'rxjs';
 
 
 @Component({
@@ -18,9 +18,10 @@ export class AstroSIngresoComponent implements OnInit {
     tituloPost: ''
   }
 
-  
-  constructor(private generalService: GeneralService) {
+  items: Observable<any[]>;
+  constructor(firestore: AngularFirestore) {
     this.inicializarVariables();
+    this.items = firestore.collection('items').valueChanges();
   }
   
   ngOnInit(): void {
