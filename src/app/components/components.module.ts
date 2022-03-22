@@ -51,6 +51,7 @@ import { SenaRecursosInformativosComponent } from './SENA/sena-recursos-informat
 import { JavaGlassfishComponent } from './JAVA/java-glassfish/java-glassfish.component';
 import { JsTypescriptElementosComponent } from './JAVASCRIPT/js-typescript-elementos/js-typescript-elementos.component';
 import { PhpElementosComponent } from './PHP/php-elementos/php-elementos.component';
+import { DevDiagramasSecuenciaComponent } from './DEVELOPER/dev-diagramas-secuencia/dev-diagramas-secuencia.component';
 
 
 
@@ -106,7 +107,8 @@ import { PhpElementosComponent } from './PHP/php-elementos/php-elementos.compone
     SenaRecursosInformativosComponent,
     JavaGlassfishComponent,
     JsTypescriptElementosComponent,
-    PhpElementosComponent
+    PhpElementosComponent,
+    DevDiagramasSecuenciaComponent
   ],
   imports: [
     CommonModule,
