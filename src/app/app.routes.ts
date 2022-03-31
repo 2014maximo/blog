@@ -49,6 +49,7 @@ import { SenaRecursosInformativosComponent } from './components/SENA/sena-recurs
 import { JavaGlassfishComponent } from './components/JAVA/java-glassfish/java-glassfish.component';
 import { JsTypescriptElementosComponent } from './components/JAVASCRIPT/js-typescript-elementos/js-typescript-elementos.component';
 import { PhpElementosComponent } from './components/PHP/php-elementos/php-elementos.component';
+import { NgComunicacionEntreComponentesComponent } from './components/ANGULAR/ng-comunicacion-entre-componentes/ng-comunicacion-entre-componentes.component';
 
 
 export const ROUTES: Routes = [
@@ -63,6 +64,7 @@ export const ROUTES: Routes = [
     { path: 'angular', component: AngularComponent },
     { path: 'ng-instalacion', component: NgInstalacionComponent },
     { path: 'ng-descripcion-elementos', component: NgDescripcionElementosComponent },
+    { path: 'ng-comunicacion-componentes', component: NgComunicacionEntreComponentesComponent },
 // PRIMENG7
     { path: 'prime7-descripcion-elementos', component: Prime7DescripcionElementosComponent },
     { path: 'prime7-tablecheckbox', component: Prime7TablecheckboxComponent },

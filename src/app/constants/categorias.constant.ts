@@ -65,10 +65,10 @@ export const CATEGORIAS: CategoriasModel [] = [
                 activo: true
             },
             {
-                nombre: 'INPUT Y OUTPUT',
+                nombre: 'COMUNICACION ENTRE COMPONENTES',
                 posicion: 'rot-1',
-                ruta:'componentes/ANGULAR/ang_003.html',
-                activo: false
+                ruta:'ng-comunicacion-componentes',
+                activo: true
             },
             {
                 nombre: 'CRUD CON UN MOCKDATA',

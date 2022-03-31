@@ -67,12 +67,12 @@ export class AngularComponent implements OnInit {
         activo: false
       },
       {
-        nombre: 'INPUT Y OUTPUT',
+        nombre: 'COMUNICACION ENTRE COMPONENTES',
         posicion: 'rot-3',
-        rutaExterna: 'android-elementos',
+        rutaExterna: 'ng-comunicacion-componente',
         fondo: 'bg-Angular',
         colorTexto: 'text-light',
-        activo: false
+        activo: true
       },
       {
         nombre: 'CRUD CON MOCKDATA',
