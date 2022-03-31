@@ -1184,6 +1184,15 @@ export const LINKS: BloqueContenidoModel[] = [
                         clipBoard: ''
                     },
                     {
+                        img: 'https://plantillas_dev.gitlab.io/styles/assets/icon/descargasnsn-white.png',
+                        nombreRecurso: '',
+                        height: '90',
+                        rutaRecurso: 'https://descargasnsn.to/',
+                        descripcion: 'Documentales - Cursos - Revistas y Libros - Películas - Series - Software - Juegos',
+                        red: '',
+                        clipBoard: ''
+                    },
+                    {
                         img: 'assets/img/icons/GitHub-Logo.png',
                         nombreRecurso: '',
                         height: '90',
@@ -1265,7 +1274,7 @@ export const LINKS: BloqueContenidoModel[] = [
                         img: 'assets/img/icons/alkosto.png',
                         nombreRecurso: '',
                         height: '50',
-                        rutaRecurso: 'https://www.alkosto.com/home',
+                        rutaRecurso: 'https://www.alkosto.com/',
                         descripcion: 'Cadena de almacenes colombiana, comercializadora de electrodomésticos, mercado, llantas, tecnología, motos y productos del hogar, de propiedad del Grupo Corbeta.',
                         red: ''
                     },
@@ -1312,6 +1321,14 @@ export const LINKS: BloqueContenidoModel[] = [
                         height: '50',
                         rutaRecurso: 'https://www.lavamusic.com/es',
                         descripcion: 'Guitarra del futuro.',
+                        red: ''
+                    },
+                    {
+                        img: '',
+                        nombreRecurso: 'P A C I F I K A',
+                        height: '',
+                        rutaRecurso: 'https://www.pacifika.com.co/',
+                        descripcion: 'Ropa, catalogos y compras.',
                         red: ''
                     },
                 ]

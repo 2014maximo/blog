@@ -52,6 +52,7 @@ import { JavaGlassfishComponent } from './JAVA/java-glassfish/java-glassfish.com
 import { JsTypescriptElementosComponent } from './JAVASCRIPT/js-typescript-elementos/js-typescript-elementos.component';
 import { PhpElementosComponent } from './PHP/php-elementos/php-elementos.component';
 import { NgComunicacionEntreComponentesComponent } from './ANGULAR/ng-comunicacion-entre-componentes/ng-comunicacion-entre-componentes.component';
+import { DevDiagramasSecuenciaComponent } from './DEVELOPER/dev-diagramas-secuencia/dev-diagramas-secuencia.component';
 
 
 
@@ -108,7 +109,8 @@ import { NgComunicacionEntreComponentesComponent } from './ANGULAR/ng-comunicaci
     JavaGlassfishComponent,
     JsTypescriptElementosComponent,
     PhpElementosComponent,
-    NgComunicacionEntreComponentesComponent
+    NgComunicacionEntreComponentesComponent,
+    DevDiagramasSecuenciaComponent
   ],
   imports: [
     CommonModule,
