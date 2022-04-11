@@ -1,4 +1,5 @@
 import { BloqueContenidoModel } from '../models/bloque-contenidos.model';
+import { repositorioContenidoImagenes } from './globales.constant';
 
 
 export const LINKS: BloqueContenidoModel[] = [
@@ -411,6 +412,57 @@ export const LINKS: BloqueContenidoModel[] = [
                         height: '45',
                         rutaRecurso: 'https://code.tutsplus.com/es/tutorials',
                         descripcion: 'Descubre miles de tutoriales de código gratuitos para ayudarte a aprender desarrollo web y móvil. Puedes aprender a desarrollar aplicaciones para Android, dominar React Native, convertirte en un mejor desarrollador de WordPress y mucho más.',
+                        red: ''
+                    },
+                ]
+            },
+
+
+        ]
+    },
+    {
+        id: 'hostings-dominios-servidores',
+        titulo: 'Hostings - Dominios - Servidores',
+        contenidoIcons: false,
+        bloque: [
+            {
+                index: '1',
+                links: [
+                    {
+                        img: '',
+                        nombreRecurso: 'RENDER',
+                        height: '45',
+                        rutaRecurso: 'https://render.com/',
+                        descripcion: 'La forma más rápida de alojar todas sus web apps - APIs - databases - workers - static sites - containers - cron jobs.',
+                        red: ''
+                    },
+                    {
+                        img: `${repositorioContenidoImagenes}assets/icon/railway-white.png`,
+                        nombreRecurso: '',
+                        height: '45',
+                        rutaRecurso: 'https://railway.app/',
+                        descripcion: 'Hecho para cualquier idioma, para proyectos grandes y pequeños. Railway es la nube que elimina la complejidad del envío de software.',
+                        red: ''
+                    },
+                    {
+                        img: `${repositorioContenidoImagenes}assets/icon/netlify-white.png`,
+                        nombreRecurso: '',
+                        height: '45',
+                        rutaRecurso: 'https://www.netlify.com/',
+                        descripcion: 'Construir el futuro de la web, Netlify une todo un ecosistema de herramientas y servicios modernos en un único y sencillo flujo de trabajo para construir sitios y aplicaciones de alto rendimiento.',
+                        red: ''
+                    }
+                ]
+            },
+            {
+                index: '2',
+                links: [
+                    {
+                        img: `${repositorioContenidoImagenes}assets/icon/cloudflare-workers-white.png`,
+                        nombreRecurso: '',
+                        height: '45',
+                        rutaRecurso: 'https://workers.cloudflare.com/',
+                        descripcion: 'Usted escribe el código. Nosotros nos encargamos del resto. Despliegue el código sin servidor al instante en todo el mundo para darle un rendimiento, una fiabilidad y una escala excepcionales.',
                         red: ''
                     },
                 ]

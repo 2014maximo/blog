@@ -87,6 +87,14 @@ export class DevSuperRecursosComponent implements OnInit {
         activo: true
       },
       {
+        nombre: 'HOSTINGS - DOMINIOS - SERVIDORES',
+        posicion: 'rot-2',
+        ruta: 'hostings-dominios-servidores',
+        fondo: 'bg-light',
+        colorTexto: 't2',
+        activo: true
+      },
+      {
         nombre: 'PHP Y WORDPRESS',
         posicion: 'pos-z',
         ruta: 'php-wordpress',
