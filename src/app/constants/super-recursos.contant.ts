@@ -465,6 +465,72 @@ export const LINKS: BloqueContenidoModel[] = [
                         descripcion: 'Usted escribe el código. Nosotros nos encargamos del resto. Despliegue el código sin servidor al instante en todo el mundo para darle un rendimiento, una fiabilidad y una escala excepcionales.',
                         red: ''
                     },
+                    {
+                        img: `${repositorioContenidoImagenes}assets/icon/firebase.png`,
+                        nombreRecurso: '',
+                        height: '45',
+                        rutaRecurso: 'https://firebase.google.com/',
+                        descripcion: 'Firebase te ayuda a compilar y ejecutar apps exitosas.',
+                        red: ''
+                    },
+                    {
+                        img: `${repositorioContenidoImagenes}assets/icon/amazon-aws.png`,
+                        nombreRecurso: '',
+                        height: '45',
+                        rutaRecurso: 'https://aws.amazon.com/es/',
+                        descripcion: ' Comience a crear con AWS hoy mismo. Independientemente de si necesita potencia de cómputo, almacenamiento para bases de datos, entrega de contenido u otra funcionalidad, AWS cuenta con los servicios necesarios para ayudarlo a crear aplicaciones sofisticadas con mayor flexibilidad, escalabilidad y fiabilidad.',
+                        red: ''
+                    },
+                ]
+            },
+            {
+                index: '3',
+                links: [
+                    {
+                        img: `${repositorioContenidoImagenes}assets/icon/godaddy.png`,
+                        nombreRecurso: '',
+                        height: '40',
+                        rutaRecurso: 'https://www.godaddy.com/',
+                        descripcion: 'Ponga su negocio en línea con un .com',
+                        red: ''
+                    },
+                    {
+                        img: `${repositorioContenidoImagenes}assets/icon/hostinger.png`,
+                        nombreRecurso: '',
+                        height: '40',
+                        rutaRecurso: 'https://www.hostinger.co/',
+                        descripcion: 'Proveedor de alojamiento web y dominios web.',
+                        red: ''
+                    },
+                    {
+                        img: `${repositorioContenidoImagenes}assets/icon/siteground.png`,
+                        nombreRecurso: '',
+                        height: '40',
+                        rutaRecurso: 'https://es.siteground.com/',
+                        descripcion: 'Soluciones de hosting diseñadas para una fácil gestión del sitio web',
+                        red: ''
+                    },
+                ]
+            },
+            {
+                index: '4',
+                links: [
+                    {
+                        img: `${repositorioContenidoImagenes}assets/icon/interserver.png`,
+                        nombreRecurso: '',
+                        height: '40',
+                        rutaRecurso: 'https://www.interserver.net/',
+                        descripcion: 'Ponga su negocio en línea con un .com',
+                        red: ''
+                    },
+                    {
+                        img: `${repositorioContenidoImagenes}assets/icon/hostgator.png`,
+                        nombreRecurso: '',
+                        height: '40',
+                        rutaRecurso: 'https://www.hostgator.co/',
+                        descripcion: 'Crea un sitio web que crezca contigo, todas las facilidades para transformar tu idea en un proyecto digital exitoso',
+                        red: ''
+                    },
                 ]
             },
 
