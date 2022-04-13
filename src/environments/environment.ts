@@ -5,14 +5,15 @@
 export const environment = {
 	production: false,
   firebase: {
-    projectId: 'trucos-pa-desarrollo',
-    appId: '1:250881901856:web:ce9f206d3ac3c77699c345',
-    storageBucket: 'trucos-pa-desarrollo.appspot.com',
-    apiKey: 'AIzaSyB0qZP5rWjfzyfhNboUtAI_Fgkc8VfzCGU',
-    authDomain: 'trucos-pa-desarrollo.firebaseapp.com',
-    messagingSenderId: '250881901856',
+    apiKey: "AIzaSyCSZ_jjFVuKWQV-MN1y11Jns6LKLX6vtA4",
+    authDomain: "estadistica-e5eeb.firebaseapp.com",
+    databaseURL: "https://estadistica-e5eeb.firebaseio.com",
+    projectId: "estadistica-e5eeb",
+    storageBucket: "estadistica-e5eeb.appspot.com",
+    messagingSenderId: "64729521444",
+    appId: "1:64729521444:web:61790c96a63d741172e7b1"
   }
-  };
+};
 
 /*
  * For easier debugging in development mode, you can import the following file
@@ -22,3 +23,5 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
+
+// Recaptcha: 'tstrfg45jdfghs4gksftrj'

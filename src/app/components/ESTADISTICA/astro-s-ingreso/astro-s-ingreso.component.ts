@@ -21,7 +21,7 @@ export class AstroSIngresoComponent implements OnInit {
   items: Observable<any[]>;
   constructor(firestore: AngularFirestore) {
     this.inicializarVariables();
-    this.items = firestore.collection('items').valueChanges();
+    this.items = firestore.collection('estadisticas').valueChanges();
   }
   
   ngOnInit(): void {
