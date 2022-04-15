@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel } from '../../../models/post.model';
-import { AngularFirestore } from '@angular/fire/compat/firestore';
-import { Observable } from 'rxjs';
+import { EstadisticaService } from '../../../services/estadistica.service';
 
 
 @Component({
@@ -17,15 +16,19 @@ export class AstroSIngresoComponent implements OnInit {
     fondo: false,
     tituloPost: ''
   }
-
-  items: Observable<any[]>;
-  constructor(firestore: AngularFirestore) {
+  public cats = [];
+  constructor(private firestoreService: EstadisticaService) {
     this.inicializarVariables();
-    this.items = firestore.collection('estadisticas').valueChanges();
   }
   
   ngOnInit(): void {
+    this.firestoreService.getCats().subscribe( datos => {
+      this.cats = [];
+      datos.forEach((catData: any) => {
+        console.log(catData, 'LO QUE VENGA');
 
+      })
+    })
   }
   
   private inicializarVariables() {
@@ -37,23 +40,7 @@ export class AstroSIngresoComponent implements OnInit {
       sombra: 'drop'
     };
 
-
   }
-
-/*   public crearLista(){
-    let lista: ListContenidoGeneral;
-    lista = {
-      dato1: 'DATO DE REFERENCIA1',
-      dato2: 'DATO DE REFERENCIA2',
-      dato3: 'DATO DE REFERENCIA3',
-      dato4: 'DATO DE REFERENCIA4'
-    }
-    this.generalService.pruebaCarga(lista).then(() =>{
-      console.log('SE GUARDO UN REGISTRO');
-    }, error => {
-      console.log(error);
-    })
-  } */
 
 
   scroll(el: HTMLElement) {

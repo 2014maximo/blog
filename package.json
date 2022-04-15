@@ -19,6 +19,7 @@
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
+    "@firebase/auth": "^0.19.12",
     "@ngrx/effects": "^12.5.1",
     "@ngrx/store": "^12.5.0",
     "@ngrx/store-devtools": "^12.5.1",
@@ -26,10 +27,10 @@
     "firebase": "^9.6.6",
     "firebaseui": "^6.0.0",
     "ngx-owl-carousel-o": "^6.0.0",
+    "rxfire": "^6.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.1",
-    "zone.js": "~0.11.4",
-    "rxfire": "^6.0.0"
+    "zone.js": "~0.11.4"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.2.1",
