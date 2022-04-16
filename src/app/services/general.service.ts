@@ -1,6 +1,4 @@
 import { Injectable } from '@angular/core';
-import { ListContenidoGeneral } from '../models/general.model';
-import { Observable } from 'rxjs';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
 
 @Injectable({

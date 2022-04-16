@@ -12,6 +12,7 @@ import { AccordeonComponent } from './accordeon/accordeon.component';
 import { IndiceContenidosComponent } from './indice-contenidos/indice-contenidos.component';
 import { BloqueContenidosComponent } from './bloque-contenidos/bloque-contenidos.component';
 import { LoginComponent } from './login/login.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,8 @@ import { LoginComponent } from './login/login.component';
   imports: [
     CommonModule,
     CarouselModule,
+    FormsModule,
+    ReactiveFormsModule,
     BrowserAnimationsModule
   ],
   exports: [

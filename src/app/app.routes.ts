@@ -50,11 +50,13 @@ import { JavaGlassfishComponent } from './components/JAVA/java-glassfish/java-gl
 import { JsTypescriptElementosComponent } from './components/JAVASCRIPT/js-typescript-elementos/js-typescript-elementos.component';
 import { PhpElementosComponent } from './components/PHP/php-elementos/php-elementos.component';
 import { NgComunicacionEntreComponentesComponent } from './components/ANGULAR/ng-comunicacion-entre-componentes/ng-comunicacion-entre-componentes.component';
+import { LoginComponent } from './shared/login/login.component';
 
 
 export const ROUTES: Routes = [
     { path: '', pathMatch: 'full', redirectTo: 'home'},
     { path: 'home', component: HomeComponent },
+    { path: 'login', component: LoginComponent },
 
 // ANDROID STUDIO
     { path: 'android', component: AndroidComponent },

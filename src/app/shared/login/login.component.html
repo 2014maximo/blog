@@ -1,5 +1,21 @@
-<form action="mailto:alexuriel.777@gmail.com" method="post" enctype="text/plain">
-    <input type="email" class="form-control" id="email" placeholder="Email">
-    <input type="password" class="form-control" id="password" placeholder="Email">
-    <button type="submit" id="bt-enviar" class="p-2 btn-block t2 bg-warning sombraUno">Enviar</button>
-</form>
+
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="espaciado"></div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <form [formGroup]="form">
+                    <input type="email" class="form-control" id="email" placeholder="Email" formControlName="user">
+                    <input type="password" class="form-control" id="password" placeholder="Password" formControlName="password">
+                    <button id="bt-enviar" class="p-2 mt-3 btn-block t2 bg-warning sombraUno" (click)="ingresar()">Ingresar</button>
+                    <button id="bt-enviar" class="p-2 mt-3 btn-block t2 bg-warning sombraUno" (click)="ingresarGoogle()">Ingresar con GOOGLE</button>
+                </form>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="espaciado"></div>
+    </div>
+    <div class="col-md-1"></div>
+</div>

@@ -202,5 +202,12 @@ export const FRASES = [
         colorText: 'text-secondary',
         id:29
     },
+    {
+        frase: 'Vivir en el mundo sin percatarse del significado del mismo es como deambular por una gran biblioteca sin tocar sus libros.',
+        autor: 'Dan Brown',
+        borde: 'border-success',
+        colorText: 'text-success',
+        id:29
+    },
 
 ]

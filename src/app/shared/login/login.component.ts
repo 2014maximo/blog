@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-login',
@@ -8,9 +10,43 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  public form: FormGroup;
 
+  constructor(private fb: FormBuilder, private authService: AuthService) {
+    this.form = this.fb.group({
+      user:['', [Validators.required]],
+      password: ['', [Validators.required]]
+    })
+
+    this.inicializarVariables();
+  }
+  
   ngOnInit(): void {
   }
+
+  inicializarVariables() {
+
+  }
+
+  ingresar(){
+    let usuario = this.form.value.user;
+    let contrasena = this.form.value.password;
+
+    this.authService.register(usuario, contrasena).then( res =>{
+      console.log(res, 'SE REGISTRO');
+    });
+
+  }
+
+  ingresarGoogle(){
+    let usuario = this.form.value.user;
+    let contrasena = this.form.value.password;
+
+    this.authService.loginGoogle(usuario, contrasena).then( res =>{
+      console.log(res, 'SE REGISTRO');
+    });
+  }
+
+  
 
 }
