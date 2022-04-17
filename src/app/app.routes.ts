@@ -51,6 +51,7 @@ import { JsTypescriptElementosComponent } from './components/JAVASCRIPT/js-types
 import { PhpElementosComponent } from './components/PHP/php-elementos/php-elementos.component';
 import { NgComunicacionEntreComponentesComponent } from './components/ANGULAR/ng-comunicacion-entre-componentes/ng-comunicacion-entre-componentes.component';
 import { LoginComponent } from './shared/login/login.component';
+import { GestionFormularioComponent } from './components/ESTADISTICA/gestion-formulario/gestion-formulario.component';
 
 
 export const ROUTES: Routes = [
@@ -93,6 +94,7 @@ export const ROUTES: Routes = [
     { path: 'estadistica', component: EstadisticaComponent },
     { path: 'astro-sol-ingreso', component: AstroSIngresoComponent },
     { path: 'estadistica-inicio', component: InicioComponent },
+    { path: 'estadistica-gestion-formulario', component: GestionFormularioComponent },
 
 // ELECTRON
     { path: 'electron', component: ElectronComponent },

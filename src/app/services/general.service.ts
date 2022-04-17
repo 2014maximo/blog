@@ -6,10 +6,51 @@ import { AngularFirestore } from '@angular/fire/compat/firestore';
 })
 export class GeneralService {
 
-
   constructor(private firestore: AngularFirestore) {}
 
-/*   pruebaCarga(lista: ListContenidoGeneral): Promise<any>{
-    return this.firestore.collection('listas').add(lista);
-  } */
+  async create(collection: string, data: any){
+    try {
+      return await this.firestore.collection(collection).add(data);
+    }catch(error){
+      console.error(error);
+      return null
+    }
+  }
+
+  async getForms(collection: string){
+    try {
+      return await this.firestore.collection(collection).snapshotChanges();
+    } catch(error){
+      console.error(error);
+      return null
+    }
+  }
+
+  async getByIdForms(collection: string, id:any){
+    try {
+      return await this.firestore.collection(collection).doc(id).get();
+    } catch(error){
+      console.error(error);
+      return null
+    }
+  }
+
+  async delete(collection: string, id:any){
+    try {
+      return await this.firestore.collection(collection).doc(id).delete();
+    } catch(error){
+      console.error(error);
+      return null
+    }
+  }
+  async update(collection: string, id:any, dato: any){
+    try {
+      return await this.firestore.collection(collection).doc(id).set(dato);
+    } catch(error){
+      console.error(error);
+      return null
+    }
+  }
+
+
 }

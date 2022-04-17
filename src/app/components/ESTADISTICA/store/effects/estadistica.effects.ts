@@ -13,7 +13,7 @@ export class SorteosEffects {
 
     }
 
-    cargarSorteos = createEffect(
+/*     cargarSorteos = createEffect(
         () => this.actions$.pipe(
             ofType( sorteosActions.cargarSorteos ),
             tap( data => console.log('effect tap', data)),
@@ -23,6 +23,6 @@ export class SorteosEffects {
                     )
             )
         )
-    );
+    ); */
 
 }

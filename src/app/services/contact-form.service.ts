@@ -1,30 +1,63 @@
-import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable, pipe } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { AngularFirestore } from '@angular/fire/compat/firestore';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ContactFormService {
 
-  private url = 'https://gorest.co.in';
+  constructor(private firestore: AngularFirestore) {
 
-  constructor(private http: HttpClient) { }
-
-  consultaPersonas(): Observable<any> {
-    return this.http.get<any>(`${this.url}/public/v1/users`);
   }
 
-  consultaSorteos(){
-    return this.http.get(`${ this.url }/public/v1/users`)
-      .pipe(
-        map( (resp: any) => {
-          if(resp){
-            return resp.data;
-          }
-        })
-        )
-      
+  async create(collection: string, data: any){
+
+    try {
+      return await this.firestore.collection(collection).add(data);
+    }catch(error){
+      console.error(error);
+      return null
+    }
   }
+
+  async getForms(collection: any){
+    try {
+      return await this.firestore.collection(collection).snapshotChanges();
+    } catch(error){
+      console.error(error);
+      return null
+    }
+  }
+
+  getQuicklyForms(collection: string){
+    return this.firestore.collection(collection).snapshotChanges();
+  }
+
+  async getByIdForms(collection: any, id:any){
+    try {
+      return await this.firestore.collection(collection).doc(id).get();
+    } catch(error){
+      console.error(error);
+      return null
+    }
+  }
+
+  async delete(collection: any, id:any){
+    try {
+      return await this.firestore.collection(collection).doc(id).delete();
+    } catch(error){
+      console.error(error);
+      return null
+    }
+  }
+  async update(collection: any, id:any, dato: any){
+    try {
+      return await this.firestore.collection(collection).doc(id).set(dato);
+    } catch(error){
+      console.error(error);
+      return null
+    }
+  }
+
+
 }

@@ -10,10 +10,10 @@
             <div class="col-md-6">
                 <div class="text-center">
                     <div class="form-group fuenteDos">
-                        <form action="mailto:alexuriel.777@gmail.com" method="post" enctype="text/plain">
-                            <input type="email" class="form-control" id="email" placeholder="Email">
-                            <textarea class="form-control" id="texarea" rows="3" placeholder="Comentarios"></textarea>
-                            <button type="submit" id="bt-enviar" class="p-2 btn-block t2 bg-warning sombraUno">Enviar</button>
+                        <form [formGroup]="formContact">
+                            <input type="email" class="form-control tc-yellow-two" id="email" placeholder="Email" formControlName="email">
+                            <textarea class="form-control tc-yellow-two" id="texarea" rows="3" placeholder="Comentarios" formControlName="comentarios"></textarea>
+                            <button type="submit" id="bt-enviar" class="p-2 btn-block bg-warning sombraUno" (click)="enviar()">Enviar</button>
                         </form>
                     </div>
                 </div>

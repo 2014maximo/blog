@@ -47,11 +47,12 @@ export class EstadisticaComponent implements OnInit {
         activo: true
       },
       {
-        nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+        nombre: 'GESTION FORMULARIO',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
+        rutaExterna: 'estadistica-gestion-formulario',
         fondo: 'bg-light',
-        colorTexto: 't2'
+        colorTexto: 't2',
+        activo: true
       },
       {
         nombre: 'CRUD',

@@ -53,6 +53,7 @@ import { JsTypescriptElementosComponent } from './JAVASCRIPT/js-typescript-eleme
 import { PhpElementosComponent } from './PHP/php-elementos/php-elementos.component';
 import { NgComunicacionEntreComponentesComponent } from './ANGULAR/ng-comunicacion-entre-componentes/ng-comunicacion-entre-componentes.component';
 import { DevDiagramasSecuenciaComponent } from './DEVELOPER/dev-diagramas-secuencia/dev-diagramas-secuencia.component';
+import { GestionFormularioComponent } from './ESTADISTICA/gestion-formulario/gestion-formulario.component';
 
 
 
@@ -110,7 +111,8 @@ import { DevDiagramasSecuenciaComponent } from './DEVELOPER/dev-diagramas-secuen
     JsTypescriptElementosComponent,
     PhpElementosComponent,
     NgComunicacionEntreComponentesComponent,
-    DevDiagramasSecuenciaComponent
+    DevDiagramasSecuenciaComponent,
+    GestionFormularioComponent
   ],
   imports: [
     CommonModule,

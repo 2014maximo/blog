@@ -944,6 +944,14 @@ export const LINKS: BloqueContenidoModel[] = [
                         descripcion: 'RxJS es una biblioteca para programación reactiva que utiliza Observables, para facilitar la composición de código asincrónico o basado en devolución de llamada. Este proyecto es una reescritura de Reactive-Extensions / RxJS con mejor rendimiento, mejor modularidad, mejores pilas de llamadas depurables, mientras se mantiene en su mayoría compatible con versiones anteriores, con algunos cambios importantes que reducen la superficie de la API.',
                         red: ''
                     },
+                    {
+                        img: `${repositorioContenidoImagenes}assets/icon/SweetAlert2.png`,
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://sweetalert2.github.io/',
+                        descripcion: 'Un reemplazo hermoso, receptivo, personalizable y accesible (WAI-ARIA) para los cuadros emergentes de JavaScript Cero dependencias.',
+                        red: ''
+                    },
                 ]
             },
         ]
