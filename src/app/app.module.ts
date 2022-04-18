@@ -17,8 +17,6 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from 'src/environments/environment';
 import { EffectsModule } from '@ngrx/effects';
 import { EffectsArray } from './components/ESTADISTICA/store/effects/index';
-import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
-import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { AngularFireModule } from '@angular/fire/compat';
 
 
@@ -34,16 +32,14 @@ import { AngularFireModule } from '@angular/fire/compat';
     HttpClientModule,
     SharedModule,
     ComponentsModule,
-    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireModule.initializeApp(environment.firebase, 'trucos-pa-desarrollo'),
     RouterModule.forRoot (ROUTES),
     StoreModule.forRoot( appReducers ),
     EffectsModule.forRoot( EffectsArray ),
     StoreDevtoolsModule.instrument({
       maxAge: 25,
       logOnly: environment.production,
-    }),
-    provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideDatabase(() => getDatabase()),
+    })
   ],
   exports: [
   ],

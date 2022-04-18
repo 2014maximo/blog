@@ -1,3 +1,15 @@
+export class PostsModel {
+    id_post: string = '';
+    nombre: string = '';
+    categoria: string = '';
+    ruta: string = '';
+    rutaImagen: string = '';
+    fechaCreacion: Date = new Date();
+    fechaActualizacion: Date = new Date();
+    incluirFondo: boolean = false;
+    sombra: string = '';
+}
+
 export class HeaderPostModel {
     
     rutaImagen: string = '';

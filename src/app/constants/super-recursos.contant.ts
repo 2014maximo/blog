@@ -150,7 +150,7 @@ export const LINKS: BloqueContenidoModel[] = [
                         img: 'assets/img/icons/google-adsense.png',
                         nombreRecurso: '',
                         height: '60',
-                        rutaRecurso: 'https://www.google.com/adsense/',
+                        rutaRecurso: 'https://www.google.es/intl/es/adsense/start/',
                         descripcion: 'Anuncios más relevantes y más espacios publicitarios llenos...',
                         red: ''
                     },

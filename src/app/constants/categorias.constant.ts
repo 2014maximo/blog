@@ -1,5 +1,29 @@
 import { CategoriasModel } from '../models/categorias.model';
 
+export const LISTA_CATEGORIAS = {
+    ANDROID: 'android',
+    ANGULAR: 'angular',
+    CSS: 'css',
+    DART: 'dart',
+    DB: 'db',
+    DEVELOPER: 'developer',
+    ELECTRON: 'electron',
+    ESTADISTICA: 'estadistica',
+    FLUTTER: 'flutter',
+    GIT: 'git',
+    HTML: 'html',
+    JAVA: 'java',
+    JAVASCRIPT: 'javascript',
+    KOTLIN: 'kotlin',
+    KUBERNETES: 'kubernetes',
+    LINUX: 'linux',
+    NET: 'net',
+    PHP: 'php',
+    REACT: 'react',
+    SENA: 'sena',
+    WORDPRESS: 'wordpress'
+
+}
 
 export const CATEGORIAS: CategoriasModel [] = [
 /*     ANDROID */
@@ -1001,3 +1025,4 @@ export const CATEGORIAS: CategoriasModel [] = [
         ]
     },
 ]
+

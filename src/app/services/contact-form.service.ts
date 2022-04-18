@@ -21,7 +21,9 @@ export class ContactFormService {
   }
 
   async getForms(collection: any){
+    console.log('DENTRO DEL SERVICIO ANTES DEL TRY');
     try {
+      console.log('DENTRO DEL SERVICIO DENTRO DE TRY ANTES DE USAR LOS MODULOS FIRESTORE');
       return await this.firestore.collection(collection).snapshotChanges();
     } catch(error){
       console.error(error);

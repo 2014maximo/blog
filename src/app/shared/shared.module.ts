@@ -13,6 +13,7 @@ import { IndiceContenidosComponent } from './indice-contenidos/indice-contenidos
 import { BloqueContenidosComponent } from './bloque-contenidos/bloque-contenidos.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { GaleriaPostComponent } from './galeria-post/galeria-post.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     IndiceContenidosComponent,
     BloqueContenidosComponent,
     LoginComponent,
+    GaleriaPostComponent,
   ],
   imports: [
     CommonModule,

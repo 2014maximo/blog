@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { copiarAlPortapapeles } from 'src/app/shared/funciones/portapapeles';
 import { HeaderPostModel, CategoriaModel, AccordeonModel } from '../../../models/post.model';
+import { traerPost } from '../../../constants/funciones-globales';
+import { POSTS } from '../../../constants/post.constant';
 
 @Component({
   selector: 'app-ng-instalacion',
@@ -9,6 +11,8 @@ import { HeaderPostModel, CategoriaModel, AccordeonModel } from '../../../models
   ]
 })
 export class NgInstalacionComponent implements OnInit {
+
+  private postActual = traerPost('1', POSTS);
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',
@@ -39,6 +43,8 @@ export class NgInstalacionComponent implements OnInit {
   }
 
   private inicializarVariables(){
+    
+
     this.accordeonContend = [
         {
           elemento: 'ANGULAR JS (El inicio)',
@@ -163,12 +169,15 @@ export class NgInstalacionComponent implements OnInit {
       ]
     
 
-    this.cabeceraPost = {
-      rutaImagen: 'assets/img/banner/Instalaciona-angular.jpg',
+    if(this.postActual){
+      this.cabeceraPost = {
+      rutaImagen: this.postActual.rutaImagen,
       fondo: false,
       tituloPost: 'INSTALACIÓN DE ANGULAR Y RECOMENDACIONES',
       alturaImagen: ''
     };
+    }
+    
   }
 
   public copiarAlPortapapeles(cadenaAlclipboard: string) {
