@@ -1,4 +1,4 @@
-export class PostsModel {
+export class PostModel {
     id_post: string = '';
     nombre: string = '';
     categoria: string = '';
@@ -8,6 +8,9 @@ export class PostsModel {
     fechaActualizacion: Date = new Date();
     incluirFondo: boolean = false;
     sombra: string = '';
+    alturaImagen: string = '';
+    mostrarBreadcrumb: boolean = true;
+    colorText: string = 'tc-green-one'
 }
 
 export class HeaderPostModel {

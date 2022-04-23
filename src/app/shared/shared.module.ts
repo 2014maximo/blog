@@ -14,10 +14,12 @@ import { BloqueContenidosComponent } from './bloque-contenidos/bloque-contenidos
 import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { GaleriaPostComponent } from './galeria-post/galeria-post.component';
+import { HeadlineComponent } from './headline/headline.component';
 
 @NgModule({
   declarations: [
     SliderHomeComponent,
+    HeadlineComponent,
     HeaderPostComponent,
     HeaderHomeComponent,
     FrasesComponent,
@@ -29,6 +31,7 @@ import { GaleriaPostComponent } from './galeria-post/galeria-post.component';
     BloqueContenidosComponent,
     LoginComponent,
     GaleriaPostComponent,
+    HeadlineComponent,
   ],
   imports: [
     CommonModule,
@@ -39,6 +42,7 @@ import { GaleriaPostComponent } from './galeria-post/galeria-post.component';
   ],
   exports: [
     SliderHomeComponent,
+    HeadlineComponent,
     HeaderPostComponent,
     HeaderHomeComponent,
     FrasesComponent,

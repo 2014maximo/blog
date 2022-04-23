@@ -12,7 +12,7 @@ import { POSTS } from '../../../constants/post.constant';
 })
 export class NgInstalacionComponent implements OnInit {
 
-  private postActual = traerPost('1', POSTS);
+  private postActual = traerPost('ng-0001', POSTS);
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',

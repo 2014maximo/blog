@@ -1,4 +1,4 @@
-import { PostsModel } from '../models/post.model';
+import { PostModel } from '../models/post.model';
 
 export function copiarAlPortapapeles(cadenaAlclipboard: string) {
     const selBox = document.createElement('textarea');
@@ -14,6 +14,6 @@ export function copiarAlPortapapeles(cadenaAlclipboard: string) {
     document.body.removeChild(selBox);
   }
 
-export function traerPost(id: string, posts: PostsModel[]){
+export function traerPost(id: string, posts: PostModel[]){
   return posts.find( post => post.id_post === id);
 }

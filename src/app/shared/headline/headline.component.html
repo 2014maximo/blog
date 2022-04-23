@@ -1,0 +1,31 @@
+<div class="row" *ngIf="!cabecera.incluirFondo">
+    <div class="col-md-12">
+                <!-- IMAGEN TITULAR ------------------------------------>
+                <div class="headerPost sombraUno d-none d-md-block" [ngStyle]="{'background-image': 'url(' + cabecera.rutaImagen + ')'}">
+                </div>
+                <div class="espacio"></div>
+        <h2 class="tituloPost p-2 text-center">{{ this.cabecera.nombre }}</h2>
+        
+    </div>
+</div>
+<div class="row" *ngIf="cabecera.incluirFondo">
+    <div class="col-md-12 text-center">
+        <img src="{{ this.cabecera.rutaImagen }}" alt="" height="{{ this.cabecera.alturaImagen }}" class="{{ this.cabecera.sombra }}">
+        
+        <div class="espacio"></div>
+        <h2 class="tituloPost p-2 text-center">{{ this.cabecera.nombre }}</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10 text-center {{ this.cabecera.colorText }}">
+        <p class="f-merriweather fs-17 lh-17 m-0 p-0 sombra-texto">
+            {{ this.cabecera.fechaActualizacion | date:'long':'es' }}<br>
+        </p>
+        <p class="f-merriweather lh-17 sombra-texto">
+            <small>Última actualización: </small>
+        </p>
+    </div>
+    <div class="col-md-1"></div>
+</div>

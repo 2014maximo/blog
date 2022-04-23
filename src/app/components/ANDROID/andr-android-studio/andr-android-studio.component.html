@@ -1,14 +1,14 @@
 <div #target></div>
+<div class="espaciado"></div>
 <app-header-home [categoria]="breadcrumb"></app-header-home>
-<div class="espacio"></div>
-<app-header-post [cabecera]="cabeceraPost"></app-header-post>
+<app-headline [cabecera]="cabeceraPost"></app-headline>
 
 
 <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10">
         <p class="f-open-sans-c text-light fs-18 lh-18">
-            Sitio para descargar
+            {{ this.cabeceraPost.fechaActualizacion | date }}<br>Sitio para descargar
         </p>
         <a href="https://developer.android.com/studio?hl=es" target="_blank">
             <img src="assets/img/categorias/android-studio_text_white.png" alt="" width="auto" height="150" class="drop">

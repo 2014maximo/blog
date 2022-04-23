@@ -1,19 +1,22 @@
-import { PostsModel } from '../models/post.model';
+import { PostModel } from '../models/post.model';
 import { LISTA_CATEGORIAS } from './categorias.constant';
-import { rutaImgBanner } from './globales.constant';
+import { rutaCatego, rutaImgBanner } from './globales.constant';
 
-export const POSTS: PostsModel[] = [
+export const POSTS: PostModel[] = [
     // ANDROID
     {
+        rutaImagen: 'assets/img/categorias/android-studio_text_white.png',
+        alturaImagen: '100',
+        incluirFondo: true,
+        nombre: 'INSTALACIÓN',
+        sombra: 'drop',
+        categoria: 'android',
+        fechaActualizacion: new Date(2033,3,22),
+        fechaCreacion: new Date(2022,2,22),
         id_post: 'andr-0001',
-        nombre: 'INSTALACIÓN DE ANDROID STUDIO',
-        categoria: LISTA_CATEGORIAS.ANDROID,
-        ruta: 'ng-instalacion',
-        rutaImagen: `${rutaImgBanner}Instalaciona-angular.jpg`,
-        fechaCreacion: new Date(2020,7,30),
-        fechaActualizacion: new Date(2021,9,30),
-        incluirFondo: false,
-        sombra: ''
+        ruta: 'andr-android-studio',
+        colorText: 'tc-green-one',
+        mostrarBreadcrumb: true
     },
     // ANGULAR
     {
@@ -25,7 +28,10 @@ export const POSTS: PostsModel[] = [
         fechaCreacion: new Date(2020,7,30),
         fechaActualizacion: new Date(2021,9,30),
         incluirFondo: false,
-        sombra: ''
+        sombra: '',
+        alturaImagen: '',
+        colorText: '',
+        mostrarBreadcrumb: false
     },
     {
         id_post: 'ng-0001',
@@ -36,6 +42,9 @@ export const POSTS: PostsModel[] = [
         fechaCreacion: new Date(2020,7,30),
         fechaActualizacion: new Date(2021,9,30),
         incluirFondo: false,
-        sombra: ''
+        sombra: '',
+        alturaImagen: '',
+        colorText: '',
+        mostrarBreadcrumb: false
     },
 ] 

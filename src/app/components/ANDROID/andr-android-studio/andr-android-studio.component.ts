@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel, CategoriaModel, AccordeonModel } from '../../../models/post.model';
+import { rutaCatego } from 'src/app/constants/globales.constant';
+import { CategoriaModel, AccordeonModel, PostModel } from '../../../models/post.model';
+import { traerPost } from '../../../constants/funciones-globales';
+import { POSTS } from 'src/app/constants/post.constant';
 
 @Component({
   selector: 'app-andr-android-studio',
@@ -9,19 +12,13 @@ import { HeaderPostModel, CategoriaModel, AccordeonModel } from '../../../models
 })
 export class AndrAndroidStudioComponent implements OnInit {
 
-  public cabeceraPost: HeaderPostModel = {
-    rutaImagen: '',
-    alturaImagen: '',
-    fondo: true,
-    tituloPost: 'ANDROID STUDIO INSTALACIÓN',
-    sombra: 'drop'
-  }
+  public cabeceraPost = traerPost('andr-0001', POSTS) || new PostModel;
 
   public breadcrumb: CategoriaModel = {
-    activo: true,
-    categoria: 'ANDROID STUDIO',
-    colorText: 'tc-green-one',
-    ruta: 'android'
+    activo: this.cabeceraPost.mostrarBreadcrumb,
+    categoria: this.cabeceraPost.categoria,
+    colorText: this.cabeceraPost.colorText,
+    ruta: this.cabeceraPost.ruta,
   }
 
   public accordeonContend: AccordeonModel [] = [
@@ -35,6 +32,7 @@ export class AndrAndroidStudioComponent implements OnInit {
     this.inicializarVariables();
   }
   private inicializarVariables() {
+    
     this.accordeonContend = [
       {
         elemento: 'Android Studio v4.1',
