@@ -249,16 +249,10 @@ export const CATEGORIAS: CategoriasModel [] = [
         color: 'bg-Dart',
         post: [
             {
-                nombre: 'INSTALACIÓN',
-                posicion: 'pos-z',
-                ruta:'instalacion-dart',
-                activo: false
-            },
-            {
                 nombre: 'ELEMENTOS Y DESCRIPCIÓN',
                 posicion: 'rot-2',
-                ruta:'dart-elementos-descripcion',
-                activo: false
+                ruta:'dart-elementos',
+                activo: true
             },
             {
                 nombre: 'CRUD',

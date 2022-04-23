@@ -39,18 +39,12 @@ export class DartComponent implements OnInit {
 
     this.indiceDart = [
       {
-        nombre: 'INSTALACIÓN',
+        nombre: 'ELEMENTOS DE DART',
         posicion: 'pos-z',
-        rutaExterna: 'android-instalacion',
+        rutaExterna: 'dart-elementos',
         fondo: 'bg-Dart',
-        colorTexto: 'text-light'
-      },
-      {
-        nombre: 'ELEMENTOS Y DESCRIPCIÓN',
-        posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Dart',
-        colorTexto: 'text-light'
+        colorTexto: 'text-light',
+        activo: true
       },
       {
         nombre: 'CRUD',

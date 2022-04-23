@@ -52,6 +52,7 @@ import { PhpElementosComponent } from './components/PHP/php-elementos/php-elemen
 import { NgComunicacionEntreComponentesComponent } from './components/ANGULAR/ng-comunicacion-entre-componentes/ng-comunicacion-entre-componentes.component';
 import { LoginComponent } from './shared/login/login.component';
 import { GestionFormularioComponent } from './components/ESTADISTICA/gestion-formulario/gestion-formulario.component';
+import { DartElementosComponent } from './components/DART/dart-elementos/dart-elementos.component';
 
 
 export const ROUTES: Routes = [
@@ -77,6 +78,7 @@ export const ROUTES: Routes = [
 
 // DART
     { path: 'dart', component: DartComponent },
+    { path: 'dart-elementos', component: DartElementosComponent },
 
 // DB
     { path: 'db', component: DbComponent },

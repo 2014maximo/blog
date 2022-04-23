@@ -54,6 +54,7 @@ import { PhpElementosComponent } from './PHP/php-elementos/php-elementos.compone
 import { NgComunicacionEntreComponentesComponent } from './ANGULAR/ng-comunicacion-entre-componentes/ng-comunicacion-entre-componentes.component';
 import { DevDiagramasSecuenciaComponent } from './DEVELOPER/dev-diagramas-secuencia/dev-diagramas-secuencia.component';
 import { GestionFormularioComponent } from './ESTADISTICA/gestion-formulario/gestion-formulario.component';
+import { DartElementosComponent } from './DART/dart-elementos/dart-elementos.component';
 
 
 
@@ -112,7 +113,8 @@ import { GestionFormularioComponent } from './ESTADISTICA/gestion-formulario/ges
     PhpElementosComponent,
     NgComunicacionEntreComponentesComponent,
     DevDiagramasSecuenciaComponent,
-    GestionFormularioComponent
+    GestionFormularioComponent,
+    DartElementosComponent
   ],
   imports: [
     CommonModule,

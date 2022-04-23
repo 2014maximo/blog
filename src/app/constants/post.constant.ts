@@ -47,4 +47,33 @@ export const POSTS: PostModel[] = [
         colorText: '',
         mostrarBreadcrumb: false
     },
+    // DART
+    {
+        rutaImagen: `${rutaCatego}dart_text_white.png`,
+        alturaImagen: '60',
+        incluirFondo: true,
+        nombre: '',
+        sombra: 'drop',
+        categoria: 'dart',
+        fechaActualizacion: new Date(2022,4,23),
+        fechaCreacion: new Date(2022,4,23),
+        id_post: 'dart',
+        ruta: 'dart-elementos',
+        colorText: 'tc-blue-six',
+        mostrarBreadcrumb: false
+    },
+    {
+        rutaImagen: `${rutaCatego}DART/dartelement.png`,
+        alturaImagen: '300',
+        incluirFondo: true,
+        nombre: 'ELEMENTOS Y DESCRIPCION',
+        sombra: 'drop',
+        categoria: 'dart',
+        fechaActualizacion: new Date(2022,4,23),
+        fechaCreacion: new Date(2022,4,23),
+        id_post: 'dart-0002',
+        ruta: 'dart-elementos',
+        colorText: 'tc-blue-six',
+        mostrarBreadcrumb: true
+    },
 ] 
