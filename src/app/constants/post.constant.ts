@@ -58,13 +58,13 @@ export const POSTS: PostModel[] = [
         fechaActualizacion: new Date(2022,4,23),
         fechaCreacion: new Date(2022,4,23),
         id_post: 'dart',
-        ruta: 'dart-elementos',
+        ruta: 'dart',
         colorText: 'tc-blue-six',
         mostrarBreadcrumb: false
     },
     {
         rutaImagen: `${rutaCatego}DART/dartelement.png`,
-        alturaImagen: '300',
+        alturaImagen: '200',
         incluirFondo: true,
         nombre: 'ELEMENTOS Y DESCRIPCION',
         sombra: 'drop',
