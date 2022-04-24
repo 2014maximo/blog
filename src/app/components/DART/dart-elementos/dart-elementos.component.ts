@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CategoriaModel, PostModel } from '../../../models/post.model';
 import { traerPost } from '../../../constants/funciones-globales';
 import { POSTS } from '../../../constants/post.constant';
+import { rutaCatego } from '../../../constants/globales.constant';
 
 @Component({
   selector: 'app-dart-elementos',
@@ -11,6 +12,8 @@ import { POSTS } from '../../../constants/post.constant';
 export class DartElementosComponent implements OnInit {
 
   public cabeceraPost = traerPost('dart-0002', POSTS) || new PostModel;
+
+  public rutaCatego: string = rutaCatego;
 
   public breadcrumb: CategoriaModel = {
     activo: this.cabeceraPost.mostrarBreadcrumb,

@@ -370,6 +370,14 @@ export const LINKS: BloqueContenidoModel[] = [
                         descripcion: 'Pruebe su front-end contra una API real.',
                         red: ''
                     },
+                    {
+                        img: '',
+                        nombreRecurso: 'Tabla de Códigos HTML',
+                        height: '',
+                        rutaRecurso: 'https://ascii.cl/es/codigos-html.htm',
+                        descripcion: 'Tabla de ASCII estándar, nombres de entidades HTML, ISO 10646, ISO 8879, ISO 8859-1 romano 1 Soporte para browsers: todos los browsers.',
+                        red: ''
+                    },
                 ]
             },
         ]
