@@ -33,122 +33,109 @@
                         El operador <small class="tc-blue-six">new</small> se utiliza para inicializar una nueva instancia de una clase. Después de inicializar una clase, se llama inmediatamente a su constructor. Los parámetros del constructor se pasan en el momento de la inicialización.
                     </p>
                     <div class="espacio"></div>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
 
                     <h4 class="f-shadow-into-l fw-6 fs-30 tc-blue-six">TIPOS FUNDAMENTALES</h4>
                     
-                    <table class="table table-sm table-dark f-merriweather shadow-two">
-                        <thead>
-                            <tr>
-                                <th scope="col">Tipo</th>
-                                <th scope="col">Descripción</th>
-                                <th scope="col">Ejemplo</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>int</td>
-                                <td>Números enteros</td>
-                                <td>7, -19, 0</td>
-                            </tr>
-                            <tr>
-                                <td>double</td>
-                                <td>Números en coma flotante</td>
-                                <td>6.2543, -5.7, 0.00</td>
-                            </tr>
-                            <tr>
-                                <td>String</td>
-                                <td>Cadenas</td>
-                                <td>"Hola mundo", "h"</td>
-                            </tr>
-                            <tr>
-                                <td>bool</td>
-                                <td>Booleanos</td>
-                                <td>true, false</td>
-                            </tr>
-                            <tr>
-                                <td>List</td>
-                                <td>Listas</td>
-                                <td>[1,2,4], ["hi", "hola"]</td>
-                            </tr>
-                            <tr>
-                                <td>Map</td>
-                                <td>Mapas</td>
-                                <td>&#123; "b": 7, "d": 5 &#125;</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <pre class="f-operator-m fs-17 tc-gray-two text-shadow-one">
+| Tipo   | Descripción              | Ejemplo                      |
+|--------|--------------------------|------------------------------|
+| int    | Números enteros          | 7, -19, 0                    |
+| double | Números en coma flotante | 6.2543, -5.7, 0.00           |
+| String | Cadenas                  | "Hola mundo", "h"            |
+| bool   | Booleanos                | true, false                  |
+| List   | Listas                   | [1,2,4], ["hi", "hola"]      |
+| Map    | Mapas                    | &#123; "b": 7, "d": 5 &#125; |
+                    </pre>
                     <div class="espacio"></div>
 
                     <h4 class="f-shadow-into-l fw-6 fs-30 tc-blue-six">OPERADORES ARITMÉTICOS</h4>
-                    
-                    <table class="table table-sm table-dark f-operator-m text-shadow-one shadow-two">
-                        <thead>
-                            <tr>
-                                <th scope="col">Operador</th>
-                                <th scope="col">Descripción</th>
-                                <th scope="col">Ejemplo</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>++</td>
-                                <td>Incrementar un entero en 1</td>
-                                <td>b++;</td>
-                            </tr>
-                            <tr>
-                                <td>--</td>
-                                <td>Decrementar un entero en 1</td>
-                                <td>b--;</td>
-                            </tr>
-                            <tr>
-                                <td>+=</td>
-                                <td>Incrementar un entero en una cantidad arbitraria</td>
-                                <td>b += 77;  // incrementa b por 77</td>
-                            </tr>
-                            <tr>
-                                <td>*</td>
-                                <td>Multiplicación</td>
-                                <td>b = a * c;</td>
-                            </tr>
-                            <tr>
-                                <td>/</td>
-                                <td>División</td>
-                                <td>b = a / c;</td>
-                            </tr>
-                            <tr>
-                                <td>~/</td>
-                                <td>División de enteros</td>
-                                <td>b = a ~/ c;  // b es 1</td>
-                            </tr>
-                            <tr>
-                                <td>+</td>
-                                <td>Adición</td>
-                                <td>b = a + c;</td>
-                            </tr>
-                            <tr>
-                                <td>-</td>
-                                <td>Subtracción</td>
-                                <td>b = a - c;</td>
-                            </tr>
-                            <tr>
-                                <td>%</td>
-                                <td>El restante</td>
-                                <td>b = 6 % 4;  // b es 2</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <pre class="f-operator-m fs-17 tc-gray-two text-shadow-one">
+| Operador | Descripción                                      | Ejemplo                         |
+|----------|--------------------------------------------------|---------------------------------|
+|    ++    | Incrementar un entero en 1                       | b++                             |
+|    --    | Decrementar un entero en 1                       | b--                             |
+|    +=    | Incrementar un entero en una cantidad arbitraria | b += 77; // incrementa b por 77 |
+|    *     | Multiplicación                                   | b = a * c;                      |
+|    /     | División                                         | b = a / c;                      |
+|    ~/    | División de enteros                              | b = a ~/ c; // b es 1           |
+|    +     | Adición                                          | b = a + c;                      |
+|    -     | Substracción                                     | b = a - c;                      |
+|    %     | El restante                                      | b = 6 % 4; // b es 2            |
+                    </pre>
+
                     <div class="espacio"></div>
 
                     <h4 class="f-shadow-into-l fw-6 fs-30 tc-blue-six">OPERADORES QUE RETORNAN BOLEANOS</h4>
                     <pre class="f-operator-m fs-17 tc-gray-two text-shadow-one">
-| OPERADOR | DESCRIPCIÓN | EJEMPLO          |
-|----------|-------------|------------------|
-| ==       | Igual a     | if(b == c) &#123;...&#125; |
-                    </pre>
-                    
-                </div>
-                <div class="col-md-6">
+| OPERADOR     | DESCRIPCIÓN                    | EJEMPLO                  |
+|--------------|--------------------------------|--------------------------|
+|      ==      | Igual a                        | if (b == c) &#123;...&#125;        | 
+|      !=      | Diferente de                   | if (b != c) &#123;...&#125;        | 
+|      &#62;       | Mayor que                      | if (b &#62; c) &#123;...&#125;         | 
+|      &#60;       | Menor que                      | if (b &#60; c) &#123;...&#125;         | 
+|      &#62;=      | Mayor o igual que              | if (b &#62;= c) &#123;...&#125;        | 
+|      &#60;=      | Mayor o igual que              | if (b &#60;= c) &#123;...&#125;        | 
+|      !       | Negación                       | if (!c) &#123;...&#125;            | 
+|      &#124;&#124;      | O lógico                       | if (b &#124;&#124; c) &#123;...&#125;        | 
+|      &&      | Y lógico                       | if (b && c) &#123;...&#125;        |
+|      is      | Comprobar el tipo de un objeto | if (c is Element) &#123;...&#125;  |
 
+                    </pre>
+                    <div class="espacio"></div>
+
+                    <h4 class="f-shadow-into-l fw-6 fs-30 tc-blue-six">OTROS OPERADORES</h4>
+                    <table class="table table-sm table-borderless tc-gray-two f-operator-m text-shadow-one fs-17">
+                        <thead>
+                          <tr>
+                            <th scope="col">OPERADOR</th>
+                            <th scope="col">DESCRIPCIÓN</th>
+                            <th scope="col">EJEMPLO</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="border-t-dashed">
+                            <td class="text-center">.</td>
+                            <td>Acceder a las variables/propiedades y llamar a los métodos de los objetos.</td>
+                            <td>a = b.children; <br> b.executeTimely();</td>
+                          </tr>
+                          <tr class="border-t-dashed">
+                            <td class="text-center">..</td>
+                            <td>Operador en cascada: permite realizar varias llamadas al mismo objeto.</td>
+                            <td>b = new Vehiculo()<br>..acelerar()<br>..frenar()<br>..valorOdometro = 90.0;</td>
+                          </tr>
+                          <tr class="border-t-dashed">
+                            <td class="text-center">+</td>
+                            <td>Concatenación de cadenas (cuando se utiliza entre dos objetos de cadena).</td>
+                            <td>b = "Hola" + "Sorpresa!"; // b es "Hola Sorpresa!"</td>
+                          </tr>
+                          <tr class="border-t-dashed">
+                              <td class="text-center">[]</td>
+                              <td>Índice en objetos de la Lista o en objetos del mapa.</td>
+                              <td>b[4] = 65;  // establece el elemento 4 de una Lista, b, en 65.<br>
+                                c["puertas"] = 56; // establece el valor asociado a la clave "puertas" en un Mapa, y, a 56</td>
+                            </tr>
+                            <tr class="border-t-dashed">
+                              <td class="text-center">()</td>
+                              <td>Llamada función</td>
+                              <td>contarLetras();</td>
+                            </tr>
+                            <tr class="border-t-dashed">
+                              <td class="text-center">=</td>
+                              <td>Pasar un objeto de un tipo a otro</td>
+                              <td>(b as ImageElement).src = "...";</td>
+                            </tr>
+                            <tr class="border-t-dashed">
+                              <td class="text-center">?</td>
+                              <td>Operador codicional: si el enunciado es verdadero, devuelve la primera alternativa; en caso contrario, la segunda.</td>
+                              <td>calor = (temp > 30)? true : false</td>
+                            </tr>
+                        </tbody>
+                      </table>
                 </div>
             </div>
         </div>

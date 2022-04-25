@@ -1190,6 +1190,15 @@ export const LINKS: BloqueContenidoModel[] = [
                         red: '',
                         clipBoard: ''
                     },
+                    {
+                        img: '',
+                        nombreRecurso: 'Zeal docs',
+                        height: '',
+                        rutaRecurso: 'https://zealdocs.org/',
+                        descripcion: 'Zeal es un navegador de documentación fuera de línea para desarrolladores de software.',
+                        red: '',
+                        clipBoard: ''
+                    },
                 ]
             },
         ]
