@@ -76,4 +76,33 @@ export const POSTS: PostModel[] = [
         colorText: 'tc-blue-six',
         mostrarBreadcrumb: true
     },
+    // FLUTTER
+    {
+        rutaImagen: `${rutaCatego}flutter_text_white.png`,
+        alturaImagen: '60',
+        incluirFondo: true,
+        nombre: '',
+        sombra: 'drop',
+        categoria: 'flutter',
+        fechaActualizacion: new Date(2022,4,23),
+        fechaCreacion: new Date(2022,4,23),
+        id_post: 'flutter',
+        ruta: 'flutter',
+        colorText: 'tc-blue-six',
+        mostrarBreadcrumb: false
+    },
+    {
+        rutaImagen: `${rutaCatego}flutter_text_white.png`,
+        alturaImagen: '200',
+        incluirFondo: true,
+        nombre: 'INSTALACIÓN',
+        sombra: 'drop',
+        categoria: 'flutter',
+        fechaActualizacion: new Date(2022,4,23),
+        fechaCreacion: new Date(2022,4,23),
+        id_post: 'flutter-0001',
+        ruta: 'flutter-instalacion',
+        colorText: 'tc-blue-six',
+        mostrarBreadcrumb: true
+    },
 ] 

@@ -55,6 +55,7 @@ import { NgComunicacionEntreComponentesComponent } from './ANGULAR/ng-comunicaci
 import { DevDiagramasSecuenciaComponent } from './DEVELOPER/dev-diagramas-secuencia/dev-diagramas-secuencia.component';
 import { GestionFormularioComponent } from './ESTADISTICA/gestion-formulario/gestion-formulario.component';
 import { DartElementosComponent } from './DART/dart-elementos/dart-elementos.component';
+import { FlutterElementosComponent } from './FLUTTER/flutter-elementos/flutter-elementos.component';
 
 
 
@@ -114,7 +115,8 @@ import { DartElementosComponent } from './DART/dart-elementos/dart-elementos.com
     NgComunicacionEntreComponentesComponent,
     DevDiagramasSecuenciaComponent,
     GestionFormularioComponent,
-    DartElementosComponent
+    DartElementosComponent,
+    FlutterElementosComponent
   ],
   imports: [
     CommonModule,
