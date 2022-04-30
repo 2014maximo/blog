@@ -51,10 +51,10 @@ export class FlutterComponent implements OnInit {
       {
         nombre: 'ELEMENTOS Y DESCRIPCIÓN',
         posicion: 'pos-z',
-        rutaExterna: 'android-elementos',
+        rutaExterna: 'flutter-elementos',
         fondo: 'bg-Flutter',
         colorTexto: 'text-light',
-        activo: false
+        activo: true
       }
     ]
   }

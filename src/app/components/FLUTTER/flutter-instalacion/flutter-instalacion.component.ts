@@ -17,7 +17,7 @@ export class FlutterInstalacionComponent implements OnInit {
     activo: this.cabeceraPost.mostrarBreadcrumb,
     categoria: this.cabeceraPost.categoria,
     colorText: this.cabeceraPost.colorText,
-    ruta: this.cabeceraPost.ruta,
+    ruta: this.cabeceraPost.categoria,
   }
   // https://github.com/flutter/flutter/tags (MIRAR LAS VERSIONES DE FLUTTER EN EL GIT)
   public versiones = [

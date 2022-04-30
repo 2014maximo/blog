@@ -427,8 +427,8 @@ export const CATEGORIAS: CategoriasModel [] = [
             {
                 nombre: 'ELEMENTOS Y DESCRIPCIÓN',
                 posicion: 'rot-2',
-                ruta:'dart-elementos-descripcion',
-                activo: false
+                ruta:'flutter-elementos',
+                activo: true
             },
             {
                 nombre: 'CRUD',

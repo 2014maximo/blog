@@ -105,4 +105,18 @@ export const POSTS: PostModel[] = [
         colorText: 'tc-blue-six',
         mostrarBreadcrumb: true
     },
+    {
+        rutaImagen: `${rutaCatego}flutter_text_white.png`,
+        alturaImagen: '200',
+        incluirFondo: true,
+        nombre: 'Elementos FLUTTER Y DESCRIPCIÓN',
+        sombra: 'drop',
+        categoria: 'flutter',
+        fechaActualizacion: new Date(2022,4,23),
+        fechaCreacion: new Date(2022,4,23),
+        id_post: 'flutter-elementos',
+        ruta: 'flutter-instalacion',
+        colorText: 'tc-blue-six',
+        mostrarBreadcrumb: true
+    },
 ] 

@@ -53,6 +53,7 @@ import { NgComunicacionEntreComponentesComponent } from './components/ANGULAR/ng
 import { LoginComponent } from './shared/login/login.component';
 import { GestionFormularioComponent } from './components/ESTADISTICA/gestion-formulario/gestion-formulario.component';
 import { DartElementosComponent } from './components/DART/dart-elementos/dart-elementos.component';
+import { FlutterElementosComponent } from './components/FLUTTER/flutter-elementos/flutter-elementos.component';
 
 
 export const ROUTES: Routes = [
@@ -104,6 +105,7 @@ export const ROUTES: Routes = [
 // FLUTTER
     { path: 'flutter', component: FlutterComponent },
     { path: 'flutter-instalacion', component: FlutterInstalacionComponent },
+    { path: 'flutter-elementos', component: FlutterElementosComponent },
 
 // GIT
     { path: 'git', component: GitComponent },

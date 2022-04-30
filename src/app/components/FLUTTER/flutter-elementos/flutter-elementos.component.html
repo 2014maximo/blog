@@ -1,1 +1,46 @@
-<p>flutter-elementos works!</p>
+<div #target></div>
+<div class="espaciado"></div>
+<app-header-home [categoria]="breadcrumb"></app-header-home>
+<app-headline [cabecera]="cabeceraPost"></app-headline>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <p class="f-merriweather fs-17 text-light text-center">
+                Instrospectivamente, despiezando flutter, se describen en esta parte los elementos fundamentales de nuestro framework.<br> Para decirlo de mejor manera, 
+            </p>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+    <div class="espaciado"></div>
+    <div class="row">
+        <div class="col-md-4">
+            <h3 class="fs-200 f-open-sans-c fw-6 text-light">1</h3>
+            <p class="f-bebas text-light lh-35 fs-40">PUNTO DE PARTIDA DEL BARCO</p>
+        </div>
+        <div class="col-md-8">
+            <img src="{{rutaCatego}}FLUTTER/flutter-elementos-001.png" class="shadow-two" alt="" width="auto" height="250">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="espaciado"></div>
+
+<app-footer-home></app-footer-home>
+<div class="go-up" (click)="scroll(target)">
+    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+</div>

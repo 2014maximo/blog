@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { PostModel } from 'src/app/models/post.model';
+import { traerPost } from '../../../constants/funciones-globales';
+import { POSTS } from '../../../constants/post.constant';
+import { rutaCatego } from '../../../constants/globales.constant';
+import { CategoriaModel } from '../../../models/post.model';
 
 @Component({
   selector: 'app-flutter-elementos',
@@ -7,9 +12,30 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FlutterElementosComponent implements OnInit {
 
-  constructor() { }
+  public cabeceraPost = traerPost('flutter-elementos', POSTS) || new PostModel;
+
+  public rutaCatego: string = rutaCatego;
+
+  public breadcrumb: CategoriaModel = {
+    activo: this.cabeceraPost.mostrarBreadcrumb,
+    categoria: this.cabeceraPost.categoria,
+    colorText: this.cabeceraPost.colorText,
+    ruta: this.cabeceraPost.categoria,
+  }
+
+
+  constructor() {
+    this.inicializarVariables();
+  }
+  private inicializarVariables() {
+    
+  }
 
   ngOnInit(): void {
+  }
+
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
   }
 
 }
