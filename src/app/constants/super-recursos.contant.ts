@@ -1213,6 +1213,15 @@ export const LINKS: BloqueContenidoModel[] = [
                         red: '',
                         clipBoard: ''
                     },
+                    {
+                        img: ``,
+                        nombreRecurso: 'TEWARI',
+                        height: '',
+                        rutaRecurso: 'https://www.tewari.org/',
+                        descripcion: 'Energía libre basada en el vacío.',
+                        red: '',
+                        clipBoard: ''
+                    },
                 ]
             },
         ]
