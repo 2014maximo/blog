@@ -21,15 +21,29 @@
 <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10">
-        <div class="espacio"></div>
+        <div class="espaciado"></div>
         <h4 class="f-shadow-into-l fs-30 tc-blue-two sombra-texto">COMANDOS PRÁCTICOS</h4>
-        <p class="tc-gray-two f-operator-m">
-            flutter downgrade 2.8.1'<br>
-            flutter doctor -v
-        </p>
+        <table class="table table-sm table-borderless tc-gray-two f-operator-m text-shadow-one fs-17 overflow-auto d-block">
+            <thead>
+                <tr>
+                  <th scope="col">COMANDO</th>
+                  <th scope="col">DESCRIPCIÓN</th>
+                  <th scope="col">ACCIÓN</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="border-t-dashed" *ngFor="let comando of comandos">
+                    <td class="pr-4">{{comando.comando}} </td>
+                    <td class=""> {{comando.observacion}}</td>
+                    <td class="text-center">
+                        <i class="fa fa-clone cursor-p ml-2 text-light h-blue" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles(comando.comando)"></i>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
         <div class="espacio"></div>
-        <h4 class="f-shadow-into-l fs-30 tc-blue-two sombra-texto">VERSIONES,CARACTERÍSTICAS Y LINK</h4>
+        <h4 class="f-shadow-into-l fs-30 tc-blue-two sombra-texto">VERSIONES, CARACTERÍSTICAS Y LINK</h4>
         <table class="table table-sm table-borderless tc-gray-two f-operator-m text-shadow-one fs-17 overflow-auto d-block">
             <thead>
                 <tr>
@@ -42,12 +56,9 @@
                 <tr class="border-t-dashed" *ngFor="let version of versiones">
                     <td class="text-center">{{version.version}}</td>
                     <td>{{version.cambios}}</td>
-                    <td>
+                    <td class="text-center">
                         <a href="{{version.link}}" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
-                                <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
-                                <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
-                            </svg>
+                            <i class="fa fa-link" aria-hidden="true"></i>
                         </a>
                     </td>
                 </tr>

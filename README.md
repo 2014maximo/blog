@@ -7,6 +7,22 @@ FLUTTER:
 - Explicar el Scaffold que es para que sirve como se usa y todas sus propiedades con ejemplos.
 - Explicar interpolación de String pasar un numero a Texto.
 - debugShowCheckedModeBanner: false RETIRAR MARCA DEBUG DE APLICACION INICIAL
+- Listviews
+- ListTiles
+- Listas y map
+- Rutas
+- Json hacia mapas
+- Future Builder
+- Lectura de archivos JSON
+- Iconos
+- Imágenes
+- Avatars
+- Loadings
+- InfiniteScroll
+- Pull to refresh
+- Cards
+- Sliders
+- Hotkeys: CTRL + . opciones sobre los widgets
 
 PROYECTO QUE BUSCA AMPLIAR MIS CONOCIMIENTOS EN DESARROLLO Y SERVIR A LOS DEMAS CON EL RESULTADO
 

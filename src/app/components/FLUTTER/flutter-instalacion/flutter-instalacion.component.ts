@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { traerPost } from 'src/app/constants/funciones-globales';
+import { copiarAlPortapapeles, traerPost } from 'src/app/constants/funciones-globales';
 import { PostModel } from 'src/app/models/post.model';
 import { POSTS } from '../../../constants/post.constant';
 import { CategoriaModel, AccordeonModel } from '../../../models/post.model';
@@ -23,13 +23,24 @@ export class FlutterInstalacionComponent implements OnInit {
   public versiones = [
     {
       version: '2.8.1 ',
-      cambios: [ 'Build Flutter iOS plugins with all valid architectures (#95293)',
-                 'add branch flutter-2.8-candidate.3 to enabled_branches in .ci.yaml',
-                 'Update Engine revision to 890a5fca2e34db413be624fc83aeea8e61d42ce6 for stable release 2.8.1'
+      cambios: [ 'Construir los plugins de Flutter iOS con todas las arquitecturas válidas (#95293) ',
+                 'Añadir la rama flutter-2.8-candidate.3 a enabled_branches en .ci.yaml ',
+                 'Actualizar la revisión del motor a 890a5fca2e34db413be624fc83ae8e61d42ce6 para la versión estable 2.8.1'
                 ],
       link: 'https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_2.8.1-stable.zip'   
     },
     
+  ];
+
+  public comandos = [
+    {
+      comando: 'flutter downgrade 2.8.1',
+      observacion: 'bajar la versión de FLUTTER'
+    },
+    {
+      comando: 'flutter doctor -v',
+      observacion: 'Muestra las versiones y la ruta de los componentes que operan con FLUTTER'
+    },
   ]
 
 
@@ -41,6 +52,10 @@ export class FlutterInstalacionComponent implements OnInit {
   }
 
   ngOnInit(): void {
+  }
+
+  public copiarAlPortapapeles(cadenaAlclipboard: string) {
+    copiarAlPortapapeles(cadenaAlclipboard);
   }
 
   scroll(el: HTMLElement) {
