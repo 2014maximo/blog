@@ -32,8 +32,8 @@ export class LoginComponent implements OnInit {
     let usuario = this.form.value.user;
     let contrasena = this.form.value.password;
 
-    this.authService.register(usuario, contrasena).then( res =>{
-      console.log(res, 'SE REGISTRO');
+    this.authService.login(usuario, contrasena).then( res =>{
+      console.log(res, 'INGRESO');
     });
 
   }

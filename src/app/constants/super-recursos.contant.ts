@@ -1838,8 +1838,58 @@ export const LINKS: BloqueContenidoModel[] = [
                         rutaRecurso: 'https://www.gamestorrents.fm/juegos-pc/',
                         descripcion: 'Descarga de juegos gratis.',
                         red: '',
-                        mediaQuery: 'img-fluid'
-                    }
+                        mediaQuery: ''
+                    },
+                    {
+                        img: 'assets/img/icons/blizzard.png',
+                        nombreRecurso: '',
+                        height: '70',
+                        rutaRecurso: 'https://www.blizzard.com/',
+                        descripcion: '',
+                        red: '',
+                        mediaQuery: ''
+                    },
+                    {
+                        img: 'assets/img/icons/epic-games.png',
+                        nombreRecurso: '',
+                        height: '70',
+                        rutaRecurso: 'https://www.epicgames.com/',
+                        descripcion: '',
+                        red: '',
+                        mediaQuery: ''
+                    },
+                ]
+            },
+            {
+                index: '2',
+                links: [ 
+                    {
+                        img: 'assets/img/icons/xbox.png',
+                        nombreRecurso: '',
+                        height: '70',
+                        rutaRecurso: 'https://www.xbox.com/',
+                        descripcion: '',
+                        red: '',
+                        mediaQuery: ''
+                    },
+                    {
+                        img: 'assets/img/icons/playstation.png',
+                        nombreRecurso: '',
+                        height: '70',
+                        rutaRecurso: 'https://store.playstation.com/',
+                        descripcion: '',
+                        red: '',
+                        mediaQuery: ''
+                    },
+                    {
+                        img: 'assets/img/icons/steam.png',
+                        nombreRecurso: '',
+                        height: '70',
+                        rutaRecurso: 'https://store.steampowered.com/',
+                        descripcion: '',
+                        red: '',
+                        mediaQuery: ''
+                    },
                 ]
             }
         ]
@@ -1859,7 +1909,15 @@ export const LINKS: BloqueContenidoModel[] = [
                         rutaRecurso: 'https://siata.gov.co/siata_nuevo/',
                         descripcion: 'Estado del clima en Antioquia - Colombia.',
                         red: ''
-                    }
+                    },
+                    {
+                        img: `${repositorioContenidoImagenes}assets/icon/flowcv-white.png`,
+                        nombreRecurso: '',
+                        height: '90',
+                        rutaRecurso: 'https://flowcv.io/',
+                        descripcion: 'Cree un currículum ganador de empleo de forma gratuita. Distíngase con un currículum moderno. Incluye consejos de expertos, plantillas personalizables y descarga rápida de PDF',
+                        red: ''
+                    },
                 ]
             }
         ]

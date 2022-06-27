@@ -35,12 +35,18 @@ export class FooterHomeComponent implements OnInit {
       }
     });
 
+    let date = new Date();
+    let output = String(date.getDate()).padStart(2, '0') + '/' + String(date.getMonth() + 1).padStart(2, '0') + '/' + date.getFullYear();
+    // fecha en formato "25/06/2021"
+
     let datos = {
       email: this.formContact.value.email,
-      descripcion: this.formContact.value.comentarios
+      descripcion: this.formContact.value.comentarios,
+      fecha: output
     }
 
-    this.database.create('form-contact', datos).then( res => {
+    if(this.formContact.valid){
+        this.database.create('form-contact', datos).then( res => {
       this.formContact.reset();
       Toast.fire({
         icon: 'success',
@@ -53,6 +59,13 @@ export class FooterHomeComponent implements OnInit {
         title: 'No se puede enviar'
       })
     });
+    } else {
+      Toast.fire({
+        icon: 'warning',
+        title: 'Ingrese correctamente los datos'
+      })
+    }
+
 
   }
 

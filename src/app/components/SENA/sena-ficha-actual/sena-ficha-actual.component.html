@@ -466,33 +466,121 @@
         <div class="espaciado"></div>
         
         <!-- INGO SCHUSSLER ------------------------------------------------------------------------------->
-        <h3 class="tc-orange-one f-alex-brush fs-110 text-shadow-one" id="ingo">Ingo Schussler R.</h3>
+        <h3 class="tc-orange-one f-alex-brush fs-110 text-shadow-one" id="ingo">Harold Mauricio Gómez Zapata</h3>
 
                 <a href="meet.google.com/nud-yhgg-yeb" target="_blank" class="f-open-sans-c fs-20 lh-20">
-                    (ÚLTIMO LINK REUNIÓN MEET)<br>meet.google.com/nud-yhgg-yeb
+                    (ÚLTIMO LINK REUNIÓN ZOOM)<br>https://zoom.us/j/93778760270?pwd=VHdOMEdVd2w4dmZzYTl0MjhnN3FIQT09
                 </a>
                 <br>
-                <i class="fa text-light fa-clone cursor-p fs-25 mt-2" title="Copiar" aria-hidden="true" (click)="copiarPortapapeles('meet.google.com/nud-yhgg-yeb')"></i>
+                <i class="fa text-light fa-clone cursor-p fs-25 mt-2" title="Copiar" aria-hidden="true" (click)="copiarPortapapeles('https://zoom.us/j/93778760270?pwd=VHdOMEdVd2w4dmZzYTl0MjhnN3FIQT09')"></i>
                 
-                <div class="espacio"></div>
-                
-                <a href="https://chat.whatsapp.com/DgjTpXTYQ0UGxbBwMIwMO1" target="_blank">
-                    <img src="assets/img/icons/whatsapp.png" alt="drive"  height="60" width="auto" class="drop br-5">
-                    <p class="text-light f-open-sans-c fs-20">
-                        (Unirse a grupo COMUNICACIÓN 732-734)
-                    </p>
-                </a>
-                <i class="fa text-light fa-clone cursor-p fs-25" title="Copiar" aria-hidden="true" (click)="copiarPortapapeles('https://chat.whatsapp.com/DgjTpXTYQ0UGxbBwMIwMO1')"></i>
-
-                <div class="espacio"></div>
-
-                <p class="text-light f-open-sans-c fs-20">
-                    (EMAIL)<br>iaschussler51@misena.edu.co
-                </p>
-                <i class="fa text-light fa-clone cursor-p fs-25" title="Copiar" aria-hidden="true" (click)="copiarPortapapeles('iaschussler51@misena.edu.co')"></i>
-
-        
         <div class="espaciado"></div>
+
+        <h3 class="text-light">VISTO EN CLASE</h3>
+        <h4 class="text-light">COMANDOS</h4>
+        <p class="f-shadow-into-l tc-blue-one">
+        -- @Author: Alex Muñoz<br>
+        -- @Fecha: 2022/05/14<br>
+        -- @Uso de funciones propias del SQL y funciones del usuario final.<br>
+        GO<br>
+        -- FUNCIONES DE FECHA Y HORA<br>
+        -- algunas funciones retornan la fecha y hora<br>
+        -- algunas funciones retornan una parte de fecha y hora.<br>
+        -- algunas funciones retornan diferencias de fecha y horas<br>
+        GO<br>
+        -- FUNCION: CURRENT_TIMESTAMP<br>
+        SELECT CURRENT_TIMESTAMP AS FECHA_Y_HORA_ACTUAL<br>
+        GO<br>
+        -- FUNCIÓN: GETDATE()<br>
+        SELECT GETDATE() AS FECHA_Y_HORA_ACTUAL<br>
+        GO<br>
+        -- FUNCIÓN: DAY(fecha)<br>
+        -- FUNCIÓN: MONTH(fecha)<br>
+        -- FUNCIÓN: YEAR(fecha)<br>
+        SELECT DAY(CURRENT_TIMESTAMP) AS DIA, MONTH(CURRENT_TIMESTAMP) AS MES, YEAR(CURRENT_TIMESTAMP) AS AÑO<br>
+        GO<br>
+        SELECT DAY(GETDATE()) AS DIA, MONTH(GETDATE()) AS MES, YEAR(GETDATE()) AS AÑO<br>
+        GO<br>
+        <br>
+        -- FUNCIÓN: DATEDIFF(datepart, startdate, enddate)<br>
+
+        -- Calcular el número de días trancurridos entre la fecha actual y su fecha de cumpleaños
+        -- Calcular el número de meses trancurridos entre la fecha actual y su fecha de nacimiento
+        -- Calcular el número de años trancurridos entre la fecha actual y su fecha de nacimiento
+
+        -- Calcular el número de días transcurridos entre la fecha actual y la fecha de nacimiento<br>
+        <br>
+        SELECT DATEDIFF(DAY, '1983-02-10', CURRENT_TIMESTAMP) AS DIAS_TRANSCURRIDOS<br>
+        GO<br>
+        SELECT DATEDIFF(MONTH, '1983-02-10', CURRENT_TIMESTAMP) AS MESES_TRANSCURRIDOS<br>
+        GO<br>
+        SELECT DATEDIFF(YEAR, '1983-02-10', CURRENT_TIMESTAMP) AS AÑOS_TRANSCURRIDOS<br>
+        GO<br>
+        <br>
+        -- FUNCIÓN: DATEADD(datepart, number, date)<br>
+        -- Adicionar 50 días a la fecha actual<br>
+        <br>
+        -- ¿Qué fecha sera dentro de 30 meses?<br>
+        -- ¿Que fecha será dentro de 19 años?<br>
+        <br>
+        SELECT DATEADD(DAY, 50, GETDATE()) AS FECHA_FUTURA_DE_50_DIAS<br>
+        GO<br>
+        SELECT DATEADD(MONTH, 30, GETDATE()) AS FECHA_FUTURA_DE_30_MESES<br>
+        GO<br>
+        SELECT DATEADD(YEAR, 19, GETDATE()) AS FECHA_FUTURA_DE_19_AÑOS<br>
+        GO<br>
+        <br>
+        -- FUNCIONES MATEMÁTICAS<br>
+        -- FUNCIÓN: ABS(-50) AS VALOR_ABSOLUTO_DE_50<br>
+        SELECT -50, ABS(-50) AS VALOR_ABSOLUTO_DE_50<br>
+        GO<br>
+        -- Obtener el valor absoluto de los días transcurridos entre la fecha actual y su fecha de Nacimiento<br>
+        SELECT ABS(DATEDIFF(DAY,GETDATE(), '1972/05/23')) AS DIAS_TRANSCURRIDOS<br>
+        GO<br>
+        <br>
+        -- FUNCIÓN: CEILING(numeric_expression)<br>
+        -- FUNCIÓN: FLOOR(numeric_expression)<br>
+        -- FUNCIÓN: ROUND(numeric_expression, length [, function])<br>
+        <br>
+        SELECT 43.4843534 AS VALOR, ROUND(43.4843534, 2) AS REDONDEO_A_2_CIFRAS, CEILING(43.4843534) AS "CEILING", FLOOR(43.4843534) AS "FLOOR"<br>
+        GO<br>
+        <br>
+        -- FUNCIÓN: POWER(float_expresion, y)<br>
+        -- Calcular la potencia de 3.0 elevado a 5<br>
+        <br>
+        SELECT POWER(3.0, 5) AS POTENCIA_3_ELEVADO_A_LA_5<br>
+        GO<br>
+        <br>
+        -- FUNCIÓN SQRT(float_expresion)<br>
+        -- Calcular la raíz cuadrada de 2<br>
+        SELECT 2.O AS VALOR, SQRT(2.0) AS RAIZ_CUADRADA<br>
+        GO<br>
+        <br>
+        -- FUNCÓN: RAND([seed]) - Genera valores aleatorios entre 0 y 1<br>
+        -- FUNCIÓN: SUM() - Obtiene el total de unos Valores<br>
+        -- FUNCIÓN: AVG() - Calcula el promedio de un conjunto de valores numéricos<br>
+        -- FUNCIÓN: MIN() - Retorna el mínimo de un conjunto de valores numéricos<br>
+        -- FUNCIÓN: MAX() - Retorna el máximo de un conjunto de valores numéricos<br>
+        <br>
+        -- Ejercicio: Generar un valor aleatorios<br>
+        SELECT RAND() AS VALOR_ALEATORIO<br>
+        <br>
+        GO<br>
+        <br>
+        -- Generar un valor aleatorio entre 0 y 1000<br>
+        <br>
+        SELECT FLOOR(RAND()*(999-1)+1)<br>
+        GO<br>
+        <br>
+        -- Actividad: insertar otros 10 productos, en el campo cantidad va a generar un valor aleatorio entre 0 y 1000<br>
+
+        </p>
+        <h3 class="text-light">TAREAS PENDIENTES</h3>
+        <ul>
+            <li>
+                Subir toda la pantalla de codigos utilizados en sqlcmd
+            </li>
+        </ul>
 
         <!-- YHOAN ------------------------------------------------------------------------------->
         <h3 class="tc-orange-one f-alex-brush fs-110 text-shadow-one" id="yhoan">Yhoan</h3>
