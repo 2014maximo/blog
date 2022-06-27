@@ -15,6 +15,7 @@ import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { GaleriaPostComponent } from './galeria-post/galeria-post.component';
 import { HeadlineComponent } from './headline/headline.component';
+import { PrintCodeComponent } from './print-code/print-code.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { HeadlineComponent } from './headline/headline.component';
     LoginComponent,
     GaleriaPostComponent,
     HeadlineComponent,
+    PrintCodeComponent,
   ],
   imports: [
     CommonModule,
@@ -42,6 +44,7 @@ import { HeadlineComponent } from './headline/headline.component';
   ],
   exports: [
     SliderHomeComponent,
+    PrintCodeComponent,
     HeadlineComponent,
     HeaderPostComponent,
     HeaderHomeComponent,
