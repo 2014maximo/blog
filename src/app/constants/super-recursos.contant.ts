@@ -1533,6 +1533,14 @@ export const LINKS: BloqueContenidoModel[] = [
                         descripcion: 'Descargar libros gratis de dominio público.',
                         red: ''
                     },
+                    {
+                        img: 'assets/img/icons/zlibrary.png',
+                        nombreRecurso: '',
+                        height: '50',
+                        rutaRecurso: 'https://es.z-lib.org/',
+                        descripcion: 'Consigue el libro que necesitas con un lìmite de descargas por día.',
+                        red: ''
+                    },
                 ]
             },
 
