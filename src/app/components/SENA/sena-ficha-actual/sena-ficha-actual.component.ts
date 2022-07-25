@@ -54,6 +54,7 @@ export class SenaFichaActualComponent implements OnInit {
       nicthjava: 'nicth-java',
       ingo: 'ingo',
       yhoan: 'yhoan',
+      lizeth: 'lizeth',
     }
 
     this.rutaImagen = repositorioContenidoImagenes;
