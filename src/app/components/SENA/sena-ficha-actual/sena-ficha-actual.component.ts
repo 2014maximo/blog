@@ -55,6 +55,7 @@ export class SenaFichaActualComponent implements OnInit {
       ingo: 'ingo',
       yhoan: 'yhoan',
       lizeth: 'lizeth',
+      jorge: 'jorge',
     }
 
     this.rutaImagen = repositorioContenidoImagenes;
