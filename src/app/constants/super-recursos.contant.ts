@@ -1301,6 +1301,15 @@ export const LINKS: BloqueContenidoModel[] = [
                         red: '',
                         clipBoard: ''
                     },
+                    {
+                        img: 'assets/img/icons/tabnine.png',
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://www.tabnine.com/code/javascript/functions/firebase/Storage/ref',
+                        descripcion: 'Complemento de finalización de código AI para su IDE.',
+                        red: '',
+                        clipBoard: ''
+                    },
                 ]
             },
             {
