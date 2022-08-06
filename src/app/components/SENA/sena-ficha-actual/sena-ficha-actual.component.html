@@ -11,9 +11,23 @@
         <div class="row">
             <div class="col-md-2 bg-Flutter shadow-two text-center">
                 <h3 class="f-open-sans-c fs-30 text-light mt-3 mb-3">LUNES</h3>
+                <a (click)='scroll(profes.juan)' class="cursor-p">
+                    <img src="assets/img/icons/profesora2.png" alt="" height="80" width="auto" class="drop-two">
+                    <p class="f-shadow-into-l fs-20 lh-20 mt-2 text-light">
+                        SALUD OCUPACIONAL Y AMBIENTAL<br>
+                        <span class="text-border-yellow-one">Leydy Johana Rojas Balaguera<br>(06:00am - 9:00pm) </span>
+                    </p>
+                </a>
             </div>
             <div class="col-md-2 bg-Android shadow-two text-center">
                 <h3 class="f-open-sans-c fs-30 text-light mt-3">MARTES</h3>
+                <a (click)='scroll(profes.juan)' class="cursor-p">
+                    <img src="assets/img/icons/profesor.png" alt="" height="80" width="auto" class="drop-two">
+                    <p class="f-shadow-into-l fs-20 lh-20 mt-2 text-light">
+                        DESARROLLAR APP CON TECNOLOGIAS PYTHON II<br>
+                        <span class="text-border-yellow-one">Juan Carlos Quintero R.<br>(06:00am - 9:00pm) </span>
+                    </p>
+                </a>
             </div>
             <div class="col-md-2 bg-dark shadow-two text-center">
                 <h3 class="f-open-sans-c fs-30 text-light mt-3">MIÉRCOLES</h3>
@@ -21,7 +35,7 @@
                     <img src="assets/img/icons/JORGE SAEZ GUZMAN2.png" alt="" height="80" width="auto" class="drop-two">
                     <p class="f-shadow-into-l fs-20 lh-20 mt-2 text-light">
                         CONSTRUIR EL SISTEMA QUE CUMPLA CON LOS REQUISITOS DE LA SOLUCIÓN INFORMÁTICA<br>
-                        Jorge Saez (6pm-9pm)
+                        <span class="text-border-yellow-one">Jorge Saez <br>(6pm-9pm)</span>
                     </p>
                 </a>
             </div>
@@ -30,8 +44,8 @@
                 <a (click)='scroll(profes.lizeth)' class="cursor-p">
                     <img src="assets/img/icons/profesora.png" alt="" height="80" width="auto" class="drop-two">
                     <p class="f-shadow-into-l fs-20 lh-20 mt-2 text-light">
-                        PREPARAR Y ELABORAR MANUALES DE USUARIO<br>
-                        Lizeth Estella Hernandez Saleme(6pm-9pm)
+                        PREPARAR Y ELABORAR MANUALES DE USUARIO, CAPACITACION Y ERRORES (MANUALES Y PRUEBAS)<br>
+                        <span class="text-border-yellow-one">Lizeth Estella Hernandez Saleme<br>(6pm-9pm)</span>
                     </p>
                 </a>
             </div>
@@ -40,26 +54,26 @@
                 <a (click)='scroll(profes.nicth)' class="cursor-p">
                     <img src="assets/img/icons/NICTH GIRALDO2.png" alt="" height="80" width="auto" class="drop-two">
                     <p class="f-shadow-into-l fs-20 lh-20 mt-2">
-                        APLICACIONES MÓVILES<br>
-                        Nicth (6pm-9pm)
+                        DESARROLLAR APP PARA DISPOSITIVOS MOVILES<br>
+                        <span class="text-border-blue-one">Nicth Leon Giraldo <br>(6pm-9pm)</span>
                     </p>
                 </a>
 
             </div>
             <div class="col-md-2 bg-Git shadow-two text-center">
                 <h3 class="f-open-sans-c fs-30 text-light mt-3">SÁBADOS</h3>
-                <a (click)='scroll(profes.nicth)' class="cursor-p">
+                <a (click)='scroll(profes.juan)' class="cursor-p">
                     <img src="assets/img/icons/profesor.png" alt="" height="80" width="auto" class="drop-two">
                     <p class="f-shadow-into-l fs-20 lh-20 mt-2 text-light">
-                        PYTHON 2<br>
-                        Nicth (07:00am - 11:00pm)
+                        DESARROLLAR APP CON TECNOLOGIAS PYTHON II<br>
+                        <span class="text-border-yellow-one">Juan Carlos Quintero R. <br>(07:00am - 11:00pm)</span>
                     </p>
                 </a>
                 <a (click)='scroll(profes.nicth)' class="cursor-p">
                     <img src="assets/img/icons/NICTH GIRALDO2.png" alt="" height="80" width="auto" class="drop-two">
                     <p class="f-shadow-into-l fs-20 lh-20 mt-2 text-light">
-                        APLICACIONES MÓVILES<br>
-                        Nicth (11:00am - 2:00pm)
+                        DESARROLLAR APP PARA DISPOSITIVOS MOVILES.<br>
+                        <span class="text-border-yellow-one">Nicth Leon Giraldo <br>(11:00am - 2:00pm)</span>
                     </p>
                 </a>
             </div>
@@ -445,7 +459,7 @@
                 <div class="d-flex">
                     <img src="{{urlImg}}assets/icon/checked-accept.png" alt="" width="auto" height="40" class="mr-3 drop">
                     <p class="f-open-sans-c text-light fs-20 m-0 lh-20">
-                        PREPARAR Y ELABORAR MANUALES DE USUARIO <span class="tc-orange-one">(Lizeth Hernandez)</span>
+                        DESARROLLAR APP CON TECNOLOGIAS PYTHON II <span class="tc-orange-one">(Juan Carlos Quintero R.)</span>
                     </p>
                 </div>
                 <ul class="mt-2">
@@ -458,7 +472,46 @@
                 <div class="d-flex">
                     <img src="{{urlImg}}assets/icon/checked-accept.png" alt="" width="auto" height="40" class="mr-3 drop">
                     <p class="f-open-sans-c text-light fs-20 m-0 lh-20">
-                        APLICACIONES MÓVILES <span class="tc-orange-one">(Nicth Giraldo)</span>
+                        DESARROLLAR APP PARA DISPOSITIVOS MOVILES <span class="tc-orange-one">(Nicth Leon Giraldo)</span>
+                    </p>
+                </div>
+                <ul class="mt-2">
+                    <li>
+                        <p class="f-open-sans-c text-light fs-18 m-0 lh-18 ml-4"></p>
+                    </li>
+                </ul>
+                <!-- ------------------División----------------- -->
+
+                <div class="d-flex">
+                    <img src="{{urlImg}}assets/icon/checked-accept.png" alt="" width="auto" height="40" class="mr-3 drop">
+                    <p class="f-open-sans-c text-light fs-20 m-0 lh-20">
+                        SALUD OCUPACIONAL Y AMBIENTAL <span class="tc-orange-one">(Leydy Johana Rojas Balaguera)</span>
+                    </p>
+                </div>
+                <ul class="mt-2">
+                    <li>
+                        <p class="f-open-sans-c text-light fs-18 m-0 lh-18 ml-4"></p>
+                    </li>
+                </ul>
+                <!-- ------------------División----------------- -->
+
+                <div class="d-flex">
+                    <img src="{{urlImg}}assets/icon/checked-accept.png" alt="" width="auto" height="40" class="mr-3 drop">
+                    <p class="f-open-sans-c text-light fs-20 m-0 lh-20">
+                        ESTRUCTURA DE DATOS <span class="tc-orange-one">(Jorge Luis Saez Guzmán)</span>
+                    </p>
+                </div>
+                <ul class="mt-2">
+                    <li>
+                        <p class="f-open-sans-c text-light fs-18 m-0 lh-18 ml-4"></p>
+                    </li>
+                </ul>
+                <!-- ------------------División----------------- -->
+
+                <div class="d-flex">
+                    <img src="{{urlImg}}assets/icon/checked-accept.png" alt="" width="auto" height="40" class="mr-3 drop">
+                    <p class="f-open-sans-c text-light fs-20 m-0 lh-20">
+                        PREPARAR Y ELABORAR MANUALES DE USUARIO, CAPACITACION Y ERRORES (MANUALES Y PRUEBAS) <span class="tc-orange-one">(Lizeth Hernandez)</span>
                     </p>
                 </div>
                 <ul class="mt-2">
@@ -654,10 +707,20 @@
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-10">
-                <h3 class="tc-blue-one f-grape fs-110 text-shadow-one" id="jorge">Juan</h3>
+                <h3 class="tc-blue-one f-grape fs-110 text-shadow-one" id="juan">Juan</h3>
                 
                 <div class="row">
                     <div class="col-md-6">
+                        <ul>
+                            <li class="mb-5">
+                                <img src="assets/img/icons/whatsapp.png" height="70" width="auto" alt="">
+                                <p class="f-open-sans-c fs-20 text-light">
+                                    3202577619 <i class="fa fa-clone cursor-p ml-2 tc-blue-one" aria-hidden="true" title="Copiar" (click)="copiarPortapapeles('3202577619')"></i>
+                                </p>
+                            </li>
+                            <li></li>
+                            <li></li>
+                        </ul>
                         
                     </div>
                     <div class="col-md-6"></div>
