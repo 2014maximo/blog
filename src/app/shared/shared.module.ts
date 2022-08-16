@@ -54,6 +54,7 @@ import { PrintCodeComponent } from './print-code/print-code.component';
     AccordeonComponent,
     IndiceContenidosComponent,
     BloqueContenidosComponent,
+    GaleriaPostComponent
   ]
 })
 export class SharedModule { }

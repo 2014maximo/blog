@@ -92,7 +92,7 @@ export const CATEGORIAS: CategoriasModel [] = [
                 nombre: 'COMUNICACION ENTRE COMPONENTES',
                 posicion: 'rot-1',
                 ruta:'ng-comunicacion-componentes',
-                activo: true
+                activo: false
             },
             {
                 nombre: 'CRUD CON UN MOCKDATA',
@@ -146,6 +146,12 @@ export const CATEGORIAS: CategoriasModel [] = [
                 nombre: 'PRUEBAS UNITARIAS',
                 posicion: 'rot-2',
                 ruta:'componentes/ANGULAR/ang_002.html',
+                activo: false
+            },
+            {
+                nombre: 'CABECERAS CORS',
+                posicion: 'rot-2',
+                ruta:'ng-cors',
                 activo: false
             },
         ],

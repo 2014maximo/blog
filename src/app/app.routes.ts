@@ -54,6 +54,7 @@ import { LoginComponent } from './shared/login/login.component';
 import { GestionFormularioComponent } from './components/ESTADISTICA/gestion-formulario/gestion-formulario.component';
 import { DartElementosComponent } from './components/DART/dart-elementos/dart-elementos.component';
 import { FlutterElementosComponent } from './components/FLUTTER/flutter-elementos/flutter-elementos.component';
+import { NgCorsComponent } from './components/ANGULAR/ng-cors/ng-cors.component';
 
 
 export const ROUTES: Routes = [
@@ -70,6 +71,7 @@ export const ROUTES: Routes = [
     { path: 'ng-instalacion', component: NgInstalacionComponent },
     { path: 'ng-descripcion-elementos', component: NgDescripcionElementosComponent },
     { path: 'ng-comunicacion-componentes', component: NgComunicacionEntreComponentesComponent },
+    { path: 'ng-cors', component: NgCorsComponent },
 // PRIMENG7
     { path: 'prime7-descripcion-elementos', component: Prime7DescripcionElementosComponent },
     { path: 'prime7-tablecheckbox', component: Prime7TablecheckboxComponent },

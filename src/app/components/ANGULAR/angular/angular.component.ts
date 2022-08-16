@@ -138,6 +138,14 @@ export class AngularComponent implements OnInit {
         colorTexto: 'text-light',
         activo: false
       },
+      {
+        nombre: 'CABECERAS CORS',
+        posicion: 'pos-z',
+        rutaExterna: 'ng-cors',
+        fondo: 'bg-Angular',
+        colorTexto: 'text-light',
+        activo: false
+      },
     ]
 
     this.indiceIonic = [

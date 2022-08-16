@@ -56,6 +56,7 @@ import { DevDiagramasSecuenciaComponent } from './DEVELOPER/dev-diagramas-secuen
 import { GestionFormularioComponent } from './ESTADISTICA/gestion-formulario/gestion-formulario.component';
 import { DartElementosComponent } from './DART/dart-elementos/dart-elementos.component';
 import { FlutterElementosComponent } from './FLUTTER/flutter-elementos/flutter-elementos.component';
+import { NgCorsComponent } from './ANGULAR/ng-cors/ng-cors.component';
 
 
 
@@ -116,7 +117,8 @@ import { FlutterElementosComponent } from './FLUTTER/flutter-elementos/flutter-e
     DevDiagramasSecuenciaComponent,
     GestionFormularioComponent,
     DartElementosComponent,
-    FlutterElementosComponent
+    FlutterElementosComponent,
+    NgCorsComponent
   ],
   imports: [
     CommonModule,
