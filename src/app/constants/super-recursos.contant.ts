@@ -371,6 +371,14 @@ export const LINKS: BloqueContenidoModel[] = [
                         red: ''
                     },
                     {
+                        img: 'assets/img/icons/newsapi.png',
+                        nombreRecurso: '',
+                        height: '45',
+                        rutaRecurso: 'https://newsapi.org/',
+                        descripcion: 'Localice artículos y titulares de última hora de fuentes de noticias y blogs de toda la web con nuestra API JSON.',
+                        red: ''
+                    },
+                    {
                         img: '',
                         nombreRecurso: 'Tabla de Códigos HTML',
                         height: '',
