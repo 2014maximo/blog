@@ -1,5 +1,5 @@
 import { BloqueContenidoModel } from '../models/bloque-contenidos.model';
-import { repositorioContenidoImagenes, rutaCatego } from './globales.constant';
+import { repositorioContenidoImagenes, rutaCatego, rutaImgIcons } from './globales.constant';
 
 
 export const LINKS: BloqueContenidoModel[] = [
@@ -717,14 +717,6 @@ export const LINKS: BloqueContenidoModel[] = [
                 links: [
                     {
                         img: '',
-                        nombreRecurso: 'CSS 3.0 MAKER',
-                        height: '',
-                        rutaRecurso: 'https://www.css3maker.com/index.html',
-                        descripcion: 'Esta herramienta facilita realizar "border-radius", "flexbox", "gradient", "transform", "animation", "transition", "RGBA", "text-shadow", "box-shadow", "text-rotation".',
-                        red: ''
-                    },
-                    {
-                        img: '',
                         nombreRecurso: '*CSS-TRICKS',
                         height: '',
                         rutaRecurso: 'https://css-tricks.com',
@@ -966,6 +958,14 @@ export const LINKS: BloqueContenidoModel[] = [
                         height: '60',
                         rutaRecurso: 'https://sweetalert2.github.io/',
                         descripcion: 'Un reemplazo hermoso, receptivo, personalizable y accesible (WAI-ARIA) para los cuadros emergentes de JavaScript Cero dependencias.',
+                        red: ''
+                    },
+                    {
+                        img: `${rutaImgIcons}icomoon.png`,
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://icomoon.io',
+                        descripcion: 'Soluciones de iconos Pixel Perfect.',
                         red: ''
                     },
                 ]
@@ -1227,6 +1227,15 @@ export const LINKS: BloqueContenidoModel[] = [
                         height: '',
                         rutaRecurso: 'https://www.tewari.org/',
                         descripcion: 'Energía libre basada en el vacío.',
+                        red: '',
+                        clipBoard: ''
+                    },
+                    {
+                        img: ``,
+                        nombreRecurso: 'FETCH',
+                        height: '',
+                        rutaRecurso: 'https://fetch.spec.whatwg.org/?hl=es-419#cors-protocol-exceptions',
+                        descripcion: 'LIVING STANDARD — LAST UPDATED 28 JULY 2022. El estándar Fetch define las solicitudes, las respuestas y el proceso que las vincula: la obtención.',
                         red: '',
                         clipBoard: ''
                     },
