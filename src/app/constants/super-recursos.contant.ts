@@ -717,18 +717,18 @@ export const LINKS: BloqueContenidoModel[] = [
                 links: [
                     {
                         img: '',
-                        nombreRecurso: '*CSS-TRICKS',
-                        height: '',
-                        rutaRecurso: 'https://css-tricks.com',
-                        descripcion: 'Documentación y referencia CSS con Flexbox y Web.',
-                        red: ''
-                    },
-                    {
-                        img: '',
                         nombreRecurso: 'Simple CSS',
                         height: '',
                         rutaRecurso: 'https://simplecss.eu/pxtoems.html',
                         descripcion: 'Convertir entre px, ems, pts, porcentaje.',
+                        red: ''
+                    },
+                    {
+                        img: '',
+                        nombreRecurso: 'CSS Gradient',
+                        height: '',
+                        rutaRecurso: 'https://cssgradient.io/',
+                        descripcion: 'Herramienta gratuita que le permite crear un fondo degradado para sitios web.',
                         red: ''
                     },
                 ]
