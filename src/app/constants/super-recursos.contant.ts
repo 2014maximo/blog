@@ -1239,6 +1239,15 @@ export const LINKS: BloqueContenidoModel[] = [
                         red: '',
                         clipBoard: ''
                     },
+                    {
+                        img: `assets/img/icons/psdfreebies.png`,
+                        nombreRecurso: '',
+                        height: '60',
+                        rutaRecurso: 'https://psdfreebies.com/psd/category/print/resume-templates/',
+                        descripcion: 'Descargue gratis la Plantilla PSD del CV moderno. Esta Plantilla PSD de Curriculum Vitae Moderno es perfecta para diseñadores gráficos, fotógrafos, diseñadores web y desarrolladores. El curriculum vitae Plantilla PSD tienen un ...',
+                        red: '',
+                        clipBoard: ''
+                    },
                 ]
             },
         ]
@@ -1393,6 +1402,21 @@ export const LINKS: BloqueContenidoModel[] = [
                         red: '',
                         clipBoard: ''
                     },
+                ]
+            },
+            {
+                index: '5',
+                links: [
+
+                    {
+                        img: '',
+                        nombreRecurso: 'DEVDOCS',
+                        height: '',
+                        rutaRecurso: 'https://devdocs.io',
+                        descripcion: 'DevDocs combina varias documentaciones de API en una interfaz rápida, organizada y con capacidad de búsqueda.',
+                        red: '',
+                        clipBoard: ''
+                    }
                 ]
             }
         ]
