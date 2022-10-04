@@ -16,6 +16,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { GaleriaPostComponent } from './galeria-post/galeria-post.component';
 import { HeadlineComponent } from './headline/headline.component';
 import { PrintCodeComponent } from './print-code/print-code.component';
+import { PaginadorComponent } from './paginador/paginador.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { PrintCodeComponent } from './print-code/print-code.component';
     GaleriaPostComponent,
     HeadlineComponent,
     PrintCodeComponent,
+    PaginadorComponent,
   ],
   imports: [
     CommonModule,
@@ -54,7 +56,8 @@ import { PrintCodeComponent } from './print-code/print-code.component';
     AccordeonComponent,
     IndiceContenidosComponent,
     BloqueContenidosComponent,
-    GaleriaPostComponent
+    GaleriaPostComponent,
+    PaginadorComponent
   ]
 })
 export class SharedModule { }

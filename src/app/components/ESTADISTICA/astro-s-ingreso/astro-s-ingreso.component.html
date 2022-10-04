@@ -11,41 +11,27 @@
 <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10 text-center">
-        <h3 class="fuenteSeis t7 fs-30">INGRESAR</h3>
-        <div class="border p-3">
-            <form action="">
-                <div class="row">
-                    <div class="col-md-3">
-                        <h4 class="f-open-sans-c text-light">Sorteo</h4>
-                        <input type="text" class="w-100 text-center input-ingress tc-yellow-one" maxlength="4">
-                    </div>
-                    <div class="col-md-3">
-                        <h4 class="f-open-sans-c text-light">Número</h4>
-                        <div class="row">
-                            <div class="col-md-3 m-0">
-                                <input type="text" class="w-100 input-ingress tc-yellow-one">
-                            </div>
-                            <div class="col-md-3 m-0">
-                                <input type="text" class="w-100 input-ingress tc-yellow-one">
-                            </div>
-                            <div class="col-md-3 m-0">
-                                <input type="text" class="w-100 input-ingress tc-yellow-one">
-                            </div>
-                            <div class="col-md-3 m-0">
-                                <input type="text" class="w-100 input-ingress tc-yellow-one">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <h4 class="f-open-sans-c text-light">Signo</h4>
-                        <input type="text" class="w-100 input-ingress">
-                    </div>
-                    <div class="col-md-3">
-                        <h4 class="f-open-sans-c text-light">Fecha</h4>
-                        <input type="text" class="w-100 input-ingress">
-                    </div>
-                </div>
-            </form>
+        <h3 class="fuenteSeis t7 fs-30">REGISTROS</h3>
+        <div class="shadow-one">
+            <table class="table table-sm table-striped table-dark">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Index</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Número</th>
+                        <th scope="col">Signo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let sorteo of astro; let i = index" class="text-light">
+                        <th scope="row">{{ i + 1 }}</th>
+                        <td>{{ sorteo.fecha }}</td>
+                        <td>{{ sorteo.uno }} {{ sorteo.dos }} {{ sorteo.tres }} {{ sorteo.cuatro }}</td>
+                        <td>{{ cargarSigno(sorteo.signo) }}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <app-paginador [contenido]="astro" [cantidad]="50" (paginado)="recargaAstro($event)"></app-paginador>
         </div>
     </div>
     <div class="col-md-1"></div>
