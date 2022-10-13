@@ -44,7 +44,7 @@ export class AstroSIngresoComponent implements OnInit {
   }
 
   private cargarAstro(){
-    return this.webService.consultarLoterias().subscribe( (datos:any) => {
+    return this.webService.consultarAstro().subscribe( (datos:any) => {
       let total = datos.astro_sol.length / this.paginacion;
       this.astro = datos.astro_sol;
       // this.astro = this.astro.length - ()
@@ -53,7 +53,7 @@ export class AstroSIngresoComponent implements OnInit {
 
   public cargarSigno(valor: number): string{
 
-    let signos = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+    let signos = ['Aries','Tauro','Géminis','Cáncer','Leo','Virgo','Libra','Escorpio','Sagitario','Capricornio','Acuario','Piscis'];
 
     return signos[valor - 1];
   }

@@ -18,16 +18,18 @@
                     <tr>
                         <th scope="col">Index</th>
                         <th scope="col">Fecha</th>
-                        <th scope="col">Número</th>
+                        <th scope="col">Sorteo</th>
                         <th scope="col">Signo</th>
+                        <th scope="col">Número</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr *ngFor="let sorteo of astro; let i = index" class="text-light">
+                    <tr *ngFor="let sorteo of astro; let i = index" class="text-light fuenteDos">
                         <th scope="row">{{ i + 1 }}</th>
                         <td>{{ sorteo.fecha }}</td>
-                        <td>{{ sorteo.uno }} {{ sorteo.dos }} {{ sorteo.tres }} {{ sorteo.cuatro }}</td>
+                        <td>{{ sorteo.sorteo }}</td>
                         <td>{{ cargarSigno(sorteo.signo) }}</td>
+                        <td>{{ sorteo.uno }} {{ sorteo.dos }} {{ sorteo.tres }} {{ sorteo.cuatro }}</td>
                     </tr>
                 </tbody>
             </table>

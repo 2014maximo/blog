@@ -11,7 +11,7 @@ export class WebServicesService {
 
   constructor(private http: HttpClient) { }
 
-  consultarLoterias(): Observable<any[]> {
-    return this.http.get<any[]>(`${this.recursos}estadistica.json`);
+  consultarAstro(): Observable<any[]> {
+    return this.http.get<any[]>(`${this.recursos}astro.json`);
   }
 }
