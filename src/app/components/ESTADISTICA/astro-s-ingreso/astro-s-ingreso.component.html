@@ -7,13 +7,58 @@
 
 
 <div class="espacio"></div>
-
 <div class="row">
     <div class="col-md-1"></div>
-    <div class="col-md-10 text-center">
-        <h3 class="fuenteSeis t7 fs-30">REGISTROS</h3>
+    <div class="col-md-10 shadow-one p-3 fuenteDos">
+        <form action="">
+            <div class="row">
+                <div class="col-md-3">
+                    <select name="" id="" placeholder="Año" class="bg-transparent w-100 border p-1 text-light">
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" placeholder="Sorteo" class="bg-transparent w-100 border p-1 text-light">
+                </div>
+                <div class="col-md-3">
+                    <select name="" id="" placeholder="Año" class="bg-transparent w-100 border p-1 text-light">
+                        <option value="Aries">Aries</option>
+                        <option value="Tauro">Tauro</option>
+                        <option value="Geminis">Geminis</option>
+                        <option value="Cancer">Cancer</option>
+                        <option value="Leo">Leo</option>
+                        <option value="Virgo">Virgo</option>
+                        <option value="Libra">Libra</option>
+                        <option value="Escorpio">Escorpio</option>
+                        <option value="Sagitario">Sagitario</option>
+                        <option value="Capricornio">Capricornio</option>
+                        <option value="Acuario">Acuario</option>
+                        <option value="Piscis">Piscis</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" placeholder="Número" class="bg-transparent w-100 border p-1 text-light">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12 text-right">
+                    <button class="pl-5 pr-5 bg-dark text-light">Buscar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+<div class="espaciado"></div>
+<div class="row">
+    <div class="col-md-12 text-center">
+        <h3 class="fuenteSeis t7 fs-30 mb-4">REGISTROS</h3>
         <div class="shadow-one">
-            <table class="table table-sm table-striped table-dark">
+            <table class="table table-sm table-striped table-bordered table-dark">
                 <thead class="thead-dark">
                     <tr>
                         <th scope="col">Index</th>
@@ -21,6 +66,11 @@
                         <th scope="col">Sorteo</th>
                         <th scope="col">Signo</th>
                         <th scope="col">Número</th>
+                        <th scope="col">Mapa #1</th>
+                        <th scope="col">Mapa #2</th>
+                        <th scope="col">Mapa #3</th>
+                        <th scope="col">Mapa #4</th>
+                        <th scope="col">Mapa Signo</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -30,13 +80,17 @@
                         <td>{{ sorteo.sorteo }}</td>
                         <td>{{ cargarSigno(sorteo.signo) }}</td>
                         <td>{{ sorteo.uno }} {{ sorteo.dos }} {{ sorteo.tres }} {{ sorteo.cuatro }}</td>
+                        <td>1234567890</td>
+                        <td>1234567890</td>
+                        <td>1234567890</td>
+                        <td>1234567890</td>
+                        <td>123456789101112</td>
                     </tr>
                 </tbody>
             </table>
-            <app-paginador [contenido]="astro" [cantidad]="50" (paginado)="recargaAstro($event)"></app-paginador>
         </div>
+        <app-paginador (paginados)="recibirCantidadElementos($event)" [contenedor]="astroPaginar" [itemIniciales]="10"></app-paginador>
     </div>
-    <div class="col-md-1"></div>
 </div>
 
 <div class="espaciado"></div>

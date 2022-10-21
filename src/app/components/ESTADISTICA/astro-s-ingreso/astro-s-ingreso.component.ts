@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel } from '../../../models/post.model';
-import { EstadisticaService } from '../../../services/estadistica.service';
 import { WebServicesService } from '../../../services/web-services.service';
-import { AstroSolModel } from '../../../models/web-service.model';
 
 
 @Component({
@@ -14,7 +12,11 @@ export class AstroSIngresoComponent implements OnInit {
 
   public astro: any;
   public astroCache: any;
-  public paginacion: number = 50;
+  public astroPaginar: any;
+  public paginacionInicial: number = 10;
+  public paginas: any[]=[];
+
+  private totalRegistros: number = 0;
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',
@@ -23,7 +25,7 @@ export class AstroSIngresoComponent implements OnInit {
     tituloPost: ''
   }
   public cats = [];
-  constructor(private firestoreService: EstadisticaService, private webService: WebServicesService) {
+  constructor(private webService: WebServicesService) {
     this.inicializarVariables();
   }
   
@@ -43,18 +45,14 @@ export class AstroSIngresoComponent implements OnInit {
 
   }
 
-  private cargarAstro(){
+  private cargarAstro(pagina?: any){
     return this.webService.consultarAstro().subscribe( (datos:any) => {
-      let total = datos.astro_sol.length / this.paginacion;
-      this.astro = datos.astro_sol;
-      // this.astro = this.astro.length - ()
+      this.astroPaginar = datos.astro_sol;
     });
   }
 
   public cargarSigno(valor: number): string{
-
     let signos = ['Aries','Tauro','Géminis','Cáncer','Leo','Virgo','Libra','Escorpio','Sagitario','Capricornio','Acuario','Piscis'];
-
     return signos[valor - 1];
   }
 
@@ -62,6 +60,11 @@ export class AstroSIngresoComponent implements OnInit {
     this.astro = Object.assign([], e);
   }
 
+  public recibirCantidadElementos(paginado: any){
+    this.astro = Object.assign([], paginado);
+  }
+
+  
   scroll(el: HTMLElement) {
     el.scrollIntoView();
   }
