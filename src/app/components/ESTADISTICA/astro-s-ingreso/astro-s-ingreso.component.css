@@ -6,3 +6,24 @@
     font-family: var(--f-shadow-into-l);
     font-size: 60px;
 }
+
+.frio{
+    background-color: #9bc2e6;
+    width: 15px;
+}
+.medio{
+    background-color: #c6e0b4;
+    width: 15px;
+}
+.caliente{
+    background-color: #f4b084;
+    width: 15px;
+}
+
+.w-a li {
+    width: 15px;
+}
+
+.h-a{
+    height: 20px;
+}

@@ -47,6 +47,21 @@ export const POSTS: PostModel[] = [
         colorText: '',
         mostrarBreadcrumb: false
     },
+    // CSS
+    {
+        id_post: 'css-0001',
+        rutaImagen: `${rutaCatego}dart_text_white.png`,
+        alturaImagen: '60',
+        incluirFondo: true,
+        nombre: '',
+        sombra: 'drop',
+        categoria: 'css',
+        fechaActualizacion: new Date(2022,10,23),
+        fechaCreacion: new Date(2022,10,23),
+        ruta: 'css-bootstrap4-clases',
+        colorText: 'tc-blue-six',
+        mostrarBreadcrumb: false
+    },
     // DART
     {
         rutaImagen: `${rutaCatego}dart_text_white.png`,

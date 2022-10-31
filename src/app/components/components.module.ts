@@ -57,6 +57,7 @@ import { GestionFormularioComponent } from './ESTADISTICA/gestion-formulario/ges
 import { DartElementosComponent } from './DART/dart-elementos/dart-elementos.component';
 import { FlutterElementosComponent } from './FLUTTER/flutter-elementos/flutter-elementos.component';
 import { NgCorsComponent } from './ANGULAR/ng-cors/ng-cors.component';
+import { CssBootstrap4clasesComponent } from './CSS/css-bootstrap4clases/css-bootstrap4clases.component';
 
 
 
@@ -118,7 +119,8 @@ import { NgCorsComponent } from './ANGULAR/ng-cors/ng-cors.component';
     GestionFormularioComponent,
     DartElementosComponent,
     FlutterElementosComponent,
-    NgCorsComponent
+    NgCorsComponent,
+    CssBootstrap4clasesComponent
   ],
   imports: [
     CommonModule,

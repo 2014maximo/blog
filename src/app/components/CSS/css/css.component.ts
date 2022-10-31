@@ -89,6 +89,14 @@ export class CssComponent implements OnInit {
         fondo: 'bg-Css',
         colorTexto: 'text-light'
       },
+      {
+        nombre: 'BOOTSTRAP 4 CLASES MÁS USADAS',
+        posicion: 'rot-2',
+        rutaExterna: 'css-bootstrap4-clases',
+        fondo: 'bg-Css',
+        colorTexto: 'text-light',
+        activo: true
+      },
     ]
   }
 

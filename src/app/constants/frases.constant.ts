@@ -207,7 +207,14 @@ export const FRASES = [
         autor: 'Dan Brown',
         borde: 'border-success',
         colorText: 'text-success',
-        id:29
+        id:30
+    },
+    {
+        frase: 'La verdadera inteligencia actúa silenciosamente. Es en la quietud donde encontramos la creatividad y la solución a los problemas.',
+        autor: 'Eckhart Tolle',
+        borde: 'border-secondary',
+        colorText: 'text-secondary',
+        id:31
     },
 
 ]

@@ -20,6 +20,7 @@ export class PaginadorComponent implements OnInit {
   ngOnInit(): void {
     setTimeout(() => {
       if(this.contenedor){
+        this.contenedorCache = this.contenedor;
         this.calcularPaginas(this.itemIniciales);
         this.paginados.emit(this.totalPaginas[0].contenido)
       }
@@ -35,6 +36,9 @@ export class PaginadorComponent implements OnInit {
     this.totalPaginas = [];
     let contador = 0;
     // let cantPaginas = Math.ceil(this.contenedor.length / cantElementos);
+    if(this.contenedorCache){
+      this.contenedor = this.contenedorCache;
+    }
     for(let i = 0; i < this.contenedor.length; i += cantElementos){
       this.contenedorCache = this.contenedor;
       this.totalPaginas[contador] = {

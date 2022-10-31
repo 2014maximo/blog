@@ -243,6 +243,12 @@ export const CATEGORIAS: CategoriasModel [] = [
                 ruta:'menu-hamburguesa-animado',
                 activo: false
             },
+            {
+                nombre: 'BOOTSTRAP 4 CLASES MÁS USADAS',
+                posicion: 'rot-2',
+                ruta:'css-bootstrap4-clases',
+                activo: true
+            },
         ]
     },
 /*      DART    */

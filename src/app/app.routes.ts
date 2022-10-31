@@ -55,6 +55,7 @@ import { GestionFormularioComponent } from './components/ESTADISTICA/gestion-for
 import { DartElementosComponent } from './components/DART/dart-elementos/dart-elementos.component';
 import { FlutterElementosComponent } from './components/FLUTTER/flutter-elementos/flutter-elementos.component';
 import { NgCorsComponent } from './components/ANGULAR/ng-cors/ng-cors.component';
+import { CssBootstrap4clasesComponent } from './components/CSS/css-bootstrap4clases/css-bootstrap4clases.component';
 
 
 export const ROUTES: Routes = [
@@ -78,6 +79,7 @@ export const ROUTES: Routes = [
 
 // CSS
     { path: 'css', component: CssComponent },
+    { path: 'css-bootstrap4-clases', component: CssBootstrap4clasesComponent },
 
 // DART
     { path: 'dart', component: DartComponent },

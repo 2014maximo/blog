@@ -26,18 +26,7 @@
                 </div>
                 <div class="col-md-3">
                     <select name="" id="" placeholder="Año" class="bg-transparent w-100 border p-1 text-light">
-                        <option value="Aries">Aries</option>
-                        <option value="Tauro">Tauro</option>
-                        <option value="Geminis">Geminis</option>
-                        <option value="Cancer">Cancer</option>
-                        <option value="Leo">Leo</option>
-                        <option value="Virgo">Virgo</option>
-                        <option value="Libra">Libra</option>
-                        <option value="Escorpio">Escorpio</option>
-                        <option value="Sagitario">Sagitario</option>
-                        <option value="Capricornio">Capricornio</option>
-                        <option value="Acuario">Acuario</option>
-                        <option value="Piscis">Piscis</option>
+                        <option class="text-primary" *ngFor ="let astro of signo" value="{{ astro }}">{{ astro }}</option>
                     </select>
                 </div>
                 <div class="col-md-3">
@@ -66,6 +55,7 @@
                         <th scope="col">Sorteo</th>
                         <th scope="col">Signo</th>
                         <th scope="col">Número</th>
+                        <th scope="col">Patrón</th>
                         <th scope="col">Mapa #1</th>
                         <th scope="col">Mapa #2</th>
                         <th scope="col">Mapa #3</th>
@@ -74,22 +64,95 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr *ngFor="let sorteo of astro; let i = index" class="text-light fuenteDos">
+                    <tr *ngFor="let sorteo of astroEstadistica; let i = index" class="fuenteDos">
                         <th scope="row">{{ i + 1 }}</th>
                         <td>{{ sorteo.fecha }}</td>
                         <td>{{ sorteo.sorteo }}</td>
-                        <td>{{ cargarSigno(sorteo.signo) }}</td>
-                        <td>{{ sorteo.uno }} {{ sorteo.dos }} {{ sorteo.tres }} {{ sorteo.cuatro }}</td>
-                        <td>1234567890</td>
-                        <td>1234567890</td>
-                        <td>1234567890</td>
-                        <td>1234567890</td>
-                        <td>123456789101112</td>
+                        <td>{{ cargarSigno(sorteo.signo.signo) }}</td>
+                        <td>{{ sorteo.uno.numero }} {{ sorteo.dos.numero }} {{ sorteo.tres.numero }} {{ sorteo.cuatro.numero }}</td>
+                        <td class="d-flex">
+                            <span [ngClass]="devolverRaiting(sorteo.uno)" class="h-a"></span>
+                            <span [ngClass]="devolverRaiting(sorteo.dos)" class="h-a"></span>
+                            <span [ngClass]="devolverRaiting(sorteo.tres)" class="h-a"></span>
+                            <span [ngClass]="devolverRaiting(sorteo.cuatro)" class="h-a"></span>
+                        </td>
+                        <td class="text-dark">
+                            <ul class="d-flex list-unstyled justify-content-center align-items-end w-a">
+                                <li [ngClass]="{'cuadro': sorteo.uno.numero === 1}" class="{{ sorteo.uno.nUno }}">1</li>
+                                <li [ngClass]="{'cuadro': sorteo.uno.numero === 2}" class="{{ sorteo.uno.nDos }}">2</li>
+                                <li [ngClass]="{'cuadro': sorteo.uno.numero === 3}" class="{{ sorteo.uno.nTres}}">3</li>
+                                <li [ngClass]="{'cuadro': sorteo.uno.numero === 4}" class="{{ sorteo.uno.nCuatro }}">4</li>
+                                <li [ngClass]="{'cuadro': sorteo.uno.numero === 5}" class="{{ sorteo.uno.nCinco }}">5</li>
+                                <li [ngClass]="{'cuadro': sorteo.uno.numero === 6}" class="{{ sorteo.uno.nSeis }}">6</li>
+                                <li [ngClass]="{'cuadro': sorteo.uno.numero === 7}" class="{{ sorteo.uno.nSiete }}">7</li>
+                                <li [ngClass]="{'cuadro': sorteo.uno.numero === 8}" class="{{ sorteo.uno.nOcho }}">8</li>
+                                <li [ngClass]="{'cuadro': sorteo.uno.numero === 9}" class="{{ sorteo.uno.nNueve }}">9</li>
+                                <li [ngClass]="{'cuadro': sorteo.uno.numero === 0}" class="{{ sorteo.uno.nCero }}">0</li>
+                            </ul>
+                        </td>
+                        <td class="text-dark">
+                            <ul class="d-flex list-unstyled justify-content-center align-items-end w-a">
+                                <li [ngClass]="{'cuadro': sorteo.dos.numero === 1}" class="{{ sorteo.dos.nUno }}">1</li>
+                                <li [ngClass]="{'cuadro': sorteo.dos.numero === 2}" class="{{ sorteo.dos.nDos }}">2</li>
+                                <li [ngClass]="{'cuadro': sorteo.dos.numero === 3}" class="{{ sorteo.dos.nTres }}">3</li>
+                                <li [ngClass]="{'cuadro': sorteo.dos.numero === 4}" class="{{ sorteo.dos.nCuatro }}">4</li>
+                                <li [ngClass]="{'cuadro': sorteo.dos.numero === 5}" class="{{ sorteo.dos.nCinco }}">5</li>
+                                <li [ngClass]="{'cuadro': sorteo.dos.numero === 6}" class="{{ sorteo.dos.nSeis }}">6</li>
+                                <li [ngClass]="{'cuadro': sorteo.dos.numero === 7}" class="{{ sorteo.dos.nSiete }}">7</li>
+                                <li [ngClass]="{'cuadro': sorteo.dos.numero === 8}" class="{{ sorteo.dos.nOcho }}">8</li>
+                                <li [ngClass]="{'cuadro': sorteo.dos.numero === 9}" class="{{ sorteo.dos.nNueve }}">9</li>
+                                <li [ngClass]="{'cuadro': sorteo.dos.numero === 0}" class="{{ sorteo.dos.nCero }}">0</li>
+                            </ul>
+                        </td>
+                        <td class="text-dark">
+                            <ul class="d-flex list-unstyled justify-content-center align-items-end w-a">
+                                <li [ngClass]="{'cuadro': sorteo.tres.numero === 1}" class="{{ sorteo.tres.nUno }}">1</li>
+                                <li [ngClass]="{'cuadro': sorteo.tres.numero === 2}" class="{{ sorteo.tres.nDos }}">2</li>
+                                <li [ngClass]="{'cuadro': sorteo.tres.numero === 3}" class="{{ sorteo.tres.nTres }}">3</li>
+                                <li [ngClass]="{'cuadro': sorteo.tres.numero === 4}" class="{{ sorteo.tres.nCuatro }}">4</li>
+                                <li [ngClass]="{'cuadro': sorteo.tres.numero === 5}" class="{{ sorteo.tres.nCinco }}">5</li>
+                                <li [ngClass]="{'cuadro': sorteo.tres.numero === 6}" class="{{ sorteo.tres.nSeis }}">6</li>
+                                <li [ngClass]="{'cuadro': sorteo.tres.numero === 7}" class="{{ sorteo.tres.nSiete }}">7</li>
+                                <li [ngClass]="{'cuadro': sorteo.tres.numero === 8}" class="{{ sorteo.tres.nOcho }}">8</li>
+                                <li [ngClass]="{'cuadro': sorteo.tres.numero === 9}" class="{{ sorteo.tres.nNueve }}">9</li>
+                                <li [ngClass]="{'cuadro': sorteo.tres.numero === 0}" class="{{ sorteo.tres.nCero }}">0</li>
+                            </ul>
+                        </td>
+                        <td class="text-dark">
+                            <ul class="d-flex list-unstyled justify-content-center align-items-end w-a">
+                                <li [ngClass]="{'cuadro': sorteo.cuatro.numero === 1}" class="{{ sorteo.cuatro.nUno }}">1</li>
+                                <li [ngClass]="{'cuadro': sorteo.cuatro.numero === 2}" class="{{ sorteo.cuatro.nDos }}">2</li>
+                                <li [ngClass]="{'cuadro': sorteo.cuatro.numero === 3}" class="{{ sorteo.cuatro.nTres }}">3</li>
+                                <li [ngClass]="{'cuadro': sorteo.cuatro.numero === 4}" class="{{ sorteo.cuatro.nCuatro }}">4</li>
+                                <li [ngClass]="{'cuadro': sorteo.cuatro.numero === 5}" class="{{ sorteo.cuatro.nCinco }}">5</li>
+                                <li [ngClass]="{'cuadro': sorteo.cuatro.numero === 6}" class="{{ sorteo.cuatro.nSeis }}">6</li>
+                                <li [ngClass]="{'cuadro': sorteo.cuatro.numero === 7}" class="{{ sorteo.cuatro.nSiete }}">7</li>
+                                <li [ngClass]="{'cuadro': sorteo.cuatro.numero === 8}" class="{{ sorteo.cuatro.nOcho }}">8</li>
+                                <li [ngClass]="{'cuadro': sorteo.cuatro.numero === 9}" class="{{ sorteo.cuatro.nNueve }}">9</li>
+                                <li [ngClass]="{'cuadro': sorteo.cuatro.numero === 0}" class="{{ sorteo.cuatro.nCero }}">0</li>
+                            </ul>
+                        </td>
+                        <td class="text-dark">
+                            <ul class="d-flex list-unstyled justify-content-center align-items-end w-a">
+                                <li [ngClass]="{'cuadro': sorteo.signo.signo === 1}" class="{{ sorteo.signo.nUno }}">1</li>
+                                <li [ngClass]="{'cuadro': sorteo.signo.signo === 2}" class="{{ sorteo.signo.nDos }}">2</li>
+                                <li [ngClass]="{'cuadro': sorteo.signo.signo === 3}" class="{{ sorteo.signo.nTres }}">3</li>
+                                <li [ngClass]="{'cuadro': sorteo.signo.signo === 4}" class="{{ sorteo.signo.nCuatro }}">4</li>
+                                <li [ngClass]="{'cuadro': sorteo.signo.signo === 5}" class="{{ sorteo.signo.nCinco }}">5</li>
+                                <li [ngClass]="{'cuadro': sorteo.signo.signo === 6}" class="{{ sorteo.signo.nSeis }}">6</li>
+                                <li [ngClass]="{'cuadro': sorteo.signo.signo === 7}" class="{{ sorteo.signo.nSiete }}">7</li>
+                                <li [ngClass]="{'cuadro': sorteo.signo.signo === 8}" class="{{ sorteo.signo.nOcho }}">8</li>
+                                <li [ngClass]="{'cuadro': sorteo.signo.signo === 9}" class="{{ sorteo.signo.nNueve }}">9</li>
+                                <li [ngClass]="{'cuadro': sorteo.signo.signo === 10}" class="{{ sorteo.signo.nDiez }}">10</li>
+                                <li [ngClass]="{'cuadro': sorteo.signo.signo === 11}" class="{{ sorteo.signo.nOnce }}">11</li>
+                                <li [ngClass]="{'cuadro': sorteo.signo.signo === 12}" class="{{ sorteo.signo.nDoce }}">12</li>
+                            </ul>
+                        </td>
                     </tr>
                 </tbody>
             </table>
         </div>
-        <app-paginador (paginados)="recibirCantidadElementos($event)" [contenedor]="astroPaginar" [itemIniciales]="10"></app-paginador>
+        <app-paginador (paginados)="recibirCantidadElementos($event)" [contenedor]="astroEstadistica" [itemIniciales]="10"></app-paginador>
     </div>
 </div>
 
