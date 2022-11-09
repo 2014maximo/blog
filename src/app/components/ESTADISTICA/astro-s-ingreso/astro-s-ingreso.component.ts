@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel } from '../../../models/post.model';
 import { WebServicesService } from '../../../services/web-services.service';
 import { SIGNOS } from '../../../constants/globales.constant';
+import { CuatroDigitosPorTres, CuatroDigitosPorTresCadena } from '../../../constants/estadistica.contant';
 
 
 @Component({
@@ -19,6 +20,8 @@ export class AstroSIngresoComponent implements OnInit {
   public signo: any[]=[];
   public patron: any[] = [];
   public astroEstadistica: any[]=[];
+  public raitings: any[]=[];
+
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',
     alturaImagen: '',
@@ -35,12 +38,7 @@ export class AstroSIngresoComponent implements OnInit {
   }
   
   ngOnInit(): void {
-    if(this.astroEstadistica){
-      this.astroEstadistica.forEach((element: any, index: number, array: any) => {
-        this.patron[index] = { index: index, patron: this.numerarPatron(element.uno, element.dos, element.tres, element.cuatro)}
-      });
-    }
-    console.log(this.astroEstadistica, 'ASTRO ESTADISTICA');
+
   }
   
   private inicializarVariables() {
@@ -48,7 +46,7 @@ export class AstroSIngresoComponent implements OnInit {
       rutaImagen: 'assets/img/icons/astro-sol.png',
       fondo: true,
       tituloPost: '',
-      alturaImagen: '150',
+      alturaImagen: '70',
       sombra: 'drop'
     };
 
@@ -60,8 +58,23 @@ export class AstroSIngresoComponent implements OnInit {
   private numerarPatron(col1:any, col2:any, col3:any, col4:any):number{
     let patron = 0;
     
+    return patron = +(this.traducirCalificacion(this.devolverRaiting(col1))
+            + this.traducirCalificacion(this.devolverRaiting(col2))
+            + this.traducirCalificacion(this.devolverRaiting(col3))
+            + this.traducirCalificacion(this.devolverRaiting(col4)));
 
-    return patron;
+  }
+
+  traducirCalificacion(temperatura: string): string{
+    let numero = '';
+    if(temperatura === 'frio'){
+      numero = '1';
+    } else if (temperatura === 'medio'){
+      numero = '2'
+    } else if (temperatura === 'caliente'){
+      numero = '3'
+    }
+    return numero;
   }
 
   private analizarEstadistica(){
@@ -86,6 +99,7 @@ export class AstroSIngresoComponent implements OnInit {
             nDoce: this.calificar('cinco', i, 12)
           },
           uno: {
+            
             numero: this.astroPaginar[i].uno,
             nUno: this.calificar('uno', i, 1),
             nDos: this.calificar('uno', i, 2),
@@ -139,7 +153,54 @@ export class AstroSIngresoComponent implements OnInit {
           },
         } 
       }
+
+      this.astroEstadistica.forEach((element: any, index: number) => {
+        this.patron[index] = { index: index, patron: this.numerarPatron(element.uno, element.dos, element.tres, element.cuatro)}
+      });
+
+      this.patron = this.patron.sort( (a:any, b:any) => {
+        return a.patron - b.patron
+      });
+
+      let repetidos: any = {};
+      
+      this.patron = this.patron.slice(this.patron.length - 60, this.patron.length)
+
+      this.patron.forEach(function(numero){
+        repetidos[numero.patron] = (repetidos[numero.patron] || 0) + 1;
+      });
+
+      CuatroDigitosPorTresCadena.forEach( (item: any, idx: number)=> {
+        this.raitings[idx] = {
+          index: idx,
+          patron: item.numero,
+          raiting: this.returnRaiting(item.numero, repetidos),
+          numeros: this.numerosGanadores(item, this.astroEstadistica[this.astroEstadistica.length - 1])
+        }
+      });
+
+      this.raitings = this.raitings.sort((a:any, b:any) => {
+        return b.raiting - a.raiting
+      });
+
+      console.log(this.raitings, 'this.raitings');
+
     }
+  }
+
+  private returnRaiting(e:number, grupo: any): number{
+    let valor;
+    let grupoArray: any[]=[];
+    let indices = Object.keys(grupo);
+    let valores = Object.values(grupo);
+    for(let i=0; i < valores.length; i++){
+      grupoArray[i] = { indice: indices[i], valor: valores[i]}
+    }
+
+    valor = grupoArray?.find( element => +element.indice === e );
+  
+    return parseInt(valor? valor.valor:'0')
+    
   }
 
   private cargarAstro(pagina?: any){
@@ -248,9 +309,78 @@ export class AstroSIngresoComponent implements OnInit {
 
     return raiting;
   }
+
+  public ordenarPatron(array: any){
+    array.sort( (a:any, b:any) => {
+      return a.patron - b.patron
+    })
+  }
   
   scroll(el: HTMLElement) {
     el.scrollIntoView();
+  }
+
+  numerosGanadores(patron: number, estadoActual: any): any[]{
+    console.log(patron, estadoActual);
+
+    let col1 = this.extraerNumeros(estadoActual.uno);
+    let col2 = this.extraerNumeros(estadoActual.dos);
+    let col3 = this.extraerNumeros(estadoActual.tres);
+    let col4 = this.extraerNumeros(estadoActual.cuatro);
+
+    console.log(col1, 'UNO');
+
+
+    
+
+
+    return []
+  }
+
+  private extraerNumeros(bloque: any): any[]{
+    let values = Object.values(bloque)
+    let keys = Object.keys(bloque);
+    let bloqueCompuesto: any[]=[];
+    
+    for(let i=0; i < 10; i++){
+      bloqueCompuesto[i] = {
+        numero: this.traducirNumero(keys[i]),
+        calificacion: values[i]
+      }
+    }
+    
+
+    return bloqueCompuesto
+  }
+
+  traducirNumero(dato: string):number{
+    let numero=0;
+
+    if(dato === 'nUno'){
+      numero = 1
+    } else if(dato === 'nDos'){
+      numero = 2
+    } else if(dato === 'nTres'){
+      numero = 3
+    } else if(dato === 'nCuatro'){
+      numero = 4
+    } else if(dato === 'nCinco'){
+      numero = 5
+    } else if(dato === 'nSeis'){
+      numero = 6
+    } else if(dato === 'nSiete'){
+      numero = 7
+    } else if(dato === 'nOcho'){
+      numero = 8
+    } else if(dato === 'nNueve'){
+      numero = 9
+    } else if(dato === 'nCero'){
+      numero = 0
+    } else {
+
+    }
+
+    return numero
   }
 
 }

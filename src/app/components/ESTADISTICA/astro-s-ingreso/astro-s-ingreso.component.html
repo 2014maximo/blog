@@ -157,6 +157,31 @@
 </div>
 
 <div class="espaciado"></div>
+
+<div class="row">
+    <div class="col-md-6 text-center">
+        <h3 class="fuenteSeis t7 fs-30 mb-4">RAITING PATRONES</h3>
+        <table class="table table-sm bg-light fuenteDos">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Patrón</th>
+                <th scope="col">Raiting</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let raiting of raitings">
+                <th scope="row">{{ raiting.index }}</th>
+                <td>{{ raiting.patron }}</td>
+                <td>{{ raiting.raiting }}</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    <div class="col-md-6"></div>
+</div>
+
+
 <div class="espaciado"></div>
 
 
