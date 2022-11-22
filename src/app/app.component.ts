@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'libreta';
+
+  constructor(){
+    console.log('versión 1.0.0.1')
+  }
 }
