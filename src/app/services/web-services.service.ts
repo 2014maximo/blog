@@ -14,4 +14,8 @@ export class WebServicesService {
   consultarAstro(): Observable<any[]> {
     return this.http.get<any[]>(`${this.recursos}astro.json`);
   }
+
+  consultarAstroFull(): Observable<any[]> {
+    return this.http.get<any[]>(`${this.recursos}estadistica.json`);
+  }
 }

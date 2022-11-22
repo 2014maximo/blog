@@ -5,9 +5,15 @@
         <option value="100">100</option>
         <option value="200">200</option>
     </select>
-    <div class="d-flex">
-        <a *ngFor="let pages of totalPaginas" (click)="cargarPagina(pages.pagina)" class="cursor-p">
-            <p class="text-light ml-3 d-block">{{ pages.pagina + 1}}</p>
-        </a>
+</div>
+<div class="row mt-3">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="row">
+            <a *ngFor="let pages of totalPaginas" (click)="cargarPagina(pages.pagina)" class="cursor-p col">
+                <p class="text-light ml-3 d-block fuenteDos">{{ pages.pagina + 1}}</p>
+            </a>
+        </div>
     </div>
+    <div class="col-md-1"></div>
 </div>

@@ -21,6 +21,7 @@ export class AstroSIngresoComponent implements OnInit {
   public patron: any[] = [];
   public astroEstadistica: any[]=[];
   public raitings: any[]=[];
+  public nuevos: any[]=[];
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',
@@ -51,6 +52,7 @@ export class AstroSIngresoComponent implements OnInit {
     };
 
     this.cargarAstro();
+    this.cargarAstroFull();
     this.signo = SIGNOS;
     
   }
@@ -165,25 +167,30 @@ export class AstroSIngresoComponent implements OnInit {
       let repetidos: any = {};
       
       this.patron = this.patron.slice(this.patron.length - 60, this.patron.length)
+      /* Extraer el patron de los últimos 60 sorteos */
 
       this.patron.forEach(function(numero){
         repetidos[numero.patron] = (repetidos[numero.patron] || 0) + 1;
-      });
+      }); // Crear un objeto con los patrones y la cantidad de veces que se repiten
 
+      console.log(repetidos, 'REPETIDOS');
       CuatroDigitosPorTresCadena.forEach( (item: any, idx: number)=> {
+        if(item.numero === 3211){
+          console.log('PRUEBA')
+        }
         this.raitings[idx] = {
           index: idx,
           patron: item.numero,
           raiting: this.returnRaiting(item.numero, repetidos),
           numeros: this.numerosGanadores(item, this.astroEstadistica[this.astroEstadistica.length - 1])
         }
-      });
+      }); // De una constante array de todos los patrones posibles se rea un array calificado
 
       this.raitings = this.raitings.sort((a:any, b:any) => {
         return b.raiting - a.raiting
       });
 
-      console.log(this.raitings, 'this.raitings');
+      // console.log(this.raitings, 'this.raitings');
 
     }
   }
@@ -210,6 +217,31 @@ export class AstroSIngresoComponent implements OnInit {
       this.columnasEnlistadas = this.enlistarColumnas(datos.astro_sol);
       this.analizarEstadistica();
     });
+  }
+
+  private cargarAstroFull(){
+
+    return this.webService.consultarAstroFull().subscribe( (datos:any) => {
+
+      for(let i=0; i < datos.estadisticas.length; i++){
+        if(datos.estadisticas){
+          this.nuevos[i]= {
+            fecha: datos.estadisticas[i].fecha,
+            sorteo: datos.estadisticas[i].sorteo,
+            uno: datos.estadisticas[i].nUno.numero,
+            dos: datos.estadisticas[i].nDos.numero,
+            tres: datos.estadisticas[i].nTres.numero,
+            cuatro: datos.estadisticas[i].nCuatro.numero,
+            signo: datos.estadisticas[i].signo
+          }
+        }
+
+      }
+
+      // console.log(this.nuevos, 'DATOS');
+
+
+    })
   }
 
   private enlistarColumnas(array: any[]) {
@@ -254,15 +286,24 @@ export class AstroSIngresoComponent implements OnInit {
     } else if (cantidad >= 5){
       calificacion = 'caliente'
     } else {
-      console.log(cantidad, 'CANTIDAD');
+      // console.log(cantidad, 'CANTIDAD');
     }
 
     return calificacion;
   }
 
   public cargarSigno(valor: number): string{
+
     let signos = SIGNOS;
     return signos[valor - 1];
+  }
+
+  public devolverSigno(signo: string): number{
+    let signos = SIGNOS;
+    let numeroSigno:any;
+
+    return numeroSigno = signos.indexOf(signo) + 1;
+
   }
 
   public recargaAstro(e: any) {
@@ -320,37 +361,70 @@ export class AstroSIngresoComponent implements OnInit {
     el.scrollIntoView();
   }
 
-  numerosGanadores(patron: number, estadoActual: any): any[]{
-    console.log(patron, estadoActual);
+  numerosGanadores(patron: any, estadoActual: any): any[]{
+    // console.log(patron, estadoActual);
 
-    let col1 = this.extraerNumeros(estadoActual.uno);
-    let col2 = this.extraerNumeros(estadoActual.dos);
-    let col3 = this.extraerNumeros(estadoActual.tres);
-    let col4 = this.extraerNumeros(estadoActual.cuatro);
+    let numeros: any[] = [];
+
+    let col1 = this.extraerNumeros(estadoActual.uno, patron.col1);// En base al último número que cayó se extraen números por columna
+    let col2 = this.extraerNumeros(estadoActual.dos, patron.col2);
+    let col3 = this.extraerNumeros(estadoActual.tres, patron.col3);
+    let col4 = this.extraerNumeros(estadoActual.cuatro, patron.col4);
 
     console.log(col1, 'UNO');
+    console.log(col2, 'UNO');
+    console.log(col3, 'UNO');
+    console.log(col4, 'UNO');
 
+    for(let i=0; i < col1.length; i++){ // Aqui se arman numeros de 4 cifras concatenando los encontrados antes
+      for(let j=0; j < col2.length; j++){
+        for(let l=0; l < col3.length; l++){
+          for(let d=0; d < col4.length; d++){
+            // if(col1[i] && col2[j] && col3[l] && col4[g]){
+              numeros[d] = (col1[i]?.numero.toString()) + (col2[j]?.numero.toString()) + (col3[l]?.numero.toString()) + (col4[d]?.numero.toString())
+            // }
+          }
+        }
+      }
+    }
 
-    
+    // console.log(numeros, 'NUMEROS');
 
-
-    return []
+    return numeros;
   }
 
-  private extraerNumeros(bloque: any): any[]{
+  private extraerNumeros(bloque:object, patron: string): any[]{
     let values = Object.values(bloque)
     let keys = Object.keys(bloque);
     let bloqueCompuesto: any[]=[];
+    let bloqueFiltrado: any[]=[];
     
-    for(let i=0; i < 10; i++){
+    for(let i=0; i < 11; i++){
       bloqueCompuesto[i] = {
         numero: this.traducirNumero(keys[i]),
         calificacion: values[i]
       }
     }
+    let contador = 0;
+
+    // console.log(bloqueCompuesto, 'BLOQUE COMPUESTO');
+    
+    for(let i=0; i < bloqueCompuesto.length; i++){
+      if(bloqueCompuesto[i].calificacion === patron){
+        bloqueFiltrado[contador] = {
+          numero: bloqueCompuesto[i].numero,
+          calificacion: bloqueCompuesto[i].calificacion
+        }
+        contador ++;
+      }
+    }
+    // console.log(bloqueFiltrado, 'BLOQUE FILTRADO');
+
+    if(!bloqueFiltrado[0])
+    bloqueFiltrado[0] = { numero:'-',calificacion:'frio'}
     
 
-    return bloqueCompuesto
+    return bloqueFiltrado;
   }
 
   traducirNumero(dato: string):number{
