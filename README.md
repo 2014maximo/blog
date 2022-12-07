@@ -39,8 +39,19 @@ version 1.0.0.1
 INDICAMOS A GITHUB CUÁL SERÁ LA RUTA RAÍZ DE NUESTRA APLICACIÓN
 ng build --prod --base-href="./"
 
-SUBIR CAMBIOS A GITHUB
+SUBIR CAMBIOS A GITHUB (ANTERIOR, no funciona 2022)
 npx angular-cli-ghpages – dir=dist
 
 SUBIR CAMBIOS AL HOSTING FIREBASE
+(PREVIO, UNA PRIMERA VEZ EN EL PC DE TRABAJO SE TIRA):
+npm install -g firebase-tools
+firebase login
+LUEGO YA:
+
 firebase deploy
+
+
+SUBIR CAMBIOS A GITHUB(última versión)
+ng build --prod --base-href https://2014maximo.github.io/blog/
+npx angular-cli-ghpages --branch gh-pages
+

@@ -176,6 +176,7 @@ export class AstroSIngresoComponent implements OnInit {
       console.log(repetidos, 'REPETIDOS');
       CuatroDigitosPorTresCadena.forEach( (item: any, idx: number)=> {
         if(item.numero === 3211){
+          
           console.log('PRUEBA')
         }
         this.raitings[idx] = {

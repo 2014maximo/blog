@@ -64,7 +64,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr *ngFor="let sorteo of astroEstadistica; let i = index" class="fuenteDos">
+                    <tr *ngFor="let sorteo of astroEstadistica.reverse(); let i = index" class="fuenteDos">
                         <th scope="row">{{ i + 1 }}</th>
                         <td>{{ sorteo.fecha }}</td>
                         <td>{{ sorteo.sorteo }}</td>
