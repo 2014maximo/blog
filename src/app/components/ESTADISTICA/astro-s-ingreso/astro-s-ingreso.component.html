@@ -64,7 +64,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr *ngFor="let sorteo of astroEstadistica.reverse(); let i = index" class="fuenteDos">
+                    <tr *ngFor="let sorteo of astroEstadistica; let i = index" class="fuenteDos">
                         <th scope="row">{{ i + 1 }}</th>
                         <td>{{ sorteo.fecha }}</td>
                         <td>{{ sorteo.sorteo }}</td>
@@ -172,22 +172,23 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr *ngFor="let raiting of raitings">
-                    <th scope="row">{{ raiting.index }}</th>
-                    <td>{{ raiting.patron }}</td>
-                    <td>{{ raiting.raiting }}</td>
-                    <td>
-                        <ul>
-                            <li *ngFor="let num of raiting.numeros">{{ num }}</li>
-                        </ul>
-                    </td>
-                  </tr>
+                    <tr *ngFor="let raiting of raitings">
+                        <th scope="row">{{ raiting.index }}</th>
+                        <td>{{ raiting.patron }}</td>
+                        <td>{{ raiting.raiting }}</td>
+                        <td>
+                            <ul>
+                                <li *ngFor="let num of raiting.numeros">{{ num }}</li>
+                            </ul>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
         </div>
     </div>
     <div class="col-md-6">
-
+        <h3 class="fuenteSeis t7 fs-30 mb-4 text-center">LISTA NÚMEROS</h3>
+        <span *ngFor="let n of todosLosNumeros" class="text-light fuenteDos"> {{ n }} -</span>
     </div>
 </div>
 

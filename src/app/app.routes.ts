@@ -56,6 +56,7 @@ import { DartElementosComponent } from './components/DART/dart-elementos/dart-el
 import { FlutterElementosComponent } from './components/FLUTTER/flutter-elementos/flutter-elementos.component';
 import { NgCorsComponent } from './components/ANGULAR/ng-cors/ng-cors.component';
 import { CssBootstrap4clasesComponent } from './components/CSS/css-bootstrap4clases/css-bootstrap4clases.component';
+import { ANGULAR } from './constants/posts-angular.constant';
 
 
 export const ROUTES: Routes = [
@@ -162,12 +163,14 @@ export const ROUTES: Routes = [
     { path: 'wordpress', component: WordpressComponent },
 ];
 
-function recorrerComponentes(array: any) {
-    
-    let lista;
+var angular = recorrerComponentes(ANGULAR)
 
-    for(let i=0; i> array.length; i++){
-        lista = [{ path: array.ruta, component: array.componente },]
+function recorrerComponentes(categoria: any):any[] {
+    
+    let lista:any[]=[];
+
+    for(let i=0; i> categoria.length; i++){
+        lista = [{ path: categoria.ruta, component: categoria.componente },]
     }
     return lista
 }

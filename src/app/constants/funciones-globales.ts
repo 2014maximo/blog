@@ -1,3 +1,4 @@
+import { Route } from '@angular/router';
 import { PostModel } from '../models/post.model';
 
 export function copiarAlPortapapeles(cadenaAlclipboard: string) {
@@ -16,4 +17,15 @@ export function copiarAlPortapapeles(cadenaAlclipboard: string) {
 
 export function traerPost(id: string, posts: PostModel[]){
   return posts.find( post => post.id_post === id);
+}
+
+export function extraerListaRutas(categoria:[]):Route[]{
+  let rutas:Route[]=[];
+
+  for(let i=0; i < categoria.length; i++){
+    
+  }
+
+
+  return rutas
 }

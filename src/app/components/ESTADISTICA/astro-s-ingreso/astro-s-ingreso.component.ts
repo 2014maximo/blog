@@ -22,6 +22,7 @@ export class AstroSIngresoComponent implements OnInit {
   public astroEstadistica: any[]=[];
   public raitings: any[]=[];
   public nuevos: any[]=[];
+  public todosLosNumeros: any[]=[];
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',
@@ -39,7 +40,6 @@ export class AstroSIngresoComponent implements OnInit {
   }
   
   ngOnInit(): void {
-
   }
   
   private inicializarVariables() {
@@ -153,7 +153,8 @@ export class AstroSIngresoComponent implements OnInit {
             nNueve: this.calificar('cuatro', i, 9),
             nCero: this.calificar('cuatro', i, 0)
           },
-        } 
+        }
+        // this.astroEstadistica = this.astroEstadistica.reverse();
       }
 
       this.astroEstadistica.forEach((element: any, index: number) => {
@@ -173,11 +174,9 @@ export class AstroSIngresoComponent implements OnInit {
         repetidos[numero.patron] = (repetidos[numero.patron] || 0) + 1;
       }); // Crear un objeto con los patrones y la cantidad de veces que se repiten
 
-      console.log(repetidos, 'REPETIDOS');
       CuatroDigitosPorTresCadena.forEach( (item: any, idx: number)=> {
         if(item.numero === 3211){
           
-          console.log('PRUEBA')
         }
         this.raitings[idx] = {
           index: idx,
@@ -191,7 +190,6 @@ export class AstroSIngresoComponent implements OnInit {
         return b.raiting - a.raiting
       });
 
-      // console.log(this.raitings, 'this.raitings');
 
     }
   }
@@ -214,7 +212,9 @@ export class AstroSIngresoComponent implements OnInit {
   private cargarAstro(pagina?: any){
     return this.webService.consultarAstro().subscribe( (datos:any) => {
       this.astroPaginar = datos.astro_sol;
-
+      this.astroPaginar.forEach((e:any, i:number) => {
+        this.todosLosNumeros[i] = e.uno.toString() + e.dos.toString() + e.tres.toString() + e.cuatro.toString()
+      });
       this.columnasEnlistadas = this.enlistarColumnas(datos.astro_sol);
       this.analizarEstadistica();
     });
@@ -239,9 +239,6 @@ export class AstroSIngresoComponent implements OnInit {
 
       }
 
-      // console.log(this.nuevos, 'DATOS');
-
-
     })
   }
 
@@ -259,7 +256,6 @@ export class AstroSIngresoComponent implements OnInit {
       nCuatro[index] = item.cuatro;
       signo[index] = item.signo;
     })
-    // console.log(nUno,'nUno');
     return { uno: nUno, dos: nDos, tres: nTres, cuatro: nCuatro, cinco: signo}
   }
 
@@ -287,7 +283,6 @@ export class AstroSIngresoComponent implements OnInit {
     } else if (cantidad >= 5){
       calificacion = 'caliente'
     } else {
-      // console.log(cantidad, 'CANTIDAD');
     }
 
     return calificacion;
@@ -363,7 +358,6 @@ export class AstroSIngresoComponent implements OnInit {
   }
 
   numerosGanadores(patron: any, estadoActual: any): any[]{
-    // console.log(patron, estadoActual);
 
     let numeros: any[] = [];
 
@@ -371,11 +365,6 @@ export class AstroSIngresoComponent implements OnInit {
     let col2 = this.extraerNumeros(estadoActual.dos, patron.col2);
     let col3 = this.extraerNumeros(estadoActual.tres, patron.col3);
     let col4 = this.extraerNumeros(estadoActual.cuatro, patron.col4);
-
-    console.log(col1, 'UNO');
-    console.log(col2, 'UNO');
-    console.log(col3, 'UNO');
-    console.log(col4, 'UNO');
 
     for(let i=0; i < col1.length; i++){ // Aqui se arman numeros de 4 cifras concatenando los encontrados antes
       for(let j=0; j < col2.length; j++){
@@ -389,7 +378,6 @@ export class AstroSIngresoComponent implements OnInit {
       }
     }
 
-    // console.log(numeros, 'NUMEROS');
 
     return numeros;
   }
@@ -408,7 +396,6 @@ export class AstroSIngresoComponent implements OnInit {
     }
     let contador = 0;
 
-    // console.log(bloqueCompuesto, 'BLOQUE COMPUESTO');
     
     for(let i=0; i < bloqueCompuesto.length; i++){
       if(bloqueCompuesto[i].calificacion === patron){
@@ -419,7 +406,6 @@ export class AstroSIngresoComponent implements OnInit {
         contador ++;
       }
     }
-    // console.log(bloqueFiltrado, 'BLOQUE FILTRADO');
 
     if(!bloqueFiltrado[0])
     bloqueFiltrado[0] = { numero:'-',calificacion:'frio'}
