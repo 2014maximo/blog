@@ -57,6 +57,7 @@ import { FlutterElementosComponent } from './components/FLUTTER/flutter-elemento
 import { NgCorsComponent } from './components/ANGULAR/ng-cors/ng-cors.component';
 import { CssBootstrap4clasesComponent } from './components/CSS/css-bootstrap4clases/css-bootstrap4clases.component';
 import { ANGULAR } from './constants/posts-angular.constant';
+import { EtronInstalacionComponent } from './components/ELECTRON/etron-instalacion/etron-instalacion.component';
 
 
 export const ROUTES: Routes = [
@@ -106,6 +107,7 @@ export const ROUTES: Routes = [
 
 // ELECTRON
     { path: 'electron', component: ElectronComponent },
+    { path: 'etron-instalacion', component: EtronInstalacionComponent },
 
 // FLUTTER
     { path: 'flutter', component: FlutterComponent },

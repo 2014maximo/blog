@@ -1,28 +1,47 @@
-export const CSS = [
+import { DatosPost, DatosCategoria } from '../models/categorias.model';
+const DATOS_CATEGORIA: DatosCategoria = {
+    nombre: 'CSS',
+    color: 'c-Css',
+    fondo:'',
+    path: 'css',
+    rutaIcono:'assets/img/categorias/css.png'
+}
+
+export const CSS: DatosPost[] = [
     {
-        id: '7084156673',
+        id: '2234145591',
         titulo: 'CSS',
-        descripcion: '',
+        descripcion: 'Cuando empezamos a desarrollar en web solo con HTML, sentimos nos hace falta poder mostrar cada elemento con otro color o con un mejor estilo',
         descripcionCorta: '',
-        path: '',
-        componente: '',
+        path: 'css',
+        componente: 'CssComponent',
+        categoria: DATOS_CATEGORIA,
+        mostrarEnPostHome: false,
         estilos: {
             color: ''
         },
-        fechaCreacion: '01/01/2021',
-        fechaActualizacion: ''
+        fechaCreacion: '01-01-2021',
+        fechaActualizacion: '',
+        imgHorizontal:'',
+        imgVertical:'',
+        imgCuadro:''
     },
     {
-        id: '8627267684',
-        titulo: 'Instalación Android y recomendados',
-        descripcion: 'Instalar Angular y empezar a desarrollar con este framework, no es un tema extenso y detallado para entrar en un análisis profundo, sin embargo esta vez la idea es poder especificar los cambios que se han recibido en cada versión como también algunas herramientas con las que se ha contado y no solemos saber que estan ahí. Empecemos por ver lo que Angular ha evolucionado con el paso del Tiempo en sus versiones',
-        descripcionCorta: 'Instalación de Angular, recomendaciones y herramientas',
-        path: '',
-        componente: '',
+        id: '5600292414',
+        titulo: 'Agrupación de las clases más usadas bootstrap v4.6',
+        descripcion: 'Consigue en un documento descargable, las clases que se suelen utilizar más amenudo en la maquetación con bootstrap 4.6',
+        descripcionCorta: '',
+        path: 'css-bootstrap4-clases',
+        componente: 'CssBootstrap4clasesComponent',
+        categoria: DATOS_CATEGORIA,
+        mostrarEnPostHome: true,
         estilos: {
             color: ''
         },
-        fechaCreacion: '01/02/2021',
-        fechaActualizacion: ''
+        fechaCreacion: '01-02-2021',
+        fechaActualizacion: '',
+        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/css/clases bootstrap4.png',
+        imgVertical:'',
+        imgCuadro:''
     }
 ]

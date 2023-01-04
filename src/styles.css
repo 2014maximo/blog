@@ -21,7 +21,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,400,400i,500,500i,600,600i,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://anijs.github.io/lib/anicollection/anicollection.css');
@@ -144,72 +144,160 @@ html{
 .h200{
     height: 200px;
 }
+
 /* Para las categorías */
 .bg-Android{
     background-color: #85b84e;
 }
+.c-Android{
+    color: #85b84e;
+}
+
 .bg-Angular{
     background-color: #ca1717;
 }
+.c-Angular{
+    color: #ca1717;
+}
+
 .bg-Css{
     background-color: #438bab;
 }
+.c-Css{
+    color: #438bab;
+}
+
 .bg-Dart{
     background-color: #0076bd;
 }
+.c-Dart{
+    color: #0076bd;
+}
+
 .bg-Developer{
     background-color: #e6b430;
 }
+.c-Developer{
+    color: #e6b430;
+}
+
 .bg-Electron{
     background-color: #afe3e8;
 }
+.c-Electron{
+    color: #afe3e8;
+}
+
 .bg-Flutter{
     background-color: #065b9c;
 }
+.c-Flutter{
+    color: #065b9c;
+}
+
 .bg-Git{
     background-color: #ef5133;
 }
+.c-Git{
+    color: #ef5133;
+}
+
 .bg-Html{
     background-color: #f37001;
 }
+.c-Html{
+    color: #f37001;
+}
+
 .bg-Ionic{
     background-color: #377ffe;
 }
+.c-Ionic{
+    color: #377ffe;
+}
+
 .bg-Java{
     background-color: #eb2025;
 }
+.c-Java{
+    color: #eb2025;
+}
+
 .bg-Javascript{
     background-color: #f6d037;
 }
+.c-Javascript{
+    color: #f6d037;
+}
+
 .bg-Kotlin{
     background-color: #6576df;
 }
+.c-Kotlin{
+    color: #326de6;
+}
+
 .bg-Kubernetes{
     background-color: #326de6;
 }
+.c-Kubernetes{
+    color: #326de6;
+}
+
 .bg-Linux{
     background-color: #010101;
 }
+.c-Linux{
+    color: #010101;
+}
+
 .bg-NetFramework{
     background-color: #5b2d90;
 }
+.c-NetFramework{
+    color: #5b2d90;
+}
+
 .bg-Php{
     background-color: #45538b;
 }
+.c-Php{
+    color: #45538b;
+}
+
 .bg-Prime{
     background-color: #36474f;
 }
+.c-Prime{
+    color: #36474f;
+}
+
 .bg-React{
     background-color: #5adafd;
 }
+.c-React{
+    color: #5adafd;
+} 
+
 .bg-Sql{
     background-color: #fdb200;
 }
+.c-Sql{
+    color: #fdb200;
+}
+
 .bg-Wordpress{
     background-color: #35697d;
 }
+.c-Wordpress{
+    color: #35697d;
+}
+
 .bg-Sena{
     background-color: #fe6719;
+}
+.c-Sena{
+    color: #fe6719;
 }
 /* HEADER  ----------------*/
 .header {

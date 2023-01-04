@@ -60,3 +60,7 @@ a:hover {
     50%{-webkit-transform:rotate(3deg)}
     100%{-webkit-transform:rotate(-3deg)}
 }
+
+.inactivo{
+    filter: grayscale(1) !important;
+}

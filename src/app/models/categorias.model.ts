@@ -8,7 +8,6 @@ export class CategoriasModel {
     color: string = '';
     post: PostsModel [] = [];
     postMas?:PostMasModel [] = [];
-    
 }
 
 export class PostsModel {
@@ -48,4 +47,33 @@ export class ClipboardModel {
         this.valorNueve = '';
         this.valorDiez = '';
     }
+}
+
+export interface DatosCategoria {
+    nombre: string,
+    color: string,
+    fondo: string,
+    path:  string,
+    rutaIcono:  string
+}
+
+export interface DatosPost{
+    id: string,
+    titulo: string,
+    descripcion: string,
+    descripcionCorta: string,
+    path: string,
+    componente: string,
+    mostrarEnPostHome: boolean,
+    estilos: EstilosPost,
+    fechaCreacion: string,
+    fechaActualizacion: string,
+    imgHorizontal: string,
+    imgVertical: string,
+    imgCuadro:string,
+    categoria: DatosCategoria
+}
+
+export interface EstilosPost{
+    color: string
 }

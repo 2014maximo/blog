@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CATEGORIA } from '../../constants/categoria.constant';
+import { DatosPost } from '../../models/categorias.model';
 
 @Component({
   selector: 'app-galeria-post',
@@ -10,13 +11,13 @@ export class GaleriaPostComponent implements OnInit {
 
   public categorias = CATEGORIA
   public grupoGaleria:any[]=[];
-  public todosLosPost:any[]=[];
+  public todosLosPost:DatosPost[]=[];
   public ultimosPost: any[]=[];
 
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.agruparPost())
+    this.agruparPost();
   }
 
   public cargarGrupoGaleria():any[]{
@@ -32,9 +33,25 @@ export class GaleriaPostComponent implements OnInit {
     this.categorias.forEach( (e:any, i:number)=>{
       e.posts.forEach((element:any) => {
         this.todosLosPost.push(element);
-      });;
+      });
     });
+    this.todosLosPost = Object.assign([], this.retirarPostsPrincipalCategoria(this.todosLosPost))
     console.log(this.todosLosPost);
+  }
+
+  private retirarPostsPrincipalCategoria(grupo:DatosPost[]):DatosPost[]{
+    return grupo.filter( element => 
+      element.mostrarEnPostHome
+    )
+  }
+
+  public tipoSombra(path: string):string{
+    let sombra='shadow-two';
+
+    if(path.includes('png')){
+      sombra = 'drop'
+    }
+    return sombra
   }
 
 }

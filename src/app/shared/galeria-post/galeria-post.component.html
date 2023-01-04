@@ -6,80 +6,25 @@
                 <h2 class="text-light categorias">POSTS</h2>
             </div>
             <div class="col-md-8"></div>
+        </div> 
+        <div class="row">
+            <div class="col-md-4 p-5" *ngFor="let post of this.todosLosPost">
+                <div class="d-flex justify-content-end mb-2 drop-two">
+                    <img src="{{ post.categoria?.rutaIcono? post.categoria?.rutaIcono: '' }}" alt="" height="30" width="auto">
+                </div>
+                <div class="pl-5 pt-5 imgPost"[ngStyle]="{'background-image': 'url(assets/img/categorias/pruebaAllStar.png)'}">
+                    <img [ngClass]="tipoSombra(post.imgHorizontal)" src="{{ post.imgHorizontal}}" alt="" width="100%" height="auto">
+                </div>
+                <div class="borderPost">
+                    <h4 class="tituloPost">{{ post.titulo }}</h4>
+                    <p class="fuenteDos text-light">{{ post.fechaCreacion? post.fechaActualizacion : post.fechaCreacion }}</p>
+                </div>
+                <p class="fuenteDos fs-20 lh-25 text-light">{{ post.descripcion }}</p>
+                <a class="fuenteSeis leerMas mt-2" href="{{ post.path }}">LEER MÁS &gt;</a>
+                <div class="espacio"></div>
+            </div>
         </div>
         <div class="espacio"></div>
-        <div class="row">
-            <div class="col-md-3 bg-primary">
-                <div class="altura">
-                    1
-                </div>
-                <div class="altura"></div>
-            </div>
-            <div class="col-md-6 p-0">
-                <div class="row">
-                    <div class="col-md-4 bg-info">
-                        <div class="altura">
-                            2
-                        </div>
-                        <div class="parte"></div>
-                    </div>
-                    <div class="col-md-8 bg-danger">
-                        <div class="altura">
-                            3
-                        </div>
-                        <div class="parte"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-8 bg-warning">
-                        <div class="parte">
-                            4
-                        </div>
-                        <div class="parte"></div>
-                    </div>
-                    <div class="col-md-4 bg-primary">
-                        <div class="parte">
-                            5
-                        </div>
-                        <div class="parte"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 bg-warning p-0">
-                <div class="w-100 doble bg-info">
-                    6
-                </div>
-                7
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8 bg-danger">
-                <div class="altura">
-                    8
-                </div>
-                <div class="parte"></div>
-            </div>
-            <div class="col-md-4 bg-info">
-                <div class="altura">
-                    9
-                </div>
-                <div class="parte"></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 bg-info">
-                <div class="altura">
-                    10
-                </div>
-                <div class="parte"></div>
-            </div>
-            <div class="col-md-8 bg-warning">
-                <div class="altura">
-                    11
-                </div>
-                <div class="parte"></div>
-            </div>
-        </div>
     </div>
     <div class="col-md-1"></div>
 </div>

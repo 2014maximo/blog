@@ -36,33 +36,27 @@ export const CATEGORIAS: CategoriasModel [] = [
         color: 'bg-Android',
         post: [
             {
-                nombre: 'ANDROID STUDIO',
-                posicion: 'pos-z',
-                ruta:'andr-android-studio',
-                activo: true
-            },
-            {
-                nombre: 'ELEMENTOS Y DESCRIPCIÓN',
+                nombre: 'A. ST. INSTALACIÓN',
                 posicion: 'rot-2',
                 ruta:'android-elementos',
-                activo: false
+                activo: true
             },
             {
                 nombre: 'GENERAR APK',
                 posicion: 'rot-1',
-                ruta:'componentes/ANDROID/and_003.html',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'PLAY STORE',
                 posicion: 'rot-2',
-                ruta:'componentes/ANDROID/and_004.html',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'PRUEBAS UNITARIAS',
                 posicion: 'pos-z',
-                ruta:'componentes/ANDROID/and_005.html',
+                ruta:'home',
                 activo: false
             },
         ]
@@ -92,67 +86,67 @@ export const CATEGORIAS: CategoriasModel [] = [
                 nombre: 'COMUNICACION ENTRE COMPONENTES',
                 posicion: 'rot-1',
                 ruta:'ng-comunicacion-componentes',
-                activo: false
+                activo: true
             },
             {
                 nombre: 'CRUD CON UN MOCKDATA',
                 posicion: 'pos-z',
-                ruta:'componentes/ANGULAR/ang_005.html',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'RXJS',
                 posicion: 'pos-z',
-                ruta:'componentes/ANGULAR/ang_006.html',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'MICROFRONTENDS',
                 posicion: 'pos-z',
-                ruta:'componentes/ANGULAR/ang_007.html',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'MONTAR EN DOMINIO',
                 posicion: 'pos-z',
-                ruta:'componentes/ANGULAR/ang_008.html',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'REDUX',
                 posicion: 'rot-1',
-                ruta:'componentes/ANGULAR/ang_009.html',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'METODO DEL BARRIL',
                 posicion: 'rot-2',
-                ruta:'componentes/ANGULAR/ang_010.html',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'TIEMPO REAL SOCKET Y REST',
                 posicion: 'rot-2',
-                ruta:'componentes/ANGULAR/ang_011.html',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'DEBUGGEAR EN CHROME',
                 posicion: 'pos-z',
-                ruta:'componentes/ANGULAR/ang_012.html',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'PRUEBAS UNITARIAS',
                 posicion: 'rot-2',
-                ruta:'componentes/ANGULAR/ang_002.html',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'CABECERAS CORS',
                 posicion: 'rot-2',
                 ruta:'ng-cors',
-                activo: false
+                activo: true
             },
         ],
         postMas: [
@@ -174,7 +168,7 @@ export const CATEGORIAS: CategoriasModel [] = [
                 ]
             },
             {
-                subCategoria: 'PrimeNG 7.2.6 lts',
+                subCategoria: 'PrimeNG',
                 post: [
                     {
                         nombre: 'DESCRIPCIÓN ELEMENTOS',
@@ -204,43 +198,43 @@ export const CATEGORIAS: CategoriasModel [] = [
             {
                 nombre: 'ATRIBUTOS CSS',
                 posicion: 'pos-z',
-                ruta:'atributos-css',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'HOVER SOBRE IMÁGENES',
                 posicion: 'rot-2',
-                ruta:'hover-sobre-imagenes',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'VARIABLES CSS',
                 posicion: 'rot-1',
-                ruta:'variables-css',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'MEDIA QUERIES',
                 posicion: 'rot-2',
-                ruta:'media-queries',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'SLIDER SOLO CON CSS',
                 posicion: 'pos-z',
-                ruta:'slider-solo-con-css',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'BOTONES REDES',
                 posicion: 'pos-z',
-                ruta:'botones-redes',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'MENÚ HAMBURGUESA ANIMADO',
                 posicion: 'rot-2',
-                ruta:'menu-hamburguesa-animado',
+                ruta:'home',
                 activo: false
             },
             {
@@ -269,25 +263,25 @@ export const CATEGORIAS: CategoriasModel [] = [
             {
                 nombre: 'CRUD',
                 posicion: 'rot-1',
-                ruta:'crud-dart',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'TERMINOS AVANZADOS',
                 posicion: 'rot-2',
-                ruta:'dart-terminos-avanzados',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'CONTEXTO DART',
                 posicion: 'pos-z',
-                ruta:'contexto-dart',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'PRUEBAS UNITARIAS',
                 posicion: 'pos-z',
-                ruta:'dart-pruebas-unitarias',
+                ruta:'home',
                 activo: false
             },
         ]
@@ -343,27 +337,27 @@ export const CATEGORIAS: CategoriasModel [] = [
                 activo: true
             },
             {
-                nombre: 'CRUD',
+                nombre: 'PRINCIPIOS SOLID',
                 posicion: 'rot-1',
-                ruta:'crud-dart',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'TERMINOS AVANZADOS',
                 posicion: 'rot-2',
-                ruta:'dart-terminos-avanzados',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'CONTEXTO DART',
                 posicion: 'pos-z',
-                ruta:'contexto-dart',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'GLOSARIO',
                 posicion: 'pos-z',
-                ruta:'dev-glosario',
+                ruta:'home',
                 activo: true
             },
         ]
@@ -380,42 +374,42 @@ export const CATEGORIAS: CategoriasModel [] = [
             {
                 nombre: 'INSTALACIÓN',
                 posicion: 'pos-z',
-                ruta:'flutter-instalacion',
+                ruta:'etron-instalacion',
                 activo: true,
                 color: 't2'
             },
             {
                 nombre: 'ELEMENTOS Y DESCRIPCIÓN',
                 posicion: 'rot-2',
-                ruta:'dart-elementos-descripcion',
+                ruta:'home',
                 activo: false,
                 color: 't2'
             },
             {
                 nombre: 'CRUD',
                 posicion: 'rot-1',
-                ruta:'crud-dart',
+                ruta:'home',
                 activo: false,
                 color: 't2'
             },
             {
                 nombre: 'TERMINOS AVANZADOS',
                 posicion: 'rot-2',
-                ruta:'dart-terminos-avanzados',
+                ruta:'home',
                 activo: false,
                 color: 't2'
             },
             {
-                nombre: 'CONTEXTO DART',
+                nombre: 'CONTEXTO ELECTRON',
                 posicion: 'pos-z',
-                ruta:'contexto-dart',
+                ruta:'home',
                 activo: false,
                 color: 't2'
             },
             {
                 nombre: 'PRUEBAS UNITARIAS',
                 posicion: 'pos-z',
-                ruta:'dart-pruebas-unitarias',
+                ruta:'home',
                 activo: false,
                 color: 't2'
             },
@@ -445,25 +439,25 @@ export const CATEGORIAS: CategoriasModel [] = [
             {
                 nombre: 'CRUD',
                 posicion: 'rot-1',
-                ruta:'crud-dart',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'TERMINOS AVANZADOS',
                 posicion: 'rot-2',
-                ruta:'dart-terminos-avanzados',
+                ruta:'home',
                 activo: false
             },
             {
-                nombre: 'CONTEXTO DART',
+                nombre: 'CONTEXTO FLUTTER',
                 posicion: 'pos-z',
-                ruta:'contexto-dart',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'PRUEBAS UNITARIAS',
                 posicion: 'pos-z',
-                ruta:'dart-pruebas-unitarias',
+                ruta:'home',
                 activo: false
             },
         ]
@@ -480,39 +474,27 @@ export const CATEGORIAS: CategoriasModel [] = [
             {
                 nombre: 'INSTALACIÓN',
                 posicion: 'pos-z',
-                ruta:'instalacion-dart',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'ELEMENTOS Y DESCRIPCIÓN',
                 posicion: 'rot-2',
-                ruta:'dart-elementos-descripcion',
-                activo: false
-            },
-            {
-                nombre: 'CRUD',
-                posicion: 'rot-1',
-                ruta:'crud-dart',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'TERMINOS AVANZADOS',
                 posicion: 'rot-2',
-                ruta:'dart-terminos-avanzados',
+                ruta:'home',
                 activo: false
             },
             {
-                nombre: 'CONTEXTO DART',
+                nombre: 'CONTEXTO GIT',
                 posicion: 'pos-z',
-                ruta:'contexto-dart',
+                ruta:'home',
                 activo: false
-            },
-            {
-                nombre: 'PRUEBAS UNITARIAS',
-                posicion: 'pos-z',
-                ruta:'dart-pruebas-unitarias',
-                activo: false
-            },
+            }
         ]
     },
 /*      HTML    */
@@ -533,37 +515,37 @@ export const CATEGORIAS: CategoriasModel [] = [
             {
                 nombre: 'ELEMENTOS Y DESCRIPCIÓN',
                 posicion: 'rot-2',
-                ruta:'dart-elementos-descripcion',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'CRUD',
                 posicion: 'rot-1',
-                ruta:'crud-dart',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'TERMINOS AVANZADOS',
                 posicion: 'rot-2',
-                ruta:'dart-terminos-avanzados',
+                ruta:'home',
                 activo: false
             },
             {
-                nombre: 'CONTEXTO DART',
+                nombre: 'CONTEXTO',
                 posicion: 'pos-z',
-                ruta:'contexto-dart',
+                ruta:'home',
                 activo: false
             },
             {
                 nombre: 'PRUEBAS UNITARIAS',
                 posicion: 'pos-z',
-                ruta:'dart-pruebas-unitarias',
+                ruta:'home',
                 activo: false
             },
         ]
     },
 /*      JAVA    */
-    {
+/*     {
         id:11,
         categoria: 'java',
         rutaCategoria: 'java',
@@ -608,7 +590,7 @@ export const CATEGORIAS: CategoriasModel [] = [
                 activo: false
             },
         ]
-    },
+    }, */
 /*      JAVASCRIPT    */
     {
         id:12,
@@ -642,21 +624,14 @@ export const CATEGORIAS: CategoriasModel [] = [
             {
                 nombre: 'TERMINOS AVANZADOS',
                 posicion: 'rot-2',
-                ruta:'dart-terminos-avanzados',
+                ruta:'home',
                 activo: false,
                 color: 't2 textoHoverBlanco'
             },
             {
                 nombre: 'CONTEXTO DART',
                 posicion: 'pos-z',
-                ruta:'contexto-dart',
-                activo: false,
-                color: 't2 textoHoverBlanco'
-            },
-            {
-                nombre: 'REVISIÓN A VERSIONES NODE JS',
-                posicion: 'pos-z',
-                ruta:'revision-versiones-node-js',
+                ruta:'home',
                 activo: false,
                 color: 't2 textoHoverBlanco'
             },
@@ -665,6 +640,13 @@ export const CATEGORIAS: CategoriasModel [] = [
             {
                 subCategoria: 'Node JS',
                 post: [
+                    {
+                        nombre: 'REVISIÓN A VERSIONES NODE JS',
+                        posicion: 'pos-z',
+                        ruta:'revision-versiones-node-js',
+                        activo: false,
+                        color: 't2 textoHoverBlanco'
+                    },
                     {
                         nombre: 'NODE JS',
                         posicion: 'pos-z',
@@ -687,14 +669,14 @@ export const CATEGORIAS: CategoriasModel [] = [
                     {
                         nombre: 'TYPESCRIPT',
                         posicion: 'pos-z',
-                        ruta: 'js-node-js',
+                        ruta: 'home',
                         activo: true,
                         color: 't2 textoHoverBlanco'
                     },
                     {
                         nombre: 'ELEMENTOS',
                         posicion: 'rot-2',
-                        ruta: 'js-typescript-elementos',
+                        ruta: 'home',
                         activo: true,
                         color: 't2 textoHoverBlanco'
                     },
@@ -703,7 +685,7 @@ export const CATEGORIAS: CategoriasModel [] = [
         ],
     },
 /*      KOTLIN    */
-    {
+/*     {
         id:13,
         categoria: 'kotlin',
         rutaCategoria: 'kotlin',
@@ -748,9 +730,9 @@ export const CATEGORIAS: CategoriasModel [] = [
                 activo: false
             },
         ]
-    },
+    }, */
 /*      KUBERNETES    */
-    {
+/*     {
         id:14,
         categoria: 'kubernetes',
         rutaCategoria: 'kubernetes',
@@ -795,9 +777,9 @@ export const CATEGORIAS: CategoriasModel [] = [
                 activo: false
             },
         ]
-    },
+    }, */
 /*      LINUX    */
-    {
+/*     {
         id:15,
         categoria: 'linux',
         rutaCategoria: 'linux',
@@ -842,9 +824,9 @@ export const CATEGORIAS: CategoriasModel [] = [
                 activo: false
             },
         ]
-    },
+    }, */
     /*      NET-FRAMEWORK    */
-    {
+/*     {
         id:16,
         categoria: 'net',
         rutaCategoria: 'net',
@@ -889,9 +871,9 @@ export const CATEGORIAS: CategoriasModel [] = [
                 activo: false
             },
         ]
-    },
+    }, */
 /*      PHP    */
-    {
+/*     {
         id:17,
         categoria: 'php',
         rutaCategoria: 'php',
@@ -906,9 +888,9 @@ export const CATEGORIAS: CategoriasModel [] = [
                 activo: true
             },
         ]
-    },
+    }, */
 /*      REACT    */
-    {
+/*     {
         id:18,
         categoria: 'react',
         rutaCategoria: 'react',
@@ -959,9 +941,9 @@ export const CATEGORIAS: CategoriasModel [] = [
                 color: 't2'
             },
         ]
-    },
+    }, */
 /*      SENA    */
-    {
+/*     {
         id:19,
         categoria: 'sena',
         rutaCategoria: 'sena',
@@ -982,9 +964,9 @@ export const CATEGORIAS: CategoriasModel [] = [
                 activo: false
             }
         ]
-    },
+    }, */
     /*      WORDPRESS    */
-    {
+/*     {
         id:20,
         categoria: 'wordpress',
         rutaCategoria: 'wordpress',
@@ -1029,6 +1011,6 @@ export const CATEGORIAS: CategoriasModel [] = [
                 activo: false
             },
         ]
-    },
+    }, */
 ]
 

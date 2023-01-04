@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'libreta';
 
   constructor(){
-    console.log('versión 1.0.0.1')
+    let aleatorio =Math.round( Math.random() * (9999999999 - 1000000000) + 1000000000);
+    console.log(aleatorio,'versión 1.0.0.1')
   }
 }

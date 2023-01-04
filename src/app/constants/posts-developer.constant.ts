@@ -1,0 +1,49 @@
+import { DatosCategoria, DatosPost } from '../models/categorias.model';
+
+
+const DATOS_CATEGORIA: DatosCategoria = {
+    nombre: 'DEVELOPER',
+    color: 'c-Developer',
+    fondo:'',
+    path: 'developer',
+    rutaIcono:'assets/img/categorias/icon-developer.png'
+}
+
+export const DEVELOPER: DatosPost[] = [
+    {
+        id: '3583661544',
+        titulo: 'Developer',
+        descripcion: '',
+        descripcionCorta: '',
+        path: 'developer',
+        componente: 'DeveloperComponent',
+        mostrarEnPostHome: false,
+        estilos: {
+            color: ''
+        },
+        fechaCreacion: '02-08-2021',
+        fechaActualizacion: '',
+        imgHorizontal:'',
+        imgVertical:'',
+        imgCuadro:'',
+        categoria: DATOS_CATEGORIA
+    },
+    {
+        id: '7084156673',
+        titulo: 'Una gran agrupación de sitios web con muchos recursos',
+        descripcion: 'No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente.',
+        descripcionCorta: '',
+        path: 'dev-super-recursos',
+        componente: 'DevSuperRecursosComponent',
+        mostrarEnPostHome: true,
+        estilos: {
+            color: ''
+        },
+        fechaCreacion: '02-08-2021',
+        fechaActualizacion: '',
+        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/developer/Una gran agrupación de sitios web con muchos recursos.jpg',
+        imgVertical:'',
+        imgCuadro:'',
+        categoria: DATOS_CATEGORIA
+    }
+]
