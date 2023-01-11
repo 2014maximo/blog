@@ -6,7 +6,7 @@ const DATOS_CATEGORIA: DatosCategoria = {
     color: 'c-Flutter',
     fondo:'',
     path: 'flutter',
-    rutaIcono:'assets/img/icons/flutter_text_white.png'
+    rutaIcono:'https://plantillas_dev.gitlab.io/assets/img/logos/logo-flutter.png'
 }
 
 export const FLUTTER: DatosPost[] = [
@@ -41,7 +41,25 @@ export const FLUTTER: DatosPost[] = [
         },
         fechaCreacion: '02-08-2021',
         fechaActualizacion: '',
-        imgHorizontal:'',
+        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/flutter/instalacion-flutter.jpg',
+        imgVertical:'',
+        imgCuadro:'',
+        categoria: DATOS_CATEGORIA
+    },
+    {
+        id: '8076473031',
+        titulo: 'Flutter elementos del framework',
+        descripcion: 'El gran concepto de Widgets y la comunidad enfocada en generar recursos, dejan un panorama muy llamativo para sumergirnos a programar y aportarle desarrollos al mundo.',
+        descripcionCorta: '',
+        path: 'flutter-elementos',
+        componente: 'FlutterElementosComponent',
+        mostrarEnPostHome: true,
+        estilos: {
+            color: ''
+        },
+        fechaCreacion: '02-08-2021',
+        fechaActualizacion: '',
+        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/flutter/elementos-flutter.jpg',
         imgVertical:'',
         imgCuadro:'',
         categoria: DATOS_CATEGORIA

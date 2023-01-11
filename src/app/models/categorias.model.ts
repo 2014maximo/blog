@@ -69,6 +69,7 @@ export interface DatosPost{
     fechaCreacion: string,
     fechaActualizacion: string,
     imgHorizontal: string,
+    pixabay?: ImgHorizontal,
     imgVertical: string,
     imgCuadro:string,
     categoria: DatosCategoria
@@ -76,4 +77,11 @@ export interface DatosPost{
 
 export interface EstilosPost{
     color: string
+}
+
+export interface ImgHorizontal {
+    autor: string,
+    pathAutor: string,
+    pixabay: string,
+    pathPixabay: string
 }

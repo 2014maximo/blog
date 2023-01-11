@@ -475,7 +475,7 @@ export const CATEGORIAS: CategoriasModel [] = [
                 nombre: 'INSTALACIÓN',
                 posicion: 'pos-z',
                 ruta:'home',
-                activo: false
+                activo: true
             },
             {
                 nombre: 'ELEMENTOS Y DESCRIPCIÓN',
@@ -641,38 +641,17 @@ export const CATEGORIAS: CategoriasModel [] = [
                 subCategoria: 'Node JS',
                 post: [
                     {
-                        nombre: 'REVISIÓN A VERSIONES NODE JS',
-                        posicion: 'pos-z',
-                        ruta:'revision-versiones-node-js',
-                        activo: false,
-                        color: 't2 textoHoverBlanco'
-                    },
-                    {
-                        nombre: 'NODE JS',
-                        posicion: 'pos-z',
-                        ruta: 'js-node-js',
-                        activo: true,
-                        color: 't2 textoHoverBlanco'
-                    },
-                    {
                         nombre: 'NODE JS CON NVM',
                         posicion: 'rot-2',
                         ruta: 'js-instalando-node-con-nvm',
                         activo: true,
                         color: 't2 textoHoverBlanco'
-                    },
+                    }
                 ]
             },
             {
                 subCategoria: 'Typescript',
                 post: [
-                    {
-                        nombre: 'TYPESCRIPT',
-                        posicion: 'pos-z',
-                        ruta: 'home',
-                        activo: true,
-                        color: 't2 textoHoverBlanco'
-                    },
                     {
                         nombre: 'ELEMENTOS',
                         posicion: 'rot-2',
@@ -943,7 +922,7 @@ export const CATEGORIAS: CategoriasModel [] = [
         ]
     }, */
 /*      SENA    */
-/*     {
+    {
         id:19,
         categoria: 'sena',
         rutaCategoria: 'sena',
@@ -964,9 +943,9 @@ export const CATEGORIAS: CategoriasModel [] = [
                 activo: false
             }
         ]
-    }, */
+    },
     /*      WORDPRESS    */
-/*     {
+    {
         id:20,
         categoria: 'wordpress',
         rutaCategoria: 'wordpress',
@@ -1011,6 +990,6 @@ export const CATEGORIAS: CategoriasModel [] = [
                 activo: false
             },
         ]
-    }, */
+    },
 ]
 

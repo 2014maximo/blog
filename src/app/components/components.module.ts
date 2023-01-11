@@ -59,6 +59,7 @@ import { FlutterElementosComponent } from './FLUTTER/flutter-elementos/flutter-e
 import { NgCorsComponent } from './ANGULAR/ng-cors/ng-cors.component';
 import { CssBootstrap4clasesComponent } from './CSS/css-bootstrap4clases/css-bootstrap4clases.component';
 import { EtronInstalacionComponent } from './ELECTRON/etron-instalacion/etron-instalacion.component';
+import { GitInstalacionComponent } from './GIT/git-instalacion/git-instalacion.component';
 
 
 
@@ -122,7 +123,8 @@ import { EtronInstalacionComponent } from './ELECTRON/etron-instalacion/etron-in
     FlutterElementosComponent,
     NgCorsComponent,
     CssBootstrap4clasesComponent,
-    EtronInstalacionComponent
+    EtronInstalacionComponent,
+    GitInstalacionComponent
   ],
   imports: [
     CommonModule,

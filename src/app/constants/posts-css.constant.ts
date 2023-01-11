@@ -4,7 +4,7 @@ const DATOS_CATEGORIA: DatosCategoria = {
     color: 'c-Css',
     fondo:'',
     path: 'css',
-    rutaIcono:'assets/img/categorias/css.png'
+    rutaIcono:'https://plantillas_dev.gitlab.io/assets/img/logos/logo-css.png'
 }
 
 export const CSS: DatosPost[] = [
