@@ -16,9 +16,12 @@
             </a>
         </div>
         <div class="col-6">
-            <form class="formUno">
-                <input class="inputUno text-light fuente bg-transparent" type="search" placeholder="Buscar" aria-label="Search">
+            <form class="formUno mb-2" [formGroup]="formBasic">
+                <input (blur)="desaparecerTablaBusqueda()" class="inputUno text-light fuente bg-transparent" type="search" placeholder="Buscar" aria-label="Search" formControlName="busqueda" (keyup)="buscar($event)">
             </form>
+            <div *ngIf="mostrarResultados">
+                <p *ngFor="let item of encontrados" class="text-light f-open-sans-c cursor-p m-0 p-0" (click)="irAlPost(item.path)">{{ item.titulo }}</p>
+            </div>
         </div>
         <div class="col-1"></div>
     </div>

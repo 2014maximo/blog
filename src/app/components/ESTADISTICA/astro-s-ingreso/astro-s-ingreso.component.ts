@@ -23,6 +23,8 @@ export class AstroSIngresoComponent implements OnInit {
   public raitings: any[]=[];
   public nuevos: any[]=[];
   public todosLosNumeros: any[]=[];
+  public itemsPorPantalla: string[] = ['10','50','100','200']
+
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',

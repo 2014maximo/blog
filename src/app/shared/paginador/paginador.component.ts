@@ -8,12 +8,14 @@ import { Component, Input, OnInit, Output, EventEmitter, } from '@angular/core';
 export class PaginadorComponent implements OnInit {
 
   @Input() public contenedor: any[] = [];
+  @Input() public mostrarItemsPorPantalla: boolean = false;
   @Input() public itemIniciales: number = 0;
+  @Input() public itemsPorPantalla: string[] = ['10','50','100','200'];
   @Output() paginados: EventEmitter<any> =  new EventEmitter();
   
   public totalPaginas: any[] = [];
   public contenedorCache: any[] = [];
-
+  public active: string = '1';
 
   constructor() { }
 
@@ -25,6 +27,7 @@ export class PaginadorComponent implements OnInit {
         this.paginados.emit(this.totalPaginas[0].contenido)
       }
     }, 700);
+    this.cargarPagina(0);
   }
 
   public cargarCantidadElementos(e: any, pagina: number){
@@ -50,6 +53,7 @@ export class PaginadorComponent implements OnInit {
   }
 
   public cargarPagina(pagina: number){
+    this.active = pagina.toString();
     this.paginados.emit(this.totalPaginas[pagina].contenido);
   }
   

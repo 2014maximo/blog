@@ -10,9 +10,11 @@ import { DatosPost } from '../../models/categorias.model';
 export class GaleriaPostComponent implements OnInit {
 
   public categorias = CATEGORIA
-  public grupoGaleria:any[]=[];
-  public todosLosPost:DatosPost[]=[];
-  public ultimosPost: any[]=[];
+  public grupoGaleria: any[] = [];
+  public postPorPantalla: string[] = ['9','18'];
+  public todosLosPost: DatosPost[] = [];
+  public postPaginar: any[] = [];
+  public ultimosPost: any[] = [];
 
   constructor() { }
 
@@ -20,8 +22,8 @@ export class GaleriaPostComponent implements OnInit {
     this.agruparPost();
   }
 
-  public cargarGrupoGaleria():any[]{
-    let grupo: any[]=[];
+  public cargarGrupoGaleria():any[] {
+    let grupo: any[] = [];
 
 
 
@@ -35,8 +37,7 @@ export class GaleriaPostComponent implements OnInit {
         this.todosLosPost.push(element);
       });
     });
-    this.todosLosPost = Object.assign([], this.retirarPostsPrincipalCategoria(this.todosLosPost))
-    console.log(this.todosLosPost);
+    this.todosLosPost = Object.assign([], this.retirarPostsPrincipalCategoria(this.todosLosPost));
   }
 
   private retirarPostsPrincipalCategoria(grupo:DatosPost[]):DatosPost[]{
@@ -52,6 +53,10 @@ export class GaleriaPostComponent implements OnInit {
       sombra = 'drop'
     }
     return sombra
+  }
+
+  public recibirCantidadElementos(e:any){
+    this.postPaginar = Object.assign([], e);
   }
 
 }

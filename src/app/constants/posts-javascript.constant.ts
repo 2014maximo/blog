@@ -136,7 +136,7 @@ export const JAVASCRIPT: DatosPost[] = [
         },
         fechaCreacion: '01-01-2021',
         fechaActualizacion: '',
-        imgHorizontal:'',
+        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/javascript/typescript-elementos.jpg',
         imgVertical:'',
         imgCuadro:''
     },

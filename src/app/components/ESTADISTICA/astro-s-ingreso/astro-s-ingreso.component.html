@@ -152,7 +152,11 @@
                 </tbody>
             </table>
         </div>
-        <app-paginador (paginados)="recibirCantidadElementos($event)" [contenedor]="astroEstadistica" [itemIniciales]="10"></app-paginador>
+        <app-paginador (paginados)="recibirCantidadElementos($event)"
+                        [contenedor]="astroEstadistica"
+                        [itemsPorPantalla]="itemsPorPantalla"
+                        [mostrarItemsPorPantalla]="true"
+                        [itemIniciales]="10"></app-paginador>
     </div>
 </div>
 
