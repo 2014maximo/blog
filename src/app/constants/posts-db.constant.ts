@@ -20,8 +20,8 @@ export const DB: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '01-01-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2021-01-05',
+        fechaActualizacion: '2021-01-05',
         imgHorizontal:'',
         imgVertical:'',
         imgCuadro:''
@@ -38,8 +38,8 @@ export const DB: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '01-01-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2021-03-03',
+        fechaActualizacion: '2021-03-03',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/db/firebase.jpg',
         imgVertical:'',
         imgCuadro:''
@@ -56,8 +56,8 @@ export const DB: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '01-01-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2021-02-07',
+        fechaActualizacion: '2021-02-07',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/db/sql.jpg',
         imgVertical:'',
         imgCuadro:''
@@ -74,8 +74,8 @@ export const DB: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '01-01-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2022-07-08',
+        fechaActualizacion: '2022-07-08',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/db/sql-server.jpg',
         imgVertical:'',
         imgCuadro:''

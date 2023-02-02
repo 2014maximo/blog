@@ -21,8 +21,8 @@ export const ELECTRON: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '02-08-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2020-08-02',
+        fechaActualizacion: '2020-08-02',
         imgHorizontal:'',
         imgVertical:'',
         imgCuadro:'',
@@ -39,8 +39,8 @@ export const ELECTRON: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '02-08-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2023-07-07',
+        fechaActualizacion: '2023-07-07',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/electron/instalacion-electron-web.jpg',
         imgVertical:'',
         imgCuadro:'',

@@ -21,8 +21,8 @@ export const FLUTTER: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '02-08-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2022-04-08',
+        fechaActualizacion: '2022-04-08',
         imgHorizontal:'',
         imgVertical:'',
         imgCuadro:'',
@@ -39,8 +39,8 @@ export const FLUTTER: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '02-08-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2023-04-02',
+        fechaActualizacion: '2023-04-02',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/flutter/instalacion-flutter.jpg',
         imgVertical:'',
         imgCuadro:'',
@@ -57,8 +57,8 @@ export const FLUTTER: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '02-08-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2022-09-02',
+        fechaActualizacion: '2022-09-02',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/flutter/elementos-flutter.jpg',
         imgVertical:'',
         imgCuadro:'',

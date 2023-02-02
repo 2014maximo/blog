@@ -21,8 +21,8 @@ export const DEVELOPER: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '02-08-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2021-08-02',
+        fechaActualizacion: '2021-08-02',
         imgHorizontal:'',
         imgVertical:'',
         imgCuadro:'',
@@ -39,8 +39,8 @@ export const DEVELOPER: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '02-08-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2022-05-08',
+        fechaActualizacion: '2022-05-08',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/developer/Una gran agrupación de sitios web con muchos recursos.jpg',
         imgVertical:'',
         imgCuadro:'',

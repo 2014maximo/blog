@@ -24,8 +24,8 @@ export const ANDROID: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '02-04-2021',
-        fechaActualizacion: ''
+        fechaCreacion: '2021-04-02',
+        fechaActualizacion: '2021-04-02'
     },
     {
         id: '8627267684',
@@ -42,7 +42,7 @@ export const ANDROID: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '02/06/2021',
-        fechaActualizacion: ''
+        fechaCreacion: '2021-06-02',
+        fechaActualizacion: '2021-06-02'
     }
 ]

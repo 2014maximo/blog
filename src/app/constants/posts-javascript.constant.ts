@@ -20,8 +20,8 @@ export const JAVASCRIPT: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '01-01-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2020-04-04',
+        fechaActualizacion: '2020-04-04',
         imgHorizontal:'',
         imgVertical:'',
         imgCuadro:''
@@ -38,8 +38,8 @@ export const JAVASCRIPT: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '01-01-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2023-01-11',
+        fechaActualizacion: '2023-01-11',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/javascript/elementos-javascript.jpg',
         imgVertical:'',
         imgCuadro:''
@@ -56,8 +56,8 @@ export const JAVASCRIPT: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '01-01-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2022-05-07',
+        fechaActualizacion: '2022-05-07',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/javascript/recorrido-arrays.jpg',
         imgVertical:'',
         imgCuadro:''
@@ -74,8 +74,8 @@ export const JAVASCRIPT: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '01-01-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2021-04-02',
+        fechaActualizacion: '2021-04-02',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/javascript/trabajos-utiles-fechas.jpg',
         pixabay:{
             autor: 'Dorothe',
@@ -98,8 +98,8 @@ export const JAVASCRIPT: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '01-01-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2021-04-02',
+        fechaActualizacion: '2021-04-02',
         imgHorizontal:'',
         imgVertical:'',
         imgCuadro:''
@@ -116,8 +116,8 @@ export const JAVASCRIPT: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '01-01-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2021-04-02',
+        fechaActualizacion: '2021-04-02',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/javascript/nodejsNVM.jpg',
         imgVertical:'',
         imgCuadro:''
@@ -134,8 +134,8 @@ export const JAVASCRIPT: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '01-01-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2021-04-02',
+        fechaActualizacion: '2021-04-02',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/javascript/typescript-elementos.jpg',
         imgVertical:'',
         imgCuadro:''

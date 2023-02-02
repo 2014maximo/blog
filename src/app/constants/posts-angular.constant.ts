@@ -21,8 +21,8 @@ export const ANGULAR: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '02-08-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2021-08-02',
+        fechaActualizacion: '2021-08-02',
         imgHorizontal:'',
         imgVertical:'',
         imgCuadro:'',
@@ -39,8 +39,8 @@ export const ANGULAR: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '02-10-2021',
-        fechaActualizacion: '03-02-2022',
+        fechaCreacion: '2021-10-02',
+        fechaActualizacion: '2023-01-24',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
         imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
@@ -57,8 +57,8 @@ export const ANGULAR: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '02-10-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2021-10-02',
+        fechaActualizacion: '2021-10-02',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/angularPartes.png',
         imgVertical:'',
         imgCuadro:'',

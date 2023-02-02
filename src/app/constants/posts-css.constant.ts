@@ -20,8 +20,8 @@ export const CSS: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '01-01-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2021-01-01',
+        fechaActualizacion: '2021-01-01',
         imgHorizontal:'',
         imgVertical:'',
         imgCuadro:''
@@ -38,8 +38,8 @@ export const CSS: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '01-02-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2021-02-01',
+        fechaActualizacion: '2021-02-01',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/css/clases bootstrap4.png',
         imgVertical:'',
         imgCuadro:''

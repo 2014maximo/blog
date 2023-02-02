@@ -21,8 +21,8 @@ export const DART: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '02-02-2021',
-        fechaActualizacion: '02-10-2022',
+        fechaCreacion: '2021-02-02',
+        fechaActualizacion: '2022-10-02',
         imgHorizontal:'',
         imgVertical:'',
         imgCuadro:''
@@ -39,8 +39,8 @@ export const DART: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '02-04-2022',
-        fechaActualizacion: '',
+        fechaCreacion: '2021-05-02',
+        fechaActualizacion: '2021-05-02',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/dart/elementos-dart.jpg',
         imgVertical:'',
         imgCuadro:''

@@ -20,8 +20,8 @@ export const GIT: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '01-01-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2021-05-02',
+        fechaActualizacion: '2021-05-02',
         imgHorizontal:'',
         imgVertical:'',
         imgCuadro:''
@@ -38,8 +38,8 @@ export const GIT: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '01-01-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2022-05-05',
+        fechaActualizacion: '2022-05-05',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/git/instalar-git.jpg',
         imgVertical:'',
         imgCuadro:''

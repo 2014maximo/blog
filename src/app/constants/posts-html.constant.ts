@@ -20,8 +20,8 @@ export const HTML: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '01-01-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2021-09-09',
+        fechaActualizacion: '2021-09-09',
         imgHorizontal:'',
         imgVertical:'',
         imgCuadro:''
@@ -38,8 +38,8 @@ export const HTML: DatosPost[] = [
         estilos: {
             color: ''
         },
-        fechaCreacion: '01-01-2021',
-        fechaActualizacion: '',
+        fechaCreacion: '2021-08-09',
+        fechaActualizacion: '2021-08-09',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/html/etiquetas-html.jpg',
         imgVertical:'',
         imgCuadro:''

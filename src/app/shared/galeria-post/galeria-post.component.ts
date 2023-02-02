@@ -38,12 +38,26 @@ export class GaleriaPostComponent implements OnInit {
       });
     });
     this.todosLosPost = Object.assign([], this.retirarPostsPrincipalCategoria(this.todosLosPost));
+    this.todosLosPost = Object.assign([], this.ordenarPostPorFecha(this.todosLosPost));
   }
 
   private retirarPostsPrincipalCategoria(grupo:DatosPost[]):DatosPost[]{
     return grupo.filter( element => 
       element.mostrarEnPostHome
     )
+  }
+
+  private ordenarPostPorFecha(grupo: DatosPost[]):DatosPost[]{
+
+    let ordenados = grupo.sort( (a:DatosPost, b:DatosPost) =>  
+      this.convertirFechaANumero(a.fechaActualizacion) - this.convertirFechaANumero(b.fechaActualizacion)
+    );
+    return ordenados;
+  }
+
+  public convertirFechaANumero(fecha:string):number{
+    let numero = +(new Date(fecha).getTime());
+    return +numero;
   }
 
   public tipoSombra(path: string):string{
