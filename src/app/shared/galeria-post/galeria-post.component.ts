@@ -50,7 +50,7 @@ export class GaleriaPostComponent implements OnInit {
   private ordenarPostPorFecha(grupo: DatosPost[]):DatosPost[]{
 
     let ordenados = grupo.sort( (a:DatosPost, b:DatosPost) =>  
-      this.convertirFechaANumero(a.fechaActualizacion) - this.convertirFechaANumero(b.fechaActualizacion)
+      this.convertirFechaANumero(b.fechaActualizacion) - this.convertirFechaANumero(a.fechaActualizacion)
     );
     return ordenados;
   }
