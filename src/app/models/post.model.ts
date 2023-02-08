@@ -54,3 +54,11 @@ export class CategoriaModel {
     nClass?: string = '';
     icon?: string = '';
 }
+
+export interface SliderModel {
+    ruta: string,
+    alt: string,
+    height: string,
+    width: string,
+    id: string
+}

@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import { of } from 'rxjs';
 import { RUTAS_SLIDES } from '../../constants/sliders.constant';
+import { SliderModel } from '../../models/post.model';
+import { CATEGORIA } from '../../constants/categoria.constant';
 
 @Component({
   selector: 'app-slider-home',
@@ -11,6 +13,7 @@ import { RUTAS_SLIDES } from '../../constants/sliders.constant';
 export class SliderHomeComponent implements OnInit {
 
   public sliders: any;
+
 
   constructor() { }
 
@@ -47,8 +50,28 @@ export class SliderHomeComponent implements OnInit {
   }
 
   private InicializarVariables(){
+
     this.sliders = RUTAS_SLIDES;
-    console.log(this.sliders, 'LOS SLIDERS');
+    let grupo = this.extraerUltimosPost();
+    console.log(grupo, 'LOS SLIDERS');
+  }
+
+  private extraerUltimosPost(): SliderModel[]{
+
+    let slidersSeleccionados: any[] =[];
+
+    CATEGORIA.forEach((e:any, i:number)=>{
+      e.posts.forEach((element:any) => {
+        slidersSeleccionados.push(element)
+      });
+    });
+
+    slidersSeleccionados = slidersSeleccionados.filter((element:any) => 
+      element.mostrarEnPostHome
+    )
+
+    
+    return []
   }
 
 }
