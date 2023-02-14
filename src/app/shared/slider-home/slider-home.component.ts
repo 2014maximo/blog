@@ -4,6 +4,8 @@ import { of } from 'rxjs';
 import { RUTAS_SLIDES } from '../../constants/sliders.constant';
 import { SliderModel } from '../../models/post.model';
 import { CATEGORIA } from '../../constants/categoria.constant';
+import { DatosPost, ImgSlider } from '../../models/categorias.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-slider-home',
@@ -14,8 +16,7 @@ export class SliderHomeComponent implements OnInit {
 
   public sliders: any;
 
-
-  constructor() { }
+  constructor(private ruta: Router) { }
 
   ngOnInit(): void {
     this.InicializarVariables();
@@ -51,7 +52,7 @@ export class SliderHomeComponent implements OnInit {
 
   private InicializarVariables(){
 
-    this.sliders = RUTAS_SLIDES;
+    this.sliders = this.extraerUltimosPost();
     let grupo = this.extraerUltimosPost();
     console.log(grupo, 'LOS SLIDERS');
   }
@@ -59,19 +60,40 @@ export class SliderHomeComponent implements OnInit {
   private extraerUltimosPost(): SliderModel[]{
 
     let slidersSeleccionados: any[] =[];
+    let grupoSliders: SliderModel[] = [];
+    let incremento:number = 0;
 
     CATEGORIA.forEach((e:any, i:number)=>{
       e.posts.forEach((element:any) => {
         slidersSeleccionados.push(element)
       });
-    });
+    }); // SE EXTRAEN LOS POST DEL ÁRBOL
 
     slidersSeleccionados = slidersSeleccionados.filter((element:any) => 
       element.mostrarEnPostHome
-    )
+    );// SE RETIRAN LOS POST CATEGORIA
 
+    slidersSeleccionados.sort( (a:DatosPost, b:DatosPost) =>  
+      this.convertirFechaANumero(b.fechaActualizacion) - this.convertirFechaANumero(a.fechaActualizacion)
+    );// SE ORDENAN POR FECHA ASCENDENTE
+    console.log(slidersSeleccionados, 'SLIDERS SELECCIONADOS');
+
+    for(let i=0; i < slidersSeleccionados.length; i++){
+      if(slidersSeleccionados[i].imgSlider){
+        grupoSliders.push(slidersSeleccionados[i].imgSlider)
+      }
+    }
     
-    return []
+    return grupoSliders
+  }
+
+  public convertirFechaANumero(fecha:string):number{
+    let numero = +(new Date(fecha).getTime());
+    return +numero;
+  }
+
+  irAlPath(path: string){
+    this.ruta.navigate(['/',path]);
   }
 
 }

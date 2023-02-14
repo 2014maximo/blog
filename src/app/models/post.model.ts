@@ -60,5 +60,6 @@ export interface SliderModel {
     alt: string,
     height: string,
     width: string,
-    id: string
+    id: string,
+    post?: string
 }

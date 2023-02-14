@@ -6,7 +6,7 @@
       <owl-carousel-o [options]="customOptions">
       <ng-container *ngFor="let slide of sliders">
         <ng-template carouselSlide class="sombraUno">
-          <img [src]="slide.ruta" [alt]="slide.alt">
+          <img class="cursor-p" [src]="slide.ruta" [alt]="slide.alt" (click)="irAlPath(slide.post)">
         </ng-template>
       </ng-container>
     </owl-carousel-o>

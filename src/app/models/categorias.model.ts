@@ -72,7 +72,17 @@ export interface DatosPost{
     pixabay?: ImgHorizontal,
     imgVertical: string,
     imgCuadro:string,
-    categoria: DatosCategoria
+    categoria: DatosCategoria,
+    imgSlider?: ImgSlider
+}
+
+export interface ImgSlider {
+    alt: string,
+    height: string,
+    id: string,
+    ruta: string,
+    width: string,
+    post?: string
 }
 
 export interface EstilosPost{

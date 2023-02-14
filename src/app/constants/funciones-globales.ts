@@ -47,3 +47,4 @@ export function busquedaGeneral(array: any, bloque: string, palabra: string){
     .replace("Ü", "U")));
           
 }
+
