@@ -28,7 +28,7 @@ export const ANDROID: DatosPost[] = [
         fechaActualizacion: '2021-04-02'
     },
     {
-        id: '8627267684',
+        id: '7ea51cec-4d81-44f7-a4b4-7debe4c5a42e',
         titulo: 'Instalación Android Studio - Alternativas que no se tienen en cuenta',
         descripcion: 'Al buscar instalar Android Studio, vamos directamente a la página principal de la fuente, suelen perderse de vista características que no quieren mostrarte de entrada, y, fuera de eso, tus intereses pueden ser diferentes de los que buscan los creadores originales, miremos en detalle de que se trata.',
         descripcionCorta: '',
@@ -45,7 +45,7 @@ export const ANDROID: DatosPost[] = [
         fechaCreacion: '2023-02-12',
         fechaActualizacion: '2021-06-02',
         imgSlider: {
-            alt: 'Instalemos Android Studio',
+            alt: 'Instalación Android Studio',
             height: '600',
             id: '1',
             ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/android/instalacion-android-studio.jpg',

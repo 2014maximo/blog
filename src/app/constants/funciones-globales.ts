@@ -1,5 +1,6 @@
 import { Route } from '@angular/router';
 import { PostModel } from '../models/post.model';
+import { CATEGORIA } from './categoria.constant';
 
 export function copiarAlPortapapeles(cadenaAlclipboard: string) {
     const selBox = document.createElement('textarea');
@@ -17,6 +18,16 @@ export function copiarAlPortapapeles(cadenaAlclipboard: string) {
 
 export function traerPost(id: string, posts: PostModel[]){
   return posts.find( post => post.id_post === id);
+}
+
+export function postActual(idPost: string){
+  let post:any[]=[];
+  CATEGORIA.forEach((e:any, i:number)=>{
+    e.posts.forEach((element:any) => {
+      post.push(element);
+    });
+  });
+  return post.filter((element:any) => element.id === idPost);
 }
 
 export function extraerListaRutas(categoria:[]):Route[]{

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { rutaCatego } from 'src/app/constants/globales.constant';
 import { CategoriaModel, AccordeonModel, PostModel } from '../../../models/post.model';
-import { traerPost } from '../../../constants/funciones-globales';
+import { traerPost, postActual } from '../../../constants/funciones-globales';
 import { POSTS } from 'src/app/constants/post.constant';
 
 @Component({
@@ -13,6 +13,7 @@ import { POSTS } from 'src/app/constants/post.constant';
 export class AndrAndroidStudioComponent implements OnInit {
 
   public cabeceraPost = traerPost('andr-0001', POSTS) || new PostModel;
+  public post = postActual('7ea51cec-4d81-44f7-a4b4-7debe4c5a42e');
 
   public breadcrumb: CategoriaModel = {
     activo: this.cabeceraPost.mostrarBreadcrumb,
@@ -29,6 +30,7 @@ export class AndrAndroidStudioComponent implements OnInit {
   ]
 
   constructor() {
+    console.log(this.post, 'POST ACTUAL');
     this.inicializarVariables();
   }
   private inicializarVariables() {
