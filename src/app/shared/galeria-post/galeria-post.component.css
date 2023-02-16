@@ -46,17 +46,17 @@
     height: 100%;
     }
 .tituloPost{
-    color: #dc9047;
+    color: #fff;
     margin-top: 25px;
-    font-family: var(--fuente-seis);
-    font-size: 30px;
-    line-height: 30px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    line-height: 25px;
     text-shadow: 3px 3px 2px #000000;
 }
 .leerMas{
-    color: #dc9047;
+    color: #78726d;
     text-shadow: 3px 3px 2px #000000;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 20px;
 }
 .borderPost{

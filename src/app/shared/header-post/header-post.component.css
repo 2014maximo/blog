@@ -10,7 +10,6 @@
 .tituloPost {
     font-size: 3.5rem;
     font-weight: 600;
-    font-family: var(--fuente-dos);
     text-transform: uppercase;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;

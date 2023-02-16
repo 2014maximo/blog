@@ -537,10 +537,7 @@ a:hover {
     transform: scale(1.07);
 }
 .categorias {
-    font-size: 3rem;
-    font-family: var(--fuente-dos);
-    font-weight: bold;
-    letter-spacing: 12px;
+    font-size: 6rem;
     border-bottom: 2px solid #dc9047;
 }
 

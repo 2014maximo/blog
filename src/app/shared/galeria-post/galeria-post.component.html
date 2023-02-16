@@ -3,7 +3,7 @@
     <div class="col-md-10">
         <div class="row">
             <div class="col-md-4">
-                <h2 class="text-light categorias">POSTS</h2>
+                <h2 class="text-light categorias f-bebas">POSTS</h2>
             </div>
             <div class="col-md-8"></div>
         </div> 
@@ -12,15 +12,15 @@
                 <div class="d-flex justify-content-end mb-2 drop-two">
                     <img src="{{ post.categoria?.rutaIcono? post.categoria?.rutaIcono: '' }}" alt="" height="30" width="auto">
                 </div>
-                <div class="pl-5 pt-5 imgPost"[ngStyle]="{'background-image': 'url(assets/img/categorias/pruebaAllStar.png)'}">
+                <div class="pl-4 pt-4 imgPost"[ngStyle]="{'background-image': 'url(assets/img/categorias/pruebaAllStar.png)'}">
                     <img [ngClass]="tipoSombra(post.imgHorizontal)" src="{{ post.imgHorizontal}}" alt="" width="100%" height="auto">
                 </div>
-                <div class="borderPost">
-                    <h4 class="tituloPost">{{ post.titulo }}</h4>
-                    <p class="fuenteDos text-light">{{ post.fechaActualizacion? post.fechaActualizacion : post.fechaCreacion }}</p>
+                <div>
+                    <h4 class="tituloPost f-bebas">{{ post.titulo }}</h4>
                 </div>
-                <p class="fuenteDos fs-20 lh-25 text-light">{{ post.descripcion }}</p>
-                <a class="fuenteSeis leerMas mt-2" href="{{ post.path }}">LEER MÁS &gt;</a>
+                <p class="fuenteDos fs-17 lh-23 text-light">{{ post.descripcion }}</p>
+                <p class="f-shadow-into-l text-light fs-12 m-0">{{ post.fechaActualizacion? post.fechaActualizacion : post.fechaCreacion }}</p>
+                <a class="f-open-sans-c leerMas mt-2" href="{{ post.path }}">LEER MÁS &gt;</a>
             </div>
         </div>
         <div class="row">
