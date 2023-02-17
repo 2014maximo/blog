@@ -1,7 +1,7 @@
 export class PostModel {
     id_post: string = '';
     nombre: string = '';
-    categoria: string = '';
+    categoria: any;
     ruta: string = '';
     rutaImagen: string = '';
     fechaCreacion: Date = new Date();
@@ -10,7 +10,8 @@ export class PostModel {
     sombra: string = '';
     alturaImagen: string = '';
     mostrarBreadcrumb: boolean = true;
-    colorText: string = 'tc-green-one'
+    colorText: string = 'tc-green-one';
+    descripcion?: string;
 }
 
 export class HeaderPostModel {

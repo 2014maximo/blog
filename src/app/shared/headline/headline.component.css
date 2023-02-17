@@ -8,9 +8,9 @@
     background-position: center, center !important;
 }
 .tituloPost {
-    font-size: 3.5rem;
-    font-weight: 600;
     text-transform: uppercase;
+    line-height: 80px;
+    font-size: 95px;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
@@ -21,6 +21,9 @@
     text-shadow: black 0.1em 0.1em 0.2em;
     font-weight: 600 !important;
     line-height: 40px;
+}
+.texto-lateral{
+    transform: rotate(-90deg);
 }
 
 @media (max-width: 600px) {

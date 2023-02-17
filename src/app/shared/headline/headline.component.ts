@@ -7,6 +7,7 @@ import { PostModel } from '../../models/post.model';
   styleUrls: ['./headline.component.css']
 })
 export class HeadlineComponent implements OnInit {
+  
 
   @Input() cabecera: PostModel = {
     nombre: '',
@@ -21,7 +22,6 @@ export class HeadlineComponent implements OnInit {
     alturaImagen: '',
     mostrarBreadcrumb: false,
     colorText: ''
-
   };
 
   constructor() { }

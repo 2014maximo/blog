@@ -5,26 +5,43 @@
         </div>
         <div class="espacio"></div>
         <div class="container">
-            <div class="row text-center">
+            <div class="row">
                 <div class="col-md-12">
-                    <h2 class="tituloPost p-2 f-bebas">{{ this.cabecera.nombre }}</h2>
+                    <h2 class="tituloPost p-2 f-bebas fs-80">{{ this.cabecera.nombre }}</h2>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <div class="row" *ngIf="cabecera.incluirFondo">
-    <div class="col-md-12 text-center">
+    <div class="col-md-12">
         
         <div class="espacio"></div>
         <div class="container">
             <div class="row">
-                <div class="col-md-5"></div>
+                <div class="col-md-5 d-flex flex-column">
+                    <div>
+                        <img src="{{ this.cabecera.categoria.rutaIcono }}" alt="" height="50" width="auto" class="drop">
+                    </div>
+                    <div class="espacio"></div>
+                    <br>
+                    <div class="d-flex">
+                        <p class="tc-gray-two f-shadow-into-l fs-17 lh-17 m-0 p-0 texto-lateral m-0">
+                            <small>{{ this.cabecera.fechaActualizacion | date:'MMM d, y' }}</small>
+                        </p>
+                    </div>
+                    <div class="espaciado"></div>
+
+                </div>
                 <div class="col-md-7">
                     <h2 class="tituloPost f-bebas p-2">{{ this.cabecera.nombre }}</h2>
+
+                    <p class="text-light f-open-sans-c fs-20 lh-30">
+                        {{ this.cabecera.descripcion }}
+                    </p>
                 </div>
             </div>
         </div>
-        <img src="{{ this.cabecera.rutaImagen }}" alt="" height="{{ this.cabecera.alturaImagen }}" class="{{ this.cabecera.sombra }}">
     </div>
 </div>
+<div class="espaciado"></div>

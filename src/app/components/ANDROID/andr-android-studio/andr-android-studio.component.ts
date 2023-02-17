@@ -12,12 +12,27 @@ import { POSTS } from 'src/app/constants/post.constant';
 })
 export class AndrAndroidStudioComponent implements OnInit {
 
-  public cabeceraPost = traerPost('andr-0001', POSTS) || new PostModel;
-  public post = postActual('7ea51cec-4d81-44f7-a4b4-7debe4c5a42e');
+  public post:any = postActual('7ea51cec-4d81-44f7-a4b4-7debe4c5a42e');
+  
+  public cabeceraPost = {
+    nombre: this.post[0].titulo,
+    id_post: this.post[0].id,
+    categoria: this.post[0].categoria,
+    fechaActualizacion: this.post[0].fechaActualizacion,
+    fechaCreacion: this.post[0].fechaCreacion,
+    incluirFondo: true,
+    ruta: this.post[0].path,
+    rutaImagen: this.post[0].imgHorizontal,
+    sombra: '',
+    alturaImagen: '200',
+    mostrarBreadcrumb: true,
+    colorText: 'c-Android',
+    descripcion: this.post[0].descripcion
+  }
 
   public breadcrumb: CategoriaModel = {
     activo: this.cabeceraPost.mostrarBreadcrumb,
-    categoria: this.cabeceraPost.categoria,
+    categoria: this.cabeceraPost.categoria.nombre,
     colorText: this.cabeceraPost.colorText,
     ruta: this.cabeceraPost.ruta,
   }
