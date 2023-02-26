@@ -22,7 +22,7 @@ export class AndrAndroidStudioComponent implements OnInit {
     fechaCreacion: this.post[0].fechaCreacion,
     incluirFondo: true,
     ruta: this.post[0].path,
-    rutaImagen: this.post[0].imgHorizontal,
+    rutaImagen: this.post[0].imgSlider.ruta,
     sombra: '',
     alturaImagen: '200',
     mostrarBreadcrumb: true,
@@ -34,7 +34,7 @@ export class AndrAndroidStudioComponent implements OnInit {
     activo: this.cabeceraPost.mostrarBreadcrumb,
     categoria: this.cabeceraPost.categoria.nombre,
     colorText: this.cabeceraPost.colorText,
-    ruta: this.cabeceraPost.ruta,
+    ruta: this.cabeceraPost.categoria.path,
   }
 
   public accordeonContend: AccordeonModel [] = [
