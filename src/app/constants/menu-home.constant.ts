@@ -1,3 +1,9 @@
+
+export const MENU = {
+    menu_1: [
+        
+    ]
+}
 export const MENU_1 = [
     {
         id:1,
