@@ -13,123 +13,134 @@ import { DB } from './posts-db.constant';
 export const CATEGORIA = [
     {
         categoria: 'ANDROID',
-        id:'',
+        id:1,
         ruta: '',
+        abertura: '80%',
+        estado:'activa',
         descripcion: '',
         descripcionCorta: '',
-        estilo: {
-            color:''
-        },
+        rutaIcono: 'assets/img/categorias/android.png',
         posts: ANDROID
     },
     {
         categoria: 'ANGULAR',
-        id:'',
+        id:2,
         ruta: '',
+        abertura: '80%',
+        estado:'activa',
         descripcion: '',
         descripcionCorta: '',
-        estilo: {
-            color:''
-        },
+        rutaIcono: 'assets/img/categorias/angular.png',
         posts: ANGULAR
     },
     {
         categoria: 'CSS',
-        id:'',
+        id:3,
         ruta: '',
+        abertura: '80%',
+        estado:'activa',
         descripcion: '',
         descripcionCorta: '',
-        estilo: {
-            color:''
-        },
+        rutaIcono: 'assets/img/categorias/css.png',
         posts: CSS
     },
     {
         categoria: 'DART',
-        id:'',
+        id:4,
         ruta: '',
+        abertura: '80%',
+        estado:'activa',
         descripcion: '',
         descripcionCorta: '',
-        estilo: {
-            color:''
-        },
+        rutaIcono: 'assets/img/categorias/dart_text_white.png',
         posts: DART
     },
     {
         categoria: 'DB',
-        id:'',
+        id:5,
         ruta: '',
+        abertura: '80%',
+        estado:'activa',
         descripcion: '',
         descripcionCorta: '',
-        estilo: {
-            color:''
-        },
+        rutaIcono: 'assets/img/categorias/sql.png',
         posts: DB
     },
     {
         categoria: 'DEVELOPER',
-        id:'',
+        id:6,
         ruta: '',
+        abertura: '80%',
+        estado:'activa',
         descripcion: '',
         descripcionCorta: '',
-        estilo: {
-            color:''
-        },
+        rutaIcono: 'assets/img/categorias/developer.png',
         posts: DEVELOPER
     },
     {
         categoria: 'ELECTRON',
-        id:'',
+        id:7,
         ruta: '',
+        abertura: '80%',
+        estado:'activa',
         descripcion: '',
         descripcionCorta: '',
-        estilo: {
-            color:''
-        },
+        rutaIcono: 'assets/img/categorias/electron.png',
         posts: ELECTRON
     },
     {
         categoria: 'FLUTTER',
-        id:'',
+        id:8,
         ruta: '',
+        abertura: '80%',
+        estado:'activa',
         descripcion: '',
         descripcionCorta: '',
-        estilo: {
-            color:''
-        },
+        rutaIcono: 'assets/img/categorias/flutter_text_white.png',
         posts: FLUTTER
     },
     {
         categoria: 'GIT',
-        id:'',
+        id:9,
         ruta: '',
+        abertura: '80%',
+        estado:'activa',
         descripcion: '',
         descripcionCorta: '',
-        estilo: {
-            color:''
-        },
+        rutaIcono: 'assets/img/categorias/git-light.png',
         posts: GIT
     },
     {
         categoria: 'HTML',
-        id:'',
+        id:10,
         ruta: '',
+        abertura: '80%',
+        estado:'activa',
         descripcion: '',
         descripcionCorta: '',
-        estilo: {
-            color:''
-        },
+        rutaIcono: 'assets/img/categorias/html-white.png',
         posts: HTML
     },
     {
-        categoria: 'JAVASCRIPT',
-        id:'',
+        categoria: 'JAVA',
+        id:11,
         ruta: '',
+        abertura: '80%',
+        estado:'activa',
         descripcion: '',
         descripcionCorta: '',
-        estilo: {
-            color:''
-        },
+        rutaIcono: 'assets/img/categorias/logo-java.png',
+        posts: JAVASCRIPT
+    },
+    {
+        categoria: 'JAVASCRIPT',
+        id:12,
+        ruta: '',
+        abertura: '80%',
+        estado:'activa',
+        descripcion: '',
+        descripcionCorta: '',
+        rutaIcono: 'assets/img/categorias/javascript.png',
         posts: JAVASCRIPT
     },
 ]
