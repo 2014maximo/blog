@@ -3,6 +3,7 @@ import { MENU_1, MENU_2, MENU_3, MENU_4, MENU_5 } from '../../constants/menu-hom
 import { CATEGORIAS } from '../../constants/categorias.constant';
 import { CategoriasModel } from '../../models/categorias.model';
 import { IndiceDeContenidosModel } from '../../models/indice.model';
+import { CATEGORIA } from '../../constants/categoria.constant';
 
 @Component({
   selector: 'app-menu-home',
@@ -15,22 +16,32 @@ export class MenuHomeComponent implements OnInit {
   public categorias: CategoriasModel[] = [];
   public pasoDeIndice: IndiceDeContenidosModel [] = []
   public claseContenedor: string = '';
+  public posts = CATEGORIA;
 
   constructor() {
     this.inicializarVariables();
+    this.extraerMenu(['ANDROID','ANGULAR','CSS', 'DART'])
   }
 
   ngOnInit(): void {
   }
 
   private inicializarVariables(){
+/*     this.menus = {
+      menuUno: this.extraerMenu(['ANDROID','ANGULAR','CSS', 'DART']),
+      menuDos: this.extraerMenu(['DB','DEVELOPER','ELECTRON', 'FLUTTER']),
+      menuTres: this.extraerMenu(['GIT','HTML','JAVA', 'JAVASCRIPT']),
+      menuCuatro: this.extraerMenu(['KOTLIN','KUBERNETES','LINUX', 'NET']),
+      menuCinco: this.extraerMenu(['PHP','REACT','WORDPRESS'])
+    } */
     this.menus = {
       menuUno: MENU_1,
       menuDos: MENU_2,
       menuTres: MENU_3,
       menuCuatro: MENU_4,
-      menuCinco: MENU_5
+      menuCinco: MENU_5,
     }
+
     this.categorias = CATEGORIAS;
 
     this.claseContenedor = 'mt-2'
@@ -199,6 +210,16 @@ export class MenuHomeComponent implements OnInit {
     ]
 
   }
+
+  private extraerMenu(referencias: string[]):any[]{
+    let menu:any[]=[];
+    referencias.forEach( (e:any, i:number) => {
+      let categorias = this.posts.filter( elemento => elemento.categoria === e)
+      menu.push(categorias[0]);
+    })
+    return menu
+  }
+
 
   public abrirMenuCategoria(categoria: string, abertura: string){
     //let shand = document.getElementsByClassName('s-hand') as HTMLCollectionOf<HTMLElement>;
