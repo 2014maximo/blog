@@ -545,7 +545,7 @@ export const CATEGORIAS: CategoriasModel [] = [
         ]
     },
 /*      JAVA    */
-/*     {
+    {
         id:11,
         categoria: 'java',
         rutaCategoria: 'java',
@@ -590,7 +590,7 @@ export const CATEGORIAS: CategoriasModel [] = [
                 activo: false
             },
         ]
-    }, */
+    },
 /*      JAVASCRIPT    */
     {
         id:12,

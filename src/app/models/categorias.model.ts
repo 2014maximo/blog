@@ -74,6 +74,7 @@ export interface DatosPost{
     imgCuadro:string,
     categoria: DatosCategoria,
     imgSlider?: ImgSlider
+    estado?: string
 }
 
 export interface ImgSlider {

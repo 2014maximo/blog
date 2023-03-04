@@ -20,27 +20,27 @@ export class MenuHomeComponent implements OnInit {
 
   constructor() {
     this.inicializarVariables();
-    this.extraerMenu(['ANDROID','ANGULAR','CSS', 'DART'])
+    this.extraerMenu(['android','angular','css', 'dart'])
   }
 
   ngOnInit(): void {
   }
 
   private inicializarVariables(){
-/*     this.menus = {
-      menuUno: this.extraerMenu(['ANDROID','ANGULAR','CSS', 'DART']),
-      menuDos: this.extraerMenu(['DB','DEVELOPER','ELECTRON', 'FLUTTER']),
-      menuTres: this.extraerMenu(['GIT','HTML','JAVA', 'JAVASCRIPT']),
-      menuCuatro: this.extraerMenu(['KOTLIN','KUBERNETES','LINUX', 'NET']),
-      menuCinco: this.extraerMenu(['PHP','REACT','WORDPRESS'])
-    } */
     this.menus = {
+      menuUno: this.extraerMenu(['android','angular','css', 'dart']),
+      menuDos: this.extraerMenu(['db','developer','electron', 'flutter']),
+      menuTres: this.extraerMenu(['git','html','java', 'javascript']),
+      menuCuatro: this.extraerMenu(['kotlin','kubernetes','linux', 'net']),
+      menuCinco: this.extraerMenu(['php','react','wordpress'])
+    }
+/*     this.menus = {
       menuUno: MENU_1,
       menuDos: MENU_2,
       menuTres: MENU_3,
       menuCuatro: MENU_4,
       menuCinco: MENU_5,
-    }
+    } */
 
     this.categorias = CATEGORIAS;
 
