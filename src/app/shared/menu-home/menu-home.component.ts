@@ -34,13 +34,6 @@ export class MenuHomeComponent implements OnInit {
       menuCuatro: this.extraerMenu(['kotlin','kubernetes','linux', 'net']),
       menuCinco: this.extraerMenu(['php','react','wordpress'])
     }
-/*     this.menus = {
-      menuUno: MENU_1,
-      menuDos: MENU_2,
-      menuTres: MENU_3,
-      menuCuatro: MENU_4,
-      menuCinco: MENU_5,
-    } */
 
     this.categorias = CATEGORIAS;
 

@@ -18,10 +18,13 @@ export const CATEGORIA = [
         rutaIcono: 'assets/img/categorias/android.png',
         alturaIcono: '80',
         estado:'activo',
-        ruta: '',
+        rutaCategoria: 'android',
+        colorFondo: 'bg-Android',
+        color: 'c-Android',
         descripcion: '',
         descripcionCorta: '',
-        posts: ANDROID
+        posts: ANDROID,
+        subcategorias: null
     },
     {
         id:2,
@@ -30,10 +33,13 @@ export const CATEGORIA = [
         rutaIcono: 'assets/img/categorias/angular.png',
         alturaIcono: '80',
         estado:'activo',
-        ruta: '',
+        rutaCategoria: 'angular',
+        colorFondo: 'bg-Angular',
+        color: 'c-Angular',
         descripcion: '',
         descripcionCorta: '',
-        posts: ANGULAR
+        posts: ANGULAR,
+        subcategorias: null
     },
     {
         id:3,
@@ -42,10 +48,13 @@ export const CATEGORIA = [
         rutaIcono: 'assets/img/categorias/css.png',
         alturaIcono: '80',
         estado:'activo',
-        ruta: '',
+        rutaCategoria: 'css',
+        colorFondo: 'bg-Css',
+        color: 'c-Css',
         descripcion: '',
         descripcionCorta: '',
-        posts: CSS
+        posts: CSS,
+        subcategorias: null
     },
     {
         id:4,
@@ -54,10 +63,13 @@ export const CATEGORIA = [
         rutaIcono: 'assets/img/categorias/dart_text_white.png',
         alturaIcono: '40',
         estado:'activo',
-        ruta: '',
+        rutaCategoria: 'dart',
+        colorFondo: 'bg-Dart',
+        color: 'c-Dart',
         descripcion: '',
         descripcionCorta: '',
-        posts: DART
+        posts: DART,
+        subcategorias: null
     },
     {
         id:5,
@@ -66,10 +78,13 @@ export const CATEGORIA = [
         rutaIcono: 'assets/img/categorias/sql.png',
         alturaIcono: '55',
         estado:'activo',
-        ruta: '',
+        rutaCategoria: 'db',
+        colorFondo: 'bg-Sql',
+        color: 'c-Sql',
         descripcion: '',
         descripcionCorta: '',
-        posts: DB
+        posts: DB,
+        subcategorias: null
     },
     {
         id:6,
@@ -78,10 +93,13 @@ export const CATEGORIA = [
         rutaIcono: 'assets/img/categorias/developer.png',
         alturaIcono: '90',
         estado:'activo',
-        ruta: '',
+        rutaCategoria: 'developer',
+        colorFondo: 'bg-Developer',
+        color: 'c-Developer',
         descripcion: '',
         descripcionCorta: '',
-        posts: DEVELOPER
+        posts: DEVELOPER,
+        subcategorias: null
     },
     {
         id:7,
@@ -90,7 +108,9 @@ export const CATEGORIA = [
         rutaIcono: 'assets/img/categorias/electron.png',
         alturaIcono: '90',
         estado:'activo',
-        ruta: '',
+        rutaCategoria: '',
+        colorFondo: '',
+        color: '',
         descripcion: '',
         descripcionCorta: '',
         posts: ELECTRON
@@ -102,7 +122,9 @@ export const CATEGORIA = [
         rutaIcono: 'assets/img/categorias/flutter_text_white.png',
         alturaIcono: '80',
         estado:'activo',
-        ruta: '',
+        rutaCategoria: '',
+        colorFondo: '',
+        color: '',
         descripcion: '',
         descripcionCorta: '',
         posts: FLUTTER
@@ -114,7 +136,9 @@ export const CATEGORIA = [
         rutaIcono: 'assets/img/categorias/git-light.png',
         alturaIcono: '60',
         estado:'activo',
-        ruta: '',
+        rutaCategoria: '',
+        colorFondo: '',
+        color: '',
         descripcion: '',
         descripcionCorta: '',
         posts: GIT
@@ -126,7 +150,9 @@ export const CATEGORIA = [
         rutaIcono: 'assets/img/categorias/html-white.png',
         alturaIcono: '80',
         estado:'activo',
-        ruta: '',
+        rutaCategoria: '',
+        colorFondo: '',
+        color: '',
         descripcion: '',
         descripcionCorta: '',
         posts: HTML
@@ -138,7 +164,9 @@ export const CATEGORIA = [
         rutaIcono: 'assets/img/categorias/logo-java.png',
         alturaIcono: '100',
         estado:'activo',
-        ruta: '',
+        rutaCategoria: '',
+        colorFondo: '',
+        color: '',
         descripcion: '',
         descripcionCorta: '',
         posts: JAVASCRIPT
@@ -150,7 +178,9 @@ export const CATEGORIA = [
         rutaIcono: 'assets/img/categorias/javascript.png',
         alturaIcono: '80',
         estado:'activo',
-        ruta: '',
+        rutaCategoria: '',
+        colorFondo: '',
+        color: '',
         descripcion: '',
         descripcionCorta: '',
         posts: JAVASCRIPT
@@ -162,7 +192,9 @@ export const CATEGORIA = [
         rutaIcono: 'assets/img/categorias/kotlin.png',
         alturaIcono: '60',
         estado:'inactivo',
-        ruta: '',
+        rutaCategoria: '',
+        colorFondo: '',
+        color: '',
         descripcion: '',
         descripcionCorta: '',
         posts: JAVASCRIPT
@@ -174,7 +206,9 @@ export const CATEGORIA = [
         rutaIcono: 'assets/img/categorias/kubernetes.png',
         alturaIcono: '100',
         estado:'inactivo',
-        ruta: '',
+        rutaCategoria: '',
+        colorFondo: '',
+        color: '',
         descripcion: '',
         descripcionCorta: '',
         posts: JAVASCRIPT
@@ -186,7 +220,9 @@ export const CATEGORIA = [
         rutaIcono: 'assets/img/categorias/linux-white.png',
         alturaIcono: '60',
         estado:'inactivo',
-        ruta: '',
+        rutaCategoria: '',
+        colorFondo: '',
+        color: '',
         descripcion: '',
         descripcionCorta: '',
         posts: JAVASCRIPT
@@ -198,7 +234,9 @@ export const CATEGORIA = [
         rutaIcono: 'assets/img/categorias/net-framework.png',
         alturaIcono: '80',
         estado:'inactivo',
-        ruta: '',
+        rutaCategoria: '',
+        colorFondo: '',
+        color: '',
         descripcion: '',
         descripcionCorta: '',
         posts: JAVASCRIPT
@@ -210,7 +248,9 @@ export const CATEGORIA = [
         rutaIcono: 'assets/img/categorias/php.png',
         alturaIcono: '70',
         estado:'inactivo',
-        ruta: '',
+        rutaCategoria: '',
+        colorFondo: '',
+        color: '',
         descripcion: '',
         descripcionCorta: '',
         posts: JAVASCRIPT
@@ -222,7 +262,9 @@ export const CATEGORIA = [
         rutaIcono: 'assets/img/categorias/react.png',
         alturaIcono: '100',
         estado:'inactivo',
-        ruta: '',
+        rutaCategoria: '',
+        colorFondo: '',
+        color: '',
         descripcion: '',
         descripcionCorta: '',
         posts: JAVASCRIPT
@@ -234,7 +276,9 @@ export const CATEGORIA = [
         rutaIcono: 'assets/img/categorias/wordpress2.png',
         alturaIcono: '80',
         estado:'inactivo',
-        ruta: '',
+        rutaCategoria: '',
+        colorFondo: '',
+        color: '',
         descripcion: '',
         descripcionCorta: '',
         posts: JAVASCRIPT
