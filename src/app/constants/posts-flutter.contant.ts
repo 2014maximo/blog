@@ -26,7 +26,7 @@ export const FLUTTER: DatosPost[] = [
         imgHorizontal:'',
         imgVertical:'',
         imgCuadro:'',
-        categoria: DATOS_CATEGORIA
+        categoria: 'flutter'
     },
     {
         id: '6805705269',
@@ -44,7 +44,7 @@ export const FLUTTER: DatosPost[] = [
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/flutter/instalacion-flutter.jpg',
         imgVertical:'',
         imgCuadro:'',
-        categoria: DATOS_CATEGORIA
+        categoria: 'flutter'
     },
     {
         id: '8076473031',
@@ -62,6 +62,6 @@ export const FLUTTER: DatosPost[] = [
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/flutter/elementos-flutter.jpg',
         imgVertical:'',
         imgCuadro:'',
-        categoria: DATOS_CATEGORIA
+        categoria: 'flutter'
     },
 ]

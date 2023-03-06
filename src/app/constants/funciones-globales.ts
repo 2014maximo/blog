@@ -1,7 +1,7 @@
 import { Route } from '@angular/router';
 import { PostModel } from '../models/post.model';
 import { CATEGORIA } from './categoria.constant';
-import { CategoriaPostModel, DatosCategoria } from '../models/categorias.model';
+import { CategoriaPostModel, DatosCategoria, DatosPost } from '../models/categorias.model';
 
 export function copiarAlPortapapeles(cadenaAlclipboard: string) {
     const selBox = document.createElement('textarea');
@@ -60,13 +60,73 @@ export function busquedaGeneral(array: any, bloque: string, palabra: string){
           
 }
 
-export function datosCategoria(categoria: string, referencia: string, referenciaHija: string){
-  let fichaCategoria: DatosCategoria;
+export function datosCategoria(cat: string, referencia: number): any{
+  let datoCategoria: any;
   
   let categoriaFiltrada: CategoriaPostModel[] = CATEGORIA.filter(( categoria: CategoriaPostModel ) => {
-    return categoria.categoria === referencia
+    return categoria.categoria === cat
   });
 
   categoriaFiltrada;
+
+  switch (referencia) {
+    case 1:
+      datoCategoria = categoriaFiltrada[0].abertura
+      break
+
+    case 2:
+      datoCategoria = categoriaFiltrada[0].alturaIcono
+      break
+  
+    case 3:
+      datoCategoria = categoriaFiltrada[0].categoria
+      break
+
+    case 4:
+      datoCategoria = categoriaFiltrada[0].color
+      break
+
+    case 5:
+      datoCategoria = categoriaFiltrada[0].colorFondo
+      break
+
+    case 6:
+      datoCategoria = categoriaFiltrada[0].descripcion
+      break
+
+    case 7:
+      datoCategoria = categoriaFiltrada[0].descripcionCorta
+      break
+
+    case 8:
+      datoCategoria = categoriaFiltrada[0].estado
+      break
+
+    case 9:
+      datoCategoria = categoriaFiltrada[0].id
+      break
+
+    case 10:
+      datoCategoria = categoriaFiltrada[0].posts
+      break
+
+    case 11:
+      datoCategoria = categoriaFiltrada[0].rutaCategoria
+      break
+
+    case 12:
+      datoCategoria = categoriaFiltrada[0].rutaIcono
+      break
+
+    case 13:
+      datoCategoria = categoriaFiltrada[0].subcategorias
+      break
+
+    default:
+      datoCategoria = '';
+  }
+
+  return datoCategoria
+
 }
 

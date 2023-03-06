@@ -1,11 +1,4 @@
 import { DatosPost, DatosCategoria } from '../models/categorias.model';
-const DATOS_CATEGORIA: DatosCategoria = {
-    nombre: 'DB',
-    color: 'c-Sql',
-    fondo:'',
-    ruta: 'db',
-    rutaIcono:'https://plantillas_dev.gitlab.io/assets/img/logos/logo-db.png'
-}
 
 export const DB: DatosPost[] = [
     {
@@ -15,7 +8,7 @@ export const DB: DatosPost[] = [
         descripcionCorta: '',
         ruta: 'db',
         componente: 'DbComponent',
-        categoria: DATOS_CATEGORIA,
+        categoria: 'db',
         mostrarEnPostHome: false,
         estilos: {
             color: ''
@@ -33,7 +26,7 @@ export const DB: DatosPost[] = [
         descripcionCorta: '',
         ruta: 'db-firebase',
         componente: 'DbFirebaseComponent',
-        categoria: DATOS_CATEGORIA,
+        categoria: 'db',
         mostrarEnPostHome: true,
         estilos: {
             color: ''
@@ -51,7 +44,7 @@ export const DB: DatosPost[] = [
         descripcionCorta: '',
         ruta: 'db-sql',
         componente: 'DbSqlComponent',
-        categoria: DATOS_CATEGORIA,
+        categoria: 'db',
         mostrarEnPostHome: true,
         estilos: {
             color: ''
@@ -69,7 +62,7 @@ export const DB: DatosPost[] = [
         descripcionCorta: '',
         ruta: 'db-sql',
         componente: 'DbSqlComponent',
-        categoria: DATOS_CATEGORIA,
+        categoria: 'db',
         mostrarEnPostHome: true,
         estilos: {
             color: ''

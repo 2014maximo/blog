@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CATEGORIA } from '../../constants/categoria.constant';
 import { DatosPost } from '../../models/categorias.model';
+import { datosCategoria } from '../../constants/funciones-globales';
 
 @Component({
   selector: 'app-galeria-post',
@@ -71,6 +72,10 @@ export class GaleriaPostComponent implements OnInit {
 
   public recibirCantidadElementos(e:any){
     this.postPaginar = Object.assign([], e);
+  }
+
+  public retornarDatoCategoria(categoria: string, referencia: number): string{
+    return datosCategoria(categoria,referencia);
   }
 
 }

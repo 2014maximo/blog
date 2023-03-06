@@ -1,11 +1,4 @@
 import { DatosPost, DatosCategoria } from '../models/categorias.model';
-const DATOS_CATEGORIA: DatosCategoria = {
-    nombre: 'GIT',
-    color: 'c-Git',
-    fondo:'',
-    ruta: 'git',
-    rutaIcono:'https://plantillas_dev.gitlab.io/assets/img/logos/logo-git.png'
-}
 
 export const GIT: DatosPost[] = [
     {
@@ -15,7 +8,7 @@ export const GIT: DatosPost[] = [
         descripcionCorta: '',
         ruta: 'git',
         componente: 'GitComponent',
-        categoria: DATOS_CATEGORIA,
+        categoria: 'git',
         mostrarEnPostHome: false,
         estilos: {
             color: ''
@@ -33,7 +26,7 @@ export const GIT: DatosPost[] = [
         descripcionCorta: '',
         ruta: 'git-instalacion',
         componente: 'GitInstalacionComponent',
-        categoria: DATOS_CATEGORIA,
+        categoria: 'git',
         mostrarEnPostHome: true,
         estilos: {
             color: ''

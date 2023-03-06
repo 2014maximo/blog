@@ -1,11 +1,5 @@
 import { DatosPost, DatosCategoria } from '../models/categorias.model';
-const DATOS_CATEGORIA: DatosCategoria = {
-    nombre: 'HTML',
-    color: 'c-Html',
-    fondo:'',
-    ruta: 'html',
-    rutaIcono:'https://plantillas_dev.gitlab.io/assets/img/logos/logo-html.png'
-}
+
 
 export const HTML: DatosPost[] = [
     {
@@ -15,7 +9,7 @@ export const HTML: DatosPost[] = [
         descripcionCorta: '',
         ruta: 'html',
         componente: 'HtmlComponent',
-        categoria: DATOS_CATEGORIA,
+        categoria: 'html',
         mostrarEnPostHome: false,
         estilos: {
             color: ''
@@ -33,7 +27,7 @@ export const HTML: DatosPost[] = [
         descripcionCorta: '',
         ruta: 'html-etiquetas',
         componente: 'HtmlEtiquetasComponent',
-        categoria: DATOS_CATEGORIA,
+        categoria: 'html',
         mostrarEnPostHome: true,
         estilos: {
             color: ''

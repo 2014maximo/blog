@@ -1,13 +1,4 @@
-import { DatosCategoria, DatosPost } from '../models/categorias.model';
-
-
-const DATOS_CATEGORIA: DatosCategoria = {
-    nombre: 'ANGULAR',
-    color: 'c-Angular',
-    fondo:'',
-    ruta: 'angular',
-    rutaIcono:'assets/img/icons/Angular.png'
-}
+import {  DatosPost } from '../models/categorias.model';
 
 export const ANGULAR: DatosPost[] = [
     {
@@ -26,7 +17,7 @@ export const ANGULAR: DatosPost[] = [
         imgHorizontal:'',
         imgVertical:'',
         imgCuadro:'',
-        categoria: DATOS_CATEGORIA
+        categoria: 'angular'
     },
     {
         id: '8627267684',
@@ -44,7 +35,7 @@ export const ANGULAR: DatosPost[] = [
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
         imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
-        categoria: DATOS_CATEGORIA
+        categoria: 'angular'
     },
     {
         id: '4791376137',
@@ -62,6 +53,6 @@ export const ANGULAR: DatosPost[] = [
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/angularPartes.png',
         imgVertical:'',
         imgCuadro:'',
-        categoria: DATOS_CATEGORIA
+        categoria: 'angular'
     },
 ]

@@ -1,11 +1,5 @@
 import { DatosPost, DatosCategoria } from '../models/categorias.model';
-const DATOS_CATEGORIA: DatosCategoria = {
-    nombre: 'JAVASCRIPT',
-    color: 'c-Javascript',
-    fondo:'',
-    ruta: 'javascript',
-    rutaIcono:'assets/img/categorias/javascript.png'
-}
+
 
 export const JAVASCRIPT: DatosPost[] = [
     {
@@ -15,7 +9,7 @@ export const JAVASCRIPT: DatosPost[] = [
         descripcionCorta: '',
         ruta: 'javascript',
         componente: 'JavascriptComponent',
-        categoria: DATOS_CATEGORIA,
+        categoria: 'javascript',
         mostrarEnPostHome: false,
         estilos: {
             color: ''
@@ -33,7 +27,7 @@ export const JAVASCRIPT: DatosPost[] = [
         descripcionCorta: '',
         ruta: 'js-elementos',
         componente: 'JsElementosComponent',
-        categoria: DATOS_CATEGORIA,
+        categoria: 'javascript',
         mostrarEnPostHome: true,
         estilos: {
             color: ''
@@ -51,7 +45,7 @@ export const JAVASCRIPT: DatosPost[] = [
         descripcionCorta: '',
         ruta: 'js-recorrer-arrays-objetos',
         componente: 'JsRecorrerArraysObjetosComponent',
-        categoria: DATOS_CATEGORIA,
+        categoria: 'javascript',
         mostrarEnPostHome: true,
         estilos: {
             color: ''
@@ -69,7 +63,7 @@ export const JAVASCRIPT: DatosPost[] = [
         descripcionCorta: '',
         ruta: 'js-trabajo-fechas',
         componente: 'JsTrabajoFechasComponent',
-        categoria: DATOS_CATEGORIA,
+        categoria: 'javascript',
         mostrarEnPostHome: true,
         estilos: {
             color: ''
@@ -93,7 +87,7 @@ export const JAVASCRIPT: DatosPost[] = [
         descripcionCorta: '',
         ruta: 'js-node-js',
         componente: 'JsNodeJsComponent',
-        categoria: DATOS_CATEGORIA,
+        categoria: 'javascript',
         mostrarEnPostHome: false,
         estilos: {
             color: ''
@@ -111,7 +105,7 @@ export const JAVASCRIPT: DatosPost[] = [
         descripcionCorta: '',
         ruta: 'js-instalando-node-con-nvm',
         componente: 'JsInstalandoNodeConNvmComponent',
-        categoria: DATOS_CATEGORIA,
+        categoria: 'javascript',
         mostrarEnPostHome: true,
         estilos: {
             color: ''
@@ -129,7 +123,7 @@ export const JAVASCRIPT: DatosPost[] = [
         descripcionCorta: '',
         ruta: 'js-typescript-elementos',
         componente: 'JsTypescriptElementosComponent',
-        categoria: DATOS_CATEGORIA,
+        categoria: 'javascript',
         mostrarEnPostHome: true,
         estilos: {
             color: ''

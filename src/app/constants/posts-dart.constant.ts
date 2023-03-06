@@ -1,12 +1,4 @@
-import { DatosPost, DatosCategoria } from '../models/categorias.model';
-
-const DATOS_CATEGORIA: DatosCategoria = {
-    nombre: 'DART',
-    color: 'c-Dart',
-    fondo:'',
-    ruta: 'dart',
-    rutaIcono:'assets/img/categorias/dart-logo.png'
-}
+import { DatosPost } from '../models/categorias.model';
 
 export const DART: DatosPost[] = [
     {
@@ -16,7 +8,7 @@ export const DART: DatosPost[] = [
         descripcionCorta: 'Dart con sus altibajos, entra de nuevo al ruedo con Flutter, sin embargo es importante saber que ventajas nos ofrece sobre otros lenguajes para poder elegirlo.',
         ruta: '',
         componente: '',
-        categoria: DATOS_CATEGORIA,
+        categoria: 'dart',
         mostrarEnPostHome: false,
         estilos: {
             color: ''
@@ -34,7 +26,7 @@ export const DART: DatosPost[] = [
         descripcionCorta: '',
         ruta: '',
         componente: '',
-        categoria: DATOS_CATEGORIA,
+        categoria: 'dart',
         mostrarEnPostHome: true,
         estilos: {
             color: ''

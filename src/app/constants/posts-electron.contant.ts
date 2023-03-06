@@ -1,14 +1,5 @@
 import { DatosCategoria, DatosPost } from '../models/categorias.model';
 
-
-const DATOS_CATEGORIA: DatosCategoria = {
-    nombre: 'ELECTRON',
-    color: 'c-Electron',
-    fondo:'',
-    ruta: 'electron',
-    rutaIcono:'https://plantillas_dev.gitlab.io/assets/img/logos/logo-electron.png'
-}
-
 export const ELECTRON: DatosPost[] = [
     {
         id: '4219350459',
@@ -26,7 +17,7 @@ export const ELECTRON: DatosPost[] = [
         imgHorizontal:'',
         imgVertical:'',
         imgCuadro:'',
-        categoria: DATOS_CATEGORIA
+        categoria: 'electron'
     },
     {
         id: '8761793782',
@@ -44,6 +35,6 @@ export const ELECTRON: DatosPost[] = [
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/electron/instalacion-electron-web.jpg',
         imgVertical:'',
         imgCuadro:'',
-        categoria: DATOS_CATEGORIA
+        categoria:'electron'
     },
 ]

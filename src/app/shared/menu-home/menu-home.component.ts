@@ -4,6 +4,7 @@ import { CATEGORIAS } from '../../constants/categorias.constant';
 import { CategoriasModel } from '../../models/categorias.model';
 import { IndiceDeContenidosModel } from '../../models/indice.model';
 import { CATEGORIA } from '../../constants/categoria.constant';
+import { datosCategoria } from 'src/app/constants/funciones-globales';
 
 @Component({
   selector: 'app-menu-home',
@@ -24,6 +25,8 @@ export class MenuHomeComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    let dato = datosCategoria('android',12);
+    console.log(dato, 'DATO');
   }
 
   private inicializarVariables(){

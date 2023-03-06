@@ -1,14 +1,5 @@
 import { DatosCategoria, DatosPost } from '../models/categorias.model';
 
-
-const DATOS_CATEGORIA: DatosCategoria = {
-    nombre: 'DEVELOPER',
-    color: 'c-Developer',
-    fondo:'',
-    ruta: 'developer',
-    rutaIcono:'assets/img/categorias/icon-developer.png'
-}
-
 export const DEVELOPER: DatosPost[] = [
     {
         id: '3583661544',
@@ -26,7 +17,7 @@ export const DEVELOPER: DatosPost[] = [
         imgHorizontal:'',
         imgVertical:'',
         imgCuadro:'',
-        categoria: DATOS_CATEGORIA
+        categoria: 'developer'
     },
     {
         id: '7084156673',
@@ -44,6 +35,6 @@ export const DEVELOPER: DatosPost[] = [
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/developer/Una gran agrupación de sitios web con muchos recursos.jpg',
         imgVertical:'',
         imgCuadro:'',
-        categoria: DATOS_CATEGORIA
+        categoria: 'developer'
     }
 ]

@@ -72,7 +72,7 @@ export interface DatosPost{
     pixabay?: ImgHorizontal,
     imgVertical: string,
     imgCuadro:string,
-    categoria: DatosCategoria,
+    categoria: string,
     imgSlider?: ImgSlider
     estado?: string
 }

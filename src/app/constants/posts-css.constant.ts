@@ -1,11 +1,4 @@
-import { DatosPost, DatosCategoria } from '../models/categorias.model';
-const DATOS_CATEGORIA: DatosCategoria = {
-    nombre: 'CSS',
-    color: 'c-Css',
-    fondo:'',
-    ruta: 'css',
-    rutaIcono:'https://plantillas_dev.gitlab.io/assets/img/logos/logo-css.png'
-}
+import { DatosPost } from '../models/categorias.model';
 
 export const CSS: DatosPost[] = [
     {
@@ -15,7 +8,7 @@ export const CSS: DatosPost[] = [
         descripcionCorta: '',
         ruta: 'css',
         componente: 'CssComponent',
-        categoria: DATOS_CATEGORIA,
+        categoria: 'css',
         mostrarEnPostHome: false,
         estilos: {
             color: ''
@@ -33,7 +26,7 @@ export const CSS: DatosPost[] = [
         descripcionCorta: '',
         ruta: 'css-bootstrap4-clases',
         componente: 'CssBootstrap4clasesComponent',
-        categoria: DATOS_CATEGORIA,
+        categoria: 'css',
         mostrarEnPostHome: true,
         estilos: {
             color: ''
