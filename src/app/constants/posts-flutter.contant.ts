@@ -5,7 +5,7 @@ const DATOS_CATEGORIA: DatosCategoria = {
     nombre: 'FLUTTER',
     color: 'c-Flutter',
     fondo:'',
-    path: 'flutter',
+    ruta: 'flutter',
     rutaIcono:'https://plantillas_dev.gitlab.io/assets/img/logos/logo-flutter.png'
 }
 
@@ -15,7 +15,7 @@ export const FLUTTER: DatosPost[] = [
         titulo: 'Flutter',
         descripcion: '',
         descripcionCorta: '',
-        path: 'flutter',
+        ruta: 'flutter',
         componente: 'FlutterComponent',
         mostrarEnPostHome: false,
         estilos: {
@@ -33,7 +33,7 @@ export const FLUTTER: DatosPost[] = [
         titulo: 'Cómo instalar flutter más recomendaciones',
         descripcion: '',
         descripcionCorta: '',
-        path: 'flutter-instalacion',
+        ruta: 'flutter-instalacion',
         componente: 'FlutterInstalacionComponent',
         mostrarEnPostHome: true,
         estilos: {
@@ -51,7 +51,7 @@ export const FLUTTER: DatosPost[] = [
         titulo: 'Flutter elementos del framework',
         descripcion: 'El gran concepto de Widgets y la comunidad enfocada en generar recursos, dejan un panorama muy llamativo para sumergirnos a programar y aportarle desarrollos al mundo.',
         descripcionCorta: '',
-        path: 'flutter-elementos',
+        ruta: 'flutter-elementos',
         componente: 'FlutterElementosComponent',
         mostrarEnPostHome: true,
         estilos: {

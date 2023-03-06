@@ -4,8 +4,9 @@ import { of } from 'rxjs';
 import { RUTAS_SLIDES } from '../../constants/sliders.constant';
 import { SliderModel } from '../../models/post.model';
 import { CATEGORIA } from '../../constants/categoria.constant';
-import { DatosPost, ImgSlider } from '../../models/categorias.model';
+import { DatosPost, ImgSlider, CategoriaPostModel } from '../../models/categorias.model';
 import { Router } from '@angular/router';
+import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-slider-home',
@@ -15,6 +16,7 @@ import { Router } from '@angular/router';
 export class SliderHomeComponent implements OnInit {
 
   public sliders: any;
+  public categoria: CategoriaPostModel[] = CATEGORIA as [];
 
   constructor(private ruta: Router) { }
 
@@ -63,7 +65,7 @@ export class SliderHomeComponent implements OnInit {
     let grupoSliders: SliderModel[] = [];
     let incremento:number = 0;
 
-    CATEGORIA.forEach((e:any, i:number)=>{
+    CATEGORIA.forEach((e:CategoriaPostModel, i:number)=>{
       e.posts.forEach((element:any) => {
         slidersSeleccionados.push(element)
       });

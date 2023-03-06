@@ -1,6 +1,7 @@
 import { Route } from '@angular/router';
 import { PostModel } from '../models/post.model';
 import { CATEGORIA } from './categoria.constant';
+import { CategoriaPostModel, DatosCategoria } from '../models/categorias.model';
 
 export function copiarAlPortapapeles(cadenaAlclipboard: string) {
     const selBox = document.createElement('textarea');
@@ -41,7 +42,7 @@ export function extraerListaRutas(categoria:[]):Route[]{
 }
 
 export function busquedaGeneral(array: any, bloque: string, palabra: string){
-  var dato = array;
+
   return array.filter((element:any) => element[bloque].toUpperCase()
   .replace("Á", "A")
   .replace("É", "E")
@@ -57,5 +58,15 @@ export function busquedaGeneral(array: any, bloque: string, palabra: string){
     .replace("Ú", "U")
     .replace("Ü", "U")));
           
+}
+
+export function datosCategoria(categoria: string, referencia: string, referenciaHija: string){
+  let fichaCategoria: DatosCategoria;
+  
+  let categoriaFiltrada: CategoriaPostModel[] = CATEGORIA.filter(( categoria: CategoriaPostModel ) => {
+    return categoria.categoria === referencia
+  });
+
+  categoriaFiltrada;
 }
 

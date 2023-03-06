@@ -4,7 +4,7 @@ const DATOS_CATEGORIA: DatosCategoria = {
     nombre: 'ANDROID',
     color: 'c-Android',
     fondo:'',
-    path: 'android',
+    ruta: 'android',
     rutaIcono:'assets/img/categorias/android.png'
 }
 
@@ -14,7 +14,7 @@ export const ANDROID: DatosPost[] = [
         titulo: 'Android',
         descripcion: '',
         descripcionCorta: '',
-        path: 'android',
+        ruta: 'android',
         componente: 'AndroidComponent',
         categoria: DATOS_CATEGORIA,
         imgCuadro:'',
@@ -32,7 +32,7 @@ export const ANDROID: DatosPost[] = [
         titulo: 'Instalación Android Studio - Alternativas que no se tienen en cuenta',
         descripcion: 'En Windows y en linux tenemos el privilegio de contar con este IDE para desarrollo nativo de ANDROID.',
         descripcionCorta: '',
-        path: 'andr-android-studio',
+        ruta: 'andr-android-studio',
         componente: 'AndrAndroidStudioComponent',
         categoria: DATOS_CATEGORIA,
         imgCuadro: '',

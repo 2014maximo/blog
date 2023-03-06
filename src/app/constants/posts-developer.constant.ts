@@ -5,7 +5,7 @@ const DATOS_CATEGORIA: DatosCategoria = {
     nombre: 'DEVELOPER',
     color: 'c-Developer',
     fondo:'',
-    path: 'developer',
+    ruta: 'developer',
     rutaIcono:'assets/img/categorias/icon-developer.png'
 }
 
@@ -15,7 +15,7 @@ export const DEVELOPER: DatosPost[] = [
         titulo: 'Developer',
         descripcion: '',
         descripcionCorta: '',
-        path: 'developer',
+        ruta: 'developer',
         componente: 'DeveloperComponent',
         mostrarEnPostHome: false,
         estilos: {
@@ -33,7 +33,7 @@ export const DEVELOPER: DatosPost[] = [
         titulo: 'Una gran agrupación de sitios web con muchos recursos',
         descripcion: 'No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente.',
         descripcionCorta: '',
-        path: 'dev-super-recursos',
+        ruta: 'dev-super-recursos',
         componente: 'DevSuperRecursosComponent',
         mostrarEnPostHome: true,
         estilos: {

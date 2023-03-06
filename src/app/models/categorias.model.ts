@@ -53,7 +53,7 @@ export interface DatosCategoria {
     nombre: string,
     color: string,
     fondo: string,
-    path:  string,
+    ruta:  string,
     rutaIcono:  string
 }
 
@@ -62,7 +62,7 @@ export interface DatosPost{
     titulo: string,
     descripcion: string,
     descripcionCorta: string,
-    path: string,
+    ruta: string,
     componente: string,
     mostrarEnPostHome: boolean,
     estilos: EstilosPost,
@@ -95,4 +95,25 @@ export interface ImgHorizontal {
     pathAutor: string,
     pixabay: string,
     pathPixabay: string
+}
+
+export interface CategoriaPostModel {
+    id:number,
+    categoria: string,
+    abertura: string,
+    rutaIcono: string,
+    alturaIcono: string,
+    estado: string,
+    rutaCategoria: string,
+    colorFondo: string,
+    color: string,
+    descripcion: string,
+    descripcionCorta: string,
+    posts: DatosPost[],
+    subcategorias: SubCategoriaModel[]
+}
+
+export interface SubCategoriaModel {
+    subCategoria: string,
+    posts: DatosPost[]
 }

@@ -5,7 +5,7 @@ const DATOS_CATEGORIA: DatosCategoria = {
     nombre: 'ELECTRON',
     color: 'c-Electron',
     fondo:'',
-    path: 'electron',
+    ruta: 'electron',
     rutaIcono:'https://plantillas_dev.gitlab.io/assets/img/logos/logo-electron.png'
 }
 
@@ -15,7 +15,7 @@ export const ELECTRON: DatosPost[] = [
         titulo: 'Electrón',
         descripcion: '',
         descripcionCorta: '',
-        path: 'electron',
+        ruta: 'electron',
         componente: 'ElectronComponent',
         mostrarEnPostHome: false,
         estilos: {
@@ -33,7 +33,7 @@ export const ELECTRON: DatosPost[] = [
         titulo: 'Cómo instalar el framework electron con algunas recomendaciones',
         descripcion: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
         descripcionCorta: '',
-        path: 'etron-instalacion',
+        ruta: 'etron-instalacion',
         componente: 'ElectronComponent',
         mostrarEnPostHome: true,
         estilos: {

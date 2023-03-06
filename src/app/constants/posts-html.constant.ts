@@ -3,7 +3,7 @@ const DATOS_CATEGORIA: DatosCategoria = {
     nombre: 'HTML',
     color: 'c-Html',
     fondo:'',
-    path: 'html',
+    ruta: 'html',
     rutaIcono:'https://plantillas_dev.gitlab.io/assets/img/logos/logo-html.png'
 }
 
@@ -13,7 +13,7 @@ export const HTML: DatosPost[] = [
         titulo: 'HTML',
         descripcion: '',
         descripcionCorta: '',
-        path: 'html',
+        ruta: 'html',
         componente: 'HtmlComponent',
         categoria: DATOS_CATEGORIA,
         mostrarEnPostHome: false,
@@ -31,7 +31,7 @@ export const HTML: DatosPost[] = [
         titulo: 'Descripción detallada de etiquetas HTML',
         descripcion: 'En algún momento se escucha hablar del lenguaje "HTML", aunque no lo sea, este sistema de estructuras tiene su mundo y unos detalles que no se suelen tener en cuenta mientras escalamos en desarrollo web.',
         descripcionCorta: '',
-        path: 'html-etiquetas',
+        ruta: 'html-etiquetas',
         componente: 'HtmlEtiquetasComponent',
         categoria: DATOS_CATEGORIA,
         mostrarEnPostHome: true,

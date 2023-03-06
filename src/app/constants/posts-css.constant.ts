@@ -3,7 +3,7 @@ const DATOS_CATEGORIA: DatosCategoria = {
     nombre: 'CSS',
     color: 'c-Css',
     fondo:'',
-    path: 'css',
+    ruta: 'css',
     rutaIcono:'https://plantillas_dev.gitlab.io/assets/img/logos/logo-css.png'
 }
 
@@ -13,7 +13,7 @@ export const CSS: DatosPost[] = [
         titulo: 'CSS',
         descripcion: 'Cuando empezamos a desarrollar en web solo con HTML, sentimos nos hace falta poder mostrar cada elemento con otro color o con un mejor estilo',
         descripcionCorta: '',
-        path: 'css',
+        ruta: 'css',
         componente: 'CssComponent',
         categoria: DATOS_CATEGORIA,
         mostrarEnPostHome: false,
@@ -31,7 +31,7 @@ export const CSS: DatosPost[] = [
         titulo: 'Agrupación de las clases más usadas bootstrap v4.6',
         descripcion: 'Consigue en un documento descargable, las clases que se suelen utilizar más amenudo en la maquetación con bootstrap 4.6',
         descripcionCorta: '',
-        path: 'css-bootstrap4-clases',
+        ruta: 'css-bootstrap4-clases',
         componente: 'CssBootstrap4clasesComponent',
         categoria: DATOS_CATEGORIA,
         mostrarEnPostHome: true,

@@ -3,7 +3,7 @@ const DATOS_CATEGORIA: DatosCategoria = {
     nombre: 'GIT',
     color: 'c-Git',
     fondo:'',
-    path: 'git',
+    ruta: 'git',
     rutaIcono:'https://plantillas_dev.gitlab.io/assets/img/logos/logo-git.png'
 }
 
@@ -13,7 +13,7 @@ export const GIT: DatosPost[] = [
         titulo: 'GIT',
         descripcion: '',
         descripcionCorta: '',
-        path: 'git',
+        ruta: 'git',
         componente: 'GitComponent',
         categoria: DATOS_CATEGORIA,
         mostrarEnPostHome: false,
@@ -31,7 +31,7 @@ export const GIT: DatosPost[] = [
         titulo: 'Git instalación y descripción de las opciones de instalación',
         descripcion: '',
         descripcionCorta: '',
-        path: 'git-instalacion',
+        ruta: 'git-instalacion',
         componente: 'GitInstalacionComponent',
         categoria: DATOS_CATEGORIA,
         mostrarEnPostHome: true,
