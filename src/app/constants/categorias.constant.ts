@@ -22,7 +22,6 @@ export const LISTA_CATEGORIAS = {
     REACT: 'react',
     SENA: 'sena',
     WORDPRESS: 'wordpress'
-
 }
 
 export const CATEGORIAS: CategoriasModel [] = [

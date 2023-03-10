@@ -56,7 +56,7 @@ export class SliderHomeComponent implements OnInit {
 
     this.sliders = this.extraerUltimosPost();
     let grupo = this.extraerUltimosPost();
-    console.log(grupo, 'LOS SLIDERS');
+
   }
 
   private extraerUltimosPost(): SliderModel[]{
@@ -66,7 +66,7 @@ export class SliderHomeComponent implements OnInit {
     let incremento:number = 0;
 
     CATEGORIA.forEach((e:CategoriaPostModel, i:number)=>{
-      e.posts.forEach((element:any) => {
+      e.post.forEach((element:any) => {
         slidersSeleccionados.push(element)
       });
     }); // SE EXTRAEN LOS POST DEL ÁRBOL
@@ -78,7 +78,7 @@ export class SliderHomeComponent implements OnInit {
     slidersSeleccionados.sort( (a:DatosPost, b:DatosPost) =>  
       this.convertirFechaANumero(b.fechaActualizacion) - this.convertirFechaANumero(a.fechaActualizacion)
     );// SE ORDENAN POR FECHA ASCENDENTE
-    console.log(slidersSeleccionados, 'SLIDERS SELECCIONADOS');
+
 
     for(let i=0; i < slidersSeleccionados.length; i++){
       if(slidersSeleccionados[i].imgSlider){

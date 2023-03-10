@@ -45,7 +45,6 @@ export class AndrAndroidStudioComponent implements OnInit {
   ]
 
   constructor() {
-    console.log(this.post, 'POST ACTUAL');
     this.inicializarVariables();
   }
   private inicializarVariables() {

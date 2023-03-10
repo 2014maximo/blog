@@ -27,7 +27,6 @@ export class IndiceContenidosComponent implements OnInit {
   }
 
   scroll(id: string) {
-    console.log(`scrolling to ${id}`);
     let el = document.getElementById(id);
     // @ts-ignore: Object is possibly 'null'.
     el.scrollIntoView();

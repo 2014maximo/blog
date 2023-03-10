@@ -34,7 +34,7 @@ export class GaleriaPostComponent implements OnInit {
   private agruparPost(){
 
     this.categorias.forEach( (e:any, i:number)=>{
-      e.posts.forEach((element:any) => {
+      e.post.forEach((element:any) => {
         this.todosLosPost.push(element);
       });
     });

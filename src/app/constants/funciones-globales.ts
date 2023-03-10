@@ -24,7 +24,7 @@ export function traerPost(id: string, posts: PostModel[]){
 export function postActual(idPost: string){
   let post:any[]=[];
   CATEGORIA.forEach((e:any, i:number)=>{
-    e.posts.forEach((element:any) => {
+    e.post.forEach((element:any) => {
       post.push(element);
     });
   });
@@ -107,7 +107,7 @@ export function datosCategoria(cat: string, referencia: number): any{
       break
 
     case 10:
-      datoCategoria = categoriaFiltrada[0].posts
+      datoCategoria = categoriaFiltrada[0].post
       break
 
     case 11:
@@ -128,5 +128,29 @@ export function datosCategoria(cat: string, referencia: number): any{
 
   return datoCategoria
 
+}
+
+export function reduccionTexto(cantPalabras: number, maxPalabra: number, textoCompleto: string): string{
+  // SI ES UNA SOLA PALABRA, QUE LA CANTIDAD DE CARACTERES SEA MENOR A ${maxPalabra}
+  // SI SON 2 PALABRAS, QUE LA CANTIDAD DE CARACTERES SEA MENOR A
+  // SI SON 3 PALABRAS, QUE LA CANTIDAD DE CARACTERES SEA MENOR A
+   let reducido: string = textoCompleto.substring(0, 20);
+  /*let cantidadPalabras: string [] = textoCompleto.split(' ');
+
+  switch(cantidadPalabras.length){
+    case 1:
+      reducido = textoCompleto;
+    break
+
+    case 2:
+      reducido = textoCompleto;
+    break
+
+    case 3:
+
+  }  */
+
+
+  return reducido;
 }
 

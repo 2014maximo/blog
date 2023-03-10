@@ -1,35 +1,33 @@
-import { DatosPost, DatosCategoria } from '../models/categorias.model';
+import { DatosPost, EstilosPost } from '../models/categorias.model';
 
-const DATOS_CATEGORIA: DatosCategoria = {
-    nombre: 'ANDROID',
+export const ESTILO_ANDROID: EstilosPost = {
     color: 'c-Android',
-    fondo:'',
-    ruta: 'android',
-    rutaIcono:'assets/img/categorias/android.png'
+    colorFondo: 'bg-Android'
 }
+
 
 export const ANDROID: DatosPost[] = [
     {
         id: '7084156673',
-        titulo: 'Android',
+        nombre: 'Android',
         descripcion: '',
         descripcionCorta: '',
         ruta: 'android',
         componente: 'AndroidComponent',
         categoria: 'android',
         imgCuadro:'',
+        posicion: 'rot-2',
         imgHorizontal:'',
         imgVertical: '',
         mostrarEnPostHome: false,
-        estilos: {
-            color: ''
-        },
+        estilos: ESTILO_ANDROID,
         fechaCreacion: '2021-04-02',
-        fechaActualizacion: '2021-04-02'
+        fechaActualizacion: '2021-04-02',
+        activo: false,
     },
     {
         id: '7ea51cec-4d81-44f7-a4b4-7debe4c5a42e',
-        titulo: 'Instalación Android Studio - Alternativas que no se tienen en cuenta',
+        nombre: 'Instalación Android Studio - Alternativas que no se tienen en cuenta',
         descripcion: 'En Windows y en linux tenemos el privilegio de contar con este IDE para desarrollo nativo de ANDROID.',
         descripcionCorta: '',
         ruta: 'andr-android-studio',
@@ -39,9 +37,7 @@ export const ANDROID: DatosPost[] = [
         imgHorizontal: 'https://plantillas_dev.gitlab.io/assets/img/posts/android/instalar-android-studio.png',
         imgVertical: '',
         mostrarEnPostHome: true,
-        estilos: {
-            color: ''
-        },
+        estilos: ESTILO_ANDROID,
         fechaCreacion: '2023-02-12',
         fechaActualizacion: '2021-06-02',
         imgSlider: {
@@ -51,6 +47,8 @@ export const ANDROID: DatosPost[] = [
             ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/android/instalacion-android-studio.jpg',
             width: 'auto',
             post: 'andr-android-studio'
-        }
+        },
+        posicion: 'rot-1',
+        activo: true
     }
 ]

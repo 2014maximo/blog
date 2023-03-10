@@ -86,23 +86,23 @@
                         </a>
                     </div>
                     <div  class="row m-3">
-                        <div *ngFor="let post of categoria.post" class="col {{ categoria.color }} {{ post.posicion}} l-menu">
-                            <a href="{{ post.ruta }}" class="{{post.color}}">
-                                <del *ngIf="!post.activo">{{ post.nombre }}</del>
-                                <span *ngIf="post.activo">{{ post.nombre }}</span>
+                        <div *ngFor="let post of filtrarActivo(categoria.post)" class="col {{ categoria.colorFondo }} {{ post.posicion}} l-menu" data-toggle="tooltip" data-placement="top" title="{{ post.nombre }}">
+                            <a href="{{ post.ruta }}">
+                                <del *ngIf="!post.activo" class="text-uppercase">{{ post.nombre.substring(0, 18) }}...</del>
+                                <span *ngIf="post.activo" class="text-uppercase">{{ post.nombre.substring(0, 18) }}...</span>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-1"></div>
             </div>
-            <div *ngFor="let postMas of categoria.postMas" class="row">
+            <div *ngFor="let postMas of categoria.subcategorias" class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
-                    <h2 class="fuenteSeis text-light mt-5 fs-40">{{ postMas.subCategoria }}</h2>
+                    <h2 class="fuenteSeis text-light mt-5 fs-40 text-uppercase">{{ postMas.subCategoria }}</h2>
                     <div class="row m-3">
-                        <div *ngFor="let postAdd of postMas.post" class="col {{ categoria.color }} {{ postAdd.posicion}} l-menu">
-                            <a href="{{ postAdd.ruta }}" class="{{postAdd.color}}">
+                        <div *ngFor="let postAdd of postMas.post" class="col {{ postAdd.estilos.colorFondo }} {{ postAdd.posicion}} l-menu" data-toggle="tooltip" data-placement="top" title="{{ postAdd.nombre }}">
+                            <a href="{{ postAdd.ruta }}" class="text-uppercase">
                                 <del *ngIf="!postAdd.activo">{{ postAdd.nombre }}</del>
                                 <span *ngIf="postAdd.activo">{{ postAdd.nombre }}</span>
                             </a>

@@ -33,7 +33,7 @@ export class LoginComponent implements OnInit {
     let contrasena = this.form.value.password;
 
     this.authService.login(usuario, contrasena).then( res =>{
-      console.log(res, 'INGRESO');
+
     });
 
   }
@@ -43,7 +43,7 @@ export class LoginComponent implements OnInit {
     let contrasena = this.form.value.password;
 
     this.authService.loginGoogle(usuario, contrasena).then( res =>{
-      console.log(res, 'SE REGISTRO');
+
     });
   }
 

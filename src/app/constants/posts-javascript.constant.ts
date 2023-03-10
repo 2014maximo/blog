@@ -1,73 +1,76 @@
-import { DatosPost, DatosCategoria } from '../models/categorias.model';
+import { DatosPost, EstilosPost } from '../models/categorias.model';
+
+export const ESTILO_JAVASCRIPT: EstilosPost = {
+    color: 'c-Javascript',
+    colorFondo: 'bg-Javascript'
+}
 
 
 export const JAVASCRIPT: DatosPost[] = [
     {
         id: '3574124706',
-        titulo: 'JAVASCRIPT',
+        nombre: 'JAVASCRIPT',
         descripcion: '',
         descripcionCorta: '',
         ruta: 'javascript',
         componente: 'JavascriptComponent',
         categoria: 'javascript',
         mostrarEnPostHome: false,
-        estilos: {
-            color: ''
-        },
+        estilos: ESTILO_JAVASCRIPT,
         fechaCreacion: '2020-04-04',
         fechaActualizacion: '2020-04-04',
         imgHorizontal:'',
         imgVertical:'',
-        imgCuadro:''
+        imgCuadro:'',
+        posicion: 'rot-1',
+        activo: false
     },
     {
         id: '6525710784',
-        titulo: 'Javascript elementos',
+        nombre: 'Javascript elementos',
         descripcion: '',
         descripcionCorta: '',
         ruta: 'js-elementos',
         componente: 'JsElementosComponent',
         categoria: 'javascript',
         mostrarEnPostHome: true,
-        estilos: {
-            color: ''
-        },
+        estilos: ESTILO_JAVASCRIPT,
         fechaCreacion: '2023-01-11',
         fechaActualizacion: '2023-01-11',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/javascript/elementos-javascript.jpg',
         imgVertical:'',
-        imgCuadro:''
+        imgCuadro:'',
+        posicion: 'rot-2',
+        activo: true
     },
     {
         id: '9468931626',
-        titulo: 'Métodos para recorrido de arrays',
+        nombre: 'Métodos para recorrido de arrays',
         descripcion: '',
         descripcionCorta: '',
         ruta: 'js-recorrer-arrays-objetos',
         componente: 'JsRecorrerArraysObjetosComponent',
         categoria: 'javascript',
         mostrarEnPostHome: true,
-        estilos: {
-            color: ''
-        },
+        estilos: ESTILO_JAVASCRIPT,
         fechaCreacion: '2022-05-07',
         fechaActualizacion: '2022-05-07',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/javascript/recorrido-arrays.jpg',
         imgVertical:'',
-        imgCuadro:''
+        imgCuadro:'',
+        posicion: 'rot-z',
+        activo: true
     },
     {
         id: '8201690222',
-        titulo: 'Trabajos útiles con fechas',
+        nombre: 'Trabajos útiles con fechas',
         descripcion: '',
         descripcionCorta: '',
         ruta: 'js-trabajo-fechas',
         componente: 'JsTrabajoFechasComponent',
         categoria: 'javascript',
         mostrarEnPostHome: true,
-        estilos: {
-            color: ''
-        },
+        estilos: ESTILO_JAVASCRIPT,
         fechaCreacion: '2021-04-02',
         fechaActualizacion: '2021-04-02',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/javascript/trabajos-utiles-fechas.jpg',
@@ -78,60 +81,62 @@ export const JAVASCRIPT: DatosPost[] = [
             pixabay: 'pixabay'
         },
         imgVertical:'',
-        imgCuadro:''
+        imgCuadro:'',
+        posicion: 'rot-1',
+        activo: true
     },
     {
         id: '2651190438',
-        titulo: 'Node JS',
+        nombre: 'Node JS',
         descripcion: '',
         descripcionCorta: '',
         ruta: 'js-node-js',
         componente: 'JsNodeJsComponent',
         categoria: 'javascript',
         mostrarEnPostHome: false,
-        estilos: {
-            color: ''
-        },
+        estilos: ESTILO_JAVASCRIPT,
         fechaCreacion: '2021-04-02',
         fechaActualizacion: '2021-04-02',
         imgHorizontal:'',
         imgVertical:'',
-        imgCuadro:''
+        imgCuadro:'',
+        posicion: 'rot-2',
+        activo: true
     },
     {
         id: '3047442958',
-        titulo: 'Instalando NodeJS con NVM',
+        nombre: 'Instalando NodeJS con NVM',
         descripcion: '',
         descripcionCorta: '',
         ruta: 'js-instalando-node-con-nvm',
         componente: 'JsInstalandoNodeConNvmComponent',
         categoria: 'javascript',
         mostrarEnPostHome: true,
-        estilos: {
-            color: ''
-        },
+        estilos: ESTILO_JAVASCRIPT,
         fechaCreacion: '2021-04-02',
         fechaActualizacion: '2021-04-02',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/javascript/nodejsNVM.jpg',
         imgVertical:'',
-        imgCuadro:''
+        imgCuadro:'',
+        posicion: 'rot-z',
+        activo: true
     },
     {
         id: '7973823377',
-        titulo: 'Elementos de Typescript',
+        nombre: 'Elementos de Typescript',
         descripcion: '',
         descripcionCorta: '',
         ruta: 'js-typescript-elementos',
         componente: 'JsTypescriptElementosComponent',
         categoria: 'javascript',
         mostrarEnPostHome: true,
-        estilos: {
-            color: ''
-        },
+        estilos: ESTILO_JAVASCRIPT,
         fechaCreacion: '2021-04-02',
         fechaActualizacion: '2021-04-02',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/javascript/typescript-elementos.jpg',
         imgVertical:'',
-        imgCuadro:''
+        imgCuadro:'',
+        posicion: 'rot-1',
+        activo: true
     },
 ]

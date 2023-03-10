@@ -29,7 +29,6 @@ export class InicioComponent implements OnInit {
     })
 /*     this.usuarioService.getUser()
         .subscribe( users => {
-          console.log(users);
           this.usuarios = users;
         }) */
   this.store.dispatch( cargarUsuarios());

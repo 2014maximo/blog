@@ -1,76 +1,81 @@
-import { DatosPost, DatosCategoria } from '../models/categorias.model';
+import { DatosPost, EstilosPost } from '../models/categorias.model';
+
+export const ESTILO_DB: EstilosPost = {
+    color: 'c-Db',
+    colorFondo: 'bg-Db'
+}
 
 export const DB: DatosPost[] = [
     {
         id: '6569240889',
-        titulo: 'DB',
+        nombre: 'DB',
         descripcion: '',
         descripcionCorta: '',
         ruta: 'db',
         componente: 'DbComponent',
         categoria: 'db',
         mostrarEnPostHome: false,
-        estilos: {
-            color: ''
-        },
+        estilos: ESTILO_DB,
         fechaCreacion: '2021-01-05',
         fechaActualizacion: '2021-01-05',
         imgHorizontal:'',
         imgVertical:'',
-        imgCuadro:''
+        imgCuadro:'',
+        posicion: 'rot-2',
+        activo: false
     },
     {
         id: '2580732202',
-        titulo: 'Firebase',
+        nombre: 'Firebase',
         descripcion: '',
         descripcionCorta: '',
         ruta: 'db-firebase',
         componente: 'DbFirebaseComponent',
         categoria: 'db',
         mostrarEnPostHome: true,
-        estilos: {
-            color: ''
-        },
+        estilos: ESTILO_DB,
         fechaCreacion: '2021-03-03',
         fechaActualizacion: '2021-03-03',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/db/firebase.jpg',
         imgVertical:'',
-        imgCuadro:''
+        imgCuadro:'',
+        posicion: 'rot-z',
+        activo: true
     },
     {
         id: '6999601172',
-        titulo: 'SQL',
+        nombre: 'SQL',
         descripcion: '',
         descripcionCorta: '',
         ruta: 'db-sql',
         componente: 'DbSqlComponent',
         categoria: 'db',
         mostrarEnPostHome: true,
-        estilos: {
-            color: ''
-        },
+        estilos: ESTILO_DB,
         fechaCreacion: '2021-02-07',
         fechaActualizacion: '2021-02-07',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/db/sql.jpg',
         imgVertical:'',
-        imgCuadro:''
+        imgCuadro:'',
+        posicion: 'rot-z',
+        activo: true
     },
     {
         id: '6999601172',
-        titulo: 'SQL-Server',
+        nombre: 'SQL-Server',
         descripcion: '',
         descripcionCorta: '',
         ruta: 'db-sql',
         componente: 'DbSqlComponent',
         categoria: 'db',
         mostrarEnPostHome: true,
-        estilos: {
-            color: ''
-        },
+        estilos: ESTILO_DB,
         fechaCreacion: '2022-07-08',
         fechaActualizacion: '2022-07-08',
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/db/sql-server.jpg',
         imgVertical:'',
-        imgCuadro:''
+        imgCuadro:'',
+        posicion: 'rot-1',
+        activo: true
     }
 ]

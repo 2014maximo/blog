@@ -59,7 +59,8 @@ export interface DatosCategoria {
 
 export interface DatosPost{
     id: string,
-    titulo: string,
+    posicion: string,
+    nombre: string,
     descripcion: string,
     descripcionCorta: string,
     ruta: string,
@@ -74,7 +75,7 @@ export interface DatosPost{
     imgCuadro:string,
     categoria: string,
     imgSlider?: ImgSlider
-    estado?: string
+    activo?: boolean
 }
 
 export interface ImgSlider {
@@ -87,7 +88,8 @@ export interface ImgSlider {
 }
 
 export interface EstilosPost{
-    color: string
+    color: string,
+    colorFondo: string
 }
 
 export interface ImgHorizontal {
@@ -109,11 +111,11 @@ export interface CategoriaPostModel {
     color: string,
     descripcion: string,
     descripcionCorta: string,
-    posts: DatosPost[],
+    post: DatosPost[],
     subcategorias: SubCategoriaModel[]
 }
 
 export interface SubCategoriaModel {
     subCategoria: string,
-    posts: DatosPost[]
+    post: DatosPost[]
 }

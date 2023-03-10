@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { MENU_1, MENU_2, MENU_3, MENU_4, MENU_5 } from '../../constants/menu-home.constant';
 import { CATEGORIAS } from '../../constants/categorias.constant';
-import { CategoriasModel } from '../../models/categorias.model';
+import { CategoriasModel, CategoriaPostModel, DatosPost } from '../../models/categorias.model';
 import { IndiceDeContenidosModel } from '../../models/indice.model';
 import { CATEGORIA } from '../../constants/categoria.constant';
-import { datosCategoria } from 'src/app/constants/funciones-globales';
+import { datosCategoria, reduccionTexto } from 'src/app/constants/funciones-globales';
 
 @Component({
   selector: 'app-menu-home',
@@ -14,19 +14,18 @@ import { datosCategoria } from 'src/app/constants/funciones-globales';
 export class MenuHomeComponent implements OnInit {
 
   public menus: any;
-  public categorias: CategoriasModel[] = [];
+  public categorias: CategoriaPostModel[] = [];
   public pasoDeIndice: IndiceDeContenidosModel [] = []
   public claseContenedor: string = '';
   public posts = CATEGORIA;
 
   constructor() {
     this.inicializarVariables();
-    this.extraerMenu(['android','angular','css', 'dart'])
   }
 
   ngOnInit(): void {
     let dato = datosCategoria('android',12);
-    console.log(dato, 'DATO');
+
   }
 
   private inicializarVariables(){
@@ -38,7 +37,7 @@ export class MenuHomeComponent implements OnInit {
       menuCinco: this.extraerMenu(['php','react','wordpress'])
     }
 
-    this.categorias = CATEGORIAS;
+    this.categorias = CATEGORIA;
 
     this.claseContenedor = 'mt-2'
 
@@ -219,11 +218,13 @@ export class MenuHomeComponent implements OnInit {
 
   public abrirMenuCategoria(categoria: string, abertura: string){
     //let shand = document.getElementsByClassName('s-hand') as HTMLCollectionOf<HTMLElement>;
+
     let shand = document.getElementsByClassName(categoria) as HTMLCollectionOf<HTMLElement>
 
     if (shand.length != 0) {
       shand[0].style.width = `${abertura}`;
     }
+    
   }
 
   public cierreMenu(categoria: string){
@@ -232,6 +233,14 @@ export class MenuHomeComponent implements OnInit {
     if (shand2.length != 0) {
       shand2[0].style.width = "0";
     }
+  }
+
+  public reduccirTexto(cantPalabras: number, maxPalabra: number, textoCompleto: string): string{
+    return reduccionTexto(cantPalabras, maxPalabra, textoCompleto)
+  }
+
+  public filtrarActivo(grupo: DatosPost[]):DatosPost[]{
+    return grupo.filter( publi => publi.activo )
   }
 
 

@@ -37,7 +37,7 @@ export class HeaderHomeComponent implements OnInit {
 
   private inicializarVariables() {
     this.categorias.forEach( (e:any, i:number)=>{
-      e.posts.forEach((element:any) => {
+      e.post.forEach((element:any) => {
         this.todosLosPost.push(element);
       });
     });
@@ -49,11 +49,11 @@ export class HeaderHomeComponent implements OnInit {
     let buscar = this.formBasic.value.busqueda;
     if(e.key && buscar){
       this.mostrarResultados = true;
-      this.encontrados = busquedaGeneral(this.todosLosPost, 'titulo', buscar);
+      this.encontrados = busquedaGeneral(this.todosLosPost, 'nombre', buscar);
     } else {
       this.mostrarResultados = false;
     }
-    // console.log(this.formBasic.value.busqueda, 'FORMULARIO');
+
   }
 
   private retirarPostsPrincipalCategoria(grupo:DatosPost[]):DatosPost[]{
@@ -70,7 +70,6 @@ export class HeaderHomeComponent implements OnInit {
   }
 
   public irAlPost(post: string){
-    console.log(post, 'LO QUE ALCANZA A LLEGAR');
     this.router.navigateByUrl(post);
   }
 
