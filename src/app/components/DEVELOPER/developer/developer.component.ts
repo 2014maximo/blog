@@ -40,81 +40,90 @@ export class DeveloperComponent implements OnInit {
       {
         nombre: 'RECURSOS DE INTERNET',
         posicion: 'pos-z',
-        rutaExterna: 'dev-super-recursos',
-        fondo: 'bg-Developer border border-dark',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'dev-super-recursos',
+        colorFondo: 'bg-Developer border border-dark',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'PSEINT',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Developer border border-dark',
-        colorTexto: 'text-light',
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Developer border border-dark',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'CONTROLES VISUAL STUDIO CODE',
         posicion: 'rot-2',
-        rutaExterna: 'dev-controles-visual-studio-code',
-        fondo: 'bg-Developer border border-dark',
-        colorTexto: 'text-light',
+        ruta: 'dev-controles-visual-studio-code',
+        colorFondo: 'bg-Developer border border-dark',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'SUBLIME TEXT',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Developer border border-dark',
-        colorTexto: 'text-light',
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Developer border border-dark',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'ATOM',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Developer border border-dark',
-        colorTexto: 'text-light',
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Developer border border-dark',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'ALGORITMOS AVANZADOS',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Developer border border-dark',
-        colorTexto: 'text-light',
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Developer border border-dark',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'PRINCIPIOS SOLID...',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Developer border border-dark',
-        colorTexto: 'text-light',
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Developer border border-dark',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'METODOLOGIAS ÁGILES',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Developer border border-dark',
-        colorTexto: 'text-light',
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Developer border border-dark',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'EXTENSIONES VS CODE',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Developer border border-dark',
-        colorTexto: 'text-light',
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Developer border border-dark',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'FICHA MODELO CANVAS',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Developer border border-dark',
-        colorTexto: 'text-light',
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Developer border border-dark',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'GLOSARIO',
         posicion: 'rot-2',
-        rutaExterna: 'dev-glosario',
-        fondo: 'bg-Developer border border-dark',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'dev-glosario',
+        colorFondo: 'bg-Developer border border-dark',
+        color: 'text-light',
+        estado: 'activo'
       }
     ]
   }

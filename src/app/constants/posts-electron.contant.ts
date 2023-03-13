@@ -22,7 +22,7 @@ export const ELECTRON: DatosPost[] = [
         imgCuadro:'',
         categoria: 'electron',
         posicion: 'rot-1',
-        activo: false
+        estado: 'inactivo'
     },
     {
         id: '8761793782',
@@ -40,6 +40,6 @@ export const ELECTRON: DatosPost[] = [
         imgCuadro:'',
         categoria:'electron',
         posicion: 'rot-2',
-        activo: true
+        estado: 'activo'
     },
 ]

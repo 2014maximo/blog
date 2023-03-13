@@ -43,59 +43,66 @@ export class CssComponent implements OnInit {
       {
         nombre: 'ATRIBUTOS CSS',
         posicion: 'pos-z',
-        rutaExterna: 'android-instalacion',
-        fondo: 'bg-Css',
-        colorTexto: 'text-light'
+        ruta: 'android-instalacion',
+        colorFondo: 'bg-Css',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'HOVER SOBRE IMÁGENES',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Css',
-        colorTexto: 'text-light'
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Css',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'VARIABLES CSS',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Css',
-        colorTexto: 'text-light'
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Css',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'MEDIA QUERIES',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Css',
-        colorTexto: 'text-light'
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Css',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'SLIDER SOLO CON CSS',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Css',
-        colorTexto: 'text-light'
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Css',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'BOTONES REDES',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Css',
-        colorTexto: 'text-light'
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Css',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'MENÚ HAMBURGUESA ANIMADO',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Css',
-        colorTexto: 'text-light'
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Css',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'BOOTSTRAP 4 CLASES MÁS USADAS',
         posicion: 'rot-2',
-        rutaExterna: 'css-bootstrap4-clases',
-        fondo: 'bg-Css',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'css-bootstrap4-clases',
+        colorFondo: 'bg-Css',
+        color: 'text-light',
+        estado: 'activo'
       },
     ]
   }

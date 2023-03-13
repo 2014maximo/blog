@@ -42,18 +42,18 @@ export class SenaComponent implements OnInit {
       {
         nombre: 'FICHA 2276734',
         posicion: 'pos-z',
-        rutaExterna: 'sena-ficha-actual',
-        fondo: 'bg-Sena',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'sena-ficha-actual',
+        colorFondo: 'bg-Sena',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'RECURSOS INFORMATIVOS',
         posicion: 'pos-z',
-        rutaExterna: 'sena-recursos-informativos',
-        fondo: 'bg-Sena',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'sena-recursos-informativos',
+        colorFondo: 'bg-Sena',
+        color: 'text-light',
+        estado: 'activo'
       }
     ]
   }

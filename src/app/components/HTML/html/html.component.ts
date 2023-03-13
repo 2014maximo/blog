@@ -42,18 +42,18 @@ export class HtmlComponent implements OnInit {
       {
         nombre: 'ETIQUETAS',
         posicion: 'pos-z',
-        rutaExterna: 'html-etiquetas',
-        fondo: 'bg-Html',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'html-etiquetas',
+        colorFondo: 'bg-Html',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'PROPIEDADES',
         posicion: 'pos-z',
-        rutaExterna: 'html-propiedades',
-        fondo: 'bg-Html',
-        colorTexto: 'text-light',
-        activo: false
+        ruta: 'html-propiedades',
+        colorFondo: 'bg-Html',
+        color: 'text-light',
+        estado: 'inactivo'
       }
     ]
   }

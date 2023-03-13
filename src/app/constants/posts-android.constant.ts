@@ -23,7 +23,7 @@ export const ANDROID: DatosPost[] = [
         estilos: ESTILO_ANDROID,
         fechaCreacion: '2021-04-02',
         fechaActualizacion: '2021-04-02',
-        activo: false,
+        estado: 'inactivo',
     },
     {
         id: '7ea51cec-4d81-44f7-a4b4-7debe4c5a42e',
@@ -49,6 +49,6 @@ export const ANDROID: DatosPost[] = [
             post: 'andr-android-studio'
         },
         posicion: 'rot-1',
-        activo: true
+        estado: 'activo'
     }
 ]

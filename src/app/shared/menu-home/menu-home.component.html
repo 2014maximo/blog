@@ -7,7 +7,7 @@
                 <div class='p-3 d-flex justify-content-around align-items-center text-center drop'
                      style='background-image:url("assets/img/categorias/tablaMenu1.png");background-repeat:no-repeat;background-size:cover;'>
                     <div *ngFor="let menu of menus.menuUno">
-                        <div class="linkCategoria" (click)="abrirMenuCategoria(menu.categoria, menu.abertura)">
+                        <div class="linkCategoria" (click)="abrirMenuCategoria(menu.nombre, menu.abertura)">
                             <img src="{{ menu.rutaIcono }}" alt="" width="auto" height="{{menu.alturaIcono}}" class="drop box {{ menu.estado }}">
                         </div>
                     </div>
@@ -15,7 +15,7 @@
                 <div class='p-3 d-flex justify-content-around align-items-center text-center drop'
                      style='background-image:url("assets/img/categorias/tablaMenu1.png");background-repeat:no-repeat;background-size:cover;'>
                     <div *ngFor="let menu of menus.menuDos">
-                        <div class="linkCategoria" (click)="abrirMenuCategoria(menu.categoria, menu.abertura)">
+                        <div class="linkCategoria" (click)="abrirMenuCategoria(menu.nombre, menu.abertura)">
                             <img src="{{ menu.rutaIcono }}" alt="" width="auto" height="{{menu.alturaIcono}}" class="drop {{ menu.estado }}">
                         </div>
                     </div>
@@ -23,7 +23,7 @@
                 <div class='p-2 d-flex justify-content-around align-items-center text-center drop'
                      style='background-image:url("assets/img/categorias/tablaMenu1.png");background-repeat:no-repeat;background-size:cover;'>
                     <div *ngFor="let menu of menus.menuTres">
-                        <div class="linkCategoria" (click)="abrirMenuCategoria(menu.categoria, menu.abertura)">
+                        <div class="linkCategoria" (click)="abrirMenuCategoria(menu.nombre, menu.abertura)">
                             <img src="{{ menu.rutaIcono }}" alt="" width="auto" height="{{menu.alturaIcono}}" class="drop {{ menu.estado }}">
                         </div>
                     </div>
@@ -31,7 +31,7 @@
                 <div class='p-4 d-flex justify-content-around align-items-center text-center drop'
                      style='background-image:url("assets/img/categorias/tablaMenu1.png");background-repeat:no-repeat;background-size:cover;'>
                     <div *ngFor="let menu of menus.menuCuatro">
-                        <div class="linkCategoria" (click)="abrirMenuCategoria(menu.categoria, menu.abertura)">
+                        <div class="linkCategoria" (click)="abrirMenuCategoria(menu.nombre, menu.abertura)">
                             <img src="{{ menu.rutaIcono }}" alt="" width="auto" height="{{menu.alturaIcono}}" class="drop {{ menu.estado }}">
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                 <div class='p-4 d-flex justify-content-around align-items-center text-center drop'
                      style='background-image:url("assets/img/categorias/tablaMenu1.png");background-repeat:no-repeat;background-size:cover;'>
                     <div *ngFor="let menu of menus.menuCinco">
-                        <div class="linkCategoria" (click)="abrirMenuCategoria(menu.categoria, menu.abertura)">
+                        <div class="linkCategoria" (click)="abrirMenuCategoria(menu.nombre, menu.abertura)">
                             <img src="{{ menu.rutaIcono }}" alt="" width="auto" height="{{menu.alturaIcono}}" class="drop {{ menu.estado }}">
                         </div>
                     </div>
@@ -72,10 +72,10 @@
 </div>
 
 <div *ngFor="let categoria of categorias">
-    <div class="row {{ categoria.categoria }} sidenav">
+    <div class="row {{ categoria.nombre }} sidenav">
         <div class="col-md-12">
             <div class="text-right">
-                <a href="javascript:void(0)" class="closebtn" (click)="cierreMenu(categoria.categoria)">&times;</a>
+                <a href="javascript:void(0)" class="closebtn" (click)="cierreMenu(categoria.nombre)">&times;</a>
             </div>
             <div class="row">
                 <div class="col-md-1"></div>
@@ -88,8 +88,8 @@
                     <div  class="row m-3">
                         <div *ngFor="let post of filtrarActivo(categoria.post)" class="col {{ categoria.colorFondo }} {{ post.posicion}} l-menu" data-toggle="tooltip" data-placement="top" title="{{ post.nombre }}">
                             <a href="{{ post.ruta }}">
-                                <del *ngIf="!post.activo" class="text-uppercase">{{ post.nombre.substring(0, 18) }}...</del>
-                                <span *ngIf="post.activo" class="text-uppercase">{{ post.nombre.substring(0, 18) }}...</span>
+                                <del *ngIf="!validarActivo(post.estado)" class="text-uppercase">{{ post.nombre.substring(0, 18) }}...</del>
+                                <span *ngIf="validarActivo(post.estado)" class="text-uppercase">{{ post.nombre.substring(0, 18) }}...</span>
                             </a>
                         </div>
                     </div>
@@ -103,8 +103,8 @@
                     <div class="row m-3">
                         <div *ngFor="let postAdd of postMas.post" class="col {{ postAdd.estilos.colorFondo }} {{ postAdd.posicion}} l-menu" data-toggle="tooltip" data-placement="top" title="{{ postAdd.nombre }}">
                             <a href="{{ postAdd.ruta }}" class="text-uppercase">
-                                <del *ngIf="!postAdd.activo">{{ postAdd.nombre }}</del>
-                                <span *ngIf="postAdd.activo">{{ postAdd.nombre }}</span>
+                                <del *ngIf="!validarActivo(postAdd.estado)">{{ postAdd.nombre }}</del>
+                                <span *ngIf="validarActivo(postAdd.estado)">{{ postAdd.nombre }}</span>
                             </a>
                         </div>
                     </div>

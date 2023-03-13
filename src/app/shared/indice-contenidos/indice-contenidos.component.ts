@@ -13,8 +13,9 @@ export class IndiceContenidosComponent implements OnInit {
       nombre: '',
       posicion: '',
       ruta: '',
-      fondo: '',
-      colorTexto: ''
+      colorFondo: '',
+      color: '',
+      estado: ''
     },
   ]
   
@@ -30,6 +31,10 @@ export class IndiceContenidosComponent implements OnInit {
     let el = document.getElementById(id);
     // @ts-ignore: Object is possibly 'null'.
     el.scrollIntoView();
+  }
+
+  validaEstado(estado: string):boolean{
+    return estado === 'activo'? true : false
   }
 
 }

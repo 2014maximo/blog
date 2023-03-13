@@ -22,7 +22,7 @@ export const FLUTTER: DatosPost[] = [
         imgCuadro:'',
         categoria: 'flutter',
         posicion: 'rot-1',
-        activo: false
+        estado: 'inactivo'
     },
     {
         id: '6805705269',
@@ -40,7 +40,7 @@ export const FLUTTER: DatosPost[] = [
         imgCuadro:'',
         categoria: 'flutter',
         posicion: 'rot-2',
-        activo: true
+        estado: 'activo'
     },
     {
         id: '8076473031',
@@ -58,6 +58,6 @@ export const FLUTTER: DatosPost[] = [
         imgCuadro:'',
         categoria: 'flutter',
         posicion: 'rot-z',
-        activo: true
+        estado: 'activo'
     },
 ]

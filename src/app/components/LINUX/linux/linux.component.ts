@@ -42,18 +42,18 @@ export class LinuxComponent implements OnInit {
       {
         nombre: 'COMANDOS',
         posicion: 'pos-z',
-        rutaExterna: 'linux',
-        fondo: 'bg-Linux',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'linux',
+        colorFondo: 'bg-Linux',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'PROPIEDADES',
         posicion: 'pos-z',
-        rutaExterna: 'java-propiedades',
-        fondo: 'bg-Linux',
-        colorTexto: 'text-light',
-        activo: false
+        ruta: 'java-propiedades',
+        colorFondo: 'bg-Linux',
+        color: 'text-light',
+        estado: 'inactivo'
       }
     ]
   }

@@ -50,193 +50,193 @@ export class DevSuperRecursosComponent implements OnInit {
         nombre: 'REDES SOCIALES',
         posicion: 'pos-z',
         ruta: 'redes',
-        fondo: 'bg-light',
-        colorTexto: 't2',
-        activo: true
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'REDES DEV',
         posicion: 'rot-2',
         ruta: 'redes-dev',
-        fondo: 'bg-light',
-        colorTexto: 't2',
-        activo: true
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'GOOGLE AVANZADOS',
         posicion: 'rot-1',
         ruta: 'google-avanzados',
-        fondo: 'bg-light',
-        colorTexto: 't2',
-        activo: true
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'HERRAMIENTAS DESARROLLO...',
         posicion: 'bg-dark',
         ruta: 'herramientas-desarrollo',
-        fondo: 'bg-light',
-        colorTexto: 'text-light',
-        activo: true
+        colorFondo: 'bg-light',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'DISEÑO - ESTILO - WEB',
         posicion: 'rot-1',
         ruta: 'diseno-estilo',
-        fondo: 'bg-light',
-        colorTexto: 't2',
-        activo: true
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'HOSTINGS - DOMINIOS - SERVIDORES',
         posicion: 'rot-2',
         ruta: 'hostings-dominios-servidores',
-        fondo: 'bg-light',
-        colorTexto: 't2',
-        activo: true
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'PHP Y WORDPRESS',
         posicion: 'pos-z',
         ruta: 'php-wordpress',
-        fondo: 'bg-light',
-        colorTexto: 't2',
-        activo: true
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'CSS',
         posicion: 'rot-2',
         ruta: 'css',
-        fondo: 'bg-light',
-        colorTexto: 't2',
-        activo: true
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'LIBRERÍAS Y FRAMEWORKS',
         posicion: 'pos-z',
         ruta: 'librerias-frameworks',
-        fondo: 'bg-Angular',
-        colorTexto: 'text-light',
-        activo: true
+        colorFondo: 'bg-Angular',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'EDITORES ONLINE',
         posicion: 'pos-z',
         ruta: 'editores-online',
-        fondo: 'bg-light',
-        colorTexto: 't2',
-        activo: true
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'PLATAFORMAS APRENDIZAJE',
         posicion: 'pos-z',
         ruta: 'plataformas-aprendizaje',
-        fondo: 'bg-Flutter',
-        colorTexto: 'text-light',
-        activo: true
+        colorFondo: 'bg-Flutter',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'RECURSOS Y DOCUMENTACIÓN',
         posicion: 'rot-1',
         ruta: 'recursos',
-        fondo: 'bg-light',
-        colorTexto: 't2',
-        activo: true
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'PROGRAMAS Y DESCARGAS',
         posicion: 'pos-z',
         ruta: 'programas',
-        fondo: 'bg-Android',
-        colorTexto: 'text-light',
-        activo: true
+        colorFondo: 'bg-Android',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'LINUX',
         posicion: 'pos-z',
         ruta: 'linux',
-        fondo: 'bg-light',
-        colorTexto: 't2',
-        activo: true
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'COMERCIO',
         posicion: 'pos-z',
         ruta: 'comercio',
-        fondo: 'bg-secondary',
-        colorTexto: 'text-warning',
-        activo: true
+        colorFondo: 'bg-secondary',
+        color: 'text-warning',
+        estado: 'activo'
       },
       {
         nombre: 'LIBROS',
         posicion: 'rot-1',
         ruta: 'libros',
-        fondo: 'bg-light',
-        colorTexto: 't2',
-        activo: true
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'ALMACENAMIENTO',
         posicion: 'rot-3',
         ruta: 'almacenamiento',
-        fondo: 'bg-light',
-        colorTexto: 't2',
-        activo: true
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'TRADUCTORES',
         posicion: 'pos-z',
         ruta: 'traductores',
-        fondo: 'bg-light',
-        colorTexto: 't2',
-        activo: true
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'SENA',
         posicion: 'rot-3',
         ruta: 'sena',
-        fondo: 'bg-light',
-        colorTexto: 't2',
-        activo: true
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'LEGALES',
         posicion: 'pos-z',
         ruta: 'legales',
-        fondo: 'bg-Javascript',
-        colorTexto: 't2',
-        activo: true
+        colorFondo: 'bg-Javascript',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'PAGOS',
         posicion: 'rot-3',
         ruta: 'pagos',
-        fondo: 'bg-light',
-        colorTexto: 't2',
-        activo: true
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'VIDEOS Y AUDIO',
         posicion: 'rot-3',
         ruta: 'videos-peliculas',
-        fondo: 'bg-Git',
-        colorTexto: 'text-light',
-        activo: true
+        colorFondo: 'bg-Git',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'JUEGOS',
         posicion: 'rot-3',
         ruta: 'juegos',
-        fondo: 'bg-Linux',
-        colorTexto: 'text-light',
-        activo: true
+        colorFondo: 'bg-Linux',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'UTILIDADES',
         posicion: 'rot-3',
         ruta: 'utilidades',
-        fondo: 'bg-Light',
-        colorTexto: 'text-light',
-        activo: true
+        colorFondo: 'bg-Light',
+        color: 'text-light',
+        estado: 'activo'
       },
     ]
 

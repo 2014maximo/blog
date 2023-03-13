@@ -42,26 +42,26 @@ export class JavaComponent implements OnInit {
       {
         nombre: 'INSTALACIÓN JAVA',
         posicion: 'pos-z',
-        rutaExterna: 'java-instalacion',
-        fondo: 'bg-Java',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'java-instalacion',
+        colorFondo: 'bg-Java',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'PROPIEDADES',
         posicion: 'pos-z',
-        rutaExterna: 'java-propiedades',
-        fondo: 'bg-Java',
-        colorTexto: 'text-light',
-        activo: false
+        ruta: 'java-propiedades',
+        colorFondo: 'bg-Java',
+        color: 'text-light',
+        estado: 'inactivo'
       },
       {
         nombre: 'GLASSFISH',
         posicion: 'pos-z',
-        rutaExterna: 'java-glassfish',
-        fondo: 'bg-Java',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'java-glassfish',
+        colorFondo: 'bg-Java',
+        color: 'text-light',
+        estado: 'activo'
       }
     ]
   }

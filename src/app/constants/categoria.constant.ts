@@ -15,7 +15,8 @@ import { IONIC } from './publicaciones-ionic.constant';
 export const CATEGORIA: CategoriaPostModel[] = [
     {
         id:1,
-        categoria: 'android',
+        nombre: 'android',
+        posicion: 'pos-z',
         abertura: '',
         rutaIcono: 'assets/img/categorias/android.png',
         alturaIcono: '80',
@@ -30,7 +31,8 @@ export const CATEGORIA: CategoriaPostModel[] = [
     },
     {
         id:2,
-        categoria: 'angular',
+        nombre: 'angular',
+        posicion: 'rot-2',
         abertura: '80%',
         rutaIcono: 'assets/img/categorias/angular.png',
         alturaIcono: '80',
@@ -45,7 +47,8 @@ export const CATEGORIA: CategoriaPostModel[] = [
     },
     {
         id:3,
-        categoria: 'css',
+        nombre: 'css',
+        posicion: 'pos-z',
         abertura: '',
         rutaIcono: 'assets/img/categorias/css.png',
         alturaIcono: '80',
@@ -60,7 +63,8 @@ export const CATEGORIA: CategoriaPostModel[] = [
     },
     {
         id:4,
-        categoria: 'dart',
+        nombre: 'dart',
+        posicion: 'rot-2',
         abertura: '',
         rutaIcono: 'assets/img/categorias/dart_text_white.png',
         alturaIcono: '40',
@@ -75,7 +79,8 @@ export const CATEGORIA: CategoriaPostModel[] = [
     },
     {
         id:5,
-        categoria: 'db',
+        nombre: 'db',
+        posicion: 'rot-2',
         abertura: '',
         rutaIcono: 'assets/img/categorias/sql.png',
         alturaIcono: '55',
@@ -90,7 +95,8 @@ export const CATEGORIA: CategoriaPostModel[] = [
     },
     {
         id:6,
-        categoria: 'developer',
+        nombre: 'developer',
+        posicion: 'rot-2',
         abertura: '',
         rutaIcono: 'assets/img/categorias/developer.png',
         alturaIcono: '90',
@@ -105,7 +111,8 @@ export const CATEGORIA: CategoriaPostModel[] = [
     },
     {
         id:7,
-        categoria: 'electron',
+        nombre: 'electron',
+        posicion: 'pos-z',
         abertura: '',
         rutaIcono: 'assets/img/categorias/electron.png',
         alturaIcono: '90',
@@ -120,7 +127,8 @@ export const CATEGORIA: CategoriaPostModel[] = [
     },
     {
         id:8,
-        categoria: 'flutter',
+        nombre: 'flutter',
+        posicion: 'rot-1',
         abertura: '',
         rutaIcono: 'assets/img/categorias/flutter_text_white.png',
         alturaIcono: '80',
@@ -135,7 +143,8 @@ export const CATEGORIA: CategoriaPostModel[] = [
     },
     {
         id:9,
-        categoria: 'git',
+        nombre: 'git',
+        posicion: 'rot-3',
         abertura: '',
         rutaIcono: 'assets/img/categorias/git-light.png',
         alturaIcono: '60',
@@ -150,7 +159,8 @@ export const CATEGORIA: CategoriaPostModel[] = [
     },
     {
         id:10,
-        categoria: 'html',
+        nombre: 'html',
+        posicion: 'pos-z',
         abertura: '',
         rutaIcono: 'assets/img/categorias/html-white.png',
         alturaIcono: '80',
@@ -165,7 +175,8 @@ export const CATEGORIA: CategoriaPostModel[] = [
     },
     {
         id:11,
-        categoria: 'java',
+        nombre: 'java',
+        posicion: 'rot-2',
         abertura: '',
         rutaIcono: 'assets/img/categorias/logo-java.png',
         alturaIcono: '100',
@@ -180,8 +191,9 @@ export const CATEGORIA: CategoriaPostModel[] = [
     },
     {
         id:12,
-        categoria: 'javascript',
+        nombre: 'javascript',
         abertura: '',
+        posicion: 'rot-2',
         rutaIcono: 'assets/img/categorias/javascript.png',
         alturaIcono: '80',
         estado:'inactivo',
@@ -195,7 +207,8 @@ export const CATEGORIA: CategoriaPostModel[] = [
     },
     {
         id:13,
-        categoria: 'kotlin',
+        nombre: 'kotlin',
+        posicion: 'pos-z',
         abertura: '',
         rutaIcono: 'assets/img/categorias/kotlin.png',
         alturaIcono: '60',
@@ -210,7 +223,8 @@ export const CATEGORIA: CategoriaPostModel[] = [
     },
     {
         id:14,
-        categoria: 'kubernetes',
+        nombre: 'kubernetes',
+        posicion: 'pos-z',
         abertura: '',
         rutaIcono: 'assets/img/categorias/kubernetes.png',
         alturaIcono: '100',
@@ -225,7 +239,8 @@ export const CATEGORIA: CategoriaPostModel[] = [
     },
     {
         id:13,
-        categoria: 'linux',
+        nombre: 'linux',
+        posicion: 'rot-2',
         abertura: '',
         rutaIcono: 'assets/img/categorias/linux-white.png',
         alturaIcono: '60',
@@ -240,7 +255,8 @@ export const CATEGORIA: CategoriaPostModel[] = [
     },
     {
         id:14,
-        categoria: 'net',
+        nombre: 'net',
+        posicion: 'rot-2',
         abertura: '',
         rutaIcono: 'assets/img/categorias/net-framework.png',
         alturaIcono: '80',
@@ -255,7 +271,8 @@ export const CATEGORIA: CategoriaPostModel[] = [
     },
     {
         id:15,
-        categoria: 'php',
+        nombre: 'php',
+        posicion: 'rot-2',
         abertura: '',
         rutaIcono: 'assets/img/categorias/php.png',
         alturaIcono: '70',
@@ -270,7 +287,8 @@ export const CATEGORIA: CategoriaPostModel[] = [
     },
     {
         id:16,
-        categoria: 'react',
+        nombre: 'react',
+        posicion: 'rot-2',
         abertura: '',
         rutaIcono: 'assets/img/categorias/react.png',
         alturaIcono: '100',
@@ -285,7 +303,8 @@ export const CATEGORIA: CategoriaPostModel[] = [
     },
     {
         id:17,
-        categoria: 'wordpress',
+        nombre: 'wordpress',
+        posicion: 'rot-2',
         abertura: '',
         rutaIcono: 'assets/img/categorias/wordpress2.png',
         alturaIcono: '80',

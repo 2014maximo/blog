@@ -45,162 +45,162 @@ export class MenuHomeComponent implements OnInit {
       {
         nombre: 'ANDROID STUDIO',
         posicion: 'pos-z',
-        rutaExterna: 'android-studio',
-        fondo: 'bg-Android',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'android-studio',
+        colorFondo: 'bg-Android',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'ANGULAR',
         posicion: 'rot-2',
-        rutaExterna: 'angular',
-        fondo: 'bg-Angular',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'angular',
+        colorFondo: 'bg-Angular',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'CSS',
         posicion: 'rot-2',
-        rutaExterna: 'css',
-        fondo: 'bg-Css',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'css',
+        colorFondo: 'bg-Css',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'DART',
         posicion: 'rot-2',
-        rutaExterna: 'dart',
-        fondo: 'bg-Dart',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'dart',
+        colorFondo: 'bg-Dart',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'DEVELOPER',
         posicion: 'rot-2',
-        rutaExterna: 'developer',
-        fondo: 'bg-Developer',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'developer',
+        colorFondo: 'bg-Developer',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'ELECTRON',
         posicion: 'pos-z',
-        rutaExterna: 'electron',
-        fondo: 'bg-Electron',
-        colorTexto: 't2',
-        activo: true
+        ruta: 'electron',
+        colorFondo: 'bg-Electron',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'FLUTTER',
         posicion: 'rot-1',
-        rutaExterna: 'flutter',
-        fondo: 'bg-Flutter',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'flutter',
+        colorFondo: 'bg-Flutter',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'GIT',
         posicion: 'rot-3',
-        rutaExterna: 'git',
-        fondo: 'bg-Git',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'git',
+        colorFondo: 'bg-secondary',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'HTML',
         posicion: 'pos-z',
-        rutaExterna: 'html',
-        fondo: 'bg-Html',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'html',
+        colorFondo: 'bg-secondary',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'JAVA',
         posicion: 'rot-2',
-        rutaExterna: 'java',
-        fondo: 'bg-Java',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'java',
+        colorFondo: 'bg-secondary',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'JAVASCRIPT',
         posicion: 'rot-2',
-        rutaExterna: 'javascript',
-        fondo: 'bg-Javascript',
-        colorTexto: 't2',
-        activo: true
+        ruta: 'javascript',
+        colorFondo: 'bg-secondary',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'KOTLIN',
         posicion: 'pos-z',
-        rutaExterna: 'kotlin',
-        fondo: 'bg-Kotlin',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'kotlin',
+        colorFondo: 'bg-secondary',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'KUBERNETES',
         posicion: 'pos-z',
-        rutaExterna: 'kubernetes',
-        fondo: 'bg-Kubernetes',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'kubernetes',
+        colorFondo: 'bg-secondary',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'LINUX',
         posicion: 'rot-2',
-        rutaExterna: 'linux',
-        fondo: 'bg-Linux',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'linux',
+        colorFondo: 'bg-secondary',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'NET FRAMEWORK',
         posicion: 'rot-2',
-        rutaExterna: 'net-framework',
-        fondo: 'bg-NetFramework',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'net-framework',
+        colorFondo: 'bg-secondary',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'PHP',
         posicion: 'rot-2',
-        rutaExterna: 'php',
-        fondo: 'bg-Php',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'php',
+        colorFondo: 'bg-secondary',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'REACT',
         posicion: 'rot-2',
-        rutaExterna: 'react',
-        fondo: 'bg-React',
-        colorTexto: 't2',
-        activo: true
+        ruta: 'react',
+        colorFondo: 'bg-secondary',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'SENA',
         posicion: 'rot-2',
-        rutaExterna: 'sena',
-        fondo: 'bg-Sena',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'sena',
+        colorFondo: 'bg-secondary',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'DB',
         posicion: 'rot-2',
-        rutaExterna: 'db',
-        fondo: 'bg-Sql',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'db',
+        colorFondo: 'bg-secondary',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'WORDPRESS',
         posicion: 'rot-2',
-        rutaExterna: 'wordpress',
-        fondo: 'bg-Wordpress',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'wordpress',
+        colorFondo: 'bg-secondary',
+        color: 'text-light',
+        estado: 'activo'
       },
     ]
 
@@ -209,7 +209,7 @@ export class MenuHomeComponent implements OnInit {
   private extraerMenu(referencias: string[]):any[]{
     let menu:any[]=[];
     referencias.forEach( (e:any, i:number) => {
-      let categorias = this.posts.filter( elemento => elemento.categoria === e)
+      let categorias = this.posts.filter( elemento => elemento.nombre === e)
       menu.push(categorias[0]);
     })
     return menu
@@ -240,12 +240,11 @@ export class MenuHomeComponent implements OnInit {
   }
 
   public filtrarActivo(grupo: DatosPost[]):DatosPost[]{
-    return grupo.filter( publi => publi.activo )
+    return grupo.filter( publi => publi.estado === 'activo' )
   }
 
-
-
-
-
+  public validarActivo(estado: string):boolean{
+    return estado === 'activo'? true : false
+  }
 
 }

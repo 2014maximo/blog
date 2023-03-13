@@ -74,8 +74,8 @@ export interface DatosPost{
     imgVertical: string,
     imgCuadro:string,
     categoria: string,
-    imgSlider?: ImgSlider
-    activo?: boolean
+    imgSlider?: ImgSlider,
+    estado: string
 }
 
 export interface ImgSlider {
@@ -101,7 +101,8 @@ export interface ImgHorizontal {
 
 export interface CategoriaPostModel {
     id:number,
-    categoria: string,
+    nombre: string,
+    posicion: string,
     abertura: string,
     rutaIcono: string,
     alturaIcono: string,

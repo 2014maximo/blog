@@ -22,7 +22,7 @@ export const DART: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-2',
-        activo: false
+        estado: 'inactivo'
     },
     {
         id: '3263410188',
@@ -40,6 +40,6 @@ export const DART: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-z',
-        activo: true
+        estado: 'activo'
     }
 ]

@@ -41,39 +41,42 @@ export class EstadisticaComponent implements OnInit {
       {
         nombre: 'ASTRO-SOL INGRESO',
         posicion: 'pos-z',
-        rutaExterna: 'astro-sol-ingreso',
-        fondo: 'bg-light',
-        colorTexto: 't2',
-        activo: true
+        ruta: 'astro-sol-ingreso',
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'GESTION FORMULARIO',
         posicion: 'rot-2',
-        rutaExterna: 'estadistica-gestion-formulario',
-        fondo: 'bg-light',
-        colorTexto: 't2',
-        activo: true
+        ruta: 'estadistica-gestion-formulario',
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'CRUD',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-light',
-        colorTexto: 't2'
+        ruta: 'android-elementos',
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'TERMINOS AVANZADOS',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-light',
-        colorTexto: 't2'
+        ruta: 'android-elementos',
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'PRUEBAS UNITARIAS',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-light',
-        colorTexto: 't2'
+        ruta: 'android-elementos',
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
     ]
   }

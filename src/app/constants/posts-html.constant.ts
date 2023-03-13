@@ -23,7 +23,7 @@ export const HTML: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-1',
-        activo: false
+        estado: 'inactivo'
     },
     {
         id: '7222800091',
@@ -41,6 +41,6 @@ export const HTML: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-2',
-        activo: true
+        estado: 'activo'
     },
 ]

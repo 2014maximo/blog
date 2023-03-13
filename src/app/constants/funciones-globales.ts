@@ -64,7 +64,7 @@ export function datosCategoria(cat: string, referencia: number): any{
   let datoCategoria: any;
   
   let categoriaFiltrada: CategoriaPostModel[] = CATEGORIA.filter(( categoria: CategoriaPostModel ) => {
-    return categoria.categoria === cat
+    return categoria.nombre === cat
   });
 
   categoriaFiltrada;
@@ -79,7 +79,7 @@ export function datosCategoria(cat: string, referencia: number): any{
       break
   
     case 3:
-      datoCategoria = categoriaFiltrada[0].categoria
+      datoCategoria = categoriaFiltrada[0].nombre
       break
 
     case 4:

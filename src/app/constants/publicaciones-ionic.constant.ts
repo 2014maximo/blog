@@ -25,7 +25,7 @@ export const IONIC: SubCategoriaModel[] = [
                 imgCuadro:'',
                 categoria: 'angular',
                 posicion: 'rot-z',
-                activo: true
+                estado: 'activo'
             },
         ]
     }

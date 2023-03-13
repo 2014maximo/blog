@@ -45,25 +45,25 @@ export class NgDescripcionElementosComponent implements OnInit {
         nombre: 'PATRÓN SPA',
         posicion: 'pos-z',
         ruta: 'patron-spa',
-        fondo: 'bg-light',
-        colorTexto: 't2',
-        activo: true
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'PATRÓN MVC',
         posicion: 'rot-3',
         ruta: 'patron-mvc',
-        fondo: 'bg-light',
-        colorTexto: 't2',
-        activo: true
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'URL FRAGMENTS',
         posicion: 'rot-2',
         ruta: 'url-fragments',
-        fondo: 'bg-light',
-        colorTexto: 't2',
-        activo: true
+        colorFondo: 'bg-light',
+        color: 't2',
+        estado: 'activo'
       },
     ]
     this.claseContenedor = 'mt-5';

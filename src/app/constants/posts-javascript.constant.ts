@@ -23,7 +23,7 @@ export const JAVASCRIPT: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-1',
-        activo: false
+        estado: 'inactivo'
     },
     {
         id: '6525710784',
@@ -41,7 +41,7 @@ export const JAVASCRIPT: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-2',
-        activo: true
+        estado: 'activo'
     },
     {
         id: '9468931626',
@@ -59,7 +59,7 @@ export const JAVASCRIPT: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-z',
-        activo: true
+        estado: 'activo'
     },
     {
         id: '8201690222',
@@ -83,7 +83,7 @@ export const JAVASCRIPT: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-1',
-        activo: true
+        estado: 'activo'
     },
     {
         id: '2651190438',
@@ -101,7 +101,7 @@ export const JAVASCRIPT: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-2',
-        activo: true
+        estado: 'activo'
     },
     {
         id: '3047442958',
@@ -119,7 +119,7 @@ export const JAVASCRIPT: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-z',
-        activo: true
+        estado: 'activo'
     },
     {
         id: '7973823377',
@@ -137,6 +137,6 @@ export const JAVASCRIPT: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-1',
-        activo: true
+        estado: 'activo'
     },
 ]

@@ -22,7 +22,7 @@ export const ANGULAR: DatosPost[] = [
         imgCuadro:'',
         categoria: 'angular',
         posicion: 'rot-1',
-        activo: false
+        estado: 'inactivo'
     },
     {
         id: '8627267684',
@@ -40,7 +40,7 @@ export const ANGULAR: DatosPost[] = [
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         categoria: 'angular',
         posicion: 'rot-2',
-        activo: true
+        estado: 'activo'
     },
     {
         id: '4791376137',
@@ -58,6 +58,6 @@ export const ANGULAR: DatosPost[] = [
         imgCuadro:'',
         categoria: 'angular',
         posicion: 'rot-z',
-        activo: true
+        estado: 'activo'
     },
 ]

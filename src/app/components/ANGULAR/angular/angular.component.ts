@@ -45,106 +45,106 @@ export class AngularComponent implements OnInit {
       {
         nombre: 'INSTALACIÓN',
         posicion: 'pos-z',
-        rutaExterna: 'ng-instalacion',
-        fondo: 'bg-Angular',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'ng-instalacion',
+        colorFondo: 'bg-Angular',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'ELEMENTOS Y DESCRIPCIÓN',
         posicion: 'pos-z',
-        rutaExterna: 'ng-descripcion-elementos',
-        fondo: 'bg-Angular',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'ng-descripcion-elementos',
+        colorFondo: 'bg-Angular',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'PRUEBAS UNITARIAS',
         posicion: 'rot-2',
-        rutaExterna: 'ng-pruebas-unitarias',
-        fondo: 'bg-Angular',
-        colorTexto: 'text-light',
-        activo: false
+        ruta: 'ng-pruebas-unitarias',
+        colorFondo: 'bg-Angular',
+        color: 'text-light',
+        estado: 'inactivo'
       },
       {
         nombre: 'COMUNICACION ENTRE COMPONENTES',
         posicion: 'rot-3',
-        rutaExterna: 'ng-comunicacion-componente',
-        fondo: 'bg-Angular',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'ng-comunicacion-componente',
+        colorFondo: 'bg-Angular',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'CRUD CON MOCKDATA',
         posicion: 'pos-z',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Angular',
-        colorTexto: 'text-light',
-        activo: false
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Angular',
+        color: 'text-light',
+        estado: 'inactivo'
       },
       {
         nombre: 'RXJS',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Angular',
-        colorTexto: 'text-light',
-        activo: false
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Angular',
+        color: 'text-light',
+        estado: 'inactivo'
       },
       {
         nombre: 'MICROFRONTENDS',
         posicion: 'pos-z',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Angular',
-        colorTexto: 'text-light',
-        activo: false
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Angular',
+        color: 'text-light',
+        estado: 'inactivo'
       },
       {
         nombre: 'DESPLEGAR EN GITHUB',
         posicion: 'pos-z',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Angular',
-        colorTexto: 'text-light',
-        activo: false
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Angular',
+        color: 'text-light',
+        estado: 'inactivo'
       },
       {
         nombre: 'REDUX',
         posicion: 'pos-z',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Angular',
-        colorTexto: 'text-light',
-        activo: false
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Angular',
+        color: 'text-light',
+        estado: 'inactivo'
       },
       {
         nombre: 'MÉTODO DEL BARRIL',
         posicion: 'rot-1',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Angular',
-        colorTexto: 'text-light',
-        activo: false
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Angular',
+        color: 'text-light',
+        estado: 'inactivo'
       },
       {
         nombre: 'TIEPO REAL SOCKET Y REST',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Angular',
-        colorTexto: 'text-light',
-        activo: false
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Angular',
+        color: 'text-light',
+        estado: 'inactivo'
       },
       {
         nombre: 'DEBUGGEAR EN CHROME',
         posicion: 'pos-z',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Angular',
-        colorTexto: 'text-light',
-        activo: false
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Angular',
+        color: 'text-light',
+        estado: 'inactivo'
       },
       {
         nombre: 'CABECERAS CORS',
         posicion: 'pos-z',
-        rutaExterna: 'ng-cors',
-        fondo: 'bg-Angular',
-        colorTexto: 'text-light',
-        activo: false
+        ruta: 'ng-cors',
+        colorFondo: 'bg-Angular',
+        color: 'text-light',
+        estado: 'inactivo'
       },
     ]
 
@@ -152,16 +152,18 @@ export class AngularComponent implements OnInit {
       {
         nombre: 'INSTALACIÓN',
         posicion: 'pos-z',
-        rutaExterna: 'android-instalacion',
-        fondo: 'bg-Ionic',
-        colorTexto: 'text-light'
+        ruta: 'android-instalacion',
+        colorFondo: 'bg-Ionic',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'ELEMENTOS Y DESCRIPCIÓN',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Ionic',
-        colorTexto: 'text-light'
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Ionic',
+        color: 'text-light',
+        estado: 'activo'
       },
     ]
 
@@ -169,18 +171,18 @@ export class AngularComponent implements OnInit {
       {
         nombre: 'ELEMENTOS Y DESCRIPCIÓN',
         posicion: 'rot-2',
-        rutaExterna: 'prime7-descripcion-elementos',
-        fondo: 'bg-Prime',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'prime7-descripcion-elementos',
+        colorFondo: 'bg-Prime',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'TABLE CHECKBOX',
         posicion: 'pos-z',
-        rutaExterna: 'prime7-tablecheckbox',
-        fondo: 'bg-Prime',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'prime7-tablecheckbox',
+        colorFondo: 'bg-Prime',
+        color: 'text-light',
+        estado: 'activo'
       },
     ]
   }

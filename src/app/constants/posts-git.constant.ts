@@ -22,7 +22,7 @@ export const GIT: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-1',
-        activo: false
+        estado: 'inactivo'
         
     },
     {
@@ -41,6 +41,6 @@ export const GIT: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-2',
-        activo: true
+        estado: 'activo'
     },
 ]

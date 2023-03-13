@@ -42,18 +42,18 @@ export class NetFrameworkComponent implements OnInit {
       {
         nombre: 'NET INSTALACION',
         posicion: 'pos-z',
-        rutaExterna: 'net-instalacion',
-        fondo: 'bg-NetFramework',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'net-instalacion',
+        colorFondo: 'bg-NetFramework',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'NET DESCRIPCION ELEMENTOS',
         posicion: 'pos-z',
-        rutaExterna: 'net-descripcion-elementos',
-        fondo: 'bg-NetFramework',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'net-descripcion-elementos',
+        colorFondo: 'bg-NetFramework',
+        color: 'text-light',
+        estado: 'activo'
       }
     ]
   }

@@ -22,7 +22,7 @@ export const DB: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-2',
-        activo: false
+        estado: 'inactivo'
     },
     {
         id: '2580732202',
@@ -40,7 +40,7 @@ export const DB: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-z',
-        activo: true
+        estado: 'activo'
     },
     {
         id: '6999601172',
@@ -58,7 +58,7 @@ export const DB: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-z',
-        activo: true
+        estado: 'activo'
     },
     {
         id: '6999601172',
@@ -76,6 +76,6 @@ export const DB: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-1',
-        activo: true
+        estado: 'activo'
     }
 ]

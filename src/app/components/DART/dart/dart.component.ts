@@ -41,31 +41,34 @@ export class DartComponent implements OnInit {
       {
         nombre: 'ELEMENTOS DE DART',
         posicion: 'pos-z',
-        rutaExterna: 'dart-elementos',
-        fondo: 'bg-Dart',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'dart-elementos',
+        colorFondo: 'bg-Dart',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'CRUD',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Dart',
-        colorTexto: 'text-light'
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Dart',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'TERMINOS AVANZADOS',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Dart',
-        colorTexto: 'text-light'
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Dart',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'PRUEBAS UNITARIAS',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Dart',
-        colorTexto: 'text-light'
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Dart',
+        color: 'text-light',
+        estado: 'activo'
       },
     ]
   }

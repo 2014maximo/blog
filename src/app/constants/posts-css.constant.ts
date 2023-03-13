@@ -22,7 +22,7 @@ export const CSS: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-2',
-        activo: false
+        estado: 'inactivo'
     },
     {
         id: '5600292414',
@@ -40,6 +40,6 @@ export const CSS: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-1',
-        activo: true
+        estado: 'activo'
     }
 ]

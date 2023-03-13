@@ -1,9 +1,8 @@
 export class IndiceDeContenidosModel {
     nombre: string = '';
     posicion: string = '';
-    ruta?: any ;
-    rutaExterna?: any;
-    fondo: string = '';
-    colorTexto: string = '';
-    activo?: boolean = false;
+    ruta: any;
+    colorFondo: string = '';
+    color: string = '';
+    estado: string = '';
 }

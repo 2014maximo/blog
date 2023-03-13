@@ -22,7 +22,7 @@ export const DEVELOPER: DatosPost[] = [
         imgCuadro:'',
         categoria: 'developer',
         posicion: 'rot-2',
-        activo: false
+        estado: 'inactivo'
     },
     {
         id: '7084156673',
@@ -40,6 +40,6 @@ export const DEVELOPER: DatosPost[] = [
         imgCuadro:'',
         categoria: 'developer',
         posicion: 'rot-z',
-        activo: true
+        estado: 'activo'
     }
 ]
