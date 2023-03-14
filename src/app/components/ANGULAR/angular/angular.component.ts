@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel } from '../../../models/post.model';
 import { IndiceDeContenidosModel } from '../../../models/indice.model';
+import { ANGULAR } from '../../../constants/posts-angular.constant';
+import { DatosPost } from '../../../models/categorias.model';
 
 @Component({
   selector: 'app-angular',
@@ -41,150 +43,20 @@ export class AngularComponent implements OnInit {
 
     this.claseAngular = 'mt-2';
 
-    this.indiceAngular = [
-      {
-        nombre: 'INSTALACIÓN',
-        posicion: 'pos-z',
-        ruta: 'ng-instalacion',
-        colorFondo: 'bg-Angular',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'ELEMENTOS Y DESCRIPCIÓN',
-        posicion: 'pos-z',
-        ruta: 'ng-descripcion-elementos',
-        colorFondo: 'bg-Angular',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'PRUEBAS UNITARIAS',
-        posicion: 'rot-2',
-        ruta: 'ng-pruebas-unitarias',
-        colorFondo: 'bg-Angular',
-        color: 'text-light',
-        estado: 'inactivo'
-      },
-      {
-        nombre: 'COMUNICACION ENTRE COMPONENTES',
-        posicion: 'rot-3',
-        ruta: 'ng-comunicacion-componente',
-        colorFondo: 'bg-Angular',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'CRUD CON MOCKDATA',
-        posicion: 'pos-z',
-        ruta: 'android-elementos',
-        colorFondo: 'bg-Angular',
-        color: 'text-light',
-        estado: 'inactivo'
-      },
-      {
-        nombre: 'RXJS',
-        posicion: 'rot-2',
-        ruta: 'android-elementos',
-        colorFondo: 'bg-Angular',
-        color: 'text-light',
-        estado: 'inactivo'
-      },
-      {
-        nombre: 'MICROFRONTENDS',
-        posicion: 'pos-z',
-        ruta: 'android-elementos',
-        colorFondo: 'bg-Angular',
-        color: 'text-light',
-        estado: 'inactivo'
-      },
-      {
-        nombre: 'DESPLEGAR EN GITHUB',
-        posicion: 'pos-z',
-        ruta: 'android-elementos',
-        colorFondo: 'bg-Angular',
-        color: 'text-light',
-        estado: 'inactivo'
-      },
-      {
-        nombre: 'REDUX',
-        posicion: 'pos-z',
-        ruta: 'android-elementos',
-        colorFondo: 'bg-Angular',
-        color: 'text-light',
-        estado: 'inactivo'
-      },
-      {
-        nombre: 'MÉTODO DEL BARRIL',
-        posicion: 'rot-1',
-        ruta: 'android-elementos',
-        colorFondo: 'bg-Angular',
-        color: 'text-light',
-        estado: 'inactivo'
-      },
-      {
-        nombre: 'TIEPO REAL SOCKET Y REST',
-        posicion: 'rot-2',
-        ruta: 'android-elementos',
-        colorFondo: 'bg-Angular',
-        color: 'text-light',
-        estado: 'inactivo'
-      },
-      {
-        nombre: 'DEBUGGEAR EN CHROME',
-        posicion: 'pos-z',
-        ruta: 'android-elementos',
-        colorFondo: 'bg-Angular',
-        color: 'text-light',
-        estado: 'inactivo'
-      },
-      {
-        nombre: 'CABECERAS CORS',
-        posicion: 'pos-z',
-        ruta: 'ng-cors',
-        colorFondo: 'bg-Angular',
-        color: 'text-light',
-        estado: 'inactivo'
-      },
-    ]
+    ANGULAR.forEach( (post:DatosPost, i:number ) => {
+      let seleccionado: IndiceDeContenidosModel = {
+        color: '',
+        colorFondo: post.estilos.colorFondo,
+        estado: post.estado,
+        nombre: post.nombre,
+        posicion: post.posicion,
+        ruta: post.ruta,
+        rutaInterna: ''
+      }
+      this.indiceAngular.push(seleccionado)
+    })
 
-    this.indiceIonic = [
-      {
-        nombre: 'INSTALACIÓN',
-        posicion: 'pos-z',
-        ruta: 'android-instalacion',
-        colorFondo: 'bg-Ionic',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'ELEMENTOS Y DESCRIPCIÓN',
-        posicion: 'rot-2',
-        ruta: 'android-elementos',
-        colorFondo: 'bg-Ionic',
-        color: 'text-light',
-        estado: 'activo'
-      },
-    ]
 
-    this.indicePrime = [
-      {
-        nombre: 'ELEMENTOS Y DESCRIPCIÓN',
-        posicion: 'rot-2',
-        ruta: 'prime7-descripcion-elementos',
-        colorFondo: 'bg-Prime',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'TABLE CHECKBOX',
-        posicion: 'pos-z',
-        ruta: 'prime7-tablecheckbox',
-        colorFondo: 'bg-Prime',
-        color: 'text-light',
-        estado: 'activo'
-      },
-    ]
   }
 
   scroll(el: HTMLElement) {

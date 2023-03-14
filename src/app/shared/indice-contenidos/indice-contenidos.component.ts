@@ -33,8 +33,12 @@ export class IndiceContenidosComponent implements OnInit {
     el.scrollIntoView();
   }
 
-  validaEstado(estado: string):boolean{
+  public validaEstado(estado: string):boolean{
     return estado === 'activo'? true : false
+  }
+
+  public filtrarIndiceActivo(grupo: IndiceDeContenidosModel[]):IndiceDeContenidosModel[]{
+    return grupo.filter( publi => publi.estado === 'activo' )
   }
 
 }

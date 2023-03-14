@@ -40,24 +40,14 @@ export const ANGULAR: DatosPost[] = [
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         categoria: 'angular',
         posicion: 'rot-2',
-        estado: 'activo'
-    },
-    {
-        id: '4791376137',
-        nombre: 'Qué contiene Angular?',
-        descripcion: 'Qué es y para qué un tsconfig.ts?, que es un package.json? para qué son las carpetas que tiene un proyecto de Angular, que pasa si se modifica este o el otro, miremos en detalle las posibilidades que han estado desde un buen principio pero que para aprender solo nos enseñaron a mover solo algunas',
-        descripcionCorta: 'Instalación de Angular, recomendaciones y herramientas',
-        ruta: 'ng-descripcion-elementos',
-        componente: 'NgDescripcionElementosComponent',
-        mostrarEnPostHome: true,
-        estilos: ESTILO_ANGULAR,
-        fechaCreacion: '2021-10-02',
-        fechaActualizacion: '2021-10-02',
-        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/angularPartes.png',
-        imgVertical:'',
-        imgCuadro:'',
-        categoria: 'angular',
-        posicion: 'rot-z',
-        estado: 'activo'
-    },
+        estado: 'activo',
+        imgSlider: {
+            alt: 'Instalación Angular y recomendados',
+            height: '600',
+            id: '2',
+            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
+            width: 'auto',
+            post: 'ng-instalacion'
+        }
+    }
 ]

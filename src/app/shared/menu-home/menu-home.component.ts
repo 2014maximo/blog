@@ -39,170 +39,21 @@ export class MenuHomeComponent implements OnInit {
 
     this.categorias = CATEGORIA;
 
-    this.claseContenedor = 'mt-2'
+    this.claseContenedor = 'mt-2';
+    
+    CATEGORIA.forEach( (cat:CategoriaPostModel, i:number) => {
+      let grupo: IndiceDeContenidosModel = {
+        color: '',
+        colorFondo: cat.colorFondo,
+        estado: cat.estado,
+        nombre: cat.nombre.toUpperCase(),
+        posicion: cat.posicion,
+        ruta: cat.ruta,
+        rutaInterna: ''
+      }
+      this.pasoDeIndice.push(grupo);
+    });
 
-    this.pasoDeIndice = [
-      {
-        nombre: 'ANDROID STUDIO',
-        posicion: 'pos-z',
-        ruta: 'android-studio',
-        colorFondo: 'bg-Android',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'ANGULAR',
-        posicion: 'rot-2',
-        ruta: 'angular',
-        colorFondo: 'bg-Angular',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'CSS',
-        posicion: 'rot-2',
-        ruta: 'css',
-        colorFondo: 'bg-Css',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'DART',
-        posicion: 'rot-2',
-        ruta: 'dart',
-        colorFondo: 'bg-Dart',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'DEVELOPER',
-        posicion: 'rot-2',
-        ruta: 'developer',
-        colorFondo: 'bg-Developer',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'ELECTRON',
-        posicion: 'pos-z',
-        ruta: 'electron',
-        colorFondo: 'bg-Electron',
-        color: 't2',
-        estado: 'activo'
-      },
-      {
-        nombre: 'FLUTTER',
-        posicion: 'rot-1',
-        ruta: 'flutter',
-        colorFondo: 'bg-Flutter',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'GIT',
-        posicion: 'rot-3',
-        ruta: 'git',
-        colorFondo: 'bg-secondary',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'HTML',
-        posicion: 'pos-z',
-        ruta: 'html',
-        colorFondo: 'bg-secondary',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'JAVA',
-        posicion: 'rot-2',
-        ruta: 'java',
-        colorFondo: 'bg-secondary',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'JAVASCRIPT',
-        posicion: 'rot-2',
-        ruta: 'javascript',
-        colorFondo: 'bg-secondary',
-        color: 't2',
-        estado: 'activo'
-      },
-      {
-        nombre: 'KOTLIN',
-        posicion: 'pos-z',
-        ruta: 'kotlin',
-        colorFondo: 'bg-secondary',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'KUBERNETES',
-        posicion: 'pos-z',
-        ruta: 'kubernetes',
-        colorFondo: 'bg-secondary',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'LINUX',
-        posicion: 'rot-2',
-        ruta: 'linux',
-        colorFondo: 'bg-secondary',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'NET FRAMEWORK',
-        posicion: 'rot-2',
-        ruta: 'net-framework',
-        colorFondo: 'bg-secondary',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'PHP',
-        posicion: 'rot-2',
-        ruta: 'php',
-        colorFondo: 'bg-secondary',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'REACT',
-        posicion: 'rot-2',
-        ruta: 'react',
-        colorFondo: 'bg-secondary',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'SENA',
-        posicion: 'rot-2',
-        ruta: 'sena',
-        colorFondo: 'bg-secondary',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'DB',
-        posicion: 'rot-2',
-        ruta: 'db',
-        colorFondo: 'bg-secondary',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'WORDPRESS',
-        posicion: 'rot-2',
-        ruta: 'wordpress',
-        colorFondo: 'bg-secondary',
-        color: 'text-light',
-        estado: 'activo'
-      },
-    ]
 
   }
 

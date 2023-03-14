@@ -107,7 +107,7 @@ export interface CategoriaPostModel {
     rutaIcono: string,
     alturaIcono: string,
     estado: string,
-    rutaCategoria: string,
+    ruta: string,
     colorFondo: string,
     color: string,
     descripcion: string,

@@ -111,7 +111,7 @@ export function datosCategoria(cat: string, referencia: number): any{
       break
 
     case 11:
-      datoCategoria = categoriaFiltrada[0].rutaCategoria
+      datoCategoria = categoriaFiltrada[0].ruta
       break
 
     case 12:
