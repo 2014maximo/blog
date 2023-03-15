@@ -15,7 +15,7 @@ export class AndrAndroidStudioComponent implements OnInit {
   public post:any = postActual('7ea51cec-4d81-44f7-a4b4-7debe4c5a42e');
   
   public cabeceraPost = {
-    nombre: this.post[0].titulo,
+    nombre: this.post[0].nombre,
     id_post: this.post[0].id,
     categoria: this.post[0].categoria,
     fechaActualizacion: this.post[0].fechaActualizacion,

@@ -22,13 +22,19 @@ export function traerPost(id: string, posts: PostModel[]){
 }
 
 export function postActual(idPost: string){
-  let post:any[]=[];
-  CATEGORIA.forEach((e:any, i:number)=>{
-    e.post.forEach((element:any) => {
+  let post:DatosPost[]=[];
+  CATEGORIA.forEach((e:CategoriaPostModel, i:number)=>{
+    e.post.forEach((element:DatosPost) => {
       post.push(element);
     });
   });
-  return post.filter((element:any) => element.id === idPost);
+
+  return post.filter( publicacion => publicacion.id.includes(idPost));
+}
+
+export function textoAFecha(fecha: string): Date{
+  let dato = fecha.split('-');
+  return new Date(Number(dato[0]), Number(dato[1]), Number(dato[2]))
 }
 
 export function extraerListaRutas(categoria:[]):Route[]{

@@ -25,7 +25,7 @@ export const ANGULAR: DatosPost[] = [
         estado: 'inactivo'
     },
     {
-        id: '8627267684',
+        id: '8618eb718b-655b-49a8-9e6e-f3732922b2df',
         nombre: 'Instalación Angular y recomendados',
         descripcion: 'Instalar Angular y empezar a desarrollar con este framework, no es un tema extenso y detallado para entrar en un análisis profundo, sin embargo esta vez la idea es poder especificar los cambios que se han recibido en cada versión como también algunas herramientas con las que se ha contado y no solemos saber que estan ahí. Empecemos por ver lo que Angular ha evolucionado con el paso del Tiempo en sus versiones',
         descripcionCorta: 'Instalación de Angular, recomendaciones y herramientas',

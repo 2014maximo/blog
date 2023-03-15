@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { copiarAlPortapapeles } from 'src/app/shared/funciones/portapapeles';
-import { HeaderPostModel, CategoriaModel, AccordeonModel } from '../../../models/post.model';
-import { traerPost } from '../../../constants/funciones-globales';
-import { POSTS } from '../../../constants/post.constant';
+import { CategoriaModel, AccordeonModel, PostModel } from '../../../models/post.model';
+import { postActual } from '../../../constants/funciones-globales';
+import { DatosPost } from '../../../models/categorias.model';
 
 @Component({
   selector: 'app-ng-instalacion',
@@ -12,14 +12,22 @@ import { POSTS } from '../../../constants/post.constant';
 })
 export class NgInstalacionComponent implements OnInit {
 
-  private postActual = traerPost('ng-0001', POSTS);
+  public idPublicacion = '8618eb718b-655b-49a8-9e6e-f3732922b2df';
 
-  public cabeceraPost: HeaderPostModel = {
+  public cabeceraPost: PostModel = {
+    nombre: '',
+    id_post: '',
+    categoria: '',
+    fechaActualizacion: new Date(2020,7,30),
+    fechaCreacion: new Date(2020,7,30),
+    incluirFondo: false,
+    ruta: '',
     rutaImagen: '',
+    sombra: '',
     alturaImagen: '',
-    fondo: false,
-    tituloPost: ''
-  }
+    mostrarBreadcrumb: false,
+    colorText: ''
+  };
 
   public breadcrumb: CategoriaModel = {
     activo: true,
@@ -44,7 +52,6 @@ export class NgInstalacionComponent implements OnInit {
 
   private inicializarVariables(){
     
-
     this.accordeonContend = [
         {
           elemento: 'ANGULAR JS (El inicio)',
@@ -168,15 +175,21 @@ export class NgInstalacionComponent implements OnInit {
         }
       ]
     
-
-    if(this.postActual){
       this.cabeceraPost = {
-      rutaImagen: this.postActual.rutaImagen,
-      fondo: false,
-      tituloPost: 'INSTALACIÓN DE ANGULAR Y RECOMENDACIONES',
-      alturaImagen: ''
-    };
-    }
+        nombre: '',
+        id_post: '',
+        categoria: '',
+        fechaActualizacion: new Date(2020,7,30),
+        fechaCreacion: new Date(2020,7,30),
+        incluirFondo: false,
+        ruta: '',
+        rutaImagen: '',
+        sombra: '',
+        alturaImagen: '',
+        mostrarBreadcrumb: false,
+        colorText: ''
+      };
+    
     
   }
 
@@ -186,6 +199,11 @@ export class NgInstalacionComponent implements OnInit {
 
   scroll(el: HTMLElement) {
     el.scrollIntoView();
+  }
+
+  private traerPublicacionId(id: string):DatosPost{
+    let publicacion: DatosPost[] = postActual(id);
+    return publicacion[0]
   }
 
 }
