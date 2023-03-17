@@ -24,23 +24,5 @@ export const GIT: DatosPost[] = [
         posicion: 'rot-1',
         estado: 'inactivo'
         
-    },
-    {
-        id: '5039735661',
-        nombre: 'Git instalación y descripción de las opciones de instalación',
-        descripcion: '',
-        descripcionCorta: '',
-        ruta: 'git-instalacion',
-        componente: 'GitInstalacionComponent',
-        categoria: 'git',
-        mostrarEnPostHome: true,
-        estilos: ESTILO_GIT,
-        fechaCreacion: '2022-05-05',
-        fechaActualizacion: '2022-05-05',
-        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/git/instalar-git.jpg',
-        imgVertical:'',
-        imgCuadro:'',
-        posicion: 'rot-2',
-        estado: 'activo'
-    },
+    }
 ]

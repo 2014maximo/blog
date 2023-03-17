@@ -10,6 +10,8 @@ import { HTML } from './posts-html.constant';
 import { JAVASCRIPT } from './posts-javascript.constant';
 import { DB } from './posts-db.constant';
 import { CategoriaPostModel } from '../models/categorias.model';
+import { JAVA } from './posts-java.constant';
+import { LINUX } from './posts-linux.constant';
 
 export const CATEGORIA: CategoriaPostModel[] = [
     {
@@ -185,7 +187,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         color: 'c-Java',
         descripcion: '',
         descripcionCorta: '',
-        post: JAVASCRIPT,
+        post: JAVA,
         subcategorias: []
     },
     {
@@ -249,7 +251,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         color: 'c-Linux',
         descripcion: '',
         descripcionCorta: '',
-        post: JAVASCRIPT,
+        post: LINUX,
         subcategorias: []
     },
     {

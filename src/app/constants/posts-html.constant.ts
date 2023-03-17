@@ -24,23 +24,5 @@ export const HTML: DatosPost[] = [
         imgCuadro:'',
         posicion: 'rot-1',
         estado: 'inactivo'
-    },
-    {
-        id: '7222800091',
-        nombre: 'Descripción detallada de etiquetas HTML',
-        descripcion: 'En algún momento se escucha hablar del lenguaje "HTML", aunque no lo sea, este sistema de estructuras tiene su mundo y unos detalles que no se suelen tener en cuenta mientras escalamos en desarrollo web.',
-        descripcionCorta: '',
-        ruta: 'html-etiquetas',
-        componente: 'HtmlEtiquetasComponent',
-        categoria: 'html',
-        mostrarEnPostHome: true,
-        estilos: ESTILO_HTML,
-        fechaCreacion: '2021-08-09',
-        fechaActualizacion: '2021-08-09',
-        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/html/etiquetas-html.jpg',
-        imgVertical:'',
-        imgCuadro:'',
-        posicion: 'rot-2',
-        estado: 'activo'
-    },
+    }
 ]

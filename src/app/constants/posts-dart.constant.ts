@@ -23,23 +23,5 @@ export const DART: DatosPost[] = [
         imgCuadro:'',
         posicion: 'rot-2',
         estado: 'inactivo'
-    },
-    {
-        id: '3263410188',
-        nombre: 'Dart, descripción de los elementos del lenguaje',
-        descripcion: 'Sabemos sin mucho cuento que elementos básicos trae un lenguaje de programación, sin embargo cada lenguaje parece tener una sintaxis diferente en algunos detalles, teniendo en cuenta esto miremos como opera Dart',
-        descripcionCorta: '',
-        ruta: '',
-        componente: '',
-        categoria: 'dart',
-        mostrarEnPostHome: true,
-        estilos: ESTILO_DART,
-        fechaCreacion: '2021-05-02',
-        fechaActualizacion: '2021-05-02',
-        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/dart/elementos-dart.jpg',
-        imgVertical:'',
-        imgCuadro:'',
-        posicion: 'rot-z',
-        estado: 'activo'
     }
 ]

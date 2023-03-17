@@ -1,22 +1,22 @@
 import { DatosPost, EstilosPost } from '../models/categorias.model';
 
-export const ESTILO_JAVASCRIPT: EstilosPost = {
-    color: 'c-Javascript',
-    colorFondo: 'bg-Javascript'
+export const ESTILO_LINUX: EstilosPost = {
+    color: 'c-Linux',
+    colorFondo: 'bg-Linux'
 }
 
 
-export const JAVASCRIPT: DatosPost[] = [
+export const LINUX: DatosPost[] = [
     {
         id: '3574124706',
-        nombre: 'JAVASCRIPT',
+        nombre: 'LINUX',
         descripcion: '',
         descripcionCorta: '',
-        ruta: 'javascript',
-        componente: 'JavascriptComponent',
-        categoria: 'javascript',
+        ruta: 'linux',
+        componente: 'LinuxComponent',
+        categoria: 'linux',
         mostrarEnPostHome: false,
-        estilos: ESTILO_JAVASCRIPT,
+        estilos: ESTILO_LINUX,
         fechaCreacion: '2020-04-04',
         fechaActualizacion: '2020-04-04',
         imgHorizontal:'',
