@@ -34,7 +34,6 @@ DEPENDENCIA GITHUB PAGES
 npm i angular-cli-ghpages
 
 ---------------------------------------
-version 1.0.0.1
 
 INDICAMOS A GITHUB CUÁL SERÁ LA RUTA RAÍZ DE NUESTRA APLICACIÓN
 ng build --prod --base-href="./"
@@ -55,3 +54,5 @@ SUBIR CAMBIOS A GITHUB(última versión)
 ng build --prod --base-href https://2014maximo.github.io/blog/
 npx angular-cli-ghpages --branch gh-pages
 
+
+versión 1.0.0.2
