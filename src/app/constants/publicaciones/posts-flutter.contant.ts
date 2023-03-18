@@ -1,4 +1,4 @@
-import { DatosPost, EstilosPost } from '../models/categorias.model';
+import { DatosPost, EstilosPost } from '../../models/categorias.model';
 
 export const ESTILO_FLUTTER: EstilosPost = {
     color: 'c-Flutter',

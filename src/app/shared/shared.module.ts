@@ -17,6 +17,7 @@ import { GaleriaPostComponent } from './components/galeria-post/galeria-post.com
 import { HeadlineComponent } from './components/headline/headline.component';
 import { PrintCodeComponent } from './components/print-code/print-code.component';
 import { PaginadorComponent } from './components/paginador/paginador.component';
+import { EncabezadoCategoriaComponent } from './components/encabezado-categoria/encabezado-categoria.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { PaginadorComponent } from './components/paginador/paginador.component';
     HeadlineComponent,
     PrintCodeComponent,
     PaginadorComponent,
+    EncabezadoCategoriaComponent,
   ],
   imports: [
     CommonModule,
@@ -57,6 +59,7 @@ import { PaginadorComponent } from './components/paginador/paginador.component';
     IndiceContenidosComponent,
     BloqueContenidosComponent,
     GaleriaPostComponent,
+    EncabezadoCategoriaComponent,
     PaginadorComponent
   ]
 })

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { copiarAlPortapapeles } from 'src/app/shared/constants/funciones/portapapeles';
 import { CategoriaModel, AccordeonModel, PostModel } from '../../../models/post.model';
-import { postActual } from '../../../constants/funciones-globales';
+import { postActual } from '../../../shared/constants/funciones/funciones-globales';
 import { DatosPost } from '../../../models/categorias.model';
 
 @Component({

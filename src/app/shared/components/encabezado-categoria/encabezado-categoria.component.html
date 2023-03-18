@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-7">
+                <h2 class="tituloPost f-bebas p-2">{{ this.categoria.nombre }}</h2>
+                <p *ngFor="let descripcion of this.categoria.descripcion" class="text-light f-open-sans-c fs-20 lh-30">
+                    {{ descripcion }}
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>

@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { postActual, textoAFecha, datosCategoria } from 'src/app/constants/funciones-globales';
+import { postActual, textoAFecha, datosCategoria } from 'src/app/shared/constants/funciones/funciones-globales';
 import { PostModel } from '../../../models/post.model';
 import { DatosPost } from '../../../models/categorias.model';
 

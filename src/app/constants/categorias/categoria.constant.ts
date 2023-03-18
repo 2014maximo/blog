@@ -1,17 +1,18 @@
-import { ANGULAR } from './posts-angular.constant';
-import { ANDROID } from './posts-android.constant';
-import { CSS } from './posts-css.constant';
-import { DART } from './posts-dart.constant';
-import { DEVELOPER } from './posts-developer.constant';
-import { ELECTRON } from './posts-electron.contant';
-import { FLUTTER } from './posts-flutter.contant';
-import { GIT } from './posts-git.constant';
-import { HTML } from './posts-html.constant';
-import { JAVASCRIPT } from './posts-javascript.constant';
-import { DB } from './posts-db.constant';
-import { CategoriaPostModel } from '../models/categorias.model';
-import { JAVA } from './posts-java.constant';
-import { LINUX } from './posts-linux.constant';
+import { ANGULAR } from '../publicaciones/posts-angular.constant';
+import { ANDROID } from '../publicaciones/posts-android.constant';
+import { CSS } from '../publicaciones/posts-css.constant';
+import { DART } from '../publicaciones/posts-dart.constant';
+import { DEVELOPER } from '../publicaciones/posts-developer.constant';
+import { ELECTRON } from '../publicaciones/posts-electron.contant';
+import { FLUTTER } from '../publicaciones/posts-flutter.contant';
+import { GIT } from '../publicaciones/posts-git.constant';
+import { HTML } from '../publicaciones/posts-html.constant';
+import { JAVASCRIPT } from '../publicaciones/posts-javascript.constant';
+import { DB } from '../publicaciones/posts-db.constant';
+import { CategoriaPostModel } from '../../models/categorias.model';
+import { JAVA } from '../publicaciones/posts-java.constant';
+import { LINUX } from '../publicaciones/posts-linux.constant';
+import { TERMINOS_ANGULAR } from '../glosarios/terminos.angular.constant';
 
 export const CATEGORIA: CategoriaPostModel[] = [
     {
@@ -23,10 +24,10 @@ export const CATEGORIA: CategoriaPostModel[] = [
         alturaIcono: '80',
         estado:'inactivo',
         ruta: 'android',
-        glosario: [],
+        glosario: TERMINOS_ANGULAR,
         colorFondo: 'bg-Android',
         color: 'c-Android',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         post: ANDROID,
         subcategorias: []
@@ -43,7 +44,12 @@ export const CATEGORIA: CategoriaPostModel[] = [
         colorFondo: 'bg-Angular',
         glosario: [],
         color: 'c-Angular',
-        descripcion: '',
+        descripcion: [
+            'AngularJS comenzó a ser desarrollado en 2009 por Miško Hevery originalmente era un servicio de almacenamiento online de archivos JSON donde el cobro dependía del peso en     megabytes de cada archivo. Tiempo después abandonó el proyecto y re lanzó angular como un proyecto open-source.',
+            'Angular comenzó con la primera versión de AngularJS, que estaba escrito en puro JavaScript, y con el que era bastante sencillo crear una aplicación.',
+            'AngularJS ofrecía un concepto muy novedoso, como era el two-way data binding, que era una forma de interactuar entre la vista y el modelo, lo que se conoce como view model.',
+            'Gracias al mismo, indicando en ciertas propiedades de HTML la directiva ng-model se podía interactuar con las propiedades del modelo, y se actualizaban tanto desde la vista como','desde el modelo, es decir, era totalmente bidireccional.',
+            'Esto revolucionó todo lo que hasta ese momento había en el frontend.'],
         descripcionCorta: '',
         post: ANGULAR,
         subcategorias: []
@@ -60,7 +66,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         ruta: 'css',
         colorFondo: 'bg-Css',
         color: 'c-Css',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         post: CSS,
         subcategorias: []
@@ -77,7 +83,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         ruta: 'dart',
         colorFondo: 'bg-Dart',
         color: 'c-Dart',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         post: DART,
         subcategorias: []
@@ -94,7 +100,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         ruta: 'db',
         colorFondo: 'bg-Sql',
         color: 'c-Sql',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         post: DB,
         subcategorias: []
@@ -111,7 +117,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         glosario: [],
         colorFondo: 'bg-Developer',
         color: 'c-Developer',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         post: DEVELOPER,
         subcategorias: []
@@ -128,7 +134,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         glosario: [],
         colorFondo: 'bg-Electron',
         color: 'c-Electron',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         post: ELECTRON,
         subcategorias: []
@@ -145,7 +151,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         ruta: 'flutter',
         colorFondo: 'bg-Flutter',
         color: 'c-Flutter',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         post: FLUTTER,
         subcategorias: []
@@ -162,7 +168,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         ruta: 'git',
         colorFondo: 'bg-Git',
         color: 'c-Git',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         post: GIT,
         subcategorias: []
@@ -179,7 +185,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         glosario: [],
         colorFondo: 'bg-Html',
         color: 'c-Html',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         post: HTML,
         subcategorias: []
@@ -196,7 +202,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         ruta: 'java',
         colorFondo: 'bg-Java',
         color: 'c-Java',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         post: JAVA,
         subcategorias: []
@@ -213,7 +219,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         glosario: [],
         colorFondo: 'bg-Javascript',
         color: 'c-Javascript',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         post: JAVASCRIPT,
         subcategorias: []
@@ -230,7 +236,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         glosario: [],
         colorFondo: 'bg-Kotlin',
         color: 'c-Kotlin',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         post: JAVASCRIPT,
         subcategorias: []
@@ -247,7 +253,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         ruta: 'kubernetes',
         colorFondo: 'bg-Kubernetes',
         color: 'c-Kubernetes',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         post: JAVASCRIPT,
         subcategorias: []
@@ -264,7 +270,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         ruta: 'linux',
         colorFondo: 'bg-Linux',
         color: 'c-Linux',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         post: LINUX,
         subcategorias: []
@@ -281,7 +287,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         ruta: 'net',
         colorFondo: 'bg-NetFramework',
         color: 'c-NetFramework',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         post: JAVASCRIPT,
         subcategorias: []
@@ -298,7 +304,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         ruta: 'php',
         colorFondo: 'bg-Php',
         color: 'c-Php',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         post: JAVASCRIPT,
         subcategorias: []
@@ -315,7 +321,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         ruta: 'react',
         colorFondo: 'bg-React',
         color: ' c-React',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         post: JAVASCRIPT,
         subcategorias: []
@@ -332,7 +338,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         ruta: 'wordpress',
         colorFondo: 'bg-Wordpress',
         color: 'c-Wordpress',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         post: JAVASCRIPT,
         subcategorias: []

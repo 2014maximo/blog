@@ -81,7 +81,7 @@ export interface DatosPost{
 export interface GlosarioModel {
     id: string,
     titulo: string,
-    descripcion: string
+    descripcion: string[]
 }
 
 export interface ImgSlider {
@@ -117,7 +117,7 @@ export interface CategoriaPostModel {
     colorFondo: string,
     color: string,
     glosario: GlosarioModel[],
-    descripcion: string,
+    descripcion: string[],
     descripcionCorta: string,
     post: DatosPost[],
     subcategorias: SubCategoriaModel[]

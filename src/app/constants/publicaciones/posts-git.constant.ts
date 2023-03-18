@@ -1,4 +1,4 @@
-import { DatosPost, EstilosPost } from '../models/categorias.model';
+import { DatosPost, EstilosPost } from '../../models/categorias.model';
 
 export const ESTILO_GIT: EstilosPost = {
     color: 'c-Git',

@@ -3,8 +3,8 @@ import { MENU_1, MENU_2, MENU_3, MENU_4, MENU_5 } from '../../../constants/menu-
 import { CATEGORIAS } from '../../../constants/categorias.constant';
 import { CategoriasModel, CategoriaPostModel, DatosPost } from '../../../models/categorias.model';
 import { IndiceDeContenidosModel } from '../../../models/indice.model';
-import { CATEGORIA } from '../../../constants/categoria.constant';
-import { datosCategoria, reduccionTexto } from 'src/app/constants/funciones-globales';
+import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
+import { datosCategoria, reduccionTexto } from 'src/app/shared/constants/funciones/funciones-globales';
 
 @Component({
   selector: 'app-menu-home',

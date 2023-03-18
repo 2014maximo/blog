@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { CATEGORIA } from '../../../constants/categoria.constant';
+import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
 import { DatosPost } from '../../../models/categorias.model';
-import { datosCategoria } from '../../../constants/funciones-globales';
+import { datosCategoria } from '../../constants/funciones/funciones-globales';
 
 @Component({
   selector: 'app-galeria-post',
@@ -14,7 +14,7 @@ export class GaleriaPostComponent implements OnInit {
   public grupoGaleria: any[] = [];
   public postPorPantalla: string[] = ['9','18'];
   public todosLosPost: DatosPost[] = [];
-  public postPaginar: any[] = [];
+  public postPaginar: DatosPost[] = [];
   public ultimosPost: any[] = [];
 
   constructor() { }

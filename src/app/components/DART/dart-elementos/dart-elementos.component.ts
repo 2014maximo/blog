@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CategoriaModel, PostModel } from '../../../models/post.model';
-import { traerPost } from '../../../constants/funciones-globales';
+import { traerPost } from '../../../shared/constants/funciones/funciones-globales';
 import { POSTS } from '../../../constants/post.constant';
 import { rutaCatego } from '../../../constants/globales.constant';
 

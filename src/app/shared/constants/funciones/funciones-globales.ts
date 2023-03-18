@@ -1,7 +1,7 @@
 import { Route } from '@angular/router';
-import { PostModel } from '../models/post.model';
-import { CATEGORIA } from './categoria.constant';
-import { CategoriaPostModel, DatosCategoria, DatosPost } from '../models/categorias.model';
+import { PostModel } from '../../../models/post.model';
+import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
+import { CategoriaPostModel, DatosPost } from '../../../models/categorias.model';
 
 export function copiarAlPortapapeles(cadenaAlclipboard: string) {
     const selBox = document.createElement('textarea');
@@ -159,4 +159,3 @@ export function reduccionTexto(cantPalabras: number, maxPalabra: number, textoCo
 
   return reducido;
 }
-

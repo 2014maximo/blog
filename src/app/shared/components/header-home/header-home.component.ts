@@ -1,10 +1,10 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { CategoriaModel } from '../../../models/post.model';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { CATEGORIA } from '../../../constants/categoria.constant';
+import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
 import { DatosPost } from '../../../models/categorias.model';
 import { Router } from '@angular/router';
-import { busquedaGeneral } from '../../../constants/funciones-globales';
+import { busquedaGeneral } from '../../constants/funciones/funciones-globales';
 
 @Component({
   selector: 'app-header-home',

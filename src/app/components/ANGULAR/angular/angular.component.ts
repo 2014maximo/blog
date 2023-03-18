@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel } from '../../../models/post.model';
 import { IndiceDeContenidosModel } from '../../../models/indice.model';
-import { ANGULAR } from '../../../constants/posts-angular.constant';
+import { ANGULAR } from '../../../constants/publicaciones/posts-angular.constant';
 import { DatosPost } from '../../../models/categorias.model';
 
 @Component({

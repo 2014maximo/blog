@@ -1,4 +1,4 @@
-import { SubCategoriaModel, EstilosPost } from '../models/categorias.model';
+import { SubCategoriaModel, EstilosPost } from '../../models/categorias.model';
 
 export const ESTILO_IONIC: EstilosPost = {
     color: 'c-Ionic',
