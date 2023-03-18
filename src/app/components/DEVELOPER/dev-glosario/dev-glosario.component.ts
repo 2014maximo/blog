@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel, CategoriaModel } from '../../../models/post.model';
 import { repositorioContenidoImagenes } from '../../../constants/globales.constant';
-import { copiarAlPortapapeles } from 'src/app/shared/funciones/portapapeles';
+import { copiarAlPortapapeles } from 'src/app/shared/constants/funciones/portapapeles';
 
 @Component({
   selector: 'app-dev-glosario',

@@ -78,6 +78,12 @@ export interface DatosPost{
     estado: string
 }
 
+export interface GlosarioModel {
+    id: string,
+    titulo: string,
+    descripcion: string
+}
+
 export interface ImgSlider {
     alt: string,
     height: string,
@@ -110,6 +116,7 @@ export interface CategoriaPostModel {
     ruta: string,
     colorFondo: string,
     color: string,
+    glosario: GlosarioModel[],
     descripcion: string,
     descripcionCorta: string,
     post: DatosPost[],

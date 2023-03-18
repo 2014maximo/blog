@@ -50,7 +50,7 @@ import { JavaGlassfishComponent } from './components/JAVA/java-glassfish/java-gl
 import { JsTypescriptElementosComponent } from './components/JAVASCRIPT/js-typescript-elementos/js-typescript-elementos.component';
 import { PhpElementosComponent } from './components/PHP/php-elementos/php-elementos.component';
 import { NgComunicacionEntreComponentesComponent } from './components/ANGULAR/ng-comunicacion-entre-componentes/ng-comunicacion-entre-componentes.component';
-import { LoginComponent } from './shared/login/login.component';
+import { LoginComponent } from './shared/components/login/login.component';
 import { GestionFormularioComponent } from './components/ESTADISTICA/gestion-formulario/gestion-formulario.component';
 import { DartElementosComponent } from './components/DART/dart-elementos/dart-elementos.component';
 import { FlutterElementosComponent } from './components/FLUTTER/flutter-elementos/flutter-elementos.component';

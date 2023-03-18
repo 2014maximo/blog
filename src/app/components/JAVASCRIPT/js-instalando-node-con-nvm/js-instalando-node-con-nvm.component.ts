@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { copiarAlPortapapeles } from 'src/app/shared/funciones/portapapeles';
+import { copiarAlPortapapeles } from 'src/app/shared/constants/funciones/portapapeles';
 import { AccordeonModel, HeaderPostModel, CategoriaModel } from '../../../models/post.model';
 
 @Component({

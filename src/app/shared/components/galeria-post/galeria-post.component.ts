@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { CATEGORIA } from '../../constants/categoria.constant';
-import { DatosPost } from '../../models/categorias.model';
-import { datosCategoria } from '../../constants/funciones-globales';
+import { CATEGORIA } from '../../../constants/categoria.constant';
+import { DatosPost } from '../../../models/categorias.model';
+import { datosCategoria } from '../../../constants/funciones-globales';
 
 @Component({
   selector: 'app-galeria-post',

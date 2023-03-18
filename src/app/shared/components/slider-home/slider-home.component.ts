@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import { of } from 'rxjs';
-import { RUTAS_SLIDES } from '../../constants/sliders.constant';
-import { SliderModel } from '../../models/post.model';
-import { CATEGORIA } from '../../constants/categoria.constant';
-import { DatosPost, ImgSlider, CategoriaPostModel } from '../../models/categorias.model';
+import { RUTAS_SLIDES } from '../../../constants/sliders.constant';
+import { SliderModel } from '../../../models/post.model';
+import { CATEGORIA } from '../../../constants/categoria.constant';
+import { DatosPost, ImgSlider, CategoriaPostModel } from '../../../models/categorias.model';
 import { Router } from '@angular/router';
 import { map } from 'rxjs/operators';
 

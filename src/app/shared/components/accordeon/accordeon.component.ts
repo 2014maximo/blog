@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { fromEvent } from 'rxjs';
-import { AccordeonPostModel, ObjectAccordeonPostModel, AccordeonModel } from '../../models/post.model';
+import { AccordeonPostModel, ObjectAccordeonPostModel, AccordeonModel } from '../../../models/post.model';
 
 @Component({
   selector: 'app-accordeon',

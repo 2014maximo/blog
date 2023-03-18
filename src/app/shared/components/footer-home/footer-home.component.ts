@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { ContactFormService } from '../../services/contact-form.service';
+import { ContactFormService } from '../../../services/contact-form.service';
 import Swal from 'sweetalert2';
 
 @Component({

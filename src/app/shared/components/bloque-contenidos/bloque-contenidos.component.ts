@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { BloqueContenidoModel } from '../../models/bloque-contenidos.model';
+import { BloqueContenidoModel } from '../../../models/bloque-contenidos.model';
 
 @Component({
   selector: 'app-bloque-contenidos',
