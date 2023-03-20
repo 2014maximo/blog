@@ -24,7 +24,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         alturaIcono: '80',
         estado:'inactivo',
         ruta: 'android',
-        glosario: TERMINOS_ANGULAR,
+        glosario: [],
         colorFondo: 'bg-Android',
         color: 'c-Android',
         descripcion: [],
@@ -42,14 +42,20 @@ export const CATEGORIA: CategoriaPostModel[] = [
         estado:'activo',
         ruta: 'angular',
         colorFondo: 'bg-Angular',
-        glosario: [],
+        glosario: TERMINOS_ANGULAR,
         color: 'c-Angular',
         descripcion: [
-            'AngularJS comenzó a ser desarrollado en 2009 por Miško Hevery originalmente era un servicio de almacenamiento online de archivos JSON donde el cobro dependía del peso en     megabytes de cada archivo. Tiempo después abandonó el proyecto y re lanzó angular como un proyecto open-source.',
-            'Angular comenzó con la primera versión de AngularJS, que estaba escrito en puro JavaScript, y con el que era bastante sencillo crear una aplicación.',
-            'AngularJS ofrecía un concepto muy novedoso, como era el two-way data binding, que era una forma de interactuar entre la vista y el modelo, lo que se conoce como view model.',
-            'Gracias al mismo, indicando en ciertas propiedades de HTML la directiva ng-model se podía interactuar con las propiedades del modelo, y se actualizaban tanto desde la vista como','desde el modelo, es decir, era totalmente bidireccional.',
-            'Esto revolucionó todo lo que hasta ese momento había en el frontend.'],
+            {
+                autor: 'Alex M.',
+                descripciones: [
+                    'AngularJS comenzó a ser desarrollado en 2009 por Miško Hevery originalmente era un servicio de almacenamiento online de archivos JSON donde el cobro dependía del peso en     megabytes de cada archivo. Tiempo después abandonó el proyecto y re lanzó angular como un proyecto open-source.',
+                    'Angular comenzó con la primera versión de AngularJS, que estaba escrito en puro JavaScript, y con el que era bastante sencillo crear una aplicación.',
+                    'AngularJS ofrecía un concepto muy novedoso, como era el two-way data binding, que era una forma de interactuar entre la vista y el modelo, lo que se conoce como view model.',
+                    'Gracias al mismo, indicando en ciertas propiedades de HTML la directiva ng-model se podía interactuar con las propiedades del modelo, y se actualizaban tanto desde la vista como','desde el modelo, es decir, era totalmente bidireccional.',
+                    'Esto revolucionó todo lo que hasta ese momento había en el frontend.'
+                ]
+            }
+        ],
         descripcionCorta: '',
         post: ANGULAR,
         subcategorias: []

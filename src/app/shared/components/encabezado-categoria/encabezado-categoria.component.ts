@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { CategoriaPostModel } from '../../../models/categorias.model';
+import { CategoriaPostModel, DatosPost, GlosarioModel } from '../../../models/categorias.model';
 import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
-import { pipe, of } from 'rxjs';
+import { IndiceDeContenidosModel } from '../../../models/indice.model';
 
 @Component({
   selector: 'app-encabezado-categoria',
@@ -12,23 +12,10 @@ export class EncabezadoCategoriaComponent implements OnInit {
 
   @Input() nombreCategoria : string = '';
 
-  public categoria: CategoriaPostModel = {
-    abertura: '',
-    alturaIcono: '',
-    color: '',
-    colorFondo: '',
-    descripcion: [],
-    descripcionCorta: '',
-    estado: '',
-    glosario: [],
-    id: 0,
-    nombre: '',
-    posicion: '',
-    post: [],
-    ruta: '',
-    rutaIcono: '',
-    subcategorias: []
-  }
+  public indice: IndiceDeContenidosModel [] = [];
+  public glosario: GlosarioModel[] = [];
+
+  public categoria = new CategoriaPostModel();
 
 
   constructor() {
@@ -36,6 +23,22 @@ export class EncabezadoCategoriaComponent implements OnInit {
   
   ngOnInit(): void {
     this.categoria = CATEGORIA.filter((cat: CategoriaPostModel) => cat.nombre === this.nombreCategoria)[0];
+    let post: DatosPost[] = this.categoria.post;
+    post.forEach( (post:DatosPost, i:number ) => {
+      let seleccionado: IndiceDeContenidosModel = {
+        color: '',
+        colorFondo: post.estilos.colorFondo,
+        estado: post.estado,
+        nombre: post.nombre,
+        posicion: post.posicion,
+        ruta: post.ruta,
+        rutaInterna: ''
+      }
+      this.indice.push(seleccionado)
+    });
+
+    this.categoria? this.glosario = this.categoria.glosario : [];
+
   }
 
 }

@@ -18,6 +18,7 @@ import { HeadlineComponent } from './components/headline/headline.component';
 import { PrintCodeComponent } from './components/print-code/print-code.component';
 import { PaginadorComponent } from './components/paginador/paginador.component';
 import { EncabezadoCategoriaComponent } from './components/encabezado-categoria/encabezado-categoria.component';
+import { GlosarioComponent } from './components/glosario/glosario.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { EncabezadoCategoriaComponent } from './components/encabezado-categoria/
     PrintCodeComponent,
     PaginadorComponent,
     EncabezadoCategoriaComponent,
+    GlosarioComponent,
   ],
   imports: [
     CommonModule,
@@ -60,7 +62,8 @@ import { EncabezadoCategoriaComponent } from './components/encabezado-categoria/
     BloqueContenidosComponent,
     GaleriaPostComponent,
     EncabezadoCategoriaComponent,
-    PaginadorComponent
+    PaginadorComponent,
+    GlosarioComponent
   ]
 })
 export class SharedModule { }

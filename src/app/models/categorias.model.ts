@@ -78,10 +78,18 @@ export interface DatosPost{
     estado: string
 }
 
-export interface GlosarioModel {
-    id: string,
-    titulo: string,
-    descripcion: string[]
+export class GlosarioModel {
+    id: string;
+    titulo: string;
+    linkReferencia: string;
+    descripcion: string[];
+
+    constructor(){
+        this.id = '';
+        this.titulo = '';
+        this.linkReferencia = '';
+        this.descripcion = []
+    }
 }
 
 export interface ImgSlider {
@@ -105,22 +113,45 @@ export interface ImgHorizontal {
     pathPixabay: string
 }
 
-export interface CategoriaPostModel {
-    id:number,
-    nombre: string,
-    posicion: string,
-    abertura: string,
-    rutaIcono: string,
-    alturaIcono: string,
-    estado: string,
-    ruta: string,
-    colorFondo: string,
-    color: string,
-    glosario: GlosarioModel[],
-    descripcion: string[],
-    descripcionCorta: string,
-    post: DatosPost[],
-    subcategorias: SubCategoriaModel[]
+export class CategoriaPostModel {
+    id:number;
+    nombre: string;
+    posicion: string;
+    abertura: string;
+    rutaIcono: string;
+    alturaIcono: string;
+    estado: string;
+    ruta: string;
+    colorFondo: string;
+    color: string;
+    glosario: GlosarioModel[];
+    descripcion: DescripcionModel[];
+    descripcionCorta: string;
+    post: DatosPost[];
+    subcategorias: SubCategoriaModel[];
+
+    constructor() {
+        this.abertura = '';
+        this.alturaIcono = '';
+        this.color = '';
+        this.colorFondo = '';
+        this.descripcion = [];
+        this.descripcionCorta = '';
+        this.estado = '';
+        this.glosario = [];
+        this.id = 0,
+        this.nombre = '';
+        this.posicion = '';
+        this.post = [];
+        this.rutaIcono = '';
+        this.ruta = '';
+        this.subcategorias = []
+    }
+}
+
+export interface DescripcionModel {
+    autor: string,
+    descripciones: string[]
 }
 
 export interface SubCategoriaModel {

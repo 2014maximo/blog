@@ -49,5 +49,83 @@ export const ANGULAR: DatosPost[] = [
             width: 'auto',
             post: 'ng-instalacion'
         }
-    }
+    },
+    {
+        id: '8618eb718b-655b-49a8-9e6e-f3732922b2df',
+        nombre: 'Instalación Angular y recomendados',
+        descripcion: 'Instalar Angular y empezar a desarrollar con este framework, no es un tema extenso y detallado para entrar en un análisis profundo, sin embargo esta vez la idea es poder especificar los cambios que se han recibido en cada versión como también algunas herramientas con las que se ha contado y no solemos saber que estan ahí. Empecemos por ver lo que Angular ha evolucionado con el paso del Tiempo en sus versiones',
+        descripcionCorta: 'Instalación de Angular, recomendaciones y herramientas',
+        ruta: 'ng-instalacion',
+        componente: '',
+        mostrarEnPostHome: true,
+        estilos: ESTILO_ANGULAR,
+        fechaCreacion: '2021-10-02',
+        fechaActualizacion: '2023-01-24',
+        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
+        imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        categoria: 'angular',
+        posicion: 'rot-2',
+        estado: 'activo',
+        imgSlider: {
+            alt: 'Instalación Angular y recomendados',
+            height: '600',
+            id: '2',
+            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
+            width: 'auto',
+            post: 'ng-instalacion'
+        }
+    },
+    {
+        id: '8618eb718b-655b-49a8-9e6e-f3732922b2df',
+        nombre: 'Instalación Angular y recomendados',
+        descripcion: 'Instalar Angular y empezar a desarrollar con este framework, no es un tema extenso y detallado para entrar en un análisis profundo, sin embargo esta vez la idea es poder especificar los cambios que se han recibido en cada versión como también algunas herramientas con las que se ha contado y no solemos saber que estan ahí. Empecemos por ver lo que Angular ha evolucionado con el paso del Tiempo en sus versiones',
+        descripcionCorta: 'Instalación de Angular, recomendaciones y herramientas',
+        ruta: 'ng-instalacion',
+        componente: '',
+        mostrarEnPostHome: true,
+        estilos: ESTILO_ANGULAR,
+        fechaCreacion: '2021-10-02',
+        fechaActualizacion: '2023-01-24',
+        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
+        imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        categoria: 'angular',
+        posicion: 'rot-2',
+        estado: 'activo',
+        imgSlider: {
+            alt: 'Instalación Angular y recomendados',
+            height: '600',
+            id: '2',
+            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
+            width: 'auto',
+            post: 'ng-instalacion'
+        }
+    },
+    {
+        id: '8618eb718b-655b-49a8-9e6e-f3732922b2df',
+        nombre: 'Instalación Angular y recomendados',
+        descripcion: 'Instalar Angular y empezar a desarrollar con este framework, no es un tema extenso y detallado para entrar en un análisis profundo, sin embargo esta vez la idea es poder especificar los cambios que se han recibido en cada versión como también algunas herramientas con las que se ha contado y no solemos saber que estan ahí. Empecemos por ver lo que Angular ha evolucionado con el paso del Tiempo en sus versiones',
+        descripcionCorta: 'Instalación de Angular, recomendaciones y herramientas',
+        ruta: 'ng-instalacion',
+        componente: '',
+        mostrarEnPostHome: true,
+        estilos: ESTILO_ANGULAR,
+        fechaCreacion: '2021-10-02',
+        fechaActualizacion: '2023-01-24',
+        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
+        imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        categoria: 'angular',
+        posicion: 'rot-2',
+        estado: 'activo',
+        imgSlider: {
+            alt: 'Instalación Angular y recomendados',
+            height: '600',
+            id: '2',
+            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
+            width: 'auto',
+            post: 'ng-instalacion'
+        }
+    },
 ]
