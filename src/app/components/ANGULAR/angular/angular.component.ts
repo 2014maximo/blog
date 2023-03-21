@@ -11,18 +11,13 @@ import { DatosPost } from '../../../models/categorias.model';
 })
 export class AngularComponent implements OnInit {
 
-  public cabeceraPost: HeaderPostModel = {
-    rutaImagen: '',
-    alturaImagen: '',
-    fondo: false,
-    tituloPost: '',
-    sombra: ''
-  }
+  public cabeceraPost = new HeaderPostModel();
 
   public indiceAngular: IndiceDeContenidosModel [] = [];
   public indiceIonic: IndiceDeContenidosModel [] = [];
   public indicePrime: IndiceDeContenidosModel [] = [];
   public claseAngular = '';
+  public idPost: string = 'eb4011f5-81df-4261-b5c5-8f58d2ba88b5'
 
   constructor() {
     this.inicializarVariables();

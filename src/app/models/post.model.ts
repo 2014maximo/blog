@@ -32,11 +32,19 @@ export class PostModel {
 
 export class HeaderPostModel {
     
-    rutaImagen: string = '';
-    fondo: boolean = false;
-    tituloPost: string = '';
-    alturaImagen: string = '';
-    sombra?: string = '';
+    rutaImagen: string;
+    fondo: boolean;
+    tituloPost: string;
+    alturaImagen: string;
+    sombra?: string;
+
+    constructor(){
+        this.rutaImagen = '';
+        this.fondo = false;
+        this.tituloPost = '';
+        this.alturaImagen = '';
+        this.sombra = '';
+    }
 
 }
 export class ObjectAccordeonPostModel {

@@ -2,6 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { CategoriaPostModel, DatosPost, GlosarioModel } from '../../../models/categorias.model';
 import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
 import { IndiceDeContenidosModel } from '../../../models/indice.model';
+import { postActual } from '../../constants/funciones/funciones-globales';
 
 @Component({
   selector: 'app-encabezado-categoria',
@@ -11,17 +12,24 @@ import { IndiceDeContenidosModel } from '../../../models/indice.model';
 export class EncabezadoCategoriaComponent implements OnInit {
 
   @Input() nombreCategoria : string = '';
+  @Input() idPost : string = '';
+
+  
 
   public indice: IndiceDeContenidosModel [] = [];
   public glosario: GlosarioModel[] = [];
 
   public categoria = new CategoriaPostModel();
-
+  public publicacion = new DatosPost();
 
   constructor() {
   }
   
   ngOnInit(): void {
+    this.inicializarVariables();
+  }
+
+  private inicializarVariables(){
     this.categoria = CATEGORIA.filter((cat: CategoriaPostModel) => cat.nombre === this.nombreCategoria)[0];
     let post: DatosPost[] = this.categoria.post;
     post.forEach( (post:DatosPost, i:number ) => {
@@ -39,6 +47,7 @@ export class EncabezadoCategoriaComponent implements OnInit {
 
     this.categoria? this.glosario = this.categoria.glosario : [];
 
+    this.publicacion = postActual(this.idPost)[0]
   }
 
 }

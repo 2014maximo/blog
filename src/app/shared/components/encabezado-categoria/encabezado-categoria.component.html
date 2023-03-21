@@ -15,6 +15,9 @@
             </div>
             <div class="col-md-7">
                 <h2 class="f-bebas fs-50 {{ this.categoria.color }} fw-6">Story</h2>
+                <p class="text-light f-open-sans-c fs-20 lh-30">
+                    {{ this.publicacion.descripcion }}
+                </p>
                 <div *ngFor="let descripciones of this.categoria.descripcion">
                     <p *ngFor="let descripcion of descripciones.descripciones " class="text-light f-open-sans-c fs-20 lh-30">
                         {{ descripcion }}

@@ -19,6 +19,7 @@ import { PrintCodeComponent } from './components/print-code/print-code.component
 import { PaginadorComponent } from './components/paginador/paginador.component';
 import { EncabezadoCategoriaComponent } from './components/encabezado-categoria/encabezado-categoria.component';
 import { GlosarioComponent } from './components/glosario/glosario.component';
+import { EncabezadoPublicacionComponent } from './components/encabezado-publicacion/encabezado-publicacion.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { GlosarioComponent } from './components/glosario/glosario.component';
     PaginadorComponent,
     EncabezadoCategoriaComponent,
     GlosarioComponent,
+    EncabezadoPublicacionComponent,
   ],
   imports: [
     CommonModule,
@@ -63,6 +65,7 @@ import { GlosarioComponent } from './components/glosario/glosario.component';
     GaleriaPostComponent,
     EncabezadoCategoriaComponent,
     PaginadorComponent,
+    EncabezadoPublicacionComponent,
     GlosarioComponent
   ]
 })

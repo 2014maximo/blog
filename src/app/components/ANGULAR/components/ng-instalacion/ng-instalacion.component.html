@@ -1,7 +1,31 @@
 <div #target></div>
 <app-header-home [categoria]="breadcrumb"></app-header-home>
 <div class="espaciado"></div>
-<app-headline [idPublicacion]="idPublicacion"></app-headline>
+<app-encabezado-publicacion [idPublicacion]="idPublicacion"></app-encabezado-publicacion>
+<div class="espaciado"></div>
+
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <h1 class="f-bebas fs-50 fw-6">Instalación</h1>
+        <div class="row">
+            <div class="col-md-7">
+                <h2 class="f-bebas fs-160 text-light m-0 p-0">1</h2>
+                <h4 class="f-bebas fs-30 text-light">ANGULAR CLI</h4>
+                <p class="text-light f-open-sans-c fs-18 lh-20">
+                    Instalar el angular cli que es una herramienta de gestión del framework de angular, se instala por consola y es recomendado estar como administrador. Copiar el siguiente comando:
+                </p>
+                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18">npm install -g @angular/cli <i class="fa fa-clone cursor-p ml-2" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g @angular/cli')"></i></h3>
+                <div class="d-flex">
+                    <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18">npm install -g @angular/cli@8 <i class="fa fa-clone cursor-p ml-2" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g @angular/cli@8')"></i></h3>
+                    <p class="ml-4 f-open-sans-c fw-3 fs-18 text-secondary">Si necesitamos una versión específica</p>
+                </div>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
 
 
 <div class="row">

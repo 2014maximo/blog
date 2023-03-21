@@ -21,7 +21,7 @@ export function traerPost(id: string, posts: PostModel[]){
   return posts.find( post => post.id_post === id);
 }
 
-export function postActual(idPost: string){
+export function postActual(idPost: string): DatosPost[]{
   let post:DatosPost[]=[];
   CATEGORIA.forEach((e:CategoriaPostModel, i:number)=>{
     e.post.forEach((element:DatosPost) => {

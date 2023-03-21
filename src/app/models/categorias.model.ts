@@ -57,25 +57,60 @@ export interface DatosCategoria {
     rutaIcono:  string
 }
 
-export interface DatosPost{
-    id: string,
-    posicion: string,
-    nombre: string,
-    descripcion: string,
-    descripcionCorta: string,
-    ruta: string,
-    componente: string,
-    mostrarEnPostHome: boolean,
-    estilos: EstilosPost,
-    fechaCreacion: string,
-    fechaActualizacion: string,
-    imgHorizontal: string,
-    pixabay?: ImgHorizontal,
-    imgVertical: string,
-    imgCuadro:string,
-    categoria: string,
-    imgSlider?: ImgSlider,
-    estado: string
+export class DatosPost{
+    id: string;
+    posicion: string;
+    nombre: string;
+    descripcion: string;
+    descripcionCorta: string;
+    ruta: string;
+    componente: string;
+    mostrarEnPostHome: boolean;
+    estilos: EstilosPost;
+    fechaCreacion: string;
+    fechaActualizacion: string;
+    imgHorizontal: string;
+    pixabay?: ImgHorizontal;
+    imgVertical: string;
+    imgCuadro:string;
+    categoria: string;
+    imgSlider?: ImgSlider;
+    estado: string;
+
+    constructor(){
+        this.id = '';
+        this.posicion = '';
+        this.nombre = '';
+        this.descripcion = '';
+        this.descripcionCorta = '';
+        this.ruta = '';
+        this.componente = '';
+        this.mostrarEnPostHome = false;
+        this.estilos = {
+            color: '',
+            colorFondo: ''
+        };
+        this.fechaCreacion = '';
+        this.fechaActualizacion = '';
+        this.imgHorizontal = '';
+        this.pixabay = {
+            autor: '',
+            pathAutor: '',
+            pathPixabay: '',
+            pixabay: ''
+        },
+        this.imgVertical = '';
+        this.imgCuadro = '';
+        this.categoria = '';
+        this.imgSlider = {
+            alt: '',
+            height: '',
+            id: '',
+            ruta: '',
+            width: ''
+        },
+        this.estado = '';
+    }
 }
 
 export class GlosarioModel {

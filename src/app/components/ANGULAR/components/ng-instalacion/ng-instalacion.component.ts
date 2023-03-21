@@ -13,8 +13,8 @@ import { DatosPost } from '../../../../models/categorias.model';
 export class NgInstalacionComponent implements OnInit {
 
   public idPublicacion = '8618eb718b-655b-49a8-9e6e-f3732922b2df';
-
   public cabeceraPost = new PostModel();
+  public publicacion = new DatosPost();
 
   public breadcrumb: CategoriaModel = {
     activo: true,
@@ -38,6 +38,8 @@ export class NgInstalacionComponent implements OnInit {
   }
 
   private inicializarVariables(){
+
+    this.publicacion = postActual(this.idPublicacion)[0];
     
     this.accordeonContend = [
         {
