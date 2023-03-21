@@ -123,7 +123,14 @@ export const CATEGORIA: CategoriaPostModel[] = [
         glosario: [],
         colorFondo: 'bg-Developer',
         color: 'c-Developer',
-        descripcion: [],
+        descripcion: [
+            {
+                autor: 'Alex M.',
+                descripciones: [
+                    'En la década entre 1950 y 1960 aparecen los términos de ingeniería del software.'
+                ]
+            }
+        ],
         descripcionCorta: '',
         post: DEVELOPER,
         subcategorias: []

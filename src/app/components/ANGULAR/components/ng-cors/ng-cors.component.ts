@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel, CategoriaModel } from '../../../models/post.model';
+import { HeaderPostModel, CategoriaModel } from '../../../../models/post.model';
 
 @Component({
   selector: 'app-ng-cors',

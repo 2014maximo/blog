@@ -7,7 +7,7 @@ export const ESTILO_DEVELOPER: EstilosPost = {
 
 export const DEVELOPER: DatosPost[] = [
     {
-        id: '3583661544',
+        id: '441cab09-256e-446f-bb2c-f017dd6d217b',
         nombre: 'Developer',
         descripcion: '',
         descripcionCorta: '',
@@ -25,7 +25,7 @@ export const DEVELOPER: DatosPost[] = [
         estado: 'inactivo'
     },
     {
-        id: '7084156673',
+        id: '6f3b8325-3262-421f-ac5a-7ed4946487a6',
         nombre: 'Una gran agrupación de sitios web con muchos recursos',
         descripcion: 'No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente.',
         descripcionCorta: '',
@@ -41,5 +41,23 @@ export const DEVELOPER: DatosPost[] = [
         categoria: 'developer',
         posicion: 'rot-z',
         estado: 'activo'
-    }
+    },
+    {
+        id: 'a6035e44-38f3-485e-903d-c76452cec9b3',
+        nombre: 'Principios Solid',
+        descripcion: 'El camino ninja del desarrollado, siendo el objetivo hacer cositas bien hechas.',
+        descripcionCorta: '',
+        ruta: 'dev-principios-solid',
+        componente: 'PrincipiosSolidComponent',
+        mostrarEnPostHome: false,
+        estilos: ESTILO_DEVELOPER,
+        fechaCreacion: '2023-03-20',
+        fechaActualizacion: '',
+        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/developer/Una gran agrupación de sitios web con muchos recursos.jpg',
+        imgVertical:'',
+        imgCuadro:'',
+        categoria: 'developer',
+        posicion: 'rot-1',
+        estado: 'inactivo'
+    },
 ]

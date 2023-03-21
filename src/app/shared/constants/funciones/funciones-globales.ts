@@ -34,7 +34,7 @@ export function postActual(idPost: string){
 
 export function textoAFecha(fecha: string): Date{
   let dato = fecha.split('-');
-  return new Date(Number(dato[0]), Number(dato[1]), Number(dato[2]))
+  return new Date(`${dato[0]}/${dato[1]}/${dato[2]}`)
 }
 
 export function extraerListaRutas(categoria:[]):Route[]{

@@ -13,21 +13,7 @@ export class HeadlineComponent implements OnInit {
   @Input() idPublicacion: string = '';
   @Input() cabecera: any;
 
-
-  public encabezado: PostModel = {
-    nombre: '',
-    id_post: '',
-    categoria: '',
-    fechaActualizacion: new Date(2020,7,30),
-    fechaCreacion: new Date(2020,7,30),
-    incluirFondo: false,
-    ruta: '',
-    rutaImagen: '',
-    sombra: '',
-    alturaImagen: '',
-    mostrarBreadcrumb: false,
-    colorText: ''
-  }; 
+  public encabezado = new PostModel(); 
 
   constructor() { }
 
@@ -58,6 +44,10 @@ export class HeadlineComponent implements OnInit {
 
   public extraerDatoCategoria(categoria: string, referencia: number):any{
     return datosCategoria(categoria, referencia)
+  }
+
+  public fechaAString(fecha: Date): string{
+    return new Date(fecha).toISOString().slice(0,10);
   }
 
 }

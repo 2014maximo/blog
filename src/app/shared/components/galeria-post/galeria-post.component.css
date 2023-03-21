@@ -59,6 +59,9 @@
     font-size: 18px;
     line-height: 20px;
 }
+.leerMas:hover{
+    color: white;
+}
 .borderPost{
     border-bottom: 1px solid #dc9047;
     margin-bottom: 18px;

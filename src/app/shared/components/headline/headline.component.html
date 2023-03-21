@@ -27,7 +27,7 @@
                     <br>
                     <div class="d-flex">
                         <p class="tc-gray-two f-shadow-into-l fs-17 lh-17 m-0 p-0 texto-lateral m-0">
-                            <small>{{ this.encabezado.fechaActualizacion | date:'MMM d, y' }}</small>
+                            <small>{{ fechaAString(this.encabezado.fechaActualizacion? this.encabezado.fechaActualizacion : this.encabezado.fechaCreacion) | date }}</small>
                         </p>
                     </div>
                     <div class="espaciado"></div>
@@ -39,6 +39,7 @@
                     <p class="text-light f-open-sans-c fs-20 lh-30">
                         {{ this.encabezado.descripcion }}
                     </p>
+                    <p>{{ this.encabezado.fechaActualizacion | date }}</p>
                 </div>
             </div>
             <div class="row">

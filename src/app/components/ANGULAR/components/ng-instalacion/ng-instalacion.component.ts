@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { copiarAlPortapapeles } from 'src/app/shared/constants/funciones/portapapeles';
-import { CategoriaModel, AccordeonModel, PostModel } from '../../../models/post.model';
-import { postActual } from '../../../shared/constants/funciones/funciones-globales';
-import { DatosPost } from '../../../models/categorias.model';
+import { CategoriaModel, AccordeonModel, PostModel } from '../../../../models/post.model';
+import { postActual } from '../../../../shared/constants/funciones/funciones-globales';
+import { DatosPost } from '../../../../models/categorias.model';
 
 @Component({
   selector: 'app-ng-instalacion',
@@ -14,20 +14,7 @@ export class NgInstalacionComponent implements OnInit {
 
   public idPublicacion = '8618eb718b-655b-49a8-9e6e-f3732922b2df';
 
-  public cabeceraPost: PostModel = {
-    nombre: '',
-    id_post: '',
-    categoria: '',
-    fechaActualizacion: new Date(2020,7,30),
-    fechaCreacion: new Date(2020,7,30),
-    incluirFondo: false,
-    ruta: '',
-    rutaImagen: '',
-    sombra: '',
-    alturaImagen: '',
-    mostrarBreadcrumb: false,
-    colorText: ''
-  };
+  public cabeceraPost = new PostModel();
 
   public breadcrumb: CategoriaModel = {
     activo: true,

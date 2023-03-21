@@ -1,17 +1,33 @@
 export class PostModel {
-    id_post: string = '';
-    nombre: string = '';
-    categoria: any;
-    ruta: string = '';
-    rutaImagen: string = '';
-    fechaCreacion: Date = new Date();
-    fechaActualizacion: Date = new Date();
-    incluirFondo: boolean = false;
-    sombra: string = '';
-    alturaImagen: string = '';
-    mostrarBreadcrumb: boolean = true;
-    colorText: string = 'tc-green-one';
+    id_post: string;
+    nombre: string;
+    categoria: string;
+    ruta: string;
+    rutaImagen: string;
+    fechaCreacion: Date;
+    fechaActualizacion: Date;
+    incluirFondo: boolean;
+    sombra: string;
+    alturaImagen: string;
+    mostrarBreadcrumb: boolean;
+    colorText: string;
     descripcion?: string;
+
+    constructor(){
+        this.id_post = '';
+        this.nombre = '';
+        this.categoria = '';
+        this.ruta = '';
+        this.rutaImagen = '';
+        this.fechaCreacion = new Date();
+        this.fechaActualizacion = new Date();
+        this.incluirFondo = false;
+        this.sombra = '';
+        this.alturaImagen = '';
+        this.mostrarBreadcrumb = true;
+        this.colorText = '';
+        this.descripcion = '';
+    }
 }
 
 export class HeaderPostModel {

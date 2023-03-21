@@ -34,8 +34,8 @@ import { JavaInstalacionComponent } from './components/JAVA/java-instalacion/jav
 import { JsNodeJsComponent } from './components/JAVASCRIPT/js-node-js/js-node-js.component';
 import { JsInstalandoNodeConNvmComponent } from './components/JAVASCRIPT/js-instalando-node-con-nvm/js-instalando-node-con-nvm.component';
 import { DevControlesVisualStudioCodeComponent } from './components/DEVELOPER/dev-controles-visual-studio-code/dev-controles-visual-studio-code.component';
-import { NgDescripcionElementosComponent } from './components/ANGULAR/ng-descripcion-elementos/ng-descripcion-elementos.component';
-import { NgInstalacionComponent } from './components/ANGULAR/ng-instalacion/ng-instalacion.component';
+import { NgDescripcionElementosComponent } from './components/ANGULAR/components/ng-descripcion-elementos/ng-descripcion-elementos.component';
+import { NgInstalacionComponent } from './components/ANGULAR/components/ng-instalacion/ng-instalacion.component';
 import { Prime7DescripcionElementosComponent } from './components/ANGULAR/prime7-descripcion-elementos/prime7-descripcion-elementos.component';
 import { Prime7TablecheckboxComponent } from './components/ANGULAR/prime7-tablecheckbox/prime7-tablecheckbox.component';
 import { AndroidComponent } from './components/ANDROID/android/android.component';
@@ -43,22 +43,23 @@ import { AndrAndroidStudioComponent } from './components/ANDROID/andr-android-st
 import { DbFirebaseComponent } from './components/DB/db-firebase/db-firebase.component';
 import { DbSqlComponent } from './components/DB/db-sql/db-sql.component';
 import { DbSqlServerComponent } from './components/DB/db-sql-server/db-sql-server.component';
-import { DevSuperRecursosComponent } from './components/DEVELOPER/dev-super-recursos/dev-super-recursos.component';
+import { DevSuperRecursosComponent } from './components/DEVELOPER/components/dev-super-recursos/dev-super-recursos.component';
 import { SenaFichaActualComponent } from './components/SENA/sena-ficha-actual/sena-ficha-actual.component';
 import { SenaRecursosInformativosComponent } from './components/SENA/sena-recursos-informativos/sena-recursos-informativos.component';
 import { JavaGlassfishComponent } from './components/JAVA/java-glassfish/java-glassfish.component';
 import { JsTypescriptElementosComponent } from './components/JAVASCRIPT/js-typescript-elementos/js-typescript-elementos.component';
 import { PhpElementosComponent } from './components/PHP/php-elementos/php-elementos.component';
-import { NgComunicacionEntreComponentesComponent } from './components/ANGULAR/ng-comunicacion-entre-componentes/ng-comunicacion-entre-componentes.component';
+import { NgComunicacionEntreComponentesComponent } from './components/ANGULAR/components/ng-comunicacion-entre-componentes/ng-comunicacion-entre-componentes.component';
 import { LoginComponent } from './shared/components/login/login.component';
 import { GestionFormularioComponent } from './components/ESTADISTICA/gestion-formulario/gestion-formulario.component';
 import { DartElementosComponent } from './components/DART/dart-elementos/dart-elementos.component';
 import { FlutterElementosComponent } from './components/FLUTTER/flutter-elementos/flutter-elementos.component';
-import { NgCorsComponent } from './components/ANGULAR/ng-cors/ng-cors.component';
+import { NgCorsComponent } from './components/ANGULAR/components/ng-cors/ng-cors.component';
 import { CssBootstrap4clasesComponent } from './components/CSS/css-bootstrap4clases/css-bootstrap4clases.component';
 import { ANGULAR } from './constants/publicaciones/posts-angular.constant';
 import { EtronInstalacionComponent } from './components/ELECTRON/etron-instalacion/etron-instalacion.component';
 import { GitInstalacionComponent } from './components/GIT/git-instalacion/git-instalacion.component';
+import { DevPrincipiosSolidComponent } from './components/DEVELOPER/components/dev-principios-solid/dev-principios-solid.component';
 
 
 export const ROUTES: Routes = [
@@ -99,6 +100,7 @@ export const ROUTES: Routes = [
     { path: 'dev-super-recursos', component: DevSuperRecursosComponent },
     { path: 'dev-glosario', component: DevGlosarioComponent },
     { path: 'dev-controles-visual-studio-code', component: DevControlesVisualStudioCodeComponent },
+    { path: 'dev-principios-solid', component:DevPrincipiosSolidComponent },
 
 // ESTADISTICA
     { path: 'estadistica', component: EstadisticaComponent },
