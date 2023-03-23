@@ -7,112 +7,54 @@
 <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10">
-        <h1 class="f-bebas fs-50 fw-6">Instalación</h1>
+        <h2 class="f-bebas fs-50 text-light">Instalación</h2>
         <div class="row">
             <div class="col-md-7">
                 <h2 class="f-bebas fs-160 text-light m-0 p-0">1</h2>
-                <h4 class="f-bebas fs-30 text-light">ANGULAR CLI</h4>
+                <a href="https://cli.angular.io/" target="_blank">
+                    <img src="assets/img/icons/angular_cli_white.png" alt="logo angular cli" height="40" width="auto" class="drop mb-3 h-zoom" title="Visita ANGULAR CLI">
+                </a>
                 <p class="text-light f-open-sans-c fs-18 lh-20">
-                    Instalar el angular cli que es una herramienta de gestión del framework de angular, se instala por consola y es recomendado estar como administrador. Copiar el siguiente comando:
+                    Instalar el angular cli, es una herramienta de gestión del framework de angular, se instala por consola y es recomendado estar como administrador.  Copiar el siguiente comando:
                 </p>
-                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18">npm install -g @angular/cli <i class="fa fa-clone cursor-p ml-2" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g @angular/cli')"></i></h3>
-                <div class="d-flex">
-                    <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18">npm install -g @angular/cli@8 <i class="fa fa-clone cursor-p ml-2" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g @angular/cli@8')"></i></h3>
-                    <p class="ml-4 f-open-sans-c fw-3 fs-18 text-secondary">Si necesitamos una versión específica</p>
-                </div>
+
+                <p class="m-0 p-0 f-shadow-into-l fw-3 fs-18 text-secondary m-0 p-0 text-uppercase">La última - primera vez</p>
+                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-4 p-0">npm install -g @angular/cli <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g @angular/cli')"></i></h3>
+                
+                <p class="f-shadow-into-l m-0 p-0 fw-3 fs-18 text-secondary text-uppercase">Instalar una versión específica</p>
+                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-4">npm install -g @angular/cli@8 <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g @angular/cli@8')"></i></h3>
+
+                <p class="f-shadow-into-l fw-3 fs-18 text-secondary m-0 p-0 text-uppercase">Pasos para hacer un downgrade</p>
+                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18">npm uninstall -g @angular/cli <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm uninstall -g @angular/cli')"></i></h3>
+                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18">npm cache clean <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm cache clean')"></i></h3>
+                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-4">npm install -g @angular/cli@1 <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g @angular/cli@1')"></i></h3>
+                
+                <p class="f-shadow-into-l fw-3 fs-18 text-secondary m-0 p-0 text-uppercase">actualizar</p>
+                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-4 p-0">ng update @angular/cli @angular/core <i class="fa fa-clone cursor-p ml-2" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('ng update @angular/cli @angular/core')"></i></h3>
+
+                <p class="f-shadow-into-l fw-3 fs-18 text-secondary m-0 p-0 text-uppercase">actualizar a la mayor versión</p>
+                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-4 p-0">ng update @angular/cli@^ @angular/core@^ <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('ng update @angular/cli@^ @angular/core@^')"></i></h3>
+
+                <p class="f-shadow-into-l fw-3 fs-18 text-secondary m-0 p-0 text-uppercase">actualizar a versiones específicas</p>
+                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-4 p-0">ng update @angular/cli@8 @angular/core@8 <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('ng update @angular/cli@^ @angular/core@^')"></i></h3>
+
+                <div class="espacio"></div>
+
             </div>
             <div class="col-md-5"></div>
         </div>
-    </div>
-    <div class="col-md-1"></div>
-</div>
+        <div class="espacio"></div>
 
-
-<div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-        <div class="espaciado d-none d-md-block"></div>
         <div class="row">
-            <div class="col-md-2 d-flex justify-content-center">
-                <h2 class="text-light tituloUno fs-160">1</h2>
-            </div>
-            <div class="col-md-10">
-                <a href="https://cli.angular.io/" target="_blank">
-                    <img src="assets/img/icons/angular_cli_white.png" alt="logo angular cli" height="60" width="auto" class="drop mb-3 h-zoom" title="Visita ANGULAR CLI">
-                </a>
-                <p class="text-light f-merriweather fs-18 lh-20">
-                    Instalar el angular cli que es una herramienta de gestión del framework de angular, se instala por consola y es recomendado estar como administrador. Copiar el siguiente comando:
-                </p>
-                
-                <h3 class="text-danger f-merriweather fw-3 fs-18">npm install -g @angular/cli <i class="fa fa-clone cursor-p ml-2" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g @angular/cli')"></i></h3>
-                <div class="espacio"></div>
-                
-                <div class="d-flex">
-                    <h3 class="f-shadow-into-l bg-light fw-3 l-menu cursor-p lh-40 pr-2 pl-2" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true" aria-controls="collapseExample">COMANDOS ANGULAR CLI</h3>
-                </div>
-                
-                <div class="collapse" id="collapseExample">
-                    <p class="text-light fuenteDos font-weight-lighter fs-18 m-0">
-                        1. Crear un proyecto Angular nuevo para empezar a desarrollar.
-                    </p>
-                    <h4 class="text-danger fuenteTres font-weight-lighter fs-17 mb-4">
-                        ng new nombre_aplicacion <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng new nombre_aplicacion')"></i>
-                    </h4>
-                    
-                    <p class="text-light fuenteDos font-weight-lighter fs-18 m-0">
-                        2. Compila el proyecto y lo expone en una url para visualizarlo en un navegador.
-                    </p>
-                    <h4 class="text-danger fuenteTres font-weight-lighter fs-17 mb-4">ng serve <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng serve')"></i></h4>
-                    
-                    <p class="text-light fuenteDos font-weight-lighter fs-18 m-0">
-                        3. Lo mismo que el comando anterior pero abre el proyecto automáticamente en el navegador.
-                    </p>
-                    <h4 class="text-danger fuenteTres font-weight-lighter fs-17 mb-4">ng serve o <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng serve o')"></i></h4>
-                    
-                    <p class="text-light fuenteDos font-weight-lighter fs-18 m-0">
-                        4. Compila el proyecto en un puerto específico, en este caso saldría por el "localhost:4201".
-                    </p>
-                    <h4 class="text-danger fuenteTres font-weight-lighter fs-17 mb-4">ng serve --port 4201 <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng serve --port 4201 ')"></i></h4>
-                    
-                    <p class="text-light fuenteDos font-weight-lighter fs-18 m-0">
-                        5. Crea un conjunto de 3 tipos de archivos: nombredelcomponente.html, nombredelcomponente.ts, nombredelcomponente.spec.ts.
-                    </p>
-                    <h4 class="text-danger fuenteTres font-weight-lighter fs-17 mb-4">ng component ruta/nombredelcomponente <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng component ruta/nombredelcomponente')"></i></h4>
-
-                    <p class="text-light fuenteDos font-weight-lighter fs-18 m-0">
-                        6. Lo mismo que lo anterior sin el archivo de pruebas.spec.ts.
-                    </p>
-                    <h4 class="text-danger fuenteTres font-weight-lighter fs-17 mb-4">ng g c nombre/componente --skip-tests <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng g c nombre/componente --skip-tests')"></i></h4>
-
-                    <p class="text-light fuenteDos font-weight-lighter fs-18 m-0">
-                        7. Lo mismo que lo anterior sin el archivo de estilos
-                    </p>
-                    <h4 class="text-danger fuenteTres font-weight-lighter fs-17 mb-4">ng g c nombre/componente --skip-tests --inline-style <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng g c nombre/componente --skip-tests --inline-style')"></i></h4>
-
-                    <p class="text-light fuenteDos font-weight-lighter fs-18 m-0">
-                        8. Crea un archivo.service.ts con la extructura de un archivo de servicios de Angular base para desarrollar.
-                    </p>
-                    <h4 class="text-danger fuenteTres font-weight-lighter fs-17 mb-4">ng g s ruta/nombreArchivoService <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng g s ruta/nombreArchivoService')"></i></h4>
-
-                    <p class="text-light fuenteDos font-weight-lighter fs-18 m-0">
-                        9. Actualiza la version de "Angular CLI".
-                    </p>
-                    <h4 class="text-danger fuenteTres font-weight-lighter fs-17 mb-5">ng update @angular/cli @angular/core <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng update @angular/cli @angular/core')"></i></h4>
-                </div>
-
-                
-            </div>
-        </div>
-        <div class="espaciado d-none d-md-block"></div>
-        <div class="row">
-            <div class="col-md-2 d-flex justify-content-center">
-                <h2 class="text-light tituloUno mr-2 fs-160">2</h2>
-            </div>
-            <div class="col-md-10">
-                <p class="text-light fuenteDos fs-20 lh-20">
-                    Descarga e instalar un editor de texto de preferencia, en especial si este maneja consola de comandos
+            <div class="col-md-5"></div>
+            <div class="col-md-7">
+                <h2 class="f-bebas fs-160 text-light m-0 p-0">2</h2>
+                <h4 class="f-bebas fs-30 text-light">IDES PARA DESARROLLO</h4>
+                <p class="text-light f-open-sans-c fs-18 lh-20">
+                    Descarga e instalar un editor de texto de preferencia, herramientas que nos prestan un sin fin de utilidades.
                 </p>
                 <div class="espacio"></div>
+
                 <div class="d-flex justify-content-between row ">
                     <a href="https://code.visualstudio.com/download" target="_blank" class="col text-center"> 
                         <img src="assets/img/icons/visual_studio_code.png" title="VISUAL STUDIO CODE Visita para descargar" height="50" class="drop h-zoom mx-auto" alt="Visual Studio Code">
@@ -149,39 +91,58 @@
                     </a>
                 </div>
             </div>
+
         </div>
-        <div class="espaciado d-none d-md-block"></div>
+        <div class="espaciado"></div>
         <div class="row">
-            <div class="col-md-2 d-flex justify-content-center">
-                <h2 class="text-light tituloUno mr-2 fs-160">3</h2>
-            </div>
-            <div class="col-md-10">
+            <div class="col-md-7">
+                <h2 class="f-bebas fs-160 text-light m-0 p-0">3</h2>
                 <a href="https://nodejs.org/es/" target="_blank">
                     <img src="assets/img/icons/Node.js_logo_black.png" alt="logo NODE JS" height="90" width="auto" class="drop mb-3 h-zoom" title="Visita ANGULAR CLI">
                 </a>
-                <p class="text-light fuenteDos fs-20 lh-20">
-                    Instalar Node JS<br>
-                    se recomienda la versión LTS. Node JS es un entorno en tiempo de ejecución multiplataforma, basado en Javascript, en realidad esta descripción es compleja de entender a primera vista, tal vez basta con describir que es un programa para cualquiera de los sistemas operativos, que permite instalar a través de comandos un proyecto base dentro de una carpeta con todos los archivos necesarios para un desarrollo, en este caso Angular. Entre otras muchas cosas o frameworks.
+                <p class="text-light f-open-sans-c fs-18 lh-20">
+                    Se recomienda la versión LTS. Node JS es un entorno en tiempo de ejecución multiplataforma, basado en Javascript, en realidad esta descripción es compleja de entender a primera vista, tal vez basta con describir que es un programa para cualquiera de los sistemas operativos, que permite instalar a través de comandos un proyecto base dentro de una carpeta con todos los archivos necesarios para un desarrollo, en este caso Angular. Entre otras muchas cosas o frameworks.
+                </p>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+        <div class="espaciado"></div>
+
+        <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-7">
+                <h2 class="f-bebas fs-160 text-light m-0 p-0">4</h2>
+                <h4 class="f-bebas fs-30 text-light">CREAR UN NUEVO PROYECTO</h4>
+                <p class="text-light f-open-sans-c fs-18 lh-20">
+                    Para finalizar una vez reunidas las anteriores herramientas, esta todo listo para tirar el comando:
+                </p>
+                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-4">ng new nombre_aplicacion <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('ng new nombre_aplicacion')"></i></h3>
+                <p class="text-light f-open-sans-c fs-18 lh-20">
+                    Con este comando se instala angular en la carpeta que se requiera generar nuestro nuevo proyecto.
+                    Ya de preferirse se puede optar por alguna versión específica según ser requiera con sus características a continuación se muestra, por defecto el Angular CLI instala siempre la última.
                 </p>
             </div>
         </div>
+        <div class="espaciado"></div>
 
-        <div class="espaciado d-none d-md-block"></div>
         <div class="row">
-            <div class="col-md-2 d-flex justify-content-center">
-                <h2 class="text-light tituloUno mr-2 fs-160">4</h2>
+            <div class="col-md-7">
+                <h2 class="f-bebas fs-50 text-light">Comandos ANGULAR CLI</h2>
+
+                <div *ngFor="let comando of comandosAngularCli">
+                    <p class="f-shadow-into-l m-0 p-0 fw-3 fs-18 text-secondary text-uppercase">{{ comando.descripcion }}</p>
+                    <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-5">{{ comando.comando }} <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('comando.comando')"></i></h3>
+                </div>
             </div>
-            <div class="col-md-10">
-                <p class="text-light fuenteDos fs-20 lh-20 m-0">
-                    Una vez reunidas las anteriores herramientas esta todo listo para tirar el comando:</p>
-                    <h4 class="text-danger fuenteTres font-weight-lighter fs-17">
-                        ng new nombre_aplicacion <i class="fa fa-clone cursor-p" title="Copiar" aria-hidden="true" (click)="copiarAlPortapapeles('ng new nombre_aplicacion')"></i>
-                    </h4>
-                    <p class="text-light fuenteDos fs-20 lh-20"> Con este comando se instala angular en la carpeta que se requiera generar nuestro nuevo proyecto.<br>
-                    Ya de preferirse se puede optar por alguna versión específica según ser requiera con sus características a continuación se muestra, por defecto el Angular CLI  instala siempre la última.
-                </p>
-                <h3 class="fuenteDos text-light fw-3 fs-30 mt-5">VERSIONES</h3>
-                <app-accordeon [contenido]="accordeonContend"></app-accordeon>
+            <div class="col-md-5"></div>
+        </div>
+        <div class="espacio"></div>
+
+        <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-7">
+                <h2 class="f-bebas fs-50 text-light">VERSIONES</h2>
+                <app-accordeon [contenido]="versiones"></app-accordeon>
             </div>
         </div>
     </div>

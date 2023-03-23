@@ -55,4 +55,4 @@ ng build --prod --base-href https://2014maximo.github.io/blog/
 npx angular-cli-ghpages --branch gh-pages
 
 
-versión 1.0.0.2
+versión 1.0.0.3

@@ -59,11 +59,19 @@ export class AccordeonPostModel {
 }
 
 export class AccordeonModel {
-    nClass: string = '';
+    nClass: string;
     elemento: string = '';
-    mostrarlo?: boolean = false;
+    mostrarlo?: boolean;
     contenido?: string = '';
-    contenidoLista?: ListaModel[] = [];
+    contenidoLista?: ListaModel[];
+
+    constructor(){
+        this.nClass = '';
+        this.elemento = '';
+        this.mostrarlo = false;
+        this.contenido = '';
+        this.contenidoLista = []
+    }
 }
 
 export class ListaModel {
