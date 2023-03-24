@@ -7,7 +7,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: 'firstValueFrom (RXJS)',
         linkReferencia: 'ng-rxjs-1',
         descripcion: [
-            'No nos va a aparecer antes de la versión 7 de la libreria rxjs, este viene a reemplazar la "toPromise()", quedando en el abismo de los obsoletos.',
+            'No nos va a aparecer antes de la versión 7 de la libreria rxjs, este viene a reemplazar a "toPromise()", quedando en el abismo de los obsoletos.',
             'Su característica de operar es la de convertir un observable en una promesa que se cumple cuando devuelve el primer valor.'
         ]
     },
@@ -16,7 +16,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: 'lastValueFrom() (RXJS)',
         linkReferencia: 'ng-rxjs-1',
         descripcion: [
-            'No nos va a aparecer antes de la versión 7 de la libreria rxjs, este viene a reemplazar la "toPromise()", quedando en el abismo de los obsoletos.',
+            'No nos va a aparecer antes de la versión 7 de la libreria rxjs, este viene a reemplazar a "toPromise()", quedando en el abismo de los obsoletos.',
             'Su característica de operar es la de convertir un observable en una promesa que se cumple cuando devuelve el último valor.'
         ]
     },
@@ -26,6 +26,14 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         linkReferencia: 'ng-rxjs-1',
         descripcion: [
             'En simples palabras devuelve el primer elemento emitido y termina una vez lo reciba.'
+        ]
+    },
+    {
+        id: 'ebfeb1a0-10d5-49b0-aaa2-4196e8f1dd98',
+        titulo: 'takeUntil() (RXJS)',
+        linkReferencia: 'ng-rxjs-1',
+        descripcion: [
+            'Emite valores hasta que le notifiquen que no siga emitiendo con un observable que emite un valor, en ese momento se completa.'
         ]
     },
 
