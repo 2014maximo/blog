@@ -61,6 +61,7 @@ import { CssBootstrap4clasesComponent } from './CSS/css-bootstrap4clases/css-boo
 import { EtronInstalacionComponent } from './ELECTRON/etron-instalacion/etron-instalacion.component';
 import { GitInstalacionComponent } from './GIT/git-instalacion/git-instalacion.component';
 import { DevPrincipiosSolidComponent } from './DEVELOPER/components/dev-principios-solid/dev-principios-solid.component';
+import { NgRxjsFirstValueFromComponent } from './ANGULAR/components/ng-rxjs-first-value-from/ng-rxjs-first-value-from.component';
 
 
 
@@ -126,7 +127,8 @@ import { DevPrincipiosSolidComponent } from './DEVELOPER/components/dev-principi
     CssBootstrap4clasesComponent,
     EtronInstalacionComponent,
     GitInstalacionComponent,
-    DevPrincipiosSolidComponent
+    DevPrincipiosSolidComponent,
+    NgRxjsFirstValueFromComponent
   ],
   imports: [
     CommonModule,

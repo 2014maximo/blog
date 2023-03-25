@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
-import { DatosPost } from '../../../models/categorias.model';
+import { DatosPost, CategoriaPostModel, SubCategoriaModel } from '../../../models/categorias.model';
 import { datosCategoria } from '../../constants/funciones/funciones-globales';
 
 @Component({
@@ -33,11 +33,21 @@ export class GaleriaPostComponent implements OnInit {
 
   private agruparPost(){
 
-    this.categorias.forEach( (e:any, i:number)=>{
+    this.categorias.forEach( (e:CategoriaPostModel, i:number)=>{
       e.post.forEach((element:any) => {
         this.todosLosPost.push(element);
       });
+      e.subcategorias.forEach((s:SubCategoriaModel) => {
+        s.post.forEach((p: DatosPost) => {
+          this.todosLosPost.push(p);
+        });
+      })
+      
+/*       e.subcategorias[i].post?.forEach((s:DatosPost) => {
+        this.todosLosPost.push(s);
+      }); */
     });
+
     this.todosLosPost = Object.assign([], this.retirarPostsPrincipalCategoria(this.todosLosPost));
     this.todosLosPost = Object.assign([], this.ordenarPostPorFecha(this.todosLosPost));
   }

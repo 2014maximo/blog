@@ -13,6 +13,7 @@ import { CategoriaPostModel } from '../../models/categorias.model';
 import { JAVA } from '../publicaciones/posts-java.constant';
 import { LINUX } from '../publicaciones/posts-linux.constant';
 import { TERMINOS_ANGULAR } from '../glosarios/terminos.angular.constant';
+import { SUB_NG } from '../subcategorias/subcategorias-angular.constant';
 
 export const CATEGORIA: CategoriaPostModel[] = [
     {
@@ -58,7 +59,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         ],
         descripcionCorta: '',
         post: ANGULAR,
-        subcategorias: []
+        subcategorias: SUB_NG
     },
     {
         id:3,

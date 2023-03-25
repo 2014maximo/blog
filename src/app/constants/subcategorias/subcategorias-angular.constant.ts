@@ -1,30 +1,30 @@
 import { SubCategoriaModel, EstilosPost } from '../../models/categorias.model';
 
-export const ESTILO_IONIC: EstilosPost = {
-    color: 'c-Ionic',
-    colorFondo: 'bg-Ionic'
+export const ESTILO_RXJS: EstilosPost = {
+    color: 'c-Rxjs',
+    colorFondo: 'bg-Rxjs'
 }
 
-export const IONIC: SubCategoriaModel[] = [
+export const SUB_NG: SubCategoriaModel[] = [
     {
-        subCategoria: 'ionic',
+        subCategoria: 'rxjs',
         post: [
             {
-                id: '7084156673',
-                nombre: 'Ionic',
+                id: 'ebfeb1a0-10d5-49b0-aaa2-4196e8f1dd98',
+                nombre: 'FirstValueFrom() - RXJS',
                 descripcion: 'Angular esta en el grupo de los mejores frameworks web, cada 6 meses sin falta entrega una nueva versión y se ha permitido evolucionar.',
                 descripcionCorta: '',
-                ruta: 'angular',
-                componente: 'AngularComponent',
-                mostrarEnPostHome: false,
-                estilos: ESTILO_IONIC,
-                fechaCreacion: '2021-08-02',
-                fechaActualizacion: '2021-08-02',
+                ruta: 'ng-rxjs-first-value-from',
+                componente: 'NgRxjsFirstValueFromComponent',
+                mostrarEnPostHome: true,
+                estilos: ESTILO_RXJS,
+                fechaCreacion: '2023-03-24',
+                fechaActualizacion: '',
                 imgHorizontal:'',
                 imgVertical:'',
                 imgCuadro:'',
                 categoria: 'angular',
-                posicion: 'rot-z',
+                posicion: 'rot-1',
                 estado: 'activo'
             },
         ]

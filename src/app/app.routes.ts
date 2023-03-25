@@ -60,6 +60,7 @@ import { ANGULAR } from './constants/publicaciones/posts-angular.constant';
 import { EtronInstalacionComponent } from './components/ELECTRON/etron-instalacion/etron-instalacion.component';
 import { GitInstalacionComponent } from './components/GIT/git-instalacion/git-instalacion.component';
 import { DevPrincipiosSolidComponent } from './components/DEVELOPER/components/dev-principios-solid/dev-principios-solid.component';
+import { NgRxjsFirstValueFromComponent } from './components/ANGULAR/components/ng-rxjs-first-value-from/ng-rxjs-first-value-from.component';
 
 
 export const ROUTES: Routes = [
@@ -74,6 +75,7 @@ export const ROUTES: Routes = [
 // ANGULAR
     { path: 'angular', component: AngularComponent },
     { path: 'ng-instalacion', component: NgInstalacionComponent },
+    { path: 'ng-rxjs-first-value-from', component: NgRxjsFirstValueFromComponent },
     { path: 'ng-descripcion-elementos', component: NgDescripcionElementosComponent },
     { path: 'ng-comunicacion-componentes', component: NgComunicacionEntreComponentesComponent },
     { path: 'ng-cors', component: NgCorsComponent },

@@ -5,7 +5,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
     {
         id: 'bfbfe921-9666-402f-98d3-98f45716b57f',
         titulo: 'firstValueFrom (RXJS)',
-        linkReferencia: 'ng-rxjs-1',
+        linkReferencia: 'ng-rxjs-first-value-from',
         descripcion: [
             'No nos va a aparecer antes de la versión 7 de la libreria rxjs, este viene a reemplazar a "toPromise()", quedando en el abismo de los obsoletos.',
             'Su característica de operar es la de convertir un observable en una promesa que se cumple cuando devuelve el primer valor.'
