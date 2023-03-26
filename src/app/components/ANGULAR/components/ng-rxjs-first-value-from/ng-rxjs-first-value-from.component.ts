@@ -15,7 +15,7 @@ export class NgRxjsFirstValueFromComponent implements OnInit {
   public breadcrumb: CategoriaModel = {
     activo: true,
     categoria: 'ANGULAR',
-    colorText: 'c-Rxjs',
+    colorText: 'c-Angular',
     ruta: 'angular'
   }
 

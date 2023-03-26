@@ -9,7 +9,7 @@ export const DB: DatosPost[] = [
     {
         id: '6569240889',
         nombre: 'DB',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         ruta: 'db',
         componente: 'DbComponent',

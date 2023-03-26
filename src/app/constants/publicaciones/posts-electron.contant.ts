@@ -9,7 +9,7 @@ export const ELECTRON: DatosPost[] = [
     {
         id: '4219350459',
         nombre: 'Electrón',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         ruta: 'electron',
         componente: 'ElectronComponent',

@@ -10,7 +10,7 @@ export const JAVASCRIPT: DatosPost[] = [
     {
         id: '3574124706',
         nombre: 'JAVASCRIPT',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         ruta: 'javascript',
         componente: 'JavascriptComponent',

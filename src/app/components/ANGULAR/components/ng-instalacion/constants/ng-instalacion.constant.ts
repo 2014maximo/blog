@@ -23,12 +23,12 @@ export const COMANDOS_ANGULAR_CLI = [
     {
         id: 5,
         descripcion: 'Crea un conjunto de 3 tipos de archivos: nombredelcomponente.html, nombredelcomponente.ts, nombredelcomponente.spec.ts',
-        comando: 'ng component ruta/nombredelcomponente'
+        comando: 'ng g component ruta/nombredelcomponente'
     },
     {
         id: 6,
         descripcion: 'Lo mismo que lo anterior sin el archivo de pruebas.spec.ts',
-        comando: 'ng g c nombre/componente --skip-tests'
+        comando: 'ng g c nombre/componente --skip-tests || ng g c nombre/componente --spec=false'
     },
     {
         id: 7,

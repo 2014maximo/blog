@@ -37,7 +37,7 @@ export class HeadlineComponent implements OnInit {
         ruta: publicacion[0].ruta,
         rutaImagen: publicacion[0].imgHorizontal,
         sombra: '',
-        descripcion: publicacion[0].descripcion
+        descripcion: publicacion[0].descripcion[0]
       }
     }
   }

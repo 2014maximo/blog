@@ -61,7 +61,7 @@ export class DatosPost{
     id: string;
     posicion: string;
     nombre: string;
-    descripcion: string;
+    descripcion: string[];
     descripcionCorta: string;
     ruta: string;
     componente: string;
@@ -81,7 +81,7 @@ export class DatosPost{
         this.id = '';
         this.posicion = '';
         this.nombre = '';
-        this.descripcion = '';
+        this.descripcion = [];
         this.descripcionCorta = '';
         this.ruta = '';
         this.componente = '';
@@ -186,6 +186,7 @@ export class CategoriaPostModel {
 
 export interface DescripcionModel {
     autor: string,
+    linkAlAutor: string,
     descripciones: string[]
 }
 

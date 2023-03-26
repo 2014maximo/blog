@@ -10,7 +10,7 @@ export const HTML: DatosPost[] = [
     {
         id: '8825362007',
         nombre: 'HTML',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         ruta: 'html',
         componente: 'HtmlComponent',

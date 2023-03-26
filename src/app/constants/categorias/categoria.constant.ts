@@ -48,6 +48,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         descripcion: [
             {
                 autor: 'Alex M.',
+                linkAlAutor: '',
                 descripciones: [
                     'AngularJS comenzó a ser desarrollado en 2009 por Miško Hevery originalmente era un servicio de almacenamiento online de archivos JSON donde el cobro dependía del peso en     megabytes de cada archivo. Tiempo después abandonó el proyecto y re lanzó angular como un proyecto open-source.',
                     'Angular comenzó con la primera versión de AngularJS, que estaba escrito en puro JavaScript, y con el que era bastante sencillo crear una aplicación.',
@@ -127,6 +128,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         descripcion: [
             {
                 autor: 'Alex M.',
+                linkAlAutor: '',
                 descripciones: [
                     'En la década entre 1950 y 1960 aparecen los términos de ingeniería del software.'
                 ]

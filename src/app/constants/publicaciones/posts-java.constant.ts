@@ -10,7 +10,7 @@ export const JAVA: DatosPost[] = [
     {
         id: 'd0210005-c92c-4f2a-8b57-cb22429c3aac',
         nombre: 'JAVA',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         ruta: 'java',
         componente: 'JavasComponent',

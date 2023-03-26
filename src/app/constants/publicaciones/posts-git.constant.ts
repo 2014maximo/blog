@@ -9,7 +9,7 @@ export const GIT: DatosPost[] = [
     {
         id: '4635803514',
         nombre: 'GIT',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         ruta: 'git',
         componente: 'GitComponent',

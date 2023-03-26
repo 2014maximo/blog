@@ -12,7 +12,7 @@ export const SUB_NG: SubCategoriaModel[] = [
             {
                 id: 'ebfeb1a0-10d5-49b0-aaa2-4196e8f1dd98',
                 nombre: 'FirstValueFrom() - RXJS',
-                descripcion: 'Angular esta en el grupo de los mejores frameworks web, cada 6 meses sin falta entrega una nueva versión y se ha permitido evolucionar.',
+                descripcion: ['Angular esta en el grupo de los mejores frameworks web, cada 6 meses sin falta entrega una nueva versión y se ha permitido evolucionar.'],
                 descripcionCorta: '',
                 ruta: 'ng-rxjs-first-value-from',
                 componente: 'NgRxjsFirstValueFromComponent',

@@ -1,7 +1,7 @@
 import { Route } from '@angular/router';
 import { PostModel } from '../../../models/post.model';
 import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
-import { CategoriaPostModel, DatosPost } from '../../../models/categorias.model';
+import { CategoriaPostModel, DatosPost, SubCategoriaModel } from '../../../models/categorias.model';
 
 export function copiarAlPortapapeles(cadenaAlclipboard: string) {
     const selBox = document.createElement('textarea');
@@ -26,6 +26,12 @@ export function postActual(idPost: string): DatosPost[]{
   CATEGORIA.forEach((e:CategoriaPostModel, i:number)=>{
     e.post.forEach((element:DatosPost) => {
       post.push(element);
+    });
+
+    e.subcategorias.forEach((s: SubCategoriaModel)=>{
+      s.post.forEach((p: DatosPost) => {
+        post.push(p);
+      });
     });
   });
 

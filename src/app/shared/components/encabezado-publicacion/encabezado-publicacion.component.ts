@@ -18,6 +18,10 @@ export class EncabezadoPublicacionComponent implements OnInit {
   ngOnInit(): void {
     this.inicializarVariables();
   }
+  ngOnDestroy(): void {
+    
+    
+  }
 
   public extraerDatoCategoria(categoria: string, referencia: number):any{
     return datosCategoria(categoria, referencia)
@@ -25,7 +29,6 @@ export class EncabezadoPublicacionComponent implements OnInit {
 
   private inicializarVariables(){
     this.publicacion = (postActual(this.idPublicacion))[0];
-    console.log(this.publicacion, 'PUBLICACION');
   }
 
   public fechaAString(fecha: Date): string{

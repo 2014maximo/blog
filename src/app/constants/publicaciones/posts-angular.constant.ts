@@ -9,7 +9,7 @@ export const ANGULAR: DatosPost[] = [
     {
         id: 'eb4011f5-81df-4261-b5c5-8f58d2ba88b5',
         nombre: 'Angular',
-        descripcion: 'Angular esta en el grupo de los mejores frameworks web, cada 6 meses sin falta entrega una nueva versión y se ha permitido evolucionar.',
+        descripcion: ['Angular esta en el grupo de los mejores frameworks web, cada 6 meses sin falta entrega una nueva versión y se ha permitido evolucionar.'],
         descripcionCorta: '',
         ruta: 'angular',
         componente: 'AngularComponent',
@@ -27,7 +27,7 @@ export const ANGULAR: DatosPost[] = [
     {
         id: '8618eb718b-655b-49a8-9e6e-f3732922b2df',
         nombre: 'Instalación Angular y recomendados',
-        descripcion: 'Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano.',
+        descripcion: ['Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano.'],
         descripcionCorta: 'Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías.',
         ruta: 'ng-instalacion',
         componente: '',

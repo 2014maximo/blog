@@ -10,7 +10,7 @@ export const ANDROID: DatosPost[] = [
     {
         id: '7084156673',
         nombre: 'Android',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         ruta: 'android',
         componente: 'AndroidComponent',

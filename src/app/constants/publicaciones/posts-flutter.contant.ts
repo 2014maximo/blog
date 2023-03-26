@@ -9,7 +9,7 @@ export const FLUTTER: DatosPost[] = [
     {
         id: '9249441409',
         nombre: 'Flutter',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         ruta: 'flutter',
         componente: 'FlutterComponent',

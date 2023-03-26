@@ -10,7 +10,7 @@ export const LINUX: DatosPost[] = [
     {
         id: '3574124706',
         nombre: 'LINUX',
-        descripcion: '',
+        descripcion: [],
         descripcionCorta: '',
         ruta: 'linux',
         componente: 'LinuxComponent',
