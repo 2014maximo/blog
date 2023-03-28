@@ -190,7 +190,12 @@ export interface DescripcionModel {
     descripciones: string[]
 }
 
-export interface SubCategoriaModel {
-    subCategoria: string,
-    post: DatosPost[]
+export class SubCategoriaModel {
+    subCategoria: string;
+    post: DatosPost[];
+
+    constructor(){
+        this.subCategoria = '';
+        this.post = [];
+    }
 }

@@ -5,6 +5,12 @@
             <div class="col-md-8">
                 <h2 class="tituloPost f-bebas p-2">{{ this.categoria.nombre }}</h2>
                 <app-indice-contenidos [indice]="indice"></app-indice-contenidos>
+                <div class="espacio"></div>
+                <div *ngFor="let subcatego of subCategorias">
+                    <h2 class="tituloPost f-bebas p-2">{{ subcatego.subCategoria }}</h2>
+                    <app-indice-contenidos [indice]="indice"></app-indice-contenidos>
+                </div>
+
                 
             </div>
             <div class="col-md-4"></div>

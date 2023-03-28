@@ -10,6 +10,7 @@ import { DatosPost } from '../../../models/categorias.model';
 export class EncabezadoPublicacionComponent implements OnInit {
 
   @Input() idPublicacion: string = '';
+  @Input() rutaIconoSugerido: string = '';
 
   public publicacion = new DatosPost();
 

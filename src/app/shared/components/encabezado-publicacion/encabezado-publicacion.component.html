@@ -4,7 +4,8 @@
         <div class="row">
             <div class="col-md-5 d-flex flex-column">
                 <div>
-                    <img src="{{ this.extraerDatoCategoria(publicacion.categoria, 12) }}" alt="" height="50" width="auto" class="drop">
+                    <img *ngIf="rutaIconoSugerido" src="{{ rutaIconoSugerido }}" alt="" height="50" width="auto" class="drop">
+                    <img *ngIf="!rutaIconoSugerido" src="{{ this.extraerDatoCategoria(publicacion.categoria, 12) }}" alt="" height="50" width="auto" class="drop">
                 </div>
                 <div class="espacio"></div>
                 <br>
