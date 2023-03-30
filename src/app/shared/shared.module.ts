@@ -20,6 +20,7 @@ import { PaginadorComponent } from './components/paginador/paginador.component';
 import { EncabezadoCategoriaComponent } from './components/encabezado-categoria/encabezado-categoria.component';
 import { GlosarioComponent } from './components/glosario/glosario.component';
 import { EncabezadoPublicacionComponent } from './components/encabezado-publicacion/encabezado-publicacion.component';
+import { IndiceLinksComponent } from './components/indice-links/indice-links.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { EncabezadoPublicacionComponent } from './components/encabezado-publicac
     EncabezadoCategoriaComponent,
     GlosarioComponent,
     EncabezadoPublicacionComponent,
+    IndiceLinksComponent,
   ],
   imports: [
     CommonModule,
@@ -66,7 +68,8 @@ import { EncabezadoPublicacionComponent } from './components/encabezado-publicac
     EncabezadoCategoriaComponent,
     PaginadorComponent,
     EncabezadoPublicacionComponent,
-    GlosarioComponent
+    GlosarioComponent,
+    IndiceLinksComponent
   ]
 })
 export class SharedModule { }

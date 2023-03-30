@@ -1,5 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { IndiceDeContenidosModel } from 'src/app/models/indice.model';
+import { DatosPost, CategoriaPostModel, SubCategoriaModel } from '../../../models/categorias.model';
+import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
 
 @Component({
   selector: 'app-indice-contenidos',
@@ -17,14 +19,43 @@ export class IndiceContenidosComponent implements OnInit {
       color: '',
       estado: ''
     },
-  ]
-  
-  @Input() clase: string = '';
+  ];
 
+  @Input() categoria: string = '';
+  @Input() contenido: string = '';
+  @Input() clase: string = '';
+  
+  public posts: DatosPost[] = [];
+  public subcategorias: SubCategoriaModel[] = [];
 
   constructor() { }
 
   ngOnInit(): void {
+    CATEGORIA.forEach(( p: CategoriaPostModel ) => {
+      if(p.nombre.includes(this.categoria)){this.posts = p.post; this.subcategorias = p.subcategorias}
+    });
+
+    switch(this.contenido){
+      case 'subcategorias':
+        this.cargarSubcategorias();
+        break;
+      
+      /* case 'categorias': */
+        
+    }
+  }
+
+  private cargarSubcategorias(){
+    this.subcategorias.forEach(( c: SubCategoriaModel, i:number ) => {
+      c.post.forEach((p: DatosPost, idx: number) => {
+        this.indice[idx].color = p.estilos.color;
+        this.indice[idx].colorFondo = p.estilos.colorFondo;
+        this.indice[idx].estado = p.estado;
+        this.indice[idx].nombre = p.nombre;
+        this.indice[idx].posicion = p.posicion;
+        this.indice[idx].ruta = p.ruta;
+      })
+    });
   }
 
   scroll(id: string) {
