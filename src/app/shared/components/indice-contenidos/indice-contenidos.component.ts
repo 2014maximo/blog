@@ -40,15 +40,27 @@ export class IndiceContenidosComponent implements OnInit {
         this.cargarSubcategorias();
         break;
       
-      /* case 'categorias': */
-        
+      case 'categorias':
+        this.cargarCategorias();
+        break;
     }
+  }
+
+  private cargarCategorias(){
+    this.posts.forEach(( p:DatosPost, indice:number) => {
+      this.indice[indice].color = p.estilos.color;
+      this.indice[indice].colorFondo = p.estilos.colorFondo;
+      this.indice[indice].estado = p.estado;
+      this.indice[indice].nombre = p.nombre;
+      this.indice[indice].posicion = p.posicion;
+      this.indice[indice].ruta = p.ruta;
+    })
   }
 
   private cargarSubcategorias(){
     this.subcategorias.forEach(( c: SubCategoriaModel, i:number ) => {
       c.post.forEach((p: DatosPost, idx: number) => {
-        this.indice[idx].color = p.estilos.color;
+        this.indice[idx].color = 'text-light';
         this.indice[idx].colorFondo = p.estilos.colorFondo;
         this.indice[idx].estado = p.estado;
         this.indice[idx].nombre = p.nombre;

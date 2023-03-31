@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CategoriaModel } from '../../../../models/post.model';
 import { IndiceDeContenidosModel } from '../../../../models/indice.model';
+import { CONTENIDO_1 } from './constants/contenido.constant';
 
 @Component({
   selector: 'app-ng-rxjs-first-value-from',
@@ -18,8 +19,8 @@ export class NgRxjsFirstValueFromComponent implements OnInit {
     colorText: 'c-Angular',
     ruta: 'angular'
   }
+  public contenidos = CONTENIDO_1;
 
-  
   constructor() { }
   
   ngOnInit(): void {

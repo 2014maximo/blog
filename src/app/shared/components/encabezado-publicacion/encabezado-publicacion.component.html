@@ -20,8 +20,8 @@
             <div class="col-md-7">
                 <h2 class="tituloPost f-bebas p-2">{{ publicacion.nombre }}</h2>
 
-                <p class="text-light f-open-sans-c fs-20 lh-30">
-                    {{ publicacion.descripcion }}
+                <p *ngFor="let contenido of publicacion.descripcion" class="text-light f-open-sans-c fs-20 lh-30">
+                    {{ contenido }}
                 </p>
             </div>
         </div>

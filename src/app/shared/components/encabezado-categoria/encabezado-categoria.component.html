@@ -8,10 +8,8 @@
                 <div class="espacio"></div>
                 <div *ngFor="let subcatego of subCategorias">
                     <h2 class="tituloPost f-bebas p-2">{{ subcatego.subCategoria }}</h2>
-                    <app-indice-links></app-indice-links>
+                    <app-indice-contenidos [contenido]="'subcategorias'" [categoria]="'angular'"></app-indice-contenidos>
                 </div>
-
-                
             </div>
             <div class="col-md-4"></div>
         </div>
