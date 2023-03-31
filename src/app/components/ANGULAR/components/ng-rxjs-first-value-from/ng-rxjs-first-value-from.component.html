@@ -2,7 +2,7 @@
 <app-header-home [categoria]="breadcrumb"></app-header-home>
 <div class="espaciado"></div>
 <app-encabezado-publicacion [idPublicacion]="idPublicacion" [rutaIconoSugerido]="'assets/img/icons/RXJS.png'"></app-encabezado-publicacion>
-<div class="espacio"></div>
+<div class="espaciado"></div>
 
 <div class="row">
     <div class="col-1"></div>
@@ -10,9 +10,9 @@
         <div class="row">
             <div class="col-md-7">
                 <h2 class="m-0 p-0 f-shadow-into-l fw-3 fs-30 text-secondary m-0 p-0 text-uppercase">CARACTERISTICAS</h2>
-                <ul class="m-0 p-0">
+                <ul class="m-0 p-0 list-unstyled">
                     <li class="m-0 p-0" *ngFor="let contenido of contenidos.caracteristicas">
-                        <p class="text-light f-open-sans-c fs-18 lh-20 m-0 p-0">
+                        <p class="text-light f-open-sans-c fs-18 lh-20 p-0">
                             {{ contenido }}
                         </p>
                     </li>
@@ -20,7 +20,7 @@
             </div>
             <div class="col-md-5"></div>
         </div>
-        <div class="espacio"></div>
+        <div class="espaciado"></div>
         <div class="row">
             <div class="col-md-7">
                 <h2 class="m-0 p-0 f-shadow-into-l fw-3 fs-30 text-secondary m-0 p-0 text-uppercase">EJEMPLOS</h2>

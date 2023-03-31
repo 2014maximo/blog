@@ -57,7 +57,7 @@ import { GestionFormularioComponent } from './ESTADISTICA/gestion-formulario/ges
 import { DartElementosComponent } from './DART/dart-elementos/dart-elementos.component';
 import { FlutterElementosComponent } from './FLUTTER/flutter-elementos/flutter-elementos.component';
 import { NgCorsComponent } from './ANGULAR/components/ng-cors/ng-cors.component';
-import { CssBootstrap4clasesComponent } from './CSS/css-bootstrap4clases/css-bootstrap4clases.component';
+import { CssBootstrap4clasesComponent } from './CSS/components/css-bootstrap4clases/css-bootstrap4clases.component';
 import { EtronInstalacionComponent } from './ELECTRON/etron-instalacion/etron-instalacion.component';
 import { GitInstalacionComponent } from './GIT/git-instalacion/git-instalacion.component';
 import { DevPrincipiosSolidComponent } from './DEVELOPER/components/dev-principios-solid/dev-principios-solid.component';

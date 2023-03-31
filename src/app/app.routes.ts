@@ -55,7 +55,7 @@ import { GestionFormularioComponent } from './components/ESTADISTICA/gestion-for
 import { DartElementosComponent } from './components/DART/dart-elementos/dart-elementos.component';
 import { FlutterElementosComponent } from './components/FLUTTER/flutter-elementos/flutter-elementos.component';
 import { NgCorsComponent } from './components/ANGULAR/components/ng-cors/ng-cors.component';
-import { CssBootstrap4clasesComponent } from './components/CSS/css-bootstrap4clases/css-bootstrap4clases.component';
+import { CssBootstrap4clasesComponent } from './components/CSS/components/css-bootstrap4clases/css-bootstrap4clases.component';
 import { ANGULAR } from './constants/publicaciones/posts-angular.constant';
 import { EtronInstalacionComponent } from './components/ELECTRON/etron-instalacion/etron-instalacion.component';
 import { GitInstalacionComponent } from './components/GIT/git-instalacion/git-instalacion.component';

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { traerPost } from '../../../shared/constants/funciones/funciones-globales';
-import { POSTS } from '../../../constants/post.constant';
-import { CategoriaModel, HeaderPostModel } from '../../../models/post.model';
+import { traerPost } from '../../../../shared/constants/funciones/funciones-globales';
+import { POSTS } from '../../../../constants/post.constant';
+import { CategoriaModel, HeaderPostModel } from '../../../../models/post.model';
 
 @Component({
   selector: 'app-css-bootstrap4clases',
