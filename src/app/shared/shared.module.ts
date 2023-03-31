@@ -2,21 +2,25 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { SliderHomeComponent } from './slider-home/slider-home.component';
-import { HeaderHomeComponent } from './header-home/header-home.component';
-import { FrasesComponent } from './frases/frases.component';
-import { MenuHomeComponent } from './menu-home/menu-home.component';
-import { FooterHomeComponent } from './footer-home/footer-home.component';
-import { HeaderPostComponent } from './header-post/header-post.component';
-import { AccordeonComponent } from './accordeon/accordeon.component';
-import { IndiceContenidosComponent } from './indice-contenidos/indice-contenidos.component';
-import { BloqueContenidosComponent } from './bloque-contenidos/bloque-contenidos.component';
-import { LoginComponent } from './login/login.component';
+import { SliderHomeComponent } from './components/slider-home/slider-home.component';
+import { HeaderHomeComponent } from './components/header-home/header-home.component';
+import { FrasesComponent } from './components/frases/frases.component';
+import { MenuHomeComponent } from './components/menu-home/menu-home.component';
+import { FooterHomeComponent } from './components/footer-home/footer-home.component';
+import { HeaderPostComponent } from './components/header-post/header-post.component';
+import { AccordeonComponent } from './components/accordeon/accordeon.component';
+import { IndiceContenidosComponent } from './components/indice-contenidos/indice-contenidos.component';
+import { BloqueContenidosComponent } from './components/bloque-contenidos/bloque-contenidos.component';
+import { LoginComponent } from './components/login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { GaleriaPostComponent } from './galeria-post/galeria-post.component';
-import { HeadlineComponent } from './headline/headline.component';
-import { PrintCodeComponent } from './print-code/print-code.component';
-import { PaginadorComponent } from './paginador/paginador.component';
+import { GaleriaPostComponent } from './components/galeria-post/galeria-post.component';
+import { HeadlineComponent } from './components/headline/headline.component';
+import { PrintCodeComponent } from './components/print-code/print-code.component';
+import { PaginadorComponent } from './components/paginador/paginador.component';
+import { EncabezadoCategoriaComponent } from './components/encabezado-categoria/encabezado-categoria.component';
+import { GlosarioComponent } from './components/glosario/glosario.component';
+import { EncabezadoPublicacionComponent } from './components/encabezado-publicacion/encabezado-publicacion.component';
+import { IndiceLinksComponent } from './components/indice-links/indice-links.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +40,10 @@ import { PaginadorComponent } from './paginador/paginador.component';
     HeadlineComponent,
     PrintCodeComponent,
     PaginadorComponent,
+    EncabezadoCategoriaComponent,
+    GlosarioComponent,
+    EncabezadoPublicacionComponent,
+    IndiceLinksComponent,
   ],
   imports: [
     CommonModule,
@@ -57,7 +65,11 @@ import { PaginadorComponent } from './paginador/paginador.component';
     IndiceContenidosComponent,
     BloqueContenidosComponent,
     GaleriaPostComponent,
-    PaginadorComponent
+    EncabezadoCategoriaComponent,
+    PaginadorComponent,
+    EncabezadoPublicacionComponent,
+    GlosarioComponent,
+    IndiceLinksComponent
   ]
 })
 export class SharedModule { }

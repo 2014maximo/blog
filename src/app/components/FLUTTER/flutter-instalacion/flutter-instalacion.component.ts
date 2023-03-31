@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { copiarAlPortapapeles, traerPost } from 'src/app/constants/funciones-globales';
+import { copiarAlPortapapeles, traerPost } from 'src/app/shared/constants/funciones/funciones-globales';
 import { PostModel } from 'src/app/models/post.model';
 import { POSTS } from '../../../constants/post.constant';
 import { CategoriaModel, AccordeonModel } from '../../../models/post.model';

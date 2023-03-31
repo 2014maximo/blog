@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel, CategoriaModel } from '../../../models/post.model';
 import { repositorioContenidoImagenes } from '../../../constants/globales.constant';
-import { copiarAlPortapapeles } from '../../../constants/funciones-globales';
+import { copiarAlPortapapeles } from '../../../shared/constants/funciones/funciones-globales';
 import { ClipboardModel } from '../../../models/categorias.model';
 
 @Component({

@@ -36,8 +36,8 @@ import { JavaInstalacionComponent } from './JAVA/java-instalacion/java-instalaci
 import { JsNodeJsComponent } from './JAVASCRIPT/js-node-js/js-node-js.component';
 import { JsInstalandoNodeConNvmComponent } from './JAVASCRIPT/js-instalando-node-con-nvm/js-instalando-node-con-nvm.component';
 import { DevControlesVisualStudioCodeComponent } from './DEVELOPER/dev-controles-visual-studio-code/dev-controles-visual-studio-code.component';
-import { NgDescripcionElementosComponent } from './ANGULAR/ng-descripcion-elementos/ng-descripcion-elementos.component';
-import { NgInstalacionComponent } from './ANGULAR/ng-instalacion/ng-instalacion.component';
+import { NgDescripcionElementosComponent } from './ANGULAR/components/ng-descripcion-elementos/ng-descripcion-elementos.component';
+import { NgInstalacionComponent } from './ANGULAR/components/ng-instalacion/ng-instalacion.component';
 import { Prime7DescripcionElementosComponent } from './ANGULAR/prime7-descripcion-elementos/prime7-descripcion-elementos.component';
 import { Prime7TablecheckboxComponent } from './ANGULAR/prime7-tablecheckbox/prime7-tablecheckbox.component';
 import { AndroidComponent } from './ANDROID/android/android.component';
@@ -45,21 +45,23 @@ import { AndrAndroidStudioComponent } from './ANDROID/andr-android-studio/andr-a
 import { DbFirebaseComponent } from './DB/db-firebase/db-firebase.component';
 import { DbSqlComponent } from './DB/db-sql/db-sql.component';
 import { DbSqlServerComponent } from './DB/db-sql-server/db-sql-server.component';
-import { DevSuperRecursosComponent } from './DEVELOPER/dev-super-recursos/dev-super-recursos.component';
+import { DevSuperRecursosComponent } from './DEVELOPER/components/dev-super-recursos/dev-super-recursos.component';
 import { SenaFichaActualComponent } from './SENA/sena-ficha-actual/sena-ficha-actual.component';
 import { SenaRecursosInformativosComponent } from './SENA/sena-recursos-informativos/sena-recursos-informativos.component';
 import { JavaGlassfishComponent } from './JAVA/java-glassfish/java-glassfish.component';
 import { JsTypescriptElementosComponent } from './JAVASCRIPT/js-typescript-elementos/js-typescript-elementos.component';
 import { PhpElementosComponent } from './PHP/php-elementos/php-elementos.component';
-import { NgComunicacionEntreComponentesComponent } from './ANGULAR/ng-comunicacion-entre-componentes/ng-comunicacion-entre-componentes.component';
+import { NgComunicacionEntreComponentesComponent } from './ANGULAR/components/ng-comunicacion-entre-componentes/ng-comunicacion-entre-componentes.component';
 import { DevDiagramasSecuenciaComponent } from './DEVELOPER/dev-diagramas-secuencia/dev-diagramas-secuencia.component';
 import { GestionFormularioComponent } from './ESTADISTICA/gestion-formulario/gestion-formulario.component';
 import { DartElementosComponent } from './DART/dart-elementos/dart-elementos.component';
 import { FlutterElementosComponent } from './FLUTTER/flutter-elementos/flutter-elementos.component';
-import { NgCorsComponent } from './ANGULAR/ng-cors/ng-cors.component';
+import { NgCorsComponent } from './ANGULAR/components/ng-cors/ng-cors.component';
 import { CssBootstrap4clasesComponent } from './CSS/css-bootstrap4clases/css-bootstrap4clases.component';
 import { EtronInstalacionComponent } from './ELECTRON/etron-instalacion/etron-instalacion.component';
 import { GitInstalacionComponent } from './GIT/git-instalacion/git-instalacion.component';
+import { DevPrincipiosSolidComponent } from './DEVELOPER/components/dev-principios-solid/dev-principios-solid.component';
+import { NgRxjsFirstValueFromComponent } from './ANGULAR/components/ng-rxjs-first-value-from/ng-rxjs-first-value-from.component';
 
 
 
@@ -124,7 +126,9 @@ import { GitInstalacionComponent } from './GIT/git-instalacion/git-instalacion.c
     NgCorsComponent,
     CssBootstrap4clasesComponent,
     EtronInstalacionComponent,
-    GitInstalacionComponent
+    GitInstalacionComponent,
+    DevPrincipiosSolidComponent,
+    NgRxjsFirstValueFromComponent
   ],
   imports: [
     CommonModule,

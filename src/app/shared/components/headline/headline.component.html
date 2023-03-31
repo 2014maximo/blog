@@ -1,0 +1,47 @@
+<div class="row" *ngIf="!encabezado.incluirFondo">
+    <div class="col-md-12">
+        <!-- IMAGEN TITULAR ------------------------------------>
+        <div class="headerPost sombraUno d-none d-md-block" [ngStyle]="{'background-image': 'url(' + encabezado.rutaImagen + ')'}">
+        </div>
+        <div class="espacio"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="tituloPost p-2 f-bebas fs-80">{{ this.encabezado.nombre }}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" *ngIf="encabezado.incluirFondo">
+    <div class="col-md-12">
+        
+        <div class="espacio"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 d-flex flex-column">
+                    <div>
+                        <img src="{{ this.extraerDatoCategoria(encabezado.categoria, 12) }}" alt="" height="50" width="auto" class="drop">
+                    </div>
+                    <div class="espacio"></div>
+                    <br>
+                    <div class="d-flex">
+                        <p class="tc-gray-two f-shadow-into-l fs-17 lh-17 m-0 p-0 texto-lateral m-0">
+                            <small>{{ fechaAString(this.encabezado.fechaActualizacion? this.encabezado.fechaActualizacion : this.encabezado.fechaCreacion) | date }}</small>
+                        </p>
+                    </div>
+                    <div class="espaciado"></div>
+
+                </div>
+                <div class="col-md-7">
+                    <h2 class="tituloPost f-bebas p-2">{{ this.encabezado.nombre }}</h2>
+
+                    <p class="text-light f-open-sans-c fs-20 lh-30">
+                        {{ this.encabezado.descripcion }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="espaciado"></div>

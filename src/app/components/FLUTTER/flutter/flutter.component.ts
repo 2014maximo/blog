@@ -43,18 +43,18 @@ export class FlutterComponent implements OnInit {
       {
         nombre: 'INSTALACIÓN',
         posicion: 'pos-z',
-        rutaExterna: 'flutter-instalacion',
-        fondo: 'bg-Flutter',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'flutter-instalacion',
+        colorFondo: 'bg-Flutter',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'ELEMENTOS Y DESCRIPCIÓN',
         posicion: 'pos-z',
-        rutaExterna: 'flutter-elementos',
-        fondo: 'bg-Flutter',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'flutter-elementos',
+        colorFondo: 'bg-Flutter',
+        color: 'text-light',
+        estado: 'activo'
       }
     ]
   }

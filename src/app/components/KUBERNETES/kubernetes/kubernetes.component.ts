@@ -42,18 +42,18 @@ export class KubernetesComponent implements OnInit {
       {
         nombre: 'PROPIEDADES',
         posicion: 'pos-z',
-        rutaExterna: 'javascript-propiedades',
-        fondo: 'bg-Kubernetes',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'javascript-propiedades',
+        colorFondo: 'bg-Kubernetes',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'REPASON DOCKER',
         posicion: 'pos-z',
-        rutaExterna: 'recorrer-arrays-objetos',
-        fondo: 'bg-Kubernetes',
-        colorTexto: 'text-light',
-        activo: false
+        ruta: 'recorrer-arrays-objetos',
+        colorFondo: 'bg-Kubernetes',
+        color: 'text-light',
+        estado: 'inactivo'
       }
     ]
   }

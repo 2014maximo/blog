@@ -1,26 +1,50 @@
 export class PostModel {
-    id_post: string = '';
-    nombre: string = '';
-    categoria: any;
-    ruta: string = '';
-    rutaImagen: string = '';
-    fechaCreacion: Date = new Date();
-    fechaActualizacion: Date = new Date();
-    incluirFondo: boolean = false;
-    sombra: string = '';
-    alturaImagen: string = '';
-    mostrarBreadcrumb: boolean = true;
-    colorText: string = 'tc-green-one';
+    id_post: string;
+    nombre: string;
+    categoria: string;
+    ruta: string;
+    rutaImagen: string;
+    fechaCreacion: Date;
+    fechaActualizacion: Date;
+    incluirFondo: boolean;
+    sombra: string;
+    alturaImagen: string;
+    mostrarBreadcrumb: boolean;
+    colorText: string;
     descripcion?: string;
+
+    constructor(){
+        this.id_post = '';
+        this.nombre = '';
+        this.categoria = '';
+        this.ruta = '';
+        this.rutaImagen = '';
+        this.fechaCreacion = new Date();
+        this.fechaActualizacion = new Date();
+        this.incluirFondo = false;
+        this.sombra = '';
+        this.alturaImagen = '';
+        this.mostrarBreadcrumb = true;
+        this.colorText = '';
+        this.descripcion = '';
+    }
 }
 
 export class HeaderPostModel {
     
-    rutaImagen: string = '';
-    fondo: boolean = false;
-    tituloPost: string = '';
-    alturaImagen: string = '';
-    sombra?: string = '';
+    rutaImagen: string;
+    fondo: boolean;
+    tituloPost: string;
+    alturaImagen: string;
+    sombra?: string;
+
+    constructor(){
+        this.rutaImagen = '';
+        this.fondo = false;
+        this.tituloPost = '';
+        this.alturaImagen = '';
+        this.sombra = '';
+    }
 
 }
 export class ObjectAccordeonPostModel {
@@ -35,11 +59,19 @@ export class AccordeonPostModel {
 }
 
 export class AccordeonModel {
-    nClass: string = '';
+    nClass: string;
     elemento: string = '';
-    mostrarlo?: boolean = false;
+    mostrarlo?: boolean;
     contenido?: string = '';
-    contenidoLista?: ListaModel[] = [];
+    contenidoLista?: ListaModel[];
+
+    constructor(){
+        this.nClass = '';
+        this.elemento = '';
+        this.mostrarlo = false;
+        this.contenido = '';
+        this.contenidoLista = []
+    }
 }
 
 export class ListaModel {

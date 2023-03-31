@@ -278,6 +278,12 @@ html{
 .c-React{
     color: #5adafd;
 } 
+.bg-Rxjs{
+    background-color: #c2185b;
+}
+.c-Rxjs{
+    color: #c2185b;
+} 
 
 .bg-Sql{
     background-color: #fdb200;

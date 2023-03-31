@@ -44,54 +44,54 @@ export class JavascriptComponent implements OnInit {
       {
         nombre: 'ELEMENTOS',
         posicion: 'pos-z',
-        rutaExterna: 'js-elementos',
-        fondo: 'bg-Javascript',
-        colorTexto: 't2 textoHoverBlanco',
-        activo: true
+        ruta: 'js-elementos',
+        colorFondo: 'bg-Javascript',
+        color: 't2 textoHoverBlanco',
+        estado: 'activo'
       },
       {
         nombre: 'RECORRER ARRAY OBJETOS',
         posicion: 'pos-z',
-        rutaExterna: 'js-recorrer-arrays-objetos',
-        fondo: 'bg-Javascript',
-        colorTexto: 't2 textoHoverBlanco',
-        activo: true
+        ruta: 'js-recorrer-arrays-objetos',
+        colorFondo: 'bg-Javascript',
+        color: 't2 textoHoverBlanco',
+        estado: 'activo'
       },
       {
         nombre: 'TRABAJO CON FECHAS',
         posicion: 'pos-z',
-        rutaExterna: 'js-trabajo-fechas',
-        fondo: 'bg-Javascript',
-        colorTexto: 't2 textoHoverBlanco',
-        activo: true
+        ruta: 'js-trabajo-fechas',
+        colorFondo: 'bg-Javascript',
+        color: 't2 textoHoverBlanco',
+        estado: 'activo'
       },
     ]
     this.indiceNodeJs = [
       {
         nombre: 'NODE JS',
         posicion: 'pos-z',
-        rutaExterna: 'js-node-js',
-        fondo: 'bg-Javascript',
-        colorTexto: 't2 textoHoverBlanco',
-        activo: true
+        ruta: 'js-node-js',
+        colorFondo: 'bg-Javascript',
+        color: 't2 textoHoverBlanco',
+        estado: 'activo'
       },
       {
         nombre: 'NODE JS CON NVM',
         posicion: 'pos-z',
-        rutaExterna: 'js-instalando-node-con-nvm',
-        fondo: 'bg-Javascript',
-        colorTexto: 't2 textoHoverBlanco',
-        activo: true
+        ruta: 'js-instalando-node-con-nvm',
+        colorFondo: 'bg-Javascript',
+        color: 't2 textoHoverBlanco',
+        estado: 'activo'
       },
     ]
     this.indiceTypescript = [
       {
         nombre: 'ELEMENTOS',
         posicion: 'pos-z',
-        rutaExterna: 'js-typescript-elementos',
-        fondo: 'bg-Javascript',
-        colorTexto: 't2 textoHoverBlanco',
-        activo: true
+        ruta: 'js-typescript-elementos',
+        colorFondo: 'bg-Javascript',
+        color: 't2 textoHoverBlanco',
+        estado: 'activo'
       },
     ]
   }

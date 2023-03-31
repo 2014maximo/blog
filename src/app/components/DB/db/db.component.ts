@@ -42,26 +42,26 @@ export class DbComponent implements OnInit {
       {
         nombre: 'FIREBASE',
         posicion: 'pos-z',
-        rutaExterna: 'db-firebase',
-        fondo: 'bg-Sql',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'db-firebase',
+        colorFondo: 'bg-Sql',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'SQL',
         posicion: 'pos-z',
-        rutaExterna: 'db-sql',
-        fondo: 'bg-Sql',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'db-sql',
+        colorFondo: 'bg-Sql',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'SQL SERVER',
         posicion: 'pos-z',
-        rutaExterna: 'db-sql-server',
-        fondo: 'bg-Sql',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'db-sql-server',
+        colorFondo: 'bg-Sql',
+        color: 'text-light',
+        estado: 'activo'
       }
     ]
   }

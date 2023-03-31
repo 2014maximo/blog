@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { rutaCatego } from 'src/app/constants/globales.constant';
 import { CategoriaModel, AccordeonModel, PostModel } from '../../../models/post.model';
-import { traerPost, postActual } from '../../../constants/funciones-globales';
+import { traerPost, postActual } from '../../../shared/constants/funciones/funciones-globales';
 import { POSTS } from 'src/app/constants/post.constant';
 
 @Component({
@@ -15,7 +15,7 @@ export class AndrAndroidStudioComponent implements OnInit {
   public post:any = postActual('7ea51cec-4d81-44f7-a4b4-7debe4c5a42e');
   
   public cabeceraPost = {
-    nombre: this.post[0].titulo,
+    nombre: this.post[0].nombre,
     id_post: this.post[0].id,
     categoria: this.post[0].categoria,
     fechaActualizacion: this.post[0].fechaActualizacion,
@@ -45,7 +45,6 @@ export class AndrAndroidStudioComponent implements OnInit {
   ]
 
   constructor() {
-    console.log(this.post, 'POST ACTUAL');
     this.inicializarVariables();
   }
   private inicializarVariables() {

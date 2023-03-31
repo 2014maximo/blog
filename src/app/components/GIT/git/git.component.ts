@@ -42,18 +42,18 @@ export class GitComponent implements OnInit {
       {
         nombre: 'INSTALACIÓN',
         posicion: 'pos-z',
-        rutaExterna: 'git-instalacion',
-        fondo: 'bg-Git',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'git-instalacion',
+        colorFondo: 'bg-Git',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'ELEMENTOS Y DESCRIPCIÓN',
         posicion: 'pos-z',
-        rutaExterna: 'git-elementos',
-        fondo: 'bg-Git',
-        colorTexto: 'text-light',
-        activo: false
+        ruta: 'git-elementos',
+        colorFondo: 'bg-Git',
+        color: 'text-light',
+        estado: 'inactivo'
       }
     ]
 

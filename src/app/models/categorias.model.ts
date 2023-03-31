@@ -57,24 +57,74 @@ export interface DatosCategoria {
     rutaIcono:  string
 }
 
-export interface DatosPost{
-    id: string,
-    titulo: string,
-    descripcion: string,
-    descripcionCorta: string,
-    ruta: string,
-    componente: string,
-    mostrarEnPostHome: boolean,
-    estilos: EstilosPost,
-    fechaCreacion: string,
-    fechaActualizacion: string,
-    imgHorizontal: string,
-    pixabay?: ImgHorizontal,
-    imgVertical: string,
-    imgCuadro:string,
-    categoria: string,
-    imgSlider?: ImgSlider
-    estado?: string
+export class DatosPost{
+    id: string;
+    posicion: string;
+    nombre: string;
+    descripcion: string[];
+    descripcionCorta: string;
+    ruta: string;
+    componente: string;
+    mostrarEnPostHome: boolean;
+    estilos: EstilosPost;
+    fechaCreacion: string;
+    fechaActualizacion: string;
+    imgHorizontal: string;
+    pixabay?: ImgHorizontal;
+    imgVertical: string;
+    imgCuadro:string;
+    categoria: string;
+    imgSlider?: ImgSlider;
+    estado: string;
+
+    constructor(){
+        this.id = '';
+        this.posicion = '';
+        this.nombre = '';
+        this.descripcion = [];
+        this.descripcionCorta = '';
+        this.ruta = '';
+        this.componente = '';
+        this.mostrarEnPostHome = false;
+        this.estilos = {
+            color: '',
+            colorFondo: ''
+        };
+        this.fechaCreacion = '';
+        this.fechaActualizacion = '';
+        this.imgHorizontal = '';
+        this.pixabay = {
+            autor: '',
+            pathAutor: '',
+            pathPixabay: '',
+            pixabay: ''
+        },
+        this.imgVertical = '';
+        this.imgCuadro = '';
+        this.categoria = '';
+        this.imgSlider = {
+            alt: '',
+            height: '',
+            id: '',
+            ruta: '',
+            width: ''
+        },
+        this.estado = '';
+    }
+}
+
+export class GlosarioModel {
+    id: string;
+    titulo: string;
+    linkReferencia: string;
+    descripcion: string[];
+
+    constructor(){
+        this.id = '';
+        this.titulo = '';
+        this.linkReferencia = '';
+        this.descripcion = []
+    }
 }
 
 export interface ImgSlider {
@@ -87,7 +137,8 @@ export interface ImgSlider {
 }
 
 export interface EstilosPost{
-    color: string
+    color: string,
+    colorFondo: string
 }
 
 export interface ImgHorizontal {
@@ -97,23 +148,54 @@ export interface ImgHorizontal {
     pathPixabay: string
 }
 
-export interface CategoriaPostModel {
-    id:number,
-    categoria: string,
-    abertura: string,
-    rutaIcono: string,
-    alturaIcono: string,
-    estado: string,
-    rutaCategoria: string,
-    colorFondo: string,
-    color: string,
-    descripcion: string,
-    descripcionCorta: string,
-    posts: DatosPost[],
-    subcategorias: SubCategoriaModel[]
+export class CategoriaPostModel {
+    id:number;
+    nombre: string;
+    posicion: string;
+    abertura: string;
+    rutaIcono: string;
+    alturaIcono: string;
+    estado: string;
+    ruta: string;
+    colorFondo: string;
+    color: string;
+    glosario: GlosarioModel[];
+    descripcion: DescripcionModel[];
+    descripcionCorta: string;
+    post: DatosPost[];
+    subcategorias: SubCategoriaModel[];
+
+    constructor() {
+        this.abertura = '';
+        this.alturaIcono = '';
+        this.color = '';
+        this.colorFondo = '';
+        this.descripcion = [];
+        this.descripcionCorta = '';
+        this.estado = '';
+        this.glosario = [];
+        this.id = 0,
+        this.nombre = '';
+        this.posicion = '';
+        this.post = [];
+        this.rutaIcono = '';
+        this.ruta = '';
+        this.subcategorias = []
+    }
 }
 
-export interface SubCategoriaModel {
-    subCategoria: string,
-    posts: DatosPost[]
+export interface DescripcionModel {
+    autor: string,
+    linkAlAutor: string,
+    descripciones: string[]
+}
+
+export class SubCategoriaModel {
+    subCategoria: string;
+    post: DatosPost[];
+
+    constructor(){
+        this.subCategoria = '';
+        this.post = [];
+    }
 }

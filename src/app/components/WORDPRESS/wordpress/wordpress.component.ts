@@ -42,18 +42,18 @@ export class WordpressComponent implements OnInit {
       {
         nombre: 'INSTALACION',
         posicion: 'pos-z',
-        rutaExterna: 'wdps-instalacion',
-        fondo: 'bg-Wordpress',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'wdps-instalacion',
+        colorFondo: 'bg-Wordpress',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'DESCRIPCIÓN ELEMENTOS',
         posicion: 'pos-z',
-        rutaExterna: 'sql-modelo-relacional-entidad-relacion',
-        fondo: 'bg-Wordpress',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'sql-modelo-relacional-entidad-relacion',
+        colorFondo: 'bg-Wordpress',
+        color: 'text-light',
+        estado: 'activo'
       }
     ]
   }

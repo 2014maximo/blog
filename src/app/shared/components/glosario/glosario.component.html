@@ -1,0 +1,19 @@
+<h3 class="text-center f-bebas fs-50 {{ this.datosCategoria.color }} fw-6">GLOSARIO</h3>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <input type="search" (click)="borrarBusqueda($event)" (keydown)="buscarTermino($event)" class="fs-20 pl-2 pr-2 w-100 bg-transparent border border-white f-shadow-into-l {{ this.datosCategoria.color }}" placeholder="Buscar">
+    </div>
+    <div class="col-md-2"></div>
+</div>
+<div class="espacio"></div>
+
+<div class="row" *ngFor="let termino of this.glosario; let i = index">
+    <div *ngIf="!esPar(i)" class="col-md-5"></div>
+    <div class="col-7">
+        <h3 class="f-shadow-into-l {{ this.datosCategoria.color }} fs-30">{{ termino.titulo }}</h3>
+        <p class="text-light f-open-sans-c fs-20">{{ termino.descripcion }}</p>
+        <a *ngIf="termino.linkReferencia" href="{{ termino.linkReferencia }}" class="text-secondary f-open-sans-c fs-20">Más detalles...</a>
+    </div>
+    <div *ngIf="esPar(i)" class="col-md-5"></div>
+</div>

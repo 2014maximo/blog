@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel, CategoriaModel } from '../../../models/post.model';
 import { repositorioContenidoImagenes } from '../../../constants/globales.constant';
-import { copiarAlPortapapeles } from 'src/app/shared/funciones/portapapeles';
+import { copiarAlPortapapeles } from 'src/app/shared/constants/funciones/portapapeles';
 
 
 @Component({
@@ -68,7 +68,6 @@ export class SenaFichaActualComponent implements OnInit {
   }
 
   scroll(id: string) {
-    console.log(`scrolling to ${id}`);
     let el = document.getElementById(id);
     // @ts-ignore: Object is possibly 'null'.
     el.scrollIntoView();

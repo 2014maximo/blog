@@ -42,18 +42,18 @@ export class PhpComponent implements OnInit {
       {
         nombre: 'PHP INSTALACION',
         posicion: 'pos-z',
-        rutaExterna: 'php-instalacion',
-        fondo: 'bg-Php',
-        colorTexto: 'text-light',
-        activo: false
+        ruta: 'php-instalacion',
+        colorFondo: 'bg-Php',
+        color: 'text-light',
+        estado: 'inactivo'
       },
       {
         nombre: 'PHP DESCRIPCION ELEMENTOS',
         posicion: 'pos-z',
-        rutaExterna: 'php-elementos',
-        fondo: 'bg-Php',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'php-elementos',
+        colorFondo: 'bg-Php',
+        color: 'text-light',
+        estado: 'activo'
       }
     ]
   }

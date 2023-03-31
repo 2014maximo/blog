@@ -40,17 +40,18 @@ export class AndroidComponent implements OnInit {
       {
         nombre: 'ANDROID STUDIO',
         posicion: 'pos-z',
-        rutaExterna: 'andr-android-studio',
-        fondo: 'bg-Android',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'andr-android-studio',
+        colorFondo: 'bg-Android',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'ELEMENTOS Y DESCRIPCIÓN',
         posicion: 'rot-2',
-        rutaExterna: 'android-elementos',
-        fondo: 'bg-Android',
-        colorTexto: 'text-light'
+        ruta: 'android-elementos',
+        colorFondo: 'bg-Android',
+        color: 'text-light',
+        estado: 'activo'
       },
     ]
   }

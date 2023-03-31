@@ -59,7 +59,6 @@ export class JsTrabajoFechasComponent implements OnInit {
       case 1:
       anio = fecha.split('-');   
       fechaFormateada = new Date(Number(anio[0]),Number(anio[1]), Number(anio[2]));
-      console.log(fechaFormateada,'EL STRING SIN GUION');
       break
 
     }

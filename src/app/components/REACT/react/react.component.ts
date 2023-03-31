@@ -42,18 +42,18 @@ export class ReactComponent implements OnInit {
       {
         nombre: 'REACT INSTALACION',
         posicion: 'pos-z',
-        rutaExterna: 'react-insta',
-        fondo: 'bg-React',
-        colorTexto: 't2',
-        activo: true
+        ruta: 'react-insta',
+        colorFondo: 'bg-React',
+        color: 't2',
+        estado: 'activo'
       },
       {
         nombre: 'NET DESCRIPCION ELEMENTOS',
         posicion: 'pos-z',
-        rutaExterna: 'net-descripcion-elementos',
-        fondo: 'bg-React',
-        colorTexto: 't2',
-        activo: true
+        ruta: 'net-descripcion-elementos',
+        colorFondo: 'bg-React',
+        color: 't2',
+        estado: 'activo'
       }
     ]
   }

@@ -42,18 +42,18 @@ export class KotlinComponent implements OnInit {
       {
         nombre: 'PROPIEDADES',
         posicion: 'pos-z',
-        rutaExterna: 'javascript-propiedades',
-        fondo: 'bg-Kotlin',
-        colorTexto: 'text-light',
-        activo: true
+        ruta: 'javascript-propiedades',
+        colorFondo: 'bg-Kotlin',
+        color: 'text-light',
+        estado: 'activo'
       },
       {
         nombre: 'RECORRER ARRAY OBJETOS',
         posicion: 'pos-z',
-        rutaExterna: 'recorrer-arrays-objetos',
-        fondo: 'bg-Kotlin',
-        colorTexto: 'text-light',
-        activo: false
+        ruta: 'recorrer-arrays-objetos',
+        colorFondo: 'bg-Kotlin',
+        color: 'text-light',
+        estado: 'inactivo'
       }
     ]
   }
