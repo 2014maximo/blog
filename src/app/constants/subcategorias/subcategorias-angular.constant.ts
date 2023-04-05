@@ -13,7 +13,7 @@ export const SUB_NG: SubCategoriaModel[] = [
                 id: 'ebfeb1a0-10d5-49b0-aaa2-4196e8f1dd98',
                 nombre: 'FirstValueFrom() - RXJS',
                 descripcion: ['No nos va a aparecer antes de la versión 7 de RXJS, este viene a reemplazar al "toPromise()", quedando en el abismo de los obsoletos.', 'Su característica de operar es la de convertir un observable en una promesa, y esta se cumple una vez devuelva el primer valor.'],
-                descripcionCorta: '',
+                descripcionCorta: 'Inicia en la versión 7 de la librería RXJS, convierte observable en promesa.',
                 ruta: 'ng-rxjs-first-value-from',
                 componente: 'NgRxjsFirstValueFromComponent',
                 mostrarEnPostHome: true,

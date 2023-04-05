@@ -139,7 +139,7 @@
 
                 <div *ngFor="let comando of comandosAngularCli">
                     <p class="f-shadow-into-l m-0 p-0 fw-3 fs-18 text-secondary text-uppercase">{{ comando.descripcion }}</p>
-                    <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-5">{{ comando.comando }} <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('comando.comando')"></i></h3>
+                    <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-5">{{ comando.comando }} <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles(comando.comando)"></i></h3>
                 </div>
             </div>
             <div class="col-md-5"></div>

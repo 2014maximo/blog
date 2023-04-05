@@ -45,6 +45,11 @@ export const COMANDOS_ANGULAR_CLI = [
         descripcion: 'Actualiza la version de "Angular CLI"',
         comando: 'ng update @angular/cli @angular/core'
     },
+    {
+        id: 10,
+        descripcion: 'Generar un guardia de ruta en el proyecto dado.',
+        comando: 'ng generate guard guard-nombre'
+    },
 ]
 
 export const VERSIONES_ANGULAR: AccordeonModel[] = [

@@ -1385,15 +1385,6 @@ export const LINKS: BloqueContenidoModel[] = [
                         clipBoard: ''
                     },
                     {
-                        img: 'https://plantillas_dev.gitlab.io/styles/assets/icon/descargasnsn-white.png',
-                        nombreRecurso: '',
-                        height: '90',
-                        rutaRecurso: 'https://descargasnsn.to/',
-                        descripcion: 'Documentales - Cursos - Revistas y Libros - Películas - Series - Software - Juegos',
-                        red: '',
-                        clipBoard: ''
-                    },
-                    {
                         img: 'assets/img/icons/GitHub-Logo.png',
                         nombreRecurso: '',
                         height: '90',
