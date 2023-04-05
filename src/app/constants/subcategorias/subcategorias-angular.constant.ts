@@ -20,12 +20,20 @@ export const SUB_NG: SubCategoriaModel[] = [
                 estilos: ESTILO_RXJS,
                 fechaCreacion: '2023-03-24',
                 fechaActualizacion: '',
-                imgHorizontal:'',
+                imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/rxjs-firstvaluefrom-1200x800.jpg',
                 imgVertical:'',
                 imgCuadro:'',
                 categoria: 'angular',
                 posicion: 'rot-1',
-                estado: 'activo'
+                estado: 'activo',
+                imgSlider: {
+                    alt: 'RXJS - firstvaluefrom',
+                    height: '600',
+                    id: '2',
+                    ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/rxjs-firstvaluefrom-1900x800.jpg',
+                    width: 'auto',
+                    post: 'ng-rxjs-first-value-from'
+                }
             },
         ]
     }
