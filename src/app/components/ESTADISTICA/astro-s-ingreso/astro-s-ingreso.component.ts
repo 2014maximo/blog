@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HeaderPostModel } from '../../../models/post.model';
 import { WebServicesService } from '../../../services/web-services.service';
 import { SIGNOS } from '../../../constants/globales.constant';
-import { CuatroDigitosPorTres, CuatroDigitosPorTresCadena } from '../../../constants/estadistica.contant';
+import { CuatroDigitosPorTres, CuatroDigitosPorTresCadena } from '../../../constants/estadistica/estadistica.contant';
 
 
 @Component({

@@ -3,52 +3,62 @@ export const COMANDOS_ANGULAR_CLI = [
     {
         id: 1,
         descripcion: 'Crear un proyecto Angular nuevo para empezar a desarrollar',
-        comando: 'ng new nombre_aplicacion'
+        comando: 'ng new nombre_aplicacion',
+        gif: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/ng-instalacion/ng-new-project-base.gif'
     },
     {
         id: 2,
-        descripcion: 'Compila el proyecto y lo expone en una url para visualizarlo en un navegador',
-        comando: 'ng serve'
+        descripcion: 'Ejecuta el proyecto compilándolo y poder visualizarlo en el navegador por el puerto local configurado en el archivo del packete de angular package.json',
+        comando: 'ng serve',
+        gif: ''
     },
     {
         id: 3,
         descripcion: 'Lo mismo que el comando anterior pero abre el proyecto automáticamente en el navegador',
-        comando: 'ng serve o'
+        comando: 'ng serve o',
+        gif: ''
     },
     {
         id: 4,
         descripcion: 'Compila el proyecto en un puerto específico, en este caso saldría por el "localhost:4201"',
-        comando: 'ng serve --port 4201'
+        comando: 'ng serve --port 4201',
+        gif: ''
     },
     {
         id: 5,
         descripcion: 'Crea un conjunto de 3 tipos de archivos: nombredelcomponente.html, nombredelcomponente.ts, nombredelcomponente.spec.ts',
-        comando: 'ng g component ruta/nombredelcomponente'
+        comando: 'ng g component ruta/nombredelcomponente',
+        gif: ''
     },
     {
         id: 6,
         descripcion: 'Lo mismo que lo anterior sin el archivo de pruebas.spec.ts',
-        comando: 'ng g c nombre/componente --skip-tests || ng g c nombre/componente --spec=false'
+        comando: 'ng g c nombre/componente --skip-tests || ng g c nombre/componente --spec=false',
+        gif: ''
     },
     {
         id: 7,
         descripcion: 'Lo mismo que lo anterior sin el archivo de estilos',
-        comando: 'ng g c nombre/componente --skip-tests --inline-style'
+        comando: 'ng g c nombre/componente --skip-tests --inline-style',
+        gif: ''
     },
     {
         id: 8,
         descripcion: 'Crea un archivo.service.ts con la extructura de un archivo de servicios de Angular base para desarrollar',
-        comando: 'ng g s ruta/nombreArchivoService'
+        comando: 'ng g s ruta/nombreArchivoService',
+        gif: ''
     },
     {
         id: 9,
         descripcion: 'Actualiza la version de "Angular CLI"',
-        comando: 'ng update @angular/cli @angular/core'
+        comando: 'ng update @angular/cli @angular/core',
+        gif: ''
     },
     {
         id: 10,
         descripcion: 'Generar un guardia de ruta en el proyecto dado.',
-        comando: 'ng generate guard guard-nombre'
+        comando: 'ng generate guard guard-nombre',
+        gif: ''
     },
 ]
 

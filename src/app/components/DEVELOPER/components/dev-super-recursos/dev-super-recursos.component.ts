@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { LINKS } from 'src/app/constants/super-recursos.contant';
+import { LINKS } from 'src/app/constants/generales/super-recursos.contant';
 import { BloqueContenidoModel } from '../../../../models/bloque-contenidos.model';
 import { IndiceDeContenidosModel } from '../../../../models/indice.model';
 import { HeaderPostModel, CategoriaModel } from '../../../../models/post.model';

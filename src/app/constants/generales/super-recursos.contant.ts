@@ -1,5 +1,5 @@
-import { BloqueContenidoModel } from '../models/bloque-contenidos.model';
-import { repositorioContenidoImagenes, rutaCatego, rutaImgIcons } from './globales.constant';
+import { BloqueContenidoModel } from '../../models/bloque-contenidos.model';
+import { repositorioContenidoImagenes, rutaCatego, rutaImgIcons } from '../globales.constant';
 
 
 export const LINKS: BloqueContenidoModel[] = [

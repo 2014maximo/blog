@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
+import { Subject } from 'rxjs';
+import { takeUntil } from 'rxjs/operators';
 import { FRASES } from 'src/app/constants/frases.constant';
+import { FrasesModel } from 'src/app/models/web-service.model';
+import { WebServicesService } from 'src/app/services/web-services.service';
 
 @Component({
   selector: 'app-frases',
@@ -10,14 +14,33 @@ import { FRASES } from 'src/app/constants/frases.constant';
 export class FrasesComponent implements OnInit {
 
   public frases: any;
-
-  constructor() { }
+  private ondestroy$: Subject<boolean> = new Subject();
+  constructor(private webService: WebServicesService) { }
 
   ngOnInit(): void {
     this.inicializarVariables();
-   }
+  }
+
+  ngOnDestroy(): void {
+    this.ondestroy$.next(true);
+  }
+
   private inicializarVariables() {
-    this.frases = FRASES;
+    this.cargarFrases();
+  }
+
+  private cargarFrases(){
+    this.webService.consultarFrases()
+    .pipe(takeUntil(this.ondestroy$))
+    .subscribe({
+      next:(resp) => {
+        this.procesarCargaFrases(resp);
+      }
+    })
+  }
+
+  private procesarCargaFrases(resp: FrasesModel[]){
+    this.frases = resp;
   }
 
   customOptions: OwlOptions = {
