@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { LINKS } from 'src/app/constants/generales/super-recursos.contant';
-import { BloqueContenidoModel } from '../../../../models/bloque-contenidos.model';
-import { IndiceDeContenidosModel } from '../../../../models/indice.model';
-import { HeaderPostModel, CategoriaModel } from '../../../../models/post.model';
+import { LINKS } from 'src/app/components/DEVELOPER/components/dev-super-recursos/super-recursos.contant';
+import { BloqueContenidoModel } from '../../../../shared/models/bloque-contenidos.model';
+import { IndiceDeContenidosModel } from '../../../../shared/models/indice.model';
+import { HeaderPostModel, CategoriaModel } from '../../../../shared/models/post.model';
 
 @Component({
   selector: 'app-dev-super-recursos',

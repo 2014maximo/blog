@@ -1,6 +1,6 @@
-import { PostModel } from '../models/post.model';
+import { PostModel } from '../shared/models/post.model';
 import { LISTA_CATEGORIAS } from './categorias.constant';
-import { rutaCatego, rutaImgBanner } from './globales.constant';
+import { rutaCatego, rutaImgBanner } from './generales/globales.constant';
 
 export const POSTS: PostModel[] = [
     // ANDROID

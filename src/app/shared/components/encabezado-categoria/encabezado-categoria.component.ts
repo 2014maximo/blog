@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { CategoriaPostModel, DatosPost, GlosarioModel, SubCategoriaModel } from '../../../models/categorias.model';
+import { CategoriaPostModel, DatosPost, GlosarioModel, SubCategoriaModel } from '../../models/categorias.model';
 import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
-import { IndiceDeContenidosModel } from '../../../models/indice.model';
+import { IndiceDeContenidosModel } from '../../models/indice.model';
 import { postActual } from '../../constants/funciones/funciones-globales';
 
 @Component({

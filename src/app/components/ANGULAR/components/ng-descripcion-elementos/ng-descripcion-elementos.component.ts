@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel, CategoriaModel } from '../../../../models/post.model';
-import { IndiceDeContenidosModel } from '../../../../models/indice.model';
+import { HeaderPostModel, CategoriaModel } from '../../../../shared/models/post.model';
+import { IndiceDeContenidosModel } from '../../../../shared/models/indice.model';
 
 @Component({
   selector: 'app-ng-descripcion-elementos',

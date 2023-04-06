@@ -1,4 +1,4 @@
-import { CategoriasModel } from '../models/categorias.model';
+import { CategoriasModel } from '../shared/models/categorias.model';
 
 export const LISTA_CATEGORIAS = {
     ANDROID: 'android',

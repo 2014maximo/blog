@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
-import { FRASES } from 'src/app/constants/frases.constant';
-import { FrasesModel } from 'src/app/models/web-service.model';
+import { FrasesModel } from 'src/app/shared/models/web-service.model';
 import { WebServicesService } from 'src/app/services/web-services.service';
 
 @Component({

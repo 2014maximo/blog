@@ -1,7 +1,7 @@
 import { Injectable } from "@angular/core";
 import { Actions, createEffect, ofType } from '@ngrx/effects';
 import { map, mergeMap, tap } from 'rxjs/operators';
-import { PersonaModel } from "src/app/models/persona.model";
+import { PersonaModel } from "src/app/shared/models/persona.model";
 import { ContactFormService } from "src/app/services/contact-form.service";
 import * as sorteosActions from "../actions/estadistica.actions";
 

@@ -1,5 +1,5 @@
 import { createAction, props } from '@ngrx/store';
-import { PersonaModel } from 'src/app/models/persona.model';
+import { PersonaModel } from 'src/app/shared/models/persona.model';
 
 export const cargarSorteos = createAction('[Sorteos] Cargar Sorteos');
 

@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel, CategoriaModel } from '../../../models/post.model';
-import { repositorioContenidoImagenes } from '../../../constants/globales.constant';
+import { HeaderPostModel, CategoriaModel } from '../../../shared/models/post.model';
+import { repositorioContenidoImagenes } from '../../../constants/generales/globales.constant';
 import { copiarAlPortapapeles } from '../../../shared/constants/funciones/funciones-globales';
-import { ClipboardModel } from '../../../models/categorias.model';
+import { ClipboardModel } from '../../../shared/models/categorias.model';
 
 @Component({
   selector: 'app-php-elementos',

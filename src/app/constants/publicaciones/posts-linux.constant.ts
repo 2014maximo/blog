@@ -1,4 +1,4 @@
-import { DatosPost, EstilosPost } from '../../models/categorias.model';
+import { DatosPost, EstilosPost } from '../../shared/models/categorias.model';
 
 export const ESTILO_LINUX: EstilosPost = {
     color: 'c-Linux',

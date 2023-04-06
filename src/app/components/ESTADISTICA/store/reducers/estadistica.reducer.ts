@@ -1,5 +1,5 @@
 import { createReducer, on } from '@ngrx/store';
-import { PersonaModel } from 'src/app/models/persona.model';
+import { PersonaModel } from 'src/app/shared/models/persona.model';
 import { cargarSorteos, cargarSorteosError, cargarSorteosSuccess } from '../actions';
 
 export interface SorteoState {

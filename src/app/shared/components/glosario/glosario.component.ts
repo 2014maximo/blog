@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { GlosarioModel, CategoriaPostModel } from '../../../models/categorias.model';
+import { GlosarioModel, CategoriaPostModel } from '../../models/categorias.model';
 import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
 import { busquedaGeneral } from '../../constants/funciones/funciones-globales';
 

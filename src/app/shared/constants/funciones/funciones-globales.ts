@@ -1,7 +1,7 @@
 import { Route } from '@angular/router';
-import { PostModel } from '../../../models/post.model';
-import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
-import { CategoriaPostModel, DatosPost, SubCategoriaModel } from '../../../models/categorias.model';
+import { PostModel, } from '@shared/models';
+import { CATEGORIA } from '@app/constants';
+import { CategoriaPostModel, DatosPost, SubCategoriaModel } from '../../models/categorias.model';
 
 export function copiarAlPortapapeles(cadenaAlclipboard: string) {
     const selBox = document.createElement('textarea');

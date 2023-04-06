@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { ContactFormService } from 'src/app/services/contact-form.service';
-import { DataModel, PersonaModel, Usuario } from '../../../models/persona.model';
+import { DataModel, PersonaModel, Usuario } from '../../../shared/models/persona.model';
 import { cargarSorteos, cargarUsuarios } from '../store/actions';
 import { AppState } from '../store/app.reducers';
 import { PersonService } from '../../../services/person.service';

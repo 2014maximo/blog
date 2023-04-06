@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel } from '../../../models/post.model';
-import { IndiceDeContenidosModel } from '../../../models/indice.model';
+import { HeaderPostModel } from '../../../shared/models/post.model';
+import { IndiceDeContenidosModel } from '../../../shared/models/indice.model';
 
 @Component({
   selector: 'app-android',

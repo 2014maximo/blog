@@ -1,4 +1,4 @@
-import { SubCategoriaModel, EstilosPost } from '../../models/categorias.model';
+import { SubCategoriaModel, EstilosPost } from '../../shared/models/categorias.model';
 
 export const ESTILO_RXJS: EstilosPost = {
     color: 'c-Rxjs',

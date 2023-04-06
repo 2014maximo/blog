@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { datosCategoria, postActual, textoAFecha } from '../../constants/funciones/funciones-globales';
-import { DatosPost } from '../../../models/categorias.model';
+import { DatosPost } from '../../models/categorias.model';
 
 @Component({
   selector: 'app-encabezado-publicacion',

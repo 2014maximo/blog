@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { CategoriaModel, PostModel } from '../../../models/post.model';
+import { CategoriaModel, PostModel } from '../../../shared/models/post.model';
 import { traerPost } from '../../../shared/constants/funciones/funciones-globales';
 import { POSTS } from '../../../constants/post.constant';
-import { rutaCatego } from '../../../constants/globales.constant';
+import { rutaCatego } from '../../../constants/generales/globales.constant';
 
 @Component({
   selector: 'app-dart-elementos',

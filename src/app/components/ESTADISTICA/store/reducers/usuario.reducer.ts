@@ -1,6 +1,6 @@
 import { createReducer, on } from '@ngrx/store';
 import { cargarUsuario, cargarUsuarioError, cargarUsuarioSuccess } from '../actions';
-import { Usuario } from '../../../../models/persona.model';
+import { Usuario } from '../../../../shared/models/persona.model';
 
 export interface UsuarioState {
     id     : string,

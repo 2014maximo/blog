@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel, AccordeonModel, CategoriaModel } from '../../../models/post.model';
+import { HeaderPostModel, AccordeonModel, CategoriaModel } from '../../../shared/models/post.model';
 
 @Component({
   selector: 'app-js-node-js',

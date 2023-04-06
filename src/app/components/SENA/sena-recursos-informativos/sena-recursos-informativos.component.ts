@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CategoriaModel } from '../../../models/post.model';
+import { CategoriaModel } from '../../../shared/models/post.model';
 
 @Component({
   selector: 'app-sena-recursos-informativos',

@@ -1,4 +1,4 @@
-import { GlosarioModel } from '../../models/categorias.model';
+import { GlosarioModel } from '../../shared/models/categorias.model';
 
 
 export const TERMINOS_ANGULAR: GlosarioModel [] = [

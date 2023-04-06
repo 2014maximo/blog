@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { MENU_1, MENU_2, MENU_3, MENU_4, MENU_5 } from '../../../constants/menu-home.constant';
 import { CATEGORIAS } from '../../../constants/categorias.constant';
-import { CategoriasModel, CategoriaPostModel, DatosPost } from '../../../models/categorias.model';
-import { IndiceDeContenidosModel } from '../../../models/indice.model';
+import { CategoriasModel, CategoriaPostModel, DatosPost } from '../../models/categorias.model';
+import { IndiceDeContenidosModel } from '../../models/indice.model';
 import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
 import { datosCategoria, reduccionTexto } from 'src/app/shared/constants/funciones/funciones-globales';
 

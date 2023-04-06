@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { IndiceDeContenidosModel } from 'src/app/models/indice.model';
-import { DatosPost, CategoriaPostModel, SubCategoriaModel } from '../../../models/categorias.model';
+import { IndiceDeContenidosModel } from 'src/app/shared/models/indice.model';
+import { DatosPost, CategoriaPostModel, SubCategoriaModel } from '../../models/categorias.model';
 import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
 
 @Component({

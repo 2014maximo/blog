@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { HeaderPostModel } from 'src/app/models/post.model';
+import { HeaderPostModel } from 'src/app/shared/models/post.model';
 
 @Component({
   selector: 'app-header-post',

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { repositorioContenidoImagenes } from 'src/app/constants/globales.constant';
-import { HeaderPostModel, CategoriaModel } from '../../../models/post.model';
+import { repositorioContenidoImagenes } from 'src/app/constants/generales/globales.constant';
+import { HeaderPostModel, CategoriaModel } from '../../../shared/models/post.model';
 
 @Component({
   selector: 'app-js-recorrer-arrays-objetos',

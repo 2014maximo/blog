@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { CategoriaModel } from '../../../../models/post.model';
-import { IndiceDeContenidosModel } from '../../../../models/indice.model';
+import { CategoriaModel } from '../../../../shared/models/post.model';
+import { IndiceDeContenidosModel } from '../../../../shared/models/indice.model';
 import { CONTENIDO_1 } from './constants/contenido.constant';
 
 @Component({

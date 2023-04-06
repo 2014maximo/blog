@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { PostModel } from 'src/app/models/post.model';
+import { PostModel } from 'src/app/shared/models/post.model';
 import { traerPost } from '../../../shared/constants/funciones/funciones-globales';
 import { POSTS } from '../../../constants/post.constant';
-import { rutaCatego } from '../../../constants/globales.constant';
-import { CategoriaModel } from '../../../models/post.model';
+import { rutaCatego } from '../../../constants/generales/globales.constant';
+import { CategoriaModel } from '../../../shared/models/post.model';
 
 @Component({
   selector: 'app-flutter-elementos',

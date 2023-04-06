@@ -1,5 +1,5 @@
 import { createAction, props } from '@ngrx/store';
-import { Usuario } from '../../../../models/persona.model';
+import { Usuario } from '../../../../shared/models/persona.model';
 
 export const cargarUsuarios = createAction('[Usuarios] Cargar Usuarios');
 

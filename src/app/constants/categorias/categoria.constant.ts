@@ -9,7 +9,7 @@ import { GIT } from '../publicaciones/posts-git.constant';
 import { HTML } from '../publicaciones/posts-html.constant';
 import { JAVASCRIPT } from '../publicaciones/posts-javascript.constant';
 import { DB } from '../publicaciones/posts-db.constant';
-import { CategoriaPostModel } from '../../models/categorias.model';
+import { CategoriaPostModel } from '../../shared/models/categorias.model';
 import { JAVA } from '../publicaciones/posts-java.constant';
 import { LINUX } from '../publicaciones/posts-linux.constant';
 import { TERMINOS_ANGULAR } from '../glosarios/terminos.angular.constant';

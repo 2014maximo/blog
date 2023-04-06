@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
-import { DatosPost, CategoriaPostModel, SubCategoriaModel } from '../../../models/categorias.model';
+import { DatosPost, CategoriaPostModel, SubCategoriaModel } from '../../models/categorias.model';
 import { datosCategoria } from '../../constants/funciones/funciones-globales';
 
 @Component({

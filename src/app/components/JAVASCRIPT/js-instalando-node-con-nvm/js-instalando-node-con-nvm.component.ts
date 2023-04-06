@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { copiarAlPortapapeles } from 'src/app/shared/constants/funciones/portapapeles';
-import { AccordeonModel, HeaderPostModel, CategoriaModel } from '../../../models/post.model';
+import { AccordeonModel, HeaderPostModel, CategoriaModel } from '../../../shared/models/post.model';
 
 @Component({
   selector: 'app-js-instalando-node-con-nvm',

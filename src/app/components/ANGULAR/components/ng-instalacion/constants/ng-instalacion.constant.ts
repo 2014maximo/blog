@@ -1,4 +1,4 @@
-import { AccordeonModel } from '../../../../../models/post.model';
+import { AccordeonModel } from '../../../../../shared/models/post.model';
 export const COMANDOS_ANGULAR_CLI = [
     {
         id: 1,

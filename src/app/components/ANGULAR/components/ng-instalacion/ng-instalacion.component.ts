@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { copiarAlPortapapeles } from 'src/app/shared/constants/funciones/portapapeles';
-import { CategoriaModel } from '../../../../models/post.model';
-import { postActual } from '../../../../shared/constants/funciones/funciones-globales';
-import { DatosPost } from '../../../../models/categorias.model';
+import { copiarAlPortapapeles } from '@app/shared/constants/funciones/portapapeles';
+import { CategoriaModel } from '@shared/models';
+import { postActual } from '@shared/constants';
+import { DatosPost } from '@shared/models/categorias.model';
 import { COMANDOS_ANGULAR_CLI, VERSIONES_ANGULAR } from './constants/ng-instalacion.constant';
 
 @Component({

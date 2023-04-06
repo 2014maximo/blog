@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { postActual, textoAFecha, datosCategoria } from 'src/app/shared/constants/funciones/funciones-globales';
-import { PostModel } from '../../../models/post.model';
-import { DatosPost } from '../../../models/categorias.model';
+import { PostModel } from '../../models/post.model';
+import { DatosPost } from '../../models/categorias.model';
 
 @Component({
   selector: 'app-headline',
