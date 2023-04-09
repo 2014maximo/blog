@@ -1,4 +1,4 @@
-import { AccordeonModel } from '../../../../../shared/models/post.model';
+import { AccordeonModel } from '@shared/models';
 export const COMANDOS_ANGULAR_CLI = [
     {
         id: 1,
@@ -10,12 +10,12 @@ export const COMANDOS_ANGULAR_CLI = [
         id: 2,
         descripcion: 'Ejecuta el proyecto compilándolo y poder visualizarlo en el navegador por el puerto local configurado en el archivo del packete de angular package.json',
         comando: 'ng serve',
-        gif: ''
+        gif: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/ng-instalacion/ng-serve.gif'
     },
     {
         id: 3,
         descripcion: 'Lo mismo que el comando anterior pero abre el proyecto automáticamente en el navegador',
-        comando: 'ng serve o',
+        comando: 'ng serve -o',
         gif: ''
     },
     {
