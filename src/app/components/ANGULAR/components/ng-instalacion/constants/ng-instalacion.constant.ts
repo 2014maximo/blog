@@ -66,8 +66,25 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
     {
         elemento: 'ANGULAR JS (El inicio)',
         nClass: 'mostrar1',
-        contenido: 'El punto de partida de angular 20 de octubre de 2010',
-        contenidoLista: [],
+        contenido: 'Fue desarrollado en el 2009 por Miško Hevery',
+        contenidoLista: [
+          {
+            contenido: 'MVC (Model View Controller)',
+            indice: ''
+          },
+          {
+            contenido: 'ENLASE DEL MODELO DE DATOS: data binding, conexión directa entre la vista (html) y los datos (componente.ts).',
+            indice: ''
+          },
+          {
+            contenido: 'ESCRIBIR MENOS CÓDIGO: Se refiere a lo práctico del framework adaptado para generar desarrollos más ordenados.',
+            indice: ''
+          },
+          {
+            contenido: 'PRUEBAS UNITARIAS LISTAS: La librería karma para aplicar pruebas unitarias esta incluída por defecto en los paquetes.',
+            indice: ''
+          },
+        ],
         mostrarlo: true,
     },
     {

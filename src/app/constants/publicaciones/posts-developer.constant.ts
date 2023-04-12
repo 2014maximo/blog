@@ -40,7 +40,15 @@ export const DEVELOPER: DatosPost[] = [
         imgCuadro:'',
         categoria: 'developer',
         posicion: 'rot-z',
-        estado: 'activo'
+        estado: 'activo',
+        imgSlider: {
+            alt: 'Agrupación de sitios web recomendados',
+            height: '600',
+            id: '3',
+            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/poster/slide-1900x800.jpg',
+            width: 'auto',
+            post: 'dev-super-recursos'
+        }
     },
     {
         id: 'a6035e44-38f3-485e-903d-c76452cec9b3',
