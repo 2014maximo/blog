@@ -81,6 +81,14 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
             indice: ''
           },
           {
+            contenido: 'ORDENADO POR MÓDULOS: Los componentes deben pertenecer a un módulo y éste, permite centralizar la importación de librerías y recursos.',
+            indice: ''
+          },
+          {
+            contenido: 'SPA: Permite crear aplicaciones Simple Page Aplication.',
+            indice: ''
+          },
+          {
             contenido: 'PRUEBAS UNITARIAS LISTAS: La librería karma para aplicar pruebas unitarias esta incluída por defecto en los paquetes.',
             indice: ''
           },
@@ -90,16 +98,37 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
     {
         elemento: 'ANGULAR 2',
         nClass: 'mostrar2',
-        contenido: 'El punto de partida de angular 20 de octubre de 2010',
+        contenido: 'Apartir de éste, seguirá siendo "Angular" solamente, es un nuevo framework, escrito desde cero y con conceptos y formas de trabajar completamente distintos al primero.',
         contenidoLista: [
             {
               contenido: 'Utiliza un sistema de inyección de dependencias jerárquico impulsando su rendimiento de forma brutal.'
             },
             {
-              contenido: 'Implementa la detección de cambios basados en árboles unidireccionales, que también incrementa el rendimiento. Según algunos datos oficiales, Angular puede llegar a ser 5 veces más rápido que AngularJS.'
+              contenido: 'Implementa la detección de cambios basados en árboles unidireccionales, que también incrementa el rendimiento. Puede llegar a ser 5 veces más rápido que AngularJS.'
             },
             {
-              contenido: 'Orientado a móviles.'
+              contenido: 'Está orientado desde el principio a dar buen rendimiento y funcionar bien en dispositivos móviles.'
+            },
+            {
+              contenido: 'Se renderiza el mismo código de forma distinta en navegadores web que en apps móviles.'
+            },
+            {
+              contenido: 'Uso de typescript, formas especiales de utilizar el Javascript, ya es requerido su manejo.'
+            },
+            {
+              contenido: 'la sintaxis de las directivas estructurales cambia ahora, ng-repeat se sustituye por *ngFor.'
+            },
+            {
+              contenido: 'Se usan directamente las propiedades de los elementos y eventos del DOM, dado esto se retiran: ng-href, ng-src, ng-hide, ahora ya van href, src y hidden para lo mismo.'
+            },
+            {
+              contenido: 'La directiva de datos enlazados en una sola dirección (one-way data binding) se sustituye por [property].'
+            },
+            {
+              contenido: 'Cambia ng-model="prod.name" por [(ngModel)]="prod.name".'
+            },
+            {
+              contenido: 'Cambia la sintaxis para hacer routing.'
             },
           ],
         mostrarlo: true,
