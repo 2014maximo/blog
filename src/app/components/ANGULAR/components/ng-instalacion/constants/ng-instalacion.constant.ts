@@ -134,17 +134,58 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
         mostrarlo: true,
     },
     {
-        elemento: 'ANGULAR 10',
+        elemento: 'ANGULAR 4',
         nClass: 'motrarDos',
         mostrarlo: true,
         contenido: '',
         contenidoLista: [
           {
-            contenido: 'RELEASED: Jun 24, 2020'
+            contenido: 'RELEASED: Dic, 2016'
+          },
+          {
+            contenido: 'La primera gran actualización de Angular 2.'
+          },
+          {
+            contenido: 'No se uso la versión 3 porque Igor Minar, líder del equipo de Angular en Google, explicó que paso de la versión 2 a la 4 ya que el módulo de Angular Router (el que permite las SPA) tenía versión 3.3.0 y los demás módulos de Angular el 2.3.0 y esto podría o generaba errores, por lo cual decidieron alinearlo todo con la versión 4.'
+          },
+          {
+            contenido: 'Se agregó un nuevo paquete de funciones, incluida una biblioteca más eficiente y accesible para crear solicitudes HTTP, HttpClient.'
           },
         ]
 
       },
+    {
+        elemento: 'ANGULAR 5',
+        nClass: 'motrarDos',
+        mostrarlo: true,
+        contenido: '',
+        contenidoLista: [
+          {
+            contenido: 'RELEASED: Nov 1, 2017.'
+          },
+          {
+            contenido: 'Soporte para aplicaciones web progresivas.'
+          },
+          {
+            contenido: 'AOT será el default.'
+          },
+          {
+            contenido: 'Chequeo de tipos en templates.'
+          },
+          {
+            contenido: 'Metadata más flexible.'
+          },
+          {
+            contenido: 'Se removerán los archivos .ngfactory.ts.'
+          },
+          {
+            contenido: 'Mejores mensajes de error.'
+          },
+          {
+            contenido: 'Mejoramiento de performance.'
+          },
+        ]
+      },   
       {
         elemento: 'ANGULAR 11',
         nClass: 'motrarDos',
