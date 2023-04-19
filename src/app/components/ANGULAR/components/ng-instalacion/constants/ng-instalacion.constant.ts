@@ -167,7 +167,7 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
             contenido: 'Soporte para aplicaciones web progresivas.'
           },
           {
-            contenido: 'AOT será el default.'
+            contenido: 'AOT(AHead Of Time) será default. Este se refiere los bundles de compilación generados serán más pequeños eliminando espacios en blanco.'
           },
           {
             contenido: 'Chequeo de tipos en templates.'
@@ -183,6 +183,9 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
           },
           {
             contenido: 'Mejoramiento de performance.'
+          },
+          {
+            contenido: 'Nuevos eventos del ciclo de vida del enrutador: Se agregan nuevos eventos de ciclo de vida al "router", lo que permite a los desarrolladores rastrear el ciclo del enrutador desde el inicio de la ejecución hasta la finalización de la activación. En orden de lanzamiento serían: -GuardsCheckStart, -ChildActivationStart, -ActivationStart, -GuardsCheckEnd, -ResolveStart, ResolveEnd, -ActivationEnd, -ChildActivationEnd.'
           },
         ]
       },   
