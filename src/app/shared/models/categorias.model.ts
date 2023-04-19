@@ -117,13 +117,15 @@ export class GlosarioModel {
     id: string;
     titulo: string;
     linkReferencia: string;
+    mostrar: boolean;
     descripcion: string[];
 
     constructor(){
         this.id = '';
         this.titulo = '';
         this.linkReferencia = '';
-        this.descripcion = []
+        this.descripcion = [];
+        this.mostrar = false;
     }
 }
 

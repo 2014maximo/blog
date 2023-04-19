@@ -20,7 +20,7 @@ export class GlosarioComponent implements OnInit {
 
   ngOnInit(): void {
     this.datosCategoria = CATEGORIA.filter((cat:CategoriaPostModel) => cat.nombre === this.categoria)[0];
-    this.glosario = this.glosarioCache = this.datosCategoria.glosario;
+    this.glosario = this.glosarioCache = this.datosCategoria.glosario.filter(referencias => referencias.mostrar);
   }
 
   public esPar(numero: any): boolean{

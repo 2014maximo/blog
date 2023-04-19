@@ -5,6 +5,7 @@ export const TERMINOS_JAVASCRIPT: GlosarioModel [] = [
     {
         id: 'f0ae2bc0-7ec8-4fe5-a6bc-5734bc75dd8b',
         titulo: 'Eventos',
+        mostrar:true,
         linkReferencia: 'js-elementos',
         descripcion: [
             '(focus) = al hacer foco en...',
