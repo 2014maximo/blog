@@ -10,7 +10,7 @@
 
 <div class="row" *ngFor="let termino of this.glosario; let i = index">
     <div *ngIf="!esPar(i)" class="col-md-5"></div>
-    <div class="col-7">
+    <div class="col-md-7">
         <h3 class="f-shadow-into-l {{ this.datosCategoria.color }} fs-30">{{ termino.titulo }}</h3>
         <p class="text-light f-open-sans-c fs-20">{{ termino.descripcion }}</p>
         <a *ngIf="termino.linkReferencia" href="{{ termino.linkReferencia }}" class="text-secondary f-open-sans-c fs-20">Más detalles...</a>

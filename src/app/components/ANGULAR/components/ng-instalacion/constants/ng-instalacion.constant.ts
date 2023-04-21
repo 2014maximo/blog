@@ -98,8 +98,11 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
     {
         elemento: 'ANGULAR 2',
         nClass: 'mostrar2',
-        contenido: 'Apartir de éste, seguirá siendo "Angular" solamente, es un nuevo framework, escrito desde cero y con conceptos y formas de trabajar completamente distintos al primero.',
+        contenido: 'RELEASED: May, 2016',
         contenidoLista: [
+            {
+              contenido: 'Apartir de éste, seguirá siendo "Angular" solamente, es un nuevo framework, escrito desde cero y con conceptos y formas de trabajar completamente distintos al primero.'
+            },
             {
               contenido: 'Utiliza un sistema de inyección de dependencias jerárquico impulsando su rendimiento de forma brutal.'
             },
@@ -137,11 +140,8 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
         elemento: 'ANGULAR 4',
         nClass: 'motrarDos',
         mostrarlo: true,
-        contenido: '',
+        contenido: 'RELEASED: Dic, 2016',
         contenidoLista: [
-          {
-            contenido: 'RELEASED: Dic, 2016'
-          },
           {
             contenido: 'La primera gran actualización de Angular 2.'
           },
@@ -158,11 +158,8 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
         elemento: 'ANGULAR 5',
         nClass: 'motrarDos',
         mostrarlo: true,
-        contenido: '',
+        contenido: 'RELEASED: Nov 1, 2017.',
         contenidoLista: [
-          {
-            contenido: 'RELEASED: Nov 1, 2017.'
-          },
           {
             contenido: 'Soporte para aplicaciones web progresivas.'
           },
@@ -187,6 +184,9 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
           {
             contenido: 'Nuevos eventos del ciclo de vida del enrutador: Se agregan nuevos eventos de ciclo de vida al "router", lo que permite a los desarrolladores rastrear el ciclo del enrutador desde el inicio de la ejecución hasta la finalización de la activación. En orden de lanzamiento serían: -GuardsCheckStart, -ChildActivationStart, -ActivationStart, -GuardsCheckEnd, -ResolveStart, ResolveEnd, -ActivationEnd, -ChildActivationEnd.'
           },
+          {
+            contenido: 'ServerTransferStateModule, se usa para instalar en el lado del servidor mientras se usa TransferState en una aplicación sin proporcionar este módulo.'
+          },
         ]
       },   
       {
@@ -197,6 +197,18 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
         contenidoLista: [
           {
             contenido: 'RELEASED: Nov 11, 2020'
+          },
+        ]
+
+      },
+      {
+        elemento: 'ANGULAR 6',
+        nClass: 'motrarDos',
+        mostrarlo: true,
+        contenido: 'RELEASED: May 4, 2018',
+        contenidoLista: [
+          {
+            contenido: 'RELEASED: May 4, 2018'
           },
         ]
 

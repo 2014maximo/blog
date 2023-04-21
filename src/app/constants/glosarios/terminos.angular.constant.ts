@@ -16,7 +16,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         id: '6f3b8325-3262-421f-ac5a-7ed4946487a6',
         titulo: 'lastValueFrom() (RXJS)',
         mostrar:true,
-        linkReferencia: 'ng-rxjs-1',
+        linkReferencia: '',
         descripcion: [
             'No nos va a aparecer antes de la versión 7 de la libreria rxjs, este viene a reemplazar a "toPromise()", quedando en el abismo de los obsoletos.',
             'Su característica de operar es la de convertir un observable en una promesa que se cumple cuando devuelve el último valor.'
@@ -26,7 +26,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         id: 'ebfeb1a0-10d5-49b0-aaa2-4196e8f1dd98',
         titulo: 'first (RXJS)',
         mostrar:true,
-        linkReferencia: 'ng-rxjs-1',
+        linkReferencia: '',
         descripcion: [
             'En simples palabras devuelve el primer elemento emitido y termina una vez lo reciba.'
         ]
@@ -35,7 +35,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         id: 'ebfeb1a0-10d5-49b0-aaa2-4196e8f1dd98',
         titulo: 'takeUntil() (RXJS)',
         mostrar:true,
-        linkReferencia: 'ng-rxjs-1',
+        linkReferencia: '',
         descripcion: [
             'Emite valores hasta que le notifiquen que no siga emitiendo con un observable que emite un valor, en ese momento se completa.'
         ]
@@ -44,7 +44,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         id: '3217d630-5cff-4354-87b7-9c26f00e7795',
         titulo: ' EmptyError (RXJS)',
         mostrar:true,
-        linkReferencia: 'ng-rxjs-1',
+        linkReferencia: '',
         descripcion: [
             'Emite valores hasta que le notifiquen que no siga emitiendo con un observable que emite un valor, en ese momento se completa.'
         ]
@@ -53,7 +53,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         id: '88946c62-ebc1-45b5-bcd5-84b36e43f896',
         titulo: 'take() (RXJS)',
         mostrar:true,
-        linkReferencia: 'ng-rxjs-1',
+        linkReferencia: '',
         descripcion: [
             'Emite valores hasta que le notifiquen que no siga emitiendo con un observable que emite un valor, en ese momento se completa.'
         ]
@@ -62,7 +62,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         id: 'bc9b8768-33a0-494d-ab11-5c1395691305',
         titulo: 'BehaviorSubject (RXJS)',
         mostrar:true,
-        linkReferencia: 'ng-rxjs-1',
+        linkReferencia: '',
         descripcion: [
             'Cuando se conoce o se ha trabajado frecuentemente con éste, se sabe que puede traer comportamientos inesperados en situaciones no controladas. No es muy recomendable.'
         ]
@@ -78,38 +78,38 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
     },
     {
         id: '88c903d6-3f8d-49b1-9d4f-8679a4599367',
-        titulo: 'GuardsCheckStart',
-        mostrar:false,
+        titulo: 'GuardsCheckStart - @angular/router',
+        mostrar:true,
         linkReferencia: '',
         descripcion: [
-            ''
+            'Evento desencadenado al comienzo de la fase de vigilancia del enrutamiento.'
         ]
     },
     {
         id: 'ea8dc086-a91f-475f-a575-e024c6ed1ad1',
-        titulo: 'ChildActivationStart',
-        mostrar:false,
+        titulo: 'ChildActivationStart - @angular/router',
+        mostrar:true,
         linkReferencia: '',
         descripcion: [
-            ''
+            'Evento desencadenado al comienzo de la parte de activación secundaria de la fase de resolución del enrutamiento.'
         ]
     },
     {
         id: '4c871f47-8b02-46ff-be0c-ad8291190839',
-        titulo: 'ActivationStart',
-        mostrar:false,
+        titulo: 'ActivationStart - @angular/router',
+        mostrar:true,
         linkReferencia: '',
         descripcion: [
-            ''
+            'Evento desencadenado al comienzo de la parte de activación de la fase de resolución del enrutamiento.'
         ]
     },
     {
         id: 'ca6bc4f4-11d9-4fe8-b26c-6986836f647e',
-        titulo: 'GuardsCheckEnd',
-        mostrar:false,
+        titulo: 'GuardsCheckEnd  - @angular/router',
+        mostrar:true,
         linkReferencia: '',
         descripcion: [
-            ''
+            'Evento desencadenado al final de la fase de Guardia del enrutamiento.'
         ]
     },
     {
