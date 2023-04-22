@@ -118,6 +118,7 @@ export class GlosarioModel {
     titulo: string;
     linkReferencia: string;
     mostrar: boolean;
+    fechaActualizacion: string;
     descripcion: string[];
 
     constructor(){
@@ -126,6 +127,7 @@ export class GlosarioModel {
         this.linkReferencia = '';
         this.descripcion = [];
         this.mostrar = false;
+        this.fechaActualizacion = '';
     }
 }
 
