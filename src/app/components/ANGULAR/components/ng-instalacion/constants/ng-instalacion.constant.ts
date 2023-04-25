@@ -256,7 +256,20 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
             contenido: 'El compilador y tiempo de ejecución de Ivy ofrece numerosas ventajas: *Tamaños de paquetes más pequeños, *Pruebas más rápidas, *Mejor depuración, *Enlace de clase y estilo CSS mejorado, *Comprobación de tipos mejorada, *Errores de compilación mejorados, *Tiempos de compilación mejorados, *habilitando AOT de forma predeterminada, *Internacionalización mejorada.'
           },
         ]
-
+      },
+      {
+        elemento: 'ANGULAR 10',
+        nClass: 'motrarDos',
+        mostrarlo: true,
+        contenido: 'RELEASED: Jun 24, 2020',
+        contenidoLista: [
+          {
+            contenido: 'Nuevo selector de intervalo de fechas (IU Material library).'
+          },
+          {
+            contenido: 'Nuevo selector de intervalo de fechas (IU Material library).'
+          },
+        ]
       },
       {
         elemento: 'ANGULAR 13',
