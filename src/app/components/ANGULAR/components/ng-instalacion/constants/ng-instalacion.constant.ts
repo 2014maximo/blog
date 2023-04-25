@@ -190,37 +190,70 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
         ]
       },   
       {
-        elemento: 'ANGULAR 11',
-        nClass: 'motrarDos',
-        mostrarlo: true,
-        contenido: '',
-        contenidoLista: [
-          {
-            contenido: 'RELEASED: Nov 11, 2020'
-          },
-        ]
-
-      },
-      {
         elemento: 'ANGULAR 6',
         nClass: 'motrarDos',
         mostrarlo: true,
         contenido: 'RELEASED: May 4, 2018',
         contenidoLista: [
           {
-            contenido: 'RELEASED: May 4, 2018'
+            contenido: 'Herramientas pensadas para trabajo rápido con Angular: - ng update, - ng add, Angular Elements, Angular Material, CDK Components, Angular material starter components, CLI Workspaces, library support, Tree Shakable Providers, Animations performance improvements, RxJS v.6'
           },
         ]
 
       },
       {
-        elemento: 'ANGULAR 12',
+        elemento: 'ANGULAR 7',
         nClass: 'motrarDos',
         mostrarlo: true,
-        contenido: '',
+        contenido: 'RELEASED: Oct 18, 2018',
         contenidoLista: [
           {
-            contenido: 'RELEASED: May 12, 2021'
+            contenido: 'Node 10 (todavía soporta el Node 8)'
+          },
+          {
+            contenido: 'RxJS 6.3'
+          },
+          {
+            contenido: 'Ahora es compatible con la proyección de contenido usando el estándar web para elementos personalizados y las actualizaciones de dependencia con respecto a Typescript 3.1.'
+          },
+        ]
+
+      },
+      {
+        elemento: 'ANGULAR 8',
+        nClass: 'motrarDos',
+        mostrarlo: true,
+        contenido: 'RELEASED: May 28, 2019',
+        contenidoLista: [
+          {
+            contenido: 'Incluye carga diferencial para todo el código de la aplicación.'
+          },
+          {
+            contenido: 'Importaciones dinámicas para "Lazy routes".'
+          },
+          {
+            contenido: 'compatibilidad con TypeScript 3.4 y Angular Ivy como vista previa opcional.'
+          },
+          {
+            contenido: 'La vista previa de suscripción de Angular Ivy incluye: -Código generado que es más fácil de leer y depurar en tiempo de ejecución. -Tiempo de reconstrucción más rápido. -Tamaño de carga útil mejorado. -Comprobación mejorada del tipo de plantilla. -Compatibilidad al revés.'
+          },
+        ]
+
+      },
+      {
+        elemento: 'ANGULAR 9',
+        nClass: 'motrarDos',
+        mostrarlo: true,
+        contenido: 'RELEASED: Feb 6, 2020',
+        contenidoLista: [
+          {
+            contenido: 'Todas las aplicaciones para usar el compilador y el tiempo de ejecución de Ivy de forma predeterminada.'
+          },
+          {
+            contenido: 'Ahora para funcionar con TypeScript 3.6 y 3.7.'
+          },
+          {
+            contenido: 'El compilador y tiempo de ejecución de Ivy ofrece numerosas ventajas: *Tamaños de paquetes más pequeños, *Pruebas más rápidas, *Mejor depuración, *Enlace de clase y estilo CSS mejorado, *Comprobación de tipos mejorada, *Errores de compilación mejorados, *Tiempos de compilación mejorados, *habilitando AOT de forma predeterminada, *Internacionalización mejorada.'
           },
         ]
 
