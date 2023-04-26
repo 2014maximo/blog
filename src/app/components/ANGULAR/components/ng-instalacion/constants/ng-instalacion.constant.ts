@@ -267,8 +267,40 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
             contenido: 'Nuevo selector de intervalo de fechas (IU Material library).'
           },
           {
-            contenido: 'Nuevo selector de intervalo de fechas (IU Material library).'
+            contenido: 'Advertencias sobre las importaciones de CommonJS.'
           },
+        ]
+      },
+      {
+        elemento: 'ANGULAR 11',
+        nClass: 'motrarDos',
+        mostrarlo: true,
+        contenido: 'RELEASED: Nov 11, 2020',
+        contenidoLista: [
+          {
+            contenido: 'Actualizaciones sobre la Operación Byelog'
+          },
+          {
+            contenido: 'Incrustación automática de fuentes'
+          },
+          {
+            contenido: 'Arneses de prueba de componentes'
+          },
+          {
+            contenido: 'Informes y registros mejorados'
+          },
+          {
+            contenido: 'Vista previa del servicio de idiomas actualizado'
+          },
+          {
+            contenido: 'Soporte actualizado de reemplazo de módulo en caliente (HMR)'
+          },
+          {
+            contenido: 'Construcciones más rápidas'
+          },
+          {
+            contenido: 'Paquete web experimental 5 Soporte'
+          }
         ]
       },
       {
