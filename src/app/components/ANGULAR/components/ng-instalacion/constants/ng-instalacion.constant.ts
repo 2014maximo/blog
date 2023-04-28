@@ -93,7 +93,7 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
             indice: ''
           },
         ],
-        mostrarlo: true,
+        mostrarlo: false,
     },
     {
         elemento: 'ANGULAR 2',
@@ -134,7 +134,7 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
               contenido: 'Cambia la sintaxis para hacer routing.'
             },
           ],
-        mostrarlo: true,
+        mostrarlo: false,
     },
     {
         elemento: 'ANGULAR 4',
@@ -157,7 +157,7 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
     {
         elemento: 'ANGULAR 5',
         nClass: 'motrarDos',
-        mostrarlo: true,
+        mostrarlo: false,
         contenido: 'RELEASED: Nov 1, 2017.',
         contenidoLista: [
           {
@@ -274,7 +274,7 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
       {
         elemento: 'ANGULAR 11',
         nClass: 'motrarDos',
-        mostrarlo: true,
+        mostrarlo: false,
         contenido: 'RELEASED: Nov 11, 2020',
         contenidoLista: [
           {
@@ -300,6 +300,17 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
           },
           {
             contenido: 'Paquete web experimental 5 Soporte'
+          }
+        ]
+      },
+      {
+        elemento: 'ANGULAR 12',
+        nClass: 'motrarDos',
+        mostrarlo: true,
+        contenido: 'RELEASED: May 12, 2021',
+        contenidoLista: [
+          {
+            contenido: 'Soporte deprecado para IE11.'
           }
         ]
       },
@@ -361,6 +372,45 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
             contenido: 'Los scripts que se cargan de forma dinámica "import()" ahora se tratan como módulos ES (lo que significa que deben ser estrictamente compatibles con el modo).'
           },
         ]
-
-      }
+      },
+      {
+        elemento: 'ANGULAR 14',
+        nClass: 'motrarDos',
+        mostrarlo: true,
+        contenido: 'RELEASED: Jun 2, 2022',
+        contenidoLista: [
+          {
+            contenido: 'Formularios tipados.'
+          },
+          {
+            contenido: 'Componentes independientes y nuevas primitivas en el Angular CDK (component dev kit).'
+          },
+          {
+            contenido: 'Los componentes independientes funcionan en todo Angular, y ahora funcionan completamente en HttpClient, Angular Elements, router y más.'
+          },
+        ]
+      },
+      {
+        elemento: 'ANGULAR 15',
+        nClass: 'motrarDos',
+        mostrarlo: true,
+        contenido: 'RELEASED: Nov 16, 2022',
+        contenidoLista: [
+          {
+            contenido: 'Estabilidad a los componentes independientes.'
+          },
+          {
+            contenido: 'La directiva "NgOptimizedImage" es estable.'
+          },
+          {
+            contenido: 'Se pueden añadir directivas a los elementos host.'
+          },
+          {
+            contenido: '"Stack traces" son más útiles.'
+          },
+          {
+            contenido: 'Los componentes basados en MDC son estables.'
+          },
+        ]
+      },
 ]

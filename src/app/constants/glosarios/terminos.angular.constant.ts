@@ -9,7 +9,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         mostrar:true,
         linkReferencia: 'ng-rxjs-first-value-from',
         descripcion: [
-            'No nos va a aparecer antes de la versión 7 de la libreria rxjs, este viene a reemplazar a "toPromise()", quedando en el abismo de los obsoletos.',
+            'No nos va a aparecer antes de la versión 7 de la libreria rxjs, esta función viene a reemplazar a "toPromise()", quedando en el abismo de los obsoletos.',
             'Su característica de operar es la de convertir un observable en una promesa que se cumple cuando devuelve el primer valor.'
         ]
     },
@@ -20,18 +20,18 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         mostrar:true,
         linkReferencia: '',
         descripcion: [
-            'No nos va a aparecer antes de la versión 7 de la libreria rxjs, este viene a reemplazar a "toPromise()", quedando en el abismo de los obsoletos.',
+            'No nos va a aparecer antes de la versión 7 de la libreria rxjs, esta función viene a reemplazar a "toPromise()", quedando en el abismo de los obsoletos.',
             'Su característica de operar es la de convertir un observable en una promesa que se cumple cuando devuelve el último valor.'
         ]
     },
     {
         id: 'ebfeb1a0-10d5-49b0-aaa2-4196e8f1dd98',
-        titulo: 'first (RXJS)',
+        titulo: 'first() (RXJS)',
         fechaActualizacion: '2023-04-01',
         mostrar:true,
         linkReferencia: '',
         descripcion: [
-            'En simples palabras devuelve el primer elemento emitido y termina una vez lo reciba.'
+            'En simples palabras, esta función devuelve el primer elemento emitido y termina una vez lo reciba.'
         ]
     },
     {
@@ -46,12 +46,12 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
     },
     {
         id: '3217d630-5cff-4354-87b7-9c26f00e7795',
-        titulo: ' emptyError (RXJS)',
+        titulo: ' EmptyError (RXJS)',
         fechaActualizacion: '2023-04-02',
         mostrar:true,
         linkReferencia: '',
         descripcion: [
-            'Emite valores hasta que le notifiquen que no siga emitiendo con un observable que emite un valor, en ese momento se completa.'
+            'Dentro de la RxJS, es una interfaz que no contiene elementos, se usa en observables como first(), last(), entre otros.'
         ]
     },
     {

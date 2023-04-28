@@ -18,13 +18,13 @@
                     Instalar el angular cli, es una herramienta de gestión del framework de angular, se instala por consola y es recomendado estar como administrador.  Copiar el siguiente comando:
                 </p>
 
-                <p class="m-0 p-0 f-shadow-into-l fw-3 fs-18 text-secondary m-0 p-0 text-uppercase">La última - primera vez</p>
+                <p class="m-0 p-0 f-shadow-into-l fw-3 fs-18 text-secondary m-0 p-0 lh-18 text-uppercase">Se instala la última versión según la versión de "Angular CLI" que tengamos instalada.</p>
                 <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-4 p-0">npm install -g @angular/cli <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g @angular/cli')"></i></h3>
                 
-                <p class="f-shadow-into-l m-0 p-0 fw-3 fs-18 text-secondary text-uppercase">Instalar una versión específica</p>
+                <p class="f-shadow-into-l m-0 p-0 fw-3 fs-18 text-secondary text-uppercase">Instalar una versión específica.</p>
                 <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-4">npm install -g @angular/cli@8 <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g @angular/cli@8')"></i></h3>
 
-                <p class="f-shadow-into-l fw-3 fs-18 text-secondary m-0 p-0 text-uppercase">Pasos para hacer un downgrade</p>
+                <p class="f-shadow-into-l fw-3 fs-18 text-secondary m-0 p-0 text-uppercase">Pasos para hacer un "downgrade", bajar de versión.</p>
                 <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18">npm uninstall -g @angular/cli <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm uninstall -g @angular/cli')"></i></h3>
                 <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18">npm cache clean <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm cache clean')"></i></h3>
                 <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-4">npm install -g @angular/cli@1 <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g @angular/cli@1')"></i></h3>
@@ -166,6 +166,11 @@
             <div class="col-md-5"></div>
             <div class="col-md-7">
                 <h2 class="f-bebas fs-50 text-light">VERSIONES</h2>
+                <p class="text-light fuenteDos mb-4">
+                    Desde "Angular" v9, el equipo de Angular ha movido todas las nuevas aplicaciones para utilizar el compilador y tiempo de ejecución Ivy. Trabajarán en Ivy para mejorar el tamaño de los paquetes de salida y la velocidad de desarrollo.<br>
+                    Se espera que cada versión sea compatible con la anterior. El equipo de desarrollo de Angular se ha comprometido a realizar actualizaciones dos veces al año.<br>
+                    Política de soporte y calendario<br>
+                    Todas las versiones principales reciben soporte durante 18 meses. Consta de 6 meses de soporte activo, durante los cuales se publican actualizaciones y parches programados con regularidad. Le siguen 12 meses de soporte a largo plazo (LTS), durante los cuales sólo se publican correcciones críticas y parches de seguridad.</p>
                 <app-accordeon [contenido]="versiones"></app-accordeon>
             </div>
         </div>
