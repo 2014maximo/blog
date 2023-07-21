@@ -64,7 +64,7 @@ export const COMANDOS_ANGULAR_CLI = [
 
 export const VERSIONES_ANGULAR: AccordeonModel[] = [
     {
-        elemento: 'ANGULAR JS (El inicio)',
+        elemento: 'ANGULAR JS (El inicio)  ✚',
         nClass: 'mostrar1',
         contenido: 'Fue desarrollado en el 2009 por Miško Hevery',
         contenidoLista: [
@@ -96,7 +96,7 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
         mostrarlo: false,
     },
     {
-        elemento: 'ANGULAR 2',
+        elemento: 'ANGULAR 2  ✚',
         nClass: 'mostrar2',
         contenido: 'RELEASED: May, 2016',
         contenidoLista: [
@@ -137,9 +137,9 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
         mostrarlo: false,
     },
     {
-        elemento: 'ANGULAR 4',
+        elemento: 'ANGULAR 4  ✚',
         nClass: 'motrarDos',
-        mostrarlo: true,
+        mostrarlo: false,
         contenido: 'RELEASED: Dic, 2016',
         contenidoLista: [
           {
@@ -155,7 +155,7 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
 
       },
     {
-        elemento: 'ANGULAR 5',
+        elemento: 'ANGULAR 5  ✚',
         nClass: 'motrarDos',
         mostrarlo: false,
         contenido: 'RELEASED: Nov 1, 2017.',
@@ -190,9 +190,9 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
         ]
       },   
       {
-        elemento: 'ANGULAR 6',
+        elemento: 'ANGULAR 6  ✚',
         nClass: 'motrarDos',
-        mostrarlo: true,
+        mostrarlo: false,
         contenido: 'RELEASED: May 4, 2018',
         contenidoLista: [
           {
@@ -202,9 +202,9 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
 
       },
       {
-        elemento: 'ANGULAR 7',
+        elemento: 'ANGULAR 7  ✚',
         nClass: 'motrarDos',
-        mostrarlo: true,
+        mostrarlo: false,
         contenido: 'RELEASED: Oct 18, 2018',
         contenidoLista: [
           {
@@ -220,9 +220,9 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
 
       },
       {
-        elemento: 'ANGULAR 8',
+        elemento: 'ANGULAR 8  ✚',
         nClass: 'motrarDos',
-        mostrarlo: true,
+        mostrarlo: false,
         contenido: 'RELEASED: May 28, 2019',
         contenidoLista: [
           {
@@ -241,9 +241,9 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
 
       },
       {
-        elemento: 'ANGULAR 9',
+        elemento: 'ANGULAR 9  ✚',
         nClass: 'motrarDos',
-        mostrarlo: true,
+        mostrarlo: false,
         contenido: 'RELEASED: Feb 6, 2020',
         contenidoLista: [
           {
@@ -258,9 +258,9 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
         ]
       },
       {
-        elemento: 'ANGULAR 10',
+        elemento: 'ANGULAR 10  ✚',
         nClass: 'motrarDos',
-        mostrarlo: true,
+        mostrarlo: false,
         contenido: 'RELEASED: Jun 24, 2020',
         contenidoLista: [
           {
@@ -272,7 +272,7 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
         ]
       },
       {
-        elemento: 'ANGULAR 11',
+        elemento: 'ANGULAR 11  ✚',
         nClass: 'motrarDos',
         mostrarlo: false,
         contenido: 'RELEASED: Nov 11, 2020',
@@ -304,9 +304,9 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
         ]
       },
       {
-        elemento: 'ANGULAR 12',
+        elemento: 'ANGULAR 12  ✚',
         nClass: 'motrarDos',
-        mostrarlo: true,
+        mostrarlo: false,
         contenido: 'RELEASED: May 12, 2021',
         contenidoLista: [
           {
@@ -315,7 +315,7 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
         ]
       },
       {
-        elemento: 'ANGULAR 13',
+        elemento: 'ANGULAR 13  ✚',
         nClass: 'motrarDos',
         mostrarlo: false,
         contenido: '',
@@ -374,9 +374,9 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
         ]
       },
       {
-        elemento: 'ANGULAR 14',
+        elemento: 'ANGULAR 14  ✚',
         nClass: 'motrarDos',
-        mostrarlo: true,
+        mostrarlo: false,
         contenido: 'RELEASED: Jun 2, 2022',
         contenidoLista: [
           {
@@ -391,9 +391,9 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
         ]
       },
       {
-        elemento: 'ANGULAR 15',
+        elemento: 'ANGULAR 15  ✚',
         nClass: 'motrarDos',
-        mostrarlo: true,
+        mostrarlo: false,
         contenido: 'RELEASED: Nov 16, 2022',
         contenidoLista: [
           {
@@ -410,6 +410,23 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
           },
           {
             contenido: 'Los componentes basados en MDC son estables.'
+          },
+        ]
+      },
+      {
+        elemento: 'ANGULAR 16  ✚',
+        nClass: 'motrarDos',
+        mostrarlo: false,
+        contenido: 'RELEASED: May 4, 2023',
+        contenidoLista: [
+          {
+            contenido: 'SIGNALS: Un medio de comunicación de datos, similar al comportamiento de los observables de la libreria y fiel amiga de angular "RXJS"'
+          },
+          {
+            contenido: 'DESTROYREF: Una manera más practica de parar los ciclos de vida que se quedan abriertos en los componentes.'
+          },
+          {
+            contenido: 'HYDRATION API: Buscando una mejor eficacia en el renderizado de las aplicaciones ahora en lugar de limpiar y destruir todo el DOM para renderizarlo nuevamente, se "rehidratará" para renderizar tan solo lo solicitado y mantener lo estático.'
           },
         ]
       },

@@ -8,127 +8,168 @@
     <div class="col-md-1"></div>
     <div class="col-md-10">
         <h2 class="f-bebas fs-50 text-light">Instalación</h2>
+        <div class="espacio"></div>
+        <!-- NODE JS -->
         <div class="row">
             <div class="col-md-7">
-                <h2 class="f-bebas fs-160 text-light m-0 p-0">1</h2>
-                <a href="https://cli.angular.io/" target="_blank">
-                    <img src="assets/img/icons/angular_cli_white.png" alt="logo angular cli" height="40" width="auto" class="drop mb-3 h-zoom" title="Visita ANGULAR CLI">
-                </a>
-                <p class="text-light f-open-sans-c fs-18 lh-20">
-                    Instalar el angular cli, es una herramienta de gestión del framework de angular, se instala por consola y es recomendado estar como administrador.  Copiar el siguiente comando:
-                </p>
+                <div class="row">
+                    <div class="col-md-2">
+                        <h2 class="f-bebas fs-160 text-light m-0 p-0">1</h2>
+                    </div>
+                    <div class="col-md-10">
+                        <a href="https://nodejs.org/es/" target="_blank">
+                            <img src="assets/img/icons/Node.js_logo_black.png" alt="logo NODE JS" height="90" width="auto" class="drop mb-3 h-zoom" title="Visita ANGULAR CLI">
+                        </a>
+                        <p class="text-light f-open-sans-c fs-18 lh-20">
+                            Se recomienda la versión LTS. Node JS es un entorno en tiempo de ejecución multiplataforma, basado en Javascript, en realidad esta descripción es compleja de entender a primera vista, tal vez basta con describir que es un programa para cualquiera de los sistemas operativos, que permite instalar a través de comandos un proyecto base dentro de una carpeta con todos los archivos necesarios para un desarrollo, en este caso Angular. Entre otras muchas cosas o frameworks.
+                        <br>
+                        <br>
+                            Los cambios entre las versiones de node js suelen traer errores de compatibilidad con las versiones de Angular.
+                        <br>
+                        <br>
+                            Por eso tenemos a la mano una herramienta que permite tener varias versiones de node js instaladas en el equipo, obviamente solo se puede correr una en el momento, y se suichean fácilmente con ciertos comandos.
+                        <br>
+                            Se trata de NVM
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+        <div class="espaciado"></div>
 
-                <p class="m-0 p-0 f-shadow-into-l fw-3 fs-18 text-secondary m-0 p-0 lh-18 text-uppercase">Se instala la última versión según la versión de "Angular CLI" que tengamos instalada.</p>
-                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-4 p-0">npm install -g @angular/cli <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g @angular/cli')"></i></h3>
+        <!-- ANGULAR CLI -->
+        <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-7">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h2 class="f-bebas fs-160 text-light m-0 p-0">2</h2>
+                    </div>
+                    <div class="col-md-10">
+                        <a href="https://cli.angular.io/" target="_blank">
+                            <img src="assets/img/icons/angular_cli_white.png" alt="logo angular cli" height="40" width="auto" class="drop mb-3 h-zoom" title="Visita ANGULAR CLI">
+                        </a>
+                        <p class="text-light f-open-sans-c fs-18 mb-5 lh-20">
+                            Instalar el angular cli, es una herramienta de gestión del framework de angular, se instala por consola y es recomendado estar como administrador.  Copiar el siguiente comando:
+                        </p>
+                        <ul>
+                            <li>
+                                <p class="m-0 p-0 f-shadow-into-l fw-3 fs-20 text-secondary text-uppercase m-0 p-0 lh-20">Para instalar la última versión según la versión de "Angular CLI" que tengamos instalada:</p>
+                                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-4 p-0 lh-18">npm install -g @angular/cli <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g @angular/cli')"></i></h3>
+                            </li>
+                            <li>
+                                <p class="f-shadow-into-l m-0 p-0 fw-3 fs-20 lh-20 text-secondary text-uppercase">Instalar una versión específica.</p>
+                                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 lh-18 mb-4">npm install -g @angular/cli@8 <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g @angular/cli@8')"></i></h3>
+                            </li>
+                            <li>
+                                <p class="f-shadow-into-l fw-3 fs-20 lh-20 text-secondary m-0 p-0 text-uppercase">Pasos para hacer un "downgrade", bajar de versión.</p>
+                                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 lh-18">npm uninstall -g @angular/cli <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm uninstall -g @angular/cli')"></i></h3>
+                                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 lh-18">npm cache clean <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm cache clean')"></i></h3>
+                                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 lh-18 mb-4">npm install -g @angular/cli@1 <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g @angular/cli@1')"></i></h3>
+                            </li>
+                            <li>
+                                <p class="f-shadow-into-l fw-3 fs-20 lh-20 text-secondary m-0 p-0 text-uppercase">actualizar</p>
+                                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 lh-18 mb-4 p-0">ng update @angular/cli @angular/core <i class="fa fa-clone cursor-p ml-2" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('ng update @angular/cli @angular/core')"></i></h3>
+                            </li>
+                            <li>
+                                <p class="f-shadow-into-l fw-3 fs-20 lh-20 text-secondary m-0 p-0 text-uppercase">actualizar a la mayor versión</p>
+                                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 lh-18 mb-4 p-0">ng update @angular/cli@^ @angular/core@^ <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('ng update @angular/cli@^ @angular/core@^')"></i></h3>
+                            </li>
+                            <li>
+                                <p class="f-shadow-into-l fw-3 fs-20 lh-20 text-secondary m-0 p-0 text-uppercase">actualizar a versiones específicas</p>
+                                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 lh-18 mb-4 p-0">ng update @angular/cli@8 @angular/core@8 <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('ng update @angular/cli@^ @angular/core@^')"></i></h3>
+                            </li>
+        
+                        </ul>
+                    </div>
+                </div>
                 
-                <p class="f-shadow-into-l m-0 p-0 fw-3 fs-18 text-secondary text-uppercase">Instalar una versión específica.</p>
-                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-4">npm install -g @angular/cli@8 <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g @angular/cli@8')"></i></h3>
-
-                <p class="f-shadow-into-l fw-3 fs-18 text-secondary m-0 p-0 text-uppercase">Pasos para hacer un "downgrade", bajar de versión.</p>
-                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18">npm uninstall -g @angular/cli <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm uninstall -g @angular/cli')"></i></h3>
-                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18">npm cache clean <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm cache clean')"></i></h3>
-                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-4">npm install -g @angular/cli@1 <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('npm install -g @angular/cli@1')"></i></h3>
-                
-                <p class="f-shadow-into-l fw-3 fs-18 text-secondary m-0 p-0 text-uppercase">actualizar</p>
-                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-4 p-0">ng update @angular/cli @angular/core <i class="fa fa-clone cursor-p ml-2" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('ng update @angular/cli @angular/core')"></i></h3>
-
-                <p class="f-shadow-into-l fw-3 fs-18 text-secondary m-0 p-0 text-uppercase">actualizar a la mayor versión</p>
-                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-4 p-0">ng update @angular/cli@^ @angular/core@^ <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('ng update @angular/cli@^ @angular/core@^')"></i></h3>
-
-                <p class="f-shadow-into-l fw-3 fs-18 text-secondary m-0 p-0 text-uppercase">actualizar a versiones específicas</p>
-                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-4 p-0">ng update @angular/cli@8 @angular/core@8 <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('ng update @angular/cli@^ @angular/core@^')"></i></h3>
 
                 <div class="espacio"></div>
 
             </div>
-            <div class="col-md-5"></div>
         </div>
         <div class="espacio"></div>
 
+        <!-- IDES -->
         <div class="row">
-            <div class="col-md-5"></div>
+            
             <div class="col-md-7">
-                <h2 class="f-bebas fs-160 text-light m-0 p-0">2</h2>
-                <h4 class="f-bebas fs-30 text-light">IDES PARA DESARROLLO</h4>
-                <p class="text-light f-open-sans-c fs-18 lh-20">
-                    Descarga e instalar un editor de texto de preferencia, herramientas que nos prestan un sin fin de utilidades.
-                </p>
-                <div class="espacio"></div>
-
-                <div class="d-flex justify-content-between row ">
-                    <a href="https://code.visualstudio.com/download" target="_blank" class="col text-center"> 
-                        <img src="assets/img/icons/visual_studio_code.png" title="VISUAL STUDIO CODE Visita para descargar" height="50" class="drop h-zoom mx-auto" alt="Visual Studio Code">
-                        <p class="text-light fuenteDos fs-18 lh-18">Visual Studio Code</p>
-                    </a>
-                    <a href="https://atom.io/" target="_blank" class="col text-center"> 
-                        <img src="assets/img/icons/atom3.png" title="ATOM Visita para descargar" height="50" class="drop h-zoom mb-2" alt="ATOM">
-                        <p class="text-light fuenteDos fs-18 lh-18">Atom</p>
-                    </a>
-                    <a href="https://developer.android.com/studio?hl=es-419&gclid=Cj0KCQjw0oCDBhCPARIsAII3C_HyJCDAGaBlisOgo8PCB7qTFDSXy6E6TtHBriDye3-asbdUBKS8nxgaAuTAEALw_wcB&gclsrc=aw.ds" target="_blank" class="col text-center"> 
-                        <img src="assets/img/categorias/android-studio_text_white.png" title="ANDROID STUDIO Visita para descargar" height="70" class="drop h-zoom" alt="Android Studio">
-                    </a>
-                    <a href="https://notepad-plus-plus.org/downloads/" target="_blank" class="col text-center"> 
-                        <img src="assets/img/icons/notepad-hoja.png" title="NOTEPAD Visita para descargar" height="50" class="drop h-zoom mb-2" alt="NOTEPAD">
-                        <p class="text-light fuenteDos fs-18 lh-18">Notepad</p>
-                    </a>
-                </div>
-                <div class="d-flex justify-content-between mt-4 row">
-                    <a href="https://www.sublimetext.com/3" target="_blank" class="col text-center"> 
-                        <img src="assets/img/icons/sublime_text.png" height="50" class="drop h-zoom mb-2" title="SUBLIME TEXT 4 Visita para descargar" alt="SublimeText 4">
-                        <p class="text-light fuenteDos fs-18 lh-18">Sublime text 4</p>
-                    </a>
-                    <a href="https://code.visualstudio.com/insiders/" target="_blank" class="col text-center"> 
-                        <img src="assets/img/icons/insiders.png" title="VISUAL STUDIO INSIDERS Visita para descargar" height="50" class="mb-2 drop h-zoom">
-                        <p class="text-light fuenteDos fs-18 lh-18">Visual Studio Insiders</p>
-                    </a>
-                    <a href="https://www.eclipse.org/downloads/" target="_blank" class="col text-center"> 
-                        <img src="assets/img/icons/Eclipse-foundation.png" alt="Eclipse Foundation" title="ECLIPSE FOUNDATION Visita para descargar" height="50" class="drop h-zoom">
-                    </a>
-                    <a href="https://www.jetbrains.com/es-es/idea/download/#section=windows" target="_blank" class="col text-center"> 
-                        <img src="assets/img/icons/intellij.png" alt="Intellij" title="INTELLIJ Visita para descargar" height="50" class="mb-2 drop h-zoom">
-                        <p class="text-light fuenteDos fs-18 lh-18">Intellij Idea</p>
-
-                    </a>
+                <div class="row">
+                    <div class="col-md-2">
+                        <h2 class="f-bebas fs-160 text-light m-0 p-0">3</h2>
+                    </div>
+                    <div class="col-md-10">
+                        <h4 class="f-bebas fs-30 text-light">IDES PARA DESARROLLO</h4>
+                        <p class="text-light f-open-sans-c fs-18 lh-20">
+                            Descarga e instalar un editor de texto de preferencia, herramientas que nos prestan un sin fin de utilidades.
+                        </p>
+                        <div class="espacio"></div>
+        
+                        <div class="d-flex justify-content-between row ">
+                            <a href="https://code.visualstudio.com/download" target="_blank" class="col text-center"> 
+                                <img src="assets/img/icons/visual_studio_code.png" title="VISUAL STUDIO CODE Visita para descargar" height="50" class="drop h-zoom mx-auto" alt="Visual Studio Code">
+                                <p class="text-light fuenteDos fs-18 lh-18">Visual Studio Code</p>
+                            </a>
+                            <a href="https://atom.io/" target="_blank" class="col text-center"> 
+                                <img src="assets/img/icons/atom3.png" title="ATOM Visita para descargar" height="50" class="drop h-zoom mb-2" alt="ATOM">
+                                <p class="text-light fuenteDos fs-18 lh-18">Atom</p>
+                            </a>
+                            <a href="https://developer.android.com/studio?hl=es-419&gclid=Cj0KCQjw0oCDBhCPARIsAII3C_HyJCDAGaBlisOgo8PCB7qTFDSXy6E6TtHBriDye3-asbdUBKS8nxgaAuTAEALw_wcB&gclsrc=aw.ds" target="_blank" class="col text-center"> 
+                                <img src="assets/img/categorias/android-studio_text_white.png" title="ANDROID STUDIO Visita para descargar" height="70" class="drop h-zoom" alt="Android Studio">
+                            </a>
+                            <a href="https://notepad-plus-plus.org/downloads/" target="_blank" class="col text-center"> 
+                                <img src="assets/img/icons/notepad-hoja.png" title="NOTEPAD Visita para descargar" height="50" class="drop h-zoom mb-2" alt="NOTEPAD">
+                                <p class="text-light fuenteDos fs-18 lh-18">Notepad</p>
+                            </a>
+                        </div>
+                        <div class="d-flex justify-content-between mt-4 row">
+                            <a href="https://www.sublimetext.com/3" target="_blank" class="col text-center"> 
+                                <img src="assets/img/icons/sublime_text.png" height="50" class="drop h-zoom mb-2" title="SUBLIME TEXT 4 Visita para descargar" alt="SublimeText 4">
+                                <p class="text-light fuenteDos fs-18 lh-18">Sublime text 4</p>
+                            </a>
+                            <a href="https://code.visualstudio.com/insiders/" target="_blank" class="col text-center"> 
+                                <img src="assets/img/icons/insiders.png" title="VISUAL STUDIO INSIDERS Visita para descargar" height="50" class="mb-2 drop h-zoom">
+                                <p class="text-light fuenteDos fs-18 lh-18">Visual Studio Insiders</p>
+                            </a>
+                            <a href="https://www.eclipse.org/downloads/" target="_blank" class="col text-center"> 
+                                <img src="assets/img/icons/Eclipse-foundation.png" alt="Eclipse Foundation" title="ECLIPSE FOUNDATION Visita para descargar" height="50" class="drop h-zoom">
+                            </a>
+                            <a href="https://www.jetbrains.com/es-es/idea/download/#section=windows" target="_blank" class="col text-center"> 
+                                <img src="assets/img/icons/intellij.png" alt="Intellij" title="INTELLIJ Visita para descargar" height="50" class="mb-2 drop h-zoom">
+                                <p class="text-light fuenteDos fs-18 lh-18">Intellij Idea</p>
+        
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="col-md-5"></div>
 
         </div>
         <div class="espaciado"></div>
-        <div class="row">
-            <div class="col-md-7">
-                <h2 class="f-bebas fs-160 text-light m-0 p-0">3</h2>
-                <a href="https://nodejs.org/es/" target="_blank">
-                    <img src="assets/img/icons/Node.js_logo_black.png" alt="logo NODE JS" height="90" width="auto" class="drop mb-3 h-zoom" title="Visita ANGULAR CLI">
-                </a>
-                <p class="text-light f-open-sans-c fs-18 lh-20">
-                    Se recomienda la versión LTS. Node JS es un entorno en tiempo de ejecución multiplataforma, basado en Javascript, en realidad esta descripción es compleja de entender a primera vista, tal vez basta con describir que es un programa para cualquiera de los sistemas operativos, que permite instalar a través de comandos un proyecto base dentro de una carpeta con todos los archivos necesarios para un desarrollo, en este caso Angular. Entre otras muchas cosas o frameworks.
-                <br>
-                <br>
-                    Los cambios entre las versiones de node js suelen traer errores de compatibilidad con las versiones de Angular.
-                <br>
-                <br>
-                    Por eso tenemos a la mano una herramienta que permite tener varias versiones de node js instaladas en el equipo, obviamente solo se puede correr una en el momento, y se suichean fácilmente con ciertos comandos.
-                <br>
-                    Se trata de NVM
-                </p>
-            </div>
-            <div class="col-md-5"></div>
-        </div>
-        <div class="espaciado"></div>
+
 
         <div class="row">
             <div class="col-md-5"></div>
             <div class="col-md-7">
-                <h2 class="f-bebas fs-160 text-light m-0 p-0">4</h2>
-                <h4 class="f-bebas fs-30 text-light">CREAR UN NUEVO PROYECTO</h4>
-                <p class="text-light f-open-sans-c fs-18 lh-20">
-                    Para finalizar una vez reunidas las anteriores herramientas, esta todo listo para tirar el comando:
-                </p>
-                <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-4">ng new nombre_aplicacion <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('ng new nombre_aplicacion')"></i></h3>
-                <p class="text-light f-open-sans-c fs-18 lh-20">
-                    Con este comando se instala angular en la carpeta que se requiera generar nuestro nuevo proyecto.
-                    Ya de preferirse se puede optar por alguna versión específica según ser requiera con sus características a continuación se muestra, por defecto el Angular CLI instala siempre la última.
-                </p>
+                <div class="row">
+                    <div class="col-md-2">
+                        <h2 class="f-bebas fs-160 text-light m-0 p-0">4</h2>
+                    </div>
+                    <div class="col-md-10">
+                        <h4 class="f-bebas fs-30 text-light">CREAR UN NUEVO PROYECTO</h4>
+                        <p class="text-light f-open-sans-c fs-18 lh-20">
+                            Para finalizar una vez reunidas las anteriores herramientas, esta todo listo para tirar el comando:
+                        </p>
+                        <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-4">ng new nombre_aplicacion <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles('ng new nombre_aplicacion')"></i></h3>
+                        <p class="text-light f-open-sans-c fs-18 lh-20">
+                            Con este comando se instala angular en la carpeta que se requiera generar nuestro nuevo proyecto.
+                            Ya de preferirse se puede optar por alguna versión específica según ser requiera con sus características a continuación se muestra, por defecto el Angular CLI instala siempre la última.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="espaciado"></div>
@@ -136,27 +177,26 @@
         <div class="row">
             <div class="col-md-7">
                 <h2 class="f-bebas fs-50 text-light">Comandos ANGULAR CLI</h2>
-
-                <div class="mb-5" *ngFor="let comando of comandosAngularCli">
-                    <p class="f-shadow-into-l m-0 p-0 fw-3 fs-18 text-secondary text-uppercase">{{ comando.descripcion }}</p>
-                    <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 border-0">{{ comando.comando }} 
-                        <i class="fa fa-clone cursor-p ml-4" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles(comando.comando)"></i>
-                    </h3>
-                    
-                    <div *ngIf="comando.gif" id="comandos{{ comando.id }}">
-                        <button class="border-0"
-                                type="button"
+                <ul>
+                    <li class="mb-5 text-light" *ngFor="let comando of comandosAngularCli">
+                        <p class="m-0 p-0 f-shadow-into-l fw-3 fs-20 text-secondary text-uppercase m-0 p-0 lh-20">{{ comando.descripcion }}</p>
+                        <h3 class="{{ publicacion.estilos.color }} f-open-sans-c fw-3 fs-18 mb-4 p-0 lh-18">{{ comando.comando }} 
+                            <i class="fa fa-clone cursor-p ml-4 fs-18" aria-hidden="true" title="Copiar" (click)="copiarAlPortapapeles(comando.comando)"></i>
+                            <i class="fa fa-eye cursor-p ml-4 fs-18"
                                 data-toggle="collapse"
+                                *ngIf="comando.gif" id="comandos{{ comando.id }}"
                                 [attr.data-target]="'#collapse'+ comando.id"
                                 aria-expanded="true"
-                               [attr.aria-controls]="'collapse'+ comando.id">
-                            <i class="max max-eye"></i>
-                        </button>
+                                [attr.aria-controls]="'collapse'+ comando.id"
+                                title="Ver como se hace"></i>
+                        </h3>
+                        <div *ngIf="comando.gif" id="comandos{{ comando.id }}">
                         <div id="collapse{{ comando.id }}" class="collapse" aria-labelledby="headingOne" [attr.data-parent]="'#comandos' + comando.id">
-                          <img src="{{ comando.gif }}" alt="">
+                            <img src="{{ comando.gif }}" alt="">
                         </div>
-                    </div>
-                </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
             <div class="col-md-5"></div>
         </div>
@@ -165,7 +205,7 @@
         <div class="row">
             <div class="col-md-5"></div>
             <div class="col-md-7">
-                <h2 class="f-bebas fs-50 text-light">VERSIONES</h2>
+                <h2 class="f-bebas fs-50 text-light">QUE TRAE CADA VERSIÓN</h2>
                 <p class="text-light fuenteDos mb-4">
                     Desde "Angular" v9, el equipo de Angular ha movido todas las nuevas aplicaciones para utilizar el compilador y tiempo de ejecución Ivy. Trabajarán en Ivy para mejorar el tamaño de los paquetes de salida y la velocidad de desarrollo.<br>
                     Se espera que cada versión sea compatible con la anterior. El equipo de desarrollo de Angular se ha comprometido a realizar actualizaciones dos veces al año.<br>
