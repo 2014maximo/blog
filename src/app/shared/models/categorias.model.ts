@@ -119,16 +119,31 @@ export class GlosarioModel {
     linkReferencia: string;
     mostrar: boolean;
     fechaActualizacion: string;
-    descripcion: string[];
+    descripcion: DescripcionesI;
 
     constructor(){
         this.id = '';
         this.titulo = '';
         this.linkReferencia = '';
-        this.descripcion = [];
+        this.descripcion = new DescripcionesI();
         this.mostrar = false;
         this.fechaActualizacion = '';
     }
+}
+
+export class DescripcionesI{
+    listaTexto?: string[];
+    listaTituloTexto?: ListasTituloTextoI[];
+
+    constructor(){
+        this.listaTexto = [];
+        this.listaTituloTexto = [];
+    }
+}
+
+export interface ListasTituloTextoI {
+    titulo?: string[],
+    descripciones?: string[]
 }
 
 export interface ImgSlider {

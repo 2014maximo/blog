@@ -14,6 +14,7 @@ import { JAVA } from '../publicaciones/posts-java.constant';
 import { LINUX } from '../publicaciones/posts-linux.constant';
 import { TERMINOS_ANGULAR } from '../glosarios/terminos.angular.constant';
 import { SUB_NG } from '../subcategorias/subcategorias-angular.constant';
+import { TERMINOS_DEVELOPER } from '../glosarios/terminos.developer.constant';
 
 export const CATEGORIA: CategoriaPostModel[] = [
     {
@@ -122,7 +123,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         alturaIcono: '90',
         estado:'activo',
         ruta: 'developer',
-        glosario: [],
+        glosario: TERMINOS_DEVELOPER,
         colorFondo: 'bg-Developer',
         color: 'c-Developer',
         descripcion: [
