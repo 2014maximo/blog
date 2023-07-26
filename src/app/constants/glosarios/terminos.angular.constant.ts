@@ -7,7 +7,12 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: 'firstValueFrom (RXJS)',
         fechaActualizacion: '2023-04-01',
         mostrar:true,
-        linkReferencia: 'ng-rxjs-first-value-from',
+        linksReferencia: [
+            {
+                urlLink:'ng-rxjs-first-value-from',
+                titulo: 'RxJs First Value From'
+            }
+        ],
         descripcion: {
             listaTexto: [
                 'No nos va a aparecer antes de la versión 7 de la libreria rxjs, esta función viene a reemplazar a "toPromise()", quedando en el abismo de los obsoletos.',
@@ -20,7 +25,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: 'lastValueFrom() (RXJS)',
         fechaActualizacion: '2023-04-01',
         mostrar:true,
-        linkReferencia: '',
+        linksReferencia: [],
         descripcion: {
             listaTexto: [
                 'No nos va a aparecer antes de la versión 7 de la libreria rxjs, esta función viene a reemplazar a "toPromise()", quedando en el abismo de los obsoletos.',
@@ -33,7 +38,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: 'first() (RXJS)',
         fechaActualizacion: '2023-04-01',
         mostrar:true,
-        linkReferencia: '',
+        linksReferencia: [],
         descripcion: {
             listaTexto: [
                 'En simples palabras, esta función devuelve el primer elemento emitido y termina una vez lo reciba.'
@@ -45,7 +50,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: 'takeUntil() (RXJS)',
         fechaActualizacion: '2023-04-01',
         mostrar:true,
-        linkReferencia: '',
+        linksReferencia: [],
         descripcion: {
             listaTexto:[
                 'Emite valores hasta que le notifiquen que no siga emitiendo con un observable que emite un valor, en ese momento se completa.'
@@ -57,7 +62,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: ' EmptyError (RXJS)',
         fechaActualizacion: '2023-04-02',
         mostrar:true,
-        linkReferencia: '',
+        linksReferencia: [],
         descripcion: {
             listaTexto:[
                 'Dentro de la RxJS, es una interfaz que no contiene elementos, se usa en observables como first(), last(), entre otros.'
@@ -69,7 +74,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: 'take() (RXJS)',
         fechaActualizacion: '2023-04-01',
         mostrar:true,
-        linkReferencia: '',
+        linksReferencia: [],
         descripcion: {
             listaTexto:[
                 'Emite valores hasta que le notifiquen que no siga emitiendo con un observable que emite un valor, en ese momento se completa.'
@@ -81,7 +86,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: 'BehaviorSubject (RXJS)',
         fechaActualizacion: '2023-04-01',
         mostrar:true,
-        linkReferencia: '',
+        linksReferencia: [],
         descripcion: {
             listaTexto:[
                 'Cuando se conoce o se ha trabajado frecuentemente con éste, se sabe que puede traer comportamientos inesperados en situaciones no controladas. No es muy recomendable.'
@@ -93,7 +98,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: 'Router',
         fechaActualizacion: '2023-04-01',
         mostrar:false,
-        linkReferencia: '',
+        linksReferencia: [],
         descripcion: {
             listaTexto:[
                 'Sistema de manejo de rutas, desde la versión "AngularJS" pasa vario cambios, actualmente '
@@ -105,7 +110,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: 'GuardsCheckStart - @angular/router',
         fechaActualizacion: '2023-04-01',
         mostrar:true,
-        linkReferencia: '',
+        linksReferencia: [],
         descripcion: {
             listaTexto:[
                 'Evento desencadenado al comienzo de la fase de vigilancia del enrutamiento.'
@@ -117,7 +122,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: 'ChildActivationStart - @angular/router',
         fechaActualizacion: '2023-04-01',
         mostrar:true,
-        linkReferencia: '',
+        linksReferencia: [],
         descripcion: {
             listaTexto:[
                 'Evento desencadenado al comienzo de la parte de activación secundaria de la fase de resolución del enrutamiento.'
@@ -129,7 +134,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: 'ActivationStart - @angular/router',
         fechaActualizacion: '2023-04-01',
         mostrar:true,
-        linkReferencia: '',
+        linksReferencia: [],
         descripcion: {
             listaTexto:[
                 'Evento desencadenado al comienzo de la parte de activación de la fase de resolución del enrutamiento.'
@@ -141,7 +146,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: 'GuardsCheckEnd  - @angular/router',
         fechaActualizacion: '2023-04-01',
         mostrar:true,
-        linkReferencia: '',
+        linksReferencia: [],
         descripcion: {
             listaTexto:[
                 'Evento desencadenado al final de la fase de Guardia del enrutamiento.'
@@ -153,7 +158,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: 'ResolveStart',
         fechaActualizacion: '2023-04-01',
         mostrar:false,
-        linkReferencia: '',
+        linksReferencia: [],
         descripcion: {
             listaTexto:[
                 ''
@@ -165,7 +170,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: 'ResolveEnd',
         fechaActualizacion: '2023-04-01',
         mostrar:false,
-        linkReferencia: '',
+        linksReferencia: [],
         descripcion: {
             listaTexto:[
                 ''
@@ -177,7 +182,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: 'ActivationEnd',
         fechaActualizacion: '2023-04-01',
         mostrar:false,
-        linkReferencia: '',
+        linksReferencia: [],
         descripcion: {
             listaTexto:[
                 ''
@@ -189,7 +194,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: 'ChildActivationEnd',
         fechaActualizacion: '2023-04-01',
         mostrar:false,
-        linkReferencia: '',
+        linksReferencia: [],
         descripcion: {
             listaTexto:[
                 ''
@@ -201,7 +206,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: 'ChildActivationEnd',
         fechaActualizacion: '2023-04-01',
         mostrar:false,
-        linkReferencia: '',
+        linksReferencia: [],
         descripcion: {
             listaTexto:[
                 ''
@@ -213,7 +218,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: 'AOT (AHead Of Time)',
         fechaActualizacion: '2023-04-01',
         mostrar:false,
-        linkReferencia: '',
+        linksReferencia: [],
         descripcion: {
             listaTexto:[
                 ''
@@ -225,7 +230,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         titulo: 'bundles',
         fechaActualizacion: '2023-04-01',
         mostrar:false,
-        linkReferencia: '',
+        linksReferencia: [],
         descripcion: {
             listaTexto:[
                 ''

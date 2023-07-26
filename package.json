@@ -26,6 +26,7 @@
     "@ngrx/store-devtools": "^12.5.1",
     "angular-cli-ghpages": "^1.0.0-rc.2",
     "firebase": "^9.6.11",
+    "firebase-tools": "^10.9.2",
     "firebaseui": "^6.0.0",
     "ngx-owl-carousel-o": "^6.0.0",
     "rxfire": "^6.0.0",

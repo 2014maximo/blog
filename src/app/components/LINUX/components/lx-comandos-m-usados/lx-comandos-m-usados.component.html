@@ -11,9 +11,29 @@
         <div class="espacio"></div>
         <h3 class="text-light">Permisos</h3>
         <p>chmod -R 777 Git-Credential-Manager-Core/</p>
+
+        <h2>INSTALAR GIT CREDENTIAL MANAGER</h2>
         <p>wget "https://github.com/GitCredentialManager/git-credential-manager/releases/download/v2.0.886/gcm-linux_amd64.2.0.886.deb" -O /tmp/gcmcore.deb</p>
         <p>sudo dpkg -i /tmp/gcmcore.deb</p>
         <p>git-credential-manager configure</p>
+        <p>git config --global --get credential.helper git-credential-manager</p>
+        <p>luego se hace el push, clone o el comando requerido para subir al git, el git-credential-manager detecta que se ejecuta un comando git y una primera vez se deben ingresar lo datos de acceso, que serían el usuario y un token que se puede generar en la pagina de tu github, Haz clic en tu avatar de perfil en la esquina superior derecha de la página y selecciona "Settings" (Configuración) en el menú desplegable.
+
+            En la barra lateral izquierda, selecciona "Developer settings" (Configuración de desarrollador).
+            
+            Luego, selecciona "Personal access tokens" (Tokens de acceso personal) en la barra lateral izquierda.
+            
+            Haz clic en el botón "Generate new token" (Generar nuevo token) para crear un nuevo token.
+            
+            Asegúrate de seleccionar los alcances (scopes) adecuados según las acciones que desees realizar con el token. Por ejemplo, si solo necesitas acceder a repositorios públicos, selecciona "public_repo". Si necesitas acceder a repositorios privados también, selecciona "repo".
+            
+            Una vez que hayas seleccionado los alcances necesarios, desplázate hacia abajo y haz clic en el botón "Generate token" (Generar token).
+            
+            El token de acceso personal se generará y se mostrará en pantalla. Asegúrate de copiarlo y guardarlo en un lugar seguro, ya que solo se mostrará una vez. Los tokens de acceso personal son secretos y te permiten acceder a tus repositorios y realizar operaciones en tu nombre, así que trata esta información con cuidado.
+            
+            Es importante mencionar que si en algún momento sientes que tu token ha sido comprometido o ya no lo necesitas, puedes regresar a la página de "Personal access tokens" en la configuración de tu cuenta de GitHub y revocar el token existente. Además, puedes generar múltiples tokens con diferentes alcances para distintos propósitos y revocarlos de forma individual cuando ya no sean necesarios.
+            
+            Recuerda tratar tus tokens de acceso personal con el mismo nivel de seguridad que tus credenciales de inicio de sesión, ya que proporcionan acceso a tu cuenta y repositorios en GitHub.</p>
 
         <h3>configurar git credential manager para git en ubuntu</h3>
     </div>

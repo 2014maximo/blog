@@ -44,6 +44,10 @@ npx angular-cli-ghpages – dir=dist
 SUBIR CAMBIOS AL HOSTING FIREBASE
 (PREVIO, UNA PRIMERA VEZ EN EL PC DE TRABAJO SE TIRA):
 npm install -g firebase-tools
+
+INSTALAR FIREBASE EN UBUNTU (LINUX)
+curl -sL https://firebase.tools | bash
+
 firebase login
 LUEGO YA:
 
@@ -53,6 +57,10 @@ firebase deploy
 SUBIR CAMBIOS A GITHUB(última versión)
 ng build --prod --base-href https://2014maximo.github.io/blog/
 npx angular-cli-ghpages --branch gh-pages
+
+SUBIR CAMBIOS CON FIREBASE AL DOMINIO CONFIGURADO EN FIREBASE
+ng build --prod --base-href="./"
+
 
 
 versión 1.0.0.3

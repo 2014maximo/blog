@@ -7,7 +7,12 @@ export const TERMINOS_JAVASCRIPT: GlosarioModel [] = [
         titulo: 'Eventos',
         fechaActualizacion: '2023-04-01',
         mostrar:true,
-        linkReferencia: 'js-elementos',
+        linksReferencia:[
+            {
+                urlLink: 'js-elementos',
+                titulo: ''
+            }
+        ],
         descripcion: {
             listaTituloTexto: [
                 {

@@ -19,13 +19,15 @@
         <div *ngIf="termino.descripcion.listaTituloTexto">
             <div *ngFor="let titulos of termino.descripcion.listaTituloTexto" class="mb-4">
                 <p *ngFor="let titulo of titulos.titulo" class="text-light f-open-sans-c fs-20 m-0"><b>{{ titulo }}</b></p>
-                <p *ngFor="let descripcion of titulos.descripciones" class="text-light f-open-sans-c fs-20 m-0">
+                <p *ngFor="let descripcion of titulos.descripciones" class="text-light f-open-sans-c fs-20 m-0 pl-3">
                     <i class="fa fa-circle fs-10 {{ this.datosCategoria.color }}" aria-hidden="true"></i>
                     &nbsp;{{ descripcion }}
                 </p>
             </div>
         </div>
-        <a *ngIf="termino.linkReferencia" href="{{ termino.linkReferencia }}" class="text-secondary f-open-sans-c fs-20">Más detalles...</a>
+        <div *ngFor="let termino of termino.linksReferencia">
+            <a *ngIf="termino.urlLink" href="{{ termino.urlLink }}" class="text-secondary f-open-sans-c fs-20">{{ termino.titulo }}</a>
+        </div>
     </div>
     <div *ngIf="esPar(i)" class="col-md-5"></div>
 </div>

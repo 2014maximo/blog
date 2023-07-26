@@ -116,7 +116,7 @@ export class DatosPost{
 export class GlosarioModel {
     id: string;
     titulo: string;
-    linkReferencia: string;
+    linksReferencia: linkReferenciaI[];
     mostrar: boolean;
     fechaActualizacion: string;
     descripcion: DescripcionesI;
@@ -124,7 +124,7 @@ export class GlosarioModel {
     constructor(){
         this.id = '';
         this.titulo = '';
-        this.linkReferencia = '';
+        this.linksReferencia = [];
         this.descripcion = new DescripcionesI();
         this.mostrar = false;
         this.fechaActualizacion = '';
@@ -139,6 +139,11 @@ export class DescripcionesI{
         this.listaTexto = [];
         this.listaTituloTexto = [];
     }
+}
+
+export interface linkReferenciaI {
+    titulo: string,
+    urlLink: string
 }
 
 export interface ListasTituloTextoI {
