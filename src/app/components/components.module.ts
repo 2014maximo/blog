@@ -62,8 +62,8 @@ import { EtronInstalacionComponent } from './ELECTRON/etron-instalacion/etron-in
 import { GitInstalacionComponent } from './GIT/git-instalacion/git-instalacion.component';
 import { DevPrincipiosSolidComponent } from './DEVELOPER/components/dev-principios-solid/dev-principios-solid.component';
 import { NgRxjsFirstValueFromComponent } from './ANGULAR/components/ng-rxjs-first-value-from/ng-rxjs-first-value-from.component';
-import { ErroresComponent } from './GIT/components/errores/errores.component';
 import { GitErroresComponent } from './GIT/components/git-errores/git-errores.component';
+import { LxComandosMUsadosComponent } from './LINUX/components/lx-comandos-m-usados/lx-comandos-m-usados.component';
 
 
 
@@ -131,8 +131,8 @@ import { GitErroresComponent } from './GIT/components/git-errores/git-errores.co
     GitInstalacionComponent,
     DevPrincipiosSolidComponent,
     NgRxjsFirstValueFromComponent,
-    ErroresComponent,
-    GitErroresComponent
+    GitErroresComponent,
+    LxComandosMUsadosComponent
   ],
   imports: [
     CommonModule,

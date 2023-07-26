@@ -62,6 +62,7 @@ import { GitInstalacionComponent } from './components/GIT/git-instalacion/git-in
 import { DevPrincipiosSolidComponent } from './components/DEVELOPER/components/dev-principios-solid/dev-principios-solid.component';
 import { NgRxjsFirstValueFromComponent } from './components/ANGULAR/components/ng-rxjs-first-value-from/ng-rxjs-first-value-from.component';
 import { GitErroresComponent } from './components/GIT/components/git-errores/git-errores.component';
+import { LxComandosMUsadosComponent } from './components/LINUX/components/lx-comandos-m-usados/lx-comandos-m-usados.component';
 
 
 export const ROUTES: Routes = [
@@ -145,6 +146,7 @@ export const ROUTES: Routes = [
 
 // LINUX
     { path: 'linux', component: LinuxComponent },
+    { path: 'lx-co-m-u', component: LxComandosMUsadosComponent },
 
 // KOTLIN
     { path: 'kotlin', component: KotlinComponent },

@@ -7,7 +7,15 @@
 <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10">
-        <h3 class="text-light">El soporte para la autenticación por contraseña fue eliminado el 13 de agosto de 2021.</h3>
+        <h3 class="text-light">Crear directorio</h3>
+        <div class="espacio"></div>
+        <h3 class="text-light">Permisos</h3>
+        <p>chmod -R 777 Git-Credential-Manager-Core/</p>
+        <p>wget "https://github.com/GitCredentialManager/git-credential-manager/releases/download/v2.0.886/gcm-linux_amd64.2.0.886.deb" -O /tmp/gcmcore.deb</p>
+        <p>sudo dpkg -i /tmp/gcmcore.deb</p>
+        <p>git-credential-manager configure</p>
+
+        <h3>configurar git credential manager para git en ubuntu</h3>
     </div>
     <div class="col-md-1"></div>
 </div>
