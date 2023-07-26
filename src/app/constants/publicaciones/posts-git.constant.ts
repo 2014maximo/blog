@@ -7,7 +7,7 @@ export const ESTILO_GIT: EstilosPost = {
 
 export const GIT: DatosPost[] = [
     {
-        id: '4635803514',
+        id: 'b72262ee-1257-4b4d-a980-d56190506dfe',
         nombre: 'GIT',
         descripcion: [],
         descripcionCorta: '',
@@ -22,7 +22,24 @@ export const GIT: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-1',
-        estado: 'inactivo'
-        
+        estado: 'activo'
+    },
+    {
+        id: '4871cb38-9831-4099-bd70-c0b540bf47a1',
+        nombre: 'ERRORES GIT',
+        descripcion: ['Errores comunes que nos ponen a patinar un rato buscado la solución.'],
+        descripcionCorta: 'Errores comunes que nos ponen a patinar un rato buscado la solución.',
+        ruta: 'git-errores',
+        componente: 'GitErroresComponent',
+        categoria: 'git',
+        mostrarEnPostHome: false,
+        estilos: ESTILO_GIT,
+        fechaCreacion: '2023-25-07',
+        fechaActualizacion: '2023-23-08',
+        imgHorizontal:'',
+        imgVertical:'',
+        imgCuadro:'',
+        posicion: 'rot-1',
+        estado: 'activo'
     }
 ]

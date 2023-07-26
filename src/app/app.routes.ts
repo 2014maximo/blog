@@ -61,6 +61,7 @@ import { EtronInstalacionComponent } from './components/ELECTRON/etron-instalaci
 import { GitInstalacionComponent } from './components/GIT/git-instalacion/git-instalacion.component';
 import { DevPrincipiosSolidComponent } from './components/DEVELOPER/components/dev-principios-solid/dev-principios-solid.component';
 import { NgRxjsFirstValueFromComponent } from './components/ANGULAR/components/ng-rxjs-first-value-from/ng-rxjs-first-value-from.component';
+import { GitErroresComponent } from './components/GIT/components/git-errores/git-errores.component';
 
 
 export const ROUTES: Routes = [
@@ -122,6 +123,7 @@ export const ROUTES: Routes = [
 // GIT
     { path: 'git', component: GitComponent },
     { path: 'git-instalacion', component: GitInstalacionComponent },
+    { path: 'git-errores', component: GitErroresComponent },
 
 // HTML
     { path: 'html', component: HtmlComponent },
