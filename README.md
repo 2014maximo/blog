@@ -60,6 +60,7 @@ npx angular-cli-ghpages --branch gh-pages
 
 SUBIR CAMBIOS CON FIREBASE AL DOMINIO CONFIGURADO EN FIREBASE
 ng build --prod --base-href="./"
+firebase deploy
 
 
 

@@ -9,7 +9,7 @@ export const DEVELOPER: DatosPost[] = [
     {
         id: '441cab09-256e-446f-bb2c-f017dd6d217b',
         nombre: 'Developer',
-        descripcion: [],
+        descripcion: ['jhjhljhljhljh'],
         descripcionCorta: '',
         ruta: 'developer',
         componente: 'DeveloperComponent',

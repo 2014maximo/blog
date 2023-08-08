@@ -22,7 +22,7 @@ export const GIT: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-1',
-        estado: 'activo'
+        estado: 'inactivo'
     },
     {
         id: '4871cb38-9831-4099-bd70-c0b540bf47a1',
