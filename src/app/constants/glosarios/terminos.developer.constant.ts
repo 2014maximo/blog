@@ -10,7 +10,7 @@ export const TERMINOS_DEVELOPER: GlosarioModel [] = [
         linksReferencia: [],
         descripcion: {
             listaTexto: [
-                'Protocolo estándar que define cómo dos objetos en diferentes procesos pueden comunicarse por medio de intercambio de datos XML.',
+                '(protocolo simple de acceso a objetos) Protocolo estándar que define cómo dos objetos en diferentes procesos pueden comunicarse por medio de intercambio de datos XML.',
                 'Los servicios SOAP funcionan por lo general por el protocolo HTTP que es lo más común cuando invocamos un Web Services, sin embargo, SOAP no está limitado a este protocolo, si no que puede ser enviado por FTP, POP3, TCP, Colas de mensajería (JMS, MQ, etc)'
             ]
         }
