@@ -8,3 +8,10 @@ export const CONTENIDO_1 = {
         '- Si se desea obtener el primer valor emitido por un Observable y no se requiere su posterior completitud, se puede utilizar la función take(1) en lugar de firstValueFrom().'
     ]
 }
+
+export const TEMPLATE_1 = `
+<div class='text-info'>;
+  <p>Contenido del template almacenado en una variable</p>
+  <div> HOLA </div>
+</div>
+`

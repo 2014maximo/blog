@@ -1,0 +1,23 @@
+.container-code{
+    padding-top: 20px;
+    padding-left: 3px;
+    padding-bottom: 20px;
+    border-radius: 7px;
+    
+}
+.container-code button{
+    height: 15px;
+    border: 0;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+button.red{
+    background-color: hsl(3.2deg 100% 66.86%)
+}
+button.yell{
+    background-color: hsl(41.05deg 100% 59.02%)
+}
+button.green{
+    background-color: hsl(128.89deg 67.5% 47.06%)
+}

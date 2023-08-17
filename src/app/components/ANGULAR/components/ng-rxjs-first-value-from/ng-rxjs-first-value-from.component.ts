@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CategoriaModel } from '../../../../shared/models/post.model';
 import { IndiceDeContenidosModel } from '../../../../shared/models/indice.model';
-import { CONTENIDO_1 } from './constants/contenido.constant';
+import { CONTENIDO_1, TEMPLATE_1 } from './constants/contenido.constant';
 
 @Component({
   selector: 'app-ng-rxjs-first-value-from',
@@ -12,6 +12,7 @@ export class NgRxjsFirstValueFromComponent implements OnInit {
 
   public idPublicacion = 'ebfeb1a0-10d5-49b0-aaa2-4196e8f1dd98';
   public indiceJavascript: IndiceDeContenidosModel [] = [];
+  public template = TEMPLATE_1;
 
   public breadcrumb: CategoriaModel = {
     activo: true,
