@@ -55,6 +55,14 @@ html{
     --color-dark-uno: #2a2d3e;
     --color-dark-dos: #002451;
     --color-dark-tres:#3a0000;
+    --c1:#89ddff;
+    --c2:#ef7178;
+}
+.c1{
+    color: var(--c1);
+}
+.c2{
+    color: var(--c2);
 }
 .w-100{
     width: 100%;

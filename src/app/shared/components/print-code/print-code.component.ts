@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { referHTML } from './constants/referencias.constant';
+import { TEMPLATE_1, TEMPLATE_2 } from '@app/components/ANGULAR/components/ng-rxjs-first-value-from/constants/contenido.constant';
 
 @Component({
   selector: 'app-print-code',
@@ -34,10 +36,19 @@ export class PrintCodeComponent implements OnInit {
 
 
   private cargarHTML(){
-    this.code = this.code.replace('<', '<span class="text-light">&lt;</span>');
+    this.code = TEMPLATE_1;
+/*     for(let i=0; i < TEMPLATE_1.length; i++){
+      let carac = TEMPLATE_1[i];
+      console.log(carac);
+    } */
+    for(let i=0; i<this.code.length; i++){
+      let anterior = this.code[-i]? this.code[-i] : '';
+      let caracter = this.code[i];
+      let construido = referHTML.find(e => e.referencia === caracter)?.retorno ?? this.code[i];
+      console.log(construido);
+    }
     this.code = '<pre>'.concat(this.code);
     this.code = this.code.concat('</pre>');
-    console.log(this.code, 'haber');
   }
 
   private cargaJavascript(){

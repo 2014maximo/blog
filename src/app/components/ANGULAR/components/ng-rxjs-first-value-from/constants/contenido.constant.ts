@@ -9,9 +9,13 @@ export const CONTENIDO_1 = {
     ]
 }
 
-export const TEMPLATE_1 = `
-<div class='text-info'>;
-  <p>Contenido del template almacenado en una variable</p>
-  <div> HOLA </div>
+export const TEMPLATE_1 = `<div>
+  <p>hola</p>
 </div>
-`
+`;
+
+export const TEMPLATE_2 = `<span class="c1">&lt;</span><span class="c2">div</span><span class="c1">&gt;</span>
+  <span class="c1">&lt;</span><span class="c2">p</span><span class="c1">&gt;</span>
+    hola
+  <span class="c1">&lt;/</span><span class="c2">p</span><span class="c1">&gt;</span>
+<span class="c1">&lt;/</span><span class="c2">div</span><span class="c1">&gt;</span>`
