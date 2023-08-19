@@ -9,9 +9,9 @@ export const CONTENIDO_1 = {
     ]
 }
 
-export const TEMPLATE_1 = `<div>
+export const TEMPLATE_1 = `<ng-template class="text-primary">
   <p>hola</p>
-</div>
+</ng-template>
 `;
 
 export const TEMPLATE_2 = `<span class="c1">&lt;</span><span class="c2">div</span><span class="c1">&gt;</span>

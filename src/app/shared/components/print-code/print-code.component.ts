@@ -38,14 +38,25 @@ export class PrintCodeComponent implements OnInit {
   private cargarHTML(){
     let template: string = '';
     this.code = TEMPLATE_1;
-/*     for(let i=0; i < TEMPLATE_1.length; i++){
-      let carac = TEMPLATE_1[i];
-      console.log(carac);
-    } */
+
     for(let i=0; i<this.code.length; i++){
-      let anterior = this.code[-i]? this.code[-i] : '';
-      let caracter = this.code[i];
-      let construido = referHTML.find(e => e.referencia === caracter)?.retorno ?? this.code[i];
+      let anterior = this.code[i-1]? this.code[i-1] : '';
+      let actual = this.code[i];
+      let siguiente = this.code[i+1]? this.code[i+1] : '';
+      let componente: string = '';
+
+      switch (this.code[i]) {
+        case '<': // HTML
+          componente = this.extraerComponente(i, '>');
+          console.log(componente);
+          break;
+
+      }
+
+
+
+      let construido = referHTML.find(e => e.referencia === actual)?.retorno ?? this.code[i];
+      
       console.log(construido);
       template = template + construido;
     }
@@ -53,6 +64,25 @@ export class PrintCodeComponent implements OnInit {
     this.code = template;
     this.code = '<pre>'.concat(this.code);
     this.code = this.code.concat('</pre>');
+  }
+
+  private extraerComponente(posicion:number, refer:string):string{
+    let puntoCorte;
+    for(let j=posicion; j<this.code.length; j++){
+      let actual = this.code[j];
+      console.log(this.code[j])
+      if(this.code[j] === refer){
+        puntoCorte = j;
+        break
+      }
+    }
+
+    let extraido = this.code.substring(posicion,puntoCorte);
+
+    if(extraido.indexOf(" ") !== -1) {
+      extraido = extraido.split(' ')[0]
+    } 
+    return extraido.slice(1);
   }
 
   private cargaJavascript(){
