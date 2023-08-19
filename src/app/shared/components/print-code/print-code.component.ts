@@ -36,6 +36,7 @@ export class PrintCodeComponent implements OnInit {
 
 
   private cargarHTML(){
+    let template: string = '';
     this.code = TEMPLATE_1;
 /*     for(let i=0; i < TEMPLATE_1.length; i++){
       let carac = TEMPLATE_1[i];
@@ -46,7 +47,10 @@ export class PrintCodeComponent implements OnInit {
       let caracter = this.code[i];
       let construido = referHTML.find(e => e.referencia === caracter)?.retorno ?? this.code[i];
       console.log(construido);
+      template = template + construido;
     }
+    console.log(template);
+    this.code = template;
     this.code = '<pre>'.concat(this.code);
     this.code = this.code.concat('</pre>');
   }
