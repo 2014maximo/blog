@@ -268,7 +268,7 @@ export const TERMINOS_DEVELOPER: GlosarioModel [] = [
         }
     },
     {
-        id: '13365d8f-c2cd-4f05-b427-6816a5ea1fa6',
+        id: 'd020111b-13a6-4fda-8234-8f5a388e2f66',
         titulo: 'Patrones estructurales',
         fechaActualizacion: '2023-07-26',
         mostrar: true,
@@ -302,6 +302,19 @@ export const TERMINOS_DEVELOPER: GlosarioModel [] = [
                 {
                     titulo: ['Proxy: Proporciona un intermediario de un objeto para controlar su acceso.']
                 }
+            ]
+        }
+    },
+    {
+        id: '13365d8f-c2cd-4f05-b427-6816a5ea1fa6',
+        titulo: 'ERPs (Enterprise Resource Planning)',
+        fechaActualizacion: '2023-08-25',
+        mostrar: true,
+        linksReferencia: [],
+        descripcion: {
+            listaTexto: [
+                'Sistemas de Planificación de Recursos Empresariales',
+                'Se refiere a programas y herramientas que permiten realizar procesos de organización, gestión, administración, etc. Como por ejemplo: "Splunk" para revisar logs y el funcionamiento de peticiones, "Postman" como plataforma API.'
             ]
         }
     }

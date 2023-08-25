@@ -45,17 +45,32 @@ export class PrintCodeComponent implements OnInit {
       let siguiente = this.code[i+1]? this.code[i+1] : '';
       let componente: string = '';
 
-      switch (this.code[i]) {
+      switch (actual) {
         case '<': // HTML
           componente = this.extraerComponente(i, '>');
+          componente = '<span class="c1">&lt;</span><span class="c2">'.concat(componente);
+          componente = componente.concat('</span>');
           console.log(componente);
           break;
 
+        case '>':
+          componente = '<span class="c1">&gt;</span>';
+          break;
+        
+        case '/':
+          componente = '<span class="c1">/</span>';
+          break;
+        
+        case '\n':
+          componente = '\n';
+          break;
+        
+        case ' ':
+          componente = ' ';
+          break;
       }
-
-
-
-      let construido = referHTML.find(e => e.referencia === actual)?.retorno ?? this.code[i];
+    //  let construido = referHTML.find(e => e.referencia === actual)?.retorno ?? this.code[i];
+    let construido = componente?? this.code[i];
       
       console.log(construido);
       template = template + construido;
@@ -81,7 +96,10 @@ export class PrintCodeComponent implements OnInit {
 
     if(extraido.indexOf(" ") !== -1) {
       extraido = extraido.split(' ')[0]
-    } 
+    }
+    if(extraido.indexOf("/") !== -1){
+      extraido = extraido.split('/')[1]
+    }
     return extraido.slice(1);
   }
 
