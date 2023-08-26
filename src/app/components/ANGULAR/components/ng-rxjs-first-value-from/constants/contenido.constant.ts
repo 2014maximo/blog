@@ -9,7 +9,7 @@ export const CONTENIDO_1 = {
     ]
 }
 
-export const TEMPLATE_1 = `<ng-template class="text-primary">
+export const TEMPLATE_1 = `<ng-template class="fuenteTres">
   <p>hola</p>
 </ng-template>
 `;

@@ -77,7 +77,7 @@ export class PrintCodeComponent implements OnInit {
     }
     console.log(template);
     this.code = template;
-    this.code = '<pre>'.concat(this.code);
+    this.code = '<pre class="fuenteTres">'.concat(this.code);
     this.code = this.code.concat('</pre>');
   }
 
