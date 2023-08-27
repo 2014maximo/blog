@@ -48,13 +48,13 @@ export class PrintCodeComponent implements OnInit {
       switch (actual) {
         case '<': // HTML
           componente = this.extraerComponente(i, '>');
-          componente = '<span class="c1">&lt;</span><span class="c2">'.concat(componente);
+          componente = this.referHTML(actual).concat(componente);
           componente = componente.concat('</span>');
           console.log(componente);
           break;
 
         case '>':
-          componente = '<span class="c1">&gt;</span>';
+          componente = referHTML.find( e => e.referencia === actual)?.retorno ?? actual;
           break;
         
         case '/':
@@ -69,7 +69,7 @@ export class PrintCodeComponent implements OnInit {
           componente = ' ';
           break;
       }
-    //  let construido = referHTML.find(e => e.referencia === actual)?.retorno ?? this.code[i];
+
     let construido = componente?? this.code[i];
       
       console.log(construido);
@@ -79,6 +79,10 @@ export class PrintCodeComponent implements OnInit {
     this.code = template;
     this.code = '<pre class="fuenteTres">'.concat(this.code);
     this.code = this.code.concat('</pre>');
+  }
+
+  private referHTML(actual:string): string{
+    return referHTML.find( e => e.referencia === actual)?.retorno ?? actual;
   }
 
   private extraerComponente(posicion:number, refer:string):string{
