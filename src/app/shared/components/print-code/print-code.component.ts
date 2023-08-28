@@ -47,18 +47,26 @@ export class PrintCodeComponent implements OnInit {
 
       switch (actual) {
         case '<': // HTML
-          componente = this.extraerComponente(i, '>');
-          componente = this.referHTML(actual).concat(componente);
-          componente = componente.concat('</span>');
-          console.log(componente);
+          if(siguiente === '/'){
+            componente =`${this.referHTML('</')}${this.referHTML('abrirComponente')}${this.extraerComponente(i, '>')}${this.referHTML('cerrarComponente')}`;
+            console.log(componente);
+          }else{
+            componente =
+            `${this.referHTML('<')}${this.referHTML('abrirComponente')}${this.extraerComponente(i, '>')}${this.referHTML('cerrarComponente')}`;
+            console.log(componente);
+          }
           break;
 
         case '>':
-          componente = referHTML.find( e => e.referencia === actual)?.retorno ?? actual;
+          componente = this.referHTML('>')
           break;
         
         case '/':
-          componente = '<span class="c1">/</span>';
+          if(anterior !='<'){
+            componente = this.referHTML('/');
+          } else if(anterior === '<'){
+            //componente = `${}` this.extraerComponente(i, '>');
+          }
           break;
         
         case '\n':
@@ -99,9 +107,8 @@ export class PrintCodeComponent implements OnInit {
     let extraido = this.code.substring(posicion,puntoCorte);
 
     if(extraido.indexOf(" ") !== -1) {
-      extraido = extraido.split(' ')[0]
-    }
-    if(extraido.indexOf("/") !== -1){
+      extraido = extraido.split(' ')[0];
+    }else if(extraido.indexOf("/") !== -1){
       extraido = extraido.split('/')[1]
     }
     return extraido.slice(1);
