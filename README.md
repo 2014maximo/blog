@@ -64,4 +64,4 @@ firebase deploy
 
 
 
-versión 1.0.0.3
+versión 1.0.0.4
