@@ -85,7 +85,7 @@ export class PrintCodeComponent implements OnInit {
     }
     console.log(template);
     this.code = template;
-    this.code = '<pre class="fuenteTres">'.concat(this.code);
+    this.code = '<pre class="fuenteTres fw-5 fs-17">'.concat(this.code);
     this.code = this.code.concat('</pre>');
   }
 
@@ -111,7 +111,7 @@ export class PrintCodeComponent implements OnInit {
     }else if(extraido.indexOf("/") !== -1){
       extraido = extraido.split('/')[1]
     }
-    return extraido.slice(1);
+    return extraido[0] === '<'? extraido.slice(1) : extraido;
   }
 
   private cargaJavascript(){
