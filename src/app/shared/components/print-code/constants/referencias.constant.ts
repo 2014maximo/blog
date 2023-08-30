@@ -23,6 +23,10 @@ export const referHTML = [
         retorno:'</span>'
     },
     {
+        referencia:'abrirComponenteInterno',
+        retorno: '<span class="c3">'
+    },
+    {
         referencia:'/',
         retorno:'<span class="c2">/</span>',
         claseColor:'c2'

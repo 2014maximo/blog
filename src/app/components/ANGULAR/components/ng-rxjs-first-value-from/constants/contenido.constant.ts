@@ -18,4 +18,35 @@ export const TEMPLATE_2 = `<span class="c1">&lt;</span><span class="c2">div</spa
   <span class="c1">&lt;</span><span class="c2">p</span><span class="c1">&gt;</span>
     hola
   <span class="c1">&lt;/</span><span class="c2">p</span><span class="c1">&gt;</span>
-<span class="c1">&lt;/</span><span class="c2">div</span><span class="c1">&gt;</span>`
+<span class="c1">&lt;/</span><span class="c2">div</span><span class="c1">&gt;</span>`;
+
+export const TEMPLATE_3 = `<div class="row">
+<div class="col-1"></div>
+<div class="col-md-10">
+    <div class="row">
+        <div class="col-md-7">
+            <img src="https://plantillas_dev.gitlab.io/assets/img/items/pervertido-white.png" alt="" height="50" width="auto" class="drop">
+            <h2 class="m-0 p-0 f-shadow-into-l fw-3 fs-30 text-secondary m-0 p-0 text-uppercase">CARACTERISTICAS</h2>
+            <ul class="m-0 p-0 list-unstyled">
+                <li class="m-0 p-0" *ngFor="let contenido of contenidos.caracteristicas">
+                    <p class="text-light f-open-sans-c fs-18 lh-20 p-0">
+                        {{ contenido }}
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+    <div class="espaciado"></div>
+
+    <div class="row">
+        <div class="col-md-7">
+            <h2 class="m-0 p-0 f-shadow-into-l fw-3 fs-30 text-secondary m-0 p-0 text-uppercase">EJEMPLOS</h2>
+            <app-print-code [code]="template" [tipo]="1"></app-print-code>
+        </div>
+    </div>
+</div>
+<div class="col-1"></div>
+
+</div>
+`;

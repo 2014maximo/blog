@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { referHTML } from './constants/referencias.constant';
-import { TEMPLATE_1, TEMPLATE_2 } from '@app/components/ANGULAR/components/ng-rxjs-first-value-from/constants/contenido.constant';
+import { TEMPLATE_1, TEMPLATE_2, TEMPLATE_3 } from '@app/components/ANGULAR/components/ng-rxjs-first-value-from/constants/contenido.constant';
 
 @Component({
   selector: 'app-print-code',
@@ -44,11 +44,13 @@ export class PrintCodeComponent implements OnInit {
       let actual = this.code[i];
       let siguiente = this.code[i+1]? this.code[i+1] : '';
       let componente: string = '';
+      let cerrado = false;
+      const soloTexto = /^[a-zA-Z]+$/;
 
       switch (actual) {
         case '<': // HTML
           if(siguiente === '/'){
-            componente =`${this.referHTML('</')}${this.referHTML('abrirComponente')}${this.extraerComponente(i, '>')}${this.referHTML('cerrarComponente')}`;
+            componente =`${this.referHTML('</')}${this.referHTML('abrirComponente')}${this.extraerComponente(i+1, '>')}${this.referHTML('cerrarComponente')}`;
             console.log(componente);
           }else{
             componente =
@@ -58,7 +60,8 @@ export class PrintCodeComponent implements OnInit {
           break;
 
         case '>':
-          componente = this.referHTML('>')
+          componente = this.referHTML('>');
+          cerrado = true;
           break;
         
         case '/':
@@ -74,8 +77,22 @@ export class PrintCodeComponent implements OnInit {
           break;
         
         case ' ':
-          componente = ' ';
+          if(siguiente === '('){
+            console.log(siguiente)
+          } else if(siguiente === '['){
+            console.log(siguiente)
+          } else if(soloTexto.test(siguiente)){
+            console.log(siguiente);
+            componente = ` ${this.referHTML('abrirComponenteInterno')}${this.extraerComponente(i+1, '=')}${this.referHTML('cerrarComponente')}<span class="c1">=</span>`
+          } else {
+            componente = ' ';
+          }
           break;
+
+        default:
+          componente = actual;
+          break;
+
       }
 
     let construido = componente?? this.code[i];
@@ -107,11 +124,28 @@ export class PrintCodeComponent implements OnInit {
     let extraido = this.code.substring(posicion,puntoCorte);
 
     if(extraido.indexOf(" ") !== -1) {
-      extraido = extraido.split(' ')[0];
+      extraido = `${extraido.split(' ')[0]}` ; // si tiene un espacio: 
     }else if(extraido.indexOf("/") !== -1){
       extraido = extraido.split('/')[1]
-    }
+    } 
+
+    let longitud = extraido[0] === '<'? extraido.slice(1) : extraido;
+
+    this.code = this.devolverSinComponente(posicion +1, longitud.length);
+
     return extraido[0] === '<'? extraido.slice(1) : extraido;
+  }
+
+  private devolverSinComponente(posicionInicial:number, longitud:number):string{
+    const parteInicial = this.code.substring(0, posicionInicial);
+    const parteFinal = this.code.substring(posicionInicial + longitud);
+    return `${parteInicial}${parteFinal}`;
+  }
+
+  private extraerInterno(posicion:number, refer:string):string{
+    let extraido = '';
+
+    return extraido
   }
 
   private cargaJavascript(){
