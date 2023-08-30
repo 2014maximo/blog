@@ -83,11 +83,21 @@ export class PrintCodeComponent implements OnInit {
             console.log(siguiente)
           } else if(soloTexto.test(siguiente)){
             console.log(siguiente);
-            componente = ` ${this.referHTML('abrirComponenteInterno')}${this.extraerComponente(i+1, '=')}${this.referHTML('cerrarComponente')}<span class="c1">=</span>`
+            componente = ` ${this.referHTML('abrirComponenteInterno')}${this.extraerComponente(i+1, '=')}${this.referHTML('cerrarComponente')}`
           } else {
             componente = ' ';
           }
           break;
+
+          case '=':
+            componente = this.referHTML('=');
+          break;
+
+          case '"':
+            if(anterior === '='){
+              componente =`${this.referHTML("abrirTextoCadena")}${this.referHTML("cerrarComponente")}${this.referHTML("abrirTexto")}${this.extraerPalabrasCadena(i+1, '"')}${this.referHTML("abrirTextoCadena")}${this.referHTML("cerrarComponente")}`;
+            };
+            break;
 
         default:
           componente = actual;
@@ -112,7 +122,7 @@ export class PrintCodeComponent implements OnInit {
 
   private extraerComponente(posicion:number, refer:string):string{
     let puntoCorte;
-    for(let j=posicion; j<this.code.length; j++){
+    for(let j=posicion; j < this.code.length; j++){
       let actual = this.code[j];
       console.log(this.code[j])
       if(this.code[j] === refer){
@@ -131,7 +141,29 @@ export class PrintCodeComponent implements OnInit {
 
     let longitud = extraido[0] === '<'? extraido.slice(1) : extraido;
 
-    this.code = this.devolverSinComponente(posicion +1, longitud.length);
+    let posicionSegun = refer==='='? posicion : posicion+1;
+
+    this.code = this.devolverSinComponente(posicionSegun, longitud.length);
+
+    return extraido[0] === '<'? extraido.slice(1) : extraido;
+  }
+
+  private extraerPalabrasCadena(posicion:number, refer:string): string{
+    let puntoCorte;
+    for(let j=posicion; j < this.code.length; j++){
+      let actual = this.code[j];
+      console.log(this.code[j])
+      if(this.code[j] === refer){
+        puntoCorte = j;
+        break
+      }
+    }
+
+    let extraido = this.code.substring(posicion,puntoCorte);
+
+    let longitud = extraido[0] === '<'? extraido.slice(1) : extraido;
+
+    this.code = this.devolverSinComponente(posicion, longitud.length);
 
     return extraido[0] === '<'? extraido.slice(1) : extraido;
   }
@@ -140,12 +172,6 @@ export class PrintCodeComponent implements OnInit {
     const parteInicial = this.code.substring(0, posicionInicial);
     const parteFinal = this.code.substring(posicionInicial + longitud);
     return `${parteInicial}${parteFinal}`;
-  }
-
-  private extraerInterno(posicion:number, refer:string):string{
-    let extraido = '';
-
-    return extraido
   }
 
   private cargaJavascript(){
