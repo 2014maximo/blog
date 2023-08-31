@@ -37,7 +37,6 @@ export class PrintCodeComponent implements OnInit {
 
   private cargarHTML(){
     let template: string = '';
-    this.code = TEMPLATE_1;
 
     for(let i=0; i<this.code.length; i++){
       let anterior = this.code[i-1]? this.code[i-1] : '';
@@ -46,6 +45,7 @@ export class PrintCodeComponent implements OnInit {
       let componente: string = '';
       let cerrado = false;
       const soloTexto = /^[a-zA-Z]+$/;
+      let contadorSaltos: number = 0;
 
       switch (actual) {
         case '<': // HTML
@@ -60,7 +60,12 @@ export class PrintCodeComponent implements OnInit {
           break;
 
         case '>':
-          componente = this.referHTML('>');
+          if(soloTexto.test(siguiente)){
+            componente = 
+            `<span class="c1">></span><span class="text-light">${this.extraerPalabrasCadena(i+1, '<')}</span>`
+          } else {
+            componente = this.referHTML('>');
+          }
           cerrado = true;
           break;
         
@@ -74,6 +79,7 @@ export class PrintCodeComponent implements OnInit {
         
         case '\n':
           componente = '\n';
+          contadorSaltos++;
           break;
         
         case ' ':
@@ -106,11 +112,11 @@ export class PrintCodeComponent implements OnInit {
       }
 
     let construido = componente?? this.code[i];
-      
-      console.log(construido);
-      template = template + construido;
+    template = template + construido;
+
+    console.log(contadorSaltos, 'CONTADOR SALTOS');
+
     }
-    console.log(template);
     this.code = template;
     this.code = '<pre class="fuenteTres fw-5 fs-17">'.concat(this.code);
     this.code = this.code.concat('</pre>');
