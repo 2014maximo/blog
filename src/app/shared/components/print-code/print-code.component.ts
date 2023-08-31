@@ -1,6 +1,8 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { referHTML } from './constants/referencias.constant';
 import { TEMPLATE_1, TEMPLATE_2, TEMPLATE_3 } from '@app/components/ANGULAR/components/ng-rxjs-first-value-from/constants/contenido.constant';
+import { copiarAlPortapapeles } from '@shared/constants';
+import { abrirUrl } from '@shared/constants/funciones/funciones-globales';
 
 @Component({
   selector: 'app-print-code',
@@ -11,10 +13,16 @@ export class PrintCodeComponent implements OnInit {
 
   @Input() public code: string = '';
   @Input() public tipo: number = 0;
+  @Input() public refDocumentacion: string = '';
+  @Input() public urlStackBlitz: string = '';
+
+  contadorSaltosLinea: number = 0;
+  clipboard: string = '';
 
   constructor() { }
 
   ngOnInit(): void {
+    this.clipboard = this.code;
     this.remoldearSegunTipo();
   }
 
@@ -37,6 +45,7 @@ export class PrintCodeComponent implements OnInit {
 
   private cargarHTML(){
     let template: string = '';
+    let contadorSaltos: number = 0;
 
     for(let i=0; i<this.code.length; i++){
       let anterior = this.code[i-1]? this.code[i-1] : '';
@@ -45,7 +54,6 @@ export class PrintCodeComponent implements OnInit {
       let componente: string = '';
       let cerrado = false;
       const soloTexto = /^[a-zA-Z]+$/;
-      let contadorSaltos: number = 0;
 
       switch (actual) {
         case '<': // HTML
@@ -79,7 +87,7 @@ export class PrintCodeComponent implements OnInit {
         
         case '\n':
           componente = '\n';
-          contadorSaltos++;
+          this.contadorSaltosLinea = this.contadorSaltosLinea +1;
           break;
         
         case ' ':
@@ -186,6 +194,18 @@ export class PrintCodeComponent implements OnInit {
 
   private cargarTypescript(){
 
+  }
+
+  public contador(iteraciones: number) {
+    return Array(iteraciones).fill(0).map((_, index) => index);
+  }
+
+  public copiarAlPortapapeles(cadenaAlclipboard: string) {
+    copiarAlPortapapeles(cadenaAlclipboard);
+  }
+
+  public abrirLink(link:string){
+    abrirUrl(link);
   }
   
 

@@ -165,3 +165,7 @@ export function reduccionTexto(cantPalabras: number, maxPalabra: number, textoCo
 
   return reducido;
 }
+
+export function abrirUrl(link:string){
+  window.open(link, '_blank');
+}

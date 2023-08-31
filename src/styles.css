@@ -59,19 +59,13 @@ html{
     --c2:#ef7178;
     --c3:rgb(199 146 234);
     --c4:rgb(195 232 141);
+    --c5:rgb(92, 98, 126);
 }
-.c1{
-    color: var(--c1);
-}
-.c2{
-    color: var(--c2);
-}
-.c3{
-    color:var(--c3);
-}
-.c4{
-    color:var(--c4);
-}
+.c1{color: var(--c1)}
+.c2{color: var(--c2)}
+.c3{color: var(--c3)}
+.c4{color: var(--c4)}
+.c5{color: var(--c5)}
 .w-100{
     width: 100%;
 }

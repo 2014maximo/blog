@@ -25,7 +25,11 @@
         <div class="row">
             <div class="col-md-7">
                 <h2 class="m-0 p-0 f-bebas fw-3 fs-30 text-light m-0 p-0 text-uppercase">EJEMPLOS DE USO</h2>
-                <app-print-code [code]="template" [tipo]="1"></app-print-code>
+                <app-print-code
+                    [code]="template"
+                    [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                    [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'"
+                    [tipo]="1"></app-print-code>
             </div>
         </div>
     </div>

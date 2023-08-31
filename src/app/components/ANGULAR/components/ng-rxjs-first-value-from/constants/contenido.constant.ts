@@ -50,3 +50,17 @@ export const TEMPLATE_3 = `<div class="row">
 
 </div>
 `;
+
+export const TEMPLATE_4 =
+`import { interval, firstValueFrom } from 'rxjs';
+ 
+async function execute() {
+  const source$ = interval(2000);
+  const firstNumber = await firstValueFrom(source$);
+  console.log('The first number is', firstNumber);
+}
+ 
+execute();
+ 
+// Expected output:
+// 'The first number is 0'`

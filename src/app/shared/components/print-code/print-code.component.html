@@ -1,12 +1,19 @@
 <div class="row container-code shadow bg-dark">
     <div class="col-md-12">
         <div class="head-code mb-3">
-            <button class="red"></button>
-            <button class="yell"></button>
-            <button class="green"></button>
+            <button *ngIf="refDocumentacion" (click)="abrirLink(refDocumentacion)" class="red" title="Abrir Referencia a documentación"></button>
+            <button *ngIf="urlStackBlitz" class="yell" title="Abrir en Stackblitz"></button>
+            <button class="green" title="Copiar" (click)="copiarAlPortapapeles(clipboard)"></button>
         </div>
-        <div class="body-code fuenteTres">
-            <span [innerHTML]="code"></span>
+        <div class="body-code fuenteTres row">
+            <div class="col-md-1">
+                <span class="c5 fs-17" *ngFor="let linea of contador(contadorSaltosLinea + 3); let i = index">
+                    {{ i + 1}}
+                </span> 
+            </div>
+            <div class="col-md-11">
+                <span class="col-11" [innerHTML]="code"></span>
+            </div>
         </div>
     </div>
 </div>
