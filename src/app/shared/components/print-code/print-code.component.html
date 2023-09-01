@@ -2,14 +2,14 @@
     <div class="col-md-12">
         <div class="head-code mb-3">
             <button *ngIf="refDocumentacion" (click)="abrirLink(refDocumentacion)" class="red" title="Abrir Referencia a documentación"></button>
-            <button *ngIf="urlStackBlitz" class="yell" title="Abrir en Stackblitz"></button>
+            <button *ngIf="urlStackBlitz" (click)="abrirLink(urlStackBlitz)" class="yell" title="Abrir en Stackblitz"></button>
             <button class="green" title="Copiar" (click)="copiarAlPortapapeles(clipboard)"></button>
         </div>
         <div class="body-code fuenteTres row">
             <div class="col-md-1">
-                <span class="c5 fs-17" *ngFor="let linea of contador(contadorSaltosLinea + 3); let i = index">
+                <p class="c5 fs-17 lh-25 m-0" *ngFor="let linea of contador(contadorSaltosLinea + 3); let i = index">
                     {{ i + 1}}
-                </span> 
+                </p> 
             </div>
             <div class="col-md-11">
                 <span class="col-11" [innerHTML]="code"></span>

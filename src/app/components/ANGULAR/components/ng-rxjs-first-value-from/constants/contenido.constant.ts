@@ -9,8 +9,8 @@ export const CONTENIDO_1 = {
     ]
 }
 
-export const TEMPLATE_1 = `<ng-template class="c2 prueba otraprueba">
-  <p>hola</p>
+export const TEMPLATE_1 = `<ng-template (click)="abrirLink(urlStackBlitz)" [rutaIconoSugerido]="'assets/img/icons/RXJS.png'">
+  <p>{{ publicacion.nombre }}</p>
 </ng-template>
 `;
 

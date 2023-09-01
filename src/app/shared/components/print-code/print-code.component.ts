@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { referHTML } from './constants/referencias.constant';
+import { referHTML } from './constants/referenciasHTML.constant';
 import { TEMPLATE_1, TEMPLATE_2, TEMPLATE_3 } from '@app/components/ANGULAR/components/ng-rxjs-first-value-from/constants/contenido.constant';
 import { copiarAlPortapapeles } from '@shared/constants';
 import { abrirUrl } from '@shared/constants/funciones/funciones-globales';
@@ -58,12 +58,10 @@ export class PrintCodeComponent implements OnInit {
       switch (actual) {
         case '<': // HTML
           if(siguiente === '/'){
-            componente =`${this.referHTML('</')}${this.referHTML('abrirComponente')}${this.extraerComponente(i+1, '>')}${this.referHTML('cerrarComponente')}`;
-            console.log(componente);
+            componente =`${this.referHTML('</')}${this.referHTML('abrirComponente')}${this.extraerComponente(i+1, '>',0,0)}${this.referHTML('cerrarComponente')}`;
           }else{
             componente =
-            `${this.referHTML('<')}${this.referHTML('abrirComponente')}${this.extraerComponente(i, '>')}${this.referHTML('cerrarComponente')}`;
-            console.log(componente);
+            `${this.referHTML('<')}${this.referHTML('abrirComponente')}${this.extraerComponente(i, '>',0,0)}${this.referHTML('cerrarComponente')}`;
           }
           break;
 
@@ -92,12 +90,13 @@ export class PrintCodeComponent implements OnInit {
         
         case ' ':
           if(siguiente === '('){
-            console.log(siguiente)
+            componente =
+            ` ${this.referHTML('abrirParentesisInterno')}${this.referHTML('abrirComponenteInterno')}${this.extraerComponente(i+2, ')',2,-2)}${this.referHTML(')')}${this.referHTML('cerrarComponente')}`
           } else if(siguiente === '['){
-            console.log(siguiente)
+            componente = 
+            ` ${this.referHTML('abrirCorcheteInterno')}${this.referHTML('abrirComponenteInterno')}${this.extraerComponente(i+2, ']',2,-2)}${this.referHTML(']')}${this.referHTML('cerrarComponente')}`
           } else if(soloTexto.test(siguiente)){
-            console.log(siguiente);
-            componente = ` ${this.referHTML('abrirComponenteInterno')}${this.extraerComponente(i+1, '=')}${this.referHTML('cerrarComponente')}`
+            componente = ` ${this.referHTML('abrirComponenteInterno')}${this.extraerComponente(i+1, '=',0,0)}${this.referHTML('cerrarComponente')}`
           } else {
             componente = ' ';
           }
@@ -122,8 +121,6 @@ export class PrintCodeComponent implements OnInit {
     let construido = componente?? this.code[i];
     template = template + construido;
 
-    console.log(contadorSaltos, 'CONTADOR SALTOS');
-
     }
     this.code = template;
     this.code = '<pre class="fuenteTres fw-5 fs-17">'.concat(this.code);
@@ -134,8 +131,8 @@ export class PrintCodeComponent implements OnInit {
     return referHTML.find( e => e.referencia === actual)?.retorno ?? actual;
   }
 
-  private extraerComponente(posicion:number, refer:string):string{
-    let puntoCorte;
+  private extraerComponente(posicion:number, refer:string, corteRecomendado:number, posicionRecomendada:number):string{
+    let puntoCorte=0;
     for(let j=posicion; j < this.code.length; j++){
       let actual = this.code[j];
       console.log(this.code[j])
@@ -144,6 +141,7 @@ export class PrintCodeComponent implements OnInit {
         break
       }
     }
+
 
     let extraido = this.code.substring(posicion,puntoCorte);
 
@@ -157,7 +155,7 @@ export class PrintCodeComponent implements OnInit {
 
     let posicionSegun = refer==='='? posicion : posicion+1;
 
-    this.code = this.devolverSinComponente(posicionSegun, longitud.length);
+    this.code = this.devolverSinComponente(posicionSegun+posicionRecomendada, longitud.length+corteRecomendado);
 
     return extraido[0] === '<'? extraido.slice(1) : extraido;
   }
