@@ -1,8 +1,9 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { referHTML } from './constants/referenciasHTML.constant';
+import { formateoHtml, referHTML } from './constants/referenciasHTML.constant';
 import { TEMPLATE_1, TEMPLATE_2, TEMPLATE_3 } from '@app/components/ANGULAR/components/ng-rxjs-first-value-from/constants/contenido.constant';
 import { copiarAlPortapapeles } from '@shared/constants';
 import { abrirUrl } from '@shared/constants/funciones/funciones-globales';
+import { cargarTypescript } from './constants/referenciasTypescript.constant';
 
 @Component({
   selector: 'app-print-code',
@@ -37,7 +38,7 @@ export class PrintCodeComponent implements OnInit {
         break;
 
       case 3: // TYPESCRIPT
-        this.cargarTypescript();
+        this.code = cargarTypescript(this.code);
         break;
     }
   }
@@ -187,10 +188,6 @@ export class PrintCodeComponent implements OnInit {
   }
 
   private cargaJavascript(){
-
-  }
-
-  private cargarTypescript(){
 
   }
 
