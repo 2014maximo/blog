@@ -7,12 +7,16 @@
         </div>
         <div class="body-code fuenteTres row">
             <div class="col-md-1">
-                <p class="c5 fs-17 lh-25 m-0" *ngFor="let linea of contador(contadorSaltosLinea + 3); let i = index">
+                <p class="c5 fs-17 lh-25 m-0" *ngFor="let linea of contador(lineas + 3); let i = index">
                     {{ i + 1}}
                 </p> 
             </div>
             <div class="col-md-11">
-                <span class="col-11" [innerHTML]="code"></span>
+                <pre>
+                    <code class="language-{{lenguaje}} fuenteTres fs-17 lh-25">
+                      {{ code }}
+                    </code>
+                  </pre>
             </div>
         </div>
     </div>

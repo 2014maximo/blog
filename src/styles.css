@@ -567,3 +567,7 @@ a:hover {
     color: yellow;
     text-shadow: 1px 2px 2px #000000;
 }
+
+.language-typescript span.punctuation{
+    color:white;
+}

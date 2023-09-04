@@ -29,6 +29,7 @@
     "firebase-tools": "^10.9.2",
     "firebaseui": "^6.0.0",
     "ngx-owl-carousel-o": "^6.0.0",
+    "prismjs": "^1.29.0",
     "rxfire": "^6.0.0",
     "rxjs": "~6.6.0",
     "sweetalert2": "^11.4.8",
