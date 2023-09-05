@@ -1,5 +1,5 @@
 <div class="row container-code shadow bg-dark">
-    <div class="col-md-12">
+    <div class="col-md-12 ml-1">
         <div class="head-code mb-3">
             <button *ngIf="refDocumentacion" (click)="abrirLink(refDocumentacion)" class="red" title="Abrir Referencia a documentación"></button>
             <button *ngIf="urlStackBlitz" (click)="abrirLink(urlStackBlitz)" class="yell" title="Abrir en Stackblitz"></button>
@@ -13,7 +13,7 @@
             </div>
             <div class="col-md-11">
                 <pre>
-                    <code class="language-{{lenguaje}} fuenteTres fs-17 lh-25">
+                    <code class="language-{{lenguaje}} fuenteTres fs-17 lh-25 text-light">
                       {{ code }}
                     </code>
                   </pre>

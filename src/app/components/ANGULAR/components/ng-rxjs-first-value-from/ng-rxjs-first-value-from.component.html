@@ -10,21 +10,61 @@
         <div class="row">
             <div class="col-md-7">
                 <h2 class="m-0 p-0 f-bebas fw-3 fs-30 text-light m-0 p-0 text-uppercase">CARACTERÍSTICAS</h2>
-                <ul class="m-0 p-0 list-unstyled">
-                    <li class="m-0 p-0" *ngFor="let contenido of contenidos.caracteristicas">
-                        <p class="text-light f-open-sans-c fs-18 lh-20 p-0">
+                <div class="m-0 p-0 row" *ngFor="let contenido of contenidos.caracteristicas">
+                    <div class="col-md-1">
+                        <i class="fa fa-plus {{ publicacion.estilos.color }}" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-md-11">
+                        <p class="f-open-sans-c text-light fs-20 lh-25">
                             {{ contenido }}
                         </p>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
             <div class="col-md-5"></div>
         </div>
         <div class="espaciado"></div>
-
+        
         <div class="row">
-            <div class="col-md-12">
-                <h2 class="m-0 p-0 f-bebas fw-3 fs-30 text-light m-0 p-0 text-uppercase">EJEMPLOS DE USO</h2>
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+                <h2 class="m-0 p-0 f-shadow-into-l fw-3 fs-30 m-0 p-0 {{ publicacion.estilos.color }}">EJEMPLOS DE USO</h2>
+                <p class="f-open-sans-c text-light fs-20 lh-25">
+                    En este caso tenemos este ejemplo con un interval que nos va a proveer de un flujo continuo de entrega de datos, y, ya como lo que tratamos de comprobar con esta función es ver realmente si devuelve asíncronamente el primer valor. También este al ser como una promesa solo se cumplirá una vez y chao:
+                </p>
+                <div class="text-right">
+                    <img src="assets/img/memes/mem1.png" alt="" height="70" width="auto" class="drop">
+                </div>
+                <app-print-code
+                    [code]="template"
+                    [lineas]="12"
+                    [lenguaje]="'typescript'"
+                    [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                    [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'"></app-print-code>
+            </div>
+        </div>
+        <div class="espaciado"></div>
+        <div class="row">
+            <div class="col-md-8">
+                <p class="f-open-sans-c text-light fs-20 lh-25">
+                    En este caso tenemos este ejemplo con un interval que nos va a proveer de un flujo continuo de entrega de datos, y, ya como lo que tratamos de comprobar con esta función es ver realmente si devuelve asíncronamente el primer valor. También este al ser como una promesa solo se cumplirá una vez y chao
+                </p>
+                <app-print-code
+                    [code]="template"
+                    [lineas]="12"
+                    [lenguaje]="'typescript'"
+                    [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                    [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'"></app-print-code>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="espaciado"></div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+                <p class="f-open-sans-c text-light fs-20 lh-25">
+                    En este caso tenemos este ejemplo con un interval que nos va a proveer de un flujo continuo de entrega de datos, y, ya como lo que tratamos de comprobar con esta función es ver realmente si devuelve asíncronamente el primer valor. También este al ser como una promesa solo se cumplirá una vez y chao
+                </p>
                 <app-print-code
                     [code]="template"
                     [lineas]="12"

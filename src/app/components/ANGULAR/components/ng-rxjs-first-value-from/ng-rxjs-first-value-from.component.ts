@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { CategoriaModel } from '../../../../shared/models/post.model';
 import { IndiceDeContenidosModel } from '../../../../shared/models/indice.model';
-import { CONTENIDO_1, TEMPLATE_1, TEMPLATE_4 } from './constants/contenido.constant';
+import { CONTENIDO_1, TEMPLATE_4 } from './constants/contenido.constant';
+import { DatosPost } from '@shared/models/categorias.model';
+import { postActual } from '@shared/constants';
 
 @Component({
   selector: 'app-ng-rxjs-first-value-from',
@@ -13,6 +15,7 @@ export class NgRxjsFirstValueFromComponent implements OnInit {
   public idPublicacion = 'ebfeb1a0-10d5-49b0-aaa2-4196e8f1dd98';
   public indiceJavascript: IndiceDeContenidosModel [] = [];
   public template = TEMPLATE_4;
+  public publicacion = new DatosPost();
 
   public breadcrumb: CategoriaModel = {
     activo: true,
@@ -35,7 +38,7 @@ export class NgRxjsFirstValueFromComponent implements OnInit {
         estado: 'activo'
       }
     ]
-
+    this.publicacion = postActual(this.idPublicacion)[0];
   }
 
   public scroll(el: HTMLElement) {

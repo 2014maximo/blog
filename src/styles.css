@@ -568,6 +568,23 @@ a:hover {
     text-shadow: 1px 2px 2px #000000;
 }
 
+
+/* TYPESCRIPT */
 .language-typescript span.punctuation{
-    color:white;
+    color: rgb(186 194 208)
+}
+.language-typescript span.keyword{
+    color:rgb(199 146 234);
+}
+.language-typescript span.string{
+    color:rgb(157 187 122)
+}
+.language-typescript span.function{
+    color:rgb(130 170 255)
+}
+.language-typescript span.number{
+    color:rgb(229 131 104)
+}
+.language-typescript span.comment{
+    color:rgb(102 109 147)
 }
