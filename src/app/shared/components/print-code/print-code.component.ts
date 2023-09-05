@@ -22,6 +22,7 @@ export class PrintCodeComponent implements OnInit {
   @Input() public urlStackBlitz: string = '';
   @Input() public lineas: number = 0;
   @Input() public lenguaje: string = '';
+  @Input() public colorTextoBase: string = '';
 
 
   contadorSaltosLinea: number = 0;
