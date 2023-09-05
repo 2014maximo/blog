@@ -8,7 +8,7 @@ export const COMANDOS_ANGULAR_CLI = [
     },
     {
         id: 2,
-        descripcion: 'Ejecuta el proyecto compilándolo y poder visualizarlo en el navegador por el puerto local configurado en el archivo del packete de angular package.json',
+        descripcion: 'Ejecuta el proyecto compilándolo y poder visualizarlo en el navegador por el puerto local configurado en el archivo del paquete de angular package.json',
         comando: 'ng serve',
         gif: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/ng-instalacion/ng-serve.gif'
     },
