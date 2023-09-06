@@ -348,5 +348,68 @@ export const TERMINOS_DEVELOPER: GlosarioModel [] = [
                 }
             ]
         }
-    }
+    },
+    {
+        id: 'd1c6979e-2268-4b35-aeb8-1a20e4234584',
+        titulo: 'ARQUITECTURA',
+        fechaActualizacion: '2023-09-06',
+        mostrar: true,
+        linksReferencia: [],
+        descripcion: {
+            listaTexto:['La orquestación del funcionamiento proyectado en un ámbito donde se define diseño, planificación y construcción, en búsqueda de factores prácticos que satisfagan necesidades y expectativas para la elaboración de un proceso o fin esperado.']
+        }
+    },
+    {
+        id: '1c9a7ea8-182b-4823-8481-0db63dcf5b12',
+        titulo: 'ARQUITECTURA DE SOFTWARE',
+        fechaActualizacion: '2023-09-06',
+        mostrar: true,
+        linksReferencia: [],
+        descripcion: {
+            listaTexto:['Es la que define, diseña, planifica la construcción y el diseño estructural de un sistema de software, buscando sea eficiente, confiable, fácil de mantener y cumpla los requisitos funcionales y no funcionales.',
+            'Algunos conceptos clave relacionados con la arquitectura de software:'],
+        listaTituloTexto: [
+            {
+                titulo:['Componentes y Módulos'],
+                descripciones: ['La arquitectura define los componentes principales del sistema y cómo se interconectan. Los componentes pueden ser módulos de software, servicios, bases de datos u otras partes del sistema.']
+            },
+            {
+                titulo:['Interacción y Comunicación'],
+                descripciones:['Define cómo los diferentes componentes o módulos del software interactúan entre sí, incluyendo el flujo de datos y la comunicación.']
+            },
+            {
+                titulo:['División de Responsabilidades'],
+                descripciones:['La arquitectura asigna responsabilidades específicas a cada componente o módulo. Esto ayuda a organizar el código de manera lógica y a separar preocupaciones.']
+            },
+            {
+                titulo:['Escalabilidad'],
+                descripciones:['Considera cómo el sistema puede escalarse para manejar un mayor volumen de carga o crecimiento futuro.']
+            },
+            {
+                titulo:['Mantenibilidad'],
+                descripciones:['La arquitectura se preocupa por la facilidad de mantenimiento del sistema a lo largo del tiempo. Un diseño limpio y modular facilita las actualizaciones y correcciones de errores.']
+            },
+            {
+                titulo:['Seguridad y Rendimiento'],
+                descripciones:['Incluye consideraciones sobre la seguridad de los datos y el rendimiento del sistema, garantizando que sea robusto y eficiente.']
+            },
+            {
+                titulo:['Cumplimiento de Requisitos'],
+                descripciones:['Asegura que el sistema cumpla con todos los requisitos funcionales y no funcionales definidos, como las características específicas que debe tener y los tiempos de respuesta aceptables.']
+            },
+            {
+                titulo:['Patrones de Diseño'],
+                descripciones:['La arquitectura de software a menudo utiliza patrones de diseño, que son soluciones probadas para problemas comunes de diseño de software. Los patrones de diseño ayudan a estandarizar y simplificar el diseño de software.']
+            },
+            {
+                titulo:['Documentación'],
+                descripciones:['Es importante documentar la arquitectura para que los desarrolladores y otros miembros del equipo comprendan cómo funciona el sistema y cómo se estructura.']
+            },
+            {
+                titulo:['Evolución'],
+                descripciones:['La arquitectura debe ser lo suficientemente flexible para adaptarse a cambios y mejoras en el software con el tiempo.']
+            }
+        ]
+        }
+    },
 ]
