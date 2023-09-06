@@ -27,7 +27,7 @@ import { JsTrabajoFechasComponent } from './JAVASCRIPT/js-trabajo-fechas/js-trab
 import { JsRecorrerArraysObjetosComponent } from './JAVASCRIPT/js-recorrer-arrays-objetos/js-recorrer-arrays-objetos.component';
 import { PhpComponent } from './PHP/php/php.component';
 import { WordpressComponent } from './WORDPRESS/wordpress/wordpress.component';
-import { JsElementosComponent } from './JAVASCRIPT/js-elementos/js-elementos.component';
+import { JsElementosComponent } from './JAVASCRIPT/components/js-elementos/js-elementos.component';
 import { KubernetesComponent } from './KUBERNETES/kubernetes/kubernetes.component';
 import { DbComponent } from './DB/db/db.component';
 import { HtmlEtiquetasComponent } from './HTML/html-etiquetas/html-etiquetas.component';
@@ -35,7 +35,7 @@ import { DevGlosarioComponent } from './DEVELOPER/dev-glosario/dev-glosario.comp
 import { JavaInstalacionComponent } from './JAVA/java-instalacion/java-instalacion.component';
 import { JsNodeJsComponent } from './JAVASCRIPT/js-node-js/js-node-js.component';
 import { JsInstalandoNodeConNvmComponent } from './JAVASCRIPT/js-instalando-node-con-nvm/js-instalando-node-con-nvm.component';
-import { DevControlesVisualStudioCodeComponent } from './DEVELOPER/dev-controles-visual-studio-code/dev-controles-visual-studio-code.component';
+import { DevControlesVisualStudioCodeComponent } from './DEVELOPER/components/dev-controles-visual-studio-code/dev-controles-visual-studio-code.component';
 import { NgDescripcionElementosComponent } from './ANGULAR/components/ng-descripcion-elementos/ng-descripcion-elementos.component';
 import { NgInstalacionComponent } from './ANGULAR/components/ng-instalacion/ng-instalacion.component';
 import { Prime7DescripcionElementosComponent } from './ANGULAR/prime7-descripcion-elementos/prime7-descripcion-elementos.component';
@@ -52,7 +52,7 @@ import { JavaGlassfishComponent } from './JAVA/java-glassfish/java-glassfish.com
 import { JsTypescriptElementosComponent } from './JAVASCRIPT/js-typescript-elementos/js-typescript-elementos.component';
 import { PhpElementosComponent } from './PHP/php-elementos/php-elementos.component';
 import { NgComunicacionEntreComponentesComponent } from './ANGULAR/components/ng-comunicacion-entre-componentes/ng-comunicacion-entre-componentes.component';
-import { DevDiagramasSecuenciaComponent } from './DEVELOPER/dev-diagramas-secuencia/dev-diagramas-secuencia.component';
+import { DevDiagramasSecuenciaComponent } from './DEVELOPER/components/dev-diagramas-secuencia/dev-diagramas-secuencia.component';
 import { GestionFormularioComponent } from './ESTADISTICA/gestion-formulario/gestion-formulario.component';
 import { DartElementosComponent } from './DART/dart-elementos/dart-elementos.component';
 import { FlutterElementosComponent } from './FLUTTER/flutter-elementos/flutter-elementos.component';
@@ -64,6 +64,8 @@ import { DevPrincipiosSolidComponent } from './DEVELOPER/components/dev-principi
 import { NgRxjsFirstValueFromComponent } from './ANGULAR/components/ng-rxjs-first-value-from/ng-rxjs-first-value-from.component';
 import { GitErroresComponent } from './GIT/components/git-errores/git-errores.component';
 import { LxComandosMUsadosComponent } from './LINUX/components/lx-comandos-m-usados/lx-comandos-m-usados.component';
+import { TypescriptComponent } from './TYPESCRIPT/typescript/typescript.component';
+import { TsElementosComponent } from './TYPESCRIPT/components/ts-elementos/ts-elementos.component';
 
 
 
@@ -132,7 +134,9 @@ import { LxComandosMUsadosComponent } from './LINUX/components/lx-comandos-m-usa
     DevPrincipiosSolidComponent,
     NgRxjsFirstValueFromComponent,
     GitErroresComponent,
-    LxComandosMUsadosComponent
+    LxComandosMUsadosComponent,
+    TypescriptComponent,
+    TsElementosComponent
   ],
   imports: [
     CommonModule,

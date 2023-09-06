@@ -317,5 +317,36 @@ export const TERMINOS_DEVELOPER: GlosarioModel [] = [
                 'Se refiere a programas y herramientas que permiten realizar procesos de organización, gestión, administración, etc. Como por ejemplo: "Splunk" para revisar logs y el funcionamiento de peticiones, "Postman" como plataforma API.'
             ]
         }
+    },
+    {
+        id: 'aeb02344-6ec4-4b2d-81d0-c678fb577831',
+        titulo: 'A/B TESTING',
+        fechaActualizacion: '2023-09-06',
+        mostrar: true,
+        linksReferencia: [],
+        descripcion: {
+            listaTituloTexto: [
+                {
+                    titulo:['(Producto firebase)'],
+                    descripciones: ['Firebase A/B Testing (con la tecnología de Google Optimize) te ayuda a optimizar tu experiencia con las apps y facilita la ejecución, el análisis y el escalamiento de los experimentos de productos y de marketing. Te da la posibilidad de probar los cambios que realices en la IU de la app, sus funciones o las campañas de participación para ver si modifican las métricas clave (como los ingresos y la retención) antes de implementarlos en forma general.',
+                    'A/B Testing funciona con FCM para que puedas probar diferentes mensajes de marketing, y con Remote Config, a fin de que puedas probar los cambios en la app.']
+                }
+            ]
+        }
+    },
+    {
+        id: '606b7250-55a9-4089-84b3-7c52c88ca35b',
+        titulo: 'ANALYTICS',
+        fechaActualizacion: '2023-09-06',
+        mostrar: true,
+        linksReferencia: [],
+        descripcion: {
+            listaTituloTexto: [
+                {
+                    titulo:['(Google analytics)'],
+                    descripciones: ['Herramienta de google utilizada para medir datos de los desarrollos, principalmente con fines comerciales para medir tendencias y el comportamiento del público frente a lo que más se mueve del momento, lo que esta a la moda y es el foco del subconciente general, para sacarle provecho comercial.']
+                }
+            ]
+        }
     }
 ]

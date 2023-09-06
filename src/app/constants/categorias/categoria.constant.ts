@@ -15,6 +15,7 @@ import { LINUX } from '../publicaciones/posts-linux.constant';
 import { TERMINOS_ANGULAR } from '../glosarios/terminos.angular.constant';
 import { SUB_NG } from '../subcategorias/subcategorias-angular.constant';
 import { TERMINOS_DEVELOPER } from '../glosarios/terminos.developer.constant';
+import { TYPESCRIPT } from '../publicaciones/posts-typescript.constant';
 
 export const CATEGORIA: CategoriaPostModel[] = [
     {
@@ -23,7 +24,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         posicion: 'pos-z',
         abertura: '',
         rutaIcono: 'assets/img/categorias/android.png',
-        alturaIcono: '80',
+        alturaIcono: '80%',
         estado:'inactivo',
         ruta: 'android',
         glosario: [],
@@ -345,6 +346,23 @@ export const CATEGORIA: CategoriaPostModel[] = [
     },
     {
         id:17,
+        nombre: 'typescript',
+        posicion: 'rot-2',
+        abertura: '80%',
+        rutaIcono: 'assets/img/categorias/typescript.png',
+        alturaIcono: '40',
+        estado:'activo',
+        glosario: [],
+        ruta: 'typescript',
+        colorFondo: 'bg-Typescript',
+        color: ' c-Typescript',
+        descripcion: [],
+        descripcionCorta: '',
+        post: TYPESCRIPT,
+        subcategorias: []
+    },
+    {
+        id:18,
         nombre: 'wordpress',
         posicion: 'rot-2',
         abertura: '',

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel, CategoriaModel } from '../../../shared/models/post.model';
+import { CategoriaModel, HeaderPostModel } from '@shared/models';
 
 @Component({
   selector: 'app-js-elementos',

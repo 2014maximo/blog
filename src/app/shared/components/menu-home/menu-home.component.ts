@@ -25,7 +25,6 @@ export class MenuHomeComponent implements OnInit {
 
   ngOnInit(): void {
     let dato = datosCategoria('android',12);
-
   }
 
   private inicializarVariables(){
@@ -34,7 +33,7 @@ export class MenuHomeComponent implements OnInit {
       menuDos: this.extraerMenu(['db','developer','electron', 'flutter']),
       menuTres: this.extraerMenu(['git','html','java', 'javascript']),
       menuCuatro: this.extraerMenu(['kotlin','kubernetes','linux', 'net']),
-      menuCinco: this.extraerMenu(['php','react','wordpress'])
+      menuCinco: this.extraerMenu(['php','react','typescript','wordpress'])
     }
 
     this.categorias = CATEGORIA;
@@ -53,8 +52,6 @@ export class MenuHomeComponent implements OnInit {
       }
       this.pasoDeIndice.push(grupo);
     });
-
-
   }
 
   private extraerMenu(referencias: string[]):any[]{
@@ -75,7 +72,6 @@ export class MenuHomeComponent implements OnInit {
     if (shand.length != 0) {
       shand[0].style.width = `${abertura}`;
     }
-    
   }
 
   public cierreMenu(categoria: string){

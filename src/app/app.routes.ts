@@ -25,7 +25,7 @@ import { JsRecorrerArraysObjetosComponent } from './components/JAVASCRIPT/js-rec
 import { JsTrabajoFechasComponent } from './components/JAVASCRIPT/js-trabajo-fechas/js-trabajo-fechas.component';
 import { PhpComponent } from './components/PHP/php/php.component';
 import { WordpressComponent } from './components/WORDPRESS/wordpress/wordpress.component';
-import { JsElementosComponent } from './components/JAVASCRIPT/js-elementos/js-elementos.component';
+import { JsElementosComponent } from './components/JAVASCRIPT/components/js-elementos/js-elementos.component';
 import { KubernetesComponent } from './components/KUBERNETES/kubernetes/kubernetes.component';
 import { DbComponent } from './components/DB/db/db.component';
 import { HtmlEtiquetasComponent } from './components/HTML/html-etiquetas/html-etiquetas.component';
@@ -33,7 +33,7 @@ import { DevGlosarioComponent } from './components/DEVELOPER/dev-glosario/dev-gl
 import { JavaInstalacionComponent } from './components/JAVA/java-instalacion/java-instalacion.component';
 import { JsNodeJsComponent } from './components/JAVASCRIPT/js-node-js/js-node-js.component';
 import { JsInstalandoNodeConNvmComponent } from './components/JAVASCRIPT/js-instalando-node-con-nvm/js-instalando-node-con-nvm.component';
-import { DevControlesVisualStudioCodeComponent } from './components/DEVELOPER/dev-controles-visual-studio-code/dev-controles-visual-studio-code.component';
+import { DevControlesVisualStudioCodeComponent } from './components/DEVELOPER/components/dev-controles-visual-studio-code/dev-controles-visual-studio-code.component';
 import { NgDescripcionElementosComponent } from './components/ANGULAR/components/ng-descripcion-elementos/ng-descripcion-elementos.component';
 import { NgInstalacionComponent } from './components/ANGULAR/components/ng-instalacion/ng-instalacion.component';
 import { Prime7DescripcionElementosComponent } from './components/ANGULAR/prime7-descripcion-elementos/prime7-descripcion-elementos.component';
@@ -63,6 +63,8 @@ import { DevPrincipiosSolidComponent } from './components/DEVELOPER/components/d
 import { NgRxjsFirstValueFromComponent } from './components/ANGULAR/components/ng-rxjs-first-value-from/ng-rxjs-first-value-from.component';
 import { GitErroresComponent } from './components/GIT/components/git-errores/git-errores.component';
 import { LxComandosMUsadosComponent } from './components/LINUX/components/lx-comandos-m-usados/lx-comandos-m-usados.component';
+import { TypescriptComponent } from './components/TYPESCRIPT/typescript/typescript.component';
+import { TsElementosComponent } from './components/TYPESCRIPT/components/ts-elementos/ts-elementos.component';
 
 
 export const ROUTES: Routes = [
@@ -159,17 +161,22 @@ export const ROUTES: Routes = [
     { path: 'net-instalacion', component: NetInstalacionComponent },
     { path: 'net-descripcion-elementos', component: NetDescripcionElementosComponent },
 
-// SENA
+// PHP
+        { path: 'php', component: PhpComponent },
+        { path: 'php-elementos', component: PhpElementosComponent },
+
+// REACT
+            { path: 'react', component: ReactComponent },
+
+// SENA        
     { path: 'sena', component: SenaComponent },
     { path: 'sena-ficha-actual', component: SenaFichaActualComponent },
     { path: 'sena-recursos-informativos', component: SenaRecursosInformativosComponent },
 
-// REACT
-    { path: 'react', component: ReactComponent },
+// TYPESCRIPT
+    { path: 'typescript', component: TypescriptComponent },
+    { path: 'ts-elementos', component: TsElementosComponent },
 
-// PHP
-    { path: 'php', component: PhpComponent },
-    { path: 'php-elementos', component: PhpElementosComponent },
 
 // WORDPRESS
     { path: 'wordpress', component: WordpressComponent },
