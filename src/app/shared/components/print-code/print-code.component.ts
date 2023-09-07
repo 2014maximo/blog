@@ -6,6 +6,7 @@ import 'prismjs';
 import 'prismjs/components/prism-java'; 
 import 'prismjs/components/prism-css';
 import 'prismjs/components/prism-typescript';
+import { CategoriaPostModel } from '@shared/models/categorias.model';
 
 
 declare var Prism: any;
@@ -23,7 +24,8 @@ export class PrintCodeComponent implements OnInit {
   @Input() public lineas: number = 0;
   @Input() public lenguaje: string = '';
   @Input() public colorTextoBase: string = '';
-
+  @Input() public categoriaCorta: string = '';
+  @Input() public categoria = new CategoriaPostModel();;
 
   contadorSaltosLinea: number = 0;
   clipboard: string = '';

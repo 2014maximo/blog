@@ -1,19 +1,20 @@
 <div class="row container-code shadow bg-dark">
     <div class="col-md-12 ml-1">
+        <div class="lenguaje">{{ categoriaCorta }}</div>
         <div class="head-code mb-3">
             <button *ngIf="refDocumentacion" (click)="abrirLink(refDocumentacion)" class="red" title="Abrir Referencia a documentación"></button>
             <button *ngIf="urlStackBlitz" (click)="abrirLink(urlStackBlitz)" class="yell" title="Abrir en Stackblitz"></button>
             <button class="green" title="Copiar" (click)="copiarAlPortapapeles(clipboard)"></button>
         </div>
-        <div class="body-code fuenteTres">
+        <div class="body-code fuenteTres d-flex">
             <div class="cLineas">
-                <p class="c5 fs-17 lh-25 m-0" *ngFor="let linea of contador(lineas + 3); let i = index">
+                <p class="c5 fs-17 lh-30 m-0" *ngFor="let linea of contador(lineas + 3); let i = index">
                     {{ i + 1}}
                 </p> 
             </div>
             <div class="eCodigo">
                 <pre>
-                    <code class="language-{{lenguaje}} fuenteTres fs-17 lh-25 {{colorTextoBase}}">
+                    <code class="language-{{lenguaje}} fuenteTres fs-17 lh-30 m-0 {{colorTextoBase}}">
                       {{ code }}
                     </code>
                   </pre>

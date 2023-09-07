@@ -27,7 +27,7 @@ export const TYPESCRIPT: DatosPost[] = [
     },
     {
         id: 'c79624d0-b839-465a-9879-461267c01f6b',
-        nombre: 'Elementos de typescript',
+        nombre: 'Elementos typescript',
         descripcion: ['Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano.'],
         descripcionCorta: 'Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías.',
         ruta: 'ts-elementos',
@@ -39,7 +39,7 @@ export const TYPESCRIPT: DatosPost[] = [
         imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
         imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
-        categoria: 'angular',
+        categoria: 'typescript',
         posicion: 'rot-2',
         estado: 'activo',
         imgSlider: {

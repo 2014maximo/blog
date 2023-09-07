@@ -1,7 +1,8 @@
 import { Route } from '@angular/router';
-import { PostModel, } from '@shared/models';
+import { CategoriaModel, PostModel, } from '@shared/models';
 import { CATEGORIA } from '@app/constants';
 import { CategoriaPostModel, DatosPost, SubCategoriaModel } from '../../models/categorias.model';
+import { IndiceDeContenidosModel } from '@shared/models/indice.model';
 
 export function copiarAlPortapapeles(cadenaAlclipboard: string) {
     const selBox = document.createElement('textarea');
@@ -34,8 +35,7 @@ export function postActual(idPost: string): DatosPost[]{
       });
     });
   });
-
-  return post.filter( publicacion => publicacion.id.includes(idPost));
+  return post.filter( publicacion => publicacion.id === idPost);
 }
 
 export function textoAFecha(fecha: string): Date{
@@ -168,4 +168,25 @@ export function reduccionTexto(cantPalabras: number, maxPalabra: number, textoCo
 
 export function abrirUrl(link:string){
   window.open(link, '_blank');
+}
+
+export function cargarIndice(publicacion: DatosPost): IndiceDeContenidosModel[]{
+  return [
+    {
+      nombre: publicacion.nombre.toUpperCase(),
+      color: publicacion.estilos.color,
+      colorFondo: publicacion.estilos.colorFondo,
+      estado: publicacion.estado,
+      posicion: publicacion.posicion,
+      ruta: publicacion.ruta
+    }]
+}
+
+export function cargarBreadcrumb(publicacion: DatosPost):CategoriaModel{
+  return {
+    activo: publicacion.estado === 'activo'? true:false,
+    categoria: publicacion.categoria.toUpperCase(),
+    colorText: publicacion.estilos.color,
+    ruta: publicacion.categoria
+  }
 }

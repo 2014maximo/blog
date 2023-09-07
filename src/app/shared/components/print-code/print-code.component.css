@@ -24,3 +24,10 @@ button.yell{
 button.green{
     background-color: hsl(128.89deg 67.5% 47.06%)
 }
+.cLineas{
+    width: 5%;
+}
+.eCodigo{
+    width: 95%;
+    overflow: auto,
+}
