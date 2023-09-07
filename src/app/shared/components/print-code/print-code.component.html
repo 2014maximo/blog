@@ -1,6 +1,8 @@
 <div class="row container-code shadow bg-dark">
     <div class="col-md-12 ml-1">
-        <div class="lenguaje">{{ categoriaCorta }}</div>
+        <div class="d-flex justify-content-end">
+            <div class="lenguaje shadow text-center text-light fuenteSeis fs-30 fw-6 bg-{{ lenguaje.charAt(0).toUpperCase() + lenguaje.slice(1) }}">{{ categoriaCorta }}</div>
+        </div>
         <div class="head-code mb-3">
             <button *ngIf="refDocumentacion" (click)="abrirLink(refDocumentacion)" class="red" title="Abrir Referencia a documentación"></button>
             <button *ngIf="urlStackBlitz" (click)="abrirLink(urlStackBlitz)" class="yell" title="Abrir en Stackblitz"></button>

@@ -34,6 +34,7 @@ export class PrintCodeComponent implements OnInit {
 
   ngOnInit(): void {
     this.clipboard = this.code;
+    console.log(this.categoria);
     Prism.highlightAll();
   }
 
