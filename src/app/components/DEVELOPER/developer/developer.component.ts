@@ -9,6 +9,8 @@ import { IndiceDeContenidosModel } from '../../../shared/models/indice.model';
 })
 export class DeveloperComponent implements OnInit {
 
+  public idPost = '441cab09-256e-446f-bb2c-f017dd6d217b';
+
   constructor() {
     this.inicializarVariables();
   }

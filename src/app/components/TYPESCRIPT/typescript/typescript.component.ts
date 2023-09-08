@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TypescriptComponent implements OnInit {
 
+  public idPost = '3574124706';
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
   }
 
 }
