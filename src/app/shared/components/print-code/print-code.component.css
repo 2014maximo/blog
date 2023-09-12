@@ -1,15 +1,17 @@
 
-
+.bg-lenguaje{
+    background-color: #1d2433;
+}
 .container-code{
     padding-top: 20px;
     padding-left: 3px;
     padding-bottom: 20px;
-    border-radius: 7px;
+    border-radius: 0px;
     
 }
 .container-code button{
-    height: 17px;
-    width: 17px;
+    height: 15px;
+    width: 15px;
     border: 0;
     margin-right: 10px;
     border-radius: 50%;
@@ -25,15 +27,18 @@ button.green{
     background-color: hsl(128.89deg 67.5% 47.06%)
 }
 .cLineas{
-    width: 5%;
+    width: 15px;
 }
 .eCodigo{
-    width: 95%;
-    overflow: auto,
+    width: auto;
+    overflow: auto;
+    padding-left: 20px;
 }
 .lenguaje{
-    width: 60px;
+    width: auto;
     height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
     position: absolute;
     top: -24px;
     right: 20px;

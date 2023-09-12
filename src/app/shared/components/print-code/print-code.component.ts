@@ -6,6 +6,7 @@ import 'prismjs';
 import 'prismjs/components/prism-java'; 
 import 'prismjs/components/prism-css';
 import 'prismjs/components/prism-typescript';
+import 'prismjs/components/prism-dart';
 import { CategoriaPostModel } from '@shared/models/categorias.model';
 
 

@@ -1,26 +1,25 @@
 <div #target></div>
-<div class="espaciado"></div>
 <app-header-home [categoria]="breadcrumb"></app-header-home>
-
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-            <span class="tc-gray-two f-merriweather fs-17 lh-17 m-0 p-0 ">
-                <small>{{ this.cabeceraPost.fechaActualizacion | date:'dd/MM/yyyy' }}</small><br>
-            </span>
-            <p class="text-light f-merriweather fs-18 lh-25">
-                La sintaxis de DART es similar a la mayoría de lenguajes de programación, no esta de más explicar como se aplica en DART, veamos la descripción de los elementos básicos con ejemplos.
-            </p>
-        </div>
-        <div class="col-md-2"></div>
-    </div>
-</div>
 <div class="espaciado"></div>
+<app-encabezado-publicacion [idPublicacion]="idPublicacion" [rutaIconoSugerido]="categoria.rutaIcono"></app-encabezado-publicacion>
+<div class="espaciado"></div>
+
 <div class="container">
     <div class="row">
         <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-12">
+                <app-print-code
+                [code]="template"
+                [categoria]="categoria"
+                [categoriaCorta]="'DART'"
+                [lineas]="12"
+                [lenguaje]="'dart'"
+                [colorTextoBase]="'text-light'"
+                [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'"></app-print-code>
+              </div>
+            </div>
             <div class="row">
                 <div class="col-md-6">
                     <h4 class="f-shadow-into-l fw-6 fs-30 tc-blue-six">DECLARACIÓN DE VARIABLES</h4>
