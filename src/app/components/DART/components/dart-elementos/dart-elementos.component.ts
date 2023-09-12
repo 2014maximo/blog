@@ -16,7 +16,7 @@ import { DART_01 } from './constants/dart-elementos.constant';
 })
 export class DartElementosComponent implements OnInit {
 
-  public idPublicacion = 'c79624d0-b839-465a-9879-461267c01f6b';
+  public idPublicacion = 'abca9c03-f685-47df-aa15-8c52051955c2';
   public indiceDart: IndiceDeContenidosModel [] = [];
   public publicacion = new DatosPost();
   public categoria = new CategoriaPostModel();

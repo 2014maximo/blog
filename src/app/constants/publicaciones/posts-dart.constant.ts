@@ -28,9 +28,9 @@ export const DART: DatosPost[] = [
         id: 'abca9c03-f685-47df-aa15-8c52051955c2',
         nombre: 'Elementos dart',
         descripcion: [
-            'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
+            'Famoso por Flutter, la estructura de Dart permite crear aplicaciones de muchos tipos enfocados a desarrollos web con mucha potencia.'
         ],
-        descripcionCorta: 'Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript.',
+        descripcionCorta: 'Descripción de los elementos que hacen parte de Dart. Sugerencias adicionales para otra clase de aplicaciones.',
         ruta: 'dart-elementos',
         componente: '',
         mostrarEnPostHome: true,

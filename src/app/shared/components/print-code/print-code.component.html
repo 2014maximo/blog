@@ -8,7 +8,7 @@
             <button *ngIf="urlStackBlitz" (click)="abrirLink(urlStackBlitz)" class="yell" title="Abrir en Stackblitz"></button>
             <button class="green" title="Copiar" (click)="copiarAlPortapapeles(clipboard)"></button>
         </div>
-        <div class="body-code fuenteTres d-flex">
+        <div class="body-code fuenteTres d-flex align-items-start">
             <div class="cLineas text-right">
                 <p class="c5 fs-17 lh-23 m-0" *ngFor="let linea of contador(lineas + 3); let i = index">
                     {{ i + 1}}
@@ -16,7 +16,7 @@
             </div>
             <div class="eCodigo">
                 <pre>
-                    <code class="language-{{lenguaje}} fuenteTres fs-17 lh-20 m-0 {{colorTextoBase}}">
+                    <code class="language-{{lenguaje}} fuenteTres fs-17 lh-23 m-0 {{colorTextoBase}}">
                       {{ code }}
                     </code>
                   </pre>

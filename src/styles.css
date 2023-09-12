@@ -578,3 +578,17 @@ a:hover {
 .language-typescript span.comment{
     color:rgb(102 109 147)
 }
+
+/* DART */
+.language-dart span.keyword{
+    color:rgb(199 146 234);
+}
+.language-dart span.comment{
+    color:#8493b4
+}
+.language-dart span.number{
+    color:rgb(199 146 234);
+}
+.language-dart span.operator{
+    color:#f6a855;
+}
