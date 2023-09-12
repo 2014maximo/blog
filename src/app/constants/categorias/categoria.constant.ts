@@ -85,15 +85,26 @@ export const CATEGORIA: CategoriaPostModel[] = [
         id:4,
         nombre: 'dart',
         posicion: 'rot-2',
-        abertura: '',
+        abertura: '80%',
         rutaIcono: 'assets/img/categorias/dart_text_white.png',
         alturaIcono: '40',
-        estado:'inactivo',
+        estado:'activo',
         glosario: [],
         ruta: 'dart',
         colorFondo: 'bg-Dart',
         color: 'c-Dart',
-        descripcion: [],
+        descripcion: [
+            {
+                autor:'',
+                linkAlAutor:'',
+                descripciones: ['El lenguaje de programación Dart nació en 2011 con el modesto objetivo de arreglar la web. En otras palabras, intentar reemplazar JavaScript en el navegador. Sin embargo, fracasó miserablemente en aquel entonces.',
+                'Esto quedó claro cuando Google anunció en marzo de 2015 que no incluiría la VM de Dart en Chrome, sino que se centraría en el compilador de Dart-to-JS.',
+                'Esto le pareció un golpe mortal a Dart. Después de todo, ahora estaba relegado a un mero lenguaje de compilación a JS, sólo uno de muchos.',
+                'Para la mayoría de la gente, el lenguaje estaba en camino de desaparecer rápidamente y convertirse en una pequeña nota a pie de página en la historia de los lenguajes de programación. Pero el lenguaje sobrevivió y, al menos en Google, continuó prosperando.',
+                'En mayo de 2017, Google lanzó la primera versión alfa pública del lenguaje Dart Flutter, un marco de desarrollo de interfaz de usuario multiplataforma, que utiliza Dart para crear aplicaciones móviles tanto para iOS como para Android. Con el tiempo, Flutter empezó a ser muy popular.',
+                'Eso dio nueva vida al proyecto Dart, y con los lanzamientos de Dart 2 en agosto de 2018, y Flutter 1.0 poco después, quedó claro que Dart está absolutamente de vuelta en la ciudad, y podemos decir que va a ser una de las tecnologías de más rápido crecimiento actualmente.']
+            }
+        ],
         descripcionCorta: '',
         post: DART,
         subcategorias: []

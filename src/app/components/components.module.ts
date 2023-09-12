@@ -54,7 +54,7 @@ import { PhpElementosComponent } from './PHP/php-elementos/php-elementos.compone
 import { NgComunicacionEntreComponentesComponent } from './ANGULAR/components/ng-comunicacion-entre-componentes/ng-comunicacion-entre-componentes.component';
 import { DevDiagramasSecuenciaComponent } from './DEVELOPER/components/dev-diagramas-secuencia/dev-diagramas-secuencia.component';
 import { GestionFormularioComponent } from './ESTADISTICA/gestion-formulario/gestion-formulario.component';
-import { DartElementosComponent } from './DART/dart-elementos/dart-elementos.component';
+import { DartElementosComponent } from './DART/components/dart-elementos/dart-elementos.component';
 import { FlutterElementosComponent } from './FLUTTER/flutter-elementos/flutter-elementos.component';
 import { NgCorsComponent } from './ANGULAR/components/ng-cors/ng-cors.component';
 import { CssBootstrap4clasesComponent } from './CSS/components/css-bootstrap4clases/css-bootstrap4clases.component';

@@ -52,7 +52,7 @@ import { PhpElementosComponent } from './components/PHP/php-elementos/php-elemen
 import { NgComunicacionEntreComponentesComponent } from './components/ANGULAR/components/ng-comunicacion-entre-componentes/ng-comunicacion-entre-componentes.component';
 import { LoginComponent } from './shared/components/login/login.component';
 import { GestionFormularioComponent } from './components/ESTADISTICA/gestion-formulario/gestion-formulario.component';
-import { DartElementosComponent } from './components/DART/dart-elementos/dart-elementos.component';
+import { DartElementosComponent } from './components/DART/components/dart-elementos/dart-elementos.component';
 import { FlutterElementosComponent } from './components/FLUTTER/flutter-elementos/flutter-elementos.component';
 import { NgCorsComponent } from './components/ANGULAR/components/ng-cors/ng-cors.component';
 import { CssBootstrap4clasesComponent } from './components/CSS/components/css-bootstrap4clases/css-bootstrap4clases.component';

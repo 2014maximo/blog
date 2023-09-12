@@ -28,8 +28,10 @@ export const TYPESCRIPT: DatosPost[] = [
     {
         id: 'c79624d0-b839-465a-9879-461267c01f6b',
         nombre: 'Elementos typescript',
-        descripcion: ['Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano.'],
-        descripcionCorta: 'Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías.',
+        descripcion: [
+            'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
+        ],
+        descripcionCorta: 'Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript.',
         ruta: 'ts-elementos',
         componente: '',
         mostrarEnPostHome: true,
