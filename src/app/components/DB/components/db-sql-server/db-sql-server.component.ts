@@ -1,13 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel, CategoriaModel } from '../../../shared/models/post.model';
+import { repositorioContenidoImagenes } from '@constants/generales/globales.constant';
+import { CategoriaModel, HeaderPostModel } from '@shared/models';
 
 @Component({
-  selector: 'app-db-sql',
-  templateUrl: './db-sql.component.html',
+  selector: 'app-db-sql-server',
+  templateUrl: './db-sql-server.component.html',
   styles: [
   ]
 })
-export class DbSqlComponent implements OnInit {
+export class DbSqlServerComponent implements OnInit {
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',
@@ -16,6 +17,7 @@ export class DbSqlComponent implements OnInit {
     tituloPost: '',
     sombra: ''
   }
+  public rutaExternaImagenes: string = ''
 
   public breadcrumb: CategoriaModel = {
     activo: true,
@@ -23,8 +25,6 @@ export class DbSqlComponent implements OnInit {
     colorText: 'tc-yellow-one',
     ruta: 'db'
   }
-
-  public claseSql = '';
 
   constructor() {
     this.inicializarVariables();
@@ -35,15 +35,13 @@ export class DbSqlComponent implements OnInit {
 
   private inicializarVariables() {
     this.cabeceraPost = {
-      rutaImagen: 'assets/img/icons/sql.png',
+      rutaImagen: 'assets/img/icons/microsoft_sqlserver.png',
       fondo: true,
-      tituloPost: '',
+      tituloPost: 'DESCRIPCIÓN QUERYS',
       alturaImagen: '150',
       sombra: 'drop'
     };
-
-    this.claseSql = 'mt-2';
-
+    this.rutaExternaImagenes = repositorioContenidoImagenes;
   }
 
   scroll(el: HTMLElement) {

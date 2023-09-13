@@ -23,6 +23,8 @@
     ],
     "paths": {
       "@shared/*": ["src/app/shared/*"],
+      "@constants/*":["src/app/constants/*"],
+      "@components/*":["src/app/components/*"],
       "@app/*": ["src/app/*"]
     }
   },

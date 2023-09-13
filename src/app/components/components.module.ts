@@ -38,13 +38,7 @@ import { JsInstalandoNodeConNvmComponent } from './JAVASCRIPT/js-instalando-node
 import { DevControlesVisualStudioCodeComponent } from './DEVELOPER/components/dev-controles-visual-studio-code/dev-controles-visual-studio-code.component';
 import { NgDescripcionElementosComponent } from './ANGULAR/components/ng-descripcion-elementos/ng-descripcion-elementos.component';
 import { NgInstalacionComponent } from './ANGULAR/components/ng-instalacion/ng-instalacion.component';
-import { Prime7DescripcionElementosComponent } from './ANGULAR/prime7-descripcion-elementos/prime7-descripcion-elementos.component';
-import { Prime7TablecheckboxComponent } from './ANGULAR/prime7-tablecheckbox/prime7-tablecheckbox.component';
 import { AndroidComponent } from './ANDROID/android/android.component';
-import { AndrAndroidStudioComponent } from './ANDROID/andr-android-studio/andr-android-studio.component';
-import { DbFirebaseComponent } from './DB/db-firebase/db-firebase.component';
-import { DbSqlComponent } from './DB/db-sql/db-sql.component';
-import { DbSqlServerComponent } from './DB/db-sql-server/db-sql-server.component';
 import { DevSuperRecursosComponent } from './DEVELOPER/components/dev-super-recursos/dev-super-recursos.component';
 import { SenaFichaActualComponent } from './SENA/sena-ficha-actual/sena-ficha-actual.component';
 import { SenaRecursosInformativosComponent } from './SENA/sena-recursos-informativos/sena-recursos-informativos.component';
@@ -66,6 +60,10 @@ import { GitErroresComponent } from './GIT/components/git-errores/git-errores.co
 import { LxComandosMUsadosComponent } from './LINUX/components/lx-comandos-m-usados/lx-comandos-m-usados.component';
 import { TypescriptComponent } from './TYPESCRIPT/typescript/typescript.component';
 import { TsElementosComponent } from './TYPESCRIPT/components/ts-elementos/ts-elementos.component';
+import { ElementosAndroidStudioComponent } from './ANDROID/components/elementos-android-studio/elementos-android-studio.component';
+import { DbFirebaseComponent } from './DB/components/db-firebase/db-firebase.component';
+import { DbSqlComponent } from './DB/components/db-sql/db-sql.component';
+import { DbSqlServerComponent } from './DB/components/db-sql-server/db-sql-server.component';
 
 
 
@@ -109,10 +107,7 @@ import { TsElementosComponent } from './TYPESCRIPT/components/ts-elementos/ts-el
     DevControlesVisualStudioCodeComponent,
     NgDescripcionElementosComponent,
     NgInstalacionComponent,
-    Prime7DescripcionElementosComponent,
-    Prime7TablecheckboxComponent,
     AndroidComponent,
-    AndrAndroidStudioComponent,
     DbFirebaseComponent,
     DbSqlComponent,
     DbSqlServerComponent,
@@ -136,7 +131,8 @@ import { TsElementosComponent } from './TYPESCRIPT/components/ts-elementos/ts-el
     GitErroresComponent,
     LxComandosMUsadosComponent,
     TypescriptComponent,
-    TsElementosComponent
+    TsElementosComponent,
+    ElementosAndroidStudioComponent
   ],
   imports: [
     CommonModule,

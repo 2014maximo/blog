@@ -237,5 +237,17 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
             ]
         }
     },
+    {
+        id: '1d5abb29-91ed-4b3c-a66f-45eaa1803f11',
+        titulo: 'Genexus',
+        fechaActualizacion: '2023-09-13',
+        mostrar: true,
+        linksReferencia:[],
+        descripcion: {
+            listaTexto:[
+                'Plataforma de desarrollo de software para crear aplicaciones multiplataforma y empresa, destacada por su enfoque en automatización de código.'
+            ]
+        }
+    }
 
 ]

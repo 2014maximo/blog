@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel, CategoriaModel } from '../../../shared/models/post.model';
-import { repositorioContenidoImagenes } from '../../../constants/generales/globales.constant';
+import { repositorioContenidoImagenes } from '@constants/generales/globales.constant';
+import { CategoriaModel, HeaderPostModel } from '@shared/models';
 import { copiarAlPortapapeles } from 'src/app/shared/constants/funciones/portapapeles';
 
 @Component({

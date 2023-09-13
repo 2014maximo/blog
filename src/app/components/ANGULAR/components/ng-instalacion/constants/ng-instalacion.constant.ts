@@ -63,6 +63,7 @@ export const COMANDOS_ANGULAR_CLI = [
 ]
 
 export const VERSIONES_ANGULAR: AccordeonModel[] = [
+  /* ANGULAR JS */
     {
         elemento: 'ANGULAR JS (El inicio)  ✚',
         nClass: 'mostrar1',
@@ -95,6 +96,7 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
         ],
         mostrarlo: false,
     },
+    /* ANGULAR 2 */
     {
         elemento: 'ANGULAR 2  ✚',
         nClass: 'mostrar2',
@@ -136,6 +138,7 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
           ],
         mostrarlo: false,
     },
+    /* ANGULAR 4 */
     {
         elemento: 'ANGULAR 4  ✚',
         nClass: 'motrarDos',
@@ -153,7 +156,8 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
           },
         ]
 
-      },
+    },
+    /* ANGULAR 5 */
     {
         elemento: 'ANGULAR 5  ✚',
         nClass: 'motrarDos',
@@ -188,8 +192,9 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
             contenido: 'ServerTransferStateModule, se usa para instalar en el lado del servidor mientras se usa TransferState en una aplicación sin proporcionar este módulo.'
           },
         ]
-      },   
-      {
+    },
+    /* ANGULAR 6 */
+    {
         elemento: 'ANGULAR 6  ✚',
         nClass: 'motrarDos',
         mostrarlo: false,
@@ -200,8 +205,9 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
           },
         ]
 
-      },
-      {
+    },
+    /* ANGULAR 7 */
+    {
         elemento: 'ANGULAR 7  ✚',
         nClass: 'motrarDos',
         mostrarlo: false,
@@ -218,8 +224,9 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
           },
         ]
 
-      },
-      {
+    },
+    /* ANGULAR 8 */
+    {
         elemento: 'ANGULAR 8  ✚',
         nClass: 'motrarDos',
         mostrarlo: false,
@@ -239,8 +246,9 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
           },
         ]
 
-      },
-      {
+    },
+    /* ANGULAR 9 */
+    {
         elemento: 'ANGULAR 9  ✚',
         nClass: 'motrarDos',
         mostrarlo: false,
@@ -256,8 +264,9 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
             contenido: 'El compilador y tiempo de ejecución de Ivy ofrece numerosas ventajas: *Tamaños de paquetes más pequeños, *Pruebas más rápidas, *Mejor depuración, *Enlace de clase y estilo CSS mejorado, *Comprobación de tipos mejorada, *Errores de compilación mejorados, *Tiempos de compilación mejorados, *habilitando AOT de forma predeterminada, *Internacionalización mejorada.'
           },
         ]
-      },
-      {
+    },
+    /* ANGULAR 10 */
+    {
         elemento: 'ANGULAR 10  ✚',
         nClass: 'motrarDos',
         mostrarlo: false,
@@ -270,40 +279,51 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
             contenido: 'Advertencias sobre las importaciones de CommonJS.'
           },
         ]
-      },
-      {
+    },
+    /* ANGULAR 11 */
+    {
         elemento: 'ANGULAR 11  ✚',
         nClass: 'motrarDos',
         mostrarlo: false,
         contenido: 'RELEASED: Nov 11, 2020',
         contenidoLista: [
           {
-            contenido: 'Actualizaciones sobre la Operación Byelog'
+            contenido: 'Actualizaciones sobre la Operación Byelog.'
           },
           {
-            contenido: 'Incrustación automática de fuentes'
+            contenido: 'Incrustación automática de fuentes.'
           },
           {
-            contenido: 'Arneses de prueba de componentes'
+            contenido: 'Arneses de prueba de componentes.'
           },
           {
-            contenido: 'Informes y registros mejorados'
+            contenido: 'Informes y registros mejorados.'
           },
           {
-            contenido: 'Vista previa del servicio de idiomas actualizado'
+            contenido: 'Vista previa del servicio de idiomas actualizado.'
           },
           {
-            contenido: 'Soporte actualizado de reemplazo de módulo en caliente (HMR)'
+            contenido: 'Soporte actualizado de reemplazo de módulo en caliente (HMR).'
           },
           {
-            contenido: 'Construcciones más rápidas'
+            contenido: 'Construcciones más rápidas.'
           },
           {
-            contenido: 'Paquete web experimental 5 Soporte'
+            contenido: 'Paquete web experimental 5 Soporte.'
+          },
+          {
+            contenido: 'mejoras en la compilación AOT (Ahead-of-Time) para acelerar el proceso de construcción de la aplicación y reducir el tamaño de los bundles.'
+          },
+          {
+            contenido: 'Se introdujo la capacidad de aplicar directivas personalizadas a elementos de host mediante atributos en lugar de selectores, lo que brinda una mayor flexibilidad al desarrollar directivas personalizadas.'
+          },
+          {
+            contenido: 'Se introdujeron mejoras en el marco de pruebas unitarias de Angular para facilitar la escritura y ejecución de pruebas de componentes y servicios.'
           }
         ]
-      },
-      {
+    },
+    /* ANGULAR 12 */
+    {
         elemento: 'ANGULAR 12  ✚',
         nClass: 'motrarDos',
         mostrarlo: false,
@@ -313,8 +333,9 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
             contenido: 'Soporte deprecado para IE11.'
           }
         ]
-      },
-      {
+    },
+    /* ANGULAR 13 */
+    {
         elemento: 'ANGULAR 13  ✚',
         nClass: 'motrarDos',
         mostrarlo: false,
@@ -372,8 +393,9 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
             contenido: 'Los scripts que se cargan de forma dinámica "import()" ahora se tratan como módulos ES (lo que significa que deben ser estrictamente compatibles con el modo).'
           },
         ]
-      },
-      {
+    },
+    /* ANGULAR 14 */
+    {
         elemento: 'ANGULAR 14  ✚',
         nClass: 'motrarDos',
         mostrarlo: false,
@@ -389,8 +411,9 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
             contenido: 'Los componentes independientes funcionan en todo Angular, y ahora funcionan completamente en HttpClient, Angular Elements, router y más.'
           },
         ]
-      },
-      {
+    },
+    /* ANGULAR 15 */
+    {
         elemento: 'ANGULAR 15  ✚',
         nClass: 'motrarDos',
         mostrarlo: false,
@@ -412,8 +435,9 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
             contenido: 'Los componentes basados en MDC son estables.'
           },
         ]
-      },
-      {
+    },
+    /* ANGULAR 16 */
+    {
         elemento: 'ANGULAR 16  ✚',
         nClass: 'motrarDos',
         mostrarlo: false,
@@ -429,5 +453,5 @@ export const VERSIONES_ANGULAR: AccordeonModel[] = [
             contenido: 'HYDRATION API: Buscando una mejor eficacia en el renderizado de las aplicaciones ahora en lugar de limpiar y destruir todo el DOM para renderizarlo nuevamente, se "rehidratará" para renderizar tan solo lo solicitado y mantener lo estático.'
           },
         ]
-      },
+    },
 ]
