@@ -37,19 +37,19 @@ export const DART: DatosPost[] = [
         estilos: ESTILO_DART,
         fechaCreacion: '2023-09-11',
         fechaActualizacion: '',
-        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
+        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/dart/elementos-dart2.jpg',
         imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         categoria: 'dart',
         posicion: 'rot-2',
         estado: 'activo',
         imgSlider: {
-            alt: 'Instalación Angular y recomendados',
+            alt: 'Elementos dart',
             height: '600',
             id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
+            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/dart/elementos-dartSlider.jpg',
             width: 'auto',
-            post: 'ng-instalacion'
+            post: 'dart-elementos'
         }
     }
 ]

@@ -26,20 +26,28 @@ export const GIT: DatosPost[] = [
     },
     {
         id: '4871cb38-9831-4099-bd70-c0b540bf47a1',
-        nombre: 'ERRORES GIT',
+        nombre: 'ERRORES COMUNES EN GIT',
         descripcion: ['Errores comunes que nos ponen a patinar un rato buscado la solución.'],
         descripcionCorta: 'Errores comunes que nos ponen a patinar un rato buscado la solución.',
         ruta: 'git-errores',
         componente: 'GitErroresComponent',
         categoria: 'git',
-        mostrarEnPostHome: false,
+        mostrarEnPostHome: true,
         estilos: ESTILO_GIT,
         fechaCreacion: '2023-25-07',
         fechaActualizacion: '2023-23-08',
-        imgHorizontal:'',
+        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/git/errores-git.jpg',
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-1',
-        estado: 'activo'
+        estado: 'activo',
+        imgSlider: {
+            alt: 'Errores git',
+            height: '600',
+            id: '2',
+            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/git/errores-gitSlider.jpg',
+            width: 'auto',
+            post: 'git-errores'
+        }
     }
 ]
