@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { CategoriaModel, HeaderPostModel } from '../../../shared/models/post.model';
-import { repositorioContenidoImagenes } from '../../../constants/generales/globales.constant';
+import { repositorioContenidoImagenes } from '@constants/generales/globales.constant';
+import { CategoriaModel, HeaderPostModel } from '@shared/models';
 
 @Component({
   selector: 'app-html-etiquetas',

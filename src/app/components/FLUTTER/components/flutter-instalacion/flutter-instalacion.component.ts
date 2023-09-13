@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { copiarAlPortapapeles, traerPost } from 'src/app/shared/constants/funciones/funciones-globales';
-import { PostModel } from 'src/app/shared/models/post.model';
-import { POSTS } from '../../../constants/post.constant';
-import { CategoriaModel, AccordeonModel } from '../../../shared/models/post.model';
+import { copiarAlPortapapeles, traerPost } from '@app/shared/constants/funciones/funciones-globales';
+import { PostModel } from '@shared/models/post.model';
+import { POSTS } from '@constants/post.constant';
+import { CategoriaModel } from '@shared/models/post.model';
 
 @Component({
   selector: 'app-flutter-instalacion',

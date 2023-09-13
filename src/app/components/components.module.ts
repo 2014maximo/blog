@@ -4,12 +4,10 @@ import { HomeComponent } from './home/home.component';
 import { SharedModule } from '../shared/shared.module';
 import { InicioComponent } from './ESTADISTICA/inicio/inicio.component';
 import { NetInstalacionComponent } from './NET/net-instalacion/net-instalacion.component';
-import { CssComponent } from './CSS/css/css.component';
-import { AngularComponent } from './ANGULAR/angular/angular.component';
 import { DartComponent } from './DART/dart/dart.component';
 import { DeveloperComponent } from './DEVELOPER/developer/developer.component';
 import { FlutterComponent } from './FLUTTER/flutter/flutter.component';
-import { FlutterInstalacionComponent } from './FLUTTER/flutter-instalacion/flutter-instalacion.component';
+import { FlutterInstalacionComponent } from './FLUTTER/components/flutter-instalacion/flutter-instalacion.component';
 import { GitComponent } from './GIT/git/git.component';
 import { HtmlComponent } from './HTML/html/html.component';
 import { JavaComponent } from './JAVA/java/java.component';
@@ -30,42 +28,41 @@ import { WordpressComponent } from './WORDPRESS/wordpress/wordpress.component';
 import { JsElementosComponent } from './JAVASCRIPT/components/js-elementos/js-elementos.component';
 import { KubernetesComponent } from './KUBERNETES/kubernetes/kubernetes.component';
 import { DbComponent } from './DB/db/db.component';
-import { HtmlEtiquetasComponent } from './HTML/html-etiquetas/html-etiquetas.component';
+import { HtmlEtiquetasComponent } from './HTML/components/html-etiquetas/html-etiquetas.component';
 import { DevGlosarioComponent } from './DEVELOPER/dev-glosario/dev-glosario.component';
-import { JavaInstalacionComponent } from './JAVA/java-instalacion/java-instalacion.component';
+import { JavaInstalacionComponent } from './JAVA/components/java-instalacion/java-instalacion.component';
 import { JsNodeJsComponent } from './JAVASCRIPT/js-node-js/js-node-js.component';
 import { JsInstalandoNodeConNvmComponent } from './JAVASCRIPT/js-instalando-node-con-nvm/js-instalando-node-con-nvm.component';
 import { DevControlesVisualStudioCodeComponent } from './DEVELOPER/components/dev-controles-visual-studio-code/dev-controles-visual-studio-code.component';
 import { NgDescripcionElementosComponent } from './ANGULAR/components/ng-descripcion-elementos/ng-descripcion-elementos.component';
-import { NgInstalacionComponent } from './ANGULAR/components/ng-instalacion/ng-instalacion.component';
-import { AndroidComponent } from './ANDROID/android/android.component';
 import { DevSuperRecursosComponent } from './DEVELOPER/components/dev-super-recursos/dev-super-recursos.component';
 import { SenaFichaActualComponent } from './SENA/sena-ficha-actual/sena-ficha-actual.component';
 import { SenaRecursosInformativosComponent } from './SENA/sena-recursos-informativos/sena-recursos-informativos.component';
-import { JavaGlassfishComponent } from './JAVA/java-glassfish/java-glassfish.component';
+import { JavaGlassfishComponent } from './JAVA/components/java-glassfish/java-glassfish.component';
 import { JsTypescriptElementosComponent } from './JAVASCRIPT/js-typescript-elementos/js-typescript-elementos.component';
 import { PhpElementosComponent } from './PHP/php-elementos/php-elementos.component';
 import { NgComunicacionEntreComponentesComponent } from './ANGULAR/components/ng-comunicacion-entre-componentes/ng-comunicacion-entre-componentes.component';
 import { DevDiagramasSecuenciaComponent } from './DEVELOPER/components/dev-diagramas-secuencia/dev-diagramas-secuencia.component';
 import { GestionFormularioComponent } from './ESTADISTICA/gestion-formulario/gestion-formulario.component';
 import { DartElementosComponent } from './DART/components/dart-elementos/dart-elementos.component';
-import { FlutterElementosComponent } from './FLUTTER/flutter-elementos/flutter-elementos.component';
-import { NgCorsComponent } from './ANGULAR/components/ng-cors/ng-cors.component';
-import { CssBootstrap4clasesComponent } from './CSS/components/css-bootstrap4clases/css-bootstrap4clases.component';
-import { EtronInstalacionComponent } from './ELECTRON/etron-instalacion/etron-instalacion.component';
-import { GitInstalacionComponent } from './GIT/git-instalacion/git-instalacion.component';
+import { FlutterElementosComponent } from './FLUTTER/components/flutter-elementos/flutter-elementos.component';
+import { EtronInstalacionComponent } from './ELECTRON/components/etron-instalacion/etron-instalacion.component';
+import { GitInstalacionComponent } from './GIT/components/git-instalacion/git-instalacion.component';
 import { DevPrincipiosSolidComponent } from './DEVELOPER/components/dev-principios-solid/dev-principios-solid.component';
 import { NgRxjsFirstValueFromComponent } from './ANGULAR/components/ng-rxjs-first-value-from/ng-rxjs-first-value-from.component';
 import { GitErroresComponent } from './GIT/components/git-errores/git-errores.component';
 import { LxComandosMUsadosComponent } from './LINUX/components/lx-comandos-m-usados/lx-comandos-m-usados.component';
 import { TypescriptComponent } from './TYPESCRIPT/typescript/typescript.component';
 import { TsElementosComponent } from './TYPESCRIPT/components/ts-elementos/ts-elementos.component';
-import { ElementosAndroidStudioComponent } from './ANDROID/components/elementos-android-studio/elementos-android-studio.component';
-import { DbFirebaseComponent } from './DB/components/db-firebase/db-firebase.component';
-import { DbSqlComponent } from './DB/components/db-sql/db-sql.component';
-import { DbSqlServerComponent } from './DB/components/db-sql-server/db-sql-server.component';
 
-
+import { AndroidComponent, ElementosAndroidStudioComponent } from '@app/components';
+// ANGULAR
+import { AngularComponent, NgInstalacionComponent } from '@app/components';
+// DB
+import { DbFirebaseComponent, DbSqlServerComponent, DbSqlComponent } from '@app/components';
+// CSS
+import { CssComponent, CssAtributosComponent } from '@app/components';
+import { EtronElementosComponent } from './ELECTRON/components/etron-elementos/etron-elementos.component';
 
 
 @NgModule({
@@ -122,8 +119,6 @@ import { DbSqlServerComponent } from './DB/components/db-sql-server/db-sql-serve
     GestionFormularioComponent,
     DartElementosComponent,
     FlutterElementosComponent,
-    NgCorsComponent,
-    CssBootstrap4clasesComponent,
     EtronInstalacionComponent,
     GitInstalacionComponent,
     DevPrincipiosSolidComponent,
@@ -132,7 +127,9 @@ import { DbSqlServerComponent } from './DB/components/db-sql-server/db-sql-serve
     LxComandosMUsadosComponent,
     TypescriptComponent,
     TsElementosComponent,
-    ElementosAndroidStudioComponent
+    ElementosAndroidStudioComponent,
+    CssAtributosComponent,
+    EtronElementosComponent
   ],
   imports: [
     CommonModule,

@@ -2,11 +2,10 @@ import { Routes } from '@angular/router';
 import { HomeComponent } from '@components/home/home.component';
 import { InicioComponent } from '@components/ESTADISTICA/inicio/inicio.component';
 import { NetInstalacionComponent } from '@components/NET/net-instalacion/net-instalacion.component';
-import { CssComponent } from '@components/CSS/css/css.component';
 import { DartComponent } from '@components/DART/dart/dart.component';
 import { DeveloperComponent } from '@components/DEVELOPER/developer/developer.component';
 import { FlutterComponent } from '@components/FLUTTER/flutter/flutter.component';
-import { FlutterInstalacionComponent } from '@components/FLUTTER/flutter-instalacion/flutter-instalacion.component';
+import { FlutterInstalacionComponent } from '@components/FLUTTER/components/flutter-instalacion/flutter-instalacion.component';
 import { GitComponent } from '@components/GIT/git/git.component';
 import { HtmlComponent } from '@components/HTML/html/html.component';
 import { JavaComponent } from '@components/JAVA/java/java.component';
@@ -27,30 +26,27 @@ import { WordpressComponent } from '@components/WORDPRESS/wordpress/wordpress.co
 import { JsElementosComponent } from '@components/JAVASCRIPT/components/js-elementos/js-elementos.component';
 import { KubernetesComponent } from '@components/KUBERNETES/kubernetes/kubernetes.component';
 import { DbComponent } from '@components/DB/db/db.component';
-import { HtmlEtiquetasComponent } from '@components/HTML/html-etiquetas/html-etiquetas.component';
+import { HtmlEtiquetasComponent } from '@components/HTML/components/html-etiquetas/html-etiquetas.component';
 import { DevGlosarioComponent } from '@components/DEVELOPER/dev-glosario/dev-glosario.component';
-import { JavaInstalacionComponent } from '@components/JAVA/java-instalacion/java-instalacion.component';
+import { JavaInstalacionComponent } from '@components/JAVA/components/java-instalacion/java-instalacion.component';
 import { JsNodeJsComponent } from '@components/JAVASCRIPT/js-node-js/js-node-js.component';
 import { JsInstalandoNodeConNvmComponent } from '@components/JAVASCRIPT/js-instalando-node-con-nvm/js-instalando-node-con-nvm.component';
 import { DevControlesVisualStudioCodeComponent } from '@components/DEVELOPER/components/dev-controles-visual-studio-code/dev-controles-visual-studio-code.component';
 import { NgDescripcionElementosComponent } from '@components/ANGULAR/components/ng-descripcion-elementos/ng-descripcion-elementos.component';
-import { AndroidComponent } from '@components/ANDROID/android/android.component';
 import { DevSuperRecursosComponent } from '@components/DEVELOPER/components/dev-super-recursos/dev-super-recursos.component';
 import { SenaFichaActualComponent } from '@components/SENA/sena-ficha-actual/sena-ficha-actual.component';
 import { SenaRecursosInformativosComponent } from '@components/SENA/sena-recursos-informativos/sena-recursos-informativos.component';
-import { JavaGlassfishComponent } from '@components/JAVA/java-glassfish/java-glassfish.component';
+import { JavaGlassfishComponent } from '@components/JAVA/components/java-glassfish/java-glassfish.component';
 import { JsTypescriptElementosComponent } from '@components/JAVASCRIPT/js-typescript-elementos/js-typescript-elementos.component';
 import { PhpElementosComponent } from '@components/PHP/php-elementos/php-elementos.component';
 import { NgComunicacionEntreComponentesComponent } from '@components/ANGULAR/components/ng-comunicacion-entre-componentes/ng-comunicacion-entre-componentes.component';
 import { LoginComponent } from '@shared/components/login/login.component';
 import { GestionFormularioComponent } from '@components/ESTADISTICA/gestion-formulario/gestion-formulario.component';
 import { DartElementosComponent } from '@components/DART/components/dart-elementos/dart-elementos.component';
-import { FlutterElementosComponent } from '@components/FLUTTER/flutter-elementos/flutter-elementos.component';
-import { NgCorsComponent } from '@components/ANGULAR/components/ng-cors/ng-cors.component';
-import { CssBootstrap4clasesComponent } from '@components/CSS/components/css-bootstrap4clases/css-bootstrap4clases.component';
+import { FlutterElementosComponent } from '@components/FLUTTER/components/flutter-elementos/flutter-elementos.component';
 import { ANGULAR } from './constants/publicaciones/posts-angular.constant';
-import { EtronInstalacionComponent } from '@components/ELECTRON/etron-instalacion/etron-instalacion.component';
-import { GitInstalacionComponent } from '@components/GIT/git-instalacion/git-instalacion.component';
+import { EtronInstalacionComponent } from '@components/ELECTRON/components/etron-instalacion/etron-instalacion.component';
+import { GitInstalacionComponent } from '@components/GIT/components/git-instalacion/git-instalacion.component';
 import { DevPrincipiosSolidComponent } from '@components/DEVELOPER/components/dev-principios-solid/dev-principios-solid.component';
 import { NgRxjsFirstValueFromComponent } from '@components/ANGULAR/components/ng-rxjs-first-value-from/ng-rxjs-first-value-from.component';
 import { GitErroresComponent } from '@components/GIT/components/git-errores/git-errores.component';
@@ -59,13 +55,13 @@ import { TypescriptComponent } from '@components/TYPESCRIPT/typescript/typescrip
 import { TsElementosComponent } from '@components/TYPESCRIPT/components/ts-elementos/ts-elementos.component';
 
 // ANDROID
-import { ElementosAndroidStudioComponent } from './components';
-
+import { AndroidComponent, ElementosAndroidStudioComponent } from './components';
 // ANGULAR
 import { AngularComponent, NgInstalacionComponent } from './components';
-
 // DB
-import{ DbFirebaseComponent, DbSqlServerComponent, DbSqlComponent } from './components';
+import { DbFirebaseComponent, DbSqlServerComponent, DbSqlComponent } from './components';
+// CSS
+import { CssComponent, CssAtributosComponent } from './components';
 
 export const ROUTES: Routes = [
     { path: '', pathMatch: 'full', redirectTo: 'home'},
@@ -82,11 +78,10 @@ export const ROUTES: Routes = [
     { path: 'ng-rxjs-first-value-from', component: NgRxjsFirstValueFromComponent },
     { path: 'ng-descripcion-elementos', component: NgDescripcionElementosComponent },
     { path: 'ng-comunicacion-componentes', component: NgComunicacionEntreComponentesComponent },
-    { path: 'ng-cors', component: NgCorsComponent },
 
 // CSS
     { path: 'css', component: CssComponent },
-    { path: 'css-bootstrap4-clases', component: CssBootstrap4clasesComponent },
+    { path: 'css-atributos', component: CssAtributosComponent },
 
 // DART
     { path: 'dart', component: DartComponent },
