@@ -1,51 +1,7 @@
 <div #target></div>
 <app-header-home></app-header-home>
 <div class="espaciado"></div>
-<app-header-post [cabecera]="cabeceraPost"></app-header-post>
-
-<div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8 text-center">
-        <app-indice-contenidos [indice]="indiceDb" [clase]="claseDb"></app-indice-contenidos>
-    </div>
-    <div class="col-md-2"></div>
-</div>
-
-<div class="espaciado"></div>
-<div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-        
-        <h2 class="fuenteSeis fs-40 tc-orange-two sombra-texto">Breve HISTORIA BASES DE DATOS</h2>
-        <p class="fuenteDos fs-20 text-light">
-            El término Base de Datos fue acuñado por primera vez en 1963, en un simposio celebrado en California.<br>
-            <br>
-            <b>En la década del 70</b>
-            <br>
-            Edgar Frank Codd definió el modelo relacional y publicó una serie de reglas para la evaluación de administradores de sistemas de datos relacionales y asi nacieron las bases de datos relacionales.<br>
-            <br>
-            A partir de los aportes de Codd el multimillonario Larry Ellison desarrolló la base de datos Oracle, la cual es un sistema de administración de Base de Datos, que se destaca por sus transacciones, estabilidad, escalabilidad y multiplataforma.<br>
-            <br>
-            Inicialmente no se usó el Modelo Relacional debido a que tenía inconvenientes por el rendimiento, ya que no podían ser competitivas con las bases de datos Jerárquicas y de Red. Ésta tendencia cambio por un proyecto de IBM el cual desarrolló técnicas para la construcción de un sistema de bases de datos relacionales eficientes, llamado System R.<br>
-            <br>
-            <b>En la década del 80</b>
-            <br>
-            Las Bases de Datos Relacionales con su sistema de Tablas, Filas y Columnas, pudieron competir con las Bases de Datos Jerárquicas y de Red, ya que su nivel de programación era bajo y su uso muy sencillo.<br>
-            <br>
-            En esta década el Modelo Relacional ha conseguido posicionarse en el mercado de las Bases de Datos. Y también en este tiempo se iniciaron grandes investigaciones, como las Sistemas de Gestión de Bases de Datos Orientadas a Objetos SGBDOO (System Management Object Oriented Databases). .<br>
-            <br>
-            <b>Principios década de los 90</b>
-            <br>
-            Para la toma de decisiones se crea el lenguaje SQL (Structured Query Language) , que es un lenguaje programado para consultas. El programa de alto nivel SQL es un lenguaje de consulta estructurado que analiza grandes cantidades de información, el cual permite especificar diversos tipos de operaciones frente a la misma información, a diferencia de las bases de datos de los 80 que eran diseñadas para las aplicaciones de procesamiento de transacciones. Los grandes distribuidores de bases de datos incursionaron con la venta de bases de datos orientadas a objetos.
-            <br>
-            Finales de la década de los 90<br>
-            <br>
-            El boom de esta década fue la aparición de la WWW “Word Wide Web” ya que por este medio se facilitaba la consulta de las bases de datos. Actualmente tienen una amplia capacidad de almacenamiento de información, también una de las ventajas es el servicio de siete días a la semana las veinticuatro horas del día, sin interrupciones a menos que haya planificaciones de mantenimiento de las plataformas o el software. 
-        </p>
-        <span><a href="https://www.dataprix.com/" class="f-shadow-into-l tc-orange-two fs-20">fuente@dataprix</a></span>
-    </div>
-    <div class="col-md-1"></div>
-</div>
+<app-encabezado-categoria [nombreCategoria]="'db'" [idPost]="idPost"></app-encabezado-categoria>
 
 <div class="espaciado"></div>
 

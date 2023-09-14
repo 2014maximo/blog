@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel, CategoriaModel } from '../../../../shared/models/post.model';
-import { IndiceDeContenidosModel } from '../../../../shared/models/indice.model';
+import { CategoriaModel } from '@shared/models/post.model';
+import { IndiceDeContenidosModel } from '@shared/models/indice.model';
+import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
+import { postActual } from '@shared/constants';
+import { CATEGORIA } from '@constants/index';
+import { cargarBreadcrumb, cargarIndice } from '@shared/constants/funciones/funciones-globales';
 
 @Component({
   selector: 'app-ng-descripcion-elementos',
@@ -9,37 +13,20 @@ import { IndiceDeContenidosModel } from '../../../../shared/models/indice.model'
 })
 export class NgDescripcionElementosComponent implements OnInit {
 
-  public cabeceraPost: HeaderPostModel = {
-    rutaImagen: '',
-    alturaImagen: '',
-    fondo: false,
-    tituloPost: ''
-  }
+  public idPublicacion = 'ca5b7f7a-af2e-47ce-a69e-4ccf6ec2a317';
+  public indiceTypescript: IndiceDeContenidosModel [] = [];
+  public publicacion = new DatosPost();
+  public categoria = new CategoriaPostModel();
+  public breadcrumb = new CategoriaModel();
+  public pasoDeIndice: IndiceDeContenidosModel [] = [];
 
-  public breadcrumb: CategoriaModel = {
-    activo: true,
-    categoria: 'ANGULAR',
-    colorText: 'tc-red-one',
-    ruta: 'angular'
-  }
-  public claseContenedor: string = '';
-  public pasoDeIndice: IndiceDeContenidosModel [] = []
-
-  constructor() {
-    this.inicializarVariables()
-  }
+  constructor() { }
 
   ngOnInit(): void {
-  }
-
-  private inicializarVariables() {
-    this.cabeceraPost = {
-      rutaImagen: 'assets/img/banner/Instalaciona-angular.jpg',
-      fondo: false,
-      tituloPost: 'ANGULAR DESCRIPCIÓN ELEMENTOS',
-      alturaImagen: ''
-    };
-
+    this.publicacion = postActual(this.idPublicacion)[0];
+    this.categoria = CATEGORIA.filter( e => e.nombre === this.publicacion.categoria)[0];
+    this.indiceTypescript = cargarIndice(this.publicacion);
+    this.breadcrumb = cargarBreadcrumb(this.publicacion);
     this.pasoDeIndice = [
       {
         nombre: 'PATRÓN SPA',
@@ -66,15 +53,15 @@ export class NgDescripcionElementosComponent implements OnInit {
         estado: 'activo'
       },
     ]
-    this.claseContenedor = 'mt-5';
+  }
+
+  public scroll(el: HTMLElement){
+    el.scrollIntoView();
   }
 
   public navegar(ulr: string){
     window.open(ulr, "_blank");
   }
 
-  scroll(el: HTMLElement) {
-    el.scrollIntoView();
-  }
-
 }
+

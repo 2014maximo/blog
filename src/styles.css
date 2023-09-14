@@ -293,6 +293,12 @@ html{
 .c-Sql{
     color: #fdb200;
 }
+.bg-Db{
+    background-color: #fdb200;
+}
+.c-Db{
+    color: #fdb200;
+}
 .bg-Wordpress{
     background-color: #35697d;
 }

@@ -1,6 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { repositorioContenidoImagenes } from '@constants/generales/globales.constant';
-import { CategoriaModel, HeaderPostModel } from '@shared/models';
+import { CATEGORIA } from '@constants/index';
+import { postActual } from '@shared/constants';
+import { cargarBreadcrumb, cargarIndice } from '@shared/constants/funciones/funciones-globales';
+import { CategoriaModel } from '@shared/models';
+import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
+import { IndiceDeContenidosModel } from '@shared/models/indice.model';
 
 @Component({
   selector: 'app-db-sql-server',
@@ -10,41 +15,24 @@ import { CategoriaModel, HeaderPostModel } from '@shared/models';
 })
 export class DbSqlServerComponent implements OnInit {
 
-  public cabeceraPost: HeaderPostModel = {
-    rutaImagen: '',
-    alturaImagen: '',
-    fondo: false,
-    tituloPost: '',
-    sombra: ''
-  }
   public rutaExternaImagenes: string = ''
+  public idPublicacion = 'c20a999c-d149-42fa-95fa-d4a2b7371bb4';
+  public indiceTypescript: IndiceDeContenidosModel [] = [];
+  public publicacion = new DatosPost();
+  public categoria = new CategoriaPostModel();
+  public breadcrumb = new CategoriaModel();
 
-  public breadcrumb: CategoriaModel = {
-    activo: true,
-    categoria: 'DB',
-    colorText: 'tc-yellow-one',
-    ruta: 'db'
-  }
-
-  constructor() {
-    this.inicializarVariables();
-  }
+  constructor() { }
 
   ngOnInit(): void {
-  }
-
-  private inicializarVariables() {
-    this.cabeceraPost = {
-      rutaImagen: 'assets/img/icons/microsoft_sqlserver.png',
-      fondo: true,
-      tituloPost: 'DESCRIPCIÓN QUERYS',
-      alturaImagen: '150',
-      sombra: 'drop'
-    };
+    this.publicacion = postActual(this.idPublicacion)[0];
+    this.categoria = CATEGORIA.filter( e => e.nombre === this.publicacion.categoria)[0];
+    this.indiceTypescript = cargarIndice(this.publicacion);
+    this.breadcrumb = cargarBreadcrumb(this.publicacion);
     this.rutaExternaImagenes = repositorioContenidoImagenes;
   }
 
-  scroll(el: HTMLElement) {
+  public scroll(el: HTMLElement){
     el.scrollIntoView();
   }
 

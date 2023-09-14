@@ -1,13 +1,18 @@
 <div #target></div>
 <app-header-home [categoria]="breadcrumb"></app-header-home>
-<app-header-post [cabecera]="cabeceraPost"></app-header-post>
+<div class="espaciado"></div>
+<app-encabezado-publicacion [idPublicacion]="idPublicacion" [rutaIconoSugerido]="categoria.rutaIcono"></app-encabezado-publicacion>
+<div class="espaciado"></div>
+
+
+
 
 <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10">
         <div class="row">
             <div class="col-md-12">
-                <app-indice-contenidos [indice]="pasoDeIndice" [clase]="claseContenedor"></app-indice-contenidos>
+                <app-indice-contenidos [indice]="pasoDeIndice" [clase]="'mt-5'"></app-indice-contenidos>
                 <div class="espaciado"></div>
                 <h3 class="t5 fuenteSeis fs-25">FORMULARIOS</h3>
                 <p class="fuenteDos fs-18 text-light">Deshabilitar campos del formulario</p>

@@ -1,33 +1,7 @@
 <div #target></div>
 <app-header-home></app-header-home>
-
 <div class="espaciado"></div>
-
-<app-header-post [cabecera]="cabeceraPost"></app-header-post>
-
-
-<div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8 text-center">
-        <app-indice-contenidos [indice]="indiceElectron" [clase]="claseElectron"></app-indice-contenidos>
-        <div class="espacio"></div>
-    </div>
-    <div class="col-md-2"></div>
-</div>
-
-<div class="espaciar"></div>
-
-<div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-        
-        <h2 class="fuenteSeis fs-40 tc-blue-four sombra-texto">HISTORIA</h2>
-        <p class="fuenteDos fs-20 text-light">
-            Electron (anteriormente conocido como Atom Shell​) es un marco de trabajo de código abierto creado por Cheng Zhao, y desarrollado en la actualidad por GitHub.)Éste permite desarrollar aplicaciones GUI de escritorio usando componentes de front-end y back-end originalmente creados para aplicaciones web: el entorno en tiempo de ejecución, Node.js para el back-end y Chromium para el front-end. Electron es el marco GUI principal detrás de varios proyectos notables de código abierto, incluyendo los editores de código fuente: Atom y Visual Studio Code,​ desarrollados por GitHub y Microsoft respectivamente, el entorno de desarrollo integrado (IDE) Light Table; además del cliente de escritorio gratuito para el servicio de chat de Discord.
-        </p>
-    </div>
-    <div class="col-md-1"></div>
-</div>
+<app-encabezado-categoria [nombreCategoria]="'electron'" [idPost]="idPost"></app-encabezado-categoria>
 
 <div class="espaciado"></div>
 

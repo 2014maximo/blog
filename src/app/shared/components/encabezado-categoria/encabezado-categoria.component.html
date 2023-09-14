@@ -26,7 +26,9 @@
                     <p *ngFor="let descripcion of descripciones.descripciones" class="text-light f-open-sans-c fs-20 lh-30">
                         {{ descripcion }}
                     </p>
-                    <p class="text-right {{ this.categoria.color }} tituloCuatro sombra-texto">{{ descripciones.autor }}</p>
+                    <a href="{{descripciones.linkAlAutor}}" target="_blank">
+                        <p class="text-right {{ this.categoria.color }} tituloCuatro sombra-texto">{{ descripciones.autor }}</p>
+                    </a>
                 </div>
             </div>
         </div>

@@ -1,24 +1,13 @@
 <div #target></div>
 <app-header-home [categoria]="breadcrumb"></app-header-home>
 <div class="espaciado"></div>
-<app-header-post [cabecera]="cabeceraPost"></app-header-post>
-<div class="espacio"></div>
-<div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-        <h4 class="f-shadow-into-l fs-35 tc-yellow-one text-shadow-one">REALTIME DATABASE --------------</h4>
-        <p class="f-open-sans-c text-light fs-20 lh-20">
-            <b>
-                (SECURE RULES) REGLAS SEGURAS EN ANGULAR
-            </b>
-            <br><br>
-            Una manera efectiva de aplicar reglas seguras se puede lograr utilizando el "FIREBASE LOCAL EMULATOR SUITE", que es un conjunto de herramientas para probar localmente como funciona todo antes de aplicar cambios directamente en "FIREBASE".
-            
-        </p>
+<app-encabezado-publicacion [idPublicacion]="idPublicacion" [rutaIconoSugerido]="categoria.rutaIcono"></app-encabezado-publicacion>
+<div class="espaciado"></div>
 
-    </div>
-    <div class="col-md-1"></div>
-</div>
+
+
+
+
 
 <div class="espaciado"></div>
 

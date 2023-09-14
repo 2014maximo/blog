@@ -1,26 +1,13 @@
 <div #target></div>
 <app-header-home [categoria]="breadcrumb"></app-header-home>
 <div class="espaciado"></div>
-<app-header-post [cabecera]="cabeceraPost"></app-header-post>
+<app-encabezado-publicacion [idPublicacion]="idPublicacion" [rutaIconoSugerido]="categoria.rutaIcono"></app-encabezado-publicacion>
+<div class="espaciado"></div>
 
 
-<div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-        
-        <h2 class="fuenteSeis fs-40 tc-blue-one sombra-texto">Breve HISTORIA SQL</h2>
-        <p class="fuenteDos fs-20 text-light">
-            Los orígenes del SQL nos llevan a la década de 1970, cuando en los laboratorios de IBM, se creó el nuevo software de base de datos System R. Y para gestionar los datos almacenados en System R, se creó el lenguaje SQL. En un principio se llamó SEQUEL, un nombre que todavía se utiliza como una pronunciación alternativa para SQL, pero más tarde fue renombrado a sólo SQL.<br>
-            <br>
-            En 1979, una compañía llamada Relational Software, que luego se convirtió en Oracle, vio el potencial comercial del lenguaje SQL y lanzó su propia versión modificada, denominada Oracle V2.<br>
-            <br>
-            Ahora en su tercera década de existencia, el lenguaje SQL ofrece una gran flexibilidad a los usuarios soportando bases de datos distribuidas, es decir, bases de datos que se pueden ejecutar en varias redes de ordenadores a la vez. Certificado por ANSI e ISO, el lenguaje SQL se ha convertido en un estándar de lenguaje de consulta de base de datos, siendo la base de una gran variedad de aplicaciones de bases de datos bien establecidos en Internet hoy en día. Sirve tanto para propósitos empresariales como para necesidades académicas y funciona tanto en equipos individuales como en servidores de empresa.<br>
-            <br>
-            Con el avance en la tecnología de base de datos de aplicaciones basadas en SQL se ha vuelto cada vez más asequible para el usuario normal. Esto se debe a la introducción de diversas soluciones de bases de datos SQL de código abierto como MySQL, PostgreSQL, SQLite, Firebird, y muchos más.  
-        </p>
-    </div>
-    <div class="col-md-1"></div>
-</div>
+
+
+
 
 <div class="espaciado"></div>
 

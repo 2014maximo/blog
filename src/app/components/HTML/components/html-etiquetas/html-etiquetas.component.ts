@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { repositorioContenidoImagenes } from '@constants/generales/globales.constant';
-import { CategoriaModel, HeaderPostModel } from '@shared/models';
+import { CATEGORIA } from '@constants/index';
+import { postActual } from '@shared/constants';
+import { cargarBreadcrumb, cargarIndice } from '@shared/constants/funciones/funciones-globales';
+import { CategoriaModel } from '@shared/models';
+import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
+import { IndiceDeContenidosModel } from '@shared/models/indice.model';
 
 @Component({
   selector: 'app-html-etiquetas',
@@ -9,37 +13,21 @@ import { CategoriaModel, HeaderPostModel } from '@shared/models';
 })
 export class HtmlEtiquetasComponent implements OnInit {
 
-  public breadcrumb: CategoriaModel = {
-    activo: true,
-    categoria: 'HTML',
-    colorText: 'tc-orange-three',
-    ruta: 'html'
-  }
 
-  public cabeceraPost: HeaderPostModel = {
-    rutaImagen: '',
-    alturaImagen: '',
-    fondo: false,
-    tituloPost: '',
-    sombra: ''
-  }
-  public rutaExternaImagenes: string = ''
-  constructor() {
-    this.inicializarVariables();
-  }
+
+  public idPublicacion = '2b9d0c67-2262-4f96-8179-483d21f71967';
+  public indiceTypescript: IndiceDeContenidosModel [] = [];
+  public publicacion = new DatosPost();
+  public categoria = new CategoriaPostModel();
+  public breadcrumb = new CategoriaModel();
+
+  constructor() { }
 
   ngOnInit(): void {
-  }
-
-  private inicializarVariables() {
-    this.cabeceraPost = {
-      rutaImagen: '',
-      fondo: true,
-      tituloPost: 'ETIQUETAS HTML',
-      alturaImagen: '',
-      sombra: ''
-    };
-    this.rutaExternaImagenes = repositorioContenidoImagenes;
+    this.publicacion = postActual(this.idPublicacion)[0];
+    this.categoria = CATEGORIA.filter( e => e.nombre === this.publicacion.categoria)[0];
+    this.indiceTypescript = cargarIndice(this.publicacion);
+    this.breadcrumb = cargarBreadcrumb(this.publicacion);
   }
 
   scroll(el: HTMLElement) {

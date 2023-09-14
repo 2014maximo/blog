@@ -9,61 +9,11 @@ import { IndiceDeContenidosModel } from '../../../shared/models/indice.model';
 })
 export class JavaComponent implements OnInit {
 
-  public cabeceraPost: HeaderPostModel = {
-    rutaImagen: '',
-    alturaImagen: '',
-    fondo: false,
-    tituloPost: '',
-    sombra: ''
-  }
+  public idPost = 'd0210005-c92c-4f2a-8b57-cb22429c3aac';
 
-  public indiceJava: IndiceDeContenidosModel [] = [];
-  public claseJava = '';
-
-  constructor() {
-    this.inicializarVariables();
-  }
+  constructor() { }
 
   ngOnInit(): void {
-  }
-
-  private inicializarVariables() {
-    this.cabeceraPost = {
-      rutaImagen: 'assets/img/categorias/logo-java.png',
-      fondo: true,
-      tituloPost: '',
-      alturaImagen: '150',
-      sombra: 'drop'
-    };
-
-    this.claseJava = 'mt-2';
-
-    this.indiceJava = [
-      {
-        nombre: 'INSTALACIÓN JAVA',
-        posicion: 'pos-z',
-        ruta: 'java-instalacion',
-        colorFondo: 'bg-Java',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'PROPIEDADES',
-        posicion: 'pos-z',
-        ruta: 'java-propiedades',
-        colorFondo: 'bg-Java',
-        color: 'text-light',
-        estado: 'inactivo'
-      },
-      {
-        nombre: 'GLASSFISH',
-        posicion: 'pos-z',
-        ruta: 'java-glassfish',
-        colorFondo: 'bg-Java',
-        color: 'text-light',
-        estado: 'activo'
-      }
-    ]
   }
 
   scroll(el: HTMLElement) {

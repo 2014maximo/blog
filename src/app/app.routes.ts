@@ -42,6 +42,8 @@ export const ROUTES: Routes = [
 // ELECTRON
     { path: 'electron', component: Ruta.ElectronComponent },
     { path: 'etron-instalacion', component: Ruta.EtronInstalacionComponent },
+    { path: 'etron-elementos', component: Ruta.EtronElementosComponent },
+
 
 // FLUTTER
     { path: 'flutter', component: Ruta.FlutterComponent },

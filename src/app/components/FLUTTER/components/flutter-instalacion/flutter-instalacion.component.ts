@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { copiarAlPortapapeles, traerPost } from '@app/shared/constants/funciones/funciones-globales';
-import { PostModel } from '@shared/models/post.model';
-import { POSTS } from '@constants/post.constant';
+import { cargarBreadcrumb, cargarIndice, postActual } from '@app/shared/constants/funciones/funciones-globales';
 import { CategoriaModel } from '@shared/models/post.model';
+import { IndiceDeContenidosModel } from '@shared/models/indice.model';
+import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
+import { CATEGORIA } from '@constants/index';
 
 @Component({
   selector: 'app-flutter-instalacion',
@@ -11,14 +12,11 @@ import { CategoriaModel } from '@shared/models/post.model';
 })
 export class FlutterInstalacionComponent implements OnInit {
 
-  public cabeceraPost = traerPost('flutter-0001', POSTS) || new PostModel;
-
-  public breadcrumb: CategoriaModel = {
-    activo: this.cabeceraPost.mostrarBreadcrumb,
-    categoria: this.cabeceraPost.categoria,
-    colorText: this.cabeceraPost.colorText,
-    ruta: this.cabeceraPost.categoria,
-  }
+  public idPublicacion = '70d34b42-d1bf-4920-b217-ef6b09ff42d6';
+  public indiceTypescript: IndiceDeContenidosModel [] = [];
+  public publicacion = new DatosPost();
+  public categoria = new CategoriaPostModel();
+  public breadcrumb = new CategoriaModel();
   // https://github.com/flutter/flutter/tags (MIRAR LAS VERSIONES DE FLUTTER EN EL GIT)
   public versiones = [
     {
@@ -42,25 +40,21 @@ export class FlutterInstalacionComponent implements OnInit {
       observacion: 'Muestra las versiones y la ruta de los componentes que operan con FLUTTER'
     },
   ]
-
-
   constructor() {
-    this.inicializarVariables();
   }
-  private inicializarVariables() {
-    
-  }
-
   ngOnInit(): void {
+    this.publicacion = postActual(this.idPublicacion)[0];
+    this.categoria = CATEGORIA.filter( e => e.nombre === this.publicacion.categoria)[0];
+    this.indiceTypescript = cargarIndice(this.publicacion);
+    this.breadcrumb = cargarBreadcrumb(this.publicacion);
   }
 
   public copiarAlPortapapeles(cadenaAlclipboard: string) {
-    copiarAlPortapapeles(cadenaAlclipboard);
+    this.copiarAlPortapapeles(cadenaAlclipboard);
   }
 
-  scroll(el: HTMLElement) {
+  public scroll(el: HTMLElement){
     el.scrollIntoView();
   }
-
 
 }

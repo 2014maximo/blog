@@ -1,1 +1,17 @@
-<p>etron-instalacion works!</p>
+<div #target></div>
+<app-header-home [categoria]="breadcrumb"></app-header-home>
+<div class="espaciado"></div>
+<app-encabezado-publicacion [idPublicacion]="idPublicacion" [rutaIconoSugerido]="categoria.rutaIcono"></app-encabezado-publicacion>
+<div class="espaciado"></div>
+
+
+
+
+
+
+<div class="espaciado"></div>
+
+<app-footer-home></app-footer-home>
+<div class="go-up" (click)="scroll(target)">
+    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+</div>

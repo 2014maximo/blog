@@ -1,22 +1,9 @@
 <div #target></div>
-<div class="espaciado"></div>
 <app-header-home [categoria]="breadcrumb"></app-header-home>
+<div class="espaciado"></div>
+<app-encabezado-publicacion [idPublicacion]="idPublicacion" [rutaIconoSugerido]="categoria.rutaIcono"></app-encabezado-publicacion>
+<div class="espaciado"></div>
 
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-            <span class="tc-gray-two f-merriweather fs-17 lh-17 m-0 p-0 ">
-                <small>{{ this.cabeceraPost.fechaActualizacion | date:'dd/MM/yyyy' }}</small><br>
-            </span>
-            <p class="text-light f-merriweather fs-18 lh-25">
-                Esta vez tenemos descripción rápida de la instalación junto con las versiones, los cambios y el link para descargar una versión específica.
-            </p>
-        </div>
-        <div class="col-md-2"></div>
-    </div>
-</div>
 <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10">

@@ -9,54 +9,11 @@ import { IndiceDeContenidosModel } from '../../../shared/models/indice.model';
 })
 export class FlutterComponent implements OnInit {
 
-  public cabeceraPost: HeaderPostModel = {
-    rutaImagen: '',
-    alturaImagen: '',
-    fondo: false,
-    tituloPost: '',
-    sombra: ''
-  }
+  public idPost = '9249441409';
 
-  public indiceFlutter: IndiceDeContenidosModel [] = [];
-  public claseFlutter = '';
-
-  constructor() {
-    this.inicializarVariables();
-  }
+  constructor() { }
 
   ngOnInit(): void {
-  }
-
-  private inicializarVariables() {
-
-    this.cabeceraPost = {
-      rutaImagen: 'assets/img/categorias/flutter_text_white.png',
-      fondo: true,
-      tituloPost: '',
-      alturaImagen: '300',
-      sombra: 'drop'
-    };
-
-    this.claseFlutter = 'mt-2';
-
-    this.indiceFlutter = [
-      {
-        nombre: 'INSTALACIÓN',
-        posicion: 'pos-z',
-        ruta: 'flutter-instalacion',
-        colorFondo: 'bg-Flutter',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'ELEMENTOS Y DESCRIPCIÓN',
-        posicion: 'pos-z',
-        ruta: 'flutter-elementos',
-        colorFondo: 'bg-Flutter',
-        color: 'text-light',
-        estado: 'activo'
-      }
-    ]
   }
 
   scroll(el: HTMLElement) {

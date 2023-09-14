@@ -1,4 +1,5 @@
-import { DatosPost, EstilosPost } from '../../shared/models/categorias.model';
+import { DatosPost, EstilosPost } from "@shared/models/categorias.model"
+
 
 export const ESTILO_TYPESCRIPT: EstilosPost = {
     color: 'c-Typescript',

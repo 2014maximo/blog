@@ -1,27 +1,7 @@
 <div #target></div>
 <app-header-home></app-header-home>
 <div class="espaciado"></div>
-<app-header-post [cabecera]="cabeceraPost"></app-header-post>
-
-<div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8 text-center">
-        <app-indice-contenidos [indice]="indiceFlutter" [clase]="claseFlutter"></app-indice-contenidos>
-    </div>
-    <div class="col-md-2"></div>
-</div>
-<div class="espaciado"></div>
-<div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-        
-        <h2 class="fuenteSeis fs-40 t10 sombra-texto">HISTORIA</h2>
-        <p class="f-merriweather fs-17 text-light">
-            La primera versión de Flutter fue conocida bajo el nombre Sky y solo funcionaba para Android. Fue lanzado en la Dart developer summit de 2015. Su versión alfa data de mayo 2017, el 11 de diciembre del 2019, Flutter 2.12 salió en el evento Flutter Interactive. Estamos hablando de una herramienta muy reciente. Sin embargo ya está teniendo un enorme éxito.
-        </p>
-    </div>
-    <div class="col-md-1"></div>
-</div>
+<app-encabezado-categoria [nombreCategoria]="'flutter'" [idPost]="idPost"></app-encabezado-categoria>
 
 <div class="espaciado"></div>
 

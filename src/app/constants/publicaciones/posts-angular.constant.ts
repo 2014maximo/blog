@@ -49,5 +49,57 @@ export const ANGULAR: DatosPost[] = [
             width: 'auto',
             post: 'ng-instalacion'
         }
-    }
+    },
+    {
+        id: 'ca5b7f7a-af2e-47ce-a69e-4ccf6ec2a317',
+        nombre: 'Elementos Angular',
+        descripcion: ['Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano.'],
+        descripcionCorta: 'Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías.',
+        ruta: 'ng-descripcion-elementos',
+        componente: '',
+        mostrarEnPostHome: true,
+        estilos: ESTILO_ANGULAR,
+        fechaCreacion: '2023-03-17',
+        fechaActualizacion: '2023-09-14',
+        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
+        imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        categoria: 'angular',
+        posicion: 'rot-2',
+        estado: 'activo',
+        imgSlider: {
+            alt: 'Elementos Angular',
+            height: '600',
+            id: '2',
+            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
+            width: 'auto',
+            post: 'ng-descripcion-elementos'
+        }
+    },
+    {
+        id: '4f414314-8a56-402c-83dc-807b2af9be53',
+        nombre: 'Comunicación entre componentes',
+        descripcion: ['Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano.'],
+        descripcionCorta: 'Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías.',
+        ruta: 'ng-comunicacion-componentes',
+        componente: '',
+        mostrarEnPostHome: true,
+        estilos: ESTILO_ANGULAR,
+        fechaCreacion: '2023-03-17',
+        fechaActualizacion: '2023-09-14',
+        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
+        imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        categoria: 'angular',
+        posicion: 'rot-2',
+        estado: 'activo',
+        imgSlider: {
+            alt: 'Comunicación entre componentes',
+            height: '600',
+            id: '2',
+            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
+            width: 'auto',
+            post: 'ng-comunicacion-componentes'
+        }
+    },
 ]

@@ -1,5 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { CategoriaModel, HeaderPostModel } from '@shared/models';
+import { CATEGORIA } from '@constants/index';
+import { postActual } from '@shared/constants';
+import { cargarBreadcrumb, cargarIndice } from '@shared/constants/funciones/funciones-globales';
+import { CategoriaModel } from '@shared/models';
+import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
+import { IndiceDeContenidosModel } from '@shared/models/indice.model';
 
 @Component({
   selector: 'app-db-sql',
@@ -9,44 +14,22 @@ import { CategoriaModel, HeaderPostModel } from '@shared/models';
 })
 export class DbSqlComponent implements OnInit {
 
-  public cabeceraPost: HeaderPostModel = {
-    rutaImagen: '',
-    alturaImagen: '',
-    fondo: false,
-    tituloPost: '',
-    sombra: ''
-  }
+  public idPublicacion = '52afbc12-1bbc-4225-848d-faab850761dc';
+  public indiceTypescript: IndiceDeContenidosModel [] = [];
+  public publicacion = new DatosPost();
+  public categoria = new CategoriaPostModel();
+  public breadcrumb = new CategoriaModel();
 
-  public breadcrumb: CategoriaModel = {
-    activo: true,
-    categoria: 'DB',
-    colorText: 'tc-yellow-one',
-    ruta: 'db'
-  }
-
-  public claseSql = '';
-
-  constructor() {
-    this.inicializarVariables();
-  }
+  constructor() { }
 
   ngOnInit(): void {
+    this.publicacion = postActual(this.idPublicacion)[0];
+    this.categoria = CATEGORIA.filter( e => e.nombre === this.publicacion.categoria)[0];
+    this.indiceTypescript = cargarIndice(this.publicacion);
+    this.breadcrumb = cargarBreadcrumb(this.publicacion);
   }
 
-  private inicializarVariables() {
-    this.cabeceraPost = {
-      rutaImagen: 'assets/img/icons/sql.png',
-      fondo: true,
-      tituloPost: '',
-      alturaImagen: '150',
-      sombra: 'drop'
-    };
-
-    this.claseSql = 'mt-2';
-
-  }
-
-  scroll(el: HTMLElement) {
+  public scroll(el: HTMLElement){
     el.scrollIntoView();
   }
 

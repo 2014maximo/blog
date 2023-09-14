@@ -68,15 +68,25 @@ export const CATEGORIA: CategoriaPostModel[] = [
         id:3,
         nombre: 'css',
         posicion: 'pos-z',
-        abertura: '',
+        abertura: '80%',
         rutaIcono: 'assets/img/categorias/css.png',
         alturaIcono: '80',
-        estado:'inactivo',
+        estado:'activo',
         glosario: [],
         ruta: 'css',
         colorFondo: 'bg-Css',
         color: 'c-Css',
-        descripcion: [],
+        descripcion: [{
+            autor:'',
+            linkAlAutor:'',
+            descripciones: [
+                'Las hojas de estilos aparecieron poco después que el lenguaje de etiquetas SGML, alrededor del año 1970. Desde la creación de SGML, se observó la necesidad de definir un mecanismo que permitiera aplicar de forma consistente diferentes estilos a los documentos electrónicos.',
+                'El gran impulso de los lenguajes de hojas de estilos se produjo con el boom de Internet y el crecimiento exponencial del lenguaje HTML para la creación de documentos electrónicos. La guerra de navegadores y la falta de un estándar para la definición de los estilos dificultaban la creación de documentos con la misma apariencia en diferentes navegadores.',
+                'El organismo W3C (World Wide Web Consortium), encargado de crear todos los estándares relacionados con la web, propuso la creación de un lenguaje de hojas de estilos específico para el lenguaje HTML y se presentaron nueve propuestas. Las dos propuestas que se tuvieron en cuenta fueron la CHSS (Cascading HTML Style Sheets) y la SSP (Stream-based Style Sheet Proposal).',
+                'La propuesta CHSS fue realizada por Håkon Wium Lie y SSP fue propuesto por Bert Bos. Entre finales de 1994 y 1995 Lie y Bos se unieron para definir un nuevo lenguaje que tomaba lo mejor de cada propuesta y lo llamaron CSS (Cascading Style Sheets).',
+                'En 1995, el W3C decidió apostar por el desarrollo y estandarización de CSS y lo añadió a su grupo de trabajo de HTML. A finales de 1996, el W3C publicó la primera recomendación oficial, conocida como "CSS nivel 1".',
+                'A principios de 1997, el W3C decide separar los trabajos del grupo de HTML en tres secciones: el grupo de trabajo de HTML, el grupo de trabajo de DOM y el grupo de trabajo de CSS.']
+        }],
         descripcionCorta: '',
         post: CSS,
         subcategorias: []
@@ -113,15 +123,30 @@ export const CATEGORIA: CategoriaPostModel[] = [
         id:5,
         nombre: 'db',
         posicion: 'rot-2',
-        abertura: '',
+        abertura: '80%',
         rutaIcono: 'assets/img/categorias/sql.png',
         alturaIcono: '55',
-        estado:'inactivo',
+        estado:'activo',
         glosario: [],
         ruta: 'db',
         colorFondo: 'bg-Sql',
         color: 'c-Sql',
-        descripcion: [],
+        descripcion: [
+            {
+                autor:'Dataprix',
+                linkAlAutor: 'https://www.dataprix.com/',
+                descripciones:[
+                    'El término Base de Datos fue acuñado por primera vez en 1963, en un simposio celebrado en California.',
+                    'En la década del 70 Edgar Frank Codd definió el modelo relacional y publicó una serie de reglas para la evaluación de administradores de sistemas de datos relacionales y asi nacieron las bases de datos relacionales.',
+                    'A partir de los aportes de Codd el multimillonario Larry Ellison desarrolló la base de datos Oracle, la cual es un sistema de administración de Base de Datos, que se destaca por sus transacciones, estabilidad, escalabilidad y multiplataforma.',
+                    'Inicialmente no se usó el Modelo Relacional debido a que tenía inconvenientes por el rendimiento, ya que no podían ser competitivas con las bases de datos Jerárquicas y de Red. Ésta tendencia cambio por un proyecto de IBM el cual desarrolló técnicas para la construcción de un sistema de bases de datos relacionales eficientes, llamado System R.',
+                    'En la década del 80 las Bases de Datos Relacionales con su sistema de Tablas, Filas y Columnas, pudieron competir con las Bases de Datos Jerárquicas y de Red, ya que su nivel de programación era bajo y su uso muy sencillo.',
+                    'En esta década el Modelo Relacional ha conseguido posicionarse en el mercado de las Bases de Datos. Y también en este tiempo se iniciaron grandes investigaciones, como las Sistemas de Gestión de Bases de Datos Orientadas a Objetos SGBDOO (System Management Object Oriented Databases).',
+                    'Principios década de los 90 para la toma de decisiones se crea el lenguaje SQL (Structured Query Language) , que es un lenguaje programado para consultas. El programa de alto nivel SQL es un lenguaje de consulta estructurado que analiza grandes cantidades de información, el cual permite especificar diversos tipos de operaciones frente a la misma información, a diferencia de las bases de datos de los 80 que eran diseñadas para las aplicaciones de procesamiento de transacciones. Los grandes distribuidores de bases de datos incursionaron con la venta de bases de datos orientadas a objetos.',
+                    'Finales de la década de los 90 el boom de esta década fue la aparición de la WWW “Word Wide Web” ya que por este medio se facilitaba la consulta de las bases de datos. Actualmente tienen una amplia capacidad de almacenamiento de información, también una de las ventajas es el servicio de siete días a la semana las veinticuatro horas del día, sin interrupciones a menos que haya planificaciones de mantenimiento de las plataformas o el software.'
+                ]
+            }
+        ],
         descripcionCorta: '',
         post: DB,
         subcategorias: []
@@ -155,15 +180,23 @@ export const CATEGORIA: CategoriaPostModel[] = [
         id:7,
         nombre: 'electron',
         posicion: 'pos-z',
-        abertura: '',
+        abertura: '80%',
         rutaIcono: 'assets/img/categorias/electron.png',
         alturaIcono: '90',
-        estado:'inactivo',
+        estado:'activo',
         ruta: 'electron',
         glosario: [],
         colorFondo: 'bg-Electron',
         color: 'c-Electron',
-        descripcion: [],
+        descripcion: [
+            {
+                autor:'',
+                linkAlAutor:'',
+                descripciones:[
+                    'Electron (anteriormente conocido como Atom Shell​) es un marco de trabajo de código abierto creado por Cheng Zhao, y desarrollado en la actualidad por GitHub.)Éste permite desarrollar aplicaciones GUI de escritorio usando componentes de front-end y back-end originalmente creados para aplicaciones web: el entorno en tiempo de ejecución, Node.js para el back-end y Chromium para el front-end. Electron es el marco GUI principal detrás de varios proyectos notables de código abierto, incluyendo los editores de código fuente: Atom y Visual Studio Code,​ desarrollados por GitHub y Microsoft respectivamente, el entorno de desarrollo integrado (IDE) Light Table; además del cliente de escritorio gratuito para el servicio de chat de Discord.'
+                ]
+            }
+        ],
         descripcionCorta: '',
         post: ELECTRON,
         subcategorias: []
@@ -172,15 +205,23 @@ export const CATEGORIA: CategoriaPostModel[] = [
         id:8,
         nombre: 'flutter',
         posicion: 'rot-1',
-        abertura: '',
+        abertura: '80%',
         rutaIcono: 'assets/img/categorias/flutter_text_white.png',
         alturaIcono: '80',
-        estado:'inactivo',
+        estado:'activo',
         glosario: [],
         ruta: 'flutter',
         colorFondo: 'bg-Flutter',
         color: 'c-Flutter',
-        descripcion: [],
+        descripcion: [
+            {
+                autor:'',
+                linkAlAutor:'',
+                descripciones:[
+                    'La primera versión de Flutter fue conocida bajo el nombre Sky y solo funcionaba para Android. Fue lanzado en la Dart developer summit de 2015. Su versión alfa data de mayo 2017, el 11 de diciembre del 2019, Flutter 2.12 salió en el evento Flutter Interactive. Estamos hablando de una herramienta muy reciente. Sin embargo ya está teniendo un enorme éxito.'
+                ]
+            }
+        ],
         descripcionCorta: '',
         post: FLUTTER,
         subcategorias: []
@@ -242,15 +283,27 @@ export const CATEGORIA: CategoriaPostModel[] = [
         id:11,
         nombre: 'java',
         posicion: 'rot-2',
-        abertura: '',
+        abertura: '80%',
         rutaIcono: 'assets/img/categorias/logo-java.png',
         alturaIcono: '100',
-        estado:'inactivo',
+        estado:'activo',
         glosario: [],
         ruta: 'java',
         colorFondo: 'bg-Java',
         color: 'c-Java',
-        descripcion: [],
+        descripcion: [
+            {
+                linkAlAutor:'',
+                autor:'',
+                descripciones:[
+                    'Para hablar de la historia de java, primero debemos remontarnos a los años 80s, donde C podía considerarse el lenguaje de programación por excelencia. Era un lenguaje versátil, que podía actuar a bajo nivel y resolvían problemas muy complejos. Era la cima de la programación estructurada, para resolver estos complejos algoritmos, se generaban grandes procedimientos con un código muy complicado de mantener a largo plazo. Por ello empezó a surgir como alternativa la programación orientada a objetos, y con ella nació C++.',
+                    'Java nace en 1991 con el nombre “OAK”, posteriormente cambiado por Green por problemas legales, y finalmente con la denominación actual JAVA.',
+                    'El objetivo de java era crear un lenguaje de programación parecido a C++ en estructura y sintaxis, fuertemente orientado a objetos, pero con una máquina virtual propia. Esto se hizo bajo el principio, de poder ser usado bajo cualquier arquitectura “Write Once, Run Anywhere (escríbelo una vez, ejecútalo en cualquier sitio)”.',
+                    'En 1992 se presenta el proyecto verde, con los prototipos a bajo nivel. Entre 1993 y 1994 se trabaja para poder presentar un prototipo funcional (hotJava) donde se ve todo el potencial que JAVA puede ofrecer.',
+                    'En 1995, es presentada la versión alpha de java, y un año después en 1996 es lanzado el primer JDK (JDK 1.0). El desarrollo de java a partir de entonces es imparable, se van presentando nuevos paquetes y librerías hasta la actualidad.'
+                ]
+            }
+        ],
         descripcionCorta: '',
         post: JAVA,
         subcategorias: []
