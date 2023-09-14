@@ -1,14 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { CategoriaModel, HeaderPostModel } from '../../../shared/models/post.model';
-import { repositorioContenidoImagenes } from '../../../constants/generales/globales.constant';
+import { repositorioContenidoImagenes } from 'src/app/constants/generales/globales.constant';
+import { HeaderPostModel, CategoriaModel } from '../../../../shared/models/post.model';
 
 @Component({
-  selector: 'app-js-typescript-elementos',
-  templateUrl: './js-typescript-elementos.component.html',
-  styles: [
-  ]
+  selector: 'app-js-recorrer-arrays-objetos',
+  templateUrl: './js-recorrer-arrays-objetos.component.html',
+  styleUrls: ['./js-recorrer-arrays-objetos.component.css']
 })
-export class JsTypescriptElementosComponent implements OnInit {
+export class JsRecorrerArraysObjetosComponent implements OnInit {
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',
@@ -35,10 +34,10 @@ export class JsTypescriptElementosComponent implements OnInit {
 
   private inicializarVariables() {
     this.cabeceraPost = {
-      rutaImagen: 'assets/img/icons/typescript.png',
+      rutaImagen: 'assets/img/categorias/javascript.png',
       fondo: true,
-      tituloPost: 'ELEMENTOS',
-      alturaImagen: '100',
+      tituloPost: 'RECORRER ARRAY OBJETOS',
+      alturaImagen: '150',
       sombra: 'drop'
     };
 

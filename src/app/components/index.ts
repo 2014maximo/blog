@@ -47,3 +47,45 @@ export * from '@components/GIT/components/git-errores/git-errores.component';
 // HTML
 export * from '@components/HTML/html/html.component';
 export * from '@components/HTML/components/html-etiquetas/html-etiquetas.component';
+
+// JAVA
+export * from '@components/JAVA/java/java.component';
+export * from '@components/JAVA/components/java-instalacion/java-instalacion.component';
+export * from '@components/JAVA/components/java-glassfish/java-glassfish.component';
+
+// JAVASCRIPT
+export * from '@components/JAVASCRIPT/javascript/javascript.component';
+export * from '@components/JAVASCRIPT/components/js-elementos/js-elementos.component';
+export * from '@components/JAVASCRIPT/components/js-recorrer-arrays-objetos/js-recorrer-arrays-objetos.component';
+export * from '@components/JAVASCRIPT/components/js-trabajo-fechas/js-trabajo-fechas.component';
+
+// KOTLIN
+export * from '@components/KOTLIN/kotlin/kotlin.component';
+
+// KUBERNETES
+export * from '@components/KUBERNETES/kubernetes/kubernetes.component';
+
+// LINUX
+export * from '@components/LINUX/linux/linux.component';
+export * from '@components/LINUX/components/lx-comandos-m-usados/lx-comandos-m-usados.component';
+
+// NET
+export * from '@components/NET/net-framework/net-framework.component';
+export * from '@components/NET/components/net-instalacion/net-instalacion.component';
+export * from '@components/NET/components/net-descripcion-elementos/net-descripcion-elementos.component';
+
+// PHP
+export * from '@components/PHP/php/php.component';
+export * from '@components/PHP/php-elementos/php-elementos.component';
+
+// REACT
+export * from '@components/REACT/react/react.component';
+
+// TYPESCRIPT
+export * from '@components/TYPESCRIPT/typescript/typescript.component';
+export * from '@components/TYPESCRIPT/components/ts-elementos/ts-elementos.component';
+
+// WORDPRESS
+export * from '@components/WORDPRESS/wordpress/wordpress.component';
+
+
