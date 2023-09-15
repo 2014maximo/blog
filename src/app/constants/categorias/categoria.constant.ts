@@ -16,6 +16,8 @@ import { TERMINOS_ANGULAR } from '../glosarios/terminos.angular.constant';
 import { SUB_NG } from '../subcategorias/subcategorias-angular.constant';
 import { TERMINOS_DEVELOPER } from '../glosarios/terminos.developer.constant';
 import { TYPESCRIPT } from '../publicaciones/posts-typescript.constant';
+import { KOTLIN } from '@constants/publicaciones/posts-kotlin.constant';
+import { PHP } from '@constants/publicaciones/posts-php.constant';
 
 export const CATEGORIA: CategoriaPostModel[] = [
     {
@@ -345,17 +347,31 @@ export const CATEGORIA: CategoriaPostModel[] = [
         id:13,
         nombre: 'kotlin',
         posicion: 'pos-z',
-        abertura: '',
-        rutaIcono: 'assets/img/categorias/kotlin.png',
+        abertura: '80%',
+        rutaIcono: 'assets/img/categorias/kotlin-white.png',
         alturaIcono: '60',
-        estado:'inactivo',
+        estado:'activo',
         ruta: 'kotlin',
         glosario: [],
         colorFondo: 'bg-Kotlin',
         color: 'c-Kotlin',
-        descripcion: [],
+        descripcion: [
+            {
+                autor:'',
+                linkAlAutor:'',
+                descripciones: [
+                    'UN POCO DE HISTORIA SOBRE KOTLIN, PODEMOS DESTACAR ESTOS DATOS:',
+                    'Su nombre proviene del nombre de una isla.',
+                    'Fue creado en 2010 por JetBrains, que es la empresa detrás de IntelliJ IDEA, uno de los mejores IDE de desarrollo para Java.',
+                    'Todos los IDE de JetBrains están escritos en Java y su mayor problema era que su base de datos era muy grande, porque Java es un lenguaje genérico y poco conciso, y pensaron en qué características de otros lenguajes modernos podrían ayudarles.',
+                    'Su mejor opción era Scala, pero lo descartaron por cuestiones de eficiencia y por ser demasiado potente o pesado para la solución que buscaban.',
+                    'Una vez descartado Java, no querían salir del mundo de JVM y decidieron que la mejor opción era crear su propia versión mejorada de Java: Kotlin.',
+                    'Inicialmente fue creado para aplicaciones de escritorio (que era el mercado de JetBrains), pero ahora mismo es el multiplataforma más potente, además del lenguaje oficial de Android.'
+                ]
+            }
+        ],
         descripcionCorta: '',
-        post: JAVASCRIPT,
+        post: KOTLIN,
         subcategorias: []
     },
     {
@@ -379,15 +395,57 @@ export const CATEGORIA: CategoriaPostModel[] = [
         id:13,
         nombre: 'linux',
         posicion: 'rot-2',
-        abertura: '',
+        abertura: '80%',
         rutaIcono: 'assets/img/categorias/linux-white.png',
         alturaIcono: '60',
-        estado:'inactivo',
+        estado:'activo',
         glosario: [],
         ruta: 'linux',
         colorFondo: 'bg-Linux',
         color: 'c-Linux',
-        descripcion: [],
+        descripcion: [
+            {
+                autor:'',
+                linkAlAutor:'',
+                descripciones:[
+                    'En 1992 habían solo 100 personas trabajando en el desarrollo Kernel de Linux, pero en el 2010 ya eran 1000 personas los que trabajaban en el. Estos permitieron que lo que eran 250.000 líneas de código (1995) pasaran a ser 14.000.000 (2.010). Estos. Mas datos y curiosidades se encuentran en este trabajo, donde explicamos cosas sobre Linux, y todo lo que le rodea, y permite ver como una idea se puede convertir en algo muy grande.',
+                    'ORIGEN DE LINUX',
+                    'Para entender correctamente a Linux y lo que supone es necesario tener claro su origen.',
+                    'La historia de Linux comenzó mucho antes de lo que la mayoría de gente piensa, ya que en 1969, Ken Thompson, de AT&T Bell Laboratories, desarrolló el sistema operativo Unix, adaptándolo a las necesidades de un entorno de investigación, sin saber la importancia que llegaría a tener su trabajo. Un año después Dennis Ritchie (creador del lenguaje de programación C), colaboró con Ken Thompson para pasar el código del sistema Unix a C. Lo que convierto a Unix en un sistema operativo transportable.',
+                    'Unix creció gradualmente hasta convertirse en un producto de software estándar, distribuido por muchos vendedores tales como Novell e IBM. Sus primeras versiones fueron distribuidas de forma gratuita a los departamentos científicos de informática de muchas universidades de renombre. En 1972, los laboratorios Bell empezaron a emitir versiones oficiales de Unix y a otorgar licencias del sistema a distintos usuarios. En 1975, Berkeley lanzó su propia versión de Unix (BSD). Esta versión de Unix se convirtió en la principal competidora de la versión de los laboratorios Bell de ATT&T, pero no era la única ya que en 1980, Microsoft desarrolló una versión de Unix para PC llamada Xenix.',
+                    'En 1991 esta organización desarrolló el SistemaV versión4, que incorporaba casi todas las características que se encuentran en el SistemaV versión3, BSDversión4.3, SunOS y Xenix. Como respuesta a esta nueva versión, varias compañías, tales como IBM y Hewlett Packard, establecieron la Open Software Foundation (OSF) para crear su propia versión estándar del Unix. Debido a la proliferación de versiones de Unix en las décadas anteriores, el Instituto de Ingenieros Eléctricos y Electrónicos (IIEE) desarrollo un estándar del Unix independiente para el American National Institute (ANSI). Este nuevo estándar ANSI del Unix se llama Portable Operating System Interface for Computer Environments (POSIX). Este estándar define una norma universal a la cual se deben adherir todas las versiones de Unix.',
+                    'En esa época, los estudiantes utilizaban un programa llamado Minix, que incorporaba diferentes características de Unix. Minix fue creado por el profesor Andrew Tannenbaum. Director del Departamento de Sistemas de la Universidad de Vrije, Amsterdam.',
+                    'Profesor de Arquitectura de Ordenadores y Sistemas Operativos. Licenciado en el MIT, y doctorado en la Universidad de Berkeley, California. En 1992 participó debate con Linus sobre la idea de este utilizar un núcleo monolítico en vez de los basados en un micro núcleo que Tanenbaum creía que serían la base de los sistemas operativos futuros.',
+                    'Era el año 1991 y Linus Torvalds ,que en aquel entonces era un estudiante de informática de la Universidad de Helsinki, empezó a programar las primeras líneas de código de un sistema operativo(finalmente llamado LINUX ) como una afición y sin poderse imaginar la gran repercusión que traería.',
+                    'Hubo una primera versión no oficial de Linux 0.01, pero esta solo incluía el comienzo del núcleo, estaba escrita en lenguaje ensamblador y asumía que uno tenía acceso a un sistema Minix para su compilación.',
+                    'El 5 de octubre de 1991, Linus anuncio la primera versión oficial de Linux (versión 0.02). Con esta versión Linus pudo ejecutar Bash (GNU Bourne Again Shell) y gcc (El compilador GNU de C).Desde aquel entonces se han hecho muchísimas versiones con ayuda de programadores de todo el mundo.',
+                    'Linux es un sistema operativo compatible con Unix, sus dos características principales y que los diferencian del resto de los sistemas operativos que encontramos en el mercado son: 1. Es software libre, esto significa que no tenemos que pagar por el uso del mismo. 2. El sistema viene acompañado del código fuente (el sistema lo forman el núcleo del sistema (kernel) mas un gran numero de librerías que hacen posible su utilización). Las plataformas en las que en un principio se puede utilizar Linux son: Pentium, Pentium Pro, Pentium II/III/IV, Amiga y Atari, también existen versiones para su utilización en otras plataformas, como Alpha, ARM, MIPS, PowerPC y SPARC.',
+                    'En los últimos tiempos, ciertas casas de software comercial han empezado a distribuir sus productos para Linux y la presencia del mismo en empresas aumenta rápidamente por la excelente relación calidad-precio que se consigue con Linux.',
+                    'Tux es el nombre de la mascota oficial de Linux. Creado por Larry Ewing en 1996, es un pequeño pingüino de aspecto risueño y cómico. La idea de que la mascota de kernel Linux fuera un pingüino provino del mismo Linus Torvalds, creador de kernel Linux.',
+                    'Existen dos versiones sobre el origen de su nombre:',
+                    '1. Los pingüinos parecen vestir un esmoquin (que en inglés es tuxedo max, abreviado tux).',
+                    '2. Las letras que componen Tux provienen de las palabras Torvalds y Unix.',
+                    'Hay quien dice que Tux era el nombre de un peluche que tenia Linus que era un pingüino llamado Tux. El logotipo se puede usar y modificar sin restricciones, siempre que se reconozca la autoría de Larry Ewing, ya que es su trabajo y se debe reconocer su autoría tal y como se indica en su página.',
+                    'LINUS TORVALDS',
+                    'Nació el 28 de diciembre de 1969 en Finlandia, es un ingeniero de software conocido por iniciar y mantener el desarrollo del «kernel» de Linux, basándose en el sistema operativo libre Minix y en algunas herramientas, varias utilidades y los compiladores desarrollados por el proyecto GNU. En la actualidad es responsable de la coordinación del proyecto.',
+                    'Su vida Con tan solo 11 años y la ayuda de su abuelo que era un matemático y estadístico de la época, el cual al comprarse un Commodore enseño al joven Linus a manejarlo.',
+                    'En 1988 entro en la Universidad de Helsinki en donde aprendió sobre las ciencias de la computación y conoció a Andew S.Tanenbaum el cual ese mismo año creo el sistema operativo Minix.',
+                    'Aprendió a programar en C y después de varios años adquiriendo experiencia y tomar prestadas algunas ideas, creó en 1991 el primer Linux capaz de ejecutar BASH y disponer del compilador GCC.',
+                    'Le llamo Linux, debido a su apodo de la universidad.',
+                    'Un año más tarde Linux adopto GPL, una licencia que le añadía libertades para poder manipular y redistribuir su código de manera totalmente libre, lo que ha permitido que Linux se mantenga estable hasta nuestros días.',
+                    'Después de estar diez años estudiando y e investigando, entro a trabajar en Transmeta, una empresa dedicada a la fabricación de microprocesadores para portátiles; más tarde decidió abandonarla para poder dedicarse completamente al sueño que había creado, el desarrollo del kernel Linux. En la actualidad trabaja en los laboratorios Open Source Development Labs en Oregón, con la intención de seguir desarrollando su pasión, el kernel de Linux. Torvalds posee la marca registrada «Linux» y supervisa el uso de la marca a través de la organización sin ánimo de lucro Linux International, que se encarga de difundir por el mundo los beneficios del S.O.',
+                    'A pesar de todo, Linus, con sus 36 años, está felizmente casado con Tove y actualmente vive en Portland con sus tres hijas: Patricia, Daniela y Celeste, un lugar mucho más tranquilo para vivir con su familia.',
+                    'Algunas de las curiosidades que conocemos de Linus Torvalds es una persona como otra cualquiera y a la que le encanta la cerveza, conducir, y estar disfrutando con su familia.',
+                    'En 2001 lanzo su primer y único libro, su propio autobiografía, titulada “Just For Fun: The Story of an Accidental Revolutionary”, que traducido al castellano es muy curioso y significa: Sólo por diversión: la historia de un revolucionario accidental.',
+                    'CREACIÓN DE LINUX',
+                    'Los motivos que llevaron a este genio a desarrollar su propio sistema operativo fueron varias. Normalmente, Linus utilizaba un computador que usaba para tener acceso por línea telefónica a la red informática de su Universidad, pero debido a que este utilizaba Minix y este no era de su agrado, decidió crear uno él mismo. En los primeros intentos hizo un programa que arrancaba desde un disquete, y consiguió arrancar el computador y ejecutar dos procesos que mostraban la cadena de caracteres AAAAABBBBB. Uno lo utilizaría para leer desde el módem y escribir en la pantalla, mientras que el otro escribiría al módem y leería desde el teclado.',
+                    'El otro motivo que le llevo a el desarrollo de su S.O fue, la necesidad que tenia de poder descargar y subir archivos de su universidad, pero para implementar esta funcionalidad en el software, era necesario crear un controlador de disco. Así que después de un trabajo continuo y duro, creó un controlador compatible con el sistema de archivos de Minix.',
+                    'Podríamos decir que por error decidió crear Linux partiendo desde cero al darse cuenta, de que estaba creando algo más que un simple emulador de terminal. En un principio Linux se iba a llamar Freax (free+ freak + x), aunque después se le siguió conociendo como lo conocemos hoy en día. Después de decidir seguir desarrollando su sistema para construir un remplazo de Minix, sube al servidor de su universidad Linux con 10.000 líneas de código. A partir de ese momento Linux empezó a evolucionar rápidamente y hasta día de hoy no ha dejado de avanzar, ganando terreno a otros sistemas operativos que no son de código abierto. Linux hoy en día sigue ganando adeptos en todas las partes del mundo debido a ser gratuito y cada vez más personas anónimas contribuyen a su desarrollo y a convertirse en el sistema más estable y seguro.',
+                    'La frase que utilizo al subir Linux al servidor fue:',
+                    '"Si suspiras al recordar aquellos días cuando los hombres eran hombres y escribían sus propios drivers". Si te encuentras sin ningún proyecto interesante y te gustaría tener un verdadero sistema operativo que pudieras modificar a tu gusto, si te resulta frustrante tener solo Minix. Entonces este artículo es para ti». Lo que la gente desconoce es que Linus Torvalds solo escribe el 2% del sistema operativo Linux, es decir unas 50.000 líneas de código. El resto, se encarga de escribirlo los millones de personas que por vocación deciden mejorar este sistema, aunque Linus se encarga personalmente de supervisarlo. Torvalds siempre se ha mostrado ingenioso en sus respuestas sobre su rival, Microsoft. En una de sus últimas declaraciones explicaba que “el caso antimonopolio contra Microsoft no ha representado una gran diferencia o una ayuda para Linux, pero lo que sí ha conseguido es que la gente compruebe que Microsoft no representa el sueño americano de la informática; que tiene muchos huecos por cubrir, muchas cosas que mejorar y un grave problema de marketing. Probablemente esto nos ha abierto muchas puertas”. Otra de las cualidades a destacar de Torvalds quizá es que sea uno de los pocos miembros del movimiento OPENSOURCE que se preocupa más por el código que por las leyes.'
+                ]
+            }
+        ],
         descripcionCorta: '',
         post: LINUX,
         subcategorias: []
@@ -413,17 +471,28 @@ export const CATEGORIA: CategoriaPostModel[] = [
         id:15,
         nombre: 'php',
         posicion: 'rot-2',
-        abertura: '',
+        abertura: '80%',
         rutaIcono: 'assets/img/categorias/php.png',
         alturaIcono: '70',
-        estado:'inactivo',
+        estado:'activo',
         glosario: [],
         ruta: 'php',
         colorFondo: 'bg-Php',
         color: 'c-Php',
-        descripcion: [],
+        descripcion: [
+            {
+                autor:'',
+                linkAlAutor:'',
+                descripciones:[
+                    'PHP tal y como se conoce hoy en día es en realidad el sucesor de un producto llamado PHP/FI. Creado en 1994 por Rasmus Lerdorf, la primera encarnación de PHP era un conjunto simple de ficheros binarios Common Gateway Interface (CGI) escritos en el lenguaje de programación C. Originalmente utilizado para rastrear visitas de su currículum online, llamó al conjunto de scripts "Personal Home Page Tools", más frecuentemente referenciado como "PHP Tools". Con el paso del tiempo se quiso más funcionalidad, y Rasmus reescribió PHP Tools, produciendo una implementación más grande y rica. Este nuevo modelo fue capaz de interaccionar con bases de datos, y mucho más, proporcionando un entorno de trabajo sobre cuyos usuarios podían desarrollar aplicaciones web dinámicas sencillas tales como libros de visitas. En junio de 1995, Rasmus » publicó el código fuente de PHP Tools, lo que permitió a los desarrolladores usarlo como considerasen apropiado. Esto también permitió -y animó- a los usuarios a proporcionar soluciones a los errores del código, y generalmente a mejorarlo.',
+                    'En septiembre de ese mismo año, Rasmus amplió PHP y -por un corto periodo de tiempo- abandonó el nombre de PHP. Ahora, refiriéndose a las herramientas como FI (abreviatura de "Forms Interpreter"), la nueva implementación incluía algunas de las funciones básicas de PHP tal y como la conocemos hoy. Tenía variables como las de Perl, interpretación automática de variables de formulario y sintaxis incrustada HTML. La sintaxis por sí misma era similar a la de Perl, aunque mucho más limitada, simple y algo inconsistente. De hecho, para embeber el código en un fichero HTML, los desarrolladores tenían que usar comentarios de HTML. Aunque este método no era completamente bien recibido, FI continuó gozando de expansión y aceptación como una herramienta CGI --- pero todavía no completamente como lenguaje. Sin embargo, esto comenzó a cambiar al mes siguiente; en octubre de 1995 Rasmus publicó una versión nueva del código. Recordando el nombre PHP, ahora era llamado (resumidamente) "Personal Home Page Construction Kit," y fue la primera versión que presumía de ser, en aquel momento, considerada como una interfaz de scripts avanzada. El lenguaje fue deliberadamente diseñado para asemejarse a C en estructura, haciéndolo una adopción sencilla para desarrolladores familiarizados con C, Perl, y lenguajes similares. Habiendo sido así bastante limitado a sistemas UNIX y compatibles con POSIX, el potencial para una implementación de Windows NT estaba siendo explorada.',
+                    'El código fue completamente rehecho de nuevo, y en abril de 1996, combinando los nombres de versiones anteriores, Rasmus introdujo PHP/FI. Esta implementación de segunda generación comenzó realmente a desarrollar PHP desde un conjunto de herramientas dentro de un lenguaje de programación de derecho propio. Incluía soporte interno para DBM, mSQL, y bases de datos Postgres95, cookies, soporte para funciones definidas por el usuario, y mucho más. Ese mes de junio, PHP/FI brindó una versión 2.0. Sin embargo, un interesante hecho sobre esto, es que sólo había una única versión completa de PHP 2.0. Cuando finalmente pasó de la versión beta en noviembre de 1997, el motor de análisis subyacente ya estaba siendo reescrito por completo.',
+                    'Aunque vivió una corta vida de desarrollo, continuó gozando de un crecimiento de popularidad en el aún joven mundo del desarrollo. En 1997 y 1998, PHP/FI tenía un culto de varios miles de usuarios en todo el mundo. Una encuesta de Netcraft en mayo de 1998 indicó que cerca de 60,000 dominios reportaron que tenían cabeceras que contenían "PHP", indicando en efecto que el servidor host lo tenía instalado. Este número se correspondía con aproximadamente el 1% de todos los dominios de Internet del momento. A pesar de estas impresionantes cifras, la maduración de PHP/FI estaba condenada por limitaciones; mientras habían varios contribuidores menores, aún era desarrollado principalmente por un individuo.'
+                ]
+            }
+        ],
         descripcionCorta: '',
-        post: JAVASCRIPT,
+        post: PHP,
         subcategorias: []
     },
     {

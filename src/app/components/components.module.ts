@@ -8,6 +8,7 @@ import { JsInstalandoNodeConNvmComponent } from './JAVASCRIPT/js-instalando-node
 import { DevControlesVisualStudioCodeComponent } from './DEVELOPER/components/dev-controles-visual-studio-code/dev-controles-visual-studio-code.component';
 
 import * as Ruta from '@app/components';
+import { KotlinElementosComponent } from './KOTLIN/components/kotlin-elementos/kotlin-elementos.component';
 
 
 @NgModule({
@@ -66,7 +67,8 @@ import * as Ruta from '@app/components';
     Ruta.TsElementosComponent,
     Ruta.ElementosAndroidStudioComponent,
     Ruta.CssAtributosComponent,
-    Ruta.EtronElementosComponent
+    Ruta.EtronElementosComponent,
+    KotlinElementosComponent
   ],
   imports: [
     CommonModule,

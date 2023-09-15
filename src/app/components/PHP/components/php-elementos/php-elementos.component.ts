@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel, CategoriaModel } from '../../../shared/models/post.model';
-import { repositorioContenidoImagenes } from '../../../constants/generales/globales.constant';
-import { copiarAlPortapapeles } from '../../../shared/constants/funciones/funciones-globales';
-import { ClipboardModel } from '../../../shared/models/categorias.model';
+import { CategoriaModel } from '@shared/models/post.model';
+import { repositorioContenidoImagenes } from '@constants/generales/globales.constant';
+import { cargarBreadcrumb, cargarIndice, copiarAlPortapapeles, postActual } from '@shared/constants/funciones/funciones-globales';
+import { CategoriaPostModel, ClipboardModel, DatosPost } from '@shared/models/categorias.model';
+import { IndiceDeContenidosModel } from '@shared/models/indice.model';
+import { CATEGORIA } from '@constants/index';
 
 @Component({
   selector: 'app-php-elementos',
@@ -12,13 +14,11 @@ import { ClipboardModel } from '../../../shared/models/categorias.model';
 })
 export class PhpElementosComponent implements OnInit {
 
-  public cabeceraPost: HeaderPostModel = {
-    rutaImagen: 'assets/img/categorias/php.png',
-    alturaImagen: '100',
-    fondo: true,
-    tituloPost: 'CONCEPTOS BÁSICOS',
-    sombra: 'drop'
-  }
+  public idPublicacion = '0bac147d-348c-48c4-976a-b1c83e4a0237';
+  public indiceTypescript: IndiceDeContenidosModel [] = [];
+  public publicacion = new DatosPost();
+  public categoria = new CategoriaPostModel();
+  public breadcrumb = new CategoriaModel();
 
   public variables: ClipboardModel = {
     valorUno:'',
@@ -42,13 +42,6 @@ export class PhpElementosComponent implements OnInit {
     valorUno:''
   }
 
-  public breadcrumb: CategoriaModel = {
-    activo: true,
-    categoria: 'PHP',
-    colorText: 'tc-blue-five',
-    ruta: 'php'
-  }
-
   public rutaImagen: string = '';
 
   constructor() {
@@ -61,6 +54,10 @@ export class PhpElementosComponent implements OnInit {
 
   private inicializarVariables() {
     this.rutaImagen = repositorioContenidoImagenes;
+    this.publicacion = postActual(this.idPublicacion)[0];
+    this.categoria = CATEGORIA.filter( e => e.nombre === this.publicacion.categoria)[0];
+    this.indiceTypescript = cargarIndice(this.publicacion);
+    this.breadcrumb = cargarBreadcrumb(this.publicacion);
 
     this.variables = {
     valorUno: `<?php

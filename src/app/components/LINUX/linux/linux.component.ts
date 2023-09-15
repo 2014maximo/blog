@@ -9,53 +9,11 @@ import { IndiceDeContenidosModel } from '../../../shared/models/indice.model';
 })
 export class LinuxComponent implements OnInit {
 
-  public cabeceraPost: HeaderPostModel = {
-    rutaImagen: '',
-    alturaImagen: '',
-    fondo: false,
-    tituloPost: '',
-    sombra: ''
-  }
+  public idPost = 'cb344e3e-8b47-4a86-8c26-c7f037ae239a';
 
-  public indiceLinux: IndiceDeContenidosModel [] = [];
-  public claseLinux = '';
-
-  constructor() {
-    this.inicializarVariables();
-  }
+  constructor() { }
 
   ngOnInit(): void {
-  }
-
-  private inicializarVariables() {
-    this.cabeceraPost = {
-      rutaImagen: 'assets/img/categorias/linux-white.png',
-      fondo: true,
-      tituloPost: '',
-      alturaImagen: '150',
-      sombra: 'drop'
-    };
-
-    this.claseLinux = 'mt-2';
-
-    this.indiceLinux = [
-      {
-        nombre: 'COMANDOS',
-        posicion: 'pos-z',
-        ruta: 'linux',
-        colorFondo: 'bg-Linux',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'PROPIEDADES',
-        posicion: 'pos-z',
-        ruta: 'java-propiedades',
-        colorFondo: 'bg-Linux',
-        color: 'text-light',
-        estado: 'inactivo'
-      }
-    ]
   }
 
   scroll(el: HTMLElement) {

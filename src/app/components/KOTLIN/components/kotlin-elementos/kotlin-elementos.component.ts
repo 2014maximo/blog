@@ -7,13 +7,13 @@ import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
 import { IndiceDeContenidosModel } from '@shared/models/indice.model';
 
 @Component({
-  selector: 'app-lx-comandos-m-usados',
-  templateUrl: './lx-comandos-m-usados.component.html',
-  styleUrls: ['./lx-comandos-m-usados.component.css']
+  selector: 'app-kotlin-elementos',
+  templateUrl: './kotlin-elementos.component.html',
+  styleUrls: ['./kotlin-elementos.component.css']
 })
-export class LxComandosMUsadosComponent implements OnInit {
+export class KotlinElementosComponent implements OnInit {
 
-  public idPublicacion = 'c0d8a7db-934b-48a1-820c-d0d3c53d557c';
+  public idPublicacion = '4310addc-5bed-49b2-9d60-76a1c58b1881';
   public indiceTypescript: IndiceDeContenidosModel [] = [];
   public publicacion = new DatosPost();
   public categoria = new CategoriaPostModel();
@@ -32,9 +32,4 @@ export class LxComandosMUsadosComponent implements OnInit {
     el.scrollIntoView();
   }
 
-  public copiarAlPortapapeles(cadenaAlclipboard: string) {
-    this.copiarAlPortapapeles(cadenaAlclipboard);
-  }
-
 }
-

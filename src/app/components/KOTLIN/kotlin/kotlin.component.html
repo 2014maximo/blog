@@ -1,49 +1,7 @@
 <div #target></div>
 <app-header-home></app-header-home>
 <div class="espaciado"></div>
-<app-header-post [cabecera]="cabeceraPost"></app-header-post>
-
-<div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8 text-center">
-        <app-indice-contenidos [indice]="indiceKotlin" [clase]="claseKotlin"></app-indice-contenidos>
-    </div>
-    <div class="col-md-2"></div>
-</div>
-
-<div class="espaciado"></div>
-<div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-        
-        <h2 class="fuenteSeis fs-40 t10 sombra-texto">Breve HISTORIA</h2>
-        <p class="fuenteDos fs-20 text-light">
-            un poco de historia sobre Kotlin, podemos destacar estos datos:
-        </p>
-        <ul class="fuenteDos fs-20 text-light">
-            <li>
-                Su nombre proviene del nombre de una isla.
-            </li>
-            <li>
-                Fue creado en 2010 por JetBrains, que es la empresa detrás de IntelliJ IDEA, uno de los mejores IDE de desarrollo para Java.
-            </li>
-            <li>
-                Todos los IDE de JetBrains están escritos en Java y su mayor problema era que su base de datos era muy grande, porque Java es un lenguaje genérico y poco conciso, y pensaron en qué características de otros lenguajes modernos podrían ayudarles.
-            </li>
-            <li>
-                Su mejor opción era Scala, pero lo descartaron por cuestiones de eficiencia y por ser demasiado potente o pesado para la solución que buscaban.
-            </li>
-            <li>
-                Una vez descartado Java, no querían salir del mundo de JVM y decidieron que la mejor opción era crear su propia versión mejorada de Java: Kotlin.
-            </li>
-            <li>
-                Inicialmente fue creado para aplicaciones de escritorio (que era el mercado de JetBrains), pero ahora mismo es el multiplataforma más potente, además del lenguaje oficial de Android.
-            </li>
-        </ul>
-        
-    </div>
-    <div class="col-md-1"></div>
-</div>
+<app-encabezado-categoria [nombreCategoria]="'kotlin'" [idPost]="idPost"></app-encabezado-categoria>
 
 <div class="espaciado"></div>
 

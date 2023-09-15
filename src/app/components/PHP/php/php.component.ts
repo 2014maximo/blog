@@ -9,53 +9,11 @@ import { IndiceDeContenidosModel } from '../../../shared/models/indice.model';
 })
 export class PhpComponent implements OnInit {
 
-  public cabeceraPost: HeaderPostModel = {
-    rutaImagen: '',
-    alturaImagen: '',
-    fondo: false,
-    tituloPost: '',
-    sombra: ''
-  }
+  public idPost = 'b7cfec07-e492-400f-9238-f6cf3daba5e9';
 
-  public indicePhp: IndiceDeContenidosModel [] = [];
-  public clasePhp = '';
-
-  constructor() {
-    this.inicializarVariables();
-  }
+  constructor() { }
 
   ngOnInit(): void {
-  }
-
-  private inicializarVariables() {
-    this.cabeceraPost = {
-      rutaImagen: 'assets/img/categorias/php.png',
-      fondo: true,
-      tituloPost: '',
-      alturaImagen: '150',
-      sombra: 'drop'
-    };
-
-    this.clasePhp = 'mt-2';
-
-    this.indicePhp = [
-      {
-        nombre: 'PHP INSTALACION',
-        posicion: 'pos-z',
-        ruta: 'php-instalacion',
-        colorFondo: 'bg-Php',
-        color: 'text-light',
-        estado: 'inactivo'
-      },
-      {
-        nombre: 'PHP DESCRIPCION ELEMENTOS',
-        posicion: 'pos-z',
-        ruta: 'php-elementos',
-        colorFondo: 'bg-Php',
-        color: 'text-light',
-        estado: 'activo'
-      }
-    ]
   }
 
   scroll(el: HTMLElement) {

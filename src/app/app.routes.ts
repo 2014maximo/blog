@@ -76,6 +76,8 @@ export const ROUTES: Routes = [
 
 // KOTLIN
     { path: 'kotlin', component: Ruta.KotlinComponent },
+    { path: 'kotlin-elementos', component: Ruta.KotlinElementosComponent },
+
 
 // KUBERNETES
     { path: 'kubernetes', component: Ruta.KubernetesComponent },

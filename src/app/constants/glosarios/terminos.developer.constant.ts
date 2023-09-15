@@ -412,4 +412,14 @@ export const TERMINOS_DEVELOPER: GlosarioModel [] = [
         ]
         }
     },
+    {
+        id: '2991b412-5b3e-49ba-8b55-ff1a1ba99175',
+        titulo: 'WEBPACK',
+        fechaActualizacion: '2023-09-15',
+        mostrar: true,
+        linksReferencia: [],
+        descripcion: {
+            listaTexto:['Bundler o empacador. Reconocido en proyectos de tipo (SPA)Simple Page Aplication, empaqueta módulos, optimiza el código, carga módulos dinámicos, gestiona recursos estáticos, es configurable.']
+        }
+    }
 ]

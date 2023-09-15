@@ -61,6 +61,8 @@ export * from '@components/JAVASCRIPT/components/js-trabajo-fechas/js-trabajo-fe
 
 // KOTLIN
 export * from '@components/KOTLIN/kotlin/kotlin.component';
+export * from '@components/KOTLIN/components/kotlin-elementos/kotlin-elementos.component';
+
 
 // KUBERNETES
 export * from '@components/KUBERNETES/kubernetes/kubernetes.component';
@@ -76,7 +78,7 @@ export * from '@components/NET/components/net-descripcion-elementos/net-descripc
 
 // PHP
 export * from '@components/PHP/php/php.component';
-export * from '@components/PHP/php-elementos/php-elementos.component';
+export * from '@components/PHP/components/php-elementos/php-elementos.component';
 
 // REACT
 export * from '@components/REACT/react/react.component';
