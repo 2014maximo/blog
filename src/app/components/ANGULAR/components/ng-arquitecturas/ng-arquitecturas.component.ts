@@ -1,19 +1,19 @@
 import { Component, OnInit } from '@angular/core';
-import { CategoriaModel } from '@shared/models/post.model';
-import { IndiceDeContenidosModel } from '@shared/models/indice.model';
-import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
-import { postActual } from '@shared/constants';
 import { CATEGORIA } from '@constants/index';
+import { postActual } from '@shared/constants';
 import { cargarBreadcrumb, cargarIndice } from '@shared/constants/funciones/funciones-globales';
+import { CategoriaModel } from '@shared/models';
+import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
+import { IndiceDeContenidosModel } from '@shared/models/indice.model';
 
 @Component({
-  selector: 'app-dev-controles-visual-studio-code',
-  templateUrl: './dev-controles-visual-studio-code.component.html',
-  styleUrls: ['./dev-controles-visual-studio-code.component.css']
+  selector: 'app-ng-arquitecturas',
+  templateUrl: './ng-arquitecturas.component.html',
+  styleUrls: ['./ng-arquitecturas.component.css']
 })
-export class DevControlesVisualStudioCodeComponent implements OnInit {
+export class NgArquitecturasComponent implements OnInit {
 
-  public idPublicacion = 'aebf78f7-3ffa-4fa0-bde2-ac4cd4d3c07d';
+  public idPublicacion = 'f3d97128-9f99-42e9-b800-cb1425d016cf';
   public indiceTypescript: IndiceDeContenidosModel [] = [];
   public publicacion = new DatosPost();
   public categoria = new CategoriaPostModel();

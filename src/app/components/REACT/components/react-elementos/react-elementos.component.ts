@@ -1,19 +1,19 @@
 import { Component, OnInit } from '@angular/core';
-import { CategoriaModel } from '@shared/models/post.model';
-import { IndiceDeContenidosModel } from '@shared/models/indice.model';
-import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
-import { postActual } from '@shared/constants';
 import { CATEGORIA } from '@constants/index';
+import { postActual } from '@shared/constants';
 import { cargarBreadcrumb, cargarIndice } from '@shared/constants/funciones/funciones-globales';
+import { CategoriaModel } from '@shared/models';
+import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
+import { IndiceDeContenidosModel } from '@shared/models/indice.model';
 
 @Component({
-  selector: 'app-dev-controles-visual-studio-code',
-  templateUrl: './dev-controles-visual-studio-code.component.html',
-  styleUrls: ['./dev-controles-visual-studio-code.component.css']
+  selector: 'app-react-elementos',
+  templateUrl: './react-elementos.component.html',
+  styleUrls: ['./react-elementos.component.css']
 })
-export class DevControlesVisualStudioCodeComponent implements OnInit {
+export class ReactElementosComponent implements OnInit {
 
-  public idPublicacion = 'aebf78f7-3ffa-4fa0-bde2-ac4cd4d3c07d';
+  public idPublicacion = 'ed1ead34-09ca-4de2-b43d-ecf6f60a9e39';
   public indiceTypescript: IndiceDeContenidosModel [] = [];
   public publicacion = new DatosPost();
   public categoria = new CategoriaPostModel();

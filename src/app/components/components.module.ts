@@ -9,6 +9,15 @@ import { DevControlesVisualStudioCodeComponent } from './DEVELOPER/components/de
 
 import * as Ruta from '@app/components';
 import { KotlinElementosComponent } from './KOTLIN/components/kotlin-elementos/kotlin-elementos.component';
+import { ReactElementosComponent } from './REACT/components/react-elementos/react-elementos.component';
+import { WordpressElementosComponent } from './WORDPRESS/components/wordpress-elementos/wordpress-elementos.component';
+import { NgArquitecturasComponent } from './ANGULAR/components/ng-arquitecturas/ng-arquitecturas.component';
+import { NgManejoRutasComponent } from './ANGULAR/components/ng-manejo-rutas/ng-manejo-rutas.component';
+import { NgModulosComponent } from './ANGULAR/components/ng-modulos/ng-modulos.component';
+import { NgMicroserviciosComponent } from './ANGULAR/components/ng-microservicios/ng-microservicios.component';
+import { NgPruebasUnitariasComponent } from './ANGULAR/components/ng-pruebas-unitarias/ng-pruebas-unitarias.component';
+import { DevAlgoritmosClaveComponent } from './DEVELOPER/components/dev-algoritmos-clave/dev-algoritmos-clave.component';
+import { DevPatronesComponent } from './DEVELOPER/components/dev-patrones/dev-patrones.component';
 
 
 @NgModule({
@@ -68,7 +77,16 @@ import { KotlinElementosComponent } from './KOTLIN/components/kotlin-elementos/k
     Ruta.ElementosAndroidStudioComponent,
     Ruta.CssAtributosComponent,
     Ruta.EtronElementosComponent,
-    KotlinElementosComponent
+    KotlinElementosComponent,
+    ReactElementosComponent,
+    WordpressElementosComponent,
+    NgArquitecturasComponent,
+    NgManejoRutasComponent,
+    NgModulosComponent,
+    NgMicroserviciosComponent,
+    NgPruebasUnitariasComponent,
+    DevAlgoritmosClaveComponent,
+    DevPatronesComponent
   ],
   imports: [
     CommonModule,

@@ -18,6 +18,8 @@ import { TERMINOS_DEVELOPER } from '../glosarios/terminos.developer.constant';
 import { TYPESCRIPT } from '../publicaciones/posts-typescript.constant';
 import { KOTLIN } from '@constants/publicaciones/posts-kotlin.constant';
 import { PHP } from '@constants/publicaciones/posts-php.constant';
+import { REACT } from '@constants/publicaciones/posts-react.constant';
+import { WORDPRESS } from '@constants/publicaciones/posts-wordpress.constant';
 
 export const CATEGORIA: CategoriaPostModel[] = [
     {
@@ -499,17 +501,28 @@ export const CATEGORIA: CategoriaPostModel[] = [
         id:16,
         nombre: 'react',
         posicion: 'rot-2',
-        abertura: '',
+        abertura: '80%',
         rutaIcono: 'assets/img/categorias/react.png',
         alturaIcono: '100',
-        estado:'inactivo',
+        estado:'activo',
         glosario: [],
         ruta: 'react',
         colorFondo: 'bg-React',
         color: ' c-React',
-        descripcion: [],
+        descripcion: [
+            {
+                autor:'',
+                linkAlAutor:'',
+                descripciones:[
+                    'React fue creado por Jordan Walke, un ingeniero de software en Facebook, que lanzó un primer prototipo de React llamado “FaxJS”. Fue influenciado por XHP , una biblioteca de componentes HTML para PHP. Se implementó por primera vez en las Noticias de Facebook en 2011 y luego en Instagram en 2012. Fue de código abierto en JSConf US en mayo de 2013.',
+                    'React Native, que permite el desarrollo nativo de Android, iOS y UWP con React, se anunció en React Conf de Facebook en febrero de 2015 y de código abierto en marzo de 2015.',
+                    'El 18 de abril de 2017, Facebook anunció React Fiber , un nuevo algoritmo central de la biblioteca React para construir interfaces de usuario. React Fiber se convertiría en la base de cualquier mejora futura y desarrollo de características de la biblioteca React.',
+                    'El 26 de septiembre de 2017, React 16.0 fue lanzado al público. El 16 de febrero de 2019, React 16.8 fue lanzado al público. El lanzamiento introdujo React Hooks.'
+                ]
+            }
+        ],
         descripcionCorta: '',
-        post: JAVASCRIPT,
+        post: REACT,
         subcategorias: []
     },
     {
@@ -533,17 +546,30 @@ export const CATEGORIA: CategoriaPostModel[] = [
         id:18,
         nombre: 'wordpress',
         posicion: 'rot-2',
-        abertura: '',
+        abertura: '80%',
         rutaIcono: 'assets/img/categorias/wordpress2.png',
         alturaIcono: '80',
-        estado:'inactivo',
+        estado:'activo',
         glosario: [],
         ruta: 'wordpress',
         colorFondo: 'bg-Wordpress',
         color: 'c-Wordpress',
-        descripcion: [],
+        descripcion: [
+            {
+                autor: '',
+                linkAlAutor:'',
+                descripciones:[
+                    'La historia de WordPress comienza cuando, en 2002, el francés Michel Valdrighi, programador de una plataforma de blogs de código abierto existente llamada “b2/cafelog”, dejó de dar soporte a dicha plataforma que el mismo creó en 2001. En realidad, WordPress es la evolución de esta plataforma, un antiguo CMS desarrollado y lanzado en el 2001.',
+                    'Fue entonces cuando, el 24 de enero de 2003, un universitario llamado Matt Mullenweg publicó en el blog donde colgaba fotos de su viaje a Washington D.C. que estaba dispuesto a crear una nueva branch o rama del proyecto de b2 aprovechando su licencia GPL de código abierto motivado por la falta de opciones y soporte del autor original.',
+                    'Tan sólo 1 día después, el 25 de enero de 2003 a las 3:58pm, Mike Little, hoy día colaborador de WordPress y director de la compañía Zed1, comentó que, si el comentario de Matt era en serio, él estaría dispuesto a colaborar en el proyecto de la creación de una nueva plataforma. Es así como se creó la primera versión de WordPress. Más tarde el creador de b2/cafelog Michel Valdrighi se une al nuevo proyecto WordPress. La historia de WordPress y su nombre viene dada de una amiga de Mullenweg, Christine Tremoulet que sugirió llamar WordPress a lo que hoy conocemos como el mayor sistema de gestión de contenidos de todo internet.',
+                    'En definitiva, la plataforma nació del deseo de un elegante y bien diseñado sistema de publicación personal basado en PHP y MySQL y bajo la licencia GPL. Es el sucesor oficial de b2/cafelog. Es un producto maduro y estable. Principalmente, el nacimiento de WordPress se centra en las normas y la experiencia del usuario para crear una herramienta diferente.',
+                    'En la actualidad el desarrollo de WordPress es mantenido por toda la comunidad a nivel mundial, pero al final las decisiones las toma una sola persona: Matt Mullenweg.',
+                    'WordPress se creó con un fin en mente el cual luego de más de 10 años se sigue manteniendo y teniendo el éxito que todos conocemos.'
+                ]
+            }
+        ],
         descripcionCorta: '',
-        post: JAVASCRIPT,
+        post: WORDPRESS,
         subcategorias: []
     },
 ]

@@ -19,6 +19,11 @@ export const ROUTES: Routes = [
     { path: 'ng-rxjs-first-value-from', component: Ruta.NgRxjsFirstValueFromComponent },
     { path: 'ng-descripcion-elementos', component: Ruta.NgDescripcionElementosComponent },
     { path: 'ng-comunicacion-componentes', component: Ruta.NgComunicacionEntreComponentesComponent },
+    { path: 'ng-arquitecturas', component: Ruta.NgArquitecturasComponent },
+    { path: 'ng-manejo-rutas', component: Ruta.NgManejoRutasComponent },
+    { path: 'ng-microservicios', component: Ruta.NgMicroserviciosComponent },
+    { path: 'ng-modulos', component: Ruta.NgModulosComponent },
+    { path: 'ng-pruebas-unitarias', component: Ruta.NgPruebasUnitariasComponent },
 
 // CSS
     { path: 'css', component: Ruta.CssComponent },
@@ -38,6 +43,12 @@ export const ROUTES: Routes = [
     { path: 'developer', component: Ruta.DeveloperComponent },
     { path: 'dev-super-recursos', component:Ruta.DevSuperRecursosComponent },
     { path: 'dev-principios-solid', component:Ruta.DevPrincipiosSolidComponent },
+    { path: 'dev-algoritmos-clave', component:Ruta.DevAlgoritmosClaveComponent },
+    { path: 'dev-controles-visual', component:Ruta.DevControlesVisualStudioCodeComponent },
+    { path: 'dev-diagramas-secuencia', component:Ruta.DevDiagramasSecuenciaComponent},
+    { path: 'dev-algoritmos-clave', component:Ruta.DevAlgoritmosClaveComponent },
+    { path: 'dev-patrones', component:Ruta.DevPatronesComponent },
+    { path: 'dev-algoritmos-clave', component:Ruta.DevAlgoritmosClaveComponent },
 
 // ELECTRON
     { path: 'electron', component: Ruta.ElectronComponent },
@@ -88,19 +99,19 @@ export const ROUTES: Routes = [
     { path: 'net-descripcion-elementos', component: Ruta.NetDescripcionElementosComponent },
 
 // PHP
-        { path: 'php', component: Ruta.PhpComponent },
-        { path: 'php-elementos', component: Ruta.PhpElementosComponent },
+    { path: 'php', component: Ruta.PhpComponent },
+    { path: 'php-elementos', component: Ruta.PhpElementosComponent },
 
 // REACT
-        { path: 'react', component: Ruta.ReactComponent },
-
+    { path: 'react', component: Ruta.ReactComponent },
+    { path: 'react-elementos', component: Ruta.ReactElementosComponent },
 
 // TYPESCRIPT
     { path: 'typescript', component: Ruta.TypescriptComponent },
     { path: 'ts-elementos', component: Ruta.TsElementosComponent },
 
-
 // WORDPRESS
     { path: 'wordpress', component: Ruta.WordpressComponent },
+    { path: 'wordpress-elementos', component: Ruta.WordpressElementosComponent },
 ];
 

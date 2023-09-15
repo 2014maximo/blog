@@ -9,7 +9,7 @@ export const DEVELOPER: DatosPost[] = [
     {
         id: '441cab09-256e-446f-bb2c-f017dd6d217b',
         nombre: 'Developer',
-        descripcion: ['jhjhljhljhljh'],
+        descripcion: ['No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente.'],
         descripcionCorta: '',
         ruta: 'developer',
         componente: 'DeveloperComponent',
@@ -51,13 +51,13 @@ export const DEVELOPER: DatosPost[] = [
         }
     },
     {
-        id: 'a6035e44-38f3-485e-903d-c76452cec9b3',
-        nombre: 'Principios Solid',
-        descripcion: ['El camino ninja del desarrollado, siendo el objetivo hacer cositas bien hechas.'],
-        descripcionCorta: '',
-        ruta: 'dev-principios-solid',
-        componente: 'PrincipiosSolidComponent',
-        mostrarEnPostHome: false,
+        id: 'de48822e-c2f5-4274-a682-535a44456478',
+        nombre: 'Algoritmos de clasificación clave',
+        descripcion: ['No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente.'],
+        descripcionCorta: 'Sitios web que se ignora para que puedan ser útiles. Una pequeña descripción.',
+        ruta: 'dev-algoritmos-clave',
+        componente: 'DevAlgoritmosClaveComponent',
+        mostrarEnPostHome: true,
         estilos: ESTILO_DEVELOPER,
         fechaCreacion: '2023-03-20',
         fechaActualizacion: '',
@@ -66,6 +66,66 @@ export const DEVELOPER: DatosPost[] = [
         imgCuadro:'',
         categoria: 'developer',
         posicion: 'rot-1',
-        estado: 'inactivo'
+        estado: 'activo',
+        imgSlider: {
+            alt: 'Algoritmos de clasificación clave',
+            height: '600',
+            id: '3',
+            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/poster/slide-1900x800.jpg',
+            width: 'auto',
+            post: 'dev-algoritmos-clave'
+        }
+    },
+    {
+        id: 'e36e7879-16ff-4933-84a3-de2bc077b49e',
+        nombre: 'Diagramas de secuencia',
+        descripcion: ['No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente.'],
+        descripcionCorta: 'Sitios web que se ignora para que puedan ser útiles. Una pequeña descripción.',
+        ruta: 'dev-diagramas-secuencia',
+        componente: 'DevDiagramasSecuenciaComponent',
+        mostrarEnPostHome: true,
+        estilos: ESTILO_DEVELOPER,
+        fechaCreacion: '2023-03-20',
+        fechaActualizacion: '',
+        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/developer/Una gran agrupación de sitios web con muchos recursos.jpg',
+        imgVertical:'',
+        imgCuadro:'',
+        categoria: 'developer',
+        posicion: 'rot-3',
+        estado: 'activo',
+        imgSlider: {
+            alt: 'Diagramas de secuencia',
+            height: '600',
+            id: '3',
+            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/poster/slide-1900x800.jpg',
+            width: 'auto',
+            post: 'dev-diagramas-secuencia'
+        }
+    },
+    {
+        id: 'aebf78f7-3ffa-4fa0-bde2-ac4cd4d3c07d',
+        nombre: 'Controles rápidos visual studio code',
+        descripcion: ['No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente.'],
+        descripcionCorta: 'Sitios web que se ignora para que puedan ser útiles. Una pequeña descripción.',
+        ruta: 'dev-controles-visual',
+        componente: 'DevControlesVisualStudio',
+        mostrarEnPostHome: true,
+        estilos: ESTILO_DEVELOPER,
+        fechaCreacion: '2023-03-20',
+        fechaActualizacion: '',
+        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/developer/Una gran agrupación de sitios web con muchos recursos.jpg',
+        imgVertical:'',
+        imgCuadro:'',
+        categoria: 'developer',
+        posicion: 'rot-3',
+        estado: 'activo',
+        imgSlider: {
+            alt: 'Controles rápidos visual studio code',
+            height: '600',
+            id: '3',
+            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/poster/slide-1900x800.jpg',
+            width: 'auto',
+            post: 'dev-controles-visual'
+        }
     },
 ]

@@ -8,6 +8,12 @@ export * from '@components/ANGULAR/components/ng-rxjs-first-value-from/ng-rxjs-f
 export * from '@components/ANGULAR/components/ng-instalacion/ng-instalacion.component';
 export * from '@components/ANGULAR/components/ng-descripcion-elementos/ng-descripcion-elementos.component';
 export * from '@components/ANGULAR/components/ng-comunicacion-entre-componentes/ng-comunicacion-entre-componentes.component';
+export * from '@components/ANGULAR/components/ng-arquitecturas/ng-arquitecturas.component';
+export * from '@components/ANGULAR/components/ng-manejo-rutas/ng-manejo-rutas.component';
+export * from '@components/ANGULAR/components/ng-microservicios/ng-microservicios.component';
+export * from '@components/ANGULAR/components/ng-modulos/ng-modulos.component';
+export * from '@components/ANGULAR/components/ng-pruebas-unitarias/ng-pruebas-unitarias.component';
+export * from '@components/ANGULAR/components/ng-arquitecturas/ng-arquitecturas.component';
 
 // CSS
 export * from '@components/CSS/css/css.component';
@@ -28,6 +34,9 @@ export * from '@components/DEVELOPER/developer/developer.component';
 export * from '@components/DEVELOPER/components/dev-super-recursos/dev-super-recursos.component';
 export * from '@components/DEVELOPER/components/dev-principios-solid/dev-principios-solid.component';
 export * from '@components/DEVELOPER/components/dev-diagramas-secuencia/dev-diagramas-secuencia.component';
+export * from '@components/DEVELOPER/components/dev-algoritmos-clave/dev-algoritmos-clave.component';
+export * from '@components/DEVELOPER/components/dev-controles-visual-studio-code/dev-controles-visual-studio-code.component';
+export * from '@components/DEVELOPER/components/dev-patrones/dev-patrones.component';
 
 // ELECTRON
 export * from '@components/ELECTRON/electron/electron.component';
@@ -82,6 +91,7 @@ export * from '@components/PHP/components/php-elementos/php-elementos.component'
 
 // REACT
 export * from '@components/REACT/react/react.component';
+export * from '@components/REACT/components/react-elementos/react-elementos.component';
 
 // TYPESCRIPT
 export * from '@components/TYPESCRIPT/typescript/typescript.component';
@@ -89,5 +99,7 @@ export * from '@components/TYPESCRIPT/components/ts-elementos/ts-elementos.compo
 
 // WORDPRESS
 export * from '@components/WORDPRESS/wordpress/wordpress.component';
+export * from '@components/WORDPRESS/components/wordpress-elementos/wordpress-elementos.component';
+
 
 

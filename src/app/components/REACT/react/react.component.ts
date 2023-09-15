@@ -9,53 +9,11 @@ import { IndiceDeContenidosModel } from '../../../shared/models/indice.model';
 })
 export class ReactComponent implements OnInit {
 
-  public cabeceraPost: HeaderPostModel = {
-    rutaImagen: '',
-    alturaImagen: '',
-    fondo: false,
-    tituloPost: '',
-    sombra: ''
-  }
+  public idPost = '62a96ee3-75c7-4b01-aba7-d963ffd140bb';
 
-  public indiceReact: IndiceDeContenidosModel [] = [];
-  public claseReact = '';
-
-  constructor() {
-    this.inicializarVariables();
-  }
+  constructor() { }
 
   ngOnInit(): void {
-  }
-
-  private inicializarVariables() {
-    this.cabeceraPost = {
-      rutaImagen: 'assets/img/categorias/react-white.png',
-      fondo: true,
-      tituloPost: '',
-      alturaImagen: '150',
-      sombra: 'drop'
-    };
-
-    this.claseReact = 'mt-2';
-
-    this.indiceReact = [
-      {
-        nombre: 'REACT INSTALACION',
-        posicion: 'pos-z',
-        ruta: 'react-insta',
-        colorFondo: 'bg-React',
-        color: 't2',
-        estado: 'activo'
-      },
-      {
-        nombre: 'NET DESCRIPCION ELEMENTOS',
-        posicion: 'pos-z',
-        ruta: 'net-descripcion-elementos',
-        colorFondo: 'bg-React',
-        color: 't2',
-        estado: 'activo'
-      }
-    ]
   }
 
   scroll(el: HTMLElement) {
