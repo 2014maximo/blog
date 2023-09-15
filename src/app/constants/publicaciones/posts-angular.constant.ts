@@ -87,7 +87,7 @@ export const ANGULAR: DatosPost[] = [
         estilos: ESTILO_ANGULAR,
         fechaCreacion: '2023-03-17',
         fechaActualizacion: '2023-09-14',
-        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
+        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/comunicacion_componentes.png',
         imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         categoria: 'angular',
