@@ -105,7 +105,7 @@ export const ANGULAR: DatosPost[] = [
     {
         id: 'f3d97128-9f99-42e9-b800-cb1425d016cf',
         nombre: 'Arquitecturas propuestas para Angular',
-        descripcion: ['Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano.'],
+        descripcion: ['Teniendo en cuenta que una arquitectura se puede aplicar para todo un proyecto en sus partes de frontend, backend, bases de datos y hasta infraestructura. Esta vez la idea es mostrar la arquitectura aplicando solo al frontend en este caso a Angular y la aplicacíon a su estructura interna con varios ejemplos dado el caso de interés.'],
         descripcionCorta: 'Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías.',
         ruta: 'ng-arquitecturas',
         componente: '',
