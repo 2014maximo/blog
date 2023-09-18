@@ -105,8 +105,11 @@ export const ANGULAR: DatosPost[] = [
     {
         id: 'f3d97128-9f99-42e9-b800-cb1425d016cf',
         nombre: 'Arquitecturas propuestas para Angular',
-        descripcion: ['Teniendo en cuenta que una arquitectura se puede aplicar para todo un proyecto en sus partes de frontend, backend, bases de datos y hasta infraestructura. Esta vez la idea es mostrar la arquitectura aplicando solo al frontend en este caso a Angular y la aplicacíon a su estructura interna con varios ejemplos dado el caso de interés.'],
-        descripcionCorta: 'Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías.',
+        descripcion: [
+            'Teniendo en cuenta que una arquitectura se puede aplicar para todo un proyecto en sus partes de frontend, backend, bases de datos y hasta infraestructura. Esta vez la idea es mostrar la arquitectura aplicando solo al frontend, en este caso a Angular y la aplicacíon a su estructura interna con varios ejemplos dado el caso de interés.',
+            'Un esfuerzo máximo se desprende en los inicios por buscar la mejor arquitectura para los proyectos, buscando que todo dure y se quede con las bases del inicio, pero a medida que avanza el desarrollo, van creciendo lo requerimientos, las necesidades y se van definiendo nuevas opciones que no se tuvieron en cuenta al inicio.'
+        ],
+        descripcionCorta: 'Cual sería el mejor camino a tomar para arrancar un proyecto de angular',
         ruta: 'ng-arquitecturas',
         componente: '',
         mostrarEnPostHome: true,
