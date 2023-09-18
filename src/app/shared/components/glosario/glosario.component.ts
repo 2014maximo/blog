@@ -41,4 +41,8 @@ export class GlosarioComponent implements OnInit {
       }
     },500)
   }
+
+  public recibirCantidadElementos(e:any){
+      
+  }
 }
