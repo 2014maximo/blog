@@ -37,7 +37,7 @@ export const CSS: DatosPost[] = [
         estilos: ESTILO_CSS,
         fechaCreacion: '2023-09-14',
         fechaActualizacion: '',
-        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
+        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/css/elementos.jpg',
         imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         categoria: 'css',
