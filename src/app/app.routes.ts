@@ -49,6 +49,7 @@ export const ROUTES: Routes = [
     { path: 'dev-algoritmos-clave', component:Ruta.DevAlgoritmosClaveComponent },
     { path: 'dev-patrones', component:Ruta.DevPatronesComponent },
     { path: 'dev-algoritmos-clave', component:Ruta.DevAlgoritmosClaveComponent },
+    { path: 'dev-busqueda-empleo', component:Ruta.DevBusquedaEmpleoComponent },
 
 // ELECTRON
     { path: 'electron', component: Ruta.ElectronComponent },

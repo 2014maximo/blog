@@ -18,6 +18,7 @@ import { NgMicroserviciosComponent } from './ANGULAR/components/ng-microservicio
 import { NgPruebasUnitariasComponent } from './ANGULAR/components/ng-pruebas-unitarias/ng-pruebas-unitarias.component';
 import { DevAlgoritmosClaveComponent } from './DEVELOPER/components/dev-algoritmos-clave/dev-algoritmos-clave.component';
 import { DevPatronesComponent } from './DEVELOPER/components/dev-patrones/dev-patrones.component';
+import { DevBusquedaEmpleoComponent } from './DEVELOPER/components/dev-busqueda-empleo/dev-busqueda-empleo.component';
 
 
 @NgModule({
@@ -86,7 +87,8 @@ import { DevPatronesComponent } from './DEVELOPER/components/dev-patrones/dev-pa
     NgMicroserviciosComponent,
     NgPruebasUnitariasComponent,
     DevAlgoritmosClaveComponent,
-    DevPatronesComponent
+    DevPatronesComponent,
+    DevBusquedaEmpleoComponent
   ],
   imports: [
     CommonModule,

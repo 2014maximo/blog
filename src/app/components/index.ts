@@ -37,6 +37,7 @@ export * from '@components/DEVELOPER/components/dev-diagramas-secuencia/dev-diag
 export * from '@components/DEVELOPER/components/dev-algoritmos-clave/dev-algoritmos-clave.component';
 export * from '@components/DEVELOPER/components/dev-controles-visual-studio-code/dev-controles-visual-studio-code.component';
 export * from '@components/DEVELOPER/components/dev-patrones/dev-patrones.component';
+export * from '@components/DEVELOPER/components/dev-busqueda-empleo/dev-busqueda-empleo.component';
 
 // ELECTRON
 export * from '@components/ELECTRON/electron/electron.component';
