@@ -133,7 +133,7 @@ export const DEVELOPER: DatosPost[] = [
         nombre: 'Búsqueda empleo',
         descripcion: [
             'Esta publicación es un reflejo de mi propio proceso para ingresar a trabajar como desarrollador. En el momento que inicio su creación aún estoy sin una empresa asegurada.',
-            'Han pasado más de 2 meses en este proceso y cuando tienes obligaciones existe una presión por encontrar un cargo con el cual puedas asegurar la comida de tu familia.',
+            'Han pasado más de 2 meses en este proceso y cuando tienes obligaciones existe una presión por encontrar un cargo con el cual puedas asegurar la comida de tu familia o lograr tus metas personales.',
             'Estoy en colombia y se acercan los meses finales del año, así que es otro ingrediente más para esa presión de ingresar.',
             'Aunque muchos amigos developer han pedido mi currículum, no he visto el reflejo directo de conexión a esa gran empresa en la que soñamos trabajar.',
             'Comienzo a aplicar una serie de tips laborales que iré describiendo a medida que realmente me generen algún resultado.'
