@@ -60,6 +60,12 @@ export const COMANDOS_ANGULAR_CLI = [
         comando: 'ng generate guard guard-nombre',
         gif: ''
     },
+    {
+        id: 11,
+        descripcion: 'Vista previa de lo que pasaria al ejecutar el comando sin crear.',
+        comando: '--dry-run',
+        gif: ''
+    },
 ]
 
 export const VERSIONES_ANGULAR: AccordeonModel[] = [
