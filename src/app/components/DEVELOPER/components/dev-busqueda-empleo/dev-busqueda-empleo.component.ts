@@ -5,7 +5,8 @@ import { cargarBreadcrumb, cargarIndice } from '@shared/constants/funciones/func
 import { CategoriaModel } from '@shared/models';
 import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
 import { IndiceDeContenidosModel } from '@shared/models/indice.model';
-import { MARKETING } from './constants/dev-busqueda.constant';
+import { MARKETING, PREGUNTAS } from './constants/dev-busqueda.constant';
+import { PreguntasModel } from '@components/DEVELOPER/models/dev-busqueda.model';
 
 @Component({
   selector: 'app-dev-busqueda-empleo',
@@ -21,6 +22,8 @@ export class DevBusquedaEmpleoComponent implements OnInit {
   public breadcrumb = new CategoriaModel();
 
   public marketing: string[] = [];
+  public preguntas:PreguntasModel[]=[];
+
 
   constructor() { }
 
@@ -31,6 +34,7 @@ export class DevBusquedaEmpleoComponent implements OnInit {
     this.breadcrumb = cargarBreadcrumb(this.publicacion);
 
     this.marketing = MARKETING;
+    this.preguntas = PREGUNTAS;
   }
 
   public scroll(el: HTMLElement){

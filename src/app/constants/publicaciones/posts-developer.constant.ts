@@ -132,11 +132,10 @@ export const DEVELOPER: DatosPost[] = [
         id: '27df71a4-6654-4349-9481-06f93c3639d6',
         nombre: 'Búsqueda empleo',
         descripcion: [
-            'Esta publicación es un reflejo de mi propio proceso para ingresar a trabajar como desarrollador. En el momento que inicio su creación aún estoy sin una empresa asegurada.',
-            'Han pasado más de 2 meses en este proceso y cuando tienes obligaciones existe una presión por encontrar un cargo con el cual puedas asegurar la comida de tu familia o lograr tus metas personales.',
-            'Estoy en colombia y se acercan los meses finales del año, así que es otro ingrediente más para esa presión de ingresar.',
-            'Aunque muchos amigos developer han pedido mi currículum, no he visto el reflejo directo de conexión a esa gran empresa en la que soñamos trabajar.',
-            'Comienzo a aplicar una serie de tips laborales que iré describiendo a medida que realmente me generen algún resultado.'
+            'Esta publicación es un reflejo de mi propio proceso para ingresar a trabajar como desarrollador frontend. Iniciada la publicación estoy en búsqueda laboral de una buena empresa, espero que al terminarlo prueba todo lo que sugiero.',
+            'Se me ha complicado ubicarme rápido como esperaba, así que empecé a investigar que puntos son los que define un contratador en su búsqueda de un desarrollador apropiado.',
+            'Estoy en colombia y se acercan los meses finales del año, la mayoría de empresas llegada la época decembrina cierran contrataciones hasta el nuevo año, teniendo en cuenta que los encargados de contrataciones sacan sus vacaciones luego de la fiestas, entendiendo que llegadas esas fechas no es sugerible participar en procesos de selección, de igual forma no quiere decir que no pueda surgir una buena posibilidad, simplemente es menos probable.',
+            'Las siguientes recomendaciones fueron probadas y las apruebo porque en mi proceso funcionaron.'
         ],
         descripcionCorta: 'Recomendaciones probadas en mi propia experiencia de búsqueda laboral.',
         ruta: 'dev-busqueda-empleo',

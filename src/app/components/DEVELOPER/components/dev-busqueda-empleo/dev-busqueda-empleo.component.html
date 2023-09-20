@@ -11,15 +11,19 @@
             <div class="col-md-7">
                 <h4 class="f-shadow-into-l fw-6 fs-30 {{publicacion.estilos.color}}">Linkedin</h4>
                 <p class="text-light fuenteDos fs-20 lh-25">
+                    Como primera alternativa dado que es el centro de las empresas y agencias que se encargan de ayudar a buscar esa posiblidad.<br>
+                    <br>
                     El panorama de creer que solo actualizando tus datos laborales o de estudios, por muy buenos que sean, ya tendrás las miradas empresariales fijadas en tí, ha cambiado rotundamente.<br>
                     <br>
                     En linkedin la idea es volverse un producto deseable, una atractiva chica que se valora mucho a si misma y todos quieran con ella.
                 </p>
                 <img src="assets/img/memes/mem2.png" alt="" height="60" width="auto" class="drop">
-                <div class="espaciado"></div>
+
+                <p class="text-light fuenteDos fs-20 lh-25 mt-3">Teniendo en cuenta esta razón es muy conveniente hacer un cambio a la manera como se han venido haciendo las cosas.</p>
+                <div class="espacio"></div>
                 
-                <h2 class="m-0 p-0 f-bebas fw-3 fs-30 text-light m-0 p-0 text-uppercase mb-5">
-                    Trabajé sobre estas áreas como haciendo un marketing sobre nuestra propia cuenta:
+                <h2 class="f-bebas fw-3 fs-30 text-light p-0 text-uppercase mb-5">
+                    Hacer un marketing personal sobre estos puntos:
                 </h2>
                 <div *ngFor="let market of marketing" class="row">
                     <div class="col-md-1">
@@ -34,15 +38,37 @@
             </div>
             <div class="col-md-5"></div>
         </div>
+        <div class="espacio"></div>
         <div class="row">
             <div class="col-md-5"></div>
             <div class="col-md-7">
                 <h4 class="f-shadow-into-l fw-6 fs-30 {{publicacion.estilos.color}}">La entrevista</h4>
                 <p class="text-light fuenteDos fs-20 lh-25">
-                    Esto es muy parecido a la cita que logras con la chica(o) que te gusta. Es un gran paso y debe verse como un negocio en que ambas partes buscan que hay para ganar.<br>
+                    De alguna manera esto es muy parecido a la cita que logras con la chica(o) que te gusta. Es un gran paso y debe verse como un negocio en que ambas partes buscan que hay para ganar. Por ejemplo el salario es un tema que ambas partes tienen interés y es un punto en el que debemos saber como esta valorada nuesta profesión en el mercado.<br>
                     <br>
-                    Aún sintiendo mucha confianza porque antes nos fue bien a empresas anteriores o en caso de ser todo lo contrario y los nervios hacen sus destrosos, en ambos casos se deben conocer las preguntas comunes y tener claro que se debe responder sin falsedades.
+                    Aún sintiendo mucha confianza porque antes nos fue bien a empresas anteriores o en caso de ser todo lo contrario y los nervios hicieron sus destrosos, en ambos casos se deben conocer las preguntas comunes y tener claro que se debe responder sin falsedades.<br>
+                    <br>
+                    Estas son algunas de las preguntas más comunes que suelen hacer:
                 </p>
+                <div *ngFor="let grupo of preguntas">
+                    <h2 class="p-0 f-bebas fw-3 fs-30 text-light m-0 p-0 text-uppercase">
+                        {{ grupo.categoria }}
+                    </h2>
+                    <div *ngFor="let pregunta of grupo.pregunta" class="row">
+                        <div class="col-md-1">
+                            <i class="fa fa-bullseye {{ publicacion.estilos.color }}" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-md-11">
+                            <p class="f-open-sans-c font-italic {{ publicacion.estilos.color }} fs-20 lh-25 m-0">
+                                {{ pregunta.pregunta }}
+                            </p>
+                            <p class="f-open-sans-c fs-20 text-white-50 lh-25">
+                                === {{ pregunta.respuestaSugerida }}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="espacio"></div>
+                </div>
             </div>
         </div>
     </div>
