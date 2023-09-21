@@ -1,7 +1,8 @@
 <div #target></div>
 <app-header-home [categoria]="breadcrumb"></app-header-home>
-<div class="espacio"></div>
-<app-header-post [cabecera]="cabeceraPost"></app-header-post>
+<div class="espaciado"></div>
+<app-encabezado-publicacion [idPublicacion]="idPublicacion" [rutaIconoSugerido]="categoria.rutaIcono"></app-encabezado-publicacion>
+<div class="espaciado"></div>
 
 <div class="espacio"></div>
 
@@ -119,6 +120,8 @@
     </div>
     <div class="col-md-1"></div>
 </div>
+
+<div class="espaciado"></div>
 
 <div class="espaciado"></div>
 

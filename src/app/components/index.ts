@@ -38,6 +38,8 @@ export * from '@components/DEVELOPER/components/dev-algoritmos-clave/dev-algorit
 export * from '@components/DEVELOPER/components/dev-controles-visual-studio-code/dev-controles-visual-studio-code.component';
 export * from '@components/DEVELOPER/components/dev-patrones/dev-patrones.component';
 export * from '@components/DEVELOPER/components/dev-busqueda-empleo/dev-busqueda-empleo.component';
+export * from '@components/DEVELOPER/components/dev-glosario/dev-glosario.component';
+
 
 // ELECTRON
 export * from '@components/ELECTRON/electron/electron.component';

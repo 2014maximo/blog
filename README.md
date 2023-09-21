@@ -1,28 +1,5 @@
 # blog
 
-FLUTTER:
-- Porque se reescriben los métodos de la clase StatelessWidget.
-- Explicar argumentos con nombre (que son, para que son y como se usa).
-- Mostrar el uso del widget Text y la aplicación de cada una de las propiedades referenciadas en la documentacion.
-- Explicar el Scaffold que es para que sirve como se usa y todas sus propiedades con ejemplos.
-- Explicar interpolación de String pasar un numero a Texto.
-- debugShowCheckedModeBanner: false RETIRAR MARCA DEBUG DE APLICACION INICIAL
-- Listviews
-- ListTiles
-- Listas y map
-- Rutas
-- Json hacia mapas
-- Future Builder
-- Lectura de archivos JSON
-- Iconos
-- Imágenes
-- Avatars
-- Loadings
-- InfiniteScroll
-- Pull to refresh
-- Cards
-- Sliders
-- Hotkeys: CTRL + . opciones sobre los widgets
 
 CUANDO UN NPM NO PUEDE ENCONTRAR EL MODULO
 npm install -D @types/module-name
@@ -61,7 +38,6 @@ npx angular-cli-ghpages --branch gh-pages
 SUBIR CAMBIOS CON FIREBASE AL DOMINIO CONFIGURADO EN FIREBASE
 ng build --prod --base-href="./"
 firebase deploy
-
 
 
 versión 1.0.0.4

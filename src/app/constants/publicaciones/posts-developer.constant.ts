@@ -159,4 +159,32 @@ export const DEVELOPER: DatosPost[] = [
             post: 'dev-busqueda-empleo'
         }
     },
+    {
+        id: 'bec3c210-7438-4082-ab68-ff836b42b3eb',
+        nombre: 'Glosario general',
+        descripcion: [
+            'Terminos en general en la programación, este glosario a medida reciba actualizaciones se ingresan más términos y su significado.'
+        ],
+        descripcionCorta: 'Recomendaciones probadas en mi propia experiencia de búsqueda laboral.',
+        ruta: 'dev-busqueda-empleo',
+        componente: 'DevControlesVisualStudio',
+        mostrarEnPostHome: true,
+        estilos: ESTILO_DEVELOPER,
+        fechaCreacion: '2023-09-18',
+        fechaActualizacion: '',
+        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/developer/Una gran agrupación de sitios web con muchos recursos.jpg',
+        imgVertical:'',
+        imgCuadro:'',
+        categoria: 'developer',
+        posicion: 'rot-3',
+        estado: 'activo',
+        imgSlider: {
+            alt: 'Búsqueda empleo',
+            height: '600',
+            id: '3',
+            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/poster/slide-1900x800.jpg',
+            width: 'auto',
+            post: 'dev-busqueda-empleo'
+        }
+    },
 ]
