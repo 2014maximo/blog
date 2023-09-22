@@ -75,12 +75,12 @@ export const PREGUNTAS: PreguntasModel[] = [
             {
                 id:9,
                 pregunta:'Explica cuál es la función de @import en SASS',
-                respuestaSugerida:''
+                respuestaSugerida:'El objetivo de la directiva @import es conectar varios archivos SASS o SCSS a un archivo del tipo SASS o SCSS, con la finalidad de ordenar separadamente el código.'
             },
             {
                 id:10,
                 pregunta:'Explica cuál es la función de @extend en SASS',
-                respuestaSugerida:''
+                respuestaSugerida:'Esta directiva tiene una cualidad especial al permitir heredar características de una clase o selector a otro selector, evitando la repetición de estilos.'
             },
             {
                 id:11,
