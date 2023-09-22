@@ -85,7 +85,7 @@ export const PREGUNTAS: PreguntasModel[] = [
             {
                 id:11,
                 pregunta:'Explica cuando puedes utilizar el % placeholder en SASS',
-                respuestaSugerida:''
+                respuestaSugerida:'Se utiliza al crear un grupo de estilos %nombre {caracteristicas css}, luego de crearse funciona dentro de una clase cuando se hace referencia a la herencia de %nombre y por lo tanto hereda los estilos, de esta forma: .clase { @extend %nombre;}'
             },
             {
                 id:12,
