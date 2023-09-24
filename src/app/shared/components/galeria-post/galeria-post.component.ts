@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
 import { DatosPost, CategoriaPostModel, SubCategoriaModel } from '../../models/categorias.model';
 import { datosCategoria } from '../../constants/funciones/funciones-globales';
@@ -10,12 +10,15 @@ import { datosCategoria } from '../../constants/funciones/funciones-globales';
 })
 export class GaleriaPostComponent implements OnInit {
 
+  @Input() itemIniciales: number = 0;
+
   public categorias = CATEGORIA
   public grupoGaleria: any[] = [];
   public postPorPantalla: string[] = ['9','18'];
   public todosLosPost: DatosPost[] = [];
   public postPaginar: DatosPost[] = [];
   public ultimosPost: any[] = [];
+  public anchoPantalla = window.innerWidth;
 
   constructor() { }
 
