@@ -90,7 +90,7 @@ export const PREGUNTAS: PreguntasModel[] = [
             {
                 id:12,
                 pregunta:'Explica con tus propias palabras cómo los Mixins (@mixin) de SASS pueden ser útiles',
-                respuestaSugerida:''
+                respuestaSugerida:'Permite reutilizar estilos y propiedades CSS en tus hojas de estilo de una manera modular y eficiente. Una gran utilidad es poder pasar parámetros a un mixin anterior y utilizar todas las características de ese mixin con el parámetro que se envía.'
             },
             {
                 id:13,
