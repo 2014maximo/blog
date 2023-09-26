@@ -29,9 +29,12 @@
 <div class="pos-f-t mobile fixed-top">
     <div class="collapse" id="navbarToggleExternalContent">
     <div class="bg-dark p-4">
-        <form class="formUno tituloDos">
-            <input class="inputUno text-light bg-transparent" type="search" placeholder="Buscar" aria-label="Search">
+        <form class="formUno mb-2" [formGroup]="formBasic">
+            <input (blur)="desaparecerTablaBusqueda()" class="inputUno text-light fuente bg-transparent" type="search" placeholder="Buscar" aria-label="Search" formControlName="busqueda" (keyup)="buscar($event)">
         </form>
+        <div *ngIf="mostrarResultados">
+            <p *ngFor="let item of encontrados" class="text-light f-open-sans-c cursor-p m-0 p-0" (click)="irAlPost(item.ruta)">{{ item.nombre }}</p>
+        </div>
     </div>
     </div>
     <nav class="navbar navbar-dark bg-dark text-light transparenciaUno">

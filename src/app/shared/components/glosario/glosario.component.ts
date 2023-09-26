@@ -15,6 +15,8 @@ export class GlosarioComponent implements OnInit {
   public datosCategoria = new CategoriaPostModel();
   public glosario:GlosarioModel[] = [];
   public glosarioCache:GlosarioModel[] = [];
+  public anchoPantalla = window.innerWidth;
+  public postPorPantalla: string[] = ['9','18'];
 
   constructor() { }
 
@@ -43,6 +45,6 @@ export class GlosarioComponent implements OnInit {
   }
 
   public recibirCantidadElementos(e:any){
-      
+    this.glosario = this.glosarioCache = Object.assign([], e);
   }
 }

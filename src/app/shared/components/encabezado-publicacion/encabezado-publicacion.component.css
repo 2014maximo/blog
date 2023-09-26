@@ -29,5 +29,6 @@
 @media (max-width: 600px) {
     .tituloPost {
         font-size: 40px;
+        line-height: 40px;
     }
 }

@@ -33,6 +33,12 @@
 </div>
 <div class="row">
     <div class="col-md-4"></div>
-    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <app-paginador (paginados)="recibirCantidadElementos($event)"
+                        [contenedor]="this.glosario"
+                        [itemsPorPantalla]="postPorPantalla"
+                        [mostrarItemsPorPantalla]="false"
+                        [itemIniciales]="anchoPantalla > 768? 6:3"></app-paginador>
+    </div>
     <div class="col-md-4"></div>
 </div>
