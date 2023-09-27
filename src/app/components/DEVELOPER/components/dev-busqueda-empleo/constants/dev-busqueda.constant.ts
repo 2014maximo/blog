@@ -90,116 +90,111 @@ export const PREGUNTAS: PreguntasModel[] = [
             {
                 id:12,
                 pregunta:'Explica con tus propias palabras cómo los Mixins (@mixin) de SASS pueden ser útiles',
-                respuestaSugerida:'Permite reutilizar estilos y propiedades CSS en tus hojas de estilo de una manera modular y eficiente. Una gran utilidad es poder pasar parámetros a un mixin anterior y utilizar todas las características de ese mixin con el parámetro que se envía.'
+                respuestaSugerida:'Permite reutilizar estilos y propiedades CSS en tus hojas de estilo de una manera modular y eficiente. Una gran utilidad es poder pasar parámetros a un @mixin creado anteriormente y utilizar todas las características de ese @mixin con el parámetro que se envía.'
             },
             {
                 id:13,
                 pregunta:'En HTML, el atributo title se emplea para:',
-                respuestaSugerida:''
+                respuestaSugerida:'Es para proporcionar información adicional sobre un elemento cuando el usuario pasa el cursor sobre él.'
             },
             {
                 id:14,
                 pregunta:'En HTML, para incluir código de script que se encuentra en otro archivo (externo) se emplea el tag:',
-                respuestaSugerida:''
+                respuestaSugerida:'<script> con el src="" y la ruta del archivo.'
             },
             {
                 id:15,
                 pregunta:'EN HTML para definir una linea horizontal de separación se emplea:',
-                respuestaSugerida:''
+                respuestaSugerida:'Se usa la etiqueta <hr>.'
             },
 
             {
                 id:16,
                 pregunta:'En HTML para definir que el idioma principal de una página es el español se emplea',
-                respuestaSugerida:''
+                respuestaSugerida:'Dentro de la etiqueta HTML se emplea un atributo llamado lang="es", adicional es recomendable usar también la misma propiedad en etiquetas como "header", "main", "section", "footer", para ayudar a las herramientas de traducción.'
             },
             {
                 id:17,
-                pregunta:'¿A dónde se dirige el siguiente enlace?',
-                respuestaSugerida:''
+                pregunta:'En HTML, rowspan y colspan son atributos de la etiqueta',
+                respuestaSugerida:'Etiqueta <td>, son para controlar la fusión de celdas, lo que permite que una celda ocupe múltiples filas "rowspan" o múltiples columnas "colspan".'
             },
             {
                 id:18,
-                pregunta:'En HTML, rowspan y colspan son atributos de la etiqueta ',
-                respuestaSugerida:''
+                pregunta:'¿Qué etiqueta de HTML se emplea para definir una hoja de estilo interna?',
+                respuestaSugerida:'<style> '
             },
             {
                 id:19,
-                pregunta:'¿Qué etiqueta de HTML se emplea para definir una hoja de estilo interna?',
-                respuestaSugerida:''
+                pregunta:'En HTML, el atributo alt se emplea para:',
+                respuestaSugerida:'3 principales beneficios como: -Descripción de accesiblidad en imágenes para personas con poca visiblidad, - Cuando las imágenes no se cargan correctamente proporcionan información del contenido, - En el SEO de búsqueda permiten una mejor indexación en los resultados. En las etiquetas <img>, <audio> y <video>.'
             },
             {
                 id:20,
-                pregunta:'En HTML, el atributo alt se emplea para:',
-                respuestaSugerida:''
+                pregunta:'En HTML la forma correcta de crear un comentario es:',
+                respuestaSugerida:'<---- comentario ---->'
             },
             {
                 id:21,
-                pregunta:'En HTML la forma correcta de crear un comentario es:',
-                respuestaSugerida:''
-            },
-            {
-                id:22,
                 pregunta:'¿Qué estructura sigue el DOM?',
                 respuestaSugerida:''
             },
             {
-                id:23,
+                id:22,
                 pregunta:'Nombra todos los elementos que conozcas que fueron introducidos en HTML 5',
                 respuestaSugerida:''
             },
             {
-                id:24,
+                id:23,
                 pregunta:'¿Cuál es la diferencia entre var, let y const? ',
                 respuestaSugerida:''
             },
             {
-                id:25,
+                id:24,
                 pregunta:'¿Qué es ECMA y/o que define?',
                 respuestaSugerida:''
             },
             {
-                id:26,
+                id:25,
                 pregunta:'Menciona al menos dos frameworks de test unitarios para javascript',
                 respuestaSugerida:''
             },
             {
-                id:27,
+                id:26,
                 pregunta:'¿Cuál es la diferencia entre una clase y un objeto en programación?',
                 respuestaSugerida:''
             },
             {
-                id:28,
+                id:27,
                 pregunta:'¿Qué formas hay para obtener las variables del siguiente objeto usando ES5 y ES6 const user = {name: username, age: 99}',
                 respuestaSugerida:''
             },
             {
-                id:29,
+                id:28,
                 pregunta:'Explica qué hace la siguiente línea considerando que months es un array de meses: months.splice(1, 0, "Feb");',
                 respuestaSugerida:''
             },
             {
-                id:30,
+                id:29,
                 pregunta:'Describe en detalle todo lo que puedas observar de la siguiente función: "(() ⇒ {console.log("Hola Mundo");})()"',
                 respuestaSugerida:''
             },
             {
-                id:31,
+                id:30,
                 pregunta:'Crea una petición HTTP básica de tipo GET utilizando JavaScript a un dominio de tu elección',
                 respuestaSugerida:''
             },
             {
-                id:32,
+                id:31,
                 pregunta:'¿Cuál es la diferencia entre un test unitario, test de integración y un test de aceptación?',
                 respuestaSugerida:''
             },
             {
-                id:33,
+                id:32,
                 pregunta:'¿Qué características debe tener un buen test unitario?',
                 respuestaSugerida:''
             },
             {
-                id:4,
+                id:33,
                 pregunta:'En el ciclo de vida de Vue, cual sería la diferencia entre "created" y "mounted"',
                 respuestaSugerida:''
             }
