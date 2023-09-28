@@ -91,4 +91,13 @@ export class GaleriaPostComponent implements OnInit {
     return datosCategoria(categoria,referencia);
   }
 
+  public referenciaImagen(valor: string, contenido: string):string{
+    let valorDefecto = valor;
+
+    if(contenido){
+      valorDefecto = contenido;
+    }
+    return valorDefecto;
+  }
+
 }

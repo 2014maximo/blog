@@ -1,4 +1,4 @@
-import { DatosPost, EstilosPost } from '../../shared/models/categorias.model';
+import { DatosPost, EstilosPost, RefImg } from '@shared/models/categorias.model';
 
 export const ESTILO_JAVA: EstilosPost = {
     color: 'c-Java',
@@ -19,7 +19,7 @@ export const JAVA: DatosPost[] = [
         estilos: ESTILO_JAVA,
         fechaCreacion: '',
         fechaActualizacion: '',
-        imgHorizontal:'',
+        imgHorizontal: new RefImg(),
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-1',
@@ -36,9 +36,9 @@ export const JAVA: DatosPost[] = [
         estilos: ESTILO_JAVA,
         fechaCreacion: '2023-03-17',
         fechaActualizacion: '2023-09-14',
-        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
-        imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
-        imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
+        imgVertical:'',
+        imgCuadro:'',
         categoria: 'java',
         posicion: 'rot-2',
         estado: 'activo',
@@ -62,9 +62,9 @@ export const JAVA: DatosPost[] = [
         estilos: ESTILO_JAVA,
         fechaCreacion: '2023-03-17',
         fechaActualizacion: '2023-09-14',
-        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
-        imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
-        imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
+        imgVertical:'',
+        imgCuadro:'',
         categoria: 'java',
         posicion: 'rot-2',
         estado: 'activo',

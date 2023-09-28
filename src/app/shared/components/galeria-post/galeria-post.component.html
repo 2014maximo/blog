@@ -15,7 +15,11 @@
                     </a>
                 </div>
                 <div class="pl-4 pt-4 imgPost"[ngStyle]="{'background-image': 'url(assets/img/categorias/pruebaAllStar.png)'}">
-                    <img [ngClass]="tipoSombra(post.imgHorizontal)" src="{{ post.imgHorizontal }}" alt="" width="100%" height="auto">
+                    <img [ngClass]="tipoSombra(post.imgHorizontal.ruta)"
+                        src="{{ post.imgHorizontal.ruta }}"
+                        [attr.alt]="referenciaImagen('', post.imgHorizontal.alt)"
+                        [attr.width]="referenciaImagen('100%',post.imgHorizontal.ancho)"
+                        [attr.height]="referenciaImagen('auto',post.imgHorizontal.alto)">
                 </div>
                 <div>
                     <h4 class="tituloPost f-bebas">{{ post.nombre }}</h4>

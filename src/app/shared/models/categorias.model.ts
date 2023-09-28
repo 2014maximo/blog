@@ -69,7 +69,7 @@ export class DatosPost{
     estilos: EstilosPost;
     fechaCreacion: string;
     fechaActualizacion: string;
-    imgHorizontal: string;
+    imgHorizontal: RefImg;
     pixabay?: ImgHorizontal;
     imgVertical: string;
     imgCuadro:string;
@@ -92,7 +92,7 @@ export class DatosPost{
         };
         this.fechaCreacion = '';
         this.fechaActualizacion = '';
-        this.imgHorizontal = '';
+        this.imgHorizontal = new RefImg();
         this.pixabay = {
             autor: '',
             pathAutor: '',
@@ -221,5 +221,19 @@ export class SubCategoriaModel {
     constructor(){
         this.subCategoria = '';
         this.post = [];
+    }
+}
+
+export class RefImg{
+    ruta: string;
+    alt: string;
+    ancho: string;
+    alto: string;
+    
+    constructor(ruta?:string,altura?:string,anchura?:string, alt?:string){
+        this.ruta = ruta? ruta:'';
+        this.alt = altura? altura:'';
+        this.ancho = anchura? anchura :'';
+        this.alto = alt? alt : '';
     }
 }

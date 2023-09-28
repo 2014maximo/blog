@@ -1,4 +1,4 @@
-import { DatosPost, EstilosPost } from '../../shared/models/categorias.model';
+import { DatosPost, EstilosPost, RefImg } from '@shared/models/categorias.model';
 
 export const ESTILO_ANDROID: EstilosPost = {
     color: 'c-Android',
@@ -17,7 +17,7 @@ export const ANDROID: DatosPost[] = [
         categoria: 'android',
         imgCuadro:'',
         posicion: 'rot-2',
-        imgHorizontal:'',
+        imgHorizontal: new RefImg(),
         imgVertical: '',
         mostrarEnPostHome: false,
         estilos: ESTILO_ANDROID,

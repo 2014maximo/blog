@@ -1,10 +1,9 @@
-import { DatosPost, EstilosPost } from '@shared/models/categorias.model';
+import { DatosPost, EstilosPost, RefImg } from '@shared/models/categorias.model';
 
 export const ESTILO_REACT: EstilosPost = {
     color: 'c-React',
     colorFondo: 'bg-React'
 }
-
 
 export const REACT: DatosPost[] = [
     {
@@ -19,7 +18,7 @@ export const REACT: DatosPost[] = [
         estilos: ESTILO_REACT,
         fechaCreacion: '2020-09-15',
         fechaActualizacion: '',
-        imgHorizontal:'',
+        imgHorizontal: new RefImg(),
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-1',
@@ -38,9 +37,9 @@ export const REACT: DatosPost[] = [
         estilos: ESTILO_REACT,
         fechaCreacion: '2023-09-15',
         fechaActualizacion: '',
-        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
-        imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
-        imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
+        imgVertical:'',
+        imgCuadro:'',
         categoria: 'react',
         posicion: 'rot-2',
         estado: 'activo',

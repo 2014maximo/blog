@@ -1,4 +1,4 @@
-import { DatosPost, EstilosPost } from '../../shared/models/categorias.model';
+import { DatosPost, EstilosPost, RefImg } from '@shared/models/categorias.model';
 
 export const ESTILO_LINUX: EstilosPost = {
     color: 'c-Linux',
@@ -19,7 +19,7 @@ export const LINUX: DatosPost[] = [
         estilos: ESTILO_LINUX,
         fechaCreacion: '2020-04-04',
         fechaActualizacion: '2020-04-04',
-        imgHorizontal:'',
+        imgHorizontal: new RefImg(),
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-1',
@@ -38,9 +38,9 @@ export const LINUX: DatosPost[] = [
         estilos: ESTILO_LINUX,
         fechaCreacion: '2023-09-15',
         fechaActualizacion: '',
-        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
-        imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
-        imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
+        imgVertical:'',
+        imgCuadro:'',
         categoria: 'linux',
         posicion: 'rot-2',
         estado: 'activo',

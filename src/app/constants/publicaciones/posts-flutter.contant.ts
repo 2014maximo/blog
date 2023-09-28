@@ -1,4 +1,4 @@
-import { DatosPost, EstilosPost } from '../../shared/models/categorias.model';
+import { DatosPost, EstilosPost, RefImg } from '@shared/models/categorias.model';
 
 export const ESTILO_FLUTTER: EstilosPost = {
     color: 'c-Flutter',
@@ -17,7 +17,7 @@ export const FLUTTER: DatosPost[] = [
         estilos: ESTILO_FLUTTER,
         fechaCreacion: '2022-04-08',
         fechaActualizacion: '2022-04-08',
-        imgHorizontal:'',
+        imgHorizontal: new RefImg(),
         imgVertical:'',
         imgCuadro:'',
         categoria: 'flutter',
@@ -37,7 +37,7 @@ export const FLUTTER: DatosPost[] = [
         estilos: ESTILO_FLUTTER,
         fechaCreacion: '2023-09-14',
         fechaActualizacion: '',
-        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
         imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         categoria: 'flutter',
@@ -65,7 +65,7 @@ export const FLUTTER: DatosPost[] = [
         estilos: ESTILO_FLUTTER,
         fechaCreacion: '2023-09-14',
         fechaActualizacion: '',
-        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
         imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         categoria: 'flutter',

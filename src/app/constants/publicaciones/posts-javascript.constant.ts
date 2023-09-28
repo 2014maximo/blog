@@ -1,4 +1,4 @@
-import { DatosPost, EstilosPost } from '../../shared/models/categorias.model';
+import { DatosPost, EstilosPost, RefImg } from '@shared/models/categorias.model';
 
 export const ESTILO_JAVASCRIPT: EstilosPost = {
     color: 'c-Javascript',
@@ -19,7 +19,7 @@ export const JAVASCRIPT: DatosPost[] = [
         estilos: ESTILO_JAVASCRIPT,
         fechaCreacion: '2020-04-04',
         fechaActualizacion: '2020-04-04',
-        imgHorizontal:'',
+        imgHorizontal: new RefImg(),
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-1',
@@ -38,7 +38,7 @@ export const JAVASCRIPT: DatosPost[] = [
         estilos: ESTILO_JAVASCRIPT,
         fechaCreacion: '2023-09-06',
         fechaActualizacion: '2023-09-14',
-        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
         imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         categoria: 'javascript',
@@ -66,7 +66,7 @@ export const JAVASCRIPT: DatosPost[] = [
         estilos: ESTILO_JAVASCRIPT,
         fechaCreacion: '2023-09-06',
         fechaActualizacion: '2023-09-14',
-        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
         imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         categoria: 'javascript',

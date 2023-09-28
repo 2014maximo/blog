@@ -1,10 +1,9 @@
-import { DatosPost, EstilosPost } from '@shared/models/categorias.model';
+import { DatosPost, EstilosPost, RefImg } from '@shared/models/categorias.model';
 
 export const ESTILO_WORDPRESS: EstilosPost = {
     color: 'c-Wordpress',
     colorFondo: 'bg-Wordpress'
 }
-
 
 export const WORDPRESS: DatosPost[] = [
     {
@@ -19,7 +18,7 @@ export const WORDPRESS: DatosPost[] = [
         estilos: ESTILO_WORDPRESS,
         fechaCreacion: '2020-09-15',
         fechaActualizacion: '',
-        imgHorizontal:'',
+        imgHorizontal: new RefImg(),
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-1',
@@ -38,9 +37,9 @@ export const WORDPRESS: DatosPost[] = [
         estilos: ESTILO_WORDPRESS,
         fechaCreacion: '2023-09-15',
         fechaActualizacion: '',
-        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
-        imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
-        imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
+        imgVertical:'',
+        imgCuadro:'',
         categoria: 'wordpress',
         posicion: 'rot-2',
         estado: 'activo',

@@ -1,4 +1,4 @@
-import { DatosPost, EstilosPost } from '../../shared/models/categorias.model';
+import { DatosPost, EstilosPost, RefImg } from '../../shared/models/categorias.model';
 
 export const ESTILO_CSS: EstilosPost = {
     color: 'c-Css',
@@ -18,7 +18,7 @@ export const CSS: DatosPost[] = [
         estilos: ESTILO_CSS,
         fechaCreacion: '2021-01-01',
         fechaActualizacion: '2021-01-01',
-        imgHorizontal:'',
+        imgHorizontal:new RefImg(),
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-2',
@@ -37,9 +37,9 @@ export const CSS: DatosPost[] = [
         estilos: ESTILO_CSS,
         fechaCreacion: '2023-09-14',
         fechaActualizacion: '',
-        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/css/elementos.jpg',
-        imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
-        imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/css/elementos.jpg'),
+        imgVertical:'',
+        imgCuadro:'',
         categoria: 'css',
         posicion: 'rot-2',
         estado: 'activo',

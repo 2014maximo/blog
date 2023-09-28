@@ -1,4 +1,4 @@
-import { DatosPost, EstilosPost } from '../../shared/models/categorias.model';
+import { DatosPost, EstilosPost, RefImg } from '@shared/models/categorias.model';
 
 export const ESTILO_GIT: EstilosPost = {
     color: 'c-Git',
@@ -18,7 +18,7 @@ export const GIT: DatosPost[] = [
         estilos: ESTILO_GIT,
         fechaCreacion: '2021-05-02',
         fechaActualizacion: '2021-05-02',
-        imgHorizontal:'',
+        imgHorizontal: new RefImg(),
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-1',
@@ -36,7 +36,7 @@ export const GIT: DatosPost[] = [
         estilos: ESTILO_GIT,
         fechaCreacion: '2023-25-07',
         fechaActualizacion: '2023-23-08',
-        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/git/errores-git.jpg',
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/git/errores-git.jpg'),
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-1',

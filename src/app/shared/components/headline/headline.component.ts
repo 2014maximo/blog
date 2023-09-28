@@ -35,7 +35,7 @@ export class HeadlineComponent implements OnInit {
         mostrarBreadcrumb: true,
         nombre: publicacion[0].nombre,
         ruta: publicacion[0].ruta,
-        rutaImagen: publicacion[0].imgHorizontal,
+        rutaImagen: publicacion[0].imgHorizontal.ruta,
         sombra: '',
         descripcion: publicacion[0].descripcion[0]
       }

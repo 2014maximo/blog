@@ -1,10 +1,9 @@
-import { DatosPost, EstilosPost } from '../../shared/models/categorias.model';
+import { DatosPost, EstilosPost, RefImg } from '@shared/models/categorias.model';
 
 export const ESTILO_HTML: EstilosPost = {
     color: 'c-Html',
     colorFondo: 'bg-Html'
 }
-
 
 export const HTML: DatosPost[] = [
     {
@@ -19,7 +18,7 @@ export const HTML: DatosPost[] = [
         estilos: ESTILO_HTML,
         fechaCreacion: '2021-09-09',
         fechaActualizacion: '2021-09-09',
-        imgHorizontal:'',
+        imgHorizontal: new RefImg(),
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-1',
@@ -38,9 +37,9 @@ export const HTML: DatosPost[] = [
         estilos: ESTILO_HTML,
         fechaCreacion: '2023-09-14',
         fechaActualizacion: '',
-        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg',
-        imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
-        imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
+        imgVertical:'',
+        imgCuadro:'',
         categoria: 'html',
         posicion: 'rot-2',
         estado: 'activo',

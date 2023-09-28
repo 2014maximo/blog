@@ -1,4 +1,4 @@
-import { SubCategoriaModel, EstilosPost } from '../../shared/models/categorias.model';
+import { SubCategoriaModel, EstilosPost, RefImg } from '@shared/models/categorias.model';
 
 export const ESTILO_RXJS: EstilosPost = {
     color: 'c-Rxjs',
@@ -22,7 +22,7 @@ export const SUB_NG: SubCategoriaModel[] = [
                 estilos: ESTILO_RXJS,
                 fechaCreacion: '2023-03-24',
                 fechaActualizacion: '',
-                imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/rxjs-firstvaluefrom-1200x800.jpg',
+                imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/rxjs-firstvaluefrom-1200x800.jpg'),
                 imgVertical:'',
                 imgCuadro:'',
                 categoria: 'angular',

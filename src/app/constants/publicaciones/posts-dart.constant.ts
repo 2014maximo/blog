@@ -1,4 +1,4 @@
-import { DatosPost, EstilosPost } from '../../shared/models/categorias.model';
+import { DatosPost, EstilosPost, RefImg } from '../../shared/models/categorias.model';
 
 export const ESTILO_DART: EstilosPost = {
     color: 'c-Dart',
@@ -18,7 +18,7 @@ export const DART: DatosPost[] = [
         estilos: ESTILO_DART,
         fechaCreacion: '2021-02-02',
         fechaActualizacion: '2022-10-02',
-        imgHorizontal:'',
+        imgHorizontal: new RefImg(),
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-2',
@@ -37,9 +37,9 @@ export const DART: DatosPost[] = [
         estilos: ESTILO_DART,
         fechaCreacion: '2023-09-11',
         fechaActualizacion: '',
-        imgHorizontal:'https://plantillas_dev.gitlab.io/assets/img/posts/dart/elementos-dart2.jpg',
-        imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
-        imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/dart/elementos-dart2.jpg'),
+        imgVertical:'',
+        imgCuadro:'',
         categoria: 'dart',
         posicion: 'rot-2',
         estado: 'activo',
