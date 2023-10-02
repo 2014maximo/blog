@@ -93,7 +93,7 @@ export const DB: DatosPost[] = [
         estilos: ESTILO_DB,
         fechaCreacion: '2023-09-14',
         fechaActualizacion: '',
-        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/db/sql-server.jpg'),
         imgVertical:'',
         imgCuadro:'',
         categoria: 'db',
