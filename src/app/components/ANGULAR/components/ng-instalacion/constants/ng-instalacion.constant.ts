@@ -8,62 +8,80 @@ export const COMANDOS_ANGULAR_CLI = [
     },
     {
         id: 2,
+        descripcion: 'Crear un proyecto Angular nuevo en una versión específica, genera por defecto estilos para css',
+        comando: 'npx -p @angular/cli@12.0.0 ng new nombre-aplicacion',
+        gif: ''
+    },
+    {
+        id: 3,
+        descripcion: 'Crear un proyecto Angular nuevo con estilos scss',
+        comando: 'ng new nombre-aplicacion --style=scss',
+        gif: ''
+    },
+    {
+        id: 4,
         descripcion: 'Ejecuta el proyecto compilándolo y poder visualizarlo en el navegador por el puerto local configurado en el archivo del paquete de angular package.json',
         comando: 'ng serve',
         gif: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/ng-instalacion/ng-serve.gif'
     },
     {
-        id: 3,
+        id: 5,
         descripcion: 'Lo mismo que el comando anterior pero abre el proyecto automáticamente en el navegador',
         comando: 'ng serve -o',
         gif: ''
     },
     {
-        id: 4,
+        id: 6,
         descripcion: 'Compila el proyecto en un puerto específico, en este caso saldría por el "localhost:4201"',
         comando: 'ng serve --port 4201',
         gif: ''
     },
     {
-        id: 5,
+        id: 7,
         descripcion: 'Crea un conjunto de 3 tipos de archivos: nombredelcomponente.html, nombredelcomponente.ts, nombredelcomponente.spec.ts',
         comando: 'ng g component ruta/nombredelcomponente',
         gif: ''
     },
     {
-        id: 6,
+        id: 8,
         descripcion: 'Lo mismo que lo anterior sin el archivo de pruebas.spec.ts',
         comando: 'ng g c nombre/componente --skip-tests || ng g c nombre/componente --spec=false',
         gif: ''
     },
     {
-        id: 7,
+        id: 9,
         descripcion: 'Lo mismo que lo anterior sin el archivo de estilos',
         comando: 'ng g c nombre/componente --skip-tests --inline-style',
         gif: ''
     },
     {
-        id: 8,
+        id: 10,
         descripcion: 'Crea un archivo.service.ts con la extructura de un archivo de servicios de Angular base para desarrollar',
         comando: 'ng g s ruta/nombreArchivoService',
         gif: ''
     },
     {
-        id: 9,
+        id: 11,
         descripcion: 'Actualiza la version de "Angular CLI"',
         comando: 'ng update @angular/cli @angular/core',
         gif: ''
     },
     {
-        id: 10,
+        id: 12,
         descripcion: 'Generar un guardia de ruta en el proyecto dado.',
         comando: 'ng generate guard guard-nombre',
         gif: ''
     },
     {
-        id: 11,
+        id: 13,
         descripcion: 'Vista previa de lo que pasaria al ejecutar el comando sin crear.',
         comando: '--dry-run',
+        gif: ''
+    },
+    {
+        id: 14,
+        descripcion: 'Cambiar los estilos globales a SCSS',
+        comando: 'ng config --global defaults.styleExt=scss',
         gif: ''
     },
 ]
