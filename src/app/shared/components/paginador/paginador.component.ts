@@ -54,7 +54,9 @@ export class PaginadorComponent implements OnInit {
 
   public cargarPagina(pagina: number){
     this.active = pagina.toString();
-    this.paginados.emit(this.totalPaginas[pagina]?.contenido);
+    if(this.totalPaginas[pagina]?.contenido){
+      this.paginados.emit(this.totalPaginas[pagina]?.contenido);
+    }
   }
   
 

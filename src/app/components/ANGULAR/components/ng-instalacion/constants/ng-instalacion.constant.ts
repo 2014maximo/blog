@@ -84,6 +84,23 @@ export const COMANDOS_ANGULAR_CLI = [
         comando: 'ng config --global defaults.styleExt=scss',
         gif: ''
     },
+    {
+        id: 15,
+        descripcion: 'Ejecutar pruebas generales de código',
+        comando: 'ng test',
+        gif:''
+    },
+    {
+        id: 16,
+        descripcion: 'Crea componente HTML de resumen de pruebas de código en la carpeta coverage',
+        comando: 'ng test --code-coverage',
+        git:''
+    },
+    {
+        id: 17,
+        descripcion: 'Descargar libreria que se quede solo en el proyecto local y no en el compilado',
+        comando: 'npm install ${libreria} --save-dev'
+    }
 ]
 
 export const VERSIONES_ANGULAR: AccordeonModel[] = [

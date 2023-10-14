@@ -30,6 +30,21 @@ export const PREGUNTAS: PreguntasModel[] = [
         pregunta:[]
     },
     {
+        categoria: 'DESARROLLO FRONTEND',
+        pregunta:[ 
+            {
+                id:1,
+                pregunta:'Tiene experiencia en patrones de diseño Typescript y JavaScript?',
+                respuestaSugerida:''
+            },
+            {
+                id:2,
+                pregunta:'Tiene experiencia en la arquitectura de Atomic Design?',
+                respuestaSugerida:''
+            },
+        ]
+    },
+    {
         categoria: 'TÉCNICAS HTML, CSS Y JAVASCRIPT',
         pregunta:[
             {

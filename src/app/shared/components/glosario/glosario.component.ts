@@ -45,6 +45,6 @@ export class GlosarioComponent implements OnInit {
   }
 
   public recibirCantidadElementos(e:any){
-    this.glosario = this.glosarioCache = Object.assign([], e);
+    this.glosario = Object.assign([], e);
   }
 }
