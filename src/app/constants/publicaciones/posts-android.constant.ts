@@ -8,7 +8,7 @@ export const ESTILO_ANDROID: EstilosPost = {
 
 export const ANDROID: DatosPost[] = [
     {
-        id: '7084156673',
+        id: '2a988b8d-2e63-48b5-baf4-767ddcf5f747',
         nombre: 'Android',
         descripcion: [],
         descripcionCorta: '',

@@ -35,7 +35,24 @@ export const CATEGORIA: CategoriaPostModel[] = [
         glosario: [],
         colorFondo: 'bg-Android',
         color: 'c-Android',
-        descripcion: [],
+        descripcion: [
+            {
+                autor: '',
+                linkAlAutor:'',
+                descripciones: [
+                    'Tanto el nombre Android (androide en español) como Nexus One hacen alusión a la novela de Philip K. Dick ¿Sueñan los androides con ovejas eléctricas?, que posteriormente fue adaptada al cine como Blade Runner.',
+                    'Tanto el libro como la película se centran en un grupo de androides llamados replicantes del modelo Nexus-6. El logotipo es el robot “Andy”.',
+                    'Android comenzó en octubre del año 2008 cuando vio por primera vez la luz el primer smartphone equipado con este sistema operativo, T-Mobile G1, un smartphone fabricado por HTC y desarrollado junto con Google.',
+                    'Días antes de este lanzamiento comercial, el 23 de septiembre del 2008, Google celebraba una rueda de prensa donde se presentaba este dispositivo junto con la versión 1.0 de Android.',
+                    'Android era un sistema operativo que estaba desarrollando una compañía de nombre Android Inc. y que fue adquirida por Google en julio del año 2005. Desde entonces siempre que se habla de este sistema operativo se hace referencia a la compañía del buscador aunque es la Open Handset Alliance.',
+                    'ADQUISICIÓN POR PARTE DE GOOGLE',
+                    'En julio de 2005, Google adquirió Android Inc., una pequeña compañía de Palo Alto, California fundada en 2003.',
+                    'Entre los cofundadores de Android que se fueron a trabajar a Google están Andy Rubin (co-fundador de Danger), Rich Miner (co-fundador de Wildfire Communications, Inc.), Nick Sears (alguna vez VP en T-Mobile), y Chris White (quien encabezó el diseño y el desarrollo de la interfaz en WebTV).',
+                    'En aquel entonces, poco se sabía de las funciones de Android Inc. fuera de que desarrollaban software para teléfonos móviles. Esto dio pie a rumores de que Google estaba planeando entrar en el mercado de los teléfonos móviles.',
+                    'En Google, el equipo liderado por Rubin desarrolló una plataforma para dispositivos móviles basada en el kernel de Linux que fue promocionado a fabricantes de dispositivos y operadores con la promesa de proveer un sistema flexible y actualizable. La especulación sobre que el sistema Android de Google entraría en el mercado de la telefonía móvil se incrementó en diciembre de 2006.'
+                ]
+            }
+        ],
         descripcionCorta: '',
         post: ANDROID,
         subcategorias: []

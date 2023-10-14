@@ -10,50 +10,11 @@ import { IndiceDeContenidosModel } from '../../../shared/models/indice.model';
 })
 export class AndroidComponent implements OnInit {
 
-  public cabeceraPost: HeaderPostModel = {
-    rutaImagen: '',
-    alturaImagen: '',
-    fondo: false,
-    tituloPost: ''
-  }
-  public clasePaso: string = '';
-  public pasoDeIndice: IndiceDeContenidosModel [] = []
+  public idPost: string = '2a988b8d-2e63-48b5-baf4-767ddcf5f747'
 
-  constructor() {
-    this.inicializarVariables();
-  }
+  constructor() {}
 
   ngOnInit(): void {
-  }
-
-  private inicializarVariables() {
-
-    this.cabeceraPost = {
-      rutaImagen: 'assets/img/icons/android.png',
-      fondo: true,
-      tituloPost: 'ANDROID',
-      alturaImagen: '150',
-      sombra: 'drop'
-    };
-    this.clasePaso = 'mt-5'
-    this.pasoDeIndice = [
-      {
-        nombre: 'ANDROID STUDIO',
-        posicion: 'pos-z',
-        ruta: 'andr-android-studio',
-        colorFondo: 'bg-Android',
-        color: 'text-light',
-        estado: 'activo'
-      },
-      {
-        nombre: 'ELEMENTOS Y DESCRIPCIÓN',
-        posicion: 'rot-2',
-        ruta: 'android-elementos',
-        colorFondo: 'bg-Android',
-        color: 'text-light',
-        estado: 'activo'
-      },
-    ]
   }
 
   scroll(el: HTMLElement) {
