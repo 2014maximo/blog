@@ -235,10 +235,10 @@ html{
     color: #326de6;
 }
 .bg-Kubernetes{
-    background-color: #326de6;
+    background-color: #336ce8;
 }
 .c-Kubernetes{
-    color: #326de6;
+    color: #336ce8;
 }
 
 .bg-Linux{
@@ -248,10 +248,10 @@ html{
     color: #010101;
 }
 
-.bg-NetFramework{
+.bg-Net{
     background-color: #5b2d90;
 }
-.c-NetFramework{
+.c-Net{
     color: #5b2d90;
 }
 

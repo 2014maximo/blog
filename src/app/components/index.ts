@@ -84,7 +84,7 @@ export * from '@components/LINUX/linux/linux.component';
 export * from '@components/LINUX/components/lx-comandos-m-usados/lx-comandos-m-usados.component';
 
 // NET
-export * from '@components/NET/net-framework/net-framework.component';
+export * from '@components/NET/net/net.component';
 export * from '@components/NET/components/net-instalacion/net-instalacion.component';
 export * from '@components/NET/components/net-descripcion-elementos/net-descripcion-elementos.component';
 

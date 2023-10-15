@@ -7,7 +7,7 @@ export const ESTILO_ELECTRON: EstilosPost = {
 
 export const ELECTRON: DatosPost[] = [
     {
-        id: '4219350459',
+        id: '1bbe7bbd-9f75-44da-8165-a5fde2070e2b',
         nombre: 'Electrón',
         descripcion: [],
         descripcionCorta: '',

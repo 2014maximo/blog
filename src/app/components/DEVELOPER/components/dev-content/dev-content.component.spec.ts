@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NetFrameworkComponent } from './net-framework.component';
+import { DevContentComponent } from './dev-content.component';
 
-describe('NetFrameworkComponent', () => {
-  let component: NetFrameworkComponent;
-  let fixture: ComponentFixture<NetFrameworkComponent>;
+describe('DevContentComponent', () => {
+  let component: DevContentComponent;
+  let fixture: ComponentFixture<DevContentComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NetFrameworkComponent ]
+      declarations: [ DevContentComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NetFrameworkComponent);
+    fixture = TestBed.createComponent(DevContentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

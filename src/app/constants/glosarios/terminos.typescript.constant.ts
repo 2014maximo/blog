@@ -1,7 +1,5 @@
 import { GlosarioModel } from "@shared/models/categorias.model";
 
-
-
 export const TERMINOS_TYPESCRIPT: GlosarioModel [] = [
     {
         id: 'fda67483-7ae1-436c-8821-353a5537bb5c',

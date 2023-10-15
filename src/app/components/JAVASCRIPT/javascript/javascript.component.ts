@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel } from '../../../shared/models/post.model';
-import { IndiceDeContenidosModel } from '../../../shared/models/indice.model';
+
 
 @Component({
   selector: 'app-javascript',
@@ -9,7 +8,7 @@ import { IndiceDeContenidosModel } from '../../../shared/models/indice.model';
 })
 export class JavascriptComponent implements OnInit {
 
-  public idPost = '3574124706';
+  public idPost = '57a97a47-cc14-4db5-9f76-bd8a226016f5';
 
   constructor() { }
 

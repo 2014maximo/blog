@@ -1,94 +1,11 @@
 <div #target></div>
 <app-header-home></app-header-home>
-<div class="espaciado"></div>
-<app-header-post [cabecera]="cabeceraPost"></app-header-post>
-
-<div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8 text-center">
-        <app-indice-contenidos [indice]="indiceKubernetes" [clase]="claseKubernetes"></app-indice-contenidos>
-    </div>
-    <div class="col-md-2"></div>
-</div>
 
 <div class="espaciado"></div>
-<div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-        
-        <h2 class="fuenteSeis fs-40 t10 sombra-texto">Qué es y para que?</h2>
-        <p class="fuenteDos fs-20 text-light">
-        </p>
-        <ul class="fuenteDos fs-20 text-light">
-            <li>
-                Plataforma portable y extensible de código abierto para administrar cargas de trabajo y servicios.
-            </li>
-            <li>
-                Facilita la automatización y la configuración declarativa.
-            </li>
-            <li>
-                Tiene un ecosistema grande que crece.
-            </li>
-            <li>
-                Diseñada como una plataforma: para poder construir un ecosistema de componentes y herramientas que hacen más fácil el desplegar, escalar y administrar aplicaciones.
-            </li>
-            <li>
-                Ofrece algunas características que las PaaS también ofrecen, como deployments, escalado, balanceo de carga, registros y monitoreo.
-            </li>
-            <li>
-                Las soluciones que se ofrecen de forma predeterminada son opcionales e intercambiables.
-            </li>
-        </ul>
-        
-        <h2 class="fuenteSeis fs-40 t10 sombra-texto">HISTORIA</h2>
-        <p class="fuenteDos fs-20 text-light">
-            Para contar la historia de cómo Kubernetes evolucionó de una solución de orquestación de contenedores internos en Google a la herramienta que conocemos hoy, profundizamos en la historia y vamos a recopilar los hitos más significativos.<br>
-            <br>
-            2003-2004: Nacimiento del sistema Borg<br>
-            <br>
-            https://research.google/pubs/pub43438/<br>
-            <br>
-            Alrededor de 2003-2004, comienza un pequeño proyecto dentro de Google, con unas 3-4 personas, con el objetivo de crear una nueva versión del motor de búsqueda.<br>
-            <br>
-            El sistema Borg de Google, es un sistema de gestión de clúster que ejecuta cientos de miles de trabajos, desde miles de aplicaciones diferentes, a través de varios clústeres, cada uno con hasta decenas de miles de máquinas.<br>
-            <br>
-            Este sistema, originalmente fue escrito en el lenguaje de programación C++, aunque finalmente reescrito en Go.<br>
-            <br>
-            2013: de Borg a Omega<br>
-            <br>
-            Después de Borg, Google presentó el sistema de gestión de clúster llamado Omega, que tenía una gran escabilidad de grandes clústeres de cómputo.<br>
-            <br>
-            2014: Google presenta Kubernetes<br>
-            <br>
-            A mediados de 2014, se presenta Kubernetes como una versión de código abierto de Borg, se abre el proyecto sobre github y se unen a la comunidad de Kubernetes grandes actores como Microsoft, RedHat, IBM o Docker.<br>
-            <br>
-            https://github.com/kubernetes/kubernetes/commit/2c4b3a562ce34cddc3f8218a2c4d11c7310e6d56<br>
-            <br>
-            2015: Cloud Native Computing Foundation y v.1.0<br>
-            <br>
-            Siguen sumándose al proyecto nuevas empresas (Huawei, Openshift,…), se presenta durante este año las versiones 1.0 y 1.1, comienzan las primeras charlas técnicas en San Francisco y el paso más importante, Google se asocia a la Linux Foundation para formar Cloud Native Computing Foundation (CNCF).<br>
-            <br>
-            2016: Diferentes integraciones y mejoras<br>
-            <br>
-            Primera versión de Helm (gestor de paquetes de Kubernetes), lanzamiento de Minikube que facilita la gestión local de Kubernetes, las nuevas versiones que surgen durante el año (1.2, 1.3, 1.4 y 1.5) traen novedades como el escalado, implementación simplificada de aplicaciones, administración automatizada de clústeres, kubeadm, compatibilidad con OpenAPI, soporte para Windows Server,…<br>
-            <br>
-            Como curiosidad, Pokemon GO! (la aplicación del año) se convierte en un caso de éxito, como el mayor despliegue de Kubernetes en Google Container Engine.<br>
-            <br>
-            2017: Estabilización y adopción<br>
-            <br>
-            La versión 1.6 trae la estabilidad a Kubernetes.<br>
-            <br>
-            Google, IBM y Lyft anuncian la tecnología Istio, que permite la gestión del flujo de tráfico, aplicar políticas de acceso y agregar datos de telemetría entre microservicios.<br>
-            <br>
-            Otros hitos importantes este año que podemos reseñar son como que Github se ejecuta en Kubernetes, Oracle se une a la CNCF, la propia CNCF anuncia los primeros proveedores de certificados para Kubernetes, se presentan las versiones 1.7, 1.8 y 1.9 (acceso basado en roles, control de acceso a la API,…), Docker adopta complementamente Kubernetes, Amazon anuncia Elastic Container Service para Kubernetes, presentación Kubeflow…<br>
-            <br>
-            2018 – 2019: Evolución<br>
-            <br>
-            Google lanza el Podcast de Kubernetes, se celebran varias KubeCon a ambas partes del charco, Istio 1.2, diferentes versiones hasta 1.17,…
-        </p>
-    </div>
-    <div class="col-md-1"></div>
-</div>
+
+<app-encabezado-categoria [nombreCategoria]="'kubernetes'" [idPost]="idPost"></app-encabezado-categoria>
+
+<app-glosario [categoria]="'kubernetes'"></app-glosario>
 
 <div class="espaciado"></div>
 

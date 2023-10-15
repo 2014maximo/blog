@@ -1,13 +1,11 @@
 <div #target></div>
-<app-header-home [categoria]="breadcrumb"></app-header-home>
+<app-header-home></app-header-home>
+
 <div class="espaciado"></div>
-<app-encabezado-publicacion [idPublicacion]="idPublicacion" [rutaIconoSugerido]="categoria.rutaIcono"></app-encabezado-publicacion>
-<div class="espaciado"></div>
 
+<app-encabezado-categoria [nombreCategoria]="'html'" [idPost]="idPost"></app-encabezado-categoria>
 
-
-
-
+<app-glosario [categoria]="'html'"></app-glosario>
 
 <div class="espaciado"></div>
 

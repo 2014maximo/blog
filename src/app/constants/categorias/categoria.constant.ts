@@ -21,6 +21,8 @@ import { PHP } from '@constants/publicaciones/posts-php.constant';
 import { REACT } from '@constants/publicaciones/posts-react.constant';
 import { WORDPRESS } from '@constants/publicaciones/posts-wordpress.constant';
 import { TERMINOS_LINUX } from '@constants/glosarios/terminos.linux.constant';
+import { KUBERNETES } from '@constants/publicaciones/posts-kubernetes.constant';
+import { NET } from '@constants/publicaciones/posts-net.constant';
 
 export const CATEGORIA: CategoriaPostModel[] = [
     {
@@ -260,7 +262,25 @@ export const CATEGORIA: CategoriaPostModel[] = [
         ruta: 'git',
         colorFondo: 'bg-Git',
         color: 'c-Git',
-        descripcion: [],
+        descripcion: [
+            {
+                autor:'',
+                linkAlAutor:'',
+                descripciones:[
+                    'Hace ya 10 años Linus Torvalds creaba la primera revisión de git, un sistema de control de versiones (diseñado inicialmente para el desarrollo de Linux) que se ha convertido en este tiempo en el más importante y utilizado del mundo. Para conmemorar este aniversario, Linus Torvalds ha explicado en esta entrevista cómo nació git y las motivaciones que le llevaron a comenzar este proyecto.',
+                    '¿Qué es git?',
+                    'Git es un sistema de control de versiones distribuido que, como ya hemos introducido, fue creado por Linus Torvalds en 2005 para ser utilizado en el desarrollo del kernel de Linux. Git es un software escrito en C, con interfaz por lí­nea de comandos, disponible para Windows, MacOS X y GNU/Linux. En la actualidad, existen además multitud de clientes gráficos y herramientas basadas en git.',
+                    'A grandes rasgos, un sistema de control de versiones o sistema de gestión del código fuente (SCM, Source Code Management), es un software que permite registrar todos los cambios realizados en el código fuente de un proyecto, de forma que sea sencillo comparar diferentes versiones del mismo, recuperar versiones anteriores y, en general, permitir que una o varias personas desarrollen un mismo proyecto de forma efectiva.',
+                    'La palabra clave cuando se describen las características de git, tal y como le gusta subrayar al propio Linus, es distribuido. Esto significa que en git, a diferencia de los sistemas de control de versiones centralizados (como CVS o Subversion), no es necesario que exista un repositorio central. Cada desarrollador dispone de una copia del repositorio con la historia completa del mismo y puede realizar en él todas las modificaciones que desee. Dichas modificaciones pueden ser posteriormente compartidas e incorporadas en los repositorios de otros desarrolladores. Este modo de funcionamiento permite eliminar la problemática que se presenta en los sistemas centralizados de decidir quién puede hacer cambios en el repositorio.',
+                    'Linus Torvalds hablando de git en una charla en Google.',
+                    'Este modo de funcionamiento distribuido, tal y como ha explicado el propio Linus Torvalds en repetidas ocasiones, era un requisito indispensable para el desarrollo del kernel de Linux, uno de los proyectos de código abierto más grandes del mundo en el que participan cientos de desarrolladores.',
+                    '¿Cómo nació git?',
+                    'Originalmente, la comunidad de desarrolladores de Linux utilizaba BitKeeper, un sistema de control de versiones distribuido y comercial, aunque gratuito para proyectos de código abierto. Como el propio Linus Torvalds explica, BitKeeper suponí­a un gran paso adelante comparado con otros SCMs como CVS y Subversion y, sin duda, inspiró muchos de los conceptos en los que se basa git (especialmente el ser un sistema distribuido).',
+                    'Sin embargo, el hecho de ser un software propietario y ciertas desavenencias con su creador, Larry McVoy, llevaron a Linus Torvalds a decantarse por buscar un nuevo sistema de control de versiones. Tras probar muchas de las soluciones existentes y descubrir que ninguna cumplí­a con sus requisitos, Torvalds decidió diseñar e implementar su propio sistema de control de versiones. Tan sólo un dí­a después ya habí­a desarrollado las bases de git para poder auto-gestionar el propio código de git en git y, una semana después, ya tení­a una primera versión. Resulta curioso que en la primera mención pública de git, cuando llevaba un par de dí­as de desarrollo, Torvalds describe git no como un sistema de control de versiones sino simplemente como una herramienta de distribución y archivado de ficheros. El resto, como suele decirse, es historia.',
+                    'Git fue diseñado por Torvalds con el proyecto de Linux y el workflow de sus desarrolladores en mente y, obviamente, estos fueron los primeros en adoptarlo como sistema de control de versiones. El modo de funcionamiento distribuido, su eficiencia a la hora de trabajar con múltiples ramas y otras operaciones comunes como diffs (que en git se ejecutan en un suspiro), dan testimonio de cómo git fue diseñado con la intención de gestionar proyectos grandes como el kernel sin problemas.'
+                ]
+            }
+        ],
         descripcionCorta: '',
         post: GIT,
         subcategorias: []
@@ -406,9 +426,43 @@ export const CATEGORIA: CategoriaPostModel[] = [
         ruta: 'kubernetes',
         colorFondo: 'bg-Kubernetes',
         color: 'c-Kubernetes',
-        descripcion: [],
+        descripcion: [
+            {
+                autor:'Google',
+                linkAlAutor:'https://research.google/pubs/pub43438/',
+                descripciones: [
+                    'Qué es y para que?',
+                    'Plataforma portable y extensible de código abierto para administrar cargas de trabajo y servicios.',
+                    'Facilita la automatización y la configuración declarativa.',
+                    'Tiene un ecosistema grande que crece.',
+                    'Diseñada como una plataforma: para poder construir un ecosistema de componentes y herramientas que hacen más fácil el desplegar, escalar y administrar aplicaciones.',
+                    'Ofrece algunas características que las PaaS también ofrecen, como deployments, escalado, balanceo de carga, registros y monitoreo.',
+                    'Las soluciones que se ofrecen de forma predeterminada son opcionales e intercambiables.',
+                    'HISTORIA',
+                    'Para contar la historia de cómo Kubernetes evolucionó de una solución de orquestación de contenedores internos en Google a la herramienta que conocemos hoy, profundizamos en la historia y vamos a recopilar los hitos más significativos.',
+                    '2003-2004: Nacimiento del sistema Borg',
+                    'Alrededor de 2003-2004, comienza un pequeño proyecto dentro de Google, con unas 3-4 personas, con el objetivo de crear una nueva versión del motor de búsqueda.',
+                    'El sistema Borg de Google, es un sistema de gestión de clúster que ejecuta cientos de miles de trabajos, desde miles de aplicaciones diferentes, a través de varios clústeres, cada uno con hasta decenas de miles de máquinas.',
+                    'Este sistema, originalmente fue escrito en el lenguaje de programación C++, aunque finalmente reescrito en Go.',
+                    '2013: de Borg a Omega',
+                    'Después de Borg, Google presentó el sistema de gestión de clúster llamado Omega, que tenía una gran escabilidad de grandes clústeres de cómputo.',
+                    '2014: Google presenta Kubernetes',
+                    'A mediados de 2014, se presenta Kubernetes como una versión de código abierto de Borg, se abre el proyecto sobre github y se unen a la comunidad de Kubernetes grandes actores como Microsoft, RedHat, IBM o Docker.',
+                    '2015: Cloud Native Computing Foundation y v.1.0',
+                    'Siguen sumándose al proyecto nuevas empresas (Huawei, Openshift,…), se presenta durante este año las versiones 1.0 y 1.1, comienzan las primeras charlas técnicas en San Francisco y el paso más importante, Google se asocia a la Linux Foundation para formar Cloud Native Computing Foundation (CNCF).',
+                    '2016: Diferentes integraciones y mejoras',
+                    'Primera versión de Helm (gestor de paquetes de Kubernetes), lanzamiento de Minikube que facilita la gestión local de Kubernetes, las nuevas versiones que surgen durante el año (1.2, 1.3, 1.4 y 1.5) traen novedades como el escalado, implementación simplificada de aplicaciones, administración automatizada de clústeres, kubeadm, compatibilidad con OpenAPI, soporte para Windows Server,…Como curiosidad, Pokemon GO! (la aplicación del año) se convierte en un caso de éxito, como el mayor despliegue de Kubernetes en Google Container Engine.',
+                    '2017: Estabilización y adopción',
+                    'La versión 1.6 trae la estabilidad a Kubernetes.',
+                    'Google, IBM y Lyft anuncian la tecnología Istio, que permite la gestión del flujo de tráfico, aplicar políticas de acceso y agregar datos de telemetría entre microservicios.',
+                    'Otros hitos importantes este año que podemos reseñar son como que Github se ejecuta en Kubernetes, Oracle se une a la CNCF, la propia CNCF anuncia los primeros proveedores de certificados para Kubernetes, se presentan las versiones 1.7, 1.8 y 1.9 (acceso basado en roles, control de acceso a la API,…), Docker adopta complementamente Kubernetes, Amazon anuncia Elastic Container Service para Kubernetes, presentación Kubeflow…',
+                    '2018 – 2019: Evolución',
+                    'Google lanza el Podcast de Kubernetes, se celebran varias KubeCon a ambas partes del charco, Istio 1.2, diferentes versiones hasta 1.17,…'
+                ]
+            }
+        ],
         descripcionCorta: '',
-        post: JAVASCRIPT,
+        post: KUBERNETES,
         subcategorias: []
     },
     {
@@ -480,11 +534,20 @@ export const CATEGORIA: CategoriaPostModel[] = [
         glosario: [],
         estado:'inactivo',
         ruta: 'net',
-        colorFondo: 'bg-NetFramework',
-        color: 'c-NetFramework',
-        descripcion: [],
+        colorFondo: 'bg-Net',
+        color: 'c-Net',
+        descripcion: [
+            {
+                autor:'',
+                linkAlAutor:'',
+                descripciones:[
+                    'El líder del equipo de desarrollo del .NET Framework fue Anders Hejsberg, un ingeniero de software danés muy conocido en el medio y actual Arquitecto Jefe de C# en Microsoft. Cuenta la leyenda que corría el año 1996 y Anders pertenecía a Borland. Entre sus principales aportes en esta empresa fue liderar los proyectos de desarrollo de Turbo Pascal y Delphi. Fue entonces cuando Microsoft lo tuvo como objetivo primordial: primero con una propuesta muy atractiva y luego duplicando la contra-propuesta económica de Borland. No se podía competir con Microsoft en ese entonces.',
+                    'El objetivo inicial era una implementación de Java de la propia Microsoft, que tenía que integrarse en Visual Studio. Este nuevo lenguaje se llamó en ese momento J++, pero luego se mejoró la idea y el lenguaje terminó por convertirse en lo que hoy conocemos como C#. Además, el proyecto se perfiló mejor y se convirtió en nuestra plataforma de desarrollo favorita. Fue así que la versión 1.0 fue lanzada oficialmente en enero del 2002.'
+                ]
+            }
+        ],
         descripcionCorta: '',
-        post: JAVASCRIPT,
+        post: NET,
         subcategorias: []
     },
     {

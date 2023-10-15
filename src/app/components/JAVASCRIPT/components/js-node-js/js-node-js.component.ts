@@ -1,13 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { copiarAlPortapapeles } from 'src/app/shared/constants/funciones/portapapeles';
-import { AccordeonModel, HeaderPostModel, CategoriaModel } from '../../../shared/models/post.model';
+import { HeaderPostModel, AccordeonModel, CategoriaModel } from '@shared/models/post.model';
 
 @Component({
-  selector: 'app-js-instalando-node-con-nvm',
-  templateUrl: './js-instalando-node-con-nvm.component.html',
-  styleUrls: ['./js-instalando-node-con-nvm.component.css']
+  selector: 'app-js-node-js',
+  templateUrl: './js-node-js.component.html',
+  styleUrls: ['./js-node-js.component.css']
 })
-export class JsInstalandoNodeConNvmComponent implements OnInit {
+export class JsNodeJsComponent implements OnInit {
 
   public cabeceraPost: HeaderPostModel = {
     rutaImagen: '',
@@ -16,14 +15,12 @@ export class JsInstalandoNodeConNvmComponent implements OnInit {
     tituloPost: '',
     sombra: ''
   }
-
   public breadcrumb: CategoriaModel = {
     activo: true,
     categoria: 'JAVASCRIPT',
     colorText: 'tc-yellow-one',
     ruta: 'javascript'
   }
-
   public accordeonContend: AccordeonModel [] = [
     {
       elemento: '',
@@ -41,11 +38,11 @@ export class JsInstalandoNodeConNvmComponent implements OnInit {
   inicializarVariables() {
 
     this.cabeceraPost = {
-      rutaImagen: '',
+      rutaImagen: 'assets/img/icons/Node.js_logo_black.png',
       fondo: true,
-      tituloPost: 'Node JS con NVM',
-      alturaImagen: '',
-      sombra: ''
+      tituloPost: '',
+      alturaImagen: '180',
+      sombra: 'drop'
     };
 
     this.accordeonContend = [
@@ -83,10 +80,6 @@ export class JsInstalandoNodeConNvmComponent implements OnInit {
         ]
       }
     ]
-  }
-
-  public copiarAlPortapapeles(cadenaAlclipboard: string) {
-    copiarAlPortapapeles(cadenaAlclipboard);
   }
   
   scroll(el: HTMLElement) {

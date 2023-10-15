@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderPostModel } from '../../../shared/models/post.model';
-import { IndiceDeContenidosModel } from '../../../shared/models/indice.model';
 
 @Component({
   selector: 'app-electron',
@@ -9,7 +7,7 @@ import { IndiceDeContenidosModel } from '../../../shared/models/indice.model';
 })
 export class ElectronComponent implements OnInit {
 
-  public idPost = '4219350459';
+  public idPost = '1bbe7bbd-9f75-44da-8165-a5fde2070e2b';
 
   constructor() { }
 

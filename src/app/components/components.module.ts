@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { SharedModule } from '@shared/shared.module';
 import { InicioComponent } from './ESTADISTICA/inicio/inicio.component';
-import { JsNodeJsComponent } from './JAVASCRIPT/js-node-js/js-node-js.component';
-import { JsInstalandoNodeConNvmComponent } from './JAVASCRIPT/js-instalando-node-con-nvm/js-instalando-node-con-nvm.component';
+import { JsNodeJsComponent } from './JAVASCRIPT/components/js-node-js/js-node-js.component';
+import { JsInstalandoNodeConNvmComponent } from './JAVASCRIPT/components/js-instalando-node-con-nvm/js-instalando-node-con-nvm.component';
 
 import * as Ruta from '@app/components';
 import { KotlinElementosComponent } from './KOTLIN/components/kotlin-elementos/kotlin-elementos.component';
@@ -14,6 +14,8 @@ import { NgManejoRutasComponent } from './ANGULAR/components/ng-manejo-rutas/ng-
 import { NgModulosComponent } from './ANGULAR/components/ng-modulos/ng-modulos.component';
 import { NgMicroserviciosComponent } from './ANGULAR/components/ng-microservicios/ng-microservicios.component';
 import { NgPruebasUnitariasComponent } from './ANGULAR/components/ng-pruebas-unitarias/ng-pruebas-unitarias.component';
+import { NetComponent } from './NET/net/net.component';
+import { DevContentComponent } from './DEVELOPER/components/dev-content/dev-content.component';
 
 
 @NgModule({
@@ -44,7 +46,6 @@ import { NgPruebasUnitariasComponent } from './ANGULAR/components/ng-pruebas-uni
     Ruta.JavascriptComponent,
     Ruta.LinuxComponent,
     Ruta.DevGlosarioComponent,
-    Ruta.NetFrameworkComponent,
     Ruta.ElectronComponent,
     Ruta.KotlinComponent,
     Ruta.NetDescripcionElementosComponent,
@@ -86,6 +87,8 @@ import { NgPruebasUnitariasComponent } from './ANGULAR/components/ng-pruebas-uni
     NgModulosComponent,
     NgMicroserviciosComponent,
     NgPruebasUnitariasComponent,
+    NetComponent,
+    DevContentComponent,
   ],
   imports: [
     CommonModule,
