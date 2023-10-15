@@ -189,10 +189,10 @@ export const CATEGORIA: CategoriaPostModel[] = [
         color: 'c-Developer',
         descripcion: [
             {
-                autor: 'Alex M.',
+                autor: '',
                 linkAlAutor: '',
                 descripciones: [
-                    'En la década entre 1950 y 1960 aparecen los términos de ingeniería del software.'
+                    ''
                 ]
             }
         ],

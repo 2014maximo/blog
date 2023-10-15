@@ -9,7 +9,7 @@ export const DEVELOPER: DatosPost[] = [
     {
         id: '441cab09-256e-446f-bb2c-f017dd6d217b',
         nombre: 'Developer',
-        descripcion: ['No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente.'],
+        descripcion: [''],
         descripcionCorta: '',
         ruta: 'developer',
         componente: 'DeveloperComponent',
@@ -132,10 +132,10 @@ export const DEVELOPER: DatosPost[] = [
         id: '27df71a4-6654-4349-9481-06f93c3639d6',
         nombre: 'Búsqueda empleo',
         descripcion: [
-            'Esta publicación es un reflejo de mi propio proceso para ingresar a trabajar como desarrollador frontend. Iniciada la publicación estoy en búsqueda laboral de una buena empresa, espero que al terminarlo prueba todo lo que sugiero.',
-            'Se me ha complicado ubicarme rápido como esperaba, así que empecé a investigar que puntos son los que define un contratador en su búsqueda de un desarrollador apropiado.',
-            'Estoy en colombia y se acercan los meses finales del año, la mayoría de empresas llegada la época decembrina cierran contrataciones hasta el nuevo año, teniendo en cuenta que los encargados de contrataciones sacan sus vacaciones luego de la fiestas, entendiendo que llegadas esas fechas no es sugerible participar en procesos de selección, de igual forma no quiere decir que no pueda surgir una buena posibilidad, simplemente es menos probable.',
-            'Las siguientes recomendaciones fueron probadas y las apruebo porque en mi proceso funcionaron.'
+            'Esta publicación es un reflejo de mi propio proceso para ingresar a trabajar como desarrollador frontend. Iniciada la publicación estoy en búsqueda laboral de una buena empresa, al terminarlo la idea es sugerir que puntos funcionaron y pueda sugerirlos.',
+            'Durante la pandemía y un poco más adelante, se aceleró el proceso de contratación de desarrolladores para aplicaciones que facilitaran el comercio digital. Digamos que a raíz de esto se generó un desequilibrio en el deficid de contratación de desarrolladores.',
+            'Para estas fechas y debido a un incremento de desarrolladores, las empresas de desarrollo tienen el privilegio de elegir sobre muchos postulados a los cargos de nuevas tecnologías.',
+            'Si la idea es lograr ese puesto ideal en desarrollo, el objetivo visto de simple manera es vendernos como un excelente producto de comercio. Estos son los puntos que sugiero deben trabajarse.'
         ],
         descripcionCorta: 'Recomendaciones probadas en mi propia experiencia de búsqueda laboral.',
         ruta: 'dev-busqueda-empleo',
