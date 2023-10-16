@@ -35,7 +35,7 @@ export const DEVELOPER: DatosPost[] = [
         estilos: ESTILO_DEVELOPER,
         fechaCreacion: '2023-03-20',
         fechaActualizacion: '',
-        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/developer/Una gran agrupación de sitios web con muchos recursos.jpg'),
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/developer/Una-gran-agrupacion-de-sitios-web-con-muchos-recursos.webp'),
         imgVertical:'',
         imgCuadro:'',
         categoria: 'developer',
