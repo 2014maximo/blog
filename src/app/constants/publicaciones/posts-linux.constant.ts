@@ -44,13 +44,6 @@ export const LINUX: DatosPost[] = [
         categoria: 'linux',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Comandos más usados',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'lx-co-m-u'
-        }
+        imgSlider: undefined
     }
 ]

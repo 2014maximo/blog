@@ -45,13 +45,6 @@ export const TYPESCRIPT: DatosPost[] = [
         categoria: 'typescript',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Instalación Angular y recomendados',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'ng-instalacion'
-        }
+        imgSlider: undefined
     }
 ]

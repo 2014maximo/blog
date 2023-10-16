@@ -43,14 +43,6 @@ export const KOTLIN: DatosPost[] = [
         imgCuadro:'',
         categoria: 'kotlin',
         posicion: 'rot-2',
-        estado: 'activo',
-        imgSlider: {
-            alt: 'Elementos Kotlin',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'kotlin-elementos'
-        }
+        estado: 'activo'
     }
 ]

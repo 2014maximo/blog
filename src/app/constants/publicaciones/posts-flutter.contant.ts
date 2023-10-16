@@ -43,14 +43,7 @@ export const FLUTTER: DatosPost[] = [
         categoria: 'flutter',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Flutter instalación',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'flutter-instalacion'
-        }
+        imgSlider: undefined
     },
     {
         id: '73913100-7f71-49a2-8e8e-b25464880ea7',
@@ -71,13 +64,6 @@ export const FLUTTER: DatosPost[] = [
         categoria: 'flutter',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Flutter elementos',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'flutter-elementos'
-        }
+        imgSlider: undefined
     }
 ]

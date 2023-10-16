@@ -43,13 +43,6 @@ export const REACT: DatosPost[] = [
         categoria: 'react',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Elementos React',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'react-elementos'
-        }
+        imgSlider: undefined
     }
 ]

@@ -43,13 +43,6 @@ export const WORDPRESS: DatosPost[] = [
         categoria: 'wordpress',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Elementos Wordpress',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'wordpress-elementos'
-        }
+        imgSlider: undefined
     }
 ]

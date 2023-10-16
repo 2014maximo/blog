@@ -42,14 +42,7 @@ export const JAVA: DatosPost[] = [
         categoria: 'java',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Glassfish',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'java-glassfish'
-        }
+        imgSlider: undefined
     },
     {
         id: '0326f90f-19cb-4c22-9daf-395c4b71a4b1',
@@ -68,13 +61,6 @@ export const JAVA: DatosPost[] = [
         categoria: 'java',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Instalación Java',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'java-instalacion'
-        }
+        imgSlider: undefined
     },
 ]

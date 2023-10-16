@@ -38,20 +38,13 @@ export const JAVASCRIPT: DatosPost[] = [
         estilos: ESTILO_JAVASCRIPT,
         fechaCreacion: '2023-09-06',
         fechaActualizacion: '2023-09-14',
-        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
-        imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
-        imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/javascript/elementos-javascript.jpg'),
+        imgVertical:'',
+        imgCuadro:'',
         categoria: 'javascript',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Elementos Javascript',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'js-elementos'
-        }
+        imgSlider: undefined
     },
     {
         id: 'bd16e1f4-b3dd-45d6-8400-c9e0a5ced350',
@@ -66,19 +59,12 @@ export const JAVASCRIPT: DatosPost[] = [
         estilos: ESTILO_JAVASCRIPT,
         fechaCreacion: '2023-09-06',
         fechaActualizacion: '2023-09-14',
-        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
-        imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
-        imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/javascript/recorrido-arrays.jpg'),
+        imgVertical:'',
+        imgCuadro:'',
         categoria: 'javascript',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Recorrido de arrays',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'js-recorrer-arrays-objetos'
-        }
+        imgSlider: undefined
     },
 ]

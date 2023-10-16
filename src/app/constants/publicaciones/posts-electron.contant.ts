@@ -43,14 +43,7 @@ export const ELECTRON: DatosPost[] = [
         categoria: 'electron',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Elementos Eletrón',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'etron-elementos'
-        }
+        imgSlider: undefined
     },
     {
         id: '0b061731-9966-4aee-b6bd-d334fe6dc2a5',
@@ -71,13 +64,6 @@ export const ELECTRON: DatosPost[] = [
         categoria: 'electron',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Electrón instalación',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'etron-instalación'
-        }
+        imgSlider: undefined
     },
 ]

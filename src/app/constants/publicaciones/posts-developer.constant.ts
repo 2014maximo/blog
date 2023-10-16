@@ -67,14 +67,7 @@ export const DEVELOPER: DatosPost[] = [
         categoria: 'developer',
         posicion: 'rot-1',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Algoritmos de clasificación clave',
-            height: '600',
-            id: '3',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/poster/slide-1900x800.jpg',
-            width: 'auto',
-            post: 'dev-algoritmos-clave'
-        }
+        imgSlider: undefined
     },
     {
         id: 'e36e7879-16ff-4933-84a3-de2bc077b49e',
@@ -93,14 +86,7 @@ export const DEVELOPER: DatosPost[] = [
         categoria: 'developer',
         posicion: 'rot-3',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Diagramas de secuencia',
-            height: '600',
-            id: '3',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/poster/slide-1900x800.jpg',
-            width: 'auto',
-            post: 'dev-diagramas-secuencia'
-        }
+        imgSlider: undefined
     },
     {
         id: 'aebf78f7-3ffa-4fa0-bde2-ac4cd4d3c07d',
@@ -119,14 +105,7 @@ export const DEVELOPER: DatosPost[] = [
         categoria: 'developer',
         posicion: 'rot-3',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Controles rápidos visual studio code',
-            height: '600',
-            id: '3',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/poster/slide-1900x800.jpg',
-            width: 'auto',
-            post: 'dev-controles-visual'
-        }
+        imgSlider: undefined
     },
     {
         id: '27df71a4-6654-4349-9481-06f93c3639d6',
@@ -150,14 +129,7 @@ export const DEVELOPER: DatosPost[] = [
         categoria: 'developer',
         posicion: 'rot-3',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Búsqueda empleo',
-            height: '600',
-            id: '3',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/poster/slide-1900x800.jpg',
-            width: 'auto',
-            post: 'dev-busqueda-empleo'
-        }
+        imgSlider: undefined
     },
     {
         id: 'bec3c210-7438-4082-ab68-ff836b42b3eb',
@@ -178,13 +150,6 @@ export const DEVELOPER: DatosPost[] = [
         categoria: 'developer',
         posicion: 'rot-3',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Búsqueda empleo',
-            height: '600',
-            id: '3',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/poster/slide-1900x800.jpg',
-            width: 'auto',
-            post: 'dev-busqueda-empleo'
-        }
+        imgSlider: undefined
     },
 ]

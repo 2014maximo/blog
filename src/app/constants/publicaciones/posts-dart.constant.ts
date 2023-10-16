@@ -47,7 +47,7 @@ export const DART: DatosPost[] = [
             alt: 'Elementos dart',
             height: '600',
             id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/dart/elementos-dartSlider.jpg',
+            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/dart/elementos-dartSlider.webp',
             width: 'auto',
             post: 'dart-elementos'
         }

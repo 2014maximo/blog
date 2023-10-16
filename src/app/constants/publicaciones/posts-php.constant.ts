@@ -44,13 +44,6 @@ export const PHP: DatosPost[] = [
         categoria: 'php',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Elementos Php',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'php-elementos'
-        }
+        imgSlider: undefined
     }
 ]

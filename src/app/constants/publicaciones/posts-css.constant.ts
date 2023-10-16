@@ -43,13 +43,6 @@ export const CSS: DatosPost[] = [
         categoria: 'css',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Descripción detallada en las clases',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'css-atributos'
-        }
+        imgSlider: undefined
     }
 ]

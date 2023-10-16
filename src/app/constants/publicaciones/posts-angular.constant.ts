@@ -67,14 +67,7 @@ export const ANGULAR: DatosPost[] = [
         categoria: 'angular',
         posicion: 'post-z',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Elementos Angular',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'ng-descripcion-elementos'
-        }
+        imgSlider: undefined
     },
     {
         id: '4f414314-8a56-402c-83dc-807b2af9be53',
@@ -93,14 +86,7 @@ export const ANGULAR: DatosPost[] = [
         categoria: 'angular',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Comunicación entre componentes',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'ng-comunicacion-componentes'
-        }
+        imgSlider: undefined
     },
     {
         id: 'f3d97128-9f99-42e9-b800-cb1425d016cf',
@@ -122,14 +108,7 @@ export const ANGULAR: DatosPost[] = [
         categoria: 'angular',
         posicion: 'post-z',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Arquitecturas propuestas para Angular',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'ng-arquitecturas'
-        }
+        imgSlider: undefined
     },
     {
         id: '7c754f86-a78e-43e3-a6c4-1bad9041c1fa',
@@ -148,14 +127,7 @@ export const ANGULAR: DatosPost[] = [
         categoria: 'angular',
         posicion: 'post-z',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Manejo de rutas en Angular',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'ng-manejo-rutas'
-        }
+        imgSlider: undefined
     },
     {
         id: 'fb64a27a-b6ef-44ea-87e5-ff24d6618bbb',
@@ -174,14 +146,7 @@ export const ANGULAR: DatosPost[] = [
         categoria: 'angular',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Microservicios',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'ng-microservicios'
-        }
+        imgSlider: undefined
     },
     {
         id: '3d909134-4cf9-4528-a4e3-1a2781d7e6e1',
@@ -200,14 +165,7 @@ export const ANGULAR: DatosPost[] = [
         categoria: 'angular',
         posicion: 'rot-3',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Módulos Angular',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'ng-modulos'
-        }
+        imgSlider: undefined
     },
     {
         id: 'e8512f85-9249-40f0-91d4-1ff9f13db4f0',
@@ -226,13 +184,6 @@ export const ANGULAR: DatosPost[] = [
         categoria: 'angular',
         posicion: 'rot-1',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Pruebas unitarias en Angular',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'ng-pruebas-unitarias'
-        }
+        imgSlider: undefined
     },
 ]

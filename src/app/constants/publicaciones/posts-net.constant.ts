@@ -43,14 +43,7 @@ export const NET: DatosPost[] = [
         categoria: 'net',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Elementos Net',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'kotlin-elementos'
-        }
+        imgSlider: undefined
     },
     {
         id: 'e0fd17aa-bb97-4bec-901a-a6d4e0e4eba2',
@@ -71,13 +64,6 @@ export const NET: DatosPost[] = [
         categoria: 'net',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Elementos Instalación',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'kotlin-instalacion'
-        }
+        imgSlider: undefined
     },
 ]

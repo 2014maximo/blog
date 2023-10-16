@@ -1,11 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
-import { of } from 'rxjs';
 import { SliderModel } from '../../models/post.model';
-import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
-import { DatosPost, ImgSlider, CategoriaPostModel, SubCategoriaModel } from '../../models/categorias.model';
+import { CATEGORIA } from '@constants/categorias/categoria.constant';
+import { DatosPost, CategoriaPostModel, SubCategoriaModel } from '../../models/categorias.model';
 import { Router } from '@angular/router';
-import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-slider-home',

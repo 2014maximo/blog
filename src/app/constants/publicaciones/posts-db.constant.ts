@@ -43,14 +43,7 @@ export const DB: DatosPost[] = [
         categoria: 'db',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: {
-            alt: 'Firebase',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'db-firebase'
-        }
+        imgSlider: undefined
     },
     {
         id: '52afbc12-1bbc-4225-848d-faab850761dc',
@@ -71,14 +64,7 @@ export const DB: DatosPost[] = [
         categoria: 'db',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: {
-            alt: 'SQL',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'db-sql'
-        }
+        imgSlider: undefined
     },
     {
         id: 'c20a999c-d149-42fa-95fa-d4a2b7371bb4',
@@ -99,13 +85,6 @@ export const DB: DatosPost[] = [
         categoria: 'db',
         posicion: 'rot-1',
         estado: 'activo',
-        imgSlider: {
-            alt: 'SQL Server',
-            height: '600',
-            id: '2',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-SLIDER.jpg',
-            width: 'auto',
-            post: 'db-sql-server'
-        }
+        imgSlider: undefined
     },
 ]
