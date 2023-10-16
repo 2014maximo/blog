@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'libreta';
+  title = 'blog';
 
   constructor(){
     let aleatorio =Math.round( Math.random() * (9999999999 - 1000000000) + 1000000000);

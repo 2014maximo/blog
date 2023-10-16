@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "libreta": {
+    "blog": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -26,8 +26,9 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "src/assets/img/icons/favicon.ico",
+              "src/assets",
+              "src/sitemap.xml"
             ],
             "styles": [
               "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css",
@@ -77,10 +78,10 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "libreta:build:production"
+              "browserTarget": "blog:build:production"
             },
             "development": {
-              "browserTarget": "libreta:build:development"
+              "browserTarget": "blog:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -88,7 +89,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "libreta:build"
+            "browserTarget": "blog:build"
           }
         },
         "test": {
@@ -112,5 +113,5 @@
       }
     }
   },
-  "defaultProject": "libreta"
+  "defaultProject": "blog"
 }
