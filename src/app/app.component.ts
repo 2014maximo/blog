@@ -10,6 +10,8 @@ export class AppComponent {
 
   constructor(){
     let aleatorio =Math.round( Math.random() * (9999999999 - 1000000000) + 1000000000);
-    console.log(aleatorio,'versión 1.0.0.3')
+    console.log(aleatorio,'versión 1.0.0.3');
+    const userLanguage = navigator.language;
+    console.log(userLanguage, 'LENGUAJE');
   }
 }

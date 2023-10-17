@@ -8,8 +8,6 @@
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
-
-   <!-- ANGULAR -->
    <url>
       <loc>https://www.trucospadesarrollo.com/angular</loc>
       <lastmod>2023-08-01</lastmod>
@@ -20,57 +18,61 @@
       <loc>https://www.trucospadesarrollo.com/ng-instalacion</loc>
       <lastmod>2023-08-01</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.5</priority>
    </url>
    <url>
       <loc>https://www.trucospadesarrollo.com/ng-descripcion-elementos</loc>
       <lastmod>2023-08-01</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.5</priority>
    </url>
    <url>
       <loc>https://www.trucospadesarrollo.com/ng-comunicacion-componentes</loc>
       <lastmod>2023-08-01</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.5</priority>
    </url>
    <url>
       <loc>https://www.trucospadesarrollo.com/ng-arquitecturas</loc>
       <lastmod>2023-08-01</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.5</priority>
    </url>
    <url>
       <loc>https://www.trucospadesarrollo.com/ng-manejo-rutas</loc>
       <lastmod>2023-08-01</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.5</priority>
    </url>
    <url>
       <loc>https://www.trucospadesarrollo.com/ng-microservicios</loc>
       <lastmod>2023-08-01</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.5</priority>
    </url>
    <url>
       <loc>https://www.trucospadesarrollo.com/ng-modulos</loc>
       <lastmod>2023-08-01</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.5</priority>
    </url>
    <url>
       <loc>https://www.trucospadesarrollo.com/ng-pruebas-unitarias</loc>
       <lastmod>2023-08-01</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.5</priority>
    </url>
-
-   <!-- CSS -->
    <url>
       <loc>https://www.trucospadesarrollo.com/css</loc>
       <lastmod>2023-08-01</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/css-atributos</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
    </url>
 
    <url>
@@ -79,12 +81,35 @@
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
-
+   <url>
+      <loc>https://www.trucospadesarrollo.com/dart-elementos</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
    <url>
       <loc>https://www.trucospadesarrollo.com/db</loc>
       <lastmod>2023-08-01</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/db-firebase</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/db-sql</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/db-sql-server</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
    </url>
 
    <url>
@@ -93,6 +118,54 @@
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/dev-super-recursos</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/dev-principios-solid</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/dev-algoritmos-clave</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/dev-controles-visual</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/dev-patrones</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/dev-algoritmos-clave</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/dev-busqueda-empleo</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/dev-glosario-general</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
 
    <url>
       <loc>https://www.trucospadesarrollo.com/electron</loc>
@@ -100,6 +173,208 @@
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
-
-
+   <url>
+      <loc>https://www.trucospadesarrollo.com/etron-instalacion</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/etron-elementos</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/flutter</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/flutter-instalacion</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/flutter-elementos</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/git</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/git-instalacion</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/git-errores</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/html</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/html-etiquetas</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/java</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/java-instalacion</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/java-glassfish</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/javascript</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/javascript</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/js-elementos</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/js-recorrer-arrays-objetos</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/js-trabajo-fechas</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/linux</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/lx-co-m-u</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/kotlin</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/kotlin-elementos</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/kubernetes</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/net</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/net-instalacion</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/net-descripcion-elementos</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/php</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/php-elementos</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/react</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/react-elementos</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/typescript</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/ts-elementos</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/wordpress</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://www.trucospadesarrollo.com/wordpress-elementos</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
 </urlset>
