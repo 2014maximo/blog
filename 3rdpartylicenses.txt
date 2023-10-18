@@ -99,6 +99,12 @@ MIT
 @ngrx/store-devtools
 MIT
 
+@ngx-translate/core
+MIT
+
+@ngx-translate/http-loader
+MIT
+
 firebase/analytics
 
 firebase/app
