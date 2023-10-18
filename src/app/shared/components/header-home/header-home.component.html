@@ -5,8 +5,8 @@
         <div class="row">
             <div class="col-1"></div>
             <div class="col-4">
-                <a href="home">
-                    <h1 class="f-bebas text-light m-0">TRUCOS PA' DESARROLLO</h1>
+                <a href="home" class="cursor-p">
+                    <h1 class="f-bebas text-light m-0">{{ 'titulo_blog' | translate }}</h1>
                     <span *ngIf="categoria.activo">
                         <a href="{{categoria.ruta}}" class="f-shadow-into-l text-uppercase {{categoria.colorText}} fs-17 text-shadow-one">
                             <i class="fa fa-chevron-left" aria-hidden="true"></i>
@@ -17,9 +17,13 @@
                     </span>
                 </a>
             </div>
-            <div class="col-6">
+            <div class="col-2">
+                <button (click)="cambiarLenguaje('en')">Inglés</button>
+                <button (click)="cambiarLenguaje('es')">Español</button>
+            </div>
+            <div class="col-4">
                 <form class="formUno mb-2" [formGroup]="formBasic">
-                    <input (blur)="desaparecerTablaBusqueda()" class="inputUno text-light fuente bg-transparent" type="search" placeholder="Buscar" aria-label="Search" formControlName="busqueda" (keyup)="buscar($event)">
+                    <input (blur)="desaparecerTablaBusqueda()" class="inputUno text-light fuente bg-transparent" type="search" placeholder="{{ 'Buscar' | translate }}" aria-label="Search" formControlName="busqueda" (keyup)="buscar($event)">
                 </form>
                 <div *ngIf="mostrarResultados">
                     <p *ngFor="let item of encontrados" class="text-light f-open-sans-c cursor-p m-0 p-0" (click)="irAlPost(item.ruta)">{{ item.nombre }}</p>
@@ -40,8 +44,8 @@
         </div>
         </div>
         <nav class="navbar navbar-dark bg-dark text-light transparenciaUno">
-            <a href="home">
-                <h1 class="fuenteDos">TRUCOS PA' DESARROLLO</h1>
+            <a href="home" class="cursor-p">
+                <h1 class="fuenteDos">{{ 'titulo_blog' | translate }}</h1>
                 <span *ngIf="categoria.activo">
                     <a href="{{categoria.ruta}}" class="f-shadow-into-l text-uppercase {{categoria.colorText}} fs-17 text-shadow-one">
                         <i class="fa fa-chevron-left" aria-hidden="true"></i>

@@ -88,7 +88,9 @@ html{
     font-family: var(--fuente-seis);
 }
 .fondoNegro {
-    background: -webkit-gradient(linear, 100% 81%, 20% 0%, from(#1c1c1c), to(#3d3d3d));
+    background-color: #1d1d1d;
+    /*background-color: #292929;
+     background: -webkit-gradient(linear, 100% 81%, 20% 0%, from(#1c1c1c), to(#3d3d3d)); */
 }
 .sombraUno {
     box-shadow: 1px 39px 39px #000000;

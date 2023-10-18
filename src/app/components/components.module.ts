@@ -17,6 +17,17 @@ import { NgPruebasUnitariasComponent } from './ANGULAR/components/ng-pruebas-uni
 import { NetComponent } from './NET/net/net.component';
 import { DevContentComponent } from './DEVELOPER/components/dev-content/dev-content.component';
 
+// Translate
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { HttpClient } from '@angular/common/http';
+
+
+
+export function HttpLoaderFactory (httpClient:HttpClient){
+  return new TranslateHttpLoader(httpClient);
+}
+
 
 @NgModule({
   declarations: [
@@ -79,7 +90,6 @@ import { DevContentComponent } from './DEVELOPER/components/dev-content/dev-cont
     Ruta.ElementosAndroidStudioComponent,
     Ruta.CssAtributosComponent,
     Ruta.EtronElementosComponent,
-
     KotlinElementosComponent,
     ReactElementosComponent,
     WordpressElementosComponent,
@@ -93,6 +103,13 @@ import { DevContentComponent } from './DEVELOPER/components/dev-content/dev-cont
   imports: [
     CommonModule,
     SharedModule,
+    TranslateModule.forRoot({
+      loader:{
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps:[HttpClient]
+      }
+    })
   ],
   exports: [
     HomeComponent

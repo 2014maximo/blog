@@ -1,10 +1,11 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { CategoriaModel } from '../../models/post.model';
-import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
+import { FormControl, FormGroup } from '@angular/forms';
+import { CATEGORIA } from '@constants/categorias/categoria.constant';
 import { DatosPost } from '../../models/categorias.model';
 import { Router } from '@angular/router';
 import { busquedaGeneral } from '../../constants/funciones/funciones-globales';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header-home',
@@ -26,7 +27,8 @@ export class HeaderHomeComponent implements OnInit {
     colorText: ''
   };
 
-  constructor(private router: Router) {
+  constructor(private router: Router, public translate: TranslateService) {
+    translate.setDefaultLang(navigator.language.split('-')[0]);
     this.inicializarVariables();
     this.formBasic = new FormGroup({
       'busqueda': new FormControl('')})
@@ -71,6 +73,10 @@ export class HeaderHomeComponent implements OnInit {
 
   public irAlPost(post: string){
     this.router.navigateByUrl(post);
+  }
+
+  public cambiarLenguaje(lang: string) {
+    this.translate.use(lang); // Cambia el actual lenguaje
   }
 
 }

@@ -75,7 +75,8 @@ export class GaleriaPostComponent implements OnInit {
   }
 
   public tipoSombra(path: string):string{
-    let sombra='shadow-two';
+    // let sombra='shadow-two';
+    let sombra='marcoFoto shadow-two';
 
     if(path.includes('png')){
       sombra = 'drop'

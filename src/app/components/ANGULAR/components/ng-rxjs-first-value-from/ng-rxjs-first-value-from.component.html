@@ -107,6 +107,16 @@
 
 <div class="espaciado"></div>
 
+<div>
+    <h1>{{ 'hola' | translate }}</h1>
+    
+    <button (click)="changeLanguage('en')">Ingles</button>
+    <button (click)="changeLanguage('fr')">French</button>
+    <button (click)="changeLanguage('es')">Españo</button>
+  </div>
+
+<div class="espaciado"></div>
+
 <app-footer-home></app-footer-home>
 <div class="go-up" (click)="scroll(target)">
     <i class="fa fa-chevron-up" aria-hidden="true"></i>

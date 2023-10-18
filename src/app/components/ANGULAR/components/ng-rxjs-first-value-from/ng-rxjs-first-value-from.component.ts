@@ -6,6 +6,7 @@ import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
 import { postActual } from '@shared/constants';
 import { CATEGORIA } from '@app/constants';
 import { cargarBreadcrumb, cargarIndice } from '@shared/constants/funciones/funciones-globales';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-ng-rxjs-first-value-from',
@@ -26,7 +27,13 @@ export class NgRxjsFirstValueFromComponent implements OnInit {
   public breadcrumb = new CategoriaModel();
   public contenidos = CONTENIDO_1;
 
-  constructor() { }
+  constructor(public translate: TranslateService) {
+    translate.setDefaultLang('es');
+  }
+
+  changeLanguage(lang: string) {
+    this.translate.use(lang); // Change the active language
+  }
   
   ngOnInit(): void {
     this.publicacion = postActual(this.idPublicacion)[0];

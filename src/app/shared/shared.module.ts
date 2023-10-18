@@ -22,6 +22,18 @@ import { GlosarioComponent } from './components/glosario/glosario.component';
 import { EncabezadoPublicacionComponent } from './components/encabezado-publicacion/encabezado-publicacion.component';
 import { IndiceLinksComponent } from './components/indice-links/indice-links.component';
 
+
+// Translate
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { HttpClient } from '@angular/common/http';
+
+
+
+export function HttpLoaderFactory (httpClient:HttpClient){
+  return new TranslateHttpLoader(httpClient);
+}
+
 @NgModule({
   declarations: [
     SliderHomeComponent,
@@ -49,6 +61,13 @@ import { IndiceLinksComponent } from './components/indice-links/indice-links.com
     CommonModule,
     CarouselModule,
     FormsModule,
+    TranslateModule.forRoot({
+      loader:{
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps:[HttpClient]
+      }
+    }),
     ReactiveFormsModule,
     BrowserAnimationsModule
   ],

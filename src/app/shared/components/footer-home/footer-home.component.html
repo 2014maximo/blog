@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-6 d-flex justify-content-center align-items-center">
                 <div class="text-center">
-                    <h2 class="tituloDos text-light sombra-texto">TRUCOS PA' DESARROLLO</h2>
+                    <h2 class="tituloDos text-light sombra-texto">{{ 'titulo_blog' | translate }}</h2>
                     <img src="assets/img/papercut-avatar1.jpg" alt="" width="200" height="auto">
 <!--                     <br>
                     <img src="assets/img/firma5.png" alt="" width="auto" height="80" style="position: relative; bottom: 26px;" class="drop"> -->
@@ -14,9 +14,9 @@
                 <div class="text-center">
                     <div class="form-group fuenteDos">
                         <form [formGroup]="formContact">
-                            <input type="email" class="form-control tc-yellow-two" id="email" placeholder="Email" formControlName="email">
-                            <textarea class="form-control tc-yellow-two" id="texarea" rows="3" placeholder="Comentarios" formControlName="comentarios"></textarea>
-                            <button type="submit" id="bt-enviar" class="p-2 btn-block bg-warning sombraUno" (click)="enviar()">Enviar</button>
+                            <input type="email" class="form-control tc-yellow-two" id="email" placeholder="{{ 'Email' | translate }}" formControlName="email">
+                            <textarea class="form-control tc-yellow-two" id="texarea" rows="3" placeholder="{{ 'Comentarios' | translate }}" formControlName="comentarios"></textarea>
+                            <button type="submit" id="bt-enviar" class="p-2 btn-block bg-warning sombraUno" (click)="enviar()">{{ 'Enviar' | translate }}</button>
                         </form>
                     </div>
                 </div>

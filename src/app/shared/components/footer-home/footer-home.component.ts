@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { ContactFormService } from '../../../services/contact-form.service';
 import Swal from 'sweetalert2';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-footer-home',
@@ -12,7 +13,8 @@ export class FooterHomeComponent implements OnInit {
 
   public formContact: FormGroup;
 
-  constructor(private fb: FormBuilder, private database: ContactFormService) {
+  constructor(private fb: FormBuilder, private database: ContactFormService, public translate: TranslateService) {
+    translate.setDefaultLang(navigator.language.split('-')[0]);
     this.formContact = this.fb.group({
       email:['', [Validators.required]],
       comentarios: ['', [Validators.required]]
@@ -65,8 +67,10 @@ export class FooterHomeComponent implements OnInit {
         title: 'Ingrese correctamente los datos'
       })
     }
+  }
 
-
+  public cambiarLenguaje(lang: string) {
+    this.translate.use(lang); // Cambia el actual lenguaje
   }
 
 }

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule, HttpClient } from '@angular/common/http'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,7 +18,6 @@ import { environment } from 'src/environments/environment';
 import { EffectsModule } from '@ngrx/effects';
 import { EffectsArray } from './components/ESTADISTICA/store/effects/index';
 import { AngularFireModule } from '@angular/fire/compat';
-
 
 @NgModule({
   declarations: [
@@ -39,7 +38,7 @@ import { AngularFireModule } from '@angular/fire/compat';
     StoreDevtoolsModule.instrument({
       maxAge: 25,
       logOnly: environment.production,
-    })
+    }),
   ],
   exports: [
   ],
