@@ -19,6 +19,14 @@ import { EffectsModule } from '@ngrx/effects';
 import { EffectsArray } from './components/ESTADISTICA/store/effects/index';
 import { AngularFireModule } from '@angular/fire/compat';
 
+// Translate
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+
+export function HttpLoaderFactory (httpClient:HttpClient){
+  return new TranslateHttpLoader(httpClient,'assets/i18n/','.json');
+}
+
 @NgModule({
   declarations: [
     AppComponent
@@ -39,6 +47,13 @@ import { AngularFireModule } from '@angular/fire/compat';
       maxAge: 25,
       logOnly: environment.production,
     }),
+    TranslateModule.forRoot({
+      loader:{
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps:[HttpClient]
+      }
+    })
   ],
   exports: [
   ],

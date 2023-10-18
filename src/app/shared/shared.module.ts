@@ -28,10 +28,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
 
-
-
 export function HttpLoaderFactory (httpClient:HttpClient){
-  return new TranslateHttpLoader(httpClient,'../../assets/i18n/','.json');
+  return new TranslateHttpLoader(httpClient,'assets/i18n/','.json');
 }
 
 @NgModule({

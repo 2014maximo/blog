@@ -25,14 +25,15 @@
       "@shared/*": ["src/app/shared/*"],
       "@constants/*":["src/app/constants/*"],
       "@components/*":["src/app/components/*"],
-      "@app/*": ["src/app/*"]
+      "@app/*": ["src/app/*"],
+      "@i18n/*":["src/assets/i18n/"]
     }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "enableIvy": false,
+    "enableIvy": true,
     "strictTemplates": true
   }
 }
