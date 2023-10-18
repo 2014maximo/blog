@@ -17,11 +17,7 @@
                     </span>
                 </a>
             </div>
-            <div class="col-2">
-                <button (click)="cambiarLenguaje('en')">Inglés</button>
-                <button (click)="cambiarLenguaje('es')">Español</button>
-            </div>
-            <div class="col-4">
+            <div class="col-6">
                 <form class="formUno mb-2" [formGroup]="formBasic">
                     <input (blur)="desaparecerTablaBusqueda()" class="inputUno text-light fuente bg-transparent" type="search" placeholder="{{ 'Buscar' | translate }}" aria-label="Search" formControlName="busqueda" (keyup)="buscar($event)">
                 </form>
