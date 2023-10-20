@@ -18,7 +18,7 @@
     src: url(https://2014maximo.github.io/templates/styles/fonts/OperatorMono-Medium.otf);
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,400,400i,500,500i,600,600i,700&display=swap');
@@ -66,6 +66,9 @@ html{
 .c3{color: var(--c3)}
 .c4{color: var(--c4)}
 .c5{color: var(--c5)}
+.c6{color:#525659}
+.c7{color:#888c8f}
+.c8{color:var(--color-ocho)}
 .w-100{
     width: 100%;
 }
@@ -86,6 +89,9 @@ html{
 }
 .fuenteSeis {
     font-family: var(--fuente-seis);
+}
+.f-yanone{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .fondoNegro {
     background-color: #1d1d1d;

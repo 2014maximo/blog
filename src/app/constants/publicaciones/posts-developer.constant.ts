@@ -111,18 +111,17 @@ export const DEVELOPER: DatosPost[] = [
         id: '27df71a4-6654-4349-9481-06f93c3639d6',
         nombre: 'Búsqueda empleo',
         descripcion: [
-            'Esta publicación es un reflejo de mi propio proceso para ingresar a trabajar como desarrollador frontend. Iniciada la publicación estoy en búsqueda laboral de una buena empresa, al terminarlo la idea es sugerir que puntos funcionaron y pueda sugerirlos.',
-            'Durante la pandemía y un poco más adelante, se aceleró el proceso de contratación de desarrolladores para aplicaciones que facilitaran el comercio digital. Digamos que a raíz de esto se generó un desequilibrio en el deficid de contratación de desarrolladores.',
-            'Para estas fechas y debido a un incremento de desarrolladores, las empresas de desarrollo tienen el privilegio de elegir sobre muchos postulados a los cargos de nuevas tecnologías.',
-            'Si la idea es lograr ese puesto ideal en desarrollo, el objetivo visto de simple manera es vendernos como un excelente producto de comercio. Estos son los puntos que sugiero deben trabajarse.'
+            'Recomendaciones probadas en la búsqueda de empleo.',
+            'Esta publicación es un reflejo de mi propio proceso para ingresar a trabajar como desarrollador frontend. Iniciada la publicación estoy en búsqueda laboral de una buena empresa, al terminarlo la idea es sugerir que puntos funcionaron.',
+            'El objetivo visto de simple manera es vendernos como un producto de comercio. Estos son los puntos que sugiero se deben tener en cuenta.'
         ],
-        descripcionCorta: 'Recomendaciones probadas en mi propia experiencia de búsqueda laboral.',
+        descripcionCorta: 'Recomendaciones probadas de búsqueda laboral.',
         ruta: 'dev-busqueda-empleo',
         componente: 'DevBusquedaEmpleoComponent',
         mostrarEnPostHome: true,
         estilos: ESTILO_DEVELOPER,
         fechaCreacion: '2023-09-18',
-        fechaActualizacion: '',
+        fechaActualizacion: '2023-10-19',
         imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/developer/busqueda-empleo.jpeg'),
         imgVertical:'',
         imgCuadro:'',
