@@ -113,7 +113,7 @@ export const DEVELOPER: DatosPost[] = [
         descripcion: [
             'Recomendaciones probadas en la búsqueda de empleo.',
             'Esta publicación es un reflejo de mi propio proceso para ingresar a trabajar como desarrollador frontend. Iniciada la publicación estoy en búsqueda laboral de una buena empresa, al terminarlo la idea es sugerir que puntos funcionaron.',
-            'El objetivo visto de simple manera es vendernos como un producto de comercio. Estos son los puntos que sugiero se deben tener en cuenta.'
+            'El objetivo visto de simple manera es vendernos como un producto de comercio (Solo en contexto). Estos son los puntos que sugiero se deben tener en cuenta.'
         ],
         descripcionCorta: 'Recomendaciones probadas de búsqueda laboral.',
         ruta: 'dev-busqueda-empleo',
