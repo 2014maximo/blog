@@ -7,3 +7,15 @@
 .bord{
     border: 0.7px solid #464141;
 }
+
+.marcoFoto{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.marcoFotoR{
+    position: relative;
+    right: 20px;
+    top: 20px;
+}
