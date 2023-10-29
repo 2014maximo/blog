@@ -5,8 +5,9 @@ import { cargarBreadcrumb, cargarIndice } from '@shared/constants/funciones/func
 import { CategoriaModel } from '@shared/models';
 import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
 import { IndiceDeContenidosModel } from '@shared/models/indice.model';
-import { MARKETING, PREGUNTAS } from './constants/dev-busqueda.constant';
+import { AGENCIAS, MARKETING, PREGUNTAS } from './constants/dev-busqueda.constant';
 import { PreguntasModel } from '@components/DEVELOPER/models/dev-busqueda.model';
+import { IAgencia } from './models/empleo.model';
 
 @Component({
   selector: 'app-dev-busqueda-empleo',
@@ -23,6 +24,7 @@ export class DevBusquedaEmpleoComponent implements OnInit {
 
   public marketing: string[] = [];
   public preguntas:PreguntasModel[]=[];
+  public agencias: IAgencia[]=[];
 
 
   constructor() { }
@@ -32,13 +34,21 @@ export class DevBusquedaEmpleoComponent implements OnInit {
     this.categoria = CATEGORIA.filter( e => e.nombre === this.publicacion.categoria)[0];
     this.indiceTypescript = cargarIndice(this.publicacion);
     this.breadcrumb = cargarBreadcrumb(this.publicacion);
-
+    this.agencias = AGENCIAS;
     this.marketing = MARKETING;
     this.preguntas = PREGUNTAS;
   }
 
   public scroll(el: HTMLElement){
     el.scrollIntoView();
+  }
+
+  public idFormat(refer:string, id?:number):string{
+      return id? `${refer.toLowerCase()}+${id}` : `${refer.toLowerCase()}`;
+  }
+
+  public activo(e:any):string{
+    return e.srcElement.ariaExpanded?'active' : '';
   }
 
 }

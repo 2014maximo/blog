@@ -11,11 +11,14 @@ export class PreguntasModel {
 export class PreguntaModel {
     id: number;
     pregunta: string;
-    respuestaSugerida: string;
+    sugerencia: string;
+    respuestaEjemplo: string;
+
     
     constructor(){
         this.id = 0;
         this.pregunta = '',
-        this.respuestaSugerida = '';
+        this.sugerencia = '';
+        this.respuestaEjemplo = '';
     }
 }

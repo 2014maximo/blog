@@ -1,4 +1,5 @@
 import { PreguntasModel } from "@components/DEVELOPER/models/dev-busqueda.model";
+import { IAgencia } from "../models/empleo.model";
 
 export const MARKETING = [
     'Ampliar la red con contactos de valor, según mi perfil y lo que busco.',
@@ -10,15 +11,130 @@ export const MARKETING = [
     'Unirme a grupos relacionados con tu industria o área de interes, en ellos participa en convesaciones, comparte conocimientos y establece conexiones valiosas.'
 ];
 
+export const AGENCIAS: IAgencia[] = [
+    {
+        titulo: 'Formatos de hoja de vida, portafolios, formatos de cartas legales',
+        imagen: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/workface-white.png',
+        altura: '70',
+        ancho:'auto',
+        link: 'https://2014maximo.github.io/workface/',
+        alt:'logo workface'
+    },
+    {
+        titulo: 'Crear su curriculum en tan solo 5 minutos',
+        imagen: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-novoresume.png',
+        altura: 'auto',
+        ancho:'100%',
+        link: 'https://novoresume.com/?noRedirect=true',
+        alt:'logo novoresume'
+    },
+    {
+        titulo: 'Tu Curriculum Vitae rápido, fácil de usar y profesional',
+        imagen: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-zety.png',
+        altura: 'auto',
+        ancho:'100%',
+        link: 'https://zety.es/',
+        alt:'logo zety'
+    },
+    {
+        titulo: 'Crea tu curriculum como un profesional',
+        imagen: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-cvmaker.png',
+        altura: 'auto',
+        ancho:'100%',
+        link: 'https://www.cvmaker.es/',
+        alt:'logo cvmaker'
+    },
+    {
+        titulo: 'Cree un currículum listo para el trabajo en minutos',
+        imagen: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-visualcv.png',
+        altura: 'auto',
+        ancho:'100%',
+        link: 'https://www.visualcv.com/',
+        alt:'logo visualcv'
+    },
+    {
+        titulo: 'Creador de currículums en línea gratuito',
+        imagen: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-canva.png',
+        altura: 'auto',
+        ancho:'100%',
+        link: 'https://www.canva.com/create/resumes/',
+        alt:'logo canva'
+    },
+    {
+        titulo: 'La historia de tu éxito empieza con un currículum',
+        imagen: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-kickresume.png',
+        altura: 'auto',
+        ancho:'100%',
+        link: 'https://www.kickresume.com/es/',
+        alt:'logo kickresume'
+    },
+]
+
 export const PREGUNTAS: PreguntasModel[] = [
     {
         categoria: 'PERSONALES',
         pregunta:[
             {
                 id:1,
-                pregunta:'',
-                respuestaSugerida:''
+                pregunta:'Cuéntame sobre ti',
+                sugerencia:'Esta es una pregunta abierta que te da la oportunidad de hablar sobre tu experiencia, intereses y objetivos personales y profesionales.',
+                respuestaEjemplo:''
+            },
+            {
+                id:2,
+                pregunta:'¿Por qué estás interesado en trabajar en nuestra empresa?',
+                sugerencia:'Los entrevistadores quieren saber si has investigado sobre la empresa y si compartes sus valores y objetivos.',
+                respuestaEjemplo:''
+            },
+            {
+                id:3,
+                pregunta:'¿Cuál es tu experiencia trabajando en equipos de desarrollo de software?',
+                sugerencia:'Aquí pueden preguntarte sobre tus habilidades de comunicación, colaboración y adaptación a dinámicas de equipo.',
+                respuestaEjemplo:''
+            },
+            {
+                id:4,
+                pregunta:'¿Puedes describir un proyecto desafiante en el que hayas trabajado y cómo lo superaste? ',
+                sugerencia:'Esta pregunta evalúa tus habilidades para resolver problemas y tu capacidad de afrontar desafíos.',
+                respuestaEjemplo:''
+            },
+            {
+                id:5,
+                pregunta:'¿Cómo te mantienes actualizado con las últimas tendencias y tecnologías en desarrollo de software?',
+                sugerencia:'Los entrevistadores quieren saber si eres un profesional que sigue aprendiendo y se mantiene actualizado.',
+                respuestaEjemplo:''
+            },
+            {
+                id:6,
+                pregunta:'¿Tienes alguna experiencia en trabajar en proyectos ágiles o metodologías de desarrollo específicas?',
+                sugerencia:'Pueden preguntarte sobre tu adaptabilidad y experiencia en entornos de desarrollo específicos.',
+                respuestaEjemplo:''
+            },
+            {
+                id:7,
+                pregunta:'¿Qué te motiva en tu carrera como desarrollador de software?',
+                sugerencia:'Aquí puedes hablar sobre tus metas profesionales y lo que te entusiasma en el desarrollo de software.',
+                respuestaEjemplo:''
+            },
+            {
+                id:8,
+                pregunta:'¿Cómo manejas el estrés y los plazos ajustados?',
+                sugerencia:'Esta pregunta evalúa tu capacidad para lidiar con situaciones de alta presión.',
+                respuestaEjemplo:''
+            },
+            {
+                id:9,
+                pregunta:'¿Tienes experiencia en liderazgo o gestión de equipos de desarrollo?',
+                sugerencia:'Esto podría explorar tu potencial para asumir roles de liderazgo en el futuro.',
+                respuestaEjemplo:''
+            },
+            {
+                id:10,
+                pregunta:'¿Cuál es tu enfoque en cuanto a la calidad del código y las prácticas de desarrollo sostenible?',
+                sugerencia:' Los entrevistadores pueden estar interesados en tu compromiso con la calidad y la mejora continua.',
+                respuestaEjemplo:''
             }
+
         ]
     },
     {
@@ -35,12 +151,14 @@ export const PREGUNTAS: PreguntasModel[] = [
             {
                 id:1,
                 pregunta:'Tiene experiencia en patrones de diseño Typescript y JavaScript?',
-                respuestaSugerida:''
+                sugerencia:'',
+                respuestaEjemplo:''
             },
             {
                 id:2,
                 pregunta:'Tiene experiencia en la arquitectura de Atomic Design?',
-                respuestaSugerida:''
+                sugerencia:'',
+                respuestaEjemplo:''
             },
         ]
     },
@@ -50,168 +168,201 @@ export const PREGUNTAS: PreguntasModel[] = [
             {
                 id:1,
                 pregunta:'¿Qué atributo de HTML se emplea para definir los estilos en línea?',
-                respuestaSugerida:'Es el atributo style.'
+                sugerencia:'',
+                respuestaEjemplo:'Es el atributo style.'
             },
             {
                 id:2,
                 pregunta:'¿Qué etiqueta de HTML se emplea para definir una hoja de estilo externa?',
-                respuestaSugerida:'Es la etiqueta link y se agrega la ruta en el atributo src.'
+                sugerencia:'',
+                respuestaEjemplo:'Es la etiqueta link y se agrega la ruta en el atributo src.'
             },
             {
                 id:3,
                 pregunta:'¿Qué pseudo clase se emplea para definir una propiedad cuando el cursor del ratón se sitúa sobre un elemento?',
-                respuestaSugerida:'La pseudo clase hover antecedido de dos puntos.'
+                sugerencia:'',
+                respuestaEjemplo:'La pseudo clase hover antecedido de dos puntos.'
             },
             {
                 id:4,
                 pregunta:'En CSS ¿ Cuál es la diferencia entre las propiedades margin y padding?',
-                respuestaSugerida:'Margin es el espacio fuera del elemento DOM y padding se aplica dentro del cuerpo del elemento DOM al cual se le esta aplicando la clase.'
+                sugerencia:'',
+                respuestaEjemplo:'Margin es el espacio fuera del elemento DOM y padding se aplica dentro del cuerpo del elemento DOM al cual se le esta aplicando la clase.'
             },
             {
                 id:5,
                 pregunta:'¿Qué significan las siglas CSS?',
-                respuestaSugerida:'Cascade Style Sheet'
+                sugerencia:'',
+                respuestaEjemplo:'Cascade Style Sheet'
             },
             {
                 id:6,
                 pregunta:'En CSS3 ¿Qué significan la "A" en RGBA?',
-                respuestaSugerida:'Las 4 significan R:red, G:green, B:blue, A:alpha (transparencia)'
+                sugerencia:'',
+                respuestaEjemplo:'Las 4 significan R:red, G:green, B:blue, A:alpha (transparencia)'
             },
             {
                 id:7,
                 pregunta:'¿Cómo asignas estilos para distintos dispositivos y resoluciones?',
-                respuestaSugerida:'A través de la propiedad @media dentro de los estilos en cascada.'
+                sugerencia:'',
+                respuestaEjemplo:'A través de la propiedad @media dentro de los estilos en cascada.'
             },
             {
                 id:8,
                 pregunta:'¿Qué estaría definiendo al utilizar flex-direction: column; en un elemento con display: flex;?',
-                respuestaSugerida:'que los elementos dentro del display: flex se formen en forma de columna.'
+                sugerencia:'',
+                respuestaEjemplo:'que los elementos dentro del display: flex se formen en forma de columna.'
             },
             {
                 id:9,
                 pregunta:'Explica cuál es la función de @import en SASS',
-                respuestaSugerida:'El objetivo de la directiva @import es conectar varios archivos SASS o SCSS a un archivo del tipo SASS o SCSS, con la finalidad de ordenar separadamente el código.'
+                sugerencia:'',
+                respuestaEjemplo:'El objetivo de la directiva @import es conectar varios archivos SASS o SCSS a un archivo del tipo SASS o SCSS, con la finalidad de ordenar separadamente el código.'
             },
             {
                 id:10,
                 pregunta:'Explica cuál es la función de @extend en SASS',
-                respuestaSugerida:'Esta directiva tiene una cualidad especial al permitir heredar características de una clase o selector a otro selector, evitando la repetición de estilos.'
+                sugerencia:'',
+                respuestaEjemplo:'Esta directiva tiene una cualidad especial al permitir heredar características de una clase o selector a otro selector, evitando la repetición de estilos.'
             },
             {
                 id:11,
                 pregunta:'Explica cuando puedes utilizar el % placeholder en SASS',
-                respuestaSugerida:'Se utiliza al crear un grupo de estilos %nombre {caracteristicas css}, luego de crearse funciona dentro de una clase cuando se hace referencia a la herencia de %nombre y por lo tanto hereda los estilos, de esta forma: .clase { @extend %nombre;}'
+                sugerencia:'',
+                respuestaEjemplo:'Se utiliza al crear un grupo de estilos %nombre {caracteristicas css}, luego de crearse funciona dentro de una clase cuando se hace referencia a la herencia de %nombre y por lo tanto hereda los estilos, de esta forma: .clase { @extend %nombre;}'
             },
             {
                 id:12,
                 pregunta:'Explica con tus propias palabras cómo los Mixins (@mixin) de SASS pueden ser útiles',
-                respuestaSugerida:'Permite reutilizar estilos y propiedades CSS en tus hojas de estilo de una manera modular y eficiente. Una gran utilidad es poder pasar parámetros a un @mixin creado anteriormente y utilizar todas las características de ese @mixin con el parámetro que se envía.'
+                sugerencia:'',
+                respuestaEjemplo:'Permite reutilizar estilos y propiedades CSS en tus hojas de estilo de una manera modular y eficiente. Una gran utilidad es poder pasar parámetros a un @mixin creado anteriormente y utilizar todas las características de ese @mixin con el parámetro que se envía.'
             },
             {
                 id:13,
                 pregunta:'En HTML, el atributo title se emplea para:',
-                respuestaSugerida:'Es para proporcionar información adicional sobre un elemento cuando el usuario pasa el cursor sobre él.'
+                sugerencia:'',
+                respuestaEjemplo:'Es para proporcionar información adicional sobre un elemento cuando el usuario pasa el cursor sobre él.'
             },
             {
                 id:14,
                 pregunta:'En HTML, para incluir código de script que se encuentra en otro archivo (externo) se emplea el tag:',
-                respuestaSugerida:'<script> con el src="" y la ruta del archivo.'
+                sugerencia:'',
+                respuestaEjemplo:'<script> con el src="" y la ruta del archivo.'
             },
             {
                 id:15,
                 pregunta:'EN HTML para definir una linea horizontal de separación se emplea:',
-                respuestaSugerida:'Se usa la etiqueta <hr>.'
+                sugerencia:'',
+                respuestaEjemplo:'Se usa la etiqueta <hr>.'
             },
 
             {
                 id:16,
                 pregunta:'En HTML para definir que el idioma principal de una página es el español se emplea',
-                respuestaSugerida:'Dentro de la etiqueta HTML se emplea un atributo llamado lang="es", adicional es recomendable usar también la misma propiedad en etiquetas como "header", "main", "section", "footer", para ayudar a las herramientas de traducción.'
+                sugerencia:'',
+                respuestaEjemplo:'Dentro de la etiqueta HTML se emplea un atributo llamado lang="es", adicional es recomendable usar también la misma propiedad en etiquetas como "header", "main", "section", "footer", para ayudar a las herramientas de traducción.'
             },
             {
                 id:17,
                 pregunta:'En HTML, rowspan y colspan son atributos de la etiqueta',
-                respuestaSugerida:'Etiqueta <td>, son para controlar la fusión de celdas, lo que permite que una celda ocupe múltiples filas "rowspan" o múltiples columnas "colspan".'
+                sugerencia:'',
+                respuestaEjemplo:'Etiqueta <td>, son para controlar la fusión de celdas, lo que permite que una celda ocupe múltiples filas "rowspan" o múltiples columnas "colspan".'
             },
             {
                 id:18,
                 pregunta:'¿Qué etiqueta de HTML se emplea para definir una hoja de estilo interna?',
-                respuestaSugerida:'<style> '
+                sugerencia:'',
+                respuestaEjemplo:'<style> '
             },
             {
                 id:19,
                 pregunta:'En HTML, el atributo alt se emplea para:',
-                respuestaSugerida:'3 principales beneficios como: -Descripción de accesiblidad en imágenes para personas con poca visiblidad, - Cuando las imágenes no se cargan correctamente proporcionan información del contenido, - En el SEO de búsqueda permiten una mejor indexación en los resultados. En las etiquetas <img>, <audio> y <video>.'
+                sugerencia:'',
+                respuestaEjemplo:'3 principales beneficios como: -Descripción de accesiblidad en imágenes para personas con poca visiblidad, - Cuando las imágenes no se cargan correctamente proporcionan información del contenido, - En el SEO de búsqueda permiten una mejor indexación en los resultados. En las etiquetas <img>, <audio> y <video>.'
             },
             {
                 id:20,
                 pregunta:'En HTML la forma correcta de crear un comentario es:',
-                respuestaSugerida:'<---- comentario ---->'
+                sugerencia:'',
+                respuestaEjemplo:'<---- comentario ---->'
             },
             {
                 id:21,
                 pregunta:'¿Qué estructura sigue el DOM?',
-                respuestaSugerida:''
+                sugerencia:'',
+                respuestaEjemplo:''
             },
             {
                 id:22,
                 pregunta:'Nombra todos los elementos que conozcas que fueron introducidos en HTML 5',
-                respuestaSugerida:''
+                sugerencia:'',
+                respuestaEjemplo:''
             },
             {
                 id:23,
                 pregunta:'¿Cuál es la diferencia entre var, let y const? ',
-                respuestaSugerida:''
+                sugerencia:'',
+                respuestaEjemplo:''
             },
             {
                 id:24,
                 pregunta:'¿Qué es ECMA y/o que define?',
-                respuestaSugerida:''
+                sugerencia:'',
+                respuestaEjemplo:''
             },
             {
                 id:25,
                 pregunta:'Menciona al menos dos frameworks de test unitarios para javascript',
-                respuestaSugerida:''
+                sugerencia:'',
+                respuestaEjemplo:''
             },
             {
                 id:26,
                 pregunta:'¿Cuál es la diferencia entre una clase y un objeto en programación?',
-                respuestaSugerida:''
+                sugerencia:'',
+                respuestaEjemplo:''
             },
             {
                 id:27,
                 pregunta:'¿Qué formas hay para obtener las variables del siguiente objeto usando ES5 y ES6 const user = {name: username, age: 99}',
-                respuestaSugerida:''
+                sugerencia:'',
+                respuestaEjemplo:''
             },
             {
                 id:28,
                 pregunta:'Explica qué hace la siguiente línea considerando que months es un array de meses: months.splice(1, 0, "Feb");',
-                respuestaSugerida:''
+                sugerencia:'',
+                respuestaEjemplo:''
             },
             {
                 id:29,
                 pregunta:'Describe en detalle todo lo que puedas observar de la siguiente función: "(() ⇒ {console.log("Hola Mundo");})()"',
-                respuestaSugerida:''
+                sugerencia:'',
+                respuestaEjemplo:''
             },
             {
                 id:30,
                 pregunta:'Crea una petición HTTP básica de tipo GET utilizando JavaScript a un dominio de tu elección',
-                respuestaSugerida:''
+                sugerencia:'',
+                respuestaEjemplo:''
             },
             {
                 id:31,
                 pregunta:'¿Cuál es la diferencia entre un test unitario, test de integración y un test de aceptación?',
-                respuestaSugerida:''
+                sugerencia:'',
+                respuestaEjemplo:''
             },
             {
                 id:32,
                 pregunta:'¿Qué características debe tener un buen test unitario?',
-                respuestaSugerida:''
+                sugerencia:'',
+                respuestaEjemplo:''
             },
             {
                 id:33,
                 pregunta:'En el ciclo de vida de Vue, cual sería la diferencia entre "created" y "mounted"',
-                respuestaSugerida:''
+                sugerencia:'',
+                respuestaEjemplo:''
             }
         ]
     }

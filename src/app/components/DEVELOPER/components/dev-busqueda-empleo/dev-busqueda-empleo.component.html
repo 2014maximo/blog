@@ -42,6 +42,8 @@
                     Todo el que saludablemente se pueda hacer. <br>
                     <br>
                     Existen demasiados beneficios asociados al deporte, especialmente lo que se busca de esta parte es la serotonina, la sustancia de la felicidad natural del cuerpo.<br>
+                    <br>
+                    Qué acompañe todos los días como parte de la rutina de la búsqueda.
 
                 </p>
             </div>
@@ -57,14 +59,14 @@
         <div class="espaciado"></div>
 
         <div class="row">
-            <div class="col-xl-8">
+            <div class="col-xl-6">
                 <div class="espacio"></div>
                 <div class="bord pl-3 pt-3 mb-4">
                     <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/curriculum-vitae.jpg" alt="Marketplace-laboral" width="100%" height="auto" class="marcoFoto">
                 </div>
             </div>
             <div class="col-xl-1"></div>
-            <div class="col-xl-3">
+            <div class="col-xl-5">
                 <h2 class="f-bebas fs-200 text-light m-0 p-0">3</h2>
                 <h2 class="f-yanone fs-40 lh-40 text-light p-0 text-uppercase mb-2">
                     CURRICULUM VITAE
@@ -74,62 +76,21 @@
                     <br>
                     En este caso sugiero estos recursos online donde puedes organizar toda tu información:
                 </p>
-                <a href="https://2014maximo.github.io/workface/" target="_blank">
-                    <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/workface-white.png" alt="Logo workface" height="50" width="auto" class="drop">
-                </a>
-                <p class="mt-2 fuenteDos c7 fs-17 lh-17 {{publicacion.estilos.color}}">
-                    <small>
-                        Formatos de hoja de vida, portafolios, formatos de cartas legales.
-                    </small>
-                </p>
-                <a href="https://novoresume.com/?noRedirect=true" target="_blank">
-                    <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-novoresume.png" alt="Logo novoresume" height="50" width="auto" class="drop">
-                </a>
-                <p class="mt-2 fuenteDos c7 fs-18 lh-17 {{publicacion.estilos.color}}">
-                    <small>
-                        Crear su curriculum en tan solo 5 minutos.
-                    </small>
-                </p>
-                <a href="https://zety.es/" target="_blank">
-                    <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-zety.png" alt="Logo zety" height="50" width="auto" class="drop">
-                </a>
-                <p class="mt-2 fuenteDos c7 fs-18 lh-17 {{publicacion.estilos.color}}">
-                    <small>
-                        Tu Curriculum Vitae rápido, fácil de usar y profesional.
-                    </small>
-                </p>
-                <a href="https://www.cvmaker.es/" target="_blank">
-                    <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-cvmaker.png" alt="Logo cvmaker" height="50" width="auto" class="drop">
-                </a>
-                <p class="mt-2 fuenteDos c7 fs-18 lh-17 {{publicacion.estilos.color}}">
-                    <small>
-                        Crea tu curriculum como un profesional.
-                    </small>
-                </p>
-                <a href="https://www.visualcv.com/" target="_blank">
-                    <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-visualcv.png" alt="Logo visualcv" height="50" width="auto" class="drop">
-                </a>
-                <p class="mt-2 fuenteDos c7 fs-18 lh-17 {{publicacion.estilos.color}}">
-                    <small>
-                        Cree un currículum listo para el trabajo en minutos.
-                    </small>
-                </p>
-                <a href="https://www.canva.com/create/resumes/" target="_blank">
-                    <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-canva.png" alt="Logo canva" height="50" width="auto" class="drop">
-                </a>
-                <p class="mt-2 fuenteDos c7 fs-18 lh-17 {{publicacion.estilos.color}}">
-                    <small>
-                        Creador de currículums en línea gratuito.
-                    </small>
-                </p>
-                <a href="https://www.kickresume.com/es/" target="_blank">
-                    <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-kickresume.png" alt="Logo kickresume" height="50" width="auto" class="drop">
-                </a>
-                <p class="mt-2 fuenteDos c7 fs-18 lh-17 {{publicacion.estilos.color}}">
-                    <small>
-                        La historia de tu éxito empieza con un currículum.
-                    </small>
-                </p>
+                <div class="espacio"></div>
+
+                <div *ngFor="let agencia of agencias" class="row bordb">
+                    <div class="col-md-4">
+                        <a href="{{agencia.link}}" target="_blank">
+                            <img src="{{agencia.imagen}}" alt="{{agencia.alt}}" [attr.height]="[agencia.altura]" [attr.width]="[agencia.ancho]" class="drop">
+                        </a>
+                    </div>
+                    <div class="col-md-8">
+                        <h4 class="f-yanone fs-20 lh-20 text-light p-0 text-uppercase mb-2">
+                            {{agencia.titulo}}
+                        </h4>
+                    </div>
+                </div>
+
             </div>
         </div>
         <div class="espaciado"></div>
@@ -142,8 +103,16 @@
                 </h2>
                 <p class="fuenteDos c7 fs-18 lh-20">
                     Es una carta personal que te presentará a la empresa o al cargo que estás postulando.<br>
-                    <br> Las palabras contenidas suelen ser muy personales, lo increíble de hoy en día es que si pides ayuda a la inteligencia artificial suele darle al clavo con la inspiración.
+                    <br> Las palabras contenidas suelen ser muy personales, lo increíble de hoy en día es que si pides ayuda a la inteligencia artificial suele darle al clavo con la inspiración.<br>
+                    <br>
+                    "
+                    <small>
+                        Actualmente, he estado enfocado en el desarrollo frontend en Angular, con más de 5 años de experiencia. Me gusta trabajar en equipo, buscar una formación continua, aplicar nuevos conocimientos en desarrollo, y poner mi creatividad y corazón en mi trabajo diario. También considero que la vida y el tiempo que tenemos son una oportunidad y una bendición para compartir la pasión que nos hace únicos, y que el mundo espera y necesita para prosperar.
+                    </small>
+                    "<br>
+                    ...
                 </p>
+
             </div>
             <div class="col-xl-1"></div>
             <div class="col-xl-8 text-right">
@@ -182,58 +151,78 @@
         <div class="espacio"></div>
 
         <div class="row">
+            <div class="col-md-5"></div>
             <div class="col-md-7">
                 <span >
                     <img src="assets/img/memes/mem3.png" alt="Que elegancia" height="75" width="auto">
                 </span>
-                <h2 class="f-yanone fs-40 lh-40 {{publicacion.estilos.color}} p-0 mb-2">
-                    - Recomendación directa
-                </h2>
-                <p class="text-light fuenteDos fs-20 lh-25">
+                <p class="c7 fuenteDos fs-20 lh-25">
                     Si tenemos amigos o familiares que nos puedan dar una recomendación directa en la empresa, usemos esta posibilidad. Un reclutador ve de mejor manera a alguien recomendado que a un desconocido inicialmente.
                 </p>
                 <div class="espacio"></div>
 
-                <h2 class="f-yanone fs-40 lh-40 {{publicacion.estilos.color}} p-0 mb-2">
-                    - LINKEDIN
-                </h2>
-                <p class="text-light fuenteDos fs-20 lh-25">
-                    Hasta este punto, de todos estos que sugiero, yo mismo logré conseguir mi postulación a un cargo Frontend.<br>
-                    <br>
-                    Estos son los temas a tratar que sugiero:
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-linkedin.png" alt="logo linkedin" height="60" width="auto" class="drop">
+                </a>
+                <p class="c7 fuenteDos fs-20 lh-25">
+                    La mamá de las agencias para el empleo con un sentido muchísimo más completo enfocado a redes sociales.<br>
+                    <br>Para esta parte es requerido hacer un marketing personal teniendo en cuenta estos puntos:
                 </p>
                 <div *ngFor="let market of marketing" class="row">
                     <div class="col-md-1">
                         <i class="fa fa-plus {{ publicacion.estilos.color }}" aria-hidden="true"></i>
                     </div>
                     <div class="col-md-11">
-                        <p class="f-open-sans-c text-light fs-20 lh-25">
+                        <p class="f-open-sans-c c7 fs-20 lh-25">
                             {{ market }}
                         </p>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-5"></div>
-        </div>
-        <div class="espacio"></div>
-
-        <div class="row">
-            <div class="col-md-5"></div>
-            <div class="col-md-7">
-                <h4 class="f-shadow-into-l fw-6 fs-30 {{publicacion.estilos.color}}">MÁS AGENCIAS</h4>
-                <p class="text-light fuenteDos fs-20 lh-25">
-                    Esta es una lista de agencias para subscribir, se sugiere tener paciencia dado que la mayoría requieren llenar una serie de campos que te piden muy repetitiva mente, datos personales, estudio 1, estudio 2, empresa 1, empresa 2...
+                <div class="espacio"></div>
+                <p class="c7 fuenteDos fs-20 lh-25">
+                    Se requiere llenar una serie de campos que te piden muy repetitiva mente, datos personales, estudio 1, estudio 2, empresa 1, empresa 2...
                 </p>
                 <span >
-                    <img src="assets/img/memes/mem4.png" alt="Que elegancia" height="75" width="auto">
+                    <img src="assets/img/memes/mem4.png" alt="Que elegancia" height="45" width="auto">
                 </span>
-                <p class="text-light fuenteDos fs-20 lh-25">
+                <p class="c7 fuenteDos fs-20 lh-25">
                     Así ya esten incluídos en la hoja de vida.
                 </p>
-                
+                <div class="espacio"></div>
+                <div class="row">
+                    <div class="col bords m-3 text-center">
+                        <a href="https://co.indeed.com" target="_blank">
+                            <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-indeed.png" alt="Logo indeed" height="30" width="auto" class="drop">
+                        </a>
+                    </div>
+                    <div class="col bords m-3 text-center">
+                        <a href="https://co.computrabajo.com/" target="_blank">
+                            <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-computrabajo.png" alt="Logo computrabajo" height="30" width="auto" class="drop">
+                        </a>
+                    </div>
+                    <div class="col bords m-3 text-center">
+                        <a href="https://www.sihaytrabajo.com.co/" target="_blank">
+                            <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-sihaytrabajo.png" alt="logo-sihaytrabajo" height="60" width="auto" class="drop">
+                        </a>
+                    </div>
+                    <div class="col bords m-3 text-center">
+                        <a href="https://talentbox.la/" target="_blank">
+                            <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-talentbox.png" alt="logo talentbox" height="40" width="auto" class="drop">
+                        </a>
+                    </div>
+                    <div class="col bords m-3 text-center">
+                        <a href="https://www.freelancer.com/" target="_blank">
+                            <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-freelance.svg" alt="logo freelancer" height="50" width="auto" class="drop">
+                        </a>
+                    </div>
+                    <div class="col bords m-3 text-center">
+                        <a href="https://www.klimbup.com/" target="_blank">
+                            <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-klimb.png" alt="logo klimb" height="40" width="auto" class="drop">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-
 
         <div class="espacio"></div>
 
@@ -247,7 +236,7 @@
                     De alguna manera esto es muy parecido a la cita que logras con la chica(o) que te gusta.
                 </p>
                 <span >
-                    <img src="assets/img/memes/mem2.png" alt="Que elegancia" height="75" width="auto">
+                    <img src="assets/img/memes/mem2.png" alt="Que elegancia" height="45" width="auto">
                 </span>
                 <p class="fuenteDos c7 fs-18 lh-20">
                     <br>
@@ -271,31 +260,55 @@
         <div class="row">
             <div class="col-md-5"></div>
             <div class="col-md-7">
-                <h4 class="f-shadow-into-l fw-6 fs-30 {{publicacion.estilos.color}}">PREGUNTAS COMUNES</h4>
-                <p class="text-light fuenteDos fs-20 lh-25">
-                    Estas son algunas de las preguntas más comunes que suelen hacer:
+                
+                <div class="mt-3 bords p-4">
+                    <p class="c7 fuenteDos fs-20 lh-25">
+                        Este es un excelente sitio con materiales gratuitos de preparación de entrevistas seleccionados para personas ocupadas.
+                    </p>
+                    <a href="https://www.techinterviewhandbook.org/" target="_blank" class="drop">
+                        <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-techinterviewhandbook.png" alt="logo techinterviewhandbook" height="90" width="auto">
+                    </a>
+                    <h4 class="fuenteDos text-light p-0 text-uppercase mt-3">
+                        www.techinterviewhandbook.org
+                    </h4>
+                    
+                </div>
+                <div class="espacio"></div>
+                <p class="c7 fuenteDos fs-20 lh-25">
+                    Estas son algunas de las preguntas más comunes que suelen hacer para cada caso:
                 </p>
-                <div *ngFor="let grupo of preguntas">
-                    <h2 class="p-0 f-bebas fw-3 fs-30 text-light m-0 p-0 text-uppercase">
-                        {{ grupo.categoria }}
-                    </h2>
-                    <div *ngFor="let pregunta of grupo.pregunta" class="row">
-                        <div class="col-md-1">
-                            <i class="fa fa-bullseye {{ publicacion.estilos.color }}" aria-hidden="true"></i>
-                        </div>
-                        <div class="col-md-11">
-                            <p class="f-open-sans-c font-italic {{ publicacion.estilos.color }} fs-20 lh-25 m-0">
-                                {{ pregunta.pregunta }}
-                            </p>
-                            <p class="f-open-sans-c fs-20 text-white-50 lh-25">
-                                === {{ pregunta.respuestaSugerida }}
-                            </p>
+
+                <div id="preguntas">
+                    <div *ngFor="let grupo of preguntas; let i = index" >
+                        <a type="button" id="pre{{ i }}" class="d-flex align-items-center">
+                            <h2 class="f-bebas p-0 fw-3 fs-40 lh-40 text-light m-0 p-0" data-toggle="collapse" [attr.data-target]="['#refer'+ i]" aria-expanded="true" aria-controls="collapseOne">
+                                {{ grupo.categoria }}
+                            </h2>
+                            <i class="ml-2 c7 bi bi-plus-lg"></i>
+                        </a>
+                        <div class="collapse" id="refer{{i}}" [attr.aria-labelledby]="['#pre'+ i]" data-parent="#preguntas">
+                            <div *ngFor="let pregunta of grupo.pregunta" class="row">
+                                <div class="col-md-1">
+                                    <i class="bi bi-dash {{ publicacion.estilos.color }}" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-md-11">
+                                    <h4 class="f-yanone fs-20 lh-20 text-light p-0 text-uppercase mb-2">
+                                        {{ pregunta.pregunta }}
+                                    </h4>
+                                    <p *ngIf="pregunta.sugerencia" class="f-open-sans-c fs-20 c7 lh-20">
+                                        <b>Sugerencia/=</b> {{ pregunta.sugerencia }}
+                                    </p>
+                                    <p *ngIf="pregunta.respuestaEjemplo" class="f-shadow-into-l fs-20 {{ publicacion.estilos.color }} lh-25 text-shadow-one mb-5">
+                                        Respuesta ejemplo/= {{ pregunta.respuestaEjemplo }}
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="espacio"></div>
                 </div>
             </div>
         </div>
+        <div class="espaciado"></div>
 
         <div class="row">
             <div class="col-xl-3">
@@ -304,7 +317,7 @@
                     PRUEBA TÉCNICA
                 </h2>
                 <p class="fuenteDos c7 fs-18 lh-20">
-                    l...
+                    Lo ideal de la prueba técnica es que represente parte del trabajo y sean similiares a un requerimiento de buen nivel.
                 </p>
             </div>
             <div class="col-xl-1"></div>
