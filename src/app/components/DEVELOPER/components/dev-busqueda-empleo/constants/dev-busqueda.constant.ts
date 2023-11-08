@@ -1,5 +1,6 @@
 import { PreguntasModel } from "@components/DEVELOPER/models/dev-busqueda.model";
 import { IAgencia } from "../models/empleo.model";
+import { IndiceDeContenidosModel } from "@shared/models/indice.model";
 
 export const MARKETING = [
     'Ampliar la red con contactos de valor, según mi perfil y lo que busco.',
@@ -163,7 +164,7 @@ export const PREGUNTAS: PreguntasModel[] = [
         ]
     },
     {
-        categoria: 'TÉCNICAS HTML, CSS Y JAVASCRIPT',
+        categoria: 'HTML, CSS Y JAVASCRIPT',
         pregunta:[
             {
                 id:1,
@@ -365,6 +366,161 @@ export const PREGUNTAS: PreguntasModel[] = [
                 respuestaEjemplo:''
             }
         ]
+    }
+]
+
+export const LINK_AGENCIAS:{link:string, alias:string}[] = [
+    {
+        link:'https://www.recruiter.com/',
+        alias:'Recruiter'
+    },
+    {
+        link:'https://www.getonbrd.com/',
+        alias:'GetOnBoard'
+    },
+    {
+        link:'https://www.klimbup.com/',
+        alias:'KLIMBUP'
+    },
+    {
+        link:'https://www.freelancer.com/',
+        alias:'Freelancer'
+    },
+    {
+        link:'https://talentbox.la/',
+        alias:'TalentBox'
+    },
+    {
+        link:'https://www.sihaytrabajo.com.co/',
+        alias:'Si hay Trabajo'
+    },
+    {
+        link:'https://co.indeed.com/',
+        alias:'Indeed'
+    },
+    {
+        link:'https://co.computrabajo.com/',
+        alias:'Computrabajo'
+    },
+    {
+        link:'https://www.michaelpage.com.co/',
+        alias:'Michael Page'
+    },
+    {
+        link:'https://thinkus.io/es/',
+        alias:'ThinkUS'
+    },
+    {
+        link:'https://developers.turing.com/',
+        alias:'Turing'
+    },
+    {
+        link:'https://sophilabs.com/',
+        alias:'Sophi Labs'
+    },
+    {
+        link:'https://devsu.com/',
+        alias:'DevSu'
+    },
+    {
+        link:'https://www.caseware.com/',
+        alias:'CaseWare'
+    },
+    {
+        link:'https://stefanini.com/es',
+        alias:'Stefanini'
+    },
+    {
+        link:'https://periferiaitgroup.com/',
+        alias:'Periferia IT Group'
+    },
+    {
+        link:'https://www.accenture.com/co-es',
+        alias:'Accenture'
+    },
+    {
+        link:'https://www.sophossolutions.com/es/',
+        alias:'Softlogic'
+    },
+    {
+        link:'https://andela.com/',
+        alias:'Andela'
+    },
+    {
+        link:'https://www.fastdolphin.com/',
+        alias:'Fast Dolphin'
+    },
+    {
+        link:'https://www.encora.com/es/',
+        alias:'Encora'
+    },
+    {
+        link:'https://www.nivelics.com/es',
+        alias:'Nivelics'
+    },
+    {
+        link:'https://www.signifytechnology.com/?source=google.com',
+        alias:'Signify Technologies'
+    },
+    {
+        link:'https://www.tektonlabs.com/',
+        alias:'TektonLabs'
+    },
+    {
+        link:'https://personalsoft.com/co/',
+        alias:'Personal Soft'
+    },
+    {
+        link:'https://mbcgroup.co/',
+        alias:'MBC Group'
+    },
+    {
+        link:'https://www.chumijobs.com/',
+        alias:'Chumi Jobs'
+    },
+    {
+        link:'https://cesde.hiringroom.com/jobs',
+        alias:'CESDE'
+    },
+    {
+        link:'https://www.kibernum.com/',
+        alias:'Kibernum'
+    },
+    {
+        link:'https://www.deel.com/es/',
+        alias:'Deel'
+    },
+    {
+        link:'https://solvoglobal.com/',
+        alias:'Solvo Global'
+    },
+    {
+        link:'https://solvedex.com/',
+        alias:'SolveDex'
+    },
+    {
+        link:'https://www.cco.systems/',
+        alias:'CCO Systems'
+    },
+    {
+        link:'https://www.epam.com/',
+        alias:'Epam Systems'
+    },
+    {
+        link:'https://www.linkedin.com/school/talentlytech/',
+        alias:'Talenty Tech'
+    },
+    {
+        link:'https://www.serviguidebpo.com/',
+        alias:'Servigui BPO'
+    },
+    {
+        link:'https://praxis.edu.co/',
+        alias:'PRAXIS'
+    },
+    {
+        link:'https://website.talentpitch.co/',
+        alias:'Talent Pitch'
     }
 ]
     

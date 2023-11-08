@@ -190,36 +190,13 @@
                 </p>
                 <div class="espacio"></div>
                 <div class="row">
-                    <div class="col bords m-3 text-center">
-                        <a href="https://co.indeed.com" target="_blank">
-                            <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-indeed.png" alt="Logo indeed" height="30" width="auto" class="drop">
+                    <div *ngFor="let agencia of url_agencias" class="col">
+                        <a href="{{agencia.link}}" class="c7 fuenteDos fs-18 l-menu cursor-p pr-2 pl-2">
+                            {{ agencia.alias }}
                         </a>
                     </div>
-                    <div class="col bords m-3 text-center">
-                        <a href="https://co.computrabajo.com/" target="_blank">
-                            <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-computrabajo.png" alt="Logo computrabajo" height="30" width="auto" class="drop">
-                        </a>
-                    </div>
-                    <div class="col bords m-3 text-center">
-                        <a href="https://www.sihaytrabajo.com.co/" target="_blank">
-                            <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-sihaytrabajo.png" alt="logo-sihaytrabajo" height="60" width="auto" class="drop">
-                        </a>
-                    </div>
-                    <div class="col bords m-3 text-center">
-                        <a href="https://talentbox.la/" target="_blank">
-                            <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-talentbox.png" alt="logo talentbox" height="40" width="auto" class="drop">
-                        </a>
-                    </div>
-                    <div class="col bords m-3 text-center">
-                        <a href="https://www.freelancer.com/" target="_blank">
-                            <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-freelance.svg" alt="logo freelancer" height="50" width="auto" class="drop">
-                        </a>
-                    </div>
-                    <div class="col bords m-3 text-center">
-                        <a href="https://www.klimbup.com/" target="_blank">
-                            <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-klimb.png" alt="logo klimb" height="40" width="auto" class="drop">
-                        </a>
-                    </div>
+
+
                 </div>
             </div>
         </div>
@@ -280,8 +257,8 @@
 
                 <div id="preguntas">
                     <div *ngFor="let grupo of preguntas; let i = index" >
-                        <a type="button" id="pre{{ i }}" class="d-flex align-items-center">
-                            <h2 class="f-bebas p-0 fw-3 fs-40 lh-40 text-light m-0 p-0" data-toggle="collapse" [attr.data-target]="['#refer'+ i]" aria-expanded="true" aria-controls="collapseOne">
+                        <a type="button" id="pre{{ i }}" class="d-flex align-items-center" data-toggle="collapse" [attr.data-target]="['#refer'+ i]" aria-expanded="true" aria-controls="collapseOne">
+                            <h2 class="f-bebas p-0 fw-3 fs-40 lh-40 text-light m-0 p-0">
                                 {{ grupo.categoria }}
                             </h2>
                             <i class="ml-2 c7 bi bi-plus-lg"></i>
