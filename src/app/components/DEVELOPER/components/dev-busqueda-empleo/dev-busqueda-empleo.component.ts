@@ -5,7 +5,7 @@ import { cargarBreadcrumb, cargarIndice } from '@shared/constants/funciones/func
 import { CategoriaModel } from '@shared/models';
 import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
 import { IndiceDeContenidosModel } from '@shared/models/indice.model';
-import { AGENCIAS, LINK_AGENCIAS, MARKETING, PREGUNTAS } from './constants/dev-busqueda.constant';
+import { AGENCIAS, BLOQUE_LINKS, MARKETING, PREGUNTAS } from './constants/dev-busqueda.constant';
 import { PreguntasModel } from '@components/DEVELOPER/models/dev-busqueda.model';
 import { IAgencia } from './models/empleo.model';
 
@@ -21,11 +21,10 @@ export class DevBusquedaEmpleoComponent implements OnInit {
   public publicacion = new DatosPost();
   public categoria = new CategoriaPostModel();
   public breadcrumb = new CategoriaModel();
-
   public marketing: string[] = [];
-  public url_agencias: {link:string, alias:string}[] = [];
   public preguntas:PreguntasModel[]=[];
   public agencias: IAgencia[]=[];
+  public bloqueLinks: IndiceDeContenidosModel[]=[];
 
 
   constructor() { }
@@ -38,7 +37,7 @@ export class DevBusquedaEmpleoComponent implements OnInit {
     this.agencias = AGENCIAS;
     this.marketing = MARKETING;
     this.preguntas = PREGUNTAS;
-    this.url_agencias = LINK_AGENCIAS;
+    this.bloqueLinks = BLOQUE_LINKS.sort((a:any,b:any) => a.nombre.toLowerCase().charCodeAt(0) - b.nombre.toLowerCase().charCodeAt(0));
   }
 
   public scroll(el: HTMLElement){

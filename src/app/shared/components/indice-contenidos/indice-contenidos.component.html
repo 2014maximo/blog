@@ -8,5 +8,9 @@
             <del *ngIf="!validaEstado(contenido.estado)">{{ contenido.nombre.substring(0, 18) }} ...</del>
             <span *ngIf="validaEstado(contenido.estado)">{{ contenido.nombre.substring(0, 18) }} ...</span>
         </a>
+        <a *ngIf="validaEstado(contenido.estado) && contenido.rutaExterna" href="{{ contenido.rutaExterna }}" target="_blank" class="{{ contenido.color }} text-uppercase" >
+            <del *ngIf="!validaEstado(contenido.estado)">{{ contenido.nombre.substring(0, 18) }} ...</del>
+            <span *ngIf="validaEstado(contenido.estado)">{{ contenido.nombre.substring(0, 18) }} ...</span>
+        </a>
     </div>
 </div>

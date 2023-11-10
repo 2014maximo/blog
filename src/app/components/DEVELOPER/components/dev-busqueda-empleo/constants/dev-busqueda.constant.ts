@@ -1,6 +1,7 @@
 import { PreguntasModel } from "@components/DEVELOPER/models/dev-busqueda.model";
 import { IAgencia } from "../models/empleo.model";
 import { IndiceDeContenidosModel } from "@shared/models/indice.model";
+import { BloqueContenidoModel } from "@shared/models/bloque-contenidos.model";
 
 export const MARKETING = [
     'Ampliar la red con contactos de valor, según mi perfil y lo que busco.',
@@ -140,11 +141,43 @@ export const PREGUNTAS: PreguntasModel[] = [
     },
     {
         categoria: 'LABORALES',
-        pregunta:[]
+        pregunta:[
+            {
+                id:1,
+                pregunta:'Cual fue la última empresa donde laboraste?',
+                sugerencia:'',
+                respuestaEjemplo:''
+            },
+            {
+                id:2,
+                pregunta:'Cuéntanos como fue tu experiencia en la última empresa?',
+                sugerencia:'',
+                respuestaEjemplo:''
+            },
+            {
+                id:3,
+                pregunta:'Cual fue tu mayor reto en esta empresa y porque?',
+                sugerencia:'',
+                respuestaEjemplo:''
+            },
+        ]
     },
     {
         categoria: 'ESTUDIOS',
-        pregunta:[]
+        pregunta:[
+            {
+                id:1,
+                pregunta:'Hasta que nivel estudiaste?',
+                sugerencia:'',
+                respuestaEjemplo:''
+            },
+            {
+                id:2,
+                pregunta:'Tienes maestrías o diplomados?',
+                sugerencia:'',
+                respuestaEjemplo:''
+            },
+        ]
     },
     {
         categoria: 'DESARROLLO FRONTEND',
@@ -369,158 +402,395 @@ export const PREGUNTAS: PreguntasModel[] = [
     }
 ]
 
-export const LINK_AGENCIAS:{link:string, alias:string}[] = [
+export const BLOQUE_LINKS: IndiceDeContenidosModel[] = [
     {
-        link:'https://www.recruiter.com/',
-        alias:'Recruiter'
+        rutaExterna:'https://www.recruiter.com/',
+        nombre:'Recruiter',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://www.getonbrd.com/',
-        alias:'GetOnBoard'
+        rutaExterna:'https://www.getonbrd.com/',
+        nombre:'GetOnBoard',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://www.klimbup.com/',
-        alias:'KLIMBUP'
+        rutaExterna:'https://www.klimbup.com/',
+        nombre:'KLIMBUP',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://www.freelancer.com/',
-        alias:'Freelancer'
+        rutaExterna:'https://www.freelancer.com/',
+        nombre:'Freelancer',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://talentbox.la/',
-        alias:'TalentBox'
+        rutaExterna:'https://talentbox.la/',
+        nombre:'TalentBox',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://www.sihaytrabajo.com.co/',
-        alias:'Si hay Trabajo'
+        rutaExterna:'https://www.sihaytrabajo.com.co/',
+        nombre:'Si hay Trabajo',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://co.indeed.com/',
-        alias:'Indeed'
+        rutaExterna:'https://co.indeed.com/',
+        nombre:'Indeed',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://co.computrabajo.com/',
-        alias:'Computrabajo'
+        rutaExterna:'https://co.computrabajo.com/',
+        nombre:'Computrabajo',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://www.michaelpage.com.co/',
-        alias:'Michael Page'
+        rutaExterna:'https://www.michaelpage.com.co/',
+        nombre:'Michael Page',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://thinkus.io/es/',
-        alias:'ThinkUS'
+        rutaExterna:'https://thinkus.io/es/',
+        nombre:'ThinkUS',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://developers.turing.com/',
-        alias:'Turing'
+        rutaExterna:'https://developers.turing.com/',
+        nombre:'Turing',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://sophilabs.com/',
-        alias:'Sophi Labs'
+        rutaExterna:'https://sophilabs.com/',
+        nombre:'Sophi Labs',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://devsu.com/',
-        alias:'DevSu'
+        rutaExterna:'https://devsu.com/',
+        nombre:'DevSu',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://www.caseware.com/',
-        alias:'CaseWare'
+        rutaExterna:'https://www.caseware.com/',
+        nombre:'CaseWare',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://stefanini.com/es',
-        alias:'Stefanini'
+        rutaExterna:'https://stefanini.com/es',
+        nombre:'Stefanini',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://periferiaitgroup.com/',
-        alias:'Periferia IT Group'
+        rutaExterna:'https://periferiaitgroup.com/',
+        nombre:'Periferia IT Group',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://www.accenture.com/co-es',
-        alias:'Accenture'
+        rutaExterna:'https://www.accenture.com/co-es',
+        nombre:'Accenture',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://www.sophossolutions.com/es/',
-        alias:'Softlogic'
+        rutaExterna:'https://www.sophossolutions.com/es/',
+        nombre:'Softlogic',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://andela.com/',
-        alias:'Andela'
+        rutaExterna:'https://andela.com/',
+        nombre:'Andela',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://www.fastdolphin.com/',
-        alias:'Fast Dolphin'
+        rutaExterna:'https://www.fastdolphin.com/',
+        nombre:'Fast Dolphin',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://www.encora.com/es/',
-        alias:'Encora'
+        rutaExterna:'https://www.encora.com/es/',
+        nombre:'Encora',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://www.nivelics.com/es',
-        alias:'Nivelics'
+        rutaExterna:'https://www.nivelics.com/es',
+        nombre:'Nivelics',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://www.signifytechnology.com/?source=google.com',
-        alias:'Signify Technologies'
+        rutaExterna:'https://www.signifytechnology.com/?source=google.com',
+        nombre:'Signify Technologies',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://www.tektonlabs.com/',
-        alias:'TektonLabs'
+        rutaExterna:'https://www.tektonlabs.com/',
+        nombre: 'TektonLabs',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:''
     },
     {
-        link:'https://personalsoft.com/co/',
-        alias:'Personal Soft'
+        nombre: 'TektonLabs',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://www.tektonlabs.com/'
     },
     {
-        link:'https://mbcgroup.co/',
-        alias:'MBC Group'
+        nombre: 'Personal Soft',
+        posicion: 'rot-3',
+        ruta: '',
+        colorFondo: 'bg-Developer',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://personalsoft.com/co/'
     },
     {
-        link:'https://www.chumijobs.com/',
-        alias:'Chumi Jobs'
+        nombre: 'MBC Group',
+        posicion: 'rot-3',
+        ruta: '',
+        colorFondo: 'bg-white',
+        color: 'text-dark',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://mbcgroup.co/'
     },
     {
-        link:'https://cesde.hiringroom.com/jobs',
-        alias:'CESDE'
+        nombre: 'Chumi Jobs',
+        posicion: 'post-z',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://www.chumijobs.com/'
     },
     {
-        link:'https://www.kibernum.com/',
-        alias:'Kibernum'
+        nombre: 'CESDE',
+        posicion: 'rot-1',
+        ruta: '',
+        colorFondo: 'bg-Developer',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://cesde.hiringroom.com/jobs'
     },
     {
-        link:'https://www.deel.com/es/',
-        alias:'Deel'
+        nombre: 'Kibernum',
+        posicion: 'rot-3',
+        ruta: '',
+        colorFondo: 'bg-white',
+        color: 'text-dark',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://www.kibernum.com/'
     },
     {
-        link:'https://solvoglobal.com/',
-        alias:'Solvo Global'
+        nombre: 'Deel',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-Linux',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://www.deel.com/es/'
     },
     {
-        link:'https://solvedex.com/',
-        alias:'SolveDex'
+        nombre: 'Solvo Global',
+        posicion: 'rot-1',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://solvoglobal.com/'
     },
     {
-        link:'https://www.cco.systems/',
-        alias:'CCO Systems'
+        nombre: 'SolveDex',
+        posicion: 'rot-3',
+        ruta: '',
+        colorFondo: 'bg-Developer',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://solvedex.com/'
     },
     {
-        link:'https://www.epam.com/',
-        alias:'Epam Systems'
+        nombre: 'CCO Systems',
+        posicion: 'post-z',
+        ruta: '',
+        colorFondo: 'bg-dark',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://www.cco.systems/'
     },
     {
-        link:'https://www.linkedin.com/school/talentlytech/',
-        alias:'Talenty Tech'
+        nombre: 'Epam Systems',
+        posicion: 'rot-1',
+        ruta: '',
+        colorFondo: 'bg-Developer',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://www.epam.com/'
     },
     {
-        link:'https://www.serviguidebpo.com/',
-        alias:'Servigui BPO'
+        nombre: 'Talenty Tech',
+        posicion: 'rot-1',
+        ruta: '',
+        colorFondo: 'bg-Linux',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://www.linkedin.com/school/talentlytech/'
     },
     {
-        link:'https://praxis.edu.co/',
-        alias:'PRAXIS'
+        nombre: 'Talent Pitch',
+        posicion: 'post-z',
+        ruta: '',
+        colorFondo: 'bg-white',
+        color: 'text-dark',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://website.talentpitch.co/'
     },
     {
-        link:'https://website.talentpitch.co/',
-        alias:'Talent Pitch'
-    }
+        nombre: 'PRAXIS',
+        posicion: 'rot-1',
+        ruta: '',
+        colorFondo: 'bg-Linux',
+        color: 'text-light',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://praxis.edu.co/'
+    },
+    {
+        nombre: 'Servigui BPO',
+        posicion: 'rot-2',
+        ruta: '',
+        colorFondo: 'bg-white',
+        color: 'text-dark',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://www.serviguidebpo.com/'
+    },
 ]
-    

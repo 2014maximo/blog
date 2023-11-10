@@ -190,13 +190,7 @@
                 </p>
                 <div class="espacio"></div>
                 <div class="row">
-                    <div *ngFor="let agencia of url_agencias" class="col">
-                        <a href="{{agencia.link}}" class="c7 fuenteDos fs-18 l-menu cursor-p pr-2 pl-2">
-                            {{ agencia.alias }}
-                        </a>
-                    </div>
-
-
+                    <app-indice-contenidos [indice]="bloqueLinks" ></app-indice-contenidos>
                 </div>
             </div>
         </div>
