@@ -8,6 +8,7 @@ import { IndiceDeContenidosModel } from '@shared/models/indice.model';
 import { AGENCIAS, BLOQUE_LINKS, MARKETING, PREGUNTAS } from './constants/dev-busqueda.constant';
 import { PreguntasModel } from '@components/DEVELOPER/models/dev-busqueda.model';
 import { IAgencia } from './models/empleo.model';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-dev-busqueda-empleo',
@@ -27,7 +28,9 @@ export class DevBusquedaEmpleoComponent implements OnInit {
   public bloqueLinks: IndiceDeContenidosModel[]=[];
 
 
-  constructor() { }
+  constructor(public translate: TranslateService) {
+    translate.setDefaultLang(navigator.language.split('-')[0]);
+  }
 
   ngOnInit(): void {
     this.publicacion = postActual(this.idPublicacion)[0];

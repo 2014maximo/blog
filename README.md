@@ -19,8 +19,9 @@ SUBIR CAMBIOS A GITHUB (ANTERIOR, no funciona 2022)
 npx angular-cli-ghpages – dir=dist
 
 SUBIR CAMBIOS AL HOSTING FIREBASE
-(PREVIO, UNA PRIMERA VEZ EN EL PC DE TRABAJO SE TIRA):
+(PREVIO, UNA PRIMERA VEZ EN WINDOWS EL PC DE TRABAJO SE TIRA):
 npm install -g firebase-tools
+firebase login
 
 INSTALAR FIREBASE EN UBUNTU (LINUX)
 curl -sL https://firebase.tools | bash

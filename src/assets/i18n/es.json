@@ -3,5 +3,12 @@
     "Buscar": "Buscar",
     "Email": "Email",
     "Comentarios": "Comentarios",
-    "Enviar": "Enviar"
+    "Enviar": "Enviar",
+    "DEV":{
+        "be":{
+            "predisposicion1":"Antes de decirle al mundo que buscamos empleo, primero hay que saberlo dentro. Por obvias razones si se esta en la búsqueda es porque presuntamente hay total convencimiento.",
+            "predisposicion2":"La sola predisposición termina siendo la mayor fuerza que va a conectar todo.",
+            "predisposicion3":"No sirve de nada iniciar una búsqueda sin tenerlo como un objetivo prescindible en la vida."
+        }
+    }
 }
