@@ -6,9 +6,11 @@
     "Enviar": "Send",
     "DEV":{
         "be":{
+            "predisposicion":"PREDISPOSITION",
             "predisposicion1":"Before we tell the world that we are looking for a job, we must first know it inside. For obvious reasons, if you are looking for a job, it is presumably because you are totally convinced.",
             "predisposicion2":"Predisposition alone ends up being the major force that will connect everything.",
-            "predisposicion3":"There is no point in starting a search without having it as an expendable goal in life."
+            "predisposicion3":"There is no point in starting a search without having it as an expendable goal in life.",
+            "ejercicio_fisico":"PHYSICAL EXERCISE"
         }
     }
 }

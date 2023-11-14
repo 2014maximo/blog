@@ -6,9 +6,11 @@
     "Enviar": "Envoyer",
     "DEV":{
         "be":{
+            "predisposicion":"PREDISPOSITION",
             "predisposicion1":"Avant de dire au monde que l'on cherche un emploi, il faut d'abord le connaître de l'intérieur. Pour des raisons évidentes, si vous cherchez un emploi, c'est vraisemblablement parce que vous en êtes convaincu.",
             "predisposicion2":"La prédisposition seule finit par être la force majeure qui relie tout.",
-            "predisposicion3":"Il ne sert à rien d'entamer une recherche sans en faire un objectif à atteindre dans la vie."
+            "predisposicion3":"Il ne sert à rien d'entamer une recherche sans en faire un objectif à atteindre dans la vie.",
+            "ejercicio_fisico":"L'EXERCICE PHYSIQUE"
         }
     }
 }

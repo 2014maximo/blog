@@ -5,7 +5,7 @@ import { cargarBreadcrumb, cargarIndice } from '@shared/constants/funciones/func
 import { CategoriaModel } from '@shared/models';
 import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
 import { IndiceDeContenidosModel } from '@shared/models/indice.model';
-import { AGENCIAS, BLOQUE_LINKS, MARKETING, PREGUNTAS } from './constants/dev-busqueda.constant';
+import { AGENCIAS, BLOQUE_LINKS, MARKETING, PREGUNTAS, TEST } from './constants/dev-busqueda.constant';
 import { PreguntasModel } from '@components/DEVELOPER/models/dev-busqueda.model';
 import { IAgencia } from './models/empleo.model';
 import { TranslateService } from '@ngx-translate/core';
@@ -26,6 +26,9 @@ export class DevBusquedaEmpleoComponent implements OnInit {
   public preguntas:PreguntasModel[]=[];
   public agencias: IAgencia[]=[];
   public bloqueLinks: IndiceDeContenidosModel[]=[];
+  public text = TEST;
+  public textosATraducir: string[] = ['ejer', 'ejer1', 'ejer2'];
+  public textosTraducidos: string[] = [];
 
 
   constructor(public translate: TranslateService) {
@@ -33,6 +36,7 @@ export class DevBusquedaEmpleoComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.traducirTextos();
     this.publicacion = postActual(this.idPublicacion)[0];
     this.categoria = CATEGORIA.filter( e => e.nombre === this.publicacion.categoria)[0];
     this.indiceTypescript = cargarIndice(this.publicacion);
@@ -53,6 +57,17 @@ export class DevBusquedaEmpleoComponent implements OnInit {
 
   public activo(e:any):string{
     return e.srcElement.ariaExpanded?'active' : '';
+  }
+
+  public cambiarLenguaje(lang: string) {
+    this.translate.use(lang); // Cambia el actual lenguaje
+  }
+
+  traducirTextos(){
+    this.textosATraducir.forEach(key => {
+      const traduccion = this.translate.instant(key);
+      this.textosTraducidos.push(traduccion);
+    });
   }
 
 }

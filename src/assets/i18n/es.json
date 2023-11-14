@@ -6,9 +6,20 @@
     "Enviar": "Enviar",
     "DEV":{
         "be":{
+            "predisposicion":"PREDISPOSICIÓN",
             "predisposicion1":"Antes de decirle al mundo que buscamos empleo, primero hay que saberlo dentro. Por obvias razones si se esta en la búsqueda es porque presuntamente hay total convencimiento.",
             "predisposicion2":"La sola predisposición termina siendo la mayor fuerza que va a conectar todo.",
-            "predisposicion3":"No sirve de nada iniciar una búsqueda sin tenerlo como un objetivo prescindible en la vida."
+            "predisposicion3":"No sirve de nada iniciar una búsqueda sin tenerlo como un objetivo prescindible en la vida.",
+            "ejercicio_fisico":"EJERCICIO FÍSICO",
+            "ejercicio1":"Todo el que saludablemente se pueda hacer.",
+            "ejercicio2":"Existen demasiados beneficios asociados al deporte, especialmente lo que se busca de esta parte es la serotonina, la sustancia de la felicidad natural del cuerpo.",
+            "ejercicio3":"Qué acompañe todos los días como parte de la rutina de la búsqueda.",
+            "curriculum":"CURRICULUM VITAE",
+            "curriculum1":"Sin duda alguna se requiere hoja de vida con tu información personal, educativa y profesional.",
+            "curriculum2":"En este caso sugiero estos recursos online donde puedes organizar toda tu información:",
+            "ejer":"TITULO",
+            "ejer1":"lorem ipsum lorem ipsum",
+            "ejer2":"lorem ipsum lorem ipsum LOREM IPSUM"
         }
     }
 }

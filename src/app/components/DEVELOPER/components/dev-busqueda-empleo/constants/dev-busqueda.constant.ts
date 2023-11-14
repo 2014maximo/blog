@@ -794,3 +794,18 @@ export const BLOQUE_LINKS: IndiceDeContenidosModel[] = [
         rutaExterna:'https://www.serviguidebpo.com/'
     },
 ]
+
+export const TEST = [
+    {
+        prueba1:"DEV.be.eje",
+    },
+    {
+        prueba2:"prueba2",
+    },
+    {
+        prueba3:"prueba2",
+    },
+    {
+        prueba4:"prueba2",
+    }
+]
