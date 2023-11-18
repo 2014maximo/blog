@@ -16,7 +16,16 @@
             "ejercicio3":"That it accompanies every day as part of the routine of the search.",
             "curriculum":"CURRICULUM VITAE",
             "curriculum1":"Without a doubt, a resume with your personal, educational and professional information is required.",
-            "curriculum2":"In this case I suggest these online resources where you can organize all your information:"
+            "curriculum2":"In this case I suggest these online resources where you can organize all your information:",
+            "cv":{
+                "cv1":"Resume formats, portfolios, legal letter formats, etc.",
+                "cv2":"Create your resume in just 5 minutes",
+                "cv3":"Your Curriculum Vitae fast, easy to use and professional",
+                "cv4":"Create your resume like a professional",
+                "cv5":"Create a job-ready resume in minutes",
+                "cv6":"Free online resume builder",
+                "cv7":"Your success story starts with a resume"
+            }
         }
     }
 }

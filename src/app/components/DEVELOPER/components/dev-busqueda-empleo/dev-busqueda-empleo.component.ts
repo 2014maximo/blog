@@ -28,16 +28,14 @@ export class DevBusquedaEmpleoComponent implements OnInit {
 	public bloqueLinks: IndiceDeContenidosModel[] = [];
 	public text = TEST;
 	public textosATraducir: any;
-	public textosTraducidos: string[] = [];
-
+	public cv:any = {};
 
 	constructor(public translate: TranslateService) {
 		translate.setDefaultLang(navigator.language.split('-')[0]);
 	}
 
 	ngOnInit(): void {
-		this.textosTraducidos = ['ejer','ejer1','ejer2']
-		this.traducirTextos();
+		this.cargaCv();
 		this.publicacion = postActual(this.idPublicacion)[0];
 		this.categoria = CATEGORIA.filter(e => e.nombre === this.publicacion.categoria)[0];
 		this.indiceTypescript = cargarIndice(this.publicacion);
@@ -52,6 +50,12 @@ export class DevBusquedaEmpleoComponent implements OnInit {
 		el.scrollIntoView();
 	}
 
+	public cargaCv(){
+		this.translate.get('DEV.be.cv').subscribe((translated: string) => {
+			this.cv = translated;
+		});
+	}
+
 	public idFormat(refer: string, id?: number): string {
 		return id ? `${refer.toLowerCase()}+${id}` : `${refer.toLowerCase()}`;
 	}
@@ -62,13 +66,7 @@ export class DevBusquedaEmpleoComponent implements OnInit {
 
 	public cambiarLenguaje(lang: string) {
 		this.translate.use(lang); // Cambia el actual lenguaje
-		this.traducirTextos();
-	}
-
-	traducirTextos() {
-		this.translate.get('DEV.be').subscribe((translated: string) => {
-			this.textosATraducir = translated;
-		});
+		this.cargaCv();
 	}
 
 }

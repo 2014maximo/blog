@@ -16,7 +16,16 @@
             "ejercicio3":"Accompagner chaque jour dans le cadre de la routine de la recherche.",
             "curriculum":"CURRICULUM VITAE",
             "curriculum1":"Un curriculum vitae contenant des informations personnelles, éducatives et professionnelles est absolument nécessaire.",
-            "curriculum2":"Dans ce cas, je vous suggère ces ressources en ligne où vous pouvez organiser toutes vos informations :"
+            "curriculum2":"Dans ce cas, je vous suggère ces ressources en ligne où vous pouvez organiser toutes vos informations :",
+            "cv":{
+                "cv1":"Formats de curriculum vitae, portfolios, lettres juridiques",
+                "cv2":"Créez votre CV en 5 minutes",
+                "cv3":"Votre Curriculum Vitae rapide, facile à utiliser et professionnel",
+                "cv4":"Créez votre CV comme un professionnel",
+                "cv5":"Créer un CV prêt à l'emploi en quelques minutes",
+                "cv6":"Constructeur de CV en ligne gratuit",
+                "cv7":"Votre réussite commence par un curriculum vitae"
+            }
         }
     }
 }
