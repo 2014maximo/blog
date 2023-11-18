@@ -280,6 +280,61 @@
                                 "pregunta":"NOMBRA TODOS LOS ELEMENTOS QUE CONOZCAS QUE FUERON INTRODUCIDOS EN HTML 5",
                                 "sugerencia":"",
                                 "ejemplo":""
+                            },
+                            "bl23":{
+                                "pregunta":"¿CUÁL ES LA DIFERENCIA ENTRE VAR, LET Y CONST?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl24":{
+                                "pregunta":"¿QUÉ ES ECMA Y/O QUE DEFINE?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl25":{
+                                "pregunta":"MENCIONA AL MENOS DOS FRAMEWORKS DE TEST UNITARIOS PARA JAVASCRIPT",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl26":{
+                                "pregunta":"¿CUÁL ES LA DIFERENCIA ENTRE UNA CLASE Y UN OBJETO EN PROGRAMACIÓN?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl27":{
+                                "pregunta":"¿QUÉ FORMAS HAY PARA OBTENER LAS VARIABLES DEL SIGUIENTE OBJETO USANDO ES5 Y ES6 CONST USER = {NAME: USERNAME, AGE: 99}",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl28":{
+                                "pregunta":"EXPLICA QUÉ HACE LA SIGUIENTE LÍNEA CONSIDERANDO QUE MONTHS ES UN ARRAY DE MESES: MONTHS.SPLICE(1, 0, \"FEB\");",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl29":{
+                                "pregunta":"DESCRIBE EN DETALLE TODO LO QUE PUEDAS OBSERVAR DE LA SIGUIENTE FUNCIÓN: \"(() ⇒ {CONSOLE.LOG(\"HOLA MUNDO\");})()\"",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl30":{
+                                "pregunta":"CREA UNA PETICIÓN HTTP BÁSICA DE TIPO GET UTILIZANDO JAVASCRIPT A UN DOMINIO DE TU ELECCIÓN",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl31":{
+                                "pregunta":"¿CUÁL ES LA DIFERENCIA ENTRE UN TEST UNITARIO, TEST DE INTEGRACIÓN Y UN TEST DE ACEPTACIÓN?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl32":{
+                                "pregunta":"¿QUÉ CARACTERÍSTICAS DEBE TENER UN BUEN TEST UNITARIO?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl33":{
+                                "pregunta":"EN EL CICLO DE VIDA DE VUE, CUAL SERÍA LA DIFERENCIA ENTRE \"CREATED\" Y \"MOUNTED\"",
+                                "sugerencia":"",
+                                "ejemplo":""
                             }
                         }
                     }
