@@ -79,19 +79,19 @@
                     {{ 'DEV.be.curriculum2' | translate }}
                 </p>
                 <div class="espacio"></div>
+                    <div *ngFor="let agencia of agencias" class="row bordb">
+                        <div class="col-md-4">
+                            <a href="{{agencia.link}}" target="_blank">
+                                <img src="{{agencia.imagen}}" alt="{{agencia.alt}}" [attr.height]="[agencia.altura]" [attr.width]="[agencia.ancho]" class="drop">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <h4 class="f-yanone fs-20 lh-20 text-light p-0 text-uppercase mb-2">
+                                {{cv[agencia.titulo]}}
+                            </h4>
+                        </div>
+                    </div>
 
-                <div *ngFor="let agencia of agencias" class="row bordb">
-                    <div class="col-md-4">
-                        <a href="{{agencia.link}}" target="_blank">
-                            <img src="{{agencia.imagen}}" alt="{{agencia.alt}}" [attr.height]="[agencia.altura]" [attr.width]="[agencia.ancho]" class="drop">
-                        </a>
-                    </div>
-                    <div class="col-md-8">
-                        <h4 class="f-yanone fs-20 lh-20 text-light p-0 text-uppercase mb-2">
-                            {{agencia.titulo}}
-                        </h4>
-                    </div>
-                </div>
 
             </div>
         </div>
@@ -320,13 +320,6 @@
     <div class="col-md-1"></div>
 </div>
 
-<div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-        <p *ngFor="let campo of textosTraducidos" class="text-light">{{ campo }}</p>
-    </div>
-    <div class="col-md-1"></div>
-</div>
 
 
 

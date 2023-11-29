@@ -15,7 +15,7 @@ export const MARKETING = [
 
 export const AGENCIAS: IAgencia[] = [
     {
-        titulo: 'Formatos de hoja de vida, portafolios, formatos de cartas legales',
+        titulo: 'cv1',
         imagen: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/workface-white.png',
         altura: '70',
         ancho:'auto',
@@ -23,7 +23,7 @@ export const AGENCIAS: IAgencia[] = [
         alt:'logo workface'
     },
     {
-        titulo: 'Crear su curriculum en tan solo 5 minutos',
+        titulo: 'cv2',
         imagen: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-novoresume.png',
         altura: 'auto',
         ancho:'100%',
@@ -31,7 +31,7 @@ export const AGENCIAS: IAgencia[] = [
         alt:'logo novoresume'
     },
     {
-        titulo: 'Tu Curriculum Vitae rápido, fácil de usar y profesional',
+        titulo: 'cv3',
         imagen: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-zety.png',
         altura: 'auto',
         ancho:'100%',
@@ -39,7 +39,7 @@ export const AGENCIAS: IAgencia[] = [
         alt:'logo zety'
     },
     {
-        titulo: 'Crea tu curriculum como un profesional',
+        titulo: 'cv4',
         imagen: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-cvmaker.png',
         altura: 'auto',
         ancho:'100%',
@@ -47,7 +47,7 @@ export const AGENCIAS: IAgencia[] = [
         alt:'logo cvmaker'
     },
     {
-        titulo: 'Cree un currículum listo para el trabajo en minutos',
+        titulo: 'cv5',
         imagen: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-visualcv.png',
         altura: 'auto',
         ancho:'100%',
@@ -55,7 +55,7 @@ export const AGENCIAS: IAgencia[] = [
         alt:'logo visualcv'
     },
     {
-        titulo: 'Creador de currículums en línea gratuito',
+        titulo: 'cv6',
         imagen: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-canva.png',
         altura: 'auto',
         ancho:'100%',
@@ -63,7 +63,7 @@ export const AGENCIAS: IAgencia[] = [
         alt:'logo canva'
     },
     {
-        titulo: 'La historia de tu éxito empieza con un currículum',
+        titulo: 'cv7',
         imagen: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-kickresume.png',
         altura: 'auto',
         ancho:'100%',
@@ -802,6 +802,26 @@ export const BLOQUE_LINKS: IndiceDeContenidosModel[] = [
         estado: 'activo',
         rutaInterna:'',
         rutaExterna:'https://hoytrabajas.com/'
+    },
+    {
+        nombre: 'Unosquare',
+        posicion: 'rot-1',
+        ruta: '',
+        colorFondo: 'bg-Developer',
+        color: 'text-dark',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://www.unosquare.com/'
+    },
+    {
+        nombre: 'Neoris',
+        posicion: 'rot-1',
+        ruta: '',
+        colorFondo: 'bg-Developer',
+        color: 'text-dark',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://neoris.com/'
     },
 ]
 

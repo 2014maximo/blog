@@ -10,7 +10,22 @@
             "predisposicion1":"Avant de dire au monde que l'on cherche un emploi, il faut d'abord le connaître de l'intérieur. Pour des raisons évidentes, si vous cherchez un emploi, c'est vraisemblablement parce que vous en êtes convaincu.",
             "predisposicion2":"La prédisposition seule finit par être la force majeure qui relie tout.",
             "predisposicion3":"Il ne sert à rien d'entamer une recherche sans en faire un objectif à atteindre dans la vie.",
-            "ejercicio_fisico":"L'EXERCICE PHYSIQUE"
+            "ejercicio_fisico":"L'EXERCICE PHYSIQUE",
+            "ejercicio1":"Autant qu'il est possible de le faire de manière saine.",
+            "ejercicio2":"Les bienfaits associés au sport sont trop nombreux, et c'est surtout la sérotonine, la substance naturelle du corps qui est recherchée dans ce domaine.",
+            "ejercicio3":"Accompagner chaque jour dans le cadre de la routine de la recherche.",
+            "curriculum":"CURRICULUM VITAE",
+            "curriculum1":"Un curriculum vitae contenant des informations personnelles, éducatives et professionnelles est absolument nécessaire.",
+            "curriculum2":"Dans ce cas, je vous suggère ces ressources en ligne où vous pouvez organiser toutes vos informations :",
+            "cv":{
+                "cv1":"Formats de curriculum vitae, portfolios, lettres juridiques",
+                "cv2":"Créez votre CV en 5 minutes",
+                "cv3":"Votre Curriculum Vitae rapide, facile à utiliser et professionnel",
+                "cv4":"Créez votre CV comme un professionnel",
+                "cv5":"Créer un CV prêt à l'emploi en quelques minutes",
+                "cv6":"Constructeur de CV en ligne gratuit",
+                "cv7":"Votre réussite commence par un curriculum vitae"
+            }
         }
     }
 }
