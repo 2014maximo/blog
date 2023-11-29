@@ -25,6 +25,331 @@
                 "cv5":"Create a job-ready resume in minutes",
                 "cv6":"Free online resume builder",
                 "cv7":"Your success story starts with a resume"
+            },
+            "carta":{
+                "titulo":"COVER LETTER",
+                "tx1":"It is a personal letter that will introduce you to the company or position you are applying for.",
+                "tx2":"The words contained are usually very personal, the amazing thing about today is that if you ask artificial intelligence for help, it usually hits the nail on the head with inspiration.",
+                "tx3":" \"Currently, I have been focused on frontend development in Angular, with more than 5 years of experience. I like to work in a team, seek continuous training, apply new knowledge in development, and put my creativity and heart in my daily work. I also consider life and the time we have an opportunity and a blessing to share the passion that makes us unique, and that the world expects and needs to thrive.\"..."
+            },
+            "marketplace":{
+                "titulo":"TALENT MARKETPLACE",
+                "tx1":"Employment agencies determine the labor focal point, this is where we are a product that must stand out to be seen and taken into account.",
+                "tx2":"The outlook is favorable or not depending on the supply and demand of applicants, if there are few we will be very valuable and many things can be overlooked such as not fully mastering a technology or a senior position is required and ends up getting a semi, things like that.",
+                "tx3":"In this case, let us consider that the outlook is not favorable and that it is up to us to find a way to stand out from the crowd.",
+                "tx4":"If we have friends or relatives who can give us a direct recommendation in the company, let's use this possibility. A recruiter sees someone recommended better than a stranger initially.",
+                "linkedin":{
+                    "tx1":"The agencies' mom for employment with a much more complete sense focused on social networks.",
+                    "tx2":"For this part it is required to make a personal marketing taking into account these points:",
+                    "puntos":{
+                        "tx1":"Expand my network with valuable contacts, according to my profile and what I am looking for.",
+                        "tx2":"You need to be publishing valuable content.",
+                        "tx3":"Comment, make strong propositive comments, for example: \"wow\" what a great article because...",
+                        "tx4":"Write an attractive summary highlighting achievements and value propositions.",
+                        "tx5":"Add custom message when sending connection requests, to explain why you want to connect.",
+                        "tx6":"Follow companies that interest me and company recruiters.",
+                        "tx7":"Join groups related to your industry or area of interest, participate in conversations, share knowledge and establish valuable connections."
+                    },
+                    "tx3":"You are required to fill in a series of fields that ask you very repetitively, personal data, study 1, study 2, company 1, company 2...",
+                    "tx4":"Even if they are already included in the resume."
+                }
+            },
+            "entrevista":{
+                "titulo":"ENTREVISTA",
+                "tx1":"De alguna manera esto es muy parecido a la cita que logras con la chica(o) que te gusta.",
+                "tx2":"Es un gran paso y debe verse como un negocio en que ambas partes buscan que hay para ganar. Por ejemplo el salario es un tema que ambas partes tienen interés y es un punto en el que debemos saber como esta valorada nuesta profesión en el mercado.",
+                "tx3":"Aún sintiendo mucha confianza porque antes nos fue bien en empresas anteriores, o, en caso de ser todo lo contrario y los nervios hicieron sus destrozos, en ambos casos se deben conocer las preguntas comunes y tener claro que se debe responder sin falsedades. ",
+                "tx4":"Este es un excelente sitio con materiales gratuitos de preparación para entrevistas, seleccionados para personas ocupadas. ",
+                "tx5":"Estas son algunas de las preguntas más comunes que suelen hacer para cada caso:",
+                "preguntas":{
+                    "ctn1":{
+                        "categoria":"PERSONALES",
+                        "bls":{
+                            "bl1":{
+                                "pregunta":"CUÉNTAME SOBRE TI",
+                                "sugerencia":"Esta es una pregunta abierta que te da la oportunidad de hablar sobre tu experiencia, intereses y objetivos personales y profesionales.",
+                                "ejemplo":""
+                            },
+                            "bl2":{
+                                "pregunta":"¿POR QUÉ ESTÁS INTERESADO EN TRABAJAR EN NUESTRA EMPRESA?",
+                                "sugerencia":" Los entrevistadores quieren saber si has investigado sobre la empresa y si compartes sus valores y objetivos.",
+                                "ejemplo":""
+                            },
+                            "bl3":{
+                                "pregunta":"¿CUÁL ES TU EXPERIENCIA TRABAJANDO EN EQUIPOS DE DESARROLLO DE SOFTWARE?",
+                                "sugerencia":"Aquí pueden preguntarte sobre tus habilidades de comunicación, colaboración y adaptación a dinámicas de equipo.",
+                                "ejemplo":""
+                            },
+                            "bl4":{
+                                "pregunta":"¿PUEDES DESCRIBIR UN PROYECTO DESAFIANTE EN EL QUE HAYAS TRABAJADO Y CÓMO LO SUPERASTE?",
+                                "sugerencia":"Esta pregunta evalúa tus habilidades para resolver problemas y tu capacidad de afrontar desafíos.",
+                                "ejemplo":""
+                            },
+                            "bl5":{
+                                "pregunta":"¿CÓMO TE MANTIENES ACTUALIZADO CON LAS ÚLTIMAS TENDENCIAS Y TECNOLOGÍAS EN DESARROLLO DE SOFTWARE?",
+                                "sugerencia":" Los entrevistadores quieren saber si eres un profesional que sigue aprendiendo y se mantiene actualizado.",
+                                "ejemplo":""
+                            },
+                            "bl6":{
+                                "pregunta":"¿TIENES ALGUNA EXPERIENCIA EN TRABAJAR EN PROYECTOS ÁGILES O METODOLOGÍAS DE DESARROLLO ESPECÍFICAS?",
+                                "sugerencia":"Pueden preguntarte sobre tu adaptabilidad y experiencia en entornos de desarrollo específicos.",
+                                "ejemplo":""
+                            },
+                            "bl7":{
+                                "pregunta":"¿QUÉ TE MOTIVA EN TU CARRERA COMO DESARROLLADOR DE SOFTWARE?",
+                                "sugerencia":"Aquí puedes hablar sobre tus metas profesionales y lo que te entusiasma en el desarrollo de software.",
+                                "ejemplo":""
+                            },
+                            "bl8":{
+                                "pregunta":"¿CÓMO MANEJAS EL ESTRÉS Y LOS PLAZOS AJUSTADOS?",
+                                "sugerencia":"Esta pregunta evalúa tu capacidad para lidiar con situaciones de alta presión.",
+                                "ejemplo":""
+                            },
+                            "bl9":{
+                                "pregunta":"¿TIENES EXPERIENCIA EN LIDERAZGO O GESTIÓN DE EQUIPOS DE DESARROLLO?",
+                                "sugerencia":"Esto podría explorar tu potencial para asumir roles de liderazgo en el futuro.",
+                                "ejemplo":""
+                            },
+                            "bl10":{
+                                "pregunta":"¿CUÁL ES TU ENFOQUE EN CUANTO A LA CALIDAD DEL CÓDIGO Y LAS PRÁCTICAS DE DESARROLLO SOSTENIBLE?",
+                                "sugerencia":"Los entrevistadores pueden estar interesados en tu compromiso con la calidad y la mejora continua.",
+                                "ejemplo":""
+                            }
+                            
+                        }
+                    },
+                    "ctn2":{
+                        "categoria":"LABORALES",
+                        "bls":{
+                            "bl1":{
+                                "pregunta":"CUAL FUE LA ÚLTIMA EMPRESA DONDE LABORASTE?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl2":{
+                                "pregunta":"CUÉNTANOS COMO FUE TU EXPERIENCIA EN LA ÚLTIMA EMPRESA?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl3":{
+                                "pregunta":"CUAL FUE TU MAYOR RETO EN ESTA EMPRESA Y PORQUE?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            }
+                        }
+                    },
+                    "ctn3":{
+                        "categoria":"ESTUDIOS",
+                        "bls":{
+                            "bl1":{
+                                "pregunta":"HASTA QUE NIVEL ESTUDIASTE?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl2":{
+                                "pregunta":"TIENES MAESTRÍAS O DIPLOMADOS?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            } 
+                        }
+                    },
+                    "ctn4":{
+                        "categoria":"DESARROLLO FRONTEND",
+                        "bls":{
+                            "bl1":{
+                                "pregunta":"TIENE EXPERIENCIA EN PATRONES DE DISEÑO TYPESCRIPT Y JAVASCRIPT?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl2":{
+                                "pregunta":"TIENE EXPERIENCIA EN LA ARQUITECTURA DE ATOMIC DESIGN?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            }
+                        }
+                    },
+                    "ctn5":{
+                        "categoria":"HTML, CSS Y JAVASCRIPT",
+                        "bls":{
+                            "bl1":{
+                                "pregunta":"¿QUÉ ATRIBUTO DE HTML SE EMPLEA PARA DEFINIR LOS ESTILOS EN LÍNEA?",
+                                "sugerencia":"",
+                                "ejemplo":"Es el atributo style."
+                            },
+                            "bl2":{
+                                "pregunta":"¿QUÉ ETIQUETA DE HTML SE EMPLEA PARA DEFINIR UNA HOJA DE ESTILO EXTERNA?",
+                                "sugerencia":"",
+                                "ejemplo":"Es la etiqueta link y se agrega la ruta en el atributo src."
+                            },
+                            "bl3":{
+                                "pregunta":"¿QUÉ PSEUDO CLASE SE EMPLEA PARA DEFINIR UNA PROPIEDAD CUANDO EL CURSOR DEL RATÓN SE SITÚA SOBRE UN ELEMENTO?",
+                                "sugerencia":"",
+                                "ejemplo":"La pseudo clase hover antecedido de dos puntos."
+                            },
+                            "bl4":{
+                                "pregunta":"EN CSS ¿ CUÁL ES LA DIFERENCIA ENTRE LAS PROPIEDADES MARGIN Y PADDING?",
+                                "sugerencia":"",
+                                "ejemplo":"Margin es el espacio fuera del elemento DOM y padding se aplica dentro del cuerpo del elemento DOM al cual se le esta aplicando la clase."
+                            },
+                            "bl5":{
+                                "pregunta":"¿QUÉ SIGNIFICAN LAS SIGLAS CSS?",
+                                "sugerencia":"",
+                                "ejemplo":"Cascade Style Sheet"
+                            },
+                            "bl6":{
+                                "pregunta":"EN CSS3 ¿QUÉ SIGNIFICAN LA \"A\" EN RGBA?",
+                                "sugerencia":"",
+                                "ejemplo":"Las 4 significan R:red, G:green, B:blue, A:alpha (transparencia)"
+                            },
+                            "bl7":{
+                                "pregunta":"¿CÓMO ASIGNAS ESTILOS PARA DISTINTOS DISPOSITIVOS Y RESOLUCIONES?",
+                                "sugerencia":"",
+                                "ejemplo":"A través de la propiedad @media dentro de los estilos en cascada."
+                            },
+                            "bl8":{
+                                "pregunta":"¿QUÉ ESTARÍA DEFINIENDO AL UTILIZAR FLEX-DIRECTION: COLUMN; EN UN ELEMENTO CON DISPLAY: FLEX;?",
+                                "sugerencia":"",
+                                "ejemplo":"que los elementos dentro del display: flex se formen en forma de columna."
+                            },
+                            "bl9":{
+                                "pregunta":"EXPLICA CUÁL ES LA FUNCIÓN DE @IMPORT EN SASS",
+                                "sugerencia":"",
+                                "ejemplo":"El objetivo de la directiva @import es conectar varios archivos SASS o SCSS a un archivo del tipo SASS o SCSS, con la finalidad de ordenar separadamente el código."
+                            },
+                            "bl10":{
+                                "pregunta":"EXPLICA CUÁL ES LA FUNCIÓN DE @EXTEND EN SASS",
+                                "sugerencia":"",
+                                "ejemplo":"Esta directiva tiene una cualidad especial al permitir heredar características de una clase o selector a otro selector, evitando la repetición de estilos."
+                            },
+                            "bl11":{
+                                "pregunta":"EXPLICA CUANDO PUEDES UTILIZAR EL % PLACEHOLDER EN SASS",
+                                "sugerencia":"",
+                                "ejemplo":"Se utiliza al crear un grupo de estilos %nombre {caracteristicas css}, luego de crearse funciona dentro de una clase cuando se hace referencia a la herencia de %nombre y por lo tanto hereda los estilos, de esta forma: .clase { @extend %nombre;}"
+                            },
+                            "bl12":{
+                                "pregunta":"EXPLICA CON TUS PROPIAS PALABRAS CÓMO LOS MIXINS (@MIXIN) DE SASS PUEDEN SER ÚTILES",
+                                "sugerencia":"",
+                                "ejemplo":"Permite reutilizar estilos y propiedades CSS en tus hojas de estilo de una manera modular y eficiente. Una gran utilidad es poder pasar parámetros a un @mixin creado anteriormente y utilizar todas las características de ese @mixin con el parámetro que se envía."
+                            },
+                            "bl13":{
+                                "pregunta":"EN HTML, EL ATRIBUTO TITLE SE EMPLEA PARA:",
+                                "sugerencia":"",
+                                "ejemplo":"Es para proporcionar información adicional sobre un elemento cuando el usuario pasa el cursor sobre él."
+                            },
+                            "bl14":{
+                                "pregunta":"EN HTML, PARA INCLUIR CÓDIGO DE SCRIPT QUE SE ENCUENTRA EN OTRO ARCHIVO (EXTERNO) SE EMPLEA EL TAG:",
+                                "sugerencia":"",
+                                "ejemplo":"<script> con el src=\"\" y la ruta del archivo."
+                            },
+                            "bl15":{
+                                "pregunta":"EN HTML PARA DEFINIR UNA LINEA HORIZONTAL DE SEPARACIÓN SE EMPLEA:",
+                                "sugerencia":"",
+                                "ejemplo":"Se usa la etiqueta <hr>."
+                            },
+                            "bl16":{
+                                "pregunta":"EN HTML PARA DEFINIR QUE EL IDIOMA PRINCIPAL DE UNA PÁGINA ES EL ESPAÑOL SE EMPLEA",
+                                "sugerencia":"",
+                                "ejemplo":"Dentro de la etiqueta HTML se emplea un atributo llamado lang=\"es\", adicional es recomendable usar también la misma propiedad en etiquetas como \"header\", \"main\", \"section\", \"footer\", para ayudar a las herramientas de traducción."
+                            },
+                            "bl17":{
+                                "pregunta":"EN HTML, ROWSPAN Y COLSPAN SON ATRIBUTOS DE LA ETIQUETA",
+                                "sugerencia":"",
+                                "ejemplo":"Etiqueta <td>, son para controlar la fusión de celdas, lo que permite que una celda ocupe múltiples filas \"rowspan\" o múltiples columnas \"colspan\"."
+                            },
+                            "bl18":{
+                                "pregunta":"¿QUÉ ETIQUETA DE HTML SE EMPLEA PARA DEFINIR UNA HOJA DE ESTILO INTERNA?",
+                                "sugerencia":"",
+                                "ejemplo":"<style>"
+                            },
+                            "bl19":{
+                                "pregunta":"EN HTML, EL ATRIBUTO ALT SE EMPLEA PARA:",
+                                "sugerencia":"",
+                                "ejemplo":"3 principales beneficios como: -Descripción de accesiblidad en imágenes para personas con poca visiblidad, - Cuando las imágenes no se cargan correctamente proporcionan información del contenido, - En el SEO de búsqueda permiten una mejor indexación en los resultados. En las etiquetas <img>, <audio> y <video>."
+                            },
+                            "bl20":{
+                                "pregunta":"EN HTML LA FORMA CORRECTA DE CREAR UN COMENTARIO ES:",
+                                "sugerencia":"",
+                                "ejemplo":"<---- comentario ---->"
+                            },
+                            "bl21":{
+                                "pregunta":"¿QUÉ ESTRUCTURA SIGUE EL DOM?",
+                                "sugerencia":"El DOM, o Document Object Model (Modelo de Objetos del Documento, en español), sigue una jerarquía, donde un nodo principal llamado \"nodo raíz\" representa todo el documento. A partir de este nodo raíz, se ramifican nodos que representan los elementos del documento, como etiquetas HTML, atributos y contenido de texto. Estos nodos están conectados entre sí de manera jerárquica, reflejando la estructura anidada del documento original.",
+                                "ejemplo":""
+                            },
+                            "bl22":{
+                                "pregunta":"NOMBRA TODOS LOS ELEMENTOS QUE CONOZCAS QUE FUERON INTRODUCIDOS EN HTML 5",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl23":{
+                                "pregunta":"¿CUÁL ES LA DIFERENCIA ENTRE VAR, LET Y CONST?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl24":{
+                                "pregunta":"¿QUÉ ES ECMA Y/O QUE DEFINE?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl25":{
+                                "pregunta":"MENCIONA AL MENOS DOS FRAMEWORKS DE TEST UNITARIOS PARA JAVASCRIPT",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl26":{
+                                "pregunta":"¿CUÁL ES LA DIFERENCIA ENTRE UNA CLASE Y UN OBJETO EN PROGRAMACIÓN?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl27":{
+                                "pregunta":"¿QUÉ FORMAS HAY PARA OBTENER LAS VARIABLES DEL SIGUIENTE OBJETO USANDO ES5 Y ES6 CONST USER = {NAME: USERNAME, AGE: 99}",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl28":{
+                                "pregunta":"EXPLICA QUÉ HACE LA SIGUIENTE LÍNEA CONSIDERANDO QUE MONTHS ES UN ARRAY DE MESES: MONTHS.SPLICE(1, 0, \"FEB\");",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl29":{
+                                "pregunta":"DESCRIBE EN DETALLE TODO LO QUE PUEDAS OBSERVAR DE LA SIGUIENTE FUNCIÓN: \"(() ⇒ {CONSOLE.LOG(\"HOLA MUNDO\");})()\"",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl30":{
+                                "pregunta":"CREA UNA PETICIÓN HTTP BÁSICA DE TIPO GET UTILIZANDO JAVASCRIPT A UN DOMINIO DE TU ELECCIÓN",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl31":{
+                                "pregunta":"¿CUÁL ES LA DIFERENCIA ENTRE UN TEST UNITARIO, TEST DE INTEGRACIÓN Y UN TEST DE ACEPTACIÓN?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl32":{
+                                "pregunta":"¿QUÉ CARACTERÍSTICAS DEBE TENER UN BUEN TEST UNITARIO?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl33":{
+                                "pregunta":"EN EL CICLO DE VIDA DE VUE, CUAL SERÍA LA DIFERENCIA ENTRE \"CREATED\" Y \"MOUNTED\"",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            }
+                        }
+                    }
+                },
+                "Sugerencia":"Sugerencia",
+                "Respuesta ejemplo":"Respuesta ejemplo"
+            },
+            "prueba":{
+                "titulo":"PRUEBA TÉCNICA",
+                "tx1":"Lograr pasar efectivamente la prueba técnica, puede llegar a considerarse el primer pie dentro de la empresa.",
+                "tx2":"En un perfil con experiencia debería ser tomado como un requerimiento normal de trabajo.",
+                "tx3":"Con o sin experiencia hay que entrenar antes, estas son algunas herramientas para lograrlo:",
+                "tx4":"Las habilidades hablan más que las palabras.",
+                "tx5":"Ayudamos a las empresas a desarrollar los equipos tecnológicos más fuertes.",
+                "tx6":"Ayudamos a los candidatos a perfeccionar sus habilidades tecnológicas y a buscar oportunidades de empleo."
             }
         }
     }
