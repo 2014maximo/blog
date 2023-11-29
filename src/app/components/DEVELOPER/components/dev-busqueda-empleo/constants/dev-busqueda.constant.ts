@@ -793,6 +793,16 @@ export const BLOQUE_LINKS: IndiceDeContenidosModel[] = [
         rutaInterna:'',
         rutaExterna:'https://www.serviguidebpo.com/'
     },
+    {
+        nombre: 'Hoy trabajas',
+        posicion: 'rot-3',
+        ruta: '',
+        colorFondo: 'bg-white',
+        color: 'text-dark',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://hoytrabajas.com/'
+    },
 ]
 
 export const TEST = [
