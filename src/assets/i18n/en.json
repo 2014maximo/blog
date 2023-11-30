@@ -55,181 +55,181 @@
                 }
             },
             "entrevista":{
-                "titulo":"ENTREVISTA",
-                "tx1":"De alguna manera esto es muy parecido a la cita que logras con la chica(o) que te gusta.",
-                "tx2":"Es un gran paso y debe verse como un negocio en que ambas partes buscan que hay para ganar. Por ejemplo el salario es un tema que ambas partes tienen interés y es un punto en el que debemos saber como esta valorada nuesta profesión en el mercado.",
-                "tx3":"Aún sintiendo mucha confianza porque antes nos fue bien en empresas anteriores, o, en caso de ser todo lo contrario y los nervios hicieron sus destrozos, en ambos casos se deben conocer las preguntas comunes y tener claro que se debe responder sin falsedades. ",
-                "tx4":"Este es un excelente sitio con materiales gratuitos de preparación para entrevistas, seleccionados para personas ocupadas. ",
-                "tx5":"Estas son algunas de las preguntas más comunes que suelen hacer para cada caso:",
+                "titulo":"INTERVIEW",
+                "tx1":"In some ways this is very similar to the date you get with the girl you like.",
+                "tx2":"It is a big step and should be seen as a business in which both parties are looking for what there is to gain. For example, salary is an issue that both parties have an interest in and it is a point in which we must know how our profession is valued in the market.",
+                "tx3":"Even if you feel very confident because you have done well in previous companies, or, if the opposite is the case and nerves did their damage, in both cases you should know the common questions and be clear that you must answer them without falsehoods. ",
+                "tx4":"This is an excellent site with free interview preparation materials selected for busy people. ",
+                "tx5":"These are some of the most common questions asked for each case:",
                 "preguntas":{
                     "ctn1":{
-                        "categoria":"PERSONALES",
+                        "categoria":"PERSONNEL",
                         "bls":{
                             "bl1":{
-                                "pregunta":"CUÉNTAME SOBRE TI",
-                                "sugerencia":"Esta es una pregunta abierta que te da la oportunidad de hablar sobre tu experiencia, intereses y objetivos personales y profesionales.",
+                                "pregunta":"TELL ME ABOUT YOURSELF",
+                                "sugerencia":"This is an open-ended question that gives you the opportunity to talk about your experience, interests, and personal and professional goals.",
                                 "ejemplo":""
                             },
                             "bl2":{
-                                "pregunta":"¿POR QUÉ ESTÁS INTERESADO EN TRABAJAR EN NUESTRA EMPRESA?",
-                                "sugerencia":" Los entrevistadores quieren saber si has investigado sobre la empresa y si compartes sus valores y objetivos.",
+                                "pregunta":"WHY ARE YOU INTERESTED IN WORKING IN OUR COMPANY?",
+                                "sugerencia":" Interviewers want to know if you have researched the company and if you share their values and goals.",
                                 "ejemplo":""
                             },
                             "bl3":{
-                                "pregunta":"¿CUÁL ES TU EXPERIENCIA TRABAJANDO EN EQUIPOS DE DESARROLLO DE SOFTWARE?",
-                                "sugerencia":"Aquí pueden preguntarte sobre tus habilidades de comunicación, colaboración y adaptación a dinámicas de equipo.",
+                                "pregunta":"WHAT IS YOUR EXPERIENCE WORKING IN SOFTWARE DEVELOPMENT TEAMS?",
+                                "sugerencia":"Here you may be asked about your communication skills, collaboration and adaptation to team dynamics.",
                                 "ejemplo":""
                             },
                             "bl4":{
-                                "pregunta":"¿PUEDES DESCRIBIR UN PROYECTO DESAFIANTE EN EL QUE HAYAS TRABAJADO Y CÓMO LO SUPERASTE?",
-                                "sugerencia":"Esta pregunta evalúa tus habilidades para resolver problemas y tu capacidad de afrontar desafíos.",
+                                "pregunta":"CAN YOU DESCRIBE A CHALLENGING PROJECT YOU HAVE WORKED ON AND HOW YOU OVERCAME IT?",
+                                "sugerencia":"This question assesses your problem-solving skills and your ability to meet challenges.",
                                 "ejemplo":""
                             },
                             "bl5":{
-                                "pregunta":"¿CÓMO TE MANTIENES ACTUALIZADO CON LAS ÚLTIMAS TENDENCIAS Y TECNOLOGÍAS EN DESARROLLO DE SOFTWARE?",
-                                "sugerencia":" Los entrevistadores quieren saber si eres un profesional que sigue aprendiendo y se mantiene actualizado.",
+                                "pregunta":"HOW DO YOU KEEP UP TO DATE WITH THE LATEST TRENDS AND TECHNOLOGIES IN SOFTWARE DEVELOPMENT?",
+                                "sugerencia":" Interviewers want to know if you are a professional who keeps learning and stays current.",
                                 "ejemplo":""
                             },
                             "bl6":{
-                                "pregunta":"¿TIENES ALGUNA EXPERIENCIA EN TRABAJAR EN PROYECTOS ÁGILES O METODOLOGÍAS DE DESARROLLO ESPECÍFICAS?",
-                                "sugerencia":"Pueden preguntarte sobre tu adaptabilidad y experiencia en entornos de desarrollo específicos.",
+                                "pregunta":"DO YOU HAVE ANY EXPERIENCE WORKING ON AGILE PROJECTS OR SPECIFIC DEVELOPMENT METHODOLOGIES?",
+                                "sugerencia":"You may be asked about your adaptability and experience in specific development environments.",
                                 "ejemplo":""
                             },
                             "bl7":{
-                                "pregunta":"¿QUÉ TE MOTIVA EN TU CARRERA COMO DESARROLLADOR DE SOFTWARE?",
-                                "sugerencia":"Aquí puedes hablar sobre tus metas profesionales y lo que te entusiasma en el desarrollo de software.",
+                                "pregunta":"WHAT MOTIVATES YOU IN YOUR CAREER AS A SOFTWARE DEVELOPER?",
+                                "sugerencia":"Here you can talk about your career goals and what excites you in software development.",
                                 "ejemplo":""
                             },
                             "bl8":{
-                                "pregunta":"¿CÓMO MANEJAS EL ESTRÉS Y LOS PLAZOS AJUSTADOS?",
-                                "sugerencia":"Esta pregunta evalúa tu capacidad para lidiar con situaciones de alta presión.",
+                                "pregunta":"HOW DO YOU HANDLE STRESS AND TIGHT DEADLINES?",
+                                "sugerencia":"This question assesses your ability to deal with high-pressure situations.",
                                 "ejemplo":""
                             },
                             "bl9":{
-                                "pregunta":"¿TIENES EXPERIENCIA EN LIDERAZGO O GESTIÓN DE EQUIPOS DE DESARROLLO?",
-                                "sugerencia":"Esto podría explorar tu potencial para asumir roles de liderazgo en el futuro.",
+                                "pregunta":"DO YOU HAVE EXPERIENCE IN LEADERSHIP OR MANAGEMENT OF DEVELOPMENT TEAMS?",
+                                "sugerencia":"This could explore your potential to take on leadership roles in the future.",
                                 "ejemplo":""
                             },
                             "bl10":{
-                                "pregunta":"¿CUÁL ES TU ENFOQUE EN CUANTO A LA CALIDAD DEL CÓDIGO Y LAS PRÁCTICAS DE DESARROLLO SOSTENIBLE?",
-                                "sugerencia":"Los entrevistadores pueden estar interesados en tu compromiso con la calidad y la mejora continua.",
+                                "pregunta":"WHAT IS YOUR APPROACH TO CODE QUALITY AND SUSTAINABLE DEVELOPMENT PRACTICES?",
+                                "sugerencia":"Interviewers may be interested in your commitment to quality and continuous improvement.",
                                 "ejemplo":""
                             }
                             
                         }
                     },
                     "ctn2":{
-                        "categoria":"LABORALES",
+                        "categoria":"LABOR",
                         "bls":{
                             "bl1":{
-                                "pregunta":"CUAL FUE LA ÚLTIMA EMPRESA DONDE LABORASTE?",
+                                "pregunta":"WHAT WAS THE LAST COMPANY WHERE YOU WORKED?",
                                 "sugerencia":"",
                                 "ejemplo":""
                             },
                             "bl2":{
-                                "pregunta":"CUÉNTANOS COMO FUE TU EXPERIENCIA EN LA ÚLTIMA EMPRESA?",
+                                "pregunta":"TELL US ABOUT YOUR EXPERIENCE IN THE LAST COMPANY?",
                                 "sugerencia":"",
                                 "ejemplo":""
                             },
                             "bl3":{
-                                "pregunta":"CUAL FUE TU MAYOR RETO EN ESTA EMPRESA Y PORQUE?",
+                                "pregunta":"WHAT WAS YOUR BIGGEST CHALLENGE IN THIS COMPANY AND WHY?",
                                 "sugerencia":"",
                                 "ejemplo":""
                             }
                         }
                     },
                     "ctn3":{
-                        "categoria":"ESTUDIOS",
+                        "categoria":"STUDIES",
                         "bls":{
                             "bl1":{
-                                "pregunta":"HASTA QUE NIVEL ESTUDIASTE?",
+                                "pregunta":"UP TO WHAT LEVEL DID YOU STUDY?",
                                 "sugerencia":"",
                                 "ejemplo":""
                             },
                             "bl2":{
-                                "pregunta":"TIENES MAESTRÍAS O DIPLOMADOS?",
+                                "pregunta":"DO YOU HAVE A MASTER'S DEGREE OR DIPLOMA?",
                                 "sugerencia":"",
                                 "ejemplo":""
                             } 
                         }
                     },
                     "ctn4":{
-                        "categoria":"DESARROLLO FRONTEND",
+                        "categoria":"FRONTEND DEVELOPMENT",
                         "bls":{
                             "bl1":{
-                                "pregunta":"TIENE EXPERIENCIA EN PATRONES DE DISEÑO TYPESCRIPT Y JAVASCRIPT?",
+                                "pregunta":"DO YOU HAVE EXPERIENCE IN TYPESCRIPT AND JAVASCRIPT DESIGN PATTERNS?",
                                 "sugerencia":"",
                                 "ejemplo":""
                             },
                             "bl2":{
-                                "pregunta":"TIENE EXPERIENCIA EN LA ARQUITECTURA DE ATOMIC DESIGN?",
+                                "pregunta":"DO YOU HAVE EXPERIENCE IN ATOMIC DESIGN ARCHITECTURE?",
                                 "sugerencia":"",
                                 "ejemplo":""
                             }
                         }
                     },
                     "ctn5":{
-                        "categoria":"HTML, CSS Y JAVASCRIPT",
+                        "categoria":"HTML, CSS AND JAVASCRIPT",
                         "bls":{
                             "bl1":{
-                                "pregunta":"¿QUÉ ATRIBUTO DE HTML SE EMPLEA PARA DEFINIR LOS ESTILOS EN LÍNEA?",
+                                "pregunta":"WHICH HTML ATTRIBUTE IS USED TO DEFINE INLINE STYLES?",
                                 "sugerencia":"",
-                                "ejemplo":"Es el atributo style."
+                                "ejemplo":"This is the style attribute."
                             },
                             "bl2":{
-                                "pregunta":"¿QUÉ ETIQUETA DE HTML SE EMPLEA PARA DEFINIR UNA HOJA DE ESTILO EXTERNA?",
+                                "pregunta":"WHICH HTML TAG IS USED TO DEFINE AN EXTERNAL STYLE SHEET?",
                                 "sugerencia":"",
-                                "ejemplo":"Es la etiqueta link y se agrega la ruta en el atributo src."
+                                "ejemplo":"It is the link tag and the path is added in the src attribute."
                             },
                             "bl3":{
-                                "pregunta":"¿QUÉ PSEUDO CLASE SE EMPLEA PARA DEFINIR UNA PROPIEDAD CUANDO EL CURSOR DEL RATÓN SE SITÚA SOBRE UN ELEMENTO?",
+                                "pregunta":"WHICH PSEUDO CLASS IS USED TO DEFINE A PROPERTY WHEN THE MOUSE CURSOR IS PLACED OVER AN ELEMENT?",
                                 "sugerencia":"",
-                                "ejemplo":"La pseudo clase hover antecedido de dos puntos."
+                                "ejemplo":"The pseudo hover class preceded by a colon."
                             },
                             "bl4":{
-                                "pregunta":"EN CSS ¿ CUÁL ES LA DIFERENCIA ENTRE LAS PROPIEDADES MARGIN Y PADDING?",
+                                "pregunta":"IN CSS WHAT IS THE DIFFERENCE BETWEEN MARGIN AND PADDING PROPERTIES?",
                                 "sugerencia":"",
-                                "ejemplo":"Margin es el espacio fuera del elemento DOM y padding se aplica dentro del cuerpo del elemento DOM al cual se le esta aplicando la clase."
+                                "ejemplo":"Margin is the space outside the DOM element and padding is applied inside the body of the DOM element to which the class is being applied."
                             },
                             "bl5":{
-                                "pregunta":"¿QUÉ SIGNIFICAN LAS SIGLAS CSS?",
+                                "pregunta":"WHAT DOES THE ACRONYM CSS STAND FOR?",
                                 "sugerencia":"",
                                 "ejemplo":"Cascade Style Sheet"
                             },
                             "bl6":{
-                                "pregunta":"EN CSS3 ¿QUÉ SIGNIFICAN LA \"A\" EN RGBA?",
+                                "pregunta":"IN CSS3 WHAT DO THE \"A\" IN RGBA?",
                                 "sugerencia":"",
-                                "ejemplo":"Las 4 significan R:red, G:green, B:blue, A:alpha (transparencia)"
+                                "ejemplo":"The 4 stand for R:red, G:green, B:blue, A:alpha (transparency)."
                             },
                             "bl7":{
-                                "pregunta":"¿CÓMO ASIGNAS ESTILOS PARA DISTINTOS DISPOSITIVOS Y RESOLUCIONES?",
+                                "pregunta":"HOW DO YOU ASSIGN STYLES FOR DIFFERENT DEVICES AND RESOLUTIONS?",
                                 "sugerencia":"",
-                                "ejemplo":"A través de la propiedad @media dentro de los estilos en cascada."
+                                "ejemplo":"Through the @media property within the cascading styles."
                             },
                             "bl8":{
-                                "pregunta":"¿QUÉ ESTARÍA DEFINIENDO AL UTILIZAR FLEX-DIRECTION: COLUMN; EN UN ELEMENTO CON DISPLAY: FLEX;?",
+                                "pregunta":"WHAT WOULD YOU BE DEFINING WHEN USING FLEX-DIRECTION: COLUMN; IN AN ELEMENT WITH DISPLAY: FLEX;?",
                                 "sugerencia":"",
-                                "ejemplo":"que los elementos dentro del display: flex se formen en forma de columna."
+                                "ejemplo":"that the elements inside the display: flex are formed as a column."
                             },
                             "bl9":{
-                                "pregunta":"EXPLICA CUÁL ES LA FUNCIÓN DE @IMPORT EN SASS",
+                                "pregunta":"EXPLAINS THE FUNCTION OF @IMPORT IN SASS",
                                 "sugerencia":"",
-                                "ejemplo":"El objetivo de la directiva @import es conectar varios archivos SASS o SCSS a un archivo del tipo SASS o SCSS, con la finalidad de ordenar separadamente el código."
+                                "ejemplo":"The purpose of the @import directive is to connect several SASS or SCSS files to a file of type SASS or SCSS, in order to sort the code separately."
                             },
                             "bl10":{
-                                "pregunta":"EXPLICA CUÁL ES LA FUNCIÓN DE @EXTEND EN SASS",
+                                "pregunta":"EXPLAINS THE FUNCTION OF @EXTEND IN SASS",
                                 "sugerencia":"",
-                                "ejemplo":"Esta directiva tiene una cualidad especial al permitir heredar características de una clase o selector a otro selector, evitando la repetición de estilos."
+                                "ejemplo":"This directive has a special quality in that it allows inheriting characteristics from one class or selector to another selector, avoiding the repetition of styles."
                             },
                             "bl11":{
-                                "pregunta":"EXPLICA CUANDO PUEDES UTILIZAR EL % PLACEHOLDER EN SASS",
+                                "pregunta":"EXPLAINS WHEN YOU CAN USE THE % PLACEHOLDER IN SASS",
                                 "sugerencia":"",
-                                "ejemplo":"Se utiliza al crear un grupo de estilos %nombre {caracteristicas css}, luego de crearse funciona dentro de una clase cuando se hace referencia a la herencia de %nombre y por lo tanto hereda los estilos, de esta forma: .clase { @extend %nombre;}"
+                                "ejemplo":"It is used when creating a group of styles %name {css features}, after being created it works inside a class when referring to the inheritance of %name and therefore inherits the styles, like this: .class { @extend %name;}"
                             },
                             "bl12":{
-                                "pregunta":"EXPLICA CON TUS PROPIAS PALABRAS CÓMO LOS MIXINS (@MIXIN) DE SASS PUEDEN SER ÚTILES",
+                                "pregunta":"EXPLAIN IN YOUR OWN WORDS HOW MIXINS (@MIXIN) IN SASS CAN BE USEFUL",
                                 "sugerencia":"",
-                                "ejemplo":"Permite reutilizar estilos y propiedades CSS en tus hojas de estilo de una manera modular y eficiente. Una gran utilidad es poder pasar parámetros a un @mixin creado anteriormente y utilizar todas las características de ese @mixin con el parámetro que se envía."
+                                "ejemplo":"It allows you to reuse CSS styles and properties in your stylesheets in a modular and efficient way. A great utility is to be able to pass parameters to a previously created @mixin and use all the features of that @mixin with the parameter that is sent."
                             },
                             "bl13":{
                                 "pregunta":"EN HTML, EL ATRIBUTO TITLE SE EMPLEA PARA:",
