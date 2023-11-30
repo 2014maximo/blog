@@ -52,7 +52,7 @@ export class GaleriaPostComponent implements OnInit {
     });
 
     this.todosLosPost = Object.assign([], this.retirarPostsPrincipalCategoria(this.todosLosPost));
-    this.todosLosPost = Object.assign([], this.ordenarPostPorFecha(this.todosLosPost));
+    this.todosLosPost = this.ordenarPostPorFecha(this.todosLosPost);
   }
 
   private retirarPostsPrincipalCategoria(grupo:DatosPost[]):DatosPost[]{
@@ -62,12 +62,19 @@ export class GaleriaPostComponent implements OnInit {
   }
 
   private ordenarPostPorFecha(grupo: DatosPost[]):DatosPost[]{
+    const compararFechas = (a:any, b:any) => {
+      const AFecha = a.fechaActualizacion?a.fechaActualizacion:a.fechaCreacion;
+      const BFecha = b.fechaActualizacion?b.fechaActualizacion:b.fechaCreacion;
+      const fechaA = new Date(AFecha).getTime();
+      const fechaB = new Date(BFecha).getTime();
 
-    let ordenados = grupo.sort( (a:DatosPost, b:DatosPost) =>  
-      this.convertirFechaANumero(b.fechaActualizacion) - this.convertirFechaANumero(a.fechaActualizacion)
-    );
-    return ordenados;
+      return fechaB - fechaA;
+    }; 
+    return grupo.sort(compararFechas);
   }
+
+
+
 
   public convertirFechaANumero(fecha:string):number{
     let numero = +(new Date(fecha).getTime());

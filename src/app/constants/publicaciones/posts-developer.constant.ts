@@ -121,7 +121,7 @@ export const DEVELOPER: DatosPost[] = [
         mostrarEnPostHome: true,
         estilos: ESTILO_DEVELOPER,
         fechaCreacion: '2023-09-18',
-        fechaActualizacion: '2023-10-23',
+        fechaActualizacion: '2023-11-29',
         imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/developer/busqueda-empleo.jpeg'),
         imgVertical:'',
         imgCuadro:'',
