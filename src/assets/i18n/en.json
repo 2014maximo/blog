@@ -232,124 +232,124 @@
                                 "ejemplo":"It allows you to reuse CSS styles and properties in your stylesheets in a modular and efficient way. A great utility is to be able to pass parameters to a previously created @mixin and use all the features of that @mixin with the parameter that is sent."
                             },
                             "bl13":{
-                                "pregunta":"EN HTML, EL ATRIBUTO TITLE SE EMPLEA PARA:",
+                                "pregunta":"IN HTML, THE TITLE ATTRIBUTE IS USED FOR:",
                                 "sugerencia":"",
-                                "ejemplo":"Es para proporcionar información adicional sobre un elemento cuando el usuario pasa el cursor sobre él."
+                                "ejemplo":"It is to provide additional information about an element when the user hovers over it."
                             },
                             "bl14":{
-                                "pregunta":"EN HTML, PARA INCLUIR CÓDIGO DE SCRIPT QUE SE ENCUENTRA EN OTRO ARCHIVO (EXTERNO) SE EMPLEA EL TAG:",
+                                "pregunta":"IN HTML, TO INCLUDE SCRIPT CODE THAT IS IN ANOTHER (EXTERNAL) FILE, THE TAG IS USED:",
                                 "sugerencia":"",
-                                "ejemplo":"<script> con el src=\"\" y la ruta del archivo."
+                                "ejemplo":"<script> with the src=\"\" and the file path."
                             },
                             "bl15":{
-                                "pregunta":"EN HTML PARA DEFINIR UNA LINEA HORIZONTAL DE SEPARACIÓN SE EMPLEA:",
+                                "pregunta":"IN HTML TO DEFINE A HORIZONTAL SEPARATOR LINE IS USED:",
                                 "sugerencia":"",
-                                "ejemplo":"Se usa la etiqueta <hr>."
+                                "ejemplo":"The following label is used <hr>."
                             },
                             "bl16":{
-                                "pregunta":"EN HTML PARA DEFINIR QUE EL IDIOMA PRINCIPAL DE UNA PÁGINA ES EL ESPAÑOL SE EMPLEA",
+                                "pregunta":"IN HTML TO DEFINE THAT THE MAIN LANGUAGE OF A PAGE IS SPANISH, THE FOLLOWING IS USED",
                                 "sugerencia":"",
-                                "ejemplo":"Dentro de la etiqueta HTML se emplea un atributo llamado lang=\"es\", adicional es recomendable usar también la misma propiedad en etiquetas como \"header\", \"main\", \"section\", \"footer\", para ayudar a las herramientas de traducción."
+                                "ejemplo":"Within the HTML tag there is an attribute called lang=\"es\", additional it is recommended to use also the same property in labels like \"header\", \"main\", \"section\", \"footer\", to support the translation tools."
                             },
                             "bl17":{
-                                "pregunta":"EN HTML, ROWSPAN Y COLSPAN SON ATRIBUTOS DE LA ETIQUETA",
+                                "pregunta":"IN HTML, ROWSPAN AND COLSPAN ARE ATTRIBUTES OF THE TAG",
                                 "sugerencia":"",
-                                "ejemplo":"Etiqueta <td>, son para controlar la fusión de celdas, lo que permite que una celda ocupe múltiples filas \"rowspan\" o múltiples columnas \"colspan\"."
+                                "ejemplo":"Label <td>, are to control the merging of cells, which allows a cell to occupy multiple rows. \"rowspan\" or multiple columns \"colspan\"."
                             },
                             "bl18":{
-                                "pregunta":"¿QUÉ ETIQUETA DE HTML SE EMPLEA PARA DEFINIR UNA HOJA DE ESTILO INTERNA?",
+                                "pregunta":"WHICH HTML TAG IS USED TO DEFINE AN INTERNAL STYLE SHEET?",
                                 "sugerencia":"",
                                 "ejemplo":"<style>"
                             },
                             "bl19":{
-                                "pregunta":"EN HTML, EL ATRIBUTO ALT SE EMPLEA PARA:",
+                                "pregunta":"IN HTML, THE ALT ATTRIBUTE IS USED FOR:",
                                 "sugerencia":"",
-                                "ejemplo":"3 principales beneficios como: -Descripción de accesiblidad en imágenes para personas con poca visiblidad, - Cuando las imágenes no se cargan correctamente proporcionan información del contenido, - En el SEO de búsqueda permiten una mejor indexación en los resultados. En las etiquetas <img>, <audio> y <video>."
+                                "ejemplo":"3 main benefits such as: - Accessibility description in images for people with low visiblity, - When images are not loaded correctly they provide information of the content, - In search SEO they allow a better indexing in the results. In the tags <img>, <audio> and <video>."
                             },
                             "bl20":{
-                                "pregunta":"EN HTML LA FORMA CORRECTA DE CREAR UN COMENTARIO ES:",
+                                "pregunta":"IN HTML THE CORRECT WAY TO CREATE A COMMENT IS:",
                                 "sugerencia":"",
-                                "ejemplo":"<---- comentario ---->"
+                                "ejemplo":"<---- comment ---->"
                             },
                             "bl21":{
-                                "pregunta":"¿QUÉ ESTRUCTURA SIGUE EL DOM?",
-                                "sugerencia":"El DOM, o Document Object Model (Modelo de Objetos del Documento, en español), sigue una jerarquía, donde un nodo principal llamado \"nodo raíz\" representa todo el documento. A partir de este nodo raíz, se ramifican nodos que representan los elementos del documento, como etiquetas HTML, atributos y contenido de texto. Estos nodos están conectados entre sí de manera jerárquica, reflejando la estructura anidada del documento original.",
+                                "pregunta":"WHAT STRUCTURE DOES THE DOM FOLLOW?",
+                                "sugerencia":"The DOM, or Document Object Model, follows a hierarchy, where a main node named \"root node\" represents the entire document. From this root node, nodes branch out to represent the elements of the document, such as HTML tags, attributes and text content. These nodes are connected to each other in a hierarchical fashion, reflecting the nested structure of the original document.",
                                 "ejemplo":""
                             },
                             "bl22":{
-                                "pregunta":"NOMBRA TODOS LOS ELEMENTOS QUE CONOZCAS QUE FUERON INTRODUCIDOS EN HTML 5",
+                                "pregunta":"NAME ALL THE ELEMENTS YOU KNOW OF THAT WERE INTRODUCED IN HTML 5",
                                 "sugerencia":"",
                                 "ejemplo":""
                             },
                             "bl23":{
-                                "pregunta":"¿CUÁL ES LA DIFERENCIA ENTRE VAR, LET Y CONST?",
+                                "pregunta":"WHAT IS THE DIFFERENCE BETWEEN VAR, LET AND CONST?",
                                 "sugerencia":"",
                                 "ejemplo":""
                             },
                             "bl24":{
-                                "pregunta":"¿QUÉ ES ECMA Y/O QUE DEFINE?",
+                                "pregunta":"WHAT IS ECMA AND/OR WHAT DOES IT DEFINE?",
                                 "sugerencia":"",
                                 "ejemplo":""
                             },
                             "bl25":{
-                                "pregunta":"MENCIONA AL MENOS DOS FRAMEWORKS DE TEST UNITARIOS PARA JAVASCRIPT",
+                                "pregunta":"MENTION AT LEAST TWO UNIT TEST FRAMEWORKS FOR JAVASCRIPT",
                                 "sugerencia":"",
                                 "ejemplo":""
                             },
                             "bl26":{
-                                "pregunta":"¿CUÁL ES LA DIFERENCIA ENTRE UNA CLASE Y UN OBJETO EN PROGRAMACIÓN?",
+                                "pregunta":"WHAT IS THE DIFFERENCE BETWEEN A CLASS AND AN OBJECT IN PROGRAMMING?",
                                 "sugerencia":"",
                                 "ejemplo":""
                             },
                             "bl27":{
-                                "pregunta":"¿QUÉ FORMAS HAY PARA OBTENER LAS VARIABLES DEL SIGUIENTE OBJETO USANDO ES5 Y ES6 CONST USER = {NAME: USERNAME, AGE: 99}",
+                                "pregunta":"WHAT ARE THE WAYS TO OBTAIN THE VARIABLES OF THE FOLLOWING OBJECT USING ES5 AND ES6 CONST USER = {NAME: USERNAME, AGE: 99}",
                                 "sugerencia":"",
                                 "ejemplo":""
                             },
                             "bl28":{
-                                "pregunta":"EXPLICA QUÉ HACE LA SIGUIENTE LÍNEA CONSIDERANDO QUE MONTHS ES UN ARRAY DE MESES: MONTHS.SPLICE(1, 0, \"FEB\");",
+                                "pregunta":"EXPLAINS WHAT THE FOLLOWING LINE DOES CONSIDERING THAT MONTHS IS AN ARRAY OF MONTHS: MONTHS.SPLICE(1, 0, \"FEB\");",
                                 "sugerencia":"",
                                 "ejemplo":""
                             },
                             "bl29":{
-                                "pregunta":"DESCRIBE EN DETALLE TODO LO QUE PUEDAS OBSERVAR DE LA SIGUIENTE FUNCIÓN: \"(() ⇒ {CONSOLE.LOG(\"HOLA MUNDO\");})()\"",
+                                "pregunta":"DESCRIBE IN DETAIL EVERYTHING YOU CAN OBSERVE ABOUT THE FOLLOWING FUNCTION: \"(() ⇒ {CONSOLE.LOG(\"HELLO WORLD\");})()\"",
                                 "sugerencia":"",
                                 "ejemplo":""
                             },
                             "bl30":{
-                                "pregunta":"CREA UNA PETICIÓN HTTP BÁSICA DE TIPO GET UTILIZANDO JAVASCRIPT A UN DOMINIO DE TU ELECCIÓN",
+                                "pregunta":"CREATE A BASIC HTTP GET REQUEST USING JAVASCRIPT TO A DOMAIN OF YOUR CHOICE",
                                 "sugerencia":"",
                                 "ejemplo":""
                             },
                             "bl31":{
-                                "pregunta":"¿CUÁL ES LA DIFERENCIA ENTRE UN TEST UNITARIO, TEST DE INTEGRACIÓN Y UN TEST DE ACEPTACIÓN?",
+                                "pregunta":"WHAT IS THE DIFFERENCE BETWEEN A UNIT TEST, INTEGRATION TEST AND ACCEPTANCE TEST?",
                                 "sugerencia":"",
                                 "ejemplo":""
                             },
                             "bl32":{
-                                "pregunta":"¿QUÉ CARACTERÍSTICAS DEBE TENER UN BUEN TEST UNITARIO?",
+                                "pregunta":"WHAT CHARACTERISTICS SHOULD A GOOD UNIT TEST HAVE?",
                                 "sugerencia":"",
                                 "ejemplo":""
                             },
                             "bl33":{
-                                "pregunta":"EN EL CICLO DE VIDA DE VUE, CUAL SERÍA LA DIFERENCIA ENTRE \"CREATED\" Y \"MOUNTED\"",
+                                "pregunta":"IN THE VUE LIFECYCLE, WHAT WOULD BE THE DIFFERENCE BETWEEN \"CREATED\" AND \"MOUNTED\"",
                                 "sugerencia":"",
                                 "ejemplo":""
                             }
                         }
                     }
                 },
-                "Sugerencia":"Sugerencia",
-                "Respuesta ejemplo":"Respuesta ejemplo"
+                "Sugerencia":"Suggestion",
+                "Respuesta_ejemplo":"Sample response"
             },
             "prueba":{
-                "titulo":"PRUEBA TÉCNICA",
-                "tx1":"Lograr pasar efectivamente la prueba técnica, puede llegar a considerarse el primer pie dentro de la empresa.",
-                "tx2":"En un perfil con experiencia debería ser tomado como un requerimiento normal de trabajo.",
-                "tx3":"Con o sin experiencia hay que entrenar antes, estas son algunas herramientas para lograrlo:",
-                "tx4":"Las habilidades hablan más que las palabras.",
-                "tx5":"Ayudamos a las empresas a desarrollar los equipos tecnológicos más fuertes.",
-                "tx6":"Ayudamos a los candidatos a perfeccionar sus habilidades tecnológicas y a buscar oportunidades de empleo."
+                "titulo":"TECHNICAL TEST",
+                "tx1":"Successfully passing the technical test can be considered as the first foot in the door of the company.",
+                "tx2":"In an experienced profile it should be taken as a normal job requirement.",
+                "tx3":"With or without experience it is necessary to train before, these are some tools to achieve it:",
+                "tx4":"Skills speak louder than words.",
+                "tx5":"We help companies develop the strongest technology teams.",
+                "tx6":"We help candidates hone their technology skills and seek employment opportunities."
             }
         }
     }

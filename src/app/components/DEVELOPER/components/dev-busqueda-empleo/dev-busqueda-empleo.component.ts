@@ -29,6 +29,9 @@ export class DevBusquedaEmpleoComponent implements OnInit {
 	public text = TEST;
 	public textosATraducir: any;
 	public cv:any = {};
+	public marketplace:any = {};
+	public preguntasComunes:any = {};
+	public categoriaTranslate:any = {};
 
 	constructor(public translate: TranslateService) {
 		translate.setDefaultLang(navigator.language.split('-')[0]);
@@ -51,8 +54,12 @@ export class DevBusquedaEmpleoComponent implements OnInit {
 	}
 
 	public cargaCv(){
-		this.translate.get('DEV.be.cv').subscribe((translated: string) => {
-			this.cv = translated;
+		this.translate.get('DEV.be').subscribe((translated: any) => {
+			this.categoriaTranslate = translated;
+			this.cv = translated.cv;
+			this.marketplace = translated.marketplace.linkedin.puntos;
+			this.preguntasComunes = translated.entrevista.preguntas;
+			console.log(this.preguntasComunes, 'this.preguntasComunes');
 		});
 	}
 
@@ -67,6 +74,10 @@ export class DevBusquedaEmpleoComponent implements OnInit {
 	public cambiarLenguaje(lang: string) {
 		this.translate.use(lang); // Cambia el actual lenguaje
 		this.cargaCv();
+	}
+
+	public retornarKeys(grupo: object):string[]{
+		return Object.keys(grupo);
 	}
 
 }

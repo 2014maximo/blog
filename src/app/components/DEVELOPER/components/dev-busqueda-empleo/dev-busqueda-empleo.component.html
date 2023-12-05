@@ -101,18 +101,16 @@
             <div class="col-xl-3">
                 <h2 class="f-bebas fs-200 text-light m-0 p-0">4</h2>
                 <h2 class="f-yanone fs-40 lh-40 text-light p-0 text-uppercase mb-2">
-                    CARTA DE PRESENTACIÓN
+                    {{ 'DEV.be.carta.titulo' | translate }}
                 </h2>
                 <p class="fuenteDos c7 fs-18 lh-20">
-                    Es una carta personal que te presentará a la empresa o al cargo que estás postulando.<br>
-                    <br> Las palabras contenidas suelen ser muy personales, lo increíble de hoy en día es que si pides ayuda a la inteligencia artificial suele darle al clavo con la inspiración.<br>
+                    {{ 'DEV.be.carta.tx1' | translate }}<br>
+                    <br> {{ 'DEV.be.carta.tx2' | translate }}<br>
                     <br>
-                    "
                     <small>
-                        Actualmente, he estado enfocado en el desarrollo frontend en Angular, con más de 5 años de experiencia. Me gusta trabajar en equipo, buscar una formación continua, aplicar nuevos conocimientos en desarrollo, y poner mi creatividad y corazón en mi trabajo diario. También considero que la vida y el tiempo que tenemos son una oportunidad y una bendición para compartir la pasión que nos hace únicos, y que el mundo espera y necesita para prosperar.
+                        {{ 'DEV.be.carta.tx3' | translate }}
                     </small>
-                    "<br>
-                    ...
+                    <br>
                 </p>
 
             </div>
@@ -139,14 +137,14 @@
             <div class="col-xl-3">
                 <h2 class="f-bebas fs-200 text-light m-0 p-0">5</h2>
                 <h2 class="f-yanone fs-40 lh-40 text-light p-0 text-uppercase mb-2">
-                    MARKETPLACE DE TALENTO
+                    {{ 'DEV.be.marketplace.titulo' | translate }}
                 </h2>
                 <p class="fuenteDos c7 fs-18 lh-20">
-                    Las agencias de empleo determinan el punto central laboral, acá es donde somos un producto que debe destacarse para ser visto y tenido en cuenta.<br>
+                    {{ 'DEV.be.marketplace.tx1' | translate }}<br>
                     <br>
-                    El panorama es favorable o no según la oferta y la demanda de postulados, si hay pocos seremos muy valiosos y muchas cosas pueden pasarse por alto como por ejemplo que no domine por completo una tecnología o que se requiera un cargo senior y lo termine consiguiendo un semi, cosas por el estilo.<br>
+                    {{ 'DEV.be.marketplace.tx2' | translate }}<br>
                     <br>
-                    En este caso consideremos que el panorama no es favorable y que nos toca buscar la manera de destacar entre muchos.
+                    {{ 'DEV.be.marketplace.tx3' | translate }}
                 </p>
             </div>
         </div>
@@ -159,7 +157,7 @@
                     <img src="assets/img/memes/mem3.png" alt="Que elegancia" height="75" width="auto">
                 </span>
                 <p class="c7 fuenteDos fs-20 lh-25">
-                    Si tenemos amigos o familiares que nos puedan dar una recomendación directa en la empresa, usemos esta posibilidad. Un reclutador ve de mejor manera a alguien recomendado que a un desconocido inicialmente.
+                    {{ 'DEV.be.marketplace.tx4' | translate }}
                 </p>
                 <div class="espacio"></div>
 
@@ -167,8 +165,8 @@
                     <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-linkedin.png" alt="logo linkedin" height="60" width="auto" class="drop">
                 </a>
                 <p class="c7 fuenteDos fs-20 lh-25">
-                    La mamá de las agencias para el empleo con un sentido muchísimo más completo enfocado a redes sociales.<br>
-                    <br>Para esta parte es requerido hacer un marketing personal teniendo en cuenta estos puntos:
+                    {{ 'DEV.be.marketplace.linkedin.tx1' | translate }}<br>
+                    <br>{{ 'DEV.be.marketplace.linkedin.tx2' | translate }}
                 </p>
                 <div *ngFor="let market of marketing" class="row">
                     <div class="col-md-1">
@@ -176,19 +174,19 @@
                     </div>
                     <div class="col-md-11">
                         <p class="f-open-sans-c c7 fs-20 lh-25">
-                            {{ market }}
+                            {{ this.marketplace[market] }}
                         </p>
                     </div>
                 </div>
                 <div class="espacio"></div>
                 <p class="c7 fuenteDos fs-20 lh-25">
-                    Se requiere llenar una serie de campos que te piden muy repetitiva mente, datos personales, estudio 1, estudio 2, empresa 1, empresa 2...
+                    {{ 'DEV.be.marketplace.linkedin.tx3' | translate }}
                 </p>
                 <span >
                     <img src="assets/img/memes/mem4.png" alt="Que elegancia" height="45" width="auto">
                 </span>
                 <p class="c7 fuenteDos fs-20 lh-25">
-                    Así ya esten incluídos en la hoja de vida.
+                    {{ 'DEV.be.marketplace.linkedin.tx4' | translate }}
                 </p>
                 <div class="espacio"></div>
                 <div class="row">
@@ -203,20 +201,19 @@
             <div class="col-xl-3">
                 <h2 class="f-bebas fs-200 text-light m-0 p-0">6</h2>
                 <h2 class="f-yanone fs-40 lh-40 text-light p-0 text-uppercase mb-2">
-                    ENTREVISTA
+                    {{ 'DEV.be.entrevista.titulo' | translate }}
                 </h2>
                 <p class="fuenteDos c7 fs-18 lh-20">
-                    De alguna manera esto es muy parecido a la cita que logras con la chica(o) que te gusta.
+                    {{ 'DEV.be.entrevista.tx1' | translate }}
                 </p>
                 <span >
                     <img src="assets/img/memes/mem2.png" alt="Que elegancia" height="45" width="auto">
                 </span>
                 <p class="fuenteDos c7 fs-18 lh-20">
                     <br>
-                    Es un gran paso y debe verse como un negocio en que ambas partes buscan que hay para ganar. Por ejemplo el salario es un tema que ambas partes tienen interés y es un punto en el que debemos saber como esta valorada nuesta profesión en el mercado.<br>
+                    {{ 'DEV.be.entrevista.tx2' | translate }}<br>
                     <br>
-                    Aún sintiendo mucha confianza porque antes nos fue bien a empresas anteriores o en caso de ser todo lo contrario y los nervios hicieron sus destrosos, en ambos casos se deben conocer las preguntas comunes y tener claro que se debe responder sin falsedades.
-
+                    {{ 'DEV.be.entrevista.tx3' | translate }}
                 </p>
             </div>
             <div class="col-xl-1"></div>
@@ -236,7 +233,7 @@
                 
                 <div class="mt-3 bords p-4">
                     <p class="c7 fuenteDos fs-20 lh-25">
-                        Este es un excelente sitio con materiales gratuitos de preparación de entrevistas seleccionados para personas ocupadas.
+                        {{ 'DEV.be.entrevista.tx4' | translate }}
                     </p>
                     <a href="https://www.techinterviewhandbook.org/" target="_blank" class="drop">
                         <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-techinterviewhandbook.png" alt="logo techinterviewhandbook" height="90" width="auto">
@@ -248,31 +245,31 @@
                 </div>
                 <div class="espacio"></div>
                 <p class="c7 fuenteDos fs-20 lh-25">
-                    Estas son algunas de las preguntas más comunes que suelen hacer para cada caso:
+                    {{ 'DEV.be.entrevista.tx5' | translate }}
                 </p>
 
                 <div id="preguntas">
-                    <div *ngFor="let grupo of preguntas; let i = index" >
+                    <div *ngFor="let grupo of retornarKeys(this.preguntasComunes); let i = index" >
                         <a type="button" id="pre{{ i }}" class="d-flex align-items-center" data-toggle="collapse" [attr.data-target]="['#refer'+ i]" aria-expanded="true" aria-controls="collapseOne">
                             <h2 class="f-bebas p-0 fw-3 fs-40 lh-40 text-light m-0 p-0">
-                                {{ grupo.categoria }}
+                                {{ this.preguntasComunes[grupo].categoria }}
                             </h2>
                             <i class="ml-2 c7 bi bi-plus-lg"></i>
                         </a>
                         <div class="collapse" id="refer{{i}}" [attr.aria-labelledby]="['#pre'+ i]" data-parent="#preguntas">
-                            <div *ngFor="let pregunta of grupo.pregunta" class="row">
+                            <div *ngFor="let pregunta of retornarKeys(this.preguntasComunes[grupo].bls)" class="row">
                                 <div class="col-md-1">
                                     <i class="bi bi-dash {{ publicacion.estilos.color }}" aria-hidden="true"></i>
                                 </div>
                                 <div class="col-md-11">
                                     <h4 class="f-yanone fs-20 lh-20 text-light p-0 text-uppercase mb-2">
-                                        {{ pregunta.pregunta }}
+                                        {{ this.preguntasComunes[grupo].bls[pregunta].pregunta }}
                                     </h4>
-                                    <p *ngIf="pregunta.sugerencia" class="f-open-sans-c fs-20 c7 lh-20">
-                                        <b>Sugerencia/=</b> {{ pregunta.sugerencia }}
+                                    <p *ngIf="this.preguntasComunes[grupo].bls[pregunta].sugerencia" class="f-open-sans-c fs-20 c7 lh-20">
+                                        <b>{{this.categoriaTranslate.entrevista.Sugerencia}}/=</b> {{ this.preguntasComunes[grupo].bls[pregunta].sugerencia }}
                                     </p>
-                                    <p *ngIf="pregunta.respuestaEjemplo" class="f-shadow-into-l fs-20 {{ publicacion.estilos.color }} lh-25 text-shadow-one mb-5">
-                                        Respuesta ejemplo/= {{ pregunta.respuestaEjemplo }}
+                                    <p *ngIf="this.preguntasComunes[grupo].bls[pregunta].ejemplo" class="f-shadow-into-l fs-20 {{ publicacion.estilos.color }} lh-25 text-shadow-one mb-5">
+                                        {{this.categoriaTranslate.entrevista.Respuesta_ejemplo}}/= {{ this.preguntasComunes[grupo].bls[pregunta].ejemplo }}
                                     </p>
                                 </div>
                             </div>
@@ -287,13 +284,13 @@
             <div class="col-xl-3">
                 <h2 class="f-bebas fs-200 text-light m-0 p-0">7</h2>
                 <h2 class="f-yanone fs-40 lh-40 text-light p-0 text-uppercase mb-2">
-                    PRUEBA TÉCNICA
+                    {{ 'DEV.be.prueba.titulo' | translate }}
                 </h2>
                 <p class="fuenteDos c7 fs-18 lh-20">
-                    Lograr pasar efectivamente  la prueba técnica, puede llegar a considerarse el primer pie dentro de la empresa.<br>
+                    {{ 'DEV.be.prueba.tx1' | translate }}<br>
                     <br>
-                    En un perfil con experiencia debería ser tomado como un requerimiento normal de trabajo.<br>
-                    Con o sin experiencia hay que entrenar antes, estas son algunas herramientas para lograrlo:
+                    {{ 'DEV.be.prueba.tx2' | translate }}<br>
+                    {{ 'DEV.be.prueba.tx3' | translate }}
                 </p>
 
                 <div class="espacio"></div>
@@ -302,8 +299,8 @@
                 </a>
 
                 <p class="fuenteDos c7 fs-18 lh-20 font-italic">
-                    Las habilidades hablan más que las palabras.<br>
-                    Ayudamos a las empresas a desarrollar los equipos tecnológicos más fuertes.<br> Ayudamos a los candidatos a perfeccionar sus habilidades tecnológicas y a buscar oportunidades de empleo.
+                    {{ 'DEV.be.prueba.tx4' | translate }}<br>
+                    {{ 'DEV.be.prueba.tx5' | translate }}<br>  {{ 'DEV.be.prueba.tx6' | translate }}
                 </p>
             </div>
             <div class="col-xl-1"></div>

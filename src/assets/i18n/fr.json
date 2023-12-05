@@ -25,6 +25,331 @@
                 "cv5":"Créer un CV prêt à l'emploi en quelques minutes",
                 "cv6":"Constructeur de CV en ligne gratuit",
                 "cv7":"Votre réussite commence par un curriculum vitae"
+            },
+            "carta":{
+                "titulo":"LETTRE DE COUVERTURE",
+                "tx1":"Il s'agit d'une lettre personnelle qui vous présente à l'entreprise ou au poste pour lequel vous postulez.",
+                "tx2":"Les mots qu'ils contiennent sont souvent très personnels. Ce qui est étonnant aujourd'hui, c'est que si vous demandez de l'aide à l'intelligence artificielle, elle vous inspirera généralement.",
+                "tx3":" \"Actuellement, je me concentre sur le développement frontend en Angular, avec plus de 5 ans d'expérience. J'aime travailler en équipe, rechercher l'apprentissage continu, appliquer de nouvelles connaissances dans le développement, et mettre ma créativité et mon cœur dans mon travail quotidien. Je considère également la vie et le temps que nous avons comme une opportunité et une bénédiction pour partager la passion qui nous rend unique, et que le monde attend et dont il a besoin pour prospérer. \"..."
+            },
+            "marketplace":{
+                "titulo":"MARCHÉ DES TALENTS",
+                "tx1":"Les agences pour l'emploi déterminent le point focal de l'emploi, c'est là que nous sommes un produit qui doit se distinguer pour être vu et pris en compte.",
+                "tx2":"Les perspectives sont favorables ou non en fonction de l'offre et de la demande de candidats. S'il y en a peu, nous serons très précieux et beaucoup de choses peuvent être négligées, comme le fait de ne pas maîtriser totalement une technologie ou le fait qu'un poste de haut niveau est requis et qu'un semi l'obtient, des choses comme ça.",
+                "tx3":"Dans ce cas, considérons que les perspectives ne sont pas favorables et qu'il nous appartient de trouver un moyen de nous démarquer.",
+                "tx4":"Si vous avez des amis ou des parents qui peuvent vous recommander directement dans l'entreprise, utilisez cette possibilité. Un recruteur voit d'un œil plus favorable une personne recommandée qu'un inconnu au départ.",
+                "linkedin":{
+                    "tx1":"Les agences de recrutement ont une vision beaucoup plus complète de l'importance des médias sociaux.",
+                    "tx2":"Pour cette partie, il est demandé de faire un marketing personnel en tenant compte de ces points :",
+                    "puntos":{
+                        "tx1":"Élargir le réseau avec des contacts de valeur, en fonction de mon profil et de ce que je recherche.",
+                        "tx2":"Vous devez publier un contenu de valeur.",
+                        "tx3":"Commentez, faites des commentaires propositionnels forts exemple : \"Wow\" quel bon article car...",
+                        "tx4":"Rédigez un résumé attrayant mettant en évidence les réalisations et les propositions de valeur.",
+                        "tx5":"Ajoutez un message personnalisé lors de l'envoi de demandes de connexion, afin d'expliquer pourquoi vous souhaitez vous connecter.",
+                        "tx6":"Suivre les entreprises qui m'intéressent et leurs recruteurs.",
+                        "tx7":"Rejoignez des groupes liés à votre secteur d'activité ou à votre domaine d'intérêt, où vous pourrez participer à des conversations, partager des connaissances et nouer des liens précieux."
+                    },
+                    "tx3":"Vous devez remplir une série de champs qui vous demandent de manière très répétitive, données personnelles, étude 1, étude 2, entreprise 1, entreprise 2...",
+                    "tx4":"Même s'ils figurent déjà dans le curriculum vitae."
+                }
+            },
+            "entrevista":{
+                "titulo":"INTERVIEW",
+                "tx1":"D'une certaine manière, cela ressemble beaucoup au rendez-vous que vous avez avec la fille qui vous plaît.",
+                "tx2":"C'est un grand pas et il faut le considérer comme une affaire dans laquelle les deux parties cherchent ce qu'il y a à gagner. Par exemple, les salaires sont une question qui intéresse les deux parties et nous devons savoir comment notre profession est évaluée sur le marché.",
+                "tx3":"Même si vous vous sentez très confiant parce que vous avez obtenu de bons résultats dans des entreprises précédentes, ou si c'est le contraire et que les nerfs ont fait des dégâts, dans les deux cas, vous devez être conscient des questions les plus courantes et savoir que vous devez y répondre sans mensonges. ",
+                "tx4":"Il s'agit d'un excellent site qui propose des documents gratuits de préparation aux entretiens, sélectionnés pour les personnes très occupées. ",
+                "tx5":"Voici quelques-unes des questions les plus fréquemment posées dans chaque cas :",
+                "preguntas":{
+                    "ctn1":{
+                        "categoria":"PERSONNEL",
+                        "bls":{
+                            "bl1":{
+                                "pregunta":"PARLEZ-MOI DE VOUS",
+                                "sugerencia":"Il s'agit d'une question ouverte qui vous donne l'occasion de parler de votre expérience personnelle et professionnelle, de vos intérêts et de vos objectifs.",
+                                "ejemplo":""
+                            },
+                            "bl2":{
+                                "pregunta":"POURQUOI SOUHAITEZ-VOUS TRAVAILLER POUR NOTRE ENTREPRISE ?",
+                                "sugerencia":" Les enquêteurs veulent savoir si vous avez fait des recherches sur l'entreprise et si vous partagez ses valeurs et ses objectifs.",
+                                "ejemplo":""
+                            },
+                            "bl3":{
+                                "pregunta":"QUELLE EST VOTRE EXPÉRIENCE DU TRAVAIL AU SEIN D'ÉQUIPES DE DÉVELOPPEMENT DE LOGICIELS ?",
+                                "sugerencia":"Dans ce cadre, vous pouvez être interrogé sur vos compétences en matière de communication, de collaboration et d'adaptation à la dynamique d'équipe.",
+                                "ejemplo":""
+                            },
+                            "bl4":{
+                                "pregunta":"POUVEZ-VOUS DÉCRIRE UN PROJET DIFFICILE SUR LEQUEL VOUS AVEZ TRAVAILLÉ ET LA MANIÈRE DONT VOUS L'AVEZ SURMONTÉ ?",
+                                "sugerencia":"Cette question évalue votre capacité à résoudre des problèmes et à relever des défis.",
+                                "ejemplo":""
+                            },
+                            "bl5":{
+                                "pregunta":"COMMENT SE TENIR AU COURANT DES DERNIÈRES TENDANCES ET TECHNOLOGIES EN MATIÈRE DE DÉVELOPPEMENT DE LOGICIELS ?",
+                                "sugerencia":" Les intervieweurs veulent savoir si vous êtes un professionnel qui ne cesse d'apprendre et de se tenir au courant.",
+                                "ejemplo":""
+                            },
+                            "bl6":{
+                                "pregunta":"AVEZ-VOUS UNE EXPÉRIENCE DE TRAVAIL SUR DES PROJETS AGILES OU DES MÉTHODOLOGIES DE DÉVELOPPEMENT SPÉCIFIQUES ?",
+                                "sugerencia":"Il se peut que l'on vous demande votre capacité d'adaptation et votre expérience dans des environnements de développement spécifiques.",
+                                "ejemplo":""
+                            },
+                            "bl7":{
+                                "pregunta":"QU'EST-CE QUI VOUS MOTIVE DANS VOTRE CARRIÈRE DE DÉVELOPPEUR DE LOGICIELS ?",
+                                "sugerencia":"Vous pouvez y parler de vos objectifs de carrière et de ce qui vous passionne dans le développement de logiciels.",
+                                "ejemplo":""
+                            },
+                            "bl8":{
+                                "pregunta":"COMMENT GÉREZ-VOUS LE STRESS ET LES DÉLAIS SERRÉS ?",
+                                "sugerencia":"Cette question teste votre capacité à faire face à des situations de forte pression.",
+                                "ejemplo":""
+                            },
+                            "bl9":{
+                                "pregunta":"AVEZ-VOUS UNE EXPÉRIENCE EN MATIÈRE DE DIRECTION OU DE GESTION D'ÉQUIPES DE DÉVELOPPEMENT ?",
+                                "sugerencia":"Cela pourrait vous permettre d'explorer votre potentiel à assumer des rôles de leadership à l'avenir.",
+                                "ejemplo":""
+                            },
+                            "bl10":{
+                                "pregunta":"QUELLE EST VOTRE APPROCHE DE LA QUALITÉ DU CODE ET DES PRATIQUES DE DÉVELOPPEMENT DURABLE ?",
+                                "sugerencia":"Les enquêteurs peuvent être intéressés par votre engagement en faveur de la qualité et de l'amélioration continue.",
+                                "ejemplo":""
+                            }
+                            
+                        }
+                    },
+                    "ctn2":{
+                        "categoria":"TRAVAIL",
+                        "bls":{
+                            "bl1":{
+                                "pregunta":"QUELLE ÉTAIT LA DERNIÈRE ENTREPRISE DANS LAQUELLE VOUS AVEZ TRAVAILLÉ ?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl2":{
+                                "pregunta":"PARLEZ-NOUS DE VOTRE EXPÉRIENCE DANS LA DERNIÈRE ENTREPRISE ?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl3":{
+                                "pregunta":"QUEL A ÉTÉ VOTRE PLUS GRAND DÉFI DANS CETTE ENTREPRISE ET POURQUOI ?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            }
+                        }
+                    },
+                    "ctn3":{
+                        "categoria":"ÉTUDES",
+                        "bls":{
+                            "bl1":{
+                                "pregunta":"JUSQU'À QUEL NIVEAU AVEZ-VOUS ÉTUDIÉ ?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl2":{
+                                "pregunta":"ÊTES-VOUS TITULAIRE D'UN MASTER OU D'UN DIPLÔME ?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            } 
+                        }
+                    },
+                    "ctn4":{
+                        "categoria":"DÉVELOPPEMENT FRONTAL",
+                        "bls":{
+                            "bl1":{
+                                "pregunta":"VOUS AVEZ DE L'EXPÉRIENCE DANS LES TYPESCRIPT ET LES MODÈLES DE CONCEPTION JAVASCRIPT ?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl2":{
+                                "pregunta":"AVEZ-VOUS DE L'EXPÉRIENCE EN MATIÈRE D'ARCHITECTURE DE CONCEPTION ATOMIQUE ?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            }
+                        }
+                    },
+                    "ctn5":{
+                        "categoria":"HTML, CSS ET JAVASCRIPT",
+                        "bls":{
+                            "bl1":{
+                                "pregunta":"QUEL ATTRIBUT HTML EST UTILISÉ POUR DÉFINIR LES STYLES EN LIGNE ?",
+                                "sugerencia":"",
+                                "ejemplo":"Il s'agit de l'attribut de style."
+                            },
+                            "bl2":{
+                                "pregunta":"QUELLE BALISE HTML EST UTILISÉE POUR DÉFINIR UNE FEUILLE DE STYLE EXTERNE ?",
+                                "sugerencia":"",
+                                "ejemplo":"Il s'agit de la balise de lien et le chemin d'accès est ajouté dans l'attribut src."
+                            },
+                            "bl3":{
+                                "pregunta":"QUELLE PSEUDO-CLASSE EST UTILISÉE POUR DÉFINIR UNE PROPRIÉTÉ LORSQUE LE CURSEUR DE LA SOURIS EST POSITIONNÉ SUR UN ÉLÉMENT ?",
+                                "sugerencia":"",
+                                "ejemplo":"La classe de pseudo survol est précédée de deux points."
+                            },
+                            "bl4":{
+                                "pregunta":"QUELLE EST LA DIFFÉRENCE ENTRE LES PROPRIÉTÉS MARGIN ET PADDING EN CSS ?",
+                                "sugerencia":"",
+                                "ejemplo":"La marge est l'espace à l'extérieur de l'élément DOM et le rembourrage est appliqué à l'intérieur du corps de l'élément DOM auquel la classe est appliquée."
+                            },
+                            "bl5":{
+                                "pregunta":"QUE SIGNIFIE L'ACRONYME CSS ?",
+                                "sugerencia":"",
+                                "ejemplo":"Feuille de style en cascade"
+                            },
+                            "bl6":{
+                                "pregunta":"EN CSS3 QUE FONT LES \"A\" IN RGBA?",
+                                "sugerencia":"",
+                                "ejemplo":"Les 4 signifient R:rouge, G:vert, B:bleu, A:alpha (transparence)."
+                            },
+                            "bl7":{
+                                "pregunta":"COMMENT ASSIGNER DES STYLES POUR DIFFÉRENTS APPAREILS ET RÉSOLUTIONS ?",
+                                "sugerencia":"",
+                                "ejemplo":"Par le biais de la propriété @media dans les styles en cascade."
+                            },
+                            "bl8":{
+                                "pregunta":"QUE DÉFINISSEZ-VOUS LORSQUE VOUS UTILISEZ FLEX-DIRECTION : COLUMN ; DANS UN ÉLÉMENT AVEC DISPLAY : FLEX; ?",
+                                "sugerencia":"",
+                                "ejemplo":"que les éléments à l'intérieur de l'affichage : flex sont formés comme une colonne."
+                            },
+                            "bl9":{
+                                "pregunta":"EXPLIQUE LA FONCTION DE @IMPORT DANS SASS",
+                                "sugerencia":"",
+                                "ejemplo":"L'objectif de la directive @import est de relier plusieurs fichiers SASS ou SCSS à un fichier de type SASS ou SCSS, afin de trier le code séparément."
+                            },
+                            "bl10":{
+                                "pregunta":"EXPLIQUE LA FONCTION DE @EXTEND DANS SASS",
+                                "sugerencia":"",
+                                "ejemplo":"Cette directive a la particularité de permettre l'héritage des caractéristiques d'une classe ou d'un sélecteur vers un autre sélecteur, évitant ainsi la répétition des styles."
+                            },
+                            "bl11":{
+                                "pregunta":"EXPLIQUE QUAND VOUS POUVEZ UTILISER LE CARACTÈRE GÉNÉRIQUE % DANS SASS",
+                                "sugerencia":"",
+                                "ejemplo":"Il est utilisé lors de la création d'un groupe de style %name {css features}, après avoir été créé, il fonctionne à l'intérieur d'une classe en se référant à l'héritage de %name et hérite donc des styles, comme ceci : .class { @extend %name;}"
+                            },
+                            "bl12":{
+                                "pregunta":"EXPLIQUER AVEC VOS PROPRES MOTS COMMENT LES MIXINS SASS (@MIXIN) PEUVENT ÊTRE UTILES",
+                                "sugerencia":"",
+                                "ejemplo":"Il vous permet de réutiliser les styles et les propriétés CSS dans vos feuilles de style de manière modulaire et efficace. Une grande utilité est de pouvoir passer des paramètres à un @mixin créé précédemment et d'utiliser toutes les fonctionnalités de ce @mixin avec le paramètre envoyé."
+                            },
+                            "bl13":{
+                                "pregunta":"EN HTML, L'ATTRIBUT TITLE EST UTILISÉ POUR :",
+                                "sugerencia":"",
+                                "ejemplo":"Il s'agit de fournir des informations supplémentaires sur un élément lorsque l'utilisateur le survole."
+                            },
+                            "bl14":{
+                                "pregunta":"EST UTILISÉE EN HTML POUR INCLURE UN CODE SCRIPT QUI SE TROUVE DANS UN AUTRE FICHIER (EXTERNE) :",
+                                "sugerencia":"",
+                                "ejemplo":"<script> avec le=\"\" et le chemin d'accès au fichier."
+                            },
+                            "bl15":{
+                                "pregunta":"EN HTML POUR DÉFINIR UNE LIGNE DE SÉPARATION HORIZONTALE :",
+                                "sugerencia":"",
+                                "ejemplo":"Le label est utilisé <hr>."
+                            },
+                            "bl16":{
+                                "pregunta":"EN HTML POUR DÉFINIR QUE LA LANGUE PRINCIPALE D'UNE PAGE EST L'ESPAGNOL, ON UTILISE",
+                                "sugerencia":"",
+                                "ejemplo":"La balise HTML comporte un attribut appelé lang=\"es\", supplémentaire, il est conseillé d'utiliser la même propriété dans des balises telles que \"header\", \"main\", \"section\", \"footer\", pour aider les outils de traduction."
+                            },
+                            "bl17":{
+                                "pregunta":"EN HTML, ROWSPAN ET COLSPAN SONT DES ATTRIBUTS DE LA BALISE",
+                                "sugerencia":"",
+                                "ejemplo":"Étiquette <td>, permettent de contrôler la fusion des cellules, ce qui permet à une cellule d'occuper plusieurs lignes. \"rowspan\" ou plusieurs colonnes \"colspan\"."
+                            },
+                            "bl18":{
+                                "pregunta":"QUELLE BALISE HTML EST UTILISÉE POUR DÉFINIR UNE FEUILLE DE STYLE INTERNE ?",
+                                "sugerencia":"",
+                                "ejemplo":"<style>"
+                            },
+                            "bl19":{
+                                "pregunta":"EN HTML, L'ATTRIBUT ALT EST UTILISÉ POUR :",
+                                "sugerencia":"",
+                                "ejemplo":"3 avantages principaux tels que : - Description de l'accessibilité des images pour les personnes à faible visibilité, - Lorsque les images ne sont pas chargées correctement, elles fournissent des informations sur le contenu, - En référencement, elles permettent une meilleure indexation dans les résultats. Dans les balises <img>, <audio> y <video>."
+                            },
+                            "bl20":{
+                                "pregunta":"EN HTML, LA FAÇON CORRECTE DE CRÉER UN COMMENTAIRE EST :",
+                                "sugerencia":"",
+                                "ejemplo":"<---- commentaire ---->"
+                            },
+                            "bl21":{
+                                "pregunta":"QUELLE EST LA STRUCTURE DU DOM ?",
+                                "sugerencia":"Les DOM, o Document Object Model (Modèle d'objet de document, en anglais), suit une hiérarchie, où un nœud supérieur nommé \"nœud racine\" représente l'ensemble du document. À partir de ce nœud racine, les nœuds se ramifient pour représenter les éléments du document, tels que les balises HTML, les attributs et le contenu textuel. Ces nœuds sont connectés les uns aux autres de manière hiérarchique, reflétant la structure imbriquée du document original.",
+                                "ejemplo":""
+                            },
+                            "bl22":{
+                                "pregunta":"CITEZ TOUS LES ÉLÉMENTS QUE VOUS CONNAISSEZ ET QUI ONT ÉTÉ INTRODUITS DANS LE LANGAGE HTML 5",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl23":{
+                                "pregunta":"QUELLE EST LA DIFFÉRENCE ENTRE VAR, LET ET CONST ?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl24":{
+                                "pregunta":"QU'EST-CE QUE L'ECMA ET/OU QUE DÉFINIT-ELLE ?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl25":{
+                                "pregunta":"CITER AU MOINS DEUX FRAMEWORKS DE TESTS UNITAIRES POUR JAVASCRIPT",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl26":{
+                                "pregunta":"QUELLE EST LA DIFFÉRENCE ENTRE UNE CLASSE ET UN OBJET EN PROGRAMMATION ?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl27":{
+                                "pregunta":"QUELLES SONT LES FAÇONS D'OBTENIR LES VARIABLES DE L'OBJET SUIVANT EN UTILISANT ES5 ET ES6 ? CONST USER = {NAME : NOM D'UTILISATEUR, AGE : 99}",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl28":{
+                                "pregunta":"EXPLIQUE CE QUE FAIT LA LIGNE SUIVANTE EN CONSIDÉRANT QUE MONTHS EST UN TABLEAU DE MOIS : MONTHS.SPLICE(1, 0, \"FEB\");",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl29":{
+                                "pregunta":"DÉCRIVEZ EN DÉTAIL, AUTANT QUE VOUS POUVEZ L'OBSERVER, LA FONCTION SUIVANTE : \"(() ⇒ {CONSOLE.LOG(\"BONJOUR LE MONDE\");})()\"",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl30":{
+                                "pregunta":"CRÉER UNE REQUÊTE HTTP GET BASIQUE EN UTILISANT JAVASCRIPT VERS UN DOMAINE DE VOTRE CHOIX",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl31":{
+                                "pregunta":"QUELLE EST LA DIFFÉRENCE ENTRE UN TEST UNITAIRE, UN TEST D'INTÉGRATION ET UN TEST D'ACCEPTATION ?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl32":{
+                                "pregunta":"QUELLES SONT LES CARACTÉRISTIQUES D'UN BON TEST D'UNITÉ ?",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            },
+                            "bl33":{
+                                "pregunta":"DANS LE CYCLE DE VIE DE VUE, QUELLE SERAIT LA DIFFÉRENCE ENTRE \"CREATED\" Y \"MOUNTED\"",
+                                "sugerencia":"",
+                                "ejemplo":""
+                            }
+                        }
+                    }
+                },
+                "Sugerencia":"Suggestion",
+                "Respuesta_ejemplo":"Exemple de réponse"
+            },
+            "prueba":{
+                "titulo":"TEST TECHNIQUE",
+                "tx1":"La réussite du test technique peut être considérée comme le premier pied dans la porte de l'entreprise.",
+                "tx2":"Pour un profil expérimenté, il s'agit d'une exigence professionnelle normale.",
+                "tx3":"Avec ou sans expérience, vous devez vous entraîner avant, voici quelques outils pour y parvenir :",
+                "tx4":"Les compétences sont plus éloquentes que les mots.",
+                "tx5":"Nous aidons les entreprises à mettre en place les meilleures équipes technologiques.",
+                "tx6":"Nous aidons les candidats à perfectionner leurs compétences technologiques et à rechercher des opportunités d'emploi."
             }
         }
     }
