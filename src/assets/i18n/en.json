@@ -6,6 +6,12 @@
     "Enviar": "Send",
     "DEV":{
         "be":{
+            "titulo":"JOB SEARCH",
+            "descripcion": {
+                "tx1":"Proven recommendations in the job search.",
+                "tx2":"This publication is a reflection of my own process to get a job as a frontend developer. At the beginning of the publication I am looking for a good company, when I finish it the idea is to suggest which points worked.",
+                "tx3":"The objective seen in a simple way is to sell ourselves as a product of commerce (in context only). These are the points that I suggest to take into account."
+            },
             "predisposicion":"PREDISPOSITION",
             "predisposicion1":"Before we tell the world that we are looking for a job, we must first know it inside. For obvious reasons, if you are looking for a job, it is presumably because you are totally convinced.",
             "predisposicion2":"Predisposition alone ends up being the major force that will connect everything.",

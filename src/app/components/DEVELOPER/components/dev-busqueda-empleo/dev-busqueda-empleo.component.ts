@@ -59,7 +59,6 @@ export class DevBusquedaEmpleoComponent implements OnInit {
 			this.cv = translated.cv;
 			this.marketplace = translated.marketplace.linkedin.puntos;
 			this.preguntasComunes = translated.entrevista.preguntas;
-			console.log(this.preguntasComunes, 'this.preguntasComunes');
 		});
 	}
 

@@ -6,6 +6,12 @@
     "Enviar": "Enviar",
     "DEV":{
         "be":{
+            "titulo":"BÚSQUEDA EMPLEO",
+            "descripcion": {
+                "tx1":"Recomendaciones probadas en la búsqueda de empleo.",
+                "tx2":"Esta publicación es un reflejo de mi propio proceso para ingresar a trabajar como desarrollador frontend. Iniciada la publicación estoy en búsqueda laboral de una buena empresa, al terminarlo la idea es sugerir que puntos funcionaron.",
+                "tx3":"El objetivo visto de simple manera es vendernos como un producto de comercio (Solo en contexto). Estos son los puntos que sugiero se deben tener en cuenta."
+            },
             "predisposicion":"PREDISPOSICIÓN",
             "predisposicion1":"Antes de decirle al mundo que buscamos empleo, primero hay que saberlo dentro. Por obvias razones si se esta en la búsqueda es porque presuntamente hay total convencimiento.",
             "predisposicion2":"La sola predisposición termina siendo la mayor fuerza que va a conectar todo.",
@@ -342,14 +348,13 @@
                 "Sugerencia":"Sugerencia",
                 "Respuesta_ejemplo":"Respuesta ejemplo"
             },
-            "prueba":{
-                "titulo":"PRUEBA TÉCNICA",
-                "tx1":"Lograr pasar efectivamente la prueba técnica, puede llegar a considerarse el primer pie dentro de la empresa.",
-                "tx2":"En un perfil con experiencia debería ser tomado como un requerimiento normal de trabajo.",
-                "tx3":"Con o sin experiencia hay que entrenar antes, estas son algunas herramientas para lograrlo:",
-                "tx4":"Las habilidades hablan más que las palabras.",
-                "tx5":"Ayudamos a las empresas a desarrollar los equipos tecnológicos más fuertes.",
-                "tx6":"Ayudamos a los candidatos a perfeccionar sus habilidades tecnológicas y a buscar oportunidades de empleo."
+            "encabezado":{
+                "publicacion":{
+                    "titulo":"BÚSQUEDA EMPLEO",
+                    "tx1": "Recomendaciones probadas en la búsqueda de empleo.",
+                    "tx2": "Esta publicación es un reflejo de mi propio proceso para ingresar a trabajar como desarrollador frontend. Iniciada la publicación estoy en búsqueda laboral de una buena empresa, al terminarlo la idea es sugerir que puntos funcionaron.",
+                    "tx3": "El objetivo visto de simple manera es vendernos como un producto de comercio (Solo en contexto). Estos son los puntos que sugiero se deben tener en cuenta."
+                }
             }
         }
     }
