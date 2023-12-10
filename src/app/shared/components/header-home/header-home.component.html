@@ -17,13 +17,23 @@
                     </span>
                 </a>
             </div>
-            <div class="col-6">
+            <div class="col-5">
                 <form class="formUno mb-2" [formGroup]="formBasic">
                     <input (blur)="desaparecerTablaBusqueda()" class="inputUno text-light fuente bg-transparent" type="search" placeholder="{{ 'Buscar' | translate }}" aria-label="Search" formControlName="busqueda" (keyup)="buscar($event)">
                 </form>
                 <div *ngIf="mostrarResultados">
                     <p *ngFor="let item of encontrados" class="text-light f-open-sans-c cursor-p m-0 p-0" (click)="irAlPost(item.ruta)">{{ item.nombre }}</p>
                 </div>
+            </div>
+            <div class="col-1">
+                <div class="dropdown f-open-sans-c text-center">
+                    <a type="button" data-toggle="dropdown" aria-expanded="false">
+                        <img src="assets/img/icons/traduccion.png" alt="icon png" height="40px" width="auto" class="drop">
+                    </a>
+                    <div class="dropdown-menu bg-transparent border text-light">
+                      <a *ngFor="let lenguaje of lenguajes" class="dropdown-item cursor-p" (click)="cambiarLenguaje(lenguaje)">{{lenguaje}}</a>
+                    </div>
+                  </div>
             </div>
             <div class="col-1"></div>
         </div>

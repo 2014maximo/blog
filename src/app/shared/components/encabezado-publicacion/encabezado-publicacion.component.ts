@@ -1,8 +1,9 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, SimpleChanges } from '@angular/core';
 import { datosCategoria, postActual, textoAFecha } from '../../constants/funciones/funciones-globales';
 import { DatosPost } from '../../models/categorias.model';
 import { TranslateService } from '@ngx-translate/core';
-// import { firstValueFrom } from 'rxjs';
+import { firstValueFrom } from 'rxjs';
+import { TraduccionService } from '@app/services/traduccion.service';
 
 @Component({
 	selector: 'app-encabezado-publicacion',
@@ -18,39 +19,42 @@ export class EncabezadoPublicacionComponent implements OnInit {
 	public titulo:string = '';
 	public descripcion:string[]=[];
 
-	constructor(public translate: TranslateService) {
+	constructor(public translate: TranslateService, public traduccion: TraduccionService) {
 		translate.setDefaultLang(navigator.language.split('-')[0]);
 	}
 
 	async ngOnInit() {
 		this.inicializarVariables();
-		this.contenidoEncabezado();
-		if(this.publicacion){
-			this.publicacion.descripcion.forEach(e => 
-				this.descripcion.push(e)
-			)}
+		await this.contenidoEncabezado();
+		this.traduccion.cambioIdioma$.subscribe((idioma) => {
+			this.contenidoEncabezado();
+		})
 	}
 
 	ngOnDestroy(): void {
 	}
 
-	contenidoEncabezado(){
+	async contenidoEncabezado(){
+		this.descripcion = [];
 		this.translate.get(this.publicacion.nombre).subscribe((translated: any) => {
 			this.titulo = translated
 		});
-		let cantTxts = this.publicacion.descripcion.length;
-		this.publicacion.descripcion[0].split('.');
+		if(this.publicacion){
+			let cantTxts = this.publicacion.descripcion.length;
+			for(let i=0; i < cantTxts; i++){
+				let tx = await this.cargarDescripcion(this.publicacion.descripcion[i])
+				this.descripcion.push(tx);
+			}
+		}
 	}
 
-/* 	async cargarDescripcion(e:string): Promise<string>{
+	async cargarDescripcion(e:string){
 		try{
-			return await firstValueFrom(observable);
-				
-
+			return await firstValueFrom(this.translate.get(e));
 		} catch(e) {
 			console.error(e);
 		}
-	} */
+	}
 
 	public extraerDatoCategoria(categoria: string, referencia: number): any {
 		return datosCategoria(categoria, referencia)
@@ -58,7 +62,6 @@ export class EncabezadoPublicacionComponent implements OnInit {
 
 	private inicializarVariables() {
 		this.publicacion = (postActual(this.idPublicacion))[0];
-		console.log(this.publicacion);
 	}
 
 	public fechaAString(fecha: Date): string {

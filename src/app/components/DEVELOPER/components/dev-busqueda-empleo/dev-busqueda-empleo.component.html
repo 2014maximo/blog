@@ -1,14 +1,14 @@
 <div #target></div>
 <app-header-home [categoria]="breadcrumb"></app-header-home>
 <div class="espaciado"></div>
-<app-encabezado-publicacion [idPublicacion]="idPublicacion" [rutaIconoSugerido]="categoria.rutaIcono"></app-encabezado-publicacion>
+<app-encabezado-publicacion
+    [idPublicacion]="idPublicacion"
+    [rutaIconoSugerido]="categoria.rutaIcono"></app-encabezado-publicacion>
 <div class="espaciado"></div>
 
 <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10">
-        <button (click)="cambiarLenguaje('fr')">CAMBIO IDIOMA</button>
-        <button (click)="cambiarLenguaje('en')">CAMBIO IDIOMA</button>
         <div class="row">
             <div class="col-xl-8">
                 <div class="espacio"></div>

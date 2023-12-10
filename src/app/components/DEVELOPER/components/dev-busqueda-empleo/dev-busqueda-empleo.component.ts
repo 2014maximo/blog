@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, SimpleChanges } from '@angular/core';
 import { CATEGORIA } from '@constants/index';
 import { postActual } from '@shared/constants';
 import { cargarBreadcrumb, cargarIndice } from '@shared/constants/funciones/funciones-globales';
@@ -9,6 +9,7 @@ import { AGENCIAS, BLOQUE_LINKS, MARKETING, PREGUNTAS, TEST } from './constants/
 import { PreguntasModel } from '@components/DEVELOPER/models/dev-busqueda.model';
 import { IAgencia } from './models/empleo.model';
 import { TranslateService } from '@ngx-translate/core';
+import { TraduccionService } from '@app/services/traduccion.service';
 
 @Component({
 	selector: 'app-dev-busqueda-empleo',
@@ -33,7 +34,7 @@ export class DevBusquedaEmpleoComponent implements OnInit {
 	public preguntasComunes:any = {};
 	public categoriaTranslate:any = {};
 
-	constructor(public translate: TranslateService) {
+	constructor(public translate: TranslateService, private traduccion: TraduccionService) {
 		translate.setDefaultLang(navigator.language.split('-')[0]);
 	}
 
@@ -47,6 +48,10 @@ export class DevBusquedaEmpleoComponent implements OnInit {
 		this.marketing = MARKETING;
 		this.preguntas = PREGUNTAS;
 		this.bloqueLinks = BLOQUE_LINKS.sort((a: any, b: any) => a.nombre.toLowerCase().charCodeAt(0) - b.nombre.toLowerCase().charCodeAt(0));
+
+		this.traduccion.cambioIdioma$.subscribe((idioma) => {
+			this.cargaCv();
+		})
 	}
 
 	public scroll(el: HTMLElement) {
@@ -68,11 +73,6 @@ export class DevBusquedaEmpleoComponent implements OnInit {
 
 	public activo(e: any): string {
 		return e.srcElement.ariaExpanded ? 'active' : '';
-	}
-
-	public cambiarLenguaje(lang: string) {
-		this.translate.use(lang); // Cambia el actual lenguaje
-		this.cargaCv();
 	}
 
 	public retornarKeys(grupo: object):string[]{
