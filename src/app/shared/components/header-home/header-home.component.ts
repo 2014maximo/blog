@@ -40,6 +40,8 @@ export class HeaderHomeComponent implements OnInit {
 		}
 		translate.setDefaultLang(navigator.language.split('-')[0]);
 		translate.use(this.idiomaActual);
+		this.cargarListaLenguajes();
+
 		this.inicializarVariables();
 		this.formBasic = new FormGroup({
 			'busqueda': new FormControl('')
@@ -91,17 +93,25 @@ export class HeaderHomeComponent implements OnInit {
 	public procesoCambioLenguaje(a:string){
 		localStorage.setItem("idioma", a);
 		this.cambiarLenguaje(a);
+		this.cargarListaLenguajes();
 	}
 
 	public cambiarLenguaje(lang: string) {
-		this.lenguajes = ['es', 'en', 'fr']; //Cargar grupo de los idiomas actuales por defecto
 		this.translate.use(lang); // Cambia el idioma que se le mande
 		// let idiomaActual = navigator.language.split('-')[0];
-		let indice = this.lenguajes.indexOf(lang);
+		this.traduccion.cambiarIdioma(lang);
+	}
+
+	cargarListaLenguajes(){
+		this.lenguajes = ['es', 'en', 'fr']; 
+		this.idiomaActual = navigator.language.split('-')[0];
+
+		let indice = this.lenguajes.indexOf(this.idiomaActual);
 		if (indice !== -1) {
 			this.lenguajes = this.lenguajes.slice(0, indice).concat(this.lenguajes.slice(indice + 1));
 		}
-		this.traduccion.cambiarIdioma(lang);
+
+		console.log(this.lenguajes, this.idiomaActual, 'CONTROL');
 
 	}
 
