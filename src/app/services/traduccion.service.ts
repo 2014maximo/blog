@@ -16,6 +16,5 @@ export class TraduccionService {
     
     this.translate.use(idioma);
     this.cambioIdiomaSubject.next(idioma);
-    localStorage.setItem("idioma", idioma);
   }
 }
