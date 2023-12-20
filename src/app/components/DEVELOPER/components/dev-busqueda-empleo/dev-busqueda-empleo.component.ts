@@ -35,7 +35,7 @@ export class DevBusquedaEmpleoComponent implements OnInit {
 	public categoriaTranslate:any = {};
 
 	constructor(public translate: TranslateService, private traduccion: TraduccionService) {
-		translate.setDefaultLang(navigator.language.split('-')[0]);
+		// translate.setDefaultLang(navigator.language.split('-')[0]);
 	}
 
 	ngOnInit(): void {

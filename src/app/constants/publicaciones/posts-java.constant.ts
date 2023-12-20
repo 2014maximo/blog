@@ -10,6 +10,7 @@ export const JAVA: DatosPost[] = [
     {
         id: 'd0210005-c92c-4f2a-8b57-cb22429c3aac',
         nombre: 'JAVA',
+        referenciaBusqueda:'',
         descripcion: [],
         descripcionCorta: '',
         ruta: 'java',
@@ -28,6 +29,7 @@ export const JAVA: DatosPost[] = [
     {
         id: '4f7645eb-12eb-4214-bd26-dfe68c89cfef',
         nombre: 'Glassfish',
+        referenciaBusqueda:'',
         descripcion: ['Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano.'],
         descripcionCorta: 'Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías.',
         ruta: 'java-glassfish',
@@ -47,6 +49,7 @@ export const JAVA: DatosPost[] = [
     {
         id: '0326f90f-19cb-4c22-9daf-395c4b71a4b1',
         nombre: 'Instalación Java',
+        referenciaBusqueda:'',
         descripcion: ['Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano.'],
         descripcionCorta: 'Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías.',
         ruta: 'java-instalacion',

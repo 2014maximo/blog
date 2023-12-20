@@ -9,6 +9,7 @@ export const CSS: DatosPost[] = [
     {
         id: '2234145591',
         nombre: 'CSS',
+        referenciaBusqueda:'',
         descripcion: ['Cuando empezamos a desarrollar en web solo con HTML, sentimos nos hace falta poder mostrar cada elemento con otro color o con un mejor estilo'],
         descripcionCorta: '',
         ruta: 'css',
@@ -27,6 +28,7 @@ export const CSS: DatosPost[] = [
     {
         id: 'ffee0fb8-9e0d-49f2-80ac-afdcf115f92f',
         nombre: 'Elementos CSS',
+        referenciaBusqueda:'',
         descripcion: [
             'Siendo un principio común, algunos de los que iniciamos en la programación arrancamos en la Web y es indudable que para algunos fue enredado entender como aplicar una clase o cada opción que el DOM pone a disposición con los estilos CSS.'
         ],

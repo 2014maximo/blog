@@ -4,9 +4,46 @@
     "Email": "Email",
     "Comentarios": "Comentarios",
     "Enviar": "Enviar",
+    "ANDROID":{
+        "android":{
+            "nombre": "Android"
+        }
+    },
+    "ANGULAR":{
+        "angular":{
+            "nombre": "Angular"
+        },
+        "ng-instalacion":{
+            "nombre": "Instalación Angular y recomendados",
+            "referenciaBusqueda":"instalacion, angular, recomendaciones",
+            "descripcion":{
+                "tx1":"Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano."},
+            "descripcionCorta":"Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías."
+        },
+        "ng-elementos":{
+            "nombre": "Elementos Angular",
+            "referenciaBusqueda":"instalacion, angular, recomendaciones",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+            "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        },
+        "ng-comunicacion-componentes":{
+            "nombre": "Comunicacion entre componentes",
+            "referenciaBusqueda":"Paso de datos, Comunicacion",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+            },
+            "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        },
+        "ng-arquitecturas":{
+            "nombre"
+        }
+    },
     "DEV":{
         "be":{
             "titulo":"BÚSQUEDA EMPLEO",
+            "referenciaBusqueda":"",
+            "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
             "descripcion": {
                 "tx1":"Recomendaciones probadas en la búsqueda de empleo.",
                 "tx2":"Esta publicación es un reflejo de mi propio proceso para ingresar a trabajar como desarrollador frontend. Iniciada la publicación estoy en búsqueda laboral de una buena empresa, al terminarlo la idea es sugerir que puntos funcionaron.",
@@ -358,4 +395,6 @@
             }
         }
     }
+
+
 }

@@ -8,6 +8,7 @@ import { busquedaGeneral } from '../../constants/funciones/funciones-globales';
 import { TranslateService } from '@ngx-translate/core';
 import { LenguajeModel } from '@shared/models/traslate.model';
 import { TraduccionService } from '@app/services/traduccion.service';
+import { firstValueFrom } from 'rxjs';
 
 @Component({
 	selector: 'app-header-home',
@@ -19,6 +20,7 @@ export class HeaderHomeComponent implements OnInit {
 	public formBasic: FormGroup;
 	public categorias = CATEGORIA;
 	public todosLosPost: DatosPost[] = [];
+	public todosLosPostTraducidos: DatosPost[] = [];
 	public mostrarResultados: boolean = false;
 	public encontrados: DatosPost[] = [];
 	public lang = navigator.language;
@@ -40,7 +42,8 @@ export class HeaderHomeComponent implements OnInit {
 		}
 		translate.setDefaultLang(navigator.language.split('-')[0]);
 		translate.use(this.idiomaActual);
-		this.cargarListaLenguajes();
+		this.cargarListaLenguajes(this.idiomaActual);
+		this.traducirColeccion(this.idiomaActual);
 
 		this.inicializarVariables();
 		this.formBasic = new FormGroup({
@@ -49,7 +52,6 @@ export class HeaderHomeComponent implements OnInit {
 	}
 
 	ngOnInit(): void {
-		this.cambiarLenguaje(navigator.language.split('-')[0]) // = this.lenguajes.filter(e => e !== navigator.language.split('-')[0])
 	}
 
 	private inicializarVariables() {
@@ -58,19 +60,23 @@ export class HeaderHomeComponent implements OnInit {
 				this.todosLosPost.push(element);
 			});
 		});
-		this.todosLosPost = Object.assign([], this.retirarPostsPrincipalCategoria(this.todosLosPost))
-
+		this.todosLosPost = Object.assign([], this.retirarPostsPrincipalCategoria(this.todosLosPost));
+		this.traducirColeccion(this.idiomaActual);
 	}
 
 	public buscar(e: any) {
 		let buscar = this.formBasic.value.busqueda;
 		if (e.key && buscar) {
+
+			console.log(localStorage.getItem('idioma'), 'IDIOMA ACTUAL');
+			console.log(this.idiomaActual, 'this.idiomaActual');
+			console.log(buscar, 'TERMINO2');
+
 			this.mostrarResultados = true;
-			this.encontrados = busquedaGeneral(this.todosLosPost, 'nombre', buscar);
+			this.encontrados = busquedaGeneral(this.todosLosPostTraducidos, 'referenciaBusqueda', buscar);
 		} else {
 			this.mostrarResultados = false;
 		}
-
 	}
 
 	private retirarPostsPrincipalCategoria(grupo: DatosPost[]): DatosPost[] {
@@ -92,27 +98,71 @@ export class HeaderHomeComponent implements OnInit {
 
 	public procesoCambioLenguaje(a:string){
 		localStorage.setItem("idioma", a);
-		this.cambiarLenguaje(a);
-		this.cargarListaLenguajes();
+		this.idiomaActual = a;
+		this.traduccion.cambiarIdioma(a);
+		this.cargarListaLenguajes(a);
+		this.traducirColeccion(a);
 	}
 
-	public cambiarLenguaje(lang: string) {
-		this.translate.use(lang); // Cambia el idioma que se le mande
-		// let idiomaActual = navigator.language.split('-')[0];
-		this.traduccion.cambiarIdioma(lang);
-	}
-
-	cargarListaLenguajes(){
+	cargarListaLenguajes(a:string){
 		this.lenguajes = ['es', 'en', 'fr']; 
-		this.idiomaActual = navigator.language.split('-')[0];
 
-		let indice = this.lenguajes.indexOf(this.idiomaActual);
+		let indice = this.lenguajes.indexOf(a);
 		if (indice !== -1) {
 			this.lenguajes = this.lenguajes.slice(0, indice).concat(this.lenguajes.slice(indice + 1));
 		}
+	}
 
-		console.log(this.lenguajes, this.idiomaActual, 'CONTROL');
+	async traducirColeccion(idioma:string){
+/* 		this.todosLosPostTraducidos = this.todosLosPost.map((res) => ({
+			categoria: res.categoria,
+			componente: res.componente,
+			descripcion: res.descripcion,
+			descripcionCorta: res.descripcionCorta,
+			estado: res.estado,
+			estilos: res.estilos,
+			fechaActualizacion: res.fechaActualizacion,
+			fechaCreacion: res.fechaCreacion,
+			id: res.id,
+			imgCuadro: res.imgCuadro,
+			imgHorizontal: res.imgHorizontal,
+			imgVertical: res.imgVertical,
+			mostrarEnPostHome: res.mostrarEnPostHome,
+			nombre: res.nombre,
+			posicion: res.posicion,
+			referenciaBusqueda: await this.traducirReferencia(res.referenciaBusqueda),
+			ruta: res.ruta,
+			imgSlider: res.imgSlider
+		})) */
+		for(let i=0; i<this.todosLosPost.length; i++){
+			this.todosLosPostTraducidos.push({
+				categoria: this.todosLosPost[i].categoria,
+				componente: this.todosLosPost[i].componente,
+				descripcion: this.todosLosPost[i].descripcion,
+				descripcionCorta: await this.traducirReferencia(this.todosLosPost[i].descripcionCorta),
+				estado: this.todosLosPost[i].estado,
+				estilos: this.todosLosPost[i].estilos,
+				fechaActualizacion: this.todosLosPost[i].fechaActualizacion,
+				fechaCreacion: this.todosLosPost[i].fechaCreacion,
+				id: this.todosLosPost[i].id,
+				imgCuadro: this.todosLosPost[i].imgCuadro,
+				imgHorizontal: this.todosLosPost[i].imgHorizontal,
+				imgVertical: this.todosLosPost[i].imgVertical,
+				mostrarEnPostHome: this.todosLosPost[i].mostrarEnPostHome,
+				nombre: await this.traducirReferencia(this.todosLosPost[i].nombre),
+				posicion: this.todosLosPost[i].posicion,
+				referenciaBusqueda: await this.traducirReferencia(this.todosLosPost[i].referenciaBusqueda),
+				ruta: this.todosLosPost[i].ruta,
+				imgSlider: this.todosLosPost[i].imgSlider
+			})
+			console.log(this.todosLosPostTraducidos, 'TODOS LOS POST TRADUCIDOS');
+		}
+	}
 
+	async traducirReferencia(ref:string){
+		let traducion = await firstValueFrom(this.translate.get(ref));
+		console.log(traducion, 'haber');
+		return traducion;
 	}
 
 }

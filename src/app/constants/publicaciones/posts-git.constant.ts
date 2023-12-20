@@ -9,6 +9,7 @@ export const GIT: DatosPost[] = [
     {
         id: 'b72262ee-1257-4b4d-a980-d56190506dfe',
         nombre: 'GIT',
+        referenciaBusqueda:'',
         descripcion: [],
         descripcionCorta: '',
         ruta: 'git',
@@ -27,6 +28,7 @@ export const GIT: DatosPost[] = [
     {
         id: '4871cb38-9831-4099-bd70-c0b540bf47a1',
         nombre: 'ERRORES COMUNES EN GIT',
+        referenciaBusqueda:'',
         descripcion: ['Errores comunes que nos ponen a patinar un rato buscado la solución.'],
         descripcionCorta: 'Errores comunes que nos ponen a patinar un rato buscado la solución.',
         ruta: 'git-errores',

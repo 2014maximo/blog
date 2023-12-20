@@ -20,7 +20,7 @@ export class EncabezadoPublicacionComponent implements OnInit {
 	public descripcion:string[]=[];
 
 	constructor(public translate: TranslateService, public traduccion: TraduccionService) {
-		translate.setDefaultLang(navigator.language.split('-')[0]);
+		// translate.setDefaultLang(navigator.language.split('-')[0]);
 	}
 
 	async ngOnInit() {

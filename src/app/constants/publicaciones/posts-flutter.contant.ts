@@ -9,6 +9,7 @@ export const FLUTTER: DatosPost[] = [
     {
         id: '9249441409',
         nombre: 'Flutter',
+        referenciaBusqueda:'',
         descripcion: [],
         descripcionCorta: '',
         ruta: 'flutter',
@@ -27,6 +28,7 @@ export const FLUTTER: DatosPost[] = [
     {
         id: '70d34b42-d1bf-4920-b217-ef6b09ff42d6',
         nombre: 'Flutter instalación',
+        referenciaBusqueda:'',
         descripcion: [
             'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
         ],
@@ -48,6 +50,7 @@ export const FLUTTER: DatosPost[] = [
     {
         id: '73913100-7f71-49a2-8e8e-b25464880ea7',
         nombre: 'Flutter elementos',
+        referenciaBusqueda:'',
         descripcion: [
             'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
         ],

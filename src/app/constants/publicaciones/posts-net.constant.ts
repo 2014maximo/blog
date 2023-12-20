@@ -9,6 +9,7 @@ export const NET: DatosPost[] = [
     {
         id: 'a51c1552-365b-4012-9afd-28637fe5c1d7',
         nombre: 'NET',
+        referenciaBusqueda:'',
         descripcion: [],
         descripcionCorta: '',
         ruta: 'net',
@@ -27,6 +28,7 @@ export const NET: DatosPost[] = [
     {
         id: '23ef844e-de15-49b8-bda3-aded4000630e',
         nombre: 'Elementos net',
+        referenciaBusqueda:'',
         descripcion: [
             'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
         ],
@@ -48,6 +50,7 @@ export const NET: DatosPost[] = [
     {
         id: 'e0fd17aa-bb97-4bec-901a-a6d4e0e4eba2',
         nombre: 'Instalación net',
+        referenciaBusqueda:'',
         descripcion: [
             'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
         ],

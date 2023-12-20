@@ -14,6 +14,7 @@ export const DEVELOPER: DatosPost[] = [
         ruta: 'developer',
         componente: 'DeveloperComponent',
         mostrarEnPostHome: false,
+        referenciaBusqueda:'',
         estilos: ESTILO_DEVELOPER,
         fechaCreacion: '2021-08-02',
         fechaActualizacion: '2021-08-02',
@@ -32,6 +33,7 @@ export const DEVELOPER: DatosPost[] = [
         ruta: 'dev-super-recursos',
         componente: 'DevSuperRecursosComponent',
         mostrarEnPostHome: true,
+        referenciaBusqueda:'sitios web - links - web recomendados',
         estilos: ESTILO_DEVELOPER,
         fechaCreacion: '2023-03-20',
         fechaActualizacion: '',
@@ -53,6 +55,7 @@ export const DEVELOPER: DatosPost[] = [
     {
         id: 'de48822e-c2f5-4274-a682-535a44456478',
         nombre: 'Algoritmos de clasificación que son clave',
+        referenciaBusqueda:'algoritmos clave',
         descripcion: ['No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente.'],
         descripcionCorta: 'Sitios web que se ignora para que puedan ser útiles. Una pequeña descripción.',
         ruta: 'dev-algoritmos-clave',
@@ -72,6 +75,7 @@ export const DEVELOPER: DatosPost[] = [
     {
         id: 'e36e7879-16ff-4933-84a3-de2bc077b49e',
         nombre: 'Diagramas de secuencia',
+        referenciaBusqueda:'diagramas secuencia',
         descripcion: ['No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente.'],
         descripcionCorta: 'Sitios web que se ignora para que puedan ser útiles. Una pequeña descripción.',
         ruta: 'dev-diagramas-secuencia',
@@ -91,6 +95,7 @@ export const DEVELOPER: DatosPost[] = [
     {
         id: 'aebf78f7-3ffa-4fa0-bde2-ac4cd4d3c07d',
         nombre: 'Controles rápidos visual studio code',
+        referenciaBusqueda:'hotkey controles rapidos',
         descripcion: ['No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente.'],
         descripcionCorta: 'Sitios web que se ignora para que puedan ser útiles. Una pequeña descripción.',
         ruta: 'dev-controles-visual',
@@ -110,6 +115,7 @@ export const DEVELOPER: DatosPost[] = [
     {
         id: '27df71a4-6654-4349-9481-06f93c3639d6',
         nombre: 'DEV.be.titulo',
+        referenciaBusqueda:'busqueda empleo - trabajo - trabajar',
         descripcion: [
             'DEV.be.descripcion.tx1',
             'DEV.be.descripcion.tx2',
@@ -133,6 +139,7 @@ export const DEVELOPER: DatosPost[] = [
     {
         id: 'bec3c210-7438-4082-ab68-ff836b42b3eb',
         nombre: 'Glosario general',
+        referenciaBusqueda:'',
         descripcion: [
             'Terminos en general en la programación, este glosario a medida reciba actualizaciones se ingresan más términos y su significado.'
         ],

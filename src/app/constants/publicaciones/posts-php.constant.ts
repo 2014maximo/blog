@@ -10,6 +10,7 @@ export const PHP: DatosPost[] = [
     {
         id: 'b7cfec07-e492-400f-9238-f6cf3daba5e9',
         nombre: 'PHP',
+        referenciaBusqueda:'',
         descripcion: [],
         descripcionCorta: '',
         ruta: 'php',
@@ -28,6 +29,7 @@ export const PHP: DatosPost[] = [
     {
         id: '0bac147d-348c-48c4-976a-b1c83e4a0237',
         nombre: 'Elementos Php',
+        referenciaBusqueda:'',
         descripcion: [
             'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
         ],

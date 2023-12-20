@@ -9,6 +9,7 @@ export const ANGULAR: DatosPost[] = [
     {
         id: 'eb4011f5-81df-4261-b5c5-8f58d2ba88b5',
         nombre: 'Angular',
+        referenciaBusqueda:'',
         descripcion: ['Angular esta en el grupo de los mejores frameworks web, cada 6 meses sin falta entrega una nueva versión y se ha permitido evolucionar.'],
         descripcionCorta: '',
         ruta: 'angular',
@@ -26,9 +27,10 @@ export const ANGULAR: DatosPost[] = [
     },
     {
         id: '8618eb718b-655b-49a8-9e6e-f3732922b2df',
-        nombre: 'Instalación Angular y recomendados',
-        descripcion: ['Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano.'],
-        descripcionCorta: 'Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías.',
+        nombre: 'ANGULAR.ng-instalacion.nombre',
+        referenciaBusqueda:'ANGULAR.ng-instalacion.referencias',
+        descripcion: ['ANGULAR.ng-instalacion.descripcion.tx1'],
+        descripcionCorta: 'ANGULAR.ng-instalacion.descripcionCorta',
         ruta: 'ng-instalacion',
         componente: '',
         mostrarEnPostHome: true,
@@ -52,9 +54,10 @@ export const ANGULAR: DatosPost[] = [
     },
     {
         id: 'ca5b7f7a-af2e-47ce-a69e-4ccf6ec2a317',
-        nombre: 'Elementos Angular',
-        descripcion: ['Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano.'],
-        descripcionCorta: 'Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías.',
+        nombre: 'ANGULAR.ng-elementos.titulo',
+        referenciaBusqueda:'ANGULAR.ng-elementos.referencias',
+        descripcion: ['ANGULAR.ng-elementos.descripcion.tx1'],
+        descripcionCorta: 'ANGULAR.ng-elementos.descripcionCorta',
         ruta: 'ng-descripcion-elementos',
         componente: '',
         mostrarEnPostHome: true,
@@ -71,9 +74,10 @@ export const ANGULAR: DatosPost[] = [
     },
     {
         id: '4f414314-8a56-402c-83dc-807b2af9be53',
-        nombre: 'Comunicación entre componentes',
-        descripcion: ['Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano.'],
-        descripcionCorta: 'Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías.',
+        nombre: 'ANGULAR.ng-comunicacion-componentes.titulo',
+        referenciaBusqueda:'ANGULAR.ng-comunicacion-componentes.referencias',
+        descripcion: ['ANGULAR.ng-comunicacion-componentes.descripcion.tx1'],
+        descripcionCorta: 'ANGULAR.ng-comunicacion-componentes.descripcionCorta',
         ruta: 'ng-comunicacion-componentes',
         componente: '',
         mostrarEnPostHome: true,
@@ -91,6 +95,7 @@ export const ANGULAR: DatosPost[] = [
     {
         id: 'f3d97128-9f99-42e9-b800-cb1425d016cf',
         nombre: 'Arquitecturas propuestas para Angular',
+        referenciaBusqueda:'arquitectura angular',
         descripcion: [
             'Teniendo en cuenta que una arquitectura se puede aplicar para todo un proyecto en sus partes de frontend, backend, bases de datos y hasta infraestructura. Esta vez la idea es mostrar la arquitectura aplicando solo al frontend, en este caso a Angular y la aplicacíon a su estructura interna con varios ejemplos dado el caso de interés.',
             'Un esfuerzo máximo se desprende en los inicios por buscar la mejor arquitectura para los proyectos, buscando que todo dure y se quede con las bases del inicio, pero a medida que avanza el desarrollo, van creciendo lo requerimientos, las necesidades y se van definiendo nuevas opciones que no se tuvieron en cuenta al inicio.'
@@ -113,6 +118,7 @@ export const ANGULAR: DatosPost[] = [
     {
         id: '7c754f86-a78e-43e3-a6c4-1bad9041c1fa',
         nombre: 'Manejo de rutas en Angular',
+        referenciaBusqueda:'control manejo rutas angular',
         descripcion: ['Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano.'],
         descripcionCorta: 'Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías.',
         ruta: 'ng-manejo-rutas',
@@ -132,6 +138,7 @@ export const ANGULAR: DatosPost[] = [
     {
         id: 'fb64a27a-b6ef-44ea-87e5-ff24d6618bbb',
         nombre: 'Microservicios',
+        referenciaBusqueda:'microservicios',
         descripcion: ['Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano.'],
         descripcionCorta: 'Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías.',
         ruta: 'ng-microservicios',
@@ -151,6 +158,7 @@ export const ANGULAR: DatosPost[] = [
     {
         id: '3d909134-4cf9-4528-a4e3-1a2781d7e6e1',
         nombre: 'Módulos Angular',
+        referenciaBusqueda:'',
         descripcion: ['Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano.'],
         descripcionCorta: 'Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías.',
         ruta: 'ng-modulos',
@@ -170,6 +178,7 @@ export const ANGULAR: DatosPost[] = [
     {
         id: 'e8512f85-9249-40f0-91d4-1ff9f13db4f0',
         nombre: 'Pruebas unitarias en Angular',
+        referenciaBusqueda:'',
         descripcion: ['Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano.'],
         descripcionCorta: 'Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías.',
         ruta: 'ng-pruebas-unitarias',

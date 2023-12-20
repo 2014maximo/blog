@@ -9,6 +9,7 @@ export const HTML: DatosPost[] = [
     {
         id: '8825362007',
         nombre: 'HTML',
+        referenciaBusqueda:'',
         descripcion: [],
         descripcionCorta: '',
         ruta: 'html',
@@ -27,6 +28,7 @@ export const HTML: DatosPost[] = [
     {
         id: '2b9d0c67-2262-4f96-8179-483d21f71967',
         nombre: 'Elementos HTML',
+        referenciaBusqueda:'',
         descripcion: [
             'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
         ],

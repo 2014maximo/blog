@@ -10,6 +10,7 @@ export const KUBERNETES: DatosPost[] = [
     {
         id: 'b4b3eae9-5f63-4d8e-851b-57bb6982a919',
         nombre: 'KOTLIN',
+        referenciaBusqueda:'',
         descripcion: [],
         descripcionCorta: '',
         ruta: 'kotlin',
@@ -28,6 +29,7 @@ export const KUBERNETES: DatosPost[] = [
     {
         id: 'f69f7a4b-7bd3-4adb-a4f4-1e0c4d997e5a',
         nombre: 'Elementos kubernetes',
+        referenciaBusqueda:'',
         descripcion: [
             'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
         ],

@@ -9,6 +9,7 @@ export const ELECTRON: DatosPost[] = [
     {
         id: '1bbe7bbd-9f75-44da-8165-a5fde2070e2b',
         nombre: 'Electrón',
+        referenciaBusqueda:'',
         descripcion: [],
         descripcionCorta: '',
         ruta: 'electron',
@@ -27,6 +28,7 @@ export const ELECTRON: DatosPost[] = [
     {
         id: '456b48d2-6bd8-455f-b888-53adf98abb85',
         nombre: 'Elementos Electrón',
+        referenciaBusqueda:'',
         descripcion: [
             'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
         ],
@@ -48,6 +50,7 @@ export const ELECTRON: DatosPost[] = [
     {
         id: '0b061731-9966-4aee-b6bd-d334fe6dc2a5',
         nombre: 'Electrón instalación',
+        referenciaBusqueda:'',
         descripcion: [
             'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
         ],

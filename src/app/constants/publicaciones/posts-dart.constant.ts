@@ -9,6 +9,7 @@ export const DART: DatosPost[] = [
     {
         id: '2288525419',
         nombre: 'Dart',
+        referenciaBusqueda:'',
         descripcion: ['Dart con sus altibajos, entra de nuevo al ruedo con Flutter, sin embargo es importante saber que ventajas nos ofrece sobre otros lenguajes para poder elegirlo.'],
         descripcionCorta: 'Dart con sus altibajos, entra de nuevo al ruedo con Flutter, sin embargo es importante saber que ventajas nos ofrece sobre otros lenguajes para poder elegirlo.',
         ruta: '',
@@ -27,6 +28,7 @@ export const DART: DatosPost[] = [
     {
         id: 'abca9c03-f685-47df-aa15-8c52051955c2',
         nombre: 'Elementos dart',
+        referenciaBusqueda:'',
         descripcion: [
             'Famoso por Flutter, la estructura de Dart permite crear aplicaciones de muchos tipos enfocados a desarrollos web con mucha potencia.'
         ],

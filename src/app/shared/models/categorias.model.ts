@@ -74,6 +74,7 @@ export class DatosPost{
     imgVertical: string;
     imgCuadro:string;
     categoria: string;
+    referenciaBusqueda: string;
     imgSlider?: ImgSlider;
     estado: string;
 
@@ -92,6 +93,7 @@ export class DatosPost{
         };
         this.fechaCreacion = '';
         this.fechaActualizacion = '';
+        this.referenciaBusqueda = '';
         this.imgHorizontal = new RefImg();
         this.pixabay = {
             autor: '',

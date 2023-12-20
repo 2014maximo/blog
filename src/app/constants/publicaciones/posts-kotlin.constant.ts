@@ -10,6 +10,7 @@ export const KOTLIN: DatosPost[] = [
     {
         id: 'd8b1f94e-7b7e-41c1-a6d7-151e251c2889',
         nombre: 'KOTLIN',
+        referenciaBusqueda:'',
         descripcion: [],
         descripcionCorta: '',
         ruta: 'kotlin',
@@ -28,6 +29,7 @@ export const KOTLIN: DatosPost[] = [
     {
         id: '4310addc-5bed-49b2-9d60-76a1c58b1881',
         nombre: 'Elementos kotlin',
+        referenciaBusqueda:'',
         descripcion: [
             'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
         ],

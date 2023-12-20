@@ -9,6 +9,7 @@ export const DB: DatosPost[] = [
     {
         id: '6569240889',
         nombre: 'DB',
+        referenciaBusqueda:'',
         descripcion: [],
         descripcionCorta: '',
         ruta: 'db',
@@ -27,6 +28,7 @@ export const DB: DatosPost[] = [
     {
         id: 'e0d1b708-45bc-4749-a648-3c41d14ab7cc',
         nombre: 'Firebase',
+        referenciaBusqueda:'',
         descripcion: [
             'Firebase es una super herramienta en desarrollo para ser el núcleo de información, adaptable en nuestros inicios como desarrolladores.'
         ],
@@ -48,6 +50,7 @@ export const DB: DatosPost[] = [
     {
         id: '52afbc12-1bbc-4225-848d-faab850761dc',
         nombre: 'SQL',
+        referenciaBusqueda:'',
         descripcion: [
             'Firebase es una super herramienta en desarrollo para ser el núcleo de información, adaptable en nuestros inicios como desarrolladores.'
         ],
@@ -69,6 +72,7 @@ export const DB: DatosPost[] = [
     {
         id: 'c20a999c-d149-42fa-95fa-d4a2b7371bb4',
         nombre: 'SQL Server',
+        referenciaBusqueda:'',
         descripcion: [
             'Firebase es una super herramienta en desarrollo para ser el núcleo de información, adaptable en nuestros inicios como desarrolladores.'
         ],

@@ -10,6 +10,7 @@ export const LINUX: DatosPost[] = [
     {
         id: 'cb344e3e-8b47-4a86-8c26-c7f037ae239a',
         nombre: 'LINUX',
+        referenciaBusqueda:'',
         descripcion: [],
         descripcionCorta: '',
         ruta: 'linux',
@@ -28,6 +29,7 @@ export const LINUX: DatosPost[] = [
     {
         id: 'c0d8a7db-934b-48a1-820c-d0d3c53d557c',
         nombre: 'Comandos más usados',
+        referenciaBusqueda:'',
         descripcion: [
             'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
         ],

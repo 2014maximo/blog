@@ -9,6 +9,7 @@ export const WORDPRESS: DatosPost[] = [
     {
         id: '66418d5a-10b3-47e4-8f6d-fe527c5c53af',
         nombre: 'Wordpress',
+        referenciaBusqueda:'',
         descripcion: [],
         descripcionCorta: '',
         ruta: 'wordpress',
@@ -27,6 +28,7 @@ export const WORDPRESS: DatosPost[] = [
     {
         id: 'a4c97578-bdf9-46c3-a376-23b8814687ae',
         nombre: 'Elementos Wordpress',
+        referenciaBusqueda:'',
         descripcion: [
             'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
         ],

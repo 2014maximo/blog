@@ -10,6 +10,7 @@ export const JAVASCRIPT: DatosPost[] = [
     {
         id: '57a97a47-cc14-4db5-9f76-bd8a226016f5',
         nombre: 'JAVASCRIPT',
+        referenciaBusqueda:'',
         descripcion: [],
         descripcionCorta: '',
         ruta: 'javascript',
@@ -28,6 +29,7 @@ export const JAVASCRIPT: DatosPost[] = [
     {
         id: 'c79624d0-b839-465a-9879-461267c01f6b',
         nombre: 'Elementos javascript',
+        referenciaBusqueda:'',
         descripcion: [
             'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
         ],
@@ -49,6 +51,7 @@ export const JAVASCRIPT: DatosPost[] = [
     {
         id: 'bd16e1f4-b3dd-45d6-8400-c9e0a5ced350',
         nombre: 'Recorrido de arrays',
+        referenciaBusqueda:'',
         descripcion: [
             'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
         ],

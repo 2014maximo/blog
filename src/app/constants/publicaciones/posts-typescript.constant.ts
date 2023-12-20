@@ -11,6 +11,7 @@ export const TYPESCRIPT: DatosPost[] = [
     {
         id: '3574124706',
         nombre: 'TYPESCRIPT',
+        referenciaBusqueda:'',
         descripcion: [],
         descripcionCorta: '',
         ruta: 'typescript',
@@ -29,6 +30,7 @@ export const TYPESCRIPT: DatosPost[] = [
     {
         id: 'c79624d0-b839-465a-9879-461267c01f6b',
         nombre: 'Elementos typescript',
+        referenciaBusqueda:'',
         descripcion: [
             'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
         ],

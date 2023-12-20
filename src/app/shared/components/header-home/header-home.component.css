@@ -31,3 +31,6 @@
 .tituloDos{
     font-family: var(--fuente-dos) !important;
 }
+.translate-item:hover{
+    color:#002451;
+}
