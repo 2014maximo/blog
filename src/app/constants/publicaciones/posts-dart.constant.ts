@@ -8,10 +8,10 @@ export const ESTILO_DART: EstilosPost = {
 export const DART: DatosPost[] = [
     {
         id: '2288525419',
-        nombre: 'Dart',
-        referenciaBusqueda:'',
-        descripcion: ['Dart con sus altibajos, entra de nuevo al ruedo con Flutter, sin embargo es importante saber que ventajas nos ofrece sobre otros lenguajes para poder elegirlo.'],
-        descripcionCorta: 'Dart con sus altibajos, entra de nuevo al ruedo con Flutter, sin embargo es importante saber que ventajas nos ofrece sobre otros lenguajes para poder elegirlo.',
+        nombre: 'DART.dart.nombre',
+        referenciaBusqueda:'DART.dart.referenciaBusqueda',
+        descripcion: ['DART.dart.descripcion.tx1'],
+        descripcionCorta: 'DART.dart.descripcionCorta',
         ruta: '',
         componente: '',
         categoria: 'dart',
@@ -27,12 +27,12 @@ export const DART: DatosPost[] = [
     },
     {
         id: 'abca9c03-f685-47df-aa15-8c52051955c2',
-        nombre: 'Elementos dart',
-        referenciaBusqueda:'',
+        nombre: 'DART.dart-elementos.nombre',
+        referenciaBusqueda:'DART.dart-elementos.referenciaBusqueda',
         descripcion: [
-            'Famoso por Flutter, la estructura de Dart permite crear aplicaciones de muchos tipos enfocados a desarrollos web con mucha potencia.'
+            'DART.dart-elementos.descripcion.tx1'
         ],
-        descripcionCorta: 'Descripción de los elementos que hacen parte de Dart. Sugerencias adicionales para otra clase de aplicaciones.',
+        descripcionCorta: 'DART.dart-elementos.descripcionCorta',
         ruta: 'dart-elementos',
         componente: '',
         mostrarEnPostHome: true,

@@ -114,7 +114,7 @@ export const DEVELOPER: DatosPost[] = [
     },
     {
         id: '27df71a4-6654-4349-9481-06f93c3639d6',
-        nombre: 'DEV.be.titulo',
+        nombre: 'DEV.be.nombre',
         referenciaBusqueda:'busqueda empleo - trabajo - trabajar',
         descripcion: [
             'DEV.be.descripcion.tx1',

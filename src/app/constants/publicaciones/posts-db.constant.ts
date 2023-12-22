@@ -8,10 +8,10 @@ export const ESTILO_DB: EstilosPost = {
 export const DB: DatosPost[] = [
     {
         id: '6569240889',
-        nombre: 'DB',
-        referenciaBusqueda:'',
-        descripcion: [],
-        descripcionCorta: '',
+        nombre: 'DB.db.nombre',
+        referenciaBusqueda:'DB.db.referenciaBusqueda',
+        descripcion: ["DB.db.descripcion.tx1"],
+        descripcionCorta: 'DB.db.descripcionCorta',
         ruta: 'db',
         componente: 'DbComponent',
         categoria: 'db',
@@ -27,12 +27,12 @@ export const DB: DatosPost[] = [
     },
     {
         id: 'e0d1b708-45bc-4749-a648-3c41d14ab7cc',
-        nombre: 'Firebase',
-        referenciaBusqueda:'',
+        nombre: 'DB.db-firebase.nombre',
+        referenciaBusqueda:'DB.db-firebase.referenciaBusqueda',
         descripcion: [
-            'Firebase es una super herramienta en desarrollo para ser el núcleo de información, adaptable en nuestros inicios como desarrolladores.'
+            'DB.db-firebase.descripcion.tx1'
         ],
-        descripcionCorta: 'Esta es una guía de elementos que debes gestionar para conectar tu aplicación a Firebase.',
+        descripcionCorta: 'DB.db-firebase.descripcionCorta',
         ruta: 'db-firebase',
         componente: '',
         mostrarEnPostHome: true,
@@ -49,12 +49,12 @@ export const DB: DatosPost[] = [
     },
     {
         id: '52afbc12-1bbc-4225-848d-faab850761dc',
-        nombre: 'SQL',
-        referenciaBusqueda:'',
+        nombre: 'DB.db-sql.nombre',
+        referenciaBusqueda:'DB.db-sql.refenciaBusqueda',
         descripcion: [
-            'Firebase es una super herramienta en desarrollo para ser el núcleo de información, adaptable en nuestros inicios como desarrolladores.'
+            'DB.db-sql.descripcion.tx1'
         ],
-        descripcionCorta: 'Esta es una guía de elementos que debes gestionar para conectar tu aplicación a Firebase.',
+        descripcionCorta: 'DB.db-sql.descripcionCorta',
         ruta: 'db-sql',
         componente: '',
         mostrarEnPostHome: true,
