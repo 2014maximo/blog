@@ -59,7 +59,7 @@ export class DevBusquedaEmpleoComponent implements OnInit {
 	}
 
 	public cargaCv(){
-		this.translate.get('DEV.be').subscribe((translated: any) => {
+		this.translate.get('DEVELOPER.dev-busqueda-empleo').subscribe((translated: any) => {
 			this.categoriaTranslate = translated;
 			this.cv = translated.cv;
 			this.marketplace = translated.marketplace.linkedin.puntos;

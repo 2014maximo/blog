@@ -85,10 +85,116 @@
             "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
         }
     },
-    "DEV":{
-        "be":{
+    "CSS":{
+        "css":{
+            "nombre":"CSS",
+            "referenciaBusqueda":"css",
+            "descripcion":{"tx1":"Cuando empezamos a desarrollar en web solo con HTML, sentimos nos hace falta poder mostrar cada elemento con otro color o con un mejor estilo"},
+            "descripcionCorta":""
+        },
+        "css-clases":{
+            "nombre":"Clases CSS",
+            "referenciaBusqueda":"clases, css",
+            "descripcion":{
+                "tx1":"Siendo un principio común, algunos de los que iniciamos en la programación arrancamos en la Web y es indudable que para algunos fue enredado entender como aplicar una clase o cada opción que el DOM pone a disposición con los estilos CSS."
+            },
+            "descripcionCorta":"Explicación detallada para los estilos de las clases CSS. Particularmente fue la manera como siempre espere encontrarme una explicación en las búsquedas de google."
+        }
+    },
+    "DART":{
+        "dart":{
+            "nombre":"Dart",
+            "referenciaBusqueda":"dart",
+            "descripcion":{
+                "tx1":"Dart con sus altibajos, entra de nuevo al ruedo con Flutter, sin embargo es importante saber que ventajas nos ofrece sobre otros lenguajes para poder elegirlo."
+            },
+            "descripcionCorta":"Dart con sus altibajos, entra de nuevo al ruedo con Flutter, sin embargo es importante saber que ventajas nos ofrece sobre otros lenguajes para poder elegirlo."
+        },
+        "dart-elementos":{
+            "nombre":"Elementos Dart",
+            "referenciaBusqueda":"elementos",
+            "descripcion":{
+                "tx1":"Famoso por Flutter, la estructura de Dart permite crear aplicaciones de muchos tipos enfocados a desarrollos web con mucha potencia."
+            },
+            "descripcionCorta":"Descripción de los elementos que hacen parte de Dart. Sugerencias adicionales para otra clase de aplicaciones."
+        }
+    },
+    "DB":{
+        "db":{
+            "nombre":"DB",
+            "referenciaBusqueda":"db, bases de datos",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "db-firebase":{
+            "nombre":"Firebase",
+            "referenciaBusqueda":"firebase, no relacional, google",
+            "descripcion":{
+                "tx1":"Firebase es una super herramienta en desarrollo para ser el núcleo de información, adaptable en nuestros inicios como desarrolladores."
+            },
+            "descripcionCorta":"Esta es una guía de elementos que debes gestionar para conectar tu aplicación a Firebase."
+        },
+        "db-sql":{
+            "nombre":"SQL",
+            "referenciaBusqueda":"sql, relacionales",
+            "descripcion":{
+                "tx1":"SQL (Structured Query Language) es un lenguaje de programación diseñado para gestionar y manipular bases de datos relacionales. Utilizado en sistemas de gestión de bases de datos (DBMS), SQL permite realizar consultas, actualizaciones, inserciones y eliminaciones de datos en tablas. Su sintaxis se divide en categorías como DDL (Data Definition Language) para definir la estructura de la base de datos y DML (Data Manipulation Language) para manipular los datos. Los comandos comunes incluyen SELECT para recuperar datos, INSERT para agregar nuevos registros, UPDATE para modificar existentes y DELETE para eliminar registros. Su amplia adopción y versatilidad lo convierten en una herramienta fundamental para la administración de datos."
+            },
+            "descripcionCorta":"SQL (Structured Query Language) es un lenguaje de programación diseñado para gestionar y manipular bases de datos relacionales."
+        },
+        "db-sql-server":{
+            "nombre":"SQL Server",
+            "referenciaBusqueda":"sql, server",
+            "descripcion":{
+                "tx1":"Firebase es una super herramienta en desarrollo para ser el núcleo de información, adaptable en nuestros inicios como desarrolladores."
+            },
+            "descripcionCorta":"Esta es una guía de elementos que debes gestionar para conectar tu aplicación a Firebase."
+        }
+    },
+    "DEVELOPER":{
+        "developer":{
+            "nombre":"Developer",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "dev-super-recursos":{
+            "nombre":"Una gran agrupación de sitios web con muchos recursos",
+            "descripcion":{
+                "tx1":"No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente."
+            },
+            "descripcionCorta":"Sitios web que se ignora para que puedan ser útiles. Una pequeña descripción."
+        },
+        "dev-algoritmos-clave":{
+            "nombre":"Algoritmos de clasificación que son clave",
+            "referenciaBusqueda":"algoritmos clave",
+            "descripcion":{
+                "tx1":"No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente."
+            },
+            "descripcionCorta":"Sitios web que se ignora para que puedan ser útiles. Una pequeña descripción."
+        },
+        "dev-diagramas-secuencia":{
+            "nombre":"Diagramas de secuencia",
+            "referenciaBusqueda":"diagrama, secuencia",
+            "descripcion":{
+                "tx1":"No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente."
+            },
+            "descripcionCorta":"Sitios web que se ignora para que puedan ser útiles. Una pequeña descripción."
+        },
+        "dev-controles-visual":{
+            "nombre":"Controles rápidos visual studio code",
+            "referenciaBusqueda":"hotkey, controles",
+            "descripcion":{
+                "tx1":"No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente."
+            },
+            "descripcionCorta":"Sitios web que se ignora para que puedan ser útiles. Una pequeña descripción."
+        },
+        "dev-busqueda-empleo":{
             "nombre":"BÚSQUEDA EMPLEO",
-            "referenciaBusqueda":"",
+            "referenciaBusqueda":"trabajo, empleo, labor, trabajar",
             "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
             "descripcion": {
                 "tx1":"Recomendaciones probadas en la búsqueda de empleo.",
@@ -439,66 +545,20 @@
                     "tx3": "El objetivo visto de simple manera es vendernos como un producto de comercio (Solo en contexto). Estos son los puntos que sugiero se deben tener en cuenta."
                 }
             }
+        },
+        "dev-glosario":{
+            "nombre":"Glosario general",
+            "referenciaBusqueda":"terminos",
+            "descripcion":{
+                "tx1":"Terminos en general en la programación, este glosario a medida reciba actualizaciones se ingresan más términos y su significado."
+            },
+            "descripcionCorta":"Recomendaciones probadas en mi propia experiencia de búsqueda laboral."
         }
     },
-    "CSS":{
-        "css":{
-            "nombre":"CSS",
-            "referenciaBusqueda":"css",
-            "descripcion":{"tx1":"Cuando empezamos a desarrollar en web solo con HTML, sentimos nos hace falta poder mostrar cada elemento con otro color o con un mejor estilo"},
-            "descripcionCorta":""
-        },
-        "css-clases":{
-            "nombre":"Clases CSS",
-            "referenciaBusqueda":"clases, css",
-            "descripcion":{
-                "tx1":"Siendo un principio común, algunos de los que iniciamos en la programación arrancamos en la Web y es indudable que para algunos fue enredado entender como aplicar una clase o cada opción que el DOM pone a disposición con los estilos CSS."
-            },
-            "descripcionCorta":"Explicación detallada para los estilos de las clases CSS. Particularmente fue la manera como siempre espere encontrarme una explicación en las búsquedas de google."
-        }
-    },
-    "DART":{
-        "dart":{
-            "nombre":"Dart",
-            "referenciaBusqueda":"dart",
-            "descripcion":{
-                "tx1":"Dart con sus altibajos, entra de nuevo al ruedo con Flutter, sin embargo es importante saber que ventajas nos ofrece sobre otros lenguajes para poder elegirlo."
-            },
-            "descripcionCorta":"Dart con sus altibajos, entra de nuevo al ruedo con Flutter, sin embargo es importante saber que ventajas nos ofrece sobre otros lenguajes para poder elegirlo."
-        },
-        "dart-elementos":{
-            "nombre":"Elementos Dart",
-            "referenciaBusqueda":"elementos",
-            "descripcion":{
-                "tx1":"Famoso por Flutter, la estructura de Dart permite crear aplicaciones de muchos tipos enfocados a desarrollos web con mucha potencia."
-            },
-            "descripcionCorta":"Descripción de los elementos que hacen parte de Dart. Sugerencias adicionales para otra clase de aplicaciones."
-        }
-    },
-    "DB":{
-        "db":{
-            "nombre":"DB",
-            "referenciaBusqueda":"db, bases de datos",
-            "descripcion":{
-                "tx1":""
-            },
-            "descripcionCorta":""
-        },
-        "db-firebase":{
-            "nombre":"Firebase",
-            "referenciaBusqueda":"firebase, no relacional, google",
-            "descripcion":{
-                "tx1":"Firebase es una super herramienta en desarrollo para ser el núcleo de información, adaptable en nuestros inicios como desarrolladores."
-            },
-            "descripcionCorta":"Esta es una guía de elementos que debes gestionar para conectar tu aplicación a Firebase."
-        },
-        "db-sql":{
-            "nombre":"SQL",
-            "referenciaBusqueda":"sql, relacionales",
-            "descripcion":{
-                "tx1":"SQL (Structured Query Language) es un lenguaje de programación diseñado para gestionar y manipular bases de datos relacionales. Utilizado en sistemas de gestión de bases de datos (DBMS), SQL permite realizar consultas, actualizaciones, inserciones y eliminaciones de datos en tablas. Su sintaxis se divide en categorías como DDL (Data Definition Language) para definir la estructura de la base de datos y DML (Data Manipulation Language) para manipular los datos. Los comandos comunes incluyen SELECT para recuperar datos, INSERT para agregar nuevos registros, UPDATE para modificar existentes y DELETE para eliminar registros. Su amplia adopción y versatilidad lo convierten en una herramienta fundamental para la administración de datos."
-            },
-            "descripcionCorta":"SQL (Structured Query Language) es un lenguaje de programación diseñado para gestionar y manipular bases de datos relacionales."
+    "ELECTRON":{
+        "electron":{
+            "nombre":"",
+            "referenciaBusqueda":""
         }
     }
 

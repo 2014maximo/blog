@@ -71,12 +71,12 @@ export const DB: DatosPost[] = [
     },
     {
         id: 'c20a999c-d149-42fa-95fa-d4a2b7371bb4',
-        nombre: 'SQL Server',
-        referenciaBusqueda:'',
+        nombre: 'DB.db-sql-server.nombre',
+        referenciaBusqueda:'DB.db-sql-server.referenciaBusqueda',
         descripcion: [
-            'Firebase es una super herramienta en desarrollo para ser el núcleo de información, adaptable en nuestros inicios como desarrolladores.'
+            'DB.db-sql-server.descripcion.tx1'
         ],
-        descripcionCorta: 'Esta es una guía de elementos que debes gestionar para conectar tu aplicación a Firebase.',
+        descripcionCorta: 'DB.db-sql-server.descripcionCorta',
         ruta: 'db-sql-server',
         componente: '',
         mostrarEnPostHome: true,

@@ -27,9 +27,9 @@ export const DEVELOPER: DatosPost[] = [
     },
     {
         id: '6f3b8325-3262-421f-ac5a-7ed4946487a6',
-        nombre: 'Una gran agrupación de sitios web con muchos recursos',
-        descripcion: ['No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente.'],
-        descripcionCorta: 'Sitios web que se ignora para que puedan ser útiles. Una pequeña descripción.',
+        nombre: 'DEVELOPER.dev-super-recursos.nombre',
+        descripcion: ['DEVELOPER.dev-super-recursos.descripcion.tx1'],
+        descripcionCorta: 'DEVELOPER.dev-super-recursos.descripcionCorta',
         ruta: 'dev-super-recursos',
         componente: 'DevSuperRecursosComponent',
         mostrarEnPostHome: true,
@@ -54,8 +54,8 @@ export const DEVELOPER: DatosPost[] = [
     },
     {
         id: 'de48822e-c2f5-4274-a682-535a44456478',
-        nombre: 'Algoritmos de clasificación que son clave',
-        referenciaBusqueda:'algoritmos clave',
+        nombre: 'DEVELOPER.dev-algoritmos-clave.nombre',
+        referenciaBusqueda:'DEVELOPER.dev-algoritmos-clave.referenciaBusqueda',
         descripcion: ['No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente.'],
         descripcionCorta: 'Sitios web que se ignora para que puedan ser útiles. Una pequeña descripción.',
         ruta: 'dev-algoritmos-clave',
@@ -74,10 +74,10 @@ export const DEVELOPER: DatosPost[] = [
     },
     {
         id: 'e36e7879-16ff-4933-84a3-de2bc077b49e',
-        nombre: 'Diagramas de secuencia',
-        referenciaBusqueda:'diagramas secuencia',
-        descripcion: ['No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente.'],
-        descripcionCorta: 'Sitios web que se ignora para que puedan ser útiles. Una pequeña descripción.',
+        nombre: 'DEVELOPER.dev-diagramas-secuencia.nombre',
+        referenciaBusqueda:'DEVELOPER.dev-diagramas-secuencia.referenciaBusqueda',
+        descripcion: ['DEVELOPER.dev-diagramas-secuencia.descripcion.tx1'],
+        descripcionCorta: 'DEVELOPER.dev-diagramas-secuencia.descripcionCorta',
         ruta: 'dev-diagramas-secuencia',
         componente: 'DevDiagramasSecuenciaComponent',
         mostrarEnPostHome: true,
@@ -94,10 +94,10 @@ export const DEVELOPER: DatosPost[] = [
     },
     {
         id: 'aebf78f7-3ffa-4fa0-bde2-ac4cd4d3c07d',
-        nombre: 'Controles rápidos visual studio code',
-        referenciaBusqueda:'hotkey controles rapidos',
-        descripcion: ['No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente.'],
-        descripcionCorta: 'Sitios web que se ignora para que puedan ser útiles. Una pequeña descripción.',
+        nombre: 'DEVELOPER.dev-controles-visual.nombre',
+        referenciaBusqueda:'DEVELOPER.dev-controles-visual.referenciaBusqueda',
+        descripcion: ['DEVELOPER.dev-controles-visual.descripcion.tx1'],
+        descripcionCorta: 'DEVELOPER.dev-controles-visual.descripcionCorta',
         ruta: 'dev-controles-visual',
         componente: 'DevControlesVisualStudio',
         mostrarEnPostHome: true,
@@ -114,14 +114,14 @@ export const DEVELOPER: DatosPost[] = [
     },
     {
         id: '27df71a4-6654-4349-9481-06f93c3639d6',
-        nombre: 'DEV.be.nombre',
-        referenciaBusqueda:'busqueda empleo - trabajo - trabajar',
+        nombre: 'DEVELOPER.dev-busqueda-empleo.nombre',
+        referenciaBusqueda:'DEVELOPER.dev-busqueda-empleo.referenciaBusqueda',
         descripcion: [
-            'DEV.be.descripcion.tx1',
-            'DEV.be.descripcion.tx2',
-            'DEV.be.descripcion.tx3'
+            'DEVELOPER.dev-busqueda-empleo.descripcion.tx1',
+            'DEVELOPER.dev-busqueda-empleo.descripcion.tx2',
+            'DEVELOPER.dev-busqueda-empleo.descripcion.tx3'
         ],
-        descripcionCorta: 'Recomendaciones probadas de búsqueda laboral.',
+        descripcionCorta: 'DEVELOPER.dev-busqueda-empleo.descripcionCorta',
         ruta: 'dev-busqueda-empleo',
         componente: 'DevBusquedaEmpleoComponent',
         mostrarEnPostHome: true,
@@ -138,12 +138,12 @@ export const DEVELOPER: DatosPost[] = [
     },
     {
         id: 'bec3c210-7438-4082-ab68-ff836b42b3eb',
-        nombre: 'Glosario general',
-        referenciaBusqueda:'',
+        nombre: 'DEVELOPER.dev-glosario.nombre',
+        referenciaBusqueda:'DEVELOPER.dev-glosario.referenciaBusqueda',
         descripcion: [
-            'Terminos en general en la programación, este glosario a medida reciba actualizaciones se ingresan más términos y su significado.'
+            'DEVELOPER.dev-glosario.descripcion.tx1'
         ],
-        descripcionCorta: 'Recomendaciones probadas en mi propia experiencia de búsqueda laboral.',
+        descripcionCorta: 'DEVELOPER.dev-glosario.descripcionCorta',
         ruta: 'dev-glosario-general',
         componente: 'DevControlesVisualStudio',
         mostrarEnPostHome: true,
