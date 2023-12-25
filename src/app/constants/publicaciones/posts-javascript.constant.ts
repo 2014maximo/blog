@@ -9,10 +9,10 @@ export const ESTILO_JAVASCRIPT: EstilosPost = {
 export const JAVASCRIPT: DatosPost[] = [
     {
         id: '57a97a47-cc14-4db5-9f76-bd8a226016f5',
-        nombre: 'JAVASCRIPT',
-        referenciaBusqueda:'',
-        descripcion: [],
-        descripcionCorta: '',
+        nombre: 'JAVASCRIPT.javascript.nombre',
+        referenciaBusqueda:'JAVASCRIPT.javascript.referenciaBusqueda',
+        descripcion: ['JAVASCRIPT.javascript.descripcion.tx1'],
+        descripcionCorta: 'JAVASCRIPT.javascript.descripcionCorta',
         ruta: 'javascript',
         componente: 'JavascriptComponent',
         categoria: 'javascript',
@@ -28,12 +28,12 @@ export const JAVASCRIPT: DatosPost[] = [
     },
     {
         id: 'c79624d0-b839-465a-9879-461267c01f6b',
-        nombre: 'Elementos javascript',
-        referenciaBusqueda:'',
+        nombre: 'JAVASCRIPT.js-elementos.nombre',
+        referenciaBusqueda:'JAVASCRIPT.js-elementos.referenciaBusqueda',
         descripcion: [
-            'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
+            'JAVASCRIPT.js-elementos.descripcion.tx1'
         ],
-        descripcionCorta: 'Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript.',
+        descripcionCorta: 'JAVASCRIPT.js-elementos.descripcionCorta',
         ruta: 'js-elementos',
         componente: '',
         mostrarEnPostHome: true,
@@ -50,12 +50,12 @@ export const JAVASCRIPT: DatosPost[] = [
     },
     {
         id: 'bd16e1f4-b3dd-45d6-8400-c9e0a5ced350',
-        nombre: 'Recorrido de arrays',
-        referenciaBusqueda:'',
+        nombre: 'JAVASCRIPT.js-recorrer-arrays-objetos',
+        referenciaBusqueda:'JAVASCRIPT.js-recorrer-arrays-objetos.referenciaBusqueda',
         descripcion: [
-            'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
+            'JAVASCRIPT.js-recorrer-arrays-objetos.descripcion.tx1'
         ],
-        descripcionCorta: 'Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript.',
+        descripcionCorta: 'JAVASCRIPT.js-recorrer-arrays-objetos.descripcionCorta',
         ruta: 'js-recorrer-arrays-objetos',
         componente: '',
         mostrarEnPostHome: true,

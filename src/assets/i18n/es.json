@@ -557,8 +557,142 @@
     },
     "ELECTRON":{
         "electron":{
-            "nombre":"",
-            "referenciaBusqueda":""
+            "nombre":"Eletron",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "etron-elementos":{
+            "nombre": "Elementos Electron",
+            "referenciaBusqueda": "electron, elementos",
+            "descripcion":{
+                "tx1":"Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos."
+            },
+            "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
+        },
+        "etron-instalacion":{
+            "nombre":"Electrón instalación",
+            "referenciaBusqueda":"instalacion, instalar",
+            "descripcion":{
+                "tx1":"Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos."
+            },
+            "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
+        }
+    },
+    "FLUTTER":{
+        "flutter":{
+            "nombre":"Flutter",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "flutter-instalacion":{
+            "nombre":"Flutter instalacion",
+            "referenciaBusqueda":"instalacion, instalar",
+            "descripcion":{
+                "tx1":"Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos."
+            },
+            "descripcionCorta":"Esta vez tenemos descripción rápida de la instalación junto con las versiones, los cambios y el link para descargar una versión específica."
+        },
+        "flutter-elementos":{
+            "nombre":"Flutter elementos",
+            "referenciaBusqueda":"elementos, partes, descripcion",
+            "descripcion":{
+                "tx1":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
+            },
+            "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
+        }
+    },
+    "GIT":{
+        "git":{
+            "nombre":"Git",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "git-errores":{
+            "nombre":"Errores comunes en git",
+            "referenciaBusqueda":"Errores, fallas, git",
+            "descripcion":{
+                "tx1":"Errores comunes que nos ponen a patinar un rato buscado la solución."
+            },
+            "descripcionCorta":"Errores comunes que nos ponen a patinar un rato buscado la solución."
+        }
+    },
+    "HTML":{
+        "html":{
+            "nombre":"HTML",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "html-etiquetas":{
+            "nombre":"Elementos HTML",
+            "referenciaBusqueda":"etiquetas, html",
+            "descripcion":{
+                "tx1":"Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos."
+            },
+            "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
+        }
+    },
+    "JAVA":{
+        "java":{
+            "nombre":"Java",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "java-glassfish":{
+            "nombre":"Glassfish",
+            "referenciaBusqueda":"glassfish",
+            "descripcion":{
+                "tx1":"Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano."
+            },
+            "descripcionCorta":"Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías."
+        },
+        "java-instalacion":{
+            "nombre":"Instalación Java",
+            "referenciaBusqueda":"instalacion, instalar",
+            "descripcion":{
+                "tx1":"Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano."
+            },
+            "descripcionCorta":"Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías."
+        }
+    },
+    "JAVASCRIPT":{
+        "javascript":{
+            "nombre":"Javascript",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "js-elementos":{
+            "nombre":"Elementos javascript",
+            "referenciaBusqueda":"elementos, partes",
+            "descripcion":{
+                "tx1":"Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos."
+            },
+            "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
+        },
+        "js-recorrer-arrays-objetos":{
+            "nombre":"Recorrido de arrays",
+            "referenciaBusqueda":"recorrer, iterar",
+            "descripcion":{
+                "tx1":"Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos."
+            },
+            "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
         }
     }
 

@@ -8,10 +8,10 @@ export const ESTILO_GIT: EstilosPost = {
 export const GIT: DatosPost[] = [
     {
         id: 'b72262ee-1257-4b4d-a980-d56190506dfe',
-        nombre: 'GIT',
-        referenciaBusqueda:'',
-        descripcion: [],
-        descripcionCorta: '',
+        nombre: 'GIT.git.nombre',
+        referenciaBusqueda:'GIT.git.referenciaBusqueda',
+        descripcion: ['GIT.git.descripcion.tx1'],
+        descripcionCorta: 'GIT.git.descripcionCorta',
         ruta: 'git',
         componente: 'GitComponent',
         categoria: 'git',
@@ -27,10 +27,10 @@ export const GIT: DatosPost[] = [
     },
     {
         id: '4871cb38-9831-4099-bd70-c0b540bf47a1',
-        nombre: 'ERRORES COMUNES EN GIT',
+        nombre: 'GIT.git-errores.nombre',
         referenciaBusqueda:'',
-        descripcion: ['Errores comunes que nos ponen a patinar un rato buscado la solución.'],
-        descripcionCorta: 'Errores comunes que nos ponen a patinar un rato buscado la solución.',
+        descripcion: ['GIT.git-errores.descripcion.tx1'],
+        descripcionCorta: 'GIT.git-errores.descripcionCorta',
         ruta: 'git-errores',
         componente: 'GitErroresComponent',
         categoria: 'git',

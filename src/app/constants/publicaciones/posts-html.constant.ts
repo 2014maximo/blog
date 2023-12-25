@@ -27,12 +27,12 @@ export const HTML: DatosPost[] = [
     },
     {
         id: '2b9d0c67-2262-4f96-8179-483d21f71967',
-        nombre: 'Elementos HTML',
-        referenciaBusqueda:'',
+        nombre: 'HTML.html-etiquetas.nombre',
+        referenciaBusqueda:'HTML.html-etiquetas.referenciaBusqueda',
         descripcion: [
-            'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
+            'HTML.html-etiquetas.descripcion.tx1'
         ],
-        descripcionCorta: 'Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript.',
+        descripcionCorta: 'HTML.html-etiquetas.descripcionCorta',
         ruta: 'html-etiquetas',
         componente: '',
         mostrarEnPostHome: true,

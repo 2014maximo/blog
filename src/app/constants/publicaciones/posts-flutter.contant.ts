@@ -8,10 +8,10 @@ export const ESTILO_FLUTTER: EstilosPost = {
 export const FLUTTER: DatosPost[] = [
     {
         id: '9249441409',
-        nombre: 'Flutter',
-        referenciaBusqueda:'',
-        descripcion: [],
-        descripcionCorta: '',
+        nombre: 'FLUTTER.flutter.nombre',
+        referenciaBusqueda:'FLUTTER.flutter.referenciaBusqueda',
+        descripcion: ['FLUTTER.flutter.descripcion.tx1'],
+        descripcionCorta: 'FLUTTER.flutter.descripcionCorta',
         ruta: 'flutter',
         componente: 'FlutterComponent',
         mostrarEnPostHome: false,
@@ -27,12 +27,12 @@ export const FLUTTER: DatosPost[] = [
     },
     {
         id: '70d34b42-d1bf-4920-b217-ef6b09ff42d6',
-        nombre: 'Flutter instalación',
-        referenciaBusqueda:'',
+        nombre: 'FLUTTER.flutter-instalacion.nombre',
+        referenciaBusqueda:'FLUTTER.flutter-instalacion.referenciaBusqueda',
         descripcion: [
-            'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
+            'FLUTTER.flutter-instalacion.descripcion.tx1'
         ],
-        descripcionCorta: 'Esta vez tenemos descripción rápida de la instalación junto con las versiones, los cambios y el link para descargar una versión específica.',
+        descripcionCorta: 'FLUTTER.flutter-instalacion.descripcionCorta',
         ruta: 'flutter-instalacion',
         componente: '',
         mostrarEnPostHome: true,
@@ -49,12 +49,12 @@ export const FLUTTER: DatosPost[] = [
     },
     {
         id: '73913100-7f71-49a2-8e8e-b25464880ea7',
-        nombre: 'Flutter elementos',
-        referenciaBusqueda:'',
+        nombre: 'FLUTTER.flutter-elementos.nombre',
+        referenciaBusqueda:'FLUTTER.flutter-elementos.referenciaBusqueda',
         descripcion: [
-            'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
+            'FLUTTER.flutter-elementos.descripcion.tx1'
         ],
-        descripcionCorta: 'Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript.',
+        descripcionCorta: 'FLUTTER.flutter-elementos.descripcionCorta',
         ruta: 'flutter-elementos',
         componente: '',
         mostrarEnPostHome: true,
