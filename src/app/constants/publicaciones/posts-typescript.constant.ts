@@ -10,10 +10,10 @@ export const ESTILO_TYPESCRIPT: EstilosPost = {
 export const TYPESCRIPT: DatosPost[] = [
     {
         id: '3574124706',
-        nombre: 'TYPESCRIPT',
-        referenciaBusqueda:'',
-        descripcion: [],
-        descripcionCorta: '',
+        nombre: 'TYPESCRIPT.typescript.nombre',
+        referenciaBusqueda:'TYPESCRIPT.typescript.referenciaBusqueda',
+        descripcion: ['TYPESCRIPT.typescript.descripcion.tx1'],
+        descripcionCorta: 'TYPESCRIPT.typescript.descripcionCorta',
         ruta: 'typescript',
         componente: 'TypescriptComponent',
         categoria: 'typescript',
@@ -29,12 +29,12 @@ export const TYPESCRIPT: DatosPost[] = [
     },
     {
         id: 'c79624d0-b839-465a-9879-461267c01f6b',
-        nombre: 'Elementos typescript',
-        referenciaBusqueda:'',
+        nombre: 'TYPESCRIPT.typescript-elementos.nombre',
+        referenciaBusqueda:'TYPESCRIPT.typescript-elementos.referenciaBusqueda',
         descripcion: [
-            'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
+            'TYPESCRIPT.typescript-elementos.descripcion.tx1'
         ],
-        descripcionCorta: 'Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript.',
+        descripcionCorta: 'TYPESCRIPT.typescript-elementos.descripcionCorta',
         ruta: 'ts-elementos',
         componente: '',
         mostrarEnPostHome: true,

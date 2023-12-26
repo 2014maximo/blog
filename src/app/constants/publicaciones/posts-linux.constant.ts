@@ -9,10 +9,10 @@ export const ESTILO_LINUX: EstilosPost = {
 export const LINUX: DatosPost[] = [
     {
         id: 'cb344e3e-8b47-4a86-8c26-c7f037ae239a',
-        nombre: 'LINUX',
-        referenciaBusqueda:'',
-        descripcion: [],
-        descripcionCorta: '',
+        nombre: 'LINUX.linux.nombre',
+        referenciaBusqueda:'LINUX.linux.referenciaBusqueda',
+        descripcion: ['LINUX.linux.descripcion.tx1'],
+        descripcionCorta: 'LINUX.linux.descripcionCorta',
         ruta: 'linux',
         componente: 'LinuxComponent',
         categoria: 'linux',
@@ -28,12 +28,12 @@ export const LINUX: DatosPost[] = [
     },
     {
         id: 'c0d8a7db-934b-48a1-820c-d0d3c53d557c',
-        nombre: 'Comandos más usados',
-        referenciaBusqueda:'',
+        nombre: 'LINUX.lx-comandos.nombre',
+        referenciaBusqueda:'LINUX.lx-comandos.referenciaBusqueda',
         descripcion: [
-            'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
+            'LINUX.lx-comandos.descripcion.tx1'
         ],
-        descripcionCorta: 'Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript.',
+        descripcionCorta: 'LINUX.lx-comandos.descripcionCorta',
         ruta: 'lx-co-m-u',
         componente: '',
         mostrarEnPostHome: true,

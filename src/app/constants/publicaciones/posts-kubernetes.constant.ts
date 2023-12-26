@@ -9,10 +9,10 @@ export const ESTILO_KUBERNETES: EstilosPost = {
 export const KUBERNETES: DatosPost[] = [
     {
         id: 'b4b3eae9-5f63-4d8e-851b-57bb6982a919',
-        nombre: 'KOTLIN',
-        referenciaBusqueda:'',
-        descripcion: [],
-        descripcionCorta: '',
+        nombre: 'KUBERNETES.kubernetes.nombre',
+        referenciaBusqueda:'KUBERNETES.kubernetes.referenciaBusqueda',
+        descripcion: ['KUBERNETES.kubernetes.descripcion.tx1'],
+        descripcionCorta: 'KUBERNETES.kubernetes.descripcionCorta',
         ruta: 'kotlin',
         componente: 'KotlinComponent',
         categoria: 'kotlin',
@@ -28,12 +28,12 @@ export const KUBERNETES: DatosPost[] = [
     },
     {
         id: 'f69f7a4b-7bd3-4adb-a4f4-1e0c4d997e5a',
-        nombre: 'Elementos kubernetes',
-        referenciaBusqueda:'',
+        nombre: 'KUBERNETES.kubernetes-elementos.nombre',
+        referenciaBusqueda:'KUBERNETES.kubernetes-elementos.referenciaBusqueda',
         descripcion: [
-            'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
+            'KUBERNETES.kubernetes-elementos.descripcion.tx1'
         ],
-        descripcionCorta: 'Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript.',
+        descripcionCorta: 'KUBERNETES.kubernetes-elementos.descripcionCorta',
         ruta: 'kotlin-elementos',
         componente: '',
         mostrarEnPostHome: true,

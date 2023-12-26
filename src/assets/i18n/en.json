@@ -4,9 +4,199 @@
     "Email": "Email",
     "Comentarios": "Comments",
     "Enviar": "Send",
-    "DEV":{
-        "be":{
-            "titulo":"JOB SEARCH",
+    "ANDROID":{
+        "android":{
+            "nombre": "Android",
+            "referenciaBusqueda":"operating system, android",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+            },
+            "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+        }
+    },
+    "ANGULAR":{
+        "angular":{
+            "nombre": "Angular",
+            "referenciaBusqueda":"",
+            "descripcion":{"tx1":"Angular is in the group of the best web frameworks, every 6 months without fail delivers a new version and has been allowed to evolve."},
+            "descripcionCorta":""
+        },
+        "ng-instalacion":{
+            "nombre": "Angular installation and recommended",
+            "referenciaBusqueda":"installation, angular, recommendations",
+            "descripcion":{
+                "tx1":"To begin with, there is the installation of Angular, you can take into account what is special in each version, obviously the latest version shows us how far the Framework has evolved. There are also the startup commands, creation and options, that when we start we do not have them at hand."},
+            "descripcionCorta":"Angular installation. What the versions bring from the js and all the angular commands you didn't know."
+        },
+        "ng-elementos":{
+            "nombre": "Angular Elements",
+            "referenciaBusqueda":"instalacion, angular, recomendaciones",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+            "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        },
+        "ng-comunicacion-componentes":{
+            "nombre": "Comunicacion entre componentes",
+            "referenciaBusqueda":"Paso de datos, Comunicacion",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+            },
+            "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        },
+        "ng-arquitectura":{
+            "nombre": "Arquitecturas propuestas para Angular",
+            "referenciaBusqueda": "arquitectura, angular",
+            "descripcion": {
+                "tx1":"Teniendo en cuenta que una arquitectura se puede aplicar para todo un proyecto en sus partes de frontend, backend, bases de datos y hasta infraestructura. Esta vez la idea es mostrar la arquitectura aplicando solo al frontend, en este caso a Angular y la aplicacíon a su estructura interna con varios ejemplos dado el caso de interés.",
+                "tx2":"Un esfuerzo máximo se desprende en los inicios por buscar la mejor arquitectura para los proyectos, buscando que todo dure y se quede con las bases del inicio, pero a medida que avanza el desarrollo, van creciendo lo requerimientos, las necesidades y se van definiendo nuevas opciones que no se tuvieron en cuenta al inicio."
+            },
+            "descripcionCorta": "Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías."
+        },
+        "ng-manejo-rutas":{
+            "nombre":"Manejo de rutas en Angular",
+            "referenciaBusqueda":"rutas, caminos, enrutamiento",
+            "descripcion":{
+                "tx1":"Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano."
+            },
+            "descripcionCorta":"Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías."
+        },
+        "ng-microservicios":{
+            "nombre":"Microservicios",
+            "referenciaBusqueda":"microservicios",
+            "descripcion":{
+                "tx1":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+            },
+            "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        },
+        "ng-modulos":{
+            "nombre":"Módulos Angular",
+            "referenciaBusqueda":"modulos",
+            "descripcion":{
+                "tx1":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+            },
+            "descripcionCorta":"Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías."
+        },
+        "ng-pruebas-unitarias":{
+            "nombre":"Pruebas unitarias en Angular",
+            "referenciaBusqueda":"pruebas, unitarias, test",
+            "descripcion":{
+                "tx1":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+            },
+            "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+        }
+    },
+    "CSS":{
+        "css":{
+            "nombre":"CSS",
+            "referenciaBusqueda":"css",
+            "descripcion":{"tx1":"Cuando empezamos a desarrollar en web solo con HTML, sentimos nos hace falta poder mostrar cada elemento con otro color o con un mejor estilo"},
+            "descripcionCorta":""
+        },
+        "css-clases":{
+            "nombre":"Clases CSS",
+            "referenciaBusqueda":"clases, css",
+            "descripcion":{
+                "tx1":"Siendo un principio común, algunos de los que iniciamos en la programación arrancamos en la Web y es indudable que para algunos fue enredado entender como aplicar una clase o cada opción que el DOM pone a disposición con los estilos CSS."
+            },
+            "descripcionCorta":"Explicación detallada para los estilos de las clases CSS. Particularmente fue la manera como siempre espere encontrarme una explicación en las búsquedas de google."
+        }
+    },
+    "DART":{
+        "dart":{
+            "nombre":"Dart",
+            "referenciaBusqueda":"dart",
+            "descripcion":{
+                "tx1":"Dart con sus altibajos, entra de nuevo al ruedo con Flutter, sin embargo es importante saber que ventajas nos ofrece sobre otros lenguajes para poder elegirlo."
+            },
+            "descripcionCorta":"Dart con sus altibajos, entra de nuevo al ruedo con Flutter, sin embargo es importante saber que ventajas nos ofrece sobre otros lenguajes para poder elegirlo."
+        },
+        "dart-elementos":{
+            "nombre":"Elementos Dart",
+            "referenciaBusqueda":"elementos",
+            "descripcion":{
+                "tx1":"Famoso por Flutter, la estructura de Dart permite crear aplicaciones de muchos tipos enfocados a desarrollos web con mucha potencia."
+            },
+            "descripcionCorta":"Descripción de los elementos que hacen parte de Dart. Sugerencias adicionales para otra clase de aplicaciones."
+        }
+    },
+    "DB":{
+        "db":{
+            "nombre":"DB",
+            "referenciaBusqueda":"db, bases de datos",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "db-firebase":{
+            "nombre":"Firebase",
+            "referenciaBusqueda":"firebase, no relacional, google",
+            "descripcion":{
+                "tx1":"Firebase es una super herramienta en desarrollo para ser el núcleo de información, adaptable en nuestros inicios como desarrolladores."
+            },
+            "descripcionCorta":"Esta es una guía de elementos que debes gestionar para conectar tu aplicación a Firebase."
+        },
+        "db-sql":{
+            "nombre":"SQL",
+            "referenciaBusqueda":"sql, relacionales",
+            "descripcion":{
+                "tx1":"SQL (Structured Query Language) es un lenguaje de programación diseñado para gestionar y manipular bases de datos relacionales. Utilizado en sistemas de gestión de bases de datos (DBMS), SQL permite realizar consultas, actualizaciones, inserciones y eliminaciones de datos en tablas. Su sintaxis se divide en categorías como DDL (Data Definition Language) para definir la estructura de la base de datos y DML (Data Manipulation Language) para manipular los datos. Los comandos comunes incluyen SELECT para recuperar datos, INSERT para agregar nuevos registros, UPDATE para modificar existentes y DELETE para eliminar registros. Su amplia adopción y versatilidad lo convierten en una herramienta fundamental para la administración de datos."
+            },
+            "descripcionCorta":"SQL (Structured Query Language) es un lenguaje de programación diseñado para gestionar y manipular bases de datos relacionales."
+        },
+        "db-sql-server":{
+            "nombre":"SQL Server",
+            "referenciaBusqueda":"sql, server",
+            "descripcion":{
+                "tx1":"Firebase es una super herramienta en desarrollo para ser el núcleo de información, adaptable en nuestros inicios como desarrolladores."
+            },
+            "descripcionCorta":"Esta es una guía de elementos que debes gestionar para conectar tu aplicación a Firebase."
+        }
+    },
+    "DEVELOPER":{
+        "developer":{
+            "nombre":"Developer",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "dev-super-recursos":{
+            "nombre":"A large grouping of websites with a lot of resources",
+            "referenciaBusqueda":"web pages, links",
+            "descripcion":{
+                "tx1":"We don't know that certain websites exist until someone tells us how amazing they are and we get to them. This time we have on hand a compilation of some totally recommended websites."
+            },
+            "descripcionCorta":"Websites that are ignored so that they can be useful. A short description."
+        },
+        "dev-algoritmos-clave":{
+            "nombre":"Classification algorithms that are key",
+            "referenciaBusqueda":"algorithms, key",
+            "descripcion":{
+                "tx1":"We don't know that certain websites exist until someone tells us how amazing they are and we get to them. This time we have on hand a compilation of some totally recommended websites."
+            },
+            "descripcionCorta":"Websites that are ignored so that they can be useful. A short description."
+        },
+        "dev-diagramas-secuencia":{
+            "nombre":"Sequence diagrams",
+            "referenciaBusqueda":"diagrams, sequence",
+            "descripcion":{
+                "tx1":"We don't know that certain websites exist until someone tells us how amazing they are and we get to them. This time we have on hand a compilation of some totally recommended websites."
+            },
+            "descripcionCorta":"Websites that are ignored so that they can be useful. A short description."
+        },
+        "dev-controles-visual":{
+            "nombre":"Visual studio code quick controls",
+            "referenciaBusqueda":"hotkey, controls",
+            "descripcion":{
+                "tx1":"We don't know that certain websites exist until someone tells us how amazing they are and we get to them. This time we have on hand a compilation of some totally recommended websites."
+            },
+            "descripcionCorta":"Websites that are ignored so that they can be useful. A short description."
+        },
+        "dev-busqueda-empleo":{
+            "nombre":"JOB SEARCH",
+            "referenciaBusqueda":"",
             "descripcion": {
                 "tx1":"Proven recommendations in the job search.",
                 "tx2":"This publication is a reflection of my own process to get a job as a frontend developer. At the beginning of the publication I am looking for a good company, when I finish it the idea is to suggest which points worked.",
@@ -357,6 +547,14 @@
                 "tx5":"We help companies develop the strongest technology teams.",
                 "tx6":"We help candidates hone their technology skills and seek employment opportunities."
             }
+        },
+        "dev-glosario":{
+            "nombre":"General Glossary",
+            "referenciaBusqueda":"terms",
+            "descripcion":{
+                "tx1":"General terms in programming, this glossary will be updated as more terms and their meaning are added."
+            },
+            "descripcionCorta":"Proven recommendations from my own job search experience."
         }
     }
 }

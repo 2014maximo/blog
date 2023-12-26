@@ -156,6 +156,7 @@
     "DEVELOPER":{
         "developer":{
             "nombre":"Developer",
+            "referenciaBusqueda":"",
             "descripcion":{
                 "tx1":""
             },
@@ -163,6 +164,7 @@
         },
         "dev-super-recursos":{
             "nombre":"Una gran agrupación de sitios web con muchos recursos",
+            "referenciaBusqueda":"páginas web, links",
             "descripcion":{
                 "tx1":"No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente."
             },
@@ -689,6 +691,159 @@
         "js-recorrer-arrays-objetos":{
             "nombre":"Recorrido de arrays",
             "referenciaBusqueda":"recorrer, iterar",
+            "descripcion":{
+                "tx1":"Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos."
+            },
+            "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
+        }
+    },
+    "KOTLIN":{
+        "kotlin":{
+            "nombre":"kotlin",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "kotlin-elementos":{
+            "nombre":"Elementos kotlin",
+            "referenciaBusqueda":"elementos, partes",
+            "descripcion":{
+                "tx1":"Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos."
+            },
+            "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
+        }
+    },
+    "KUBERNETES":{
+        "kubernetes":{
+            "nombre":"Kubernetes",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "kubernetes-elementos":{
+            "nombre":"Elementos kubernetes",
+            "referenciaBusqueda":"elementos, partes",
+            "descripcion":{
+                "tx1":"Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos."
+            },
+            "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
+        }
+    },
+    "LINUX":{
+        "linux":{
+            "nombre":"Linux",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "lx-comandos":{
+            "nombre":"Comandos más usados",
+            "referenciaBusqueda":"Comandos, codigos",
+            "descripcion":{
+                "tx1":"Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos."
+            },
+            "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
+        }
+    },
+    "NET":{
+        "net":{
+            "nombre":"Net",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "net-elementos":{
+            "nombre":"Elementos net",
+            "referenciaBusqueda":"elementos, partes",
+            "descripcion":{
+                "tx1":"Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos."
+            },
+            "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
+        },
+        "net-instalacion":{
+            "nombre":"Instalacion NET",
+            "referenciaBusqueda":"instalacion, instalar",
+            "descripcion":{
+                "tx1":"Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos."
+            },
+            "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
+        }
+    },
+    "PHP":{
+        "php":{
+            "nombre":"Php",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "php-elementos":{
+            "nombre":"Elementos php",
+            "referenciaBusqueda":"elementos, partes",
+            "descripcion":{
+                "tx1":"Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos."
+            },
+            "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
+        }
+    },
+    "REACT":{
+        "react":{
+            "nombre":"React",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "react-elementos":{
+            "nombre":"Elementos React",
+            "referenciaBusqueda":"elementos, partes",
+            "descripcion":{
+                "tx1":"Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos."
+            },
+            "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
+        }
+
+    },
+    "TYPESCRIPT":{
+        "typescript":{
+            "nombre":"Typescript",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "typescript-elementos":{
+            "nombre":"Elementos typescript",
+            "referenciaBusqueda": "elementos, partes",
+            "descripcion":{
+                "tx1":"Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos."
+            },
+            "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
+        }
+    },
+    "WORDPRESS":{
+        "wordpress":{
+            "nombre":"Wordpress",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "wordpress-elementos":{
+            "nombre":"Elementos Wordpress",
+            "referenciaBusqueda":"elementos, partes",
             "descripcion":{
                 "tx1":"Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos."
             },

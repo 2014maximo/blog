@@ -8,10 +8,10 @@ export const ESTILO_NET: EstilosPost = {
 export const NET: DatosPost[] = [
     {
         id: 'a51c1552-365b-4012-9afd-28637fe5c1d7',
-        nombre: 'NET',
-        referenciaBusqueda:'',
-        descripcion: [],
-        descripcionCorta: '',
+        nombre: 'NET.net.nombre',
+        referenciaBusqueda:'NET.net.referenciaBusqueda',
+        descripcion: ['NET.net.descripcion.tx1'],
+        descripcionCorta: 'NET.net.descripcionCorta',
         ruta: 'net',
         componente: 'NetComponent',
         categoria: 'net',
@@ -27,12 +27,12 @@ export const NET: DatosPost[] = [
     },
     {
         id: '23ef844e-de15-49b8-bda3-aded4000630e',
-        nombre: 'Elementos net',
-        referenciaBusqueda:'',
+        nombre: 'NET.net-elementos.nombre',
+        referenciaBusqueda:'NET.net-elementos.referenciaBusqueda',
         descripcion: [
-            'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
+            'NET.net-elementos.descripcion.tx1'
         ],
-        descripcionCorta: 'Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript.',
+        descripcionCorta: 'NET.net-elementos.descripcionCorta',
         ruta: 'net-elementos',
         componente: '',
         mostrarEnPostHome: true,
@@ -49,12 +49,12 @@ export const NET: DatosPost[] = [
     },
     {
         id: 'e0fd17aa-bb97-4bec-901a-a6d4e0e4eba2',
-        nombre: 'Instalación net',
-        referenciaBusqueda:'',
+        nombre: 'NET.net-instalacion.nombre',
+        referenciaBusqueda:'NET.net-instalacion.referenciaBusqueda',
         descripcion: [
-            'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
+            'NET.net-instalacion.descripcion.tx1'
         ],
-        descripcionCorta: 'Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript.',
+        descripcionCorta: 'NET.net-instalacion.descripcionCorta',
         ruta: 'net-instalacion',
         componente: '',
         mostrarEnPostHome: true,
@@ -68,5 +68,5 @@ export const NET: DatosPost[] = [
         posicion: 'rot-2',
         estado: 'activo',
         imgSlider: undefined
-    },
+    }
 ]

@@ -8,10 +8,10 @@ export const ESTILO_REACT: EstilosPost = {
 export const REACT: DatosPost[] = [
     {
         id: '62a96ee3-75c7-4b01-aba7-d963ffd140bb',
-        nombre: 'React',
-        referenciaBusqueda:'',
-        descripcion: [],
-        descripcionCorta: '',
+        nombre: 'REACT.react.nombre',
+        referenciaBusqueda:'REACT.react.referenciaBusqueda',
+        descripcion: ['REACT.react.descripcion.tx1'],
+        descripcionCorta: 'REACT.react.descripcionCorta',
         ruta: 'react',
         componente: 'ReactComponent',
         categoria: 'react',
@@ -27,12 +27,12 @@ export const REACT: DatosPost[] = [
     },
     {
         id: 'ed1ead34-09ca-4de2-b43d-ecf6f60a9e39',
-        nombre: 'Elementos React',
-        referenciaBusqueda:'',
+        nombre: 'REACT.react-elementos.nombre',
+        referenciaBusqueda:'REACT.react-elementos.referenciaBusqueda',
         descripcion: [
-            'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
+            'REACT.react-elementos.descripcion.tx1'
         ],
-        descripcionCorta: 'Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript.',
+        descripcionCorta: 'REACT.react-elementos.descripcionCorta',
         ruta: 'react-elementos',
         componente: '',
         mostrarEnPostHome: true,

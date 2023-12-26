@@ -9,10 +9,10 @@ export const ESTILO_PHP: EstilosPost = {
 export const PHP: DatosPost[] = [
     {
         id: 'b7cfec07-e492-400f-9238-f6cf3daba5e9',
-        nombre: 'PHP',
-        referenciaBusqueda:'',
-        descripcion: [],
-        descripcionCorta: '',
+        nombre: 'PHP.php.nombre',
+        referenciaBusqueda:'PHP.php.referenciaBusqueda',
+        descripcion: ['PHP.php.descripcion.tx1'],
+        descripcionCorta: 'PHP.php.descripcionCorta',
         ruta: 'php',
         componente: 'PhpComponent',
         categoria: 'php',
@@ -28,12 +28,12 @@ export const PHP: DatosPost[] = [
     },
     {
         id: '0bac147d-348c-48c4-976a-b1c83e4a0237',
-        nombre: 'Elementos Php',
-        referenciaBusqueda:'',
+        nombre: 'PHP.php-elementos.nombre',
+        referenciaBusqueda:'PHP.php-elementos.referenciaBusqueda',
         descripcion: [
-            'Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos.'
+            'PHP.php-elementos.descripcion.tx1'
         ],
-        descripcionCorta: 'Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript.',
+        descripcionCorta: 'PHP.php-elementos.descripcionCorta',
         ruta: 'php-elementos',
         componente: '',
         mostrarEnPostHome: true,
