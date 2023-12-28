@@ -30,54 +30,54 @@
         },
         "ng-elementos":{
             "nombre": "Angular Elements",
-            "referenciaBusqueda":"instalacion, angular, recomendaciones",
+            "referenciaBusqueda":"installation, angular, recommendations",
             "descripcion":{
                 "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
             "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
         },
         "ng-comunicacion-componentes":{
-            "nombre": "Comunicacion entre componentes",
-            "referenciaBusqueda":"Paso de datos, Comunicacion",
+            "nombre": "Communication between components",
+            "referenciaBusqueda":"Data transfer, Communication",
             "descripcion":{
                 "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
             },
             "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
         },
         "ng-arquitectura":{
-            "nombre": "Arquitecturas propuestas para Angular",
-            "referenciaBusqueda": "arquitectura, angular",
+            "nombre": "Proposed architectures for Angular",
+            "referenciaBusqueda": "architecture, angular",
             "descripcion": {
-                "tx1":"Teniendo en cuenta que una arquitectura se puede aplicar para todo un proyecto en sus partes de frontend, backend, bases de datos y hasta infraestructura. Esta vez la idea es mostrar la arquitectura aplicando solo al frontend, en este caso a Angular y la aplicacíon a su estructura interna con varios ejemplos dado el caso de interés.",
-                "tx2":"Un esfuerzo máximo se desprende en los inicios por buscar la mejor arquitectura para los proyectos, buscando que todo dure y se quede con las bases del inicio, pero a medida que avanza el desarrollo, van creciendo lo requerimientos, las necesidades y se van definiendo nuevas opciones que no se tuvieron en cuenta al inicio."
+                "tx1":"Taking into account that an architecture can be applied to an entire project in its parts of frontend, backend, databases and even infrastructure. This time the idea is to show the architecture applying only to the frontend, in this case to Angular and the application to its internal structure with several examples given the case of interest.",
+                "tx2":"A maximum effort is made at the beginning to look for the best architecture for the projects, seeking that everything lasts and stays with the initial bases, but as the development progresses, the requirements and needs grow and new options are defined that were not taken into account at the beginning."
             },
-            "descripcionCorta": "Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías."
+            "descripcionCorta": "Angular installation. What the versions bring from the js and all the angular commands you didn't know."
         },
         "ng-manejo-rutas":{
-            "nombre":"Manejo de rutas en Angular",
-            "referenciaBusqueda":"rutas, caminos, enrutamiento",
+            "nombre":"Route management in Angular",
+            "referenciaBusqueda":"routes, paths, routing",
             "descripcion":{
-                "tx1":"Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano."
+                "tx1":"To begin with, there is the installation of Angular, you can take into account what is special in each version, obviously the latest version shows us how far the Framework has evolved. There are also the startup commands, creation and options, that when we start we do not have them at hand."
             },
-            "descripcionCorta":"Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías."
+            "descripcionCorta":"Angular installation. What the versions bring from the js and all the angular commands you didn't know."
         },
         "ng-microservicios":{
-            "nombre":"Microservicios",
-            "referenciaBusqueda":"microservicios",
+            "nombre":"Microservices",
+            "referenciaBusqueda":"microservices",
             "descripcion":{
                 "tx1":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
             },
             "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
         },
         "ng-modulos":{
-            "nombre":"Módulos Angular",
-            "referenciaBusqueda":"modulos",
+            "nombre":"Angular Modules",
+            "referenciaBusqueda":"modules",
             "descripcion":{
                 "tx1":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
             },
-            "descripcionCorta":"Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías."
+            "descripcionCorta":"Angular installation. What the versions bring from the js and all the angular commands you didn't know."
         },
         "ng-pruebas-unitarias":{
-            "nombre":"Pruebas unitarias en Angular",
+            "nombre":"Unit testing in Angular",
             "referenciaBusqueda":"pruebas, unitarias, test",
             "descripcion":{
                 "tx1":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
@@ -89,14 +89,14 @@
         "css":{
             "nombre":"CSS",
             "referenciaBusqueda":"css",
-            "descripcion":{"tx1":"Cuando empezamos a desarrollar en web solo con HTML, sentimos nos hace falta poder mostrar cada elemento con otro color o con un mejor estilo"},
+            "descripcion":{"tx1":"When we start web development with HTML only, we feel we need to be able to display each element in a different color or with a better style."},
             "descripcionCorta":""
         },
         "css-clases":{
             "nombre":"Clases CSS",
-            "referenciaBusqueda":"clases, css",
+            "referenciaBusqueda":"classes, css",
             "descripcion":{
-                "tx1":"Siendo un principio común, algunos de los que iniciamos en la programación arrancamos en la Web y es indudable que para algunos fue enredado entender como aplicar una clase o cada opción que el DOM pone a disposición con los estilos CSS."
+                "tx1":"Being a common principle, some of us who started in programming started in the Web and it is undoubtedly that for some it was difficult to understand how to apply a class or each option that the DOM makes available with CSS styles."
             },
             "descripcionCorta":"Explicación detallada para los estilos de las clases CSS. Particularmente fue la manera como siempre espere encontrarme una explicación en las búsquedas de google."
         }
