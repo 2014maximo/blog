@@ -197,12 +197,12 @@
         "dev-busqueda-empleo":{
             "nombre":"BÚSQUEDA EMPLEO",
             "referenciaBusqueda":"trabajo, empleo, labor, trabajar",
-            "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
             "descripcion": {
                 "tx1":"Recomendaciones probadas en la búsqueda de empleo.",
                 "tx2":"Esta publicación es un reflejo de mi propio proceso para ingresar a trabajar como desarrollador frontend. Iniciada la publicación estoy en búsqueda laboral de una buena empresa, al terminarlo la idea es sugerir que puntos funcionaron.",
                 "tx3":"El objetivo visto de simple manera es vendernos como un producto de comercio (Solo en contexto). Estos son los puntos que sugiero se deben tener en cuenta."
             },
+            "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
             "predisposicion":"PREDISPOSICIÓN",
             "predisposicion1":"Antes de decirle al mundo que buscamos empleo, primero hay que saberlo dentro. Por obvias razones si se esta en la búsqueda es porque presuntamente hay total convencimiento.",
             "predisposicion2":"La sola predisposición termina siendo la mayor fuerza que va a conectar todo.",
@@ -539,13 +539,14 @@
                 "Sugerencia":"Sugerencia",
                 "Respuesta_ejemplo":"Respuesta ejemplo"
             },
-            "encabezado":{
-                "publicacion":{
-                    "titulo":"BÚSQUEDA EMPLEO",
-                    "tx1": "Recomendaciones probadas en la búsqueda de empleo.",
-                    "tx2": "Esta publicación es un reflejo de mi propio proceso para ingresar a trabajar como desarrollador frontend. Iniciada la publicación estoy en búsqueda laboral de una buena empresa, al terminarlo la idea es sugerir que puntos funcionaron.",
-                    "tx3": "El objetivo visto de simple manera es vendernos como un producto de comercio (Solo en contexto). Estos son los puntos que sugiero se deben tener en cuenta."
-                }
+            "prueba":{
+                "titulo":"PRUEBA TÉCNICA",
+                "tx1":"Superar con éxito la prueba técnica puede considerarse como el primer pie en la puerta de la empresa.",
+                "tx2":"En un perfil con experiencia debe tomarse como un requisito laboral normal.",
+                "tx3":"Con o sin experiencia es necesario entrenarse antes, estas son algunas herramientas para lograrlo:",
+                "tx4":"Las habilidades hablan más que las palabras.",
+                "tx5":"Ayudamos a las empresas a desarrollar los equipos tecnológicos más fuertes.",
+                "tx6":"Ayudamos a los candidatos a perfeccionar sus conocimientos tecnológicos y a buscar oportunidades de empleo."
             }
         },
         "dev-glosario":{
@@ -850,6 +851,4 @@
             "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
         }
     }
-
-
 }

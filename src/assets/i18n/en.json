@@ -98,7 +98,7 @@
             "descripcion":{
                 "tx1":"Being a common principle, some of us who started in programming started in the Web and it is undoubtedly that for some it was difficult to understand how to apply a class or each option that the DOM makes available with CSS styles."
             },
-            "descripcionCorta":"Explicación detallada para los estilos de las clases CSS. Particularmente fue la manera como siempre espere encontrarme una explicación en las búsquedas de google."
+            "descripcionCorta":"Detailed explanation for CSS class styles. Particularly it was the way I always expected to find an explanation in google searches."
         }
     },
     "DART":{
@@ -106,23 +106,23 @@
             "nombre":"Dart",
             "referenciaBusqueda":"dart",
             "descripcion":{
-                "tx1":"Dart con sus altibajos, entra de nuevo al ruedo con Flutter, sin embargo es importante saber que ventajas nos ofrece sobre otros lenguajes para poder elegirlo."
+                "tx1":"Dart, with its ups and downs, enters the arena again with Flutter, however it is important to know what advantages it offers over other languages in order to choose it."
             },
-            "descripcionCorta":"Dart con sus altibajos, entra de nuevo al ruedo con Flutter, sin embargo es importante saber que ventajas nos ofrece sobre otros lenguajes para poder elegirlo."
+            "descripcionCorta":"Dart, with its ups and downs, enters the arena again with Flutter, however it is important to know what advantages it offers over other languages in order to choose it."
         },
         "dart-elementos":{
             "nombre":"Elementos Dart",
             "referenciaBusqueda":"elementos",
             "descripcion":{
-                "tx1":"Famoso por Flutter, la estructura de Dart permite crear aplicaciones de muchos tipos enfocados a desarrollos web con mucha potencia."
+                "tx1":"Famous for Flutter, Dart's framework allows you to create applications of many types focused on powerful web development."
             },
-            "descripcionCorta":"Descripción de los elementos que hacen parte de Dart. Sugerencias adicionales para otra clase de aplicaciones."
+            "descripcionCorta":"Description of the elements that are part of Dart. Additional suggestions for other kinds of applications."
         }
     },
     "DB":{
         "db":{
             "nombre":"DB",
-            "referenciaBusqueda":"db, bases de datos",
+            "referenciaBusqueda":"db, databases",
             "descripcion":{
                 "tx1":""
             },
@@ -130,27 +130,27 @@
         },
         "db-firebase":{
             "nombre":"Firebase",
-            "referenciaBusqueda":"firebase, no relacional, google",
+            "referenciaBusqueda":"firebase, non-relational, google",
             "descripcion":{
-                "tx1":"Firebase es una super herramienta en desarrollo para ser el núcleo de información, adaptable en nuestros inicios como desarrolladores."
+                "tx1":"Firebase is a super tool in development to be the core of information, adaptable in our beginnings as developers."
             },
-            "descripcionCorta":"Esta es una guía de elementos que debes gestionar para conectar tu aplicación a Firebase."
+            "descripcionCorta":"This is a guide of elements that you must manage to connect your application to Firebase."
         },
         "db-sql":{
             "nombre":"SQL",
-            "referenciaBusqueda":"sql, relacionales",
+            "referenciaBusqueda":"sql, relational",
             "descripcion":{
-                "tx1":"SQL (Structured Query Language) es un lenguaje de programación diseñado para gestionar y manipular bases de datos relacionales. Utilizado en sistemas de gestión de bases de datos (DBMS), SQL permite realizar consultas, actualizaciones, inserciones y eliminaciones de datos en tablas. Su sintaxis se divide en categorías como DDL (Data Definition Language) para definir la estructura de la base de datos y DML (Data Manipulation Language) para manipular los datos. Los comandos comunes incluyen SELECT para recuperar datos, INSERT para agregar nuevos registros, UPDATE para modificar existentes y DELETE para eliminar registros. Su amplia adopción y versatilidad lo convierten en una herramienta fundamental para la administración de datos."
+                "tx1":"SQL (Structured Query Language) is a programming language designed to manage and manipulate relational databases. Used in database management systems (DBMS), SQL allows queries, updates, insertions and deletions of data in tables. Its syntax is divided into categories such as DDL (Data Definition Language) to define the database structure and DML (Data Manipulation Language) to manipulate data. Common commands include SELECT to retrieve data, INSERT to add new records, UPDATE to modify existing records and DELETE to delete records. Its wide adoption and versatility make it a fundamental tool for data management."
             },
-            "descripcionCorta":"SQL (Structured Query Language) es un lenguaje de programación diseñado para gestionar y manipular bases de datos relacionales."
+            "descripcionCorta":"SQL (Structured Query Language) is a programming language designed to manage and manipulate relational databases."
         },
         "db-sql-server":{
             "nombre":"SQL Server",
             "referenciaBusqueda":"sql, server",
             "descripcion":{
-                "tx1":"Firebase es una super herramienta en desarrollo para ser el núcleo de información, adaptable en nuestros inicios como desarrolladores."
+                "tx1":"Firebase is a super tool in development to be the core of information, adaptable in our beginnings as developers."
             },
-            "descripcionCorta":"Esta es una guía de elementos que debes gestionar para conectar tu aplicación a Firebase."
+            "descripcionCorta":"This is a guide of elements that you must manage to connect your application to Firebase."
         }
     },
     "DEVELOPER":{
@@ -202,6 +202,7 @@
                 "tx2":"This publication is a reflection of my own process to get a job as a frontend developer. At the beginning of the publication I am looking for a good company, when I finish it the idea is to suggest which points worked.",
                 "tx3":"The objective seen in a simple way is to sell ourselves as a product of commerce (in context only). These are the points that I suggest to take into account."
             },
+            "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
             "predisposicion":"PREDISPOSITION",
             "predisposicion1":"Before we tell the world that we are looking for a job, we must first know it inside. For obvious reasons, if you are looking for a job, it is presumably because you are totally convinced.",
             "predisposicion2":"Predisposition alone ends up being the major force that will connect everything.",
@@ -555,6 +556,299 @@
                 "tx1":"General terms in programming, this glossary will be updated as more terms and their meaning are added."
             },
             "descripcionCorta":"Proven recommendations from my own job search experience."
+        }
+    },
+    "ELECTRON":{
+        "electron":{
+            "nombre":"Eletron",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "etron-elementos":{
+            "nombre": "Elements Electron",
+            "referenciaBusqueda": "electron, elements",
+            "descripcion":{
+                "tx1":"Quick description of the application of the elements that make part of typescript, similar in great part to Javascript, and obviously the application of the particular of typescript that are the types."
+            },
+            "descripcionCorta":"Detail of the elements that are part of Typescript, detailing in contrast to Javascript."
+        },
+        "etron-instalacion":{
+            "nombre":"Electron installation",
+            "referenciaBusqueda":"installation, install",
+            "descripcion":{
+                "tx1":"Quick description of the application of the elements that make part of typescript, similar in great part to Javascript, and obviously the application of the particular of typescript that are the types."
+            },
+            "descripcionCorta":"Detail of the elements that are part of Typescript, detailing in contrast to Javascript."
+        }
+    },
+    "FLUTTER":{
+        "flutter":{
+            "nombre":"Flutter",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "flutter-instalacion":{
+            "nombre":"Flutter installation",
+            "referenciaBusqueda":"installation, install",
+            "descripcion":{
+                "tx1":"Quick description of the application of the elements that make part of typescript, similar in great part to Javascript, and obviously the application of the particular of typescript that are the types."
+            },
+            "descripcionCorta":"This time we have a quick description of the installation along with the versions, changes and the link to download a specific version."
+        },
+        "flutter-elementos":{
+            "nombre":"Flutter elements",
+            "referenciaBusqueda":"elements, parts, description",
+            "descripcion":{
+                "tx1":"Detail of the elements that are part of Typescript, detailing in contrast to Javascript."
+            },
+            "descripcionCorta":"Detail of the elements that are part of Typescript, detailing in contrast to Javascript."
+        }
+    },
+    "GIT":{
+        "git":{
+            "nombre":"Git",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "git-errores":{
+            "nombre":"Common errors in git",
+            "referenciaBusqueda":"Errors, bugs, git",
+            "descripcion":{
+                "tx1":"Common mistakes that make us skate for a while looking for the solution."
+            },
+            "descripcionCorta":"Common mistakes that make us skate for a while looking for the solution."
+        }
+    },
+    "HTML":{
+        "html":{
+            "nombre":"HTML",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "html-etiquetas":{
+            "nombre":"HTML Elements",
+            "referenciaBusqueda":"tags, html",
+            "descripcion":{
+                "tx1":"Quick description of the application of the elements that make part of typescript, similar in great part to Javascript, and obviously the application of the particular of typescript that are the types."
+            },
+            "descripcionCorta":"Detail of the elements that are part of Typescript, detailing in contrast to Javascript."
+        }
+    },
+    "JAVA":{
+        "java":{
+            "nombre":"Java",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "java-glassfish":{
+            "nombre":"Glassfish",
+            "referenciaBusqueda":"glassfish",
+            "descripcion":{
+                "tx1":"To begin with, there is the installation of Angular, you can take into account what is special in each version, obviously the latest version shows us how far the Framework has evolved. There are also the startup commands, creation and options, that when we start we do not have them at hand."
+            },
+            "descripcionCorta":"Angular installation. What the versions bring from the js and all the angular commands you didn't know."
+        },
+        "java-instalacion":{
+            "nombre":"Java Installation",
+            "referenciaBusqueda":"installation, install",
+            "descripcion":{
+                "tx1":"To begin with, there is the installation of Angular, you can take into account what is special in each version, obviously the latest version shows us how far the Framework has evolved. There are also the startup commands, creation and options, that when we start we do not have them at hand."
+            },
+            "descripcionCorta":"Angular installation. What the versions bring from the js and all the angular commands you didn't know."
+        }
+    },
+    "JAVASCRIPT":{
+        "javascript":{
+            "nombre":"Javascript",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "js-elementos":{
+            "nombre":"javascript elements",
+            "referenciaBusqueda":"elements, parts",
+            "descripcion":{
+                "tx1":"Quick description of the application of the elements that make part of typescript, similar in great part to Javascript, and obviously the application of the particular of typescript that are the types."
+            },
+            "descripcionCorta":"Detail of the elements that are part of Typescript, detailing in contrast to Javascript."
+        },
+        "js-recorrer-arrays-objetos":{
+            "nombre":"Array traversal",
+            "referenciaBusqueda":"traverse, iterate",
+            "descripcion":{
+                "tx1":"Quick description of the application of the elements that make part of typescript, similar in great part to Javascript, and obviously the application of the particular of typescript that are the types."
+            },
+            "descripcionCorta":"Detail of the elements that are part of Typescript, detailing in contrast to Javascript."
+        }
+    },
+    "KOTLIN":{
+        "kotlin":{
+            "nombre":"kotlin",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "kotlin-elementos":{
+            "nombre":"Kotlin elements",
+            "referenciaBusqueda":"elements, parts",
+            "descripcion":{
+                "tx1":"Quick description of the application of the elements that make part of typescript, similar in great part to Javascript, and obviously the application of the particular of typescript that are the types."
+            },
+            "descripcionCorta":"Detail of the elements that are part of Typescript, detailing in contrast to Javascript."
+        }
+    },
+    "KUBERNETES":{
+        "kubernetes":{
+            "nombre":"Kubernetes",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "kubernetes-elementos":{
+            "nombre":"Kubernetes elements",
+            "referenciaBusqueda":"elements, parts",
+            "descripcion":{
+                "tx1":"Quick description of the application of the elements that make part of typescript, similar in great part to Javascript, and obviously the application of the particular of typescript that are the types."
+            },
+            "descripcionCorta":"Detail of the elements that are part of Typescript, detailing in contrast to Javascript."
+        }
+    },
+    "LINUX":{
+        "linux":{
+            "nombre":"Linux",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "lx-comandos":{
+            "nombre":"Most used commands",
+            "referenciaBusqueda":"Commands, codes",
+            "descripcion":{
+                "tx1":"Quick description of the application of the elements that make part of typescript, similar in great part to Javascript, and obviously the application of the particular of typescript that are the types."
+            },
+            "descripcionCorta":"Detail of the elements that are part of Typescript, detailing in contrast to Javascript."
+        }
+    },
+    "NET":{
+        "net":{
+            "nombre":"Net",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "net-elementos":{
+            "nombre":"Net elements",
+            "referenciaBusqueda":"elements, parts",
+            "descripcion":{
+                "tx1":"Quick description of the application of the elements that make part of typescript, similar in great part to Javascript, and obviously the application of the particular of typescript that are the types."
+            },
+            "descripcionCorta":"Detail of the elements that are part of Typescript, detailing in contrast to Javascript."
+        },
+        "net-instalacion":{
+            "nombre":"NET Installation",
+            "referenciaBusqueda":"installation, install",
+            "descripcion":{
+                "tx1":"Quick description of the application of the elements that make part of typescript, similar in great part to Javascript, and obviously the application of the particular of typescript that are the types."
+            },
+            "descripcionCorta":"Detail of the elements that are part of Typescript, detailing in contrast to Javascript."
+        }
+    },
+    "PHP":{
+        "php":{
+            "nombre":"Php",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "php-elementos":{
+            "nombre":"php elements",
+            "referenciaBusqueda":"elements, parts",
+            "descripcion":{
+                "tx1":"Quick description of the application of the elements that make part of typescript, similar in great part to Javascript, and obviously the application of the particular of typescript that are the types."
+            },
+            "descripcionCorta":"Detail of the elements that are part of Typescript, detailing in contrast to Javascript."
+        }
+    },
+    "REACT":{
+        "react":{
+            "nombre":"React",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "react-elementos":{
+            "nombre":"React elements",
+            "referenciaBusqueda":"elements, parts",
+            "descripcion":{
+                "tx1":"Quick description of the application of the elements that make part of typescript, similar in great part to Javascript, and obviously the application of the particular of typescript that are the types."
+            },
+            "descripcionCorta":"Detail of the elements that are part of Typescript, detailing in contrast to Javascript."
+        }
+
+    },
+    "TYPESCRIPT":{
+        "typescript":{
+            "nombre":"Typescript",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "typescript-elementos":{
+            "nombre":"Typescript elements",
+            "referenciaBusqueda": "elements, parts",
+            "descripcion":{
+                "tx1":"Quick description of the application of the elements that make part of typescript, similar in great part to Javascript, and obviously the application of the particular of typescript that are the types."
+            },
+            "descripcionCorta":"Detail of the elements that are part of Typescript, detailing in contrast to Javascript."
+        }
+    },
+    "WORDPRESS":{
+        "wordpress":{
+            "nombre":"Wordpress",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "wordpress-elementos":{
+            "nombre":"Wordpress Elements",
+            "referenciaBusqueda":"elements, parts",
+            "descripcion":{
+                "tx1":"Quick description of the application of the elements that make part of typescript, similar in great part to Javascript, and obviously the application of the particular of typescript that are the types."
+            },
+            "descripcionCorta":"Detail of the elements that are part of Typescript, detailing in contrast to Javascript."
         }
     }
 }
