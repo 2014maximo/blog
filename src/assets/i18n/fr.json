@@ -4,14 +4,205 @@
     "Email": "Courriel",
     "Comentarios": "Commentaires",
     "Enviar": "Envoyer",
-    "DEV":{
-        "be":{
-            "titulo":"RECHERCHE D'EMPLOI",
+    "ANDROID":{
+        "android":{
+            "nombre": "Android",
+            "referenciaBusqueda":"système d'exploitation, android",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+            },
+            "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+        }
+    },
+    "ANGULAR":{
+        "angular":{
+            "nombre": "Angular",
+            "referenciaBusqueda":"",
+            "descripcion":{"tx1":"Angular est dans le groupe des meilleurs frameworks web, tous les 6 mois sans faute il livre une nouvelle version et s'est permis d'évoluer."},
+            "descripcionCorta":""
+        },
+        "ng-instalacion":{
+            "nombre": "Installation d'Angular et recommandations",
+            "referenciaBusqueda":"installation, angulaire, recommandations",
+            "descripcion":{
+                "tx1":"Pour commencer, il y a l'installation d'angular, on peut prendre en compte ce qui est particulier à chaque version, évidemment la dernière version nous montre à quel point le Framework a évolué. Il y a aussi les commandes de démarrage, les commandes de création et les options, que lorsque nous commençons nous ne les avons pas sous la main."},
+            "descripcionCorta":"Installation d'Angular. Ce que les versions apportent de la js et toutes les commandes angulaires que vous ne connaissiez pas."
+        },
+        "ng-elementos":{
+            "nombre": "Éléments angulaires",
+            "referenciaBusqueda":"installation, angulaire, recommandations",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"},
+            "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        },
+        "ng-comunicacion-componentes":{
+            "nombre": "Communication entre les composants",
+            "referenciaBusqueda":"Passage des données, communication",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+            },
+            "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        },
+        "ng-arquitectura":{
+            "nombre": "Architectures proposées pour Angular",
+            "referenciaBusqueda": "architecture, angulaire",
+            "descripcion": {
+                "tx1":"En tenant compte du fait qu'une architecture peut être appliquée à un projet entier dans ses parties de frontend, backend, bases de données et même l'infrastructure. Cette fois-ci, l'idée est de montrer l'architecture s'appliquant uniquement au frontend, dans ce cas à Angular et l'application à sa structure interne avec plusieurs exemples donnés le cas d'intérêt.",
+                "tx2":"Un effort maximal est fait au début pour trouver la meilleure architecture pour les projets, cherchant à s'assurer que tout dure et reste dans les bases initiales, mais au fur et à mesure que le développement progresse, les exigences et les besoins augmentent et de nouvelles options sont définies qui n'ont pas été prises en compte au début."
+            },
+            "descripcionCorta": "Installation d'Angular. Ce que les versions apportent de la js et toutes les commandes angulaires que vous ne connaissiez pas."
+        },
+        "ng-manejo-rutas":{
+            "nombre":"Gestion des routes dans Angular",
+            "referenciaBusqueda":"routes, chemins, routage",
+            "descripcion":{
+                "tx1":"Pour commencer, il y a l'installation d'angular, on peut prendre en compte ce qui est particulier à chaque version, évidemment la dernière version nous montre à quel point le Framework a évolué. Il y a aussi les commandes de démarrage, les commandes de création et les options, que lorsque nous commençons nous ne les avons pas sous la main."
+            },
+            "descripcionCorta":"Installation d'Angular. Ce que les versions apportent de la js et toutes les commandes angulaires que vous ne connaissiez pas."
+        },
+        "ng-microservicios":{
+            "nombre":"Microservices",
+            "referenciaBusqueda":"microservices",
+            "descripcion":{
+                "tx1":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+            },
+            "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        },
+        "ng-modulos":{
+            "nombre":"Modules angulaires",
+            "referenciaBusqueda":"modules",
+            "descripcion":{
+                "tx1":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+            },
+            "descripcionCorta":"Installation d'Angular. Ce que les versions apportent de la js et toutes les commandes angulaires que vous ne connaissiez pas."
+        },
+        "ng-pruebas-unitarias":{
+            "nombre":"Tests unitaires dans Angular",
+            "referenciaBusqueda":"test, unité, test",
+            "descripcion":{
+                "tx1":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+            },
+            "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+        }
+    },
+    "CSS":{
+        "css":{
+            "nombre":"CSS",
+            "referenciaBusqueda":"css",
+            "descripcion":{"tx1":"Lorsque nous commençons à développer des sites web en HTML uniquement, nous pensons qu'il faut pouvoir afficher chaque élément dans une couleur différente ou avec un meilleur style."},
+            "descripcionCorta":""
+        },
+        "css-clases":{
+            "nombre":"Classes CSS",
+            "referenciaBusqueda":"classes, css",
+            "descripcion":{
+                "tx1":"Comme il s'agit d'un principe commun, certains d'entre nous qui ont commencé à programmer ont commencé sur le Web et il est certain que pour certains d'entre nous il était difficile de comprendre comment appliquer une classe ou chaque option que le DOM met à disposition avec les styles CSS."
+            },
+            "descripcionCorta":"Explication détaillée des styles de classe CSS. Particulièrement la façon dont je m'attendais à trouver une explication dans les recherches Google."
+        }
+    },
+    "DART":{
+        "dart":{
+            "nombre":"Dart",
+            "referenciaBusqueda":"dart",
+            "descripcion":{
+                "tx1":"Dart, avec ses hauts et ses bas, revient sur le devant de la scène avec Flutter, mais il est important de connaître les avantages qu'il offre par rapport aux autres langages pour le choisir."
+            },
+            "descripcionCorta":"Dart, avec ses hauts et ses bas, revient sur le devant de la scène avec Flutter, mais il est important de connaître les avantages qu'il offre par rapport aux autres langages pour le choisir."
+        },
+        "dart-elementos":{
+            "nombre":"Éléments de fléchettes",
+            "referenciaBusqueda":"éléments",
+            "descripcion":{
+                "tx1":"Célèbre pour Flutter, le framework Dart permet de créer des applications de différents types axées sur un développement web puissant."
+            },
+            "descripcionCorta":"Description des éléments qui font partie de Dart. Suggestions supplémentaires pour d'autres types d'applications."
+        }
+    },
+    "DB":{
+        "db":{
+            "nombre":"DB",
+            "referenciaBusqueda":"db, bases de données",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "db-firebase":{
+            "nombre":"Firebase",
+            "referenciaBusqueda":"firebase, non relationnel, google",
+            "descripcion":{
+                "tx1":"Firebase est un super outil de développement pour être au cœur de l'information, adaptable à nos débuts de développeurs."
+            },
+            "descripcionCorta":"Ceci est un guide des éléments que vous devez gérer pour connecter votre application à Firebase."
+        },
+        "db-sql":{
+            "nombre":"SQL",
+            "referenciaBusqueda":"sql, relationnel",
+            "descripcion":{
+                "tx1":"SQL (Structured Query Language) est un langage de programmation conçu pour gérer et manipuler les bases de données relationnelles. Utilisé dans les systèmes de gestion de bases de données (SGBD), SQL permet d'effectuer des requêtes, des mises à jour, des insertions et des suppressions de données dans les tables. Sa syntaxe est divisée en catégories telles que DDL (Data Definition Language) pour définir la structure de la base de données et DML (Data Manipulation Language) pour manipuler les données. Les commandes courantes sont SELECT pour extraire des données, INSERT pour ajouter de nouveaux enregistrements, UPDATE pour modifier des enregistrements existants et DELETE pour supprimer des enregistrements. Sa large adoption et sa polyvalence en font un outil fondamental pour la gestion des données."
+            },
+            "descripcionCorta":"SQL (Structured Query Language) est un langage de programmation conçu pour gérer et manipuler des bases de données relationnelles."
+        },
+        "db-sql-server":{
+            "nombre":"SQL Server",
+            "referenciaBusqueda":"sql, server",
+            "descripcion":{
+                "tx1":"Firebase est un super outil de développement pour être au cœur de l'information, adaptable à nos débuts de développeurs."
+            },
+            "descripcionCorta":"Ceci est un guide des éléments que vous devez gérer pour connecter votre application à Firebase."
+        }
+    },
+    "DEVELOPER":{
+        "developer":{
+            "nombre":"Developer",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "dev-super-recursos":{
+            "nombre":"Un grand groupe de sites web avec de nombreuses ressources",
+            "referenciaBusqueda":"sites web, liens",
+            "descripcion":{
+                "tx1":"Nous ignorons l'existence de certains sites web jusqu'à ce que quelqu'un nous dise à quel point ils sont extraordinaires et que nous tombions dessus. Cette fois-ci, nous avons une compilation de quelques sites web hautement recommandés."
+            },
+            "descripcionCorta":"Des sites web ignorés pour qu'ils puissent être utiles. Une courte description."
+        },
+        "dev-algoritmos-clave":{
+            "nombre":"Algorithmes de classification essentiels",
+            "referenciaBusqueda":"algorithmes clés",
+            "descripcion":{
+                "tx1":"Nous ignorons l'existence de certains sites web jusqu'à ce que quelqu'un nous dise à quel point ils sont extraordinaires et que nous tombions dessus. Cette fois-ci, nous avons une compilation de quelques sites web hautement recommandés."
+            },
+            "descripcionCorta":"Des sites web ignorés pour qu'ils puissent être utiles. Une courte description."
+        },
+        "dev-diagramas-secuencia":{
+            "nombre":"Diagrammes de séquence",
+            "referenciaBusqueda":"diagrammes, séquence",
+            "descripcion":{
+                "tx1":"Nous ignorons l'existence de certains sites web jusqu'à ce que quelqu'un nous dise à quel point ils sont extraordinaires et que nous tombions dessus. Cette fois-ci, nous avons une compilation de quelques sites web hautement recommandés."
+            },
+            "descripcionCorta":"Des sites web ignorés pour qu'ils puissent être utiles. Une courte description."
+        },
+        "dev-controles-visual":{
+            "nombre":"Contrôles rapides de Visual Studio Code",
+            "referenciaBusqueda":"touches de raccourci, contrôles",
+            "descripcion":{
+                "tx1":"Nous ignorons l'existence de certains sites web jusqu'à ce que quelqu'un nous dise à quel point ils sont extraordinaires et que nous tombions dessus. Cette fois-ci, nous avons une compilation de quelques sites web hautement recommandés."
+            },
+            "descripcionCorta":"Des sites web ignorés pour qu'ils puissent être utiles. Une courte description."
+        },
+        "dev-busqueda-empleo":{
+            "nombre":"RECHERCHE D'EMPLOI",
+            "referenciaBusqueda":"trabajo, empleo, labor, trabajar",
             "descripcion": {
                 "tx1":"Recommandations éprouvées dans la recherche d'emploi.",
                 "tx2":"Ce post est une réflexion sur mon propre processus pour obtenir un emploi en tant que développeur frontend. Je suis actuellement à la recherche d'une bonne entreprise pour laquelle travailler, après l'avoir terminée, l'idée est de suggérer les points qui ont fonctionné pour moi.",
                 "tx3":"L'objectif, vu de manière simple, est de nous vendre comme un produit du commerce (dans le contexte uniquement). Voici les points que je suggère de prendre en compte."
             },
+            "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
             "predisposicion":"PREDISPOSITION",
             "predisposicion1":"Avant de dire au monde que l'on cherche un emploi, il faut d'abord le connaître de l'intérieur. Pour des raisons évidentes, si vous cherchez un emploi, c'est vraisemblablement parce que vous en êtes convaincu.",
             "predisposicion2":"La prédisposition seule finit par être la force majeure qui relie tout.",
@@ -357,6 +548,307 @@
                 "tx5":"Nous aidons les entreprises à mettre en place les meilleures équipes technologiques.",
                 "tx6":"Nous aidons les candidats à perfectionner leurs compétences technologiques et à rechercher des opportunités d'emploi."
             }
+        },
+        "dev-glosario":{
+            "nombre":"Glossaire général",
+            "referenciaBusqueda":"termes",
+            "descripcion":{
+                "tx1":"Termes généraux de programmation, ce glossaire sera mis à jour au fur et à mesure de l'ajout de nouveaux termes et de leur signification."
+            },
+            "descripcionCorta":"Recommandations testées à partir de ma propre expérience de la recherche d'emploi."
+        }
+    },
+    "ELECTRON":{
+        "electron":{
+            "nombre":"Eletron",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "etron-elementos":{
+            "nombre": "Éléments Électron",
+            "referenciaBusqueda": "électron, éléments",
+            "descripcion":{
+                "tx1":"Description rapide de l'implémentation des éléments qui font partie de typescript, largement similaire à Javascript, et évidemment l'implémentation de la particularité de typescript que sont les types."
+            },
+            "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
+        },
+        "etron-instalacion":{
+            "nombre":"Installation d'électrons",
+            "referenciaBusqueda":"installation, installer",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "descripcionCorta":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+    },
+    "FLUTTER":{
+        "flutter":{
+            "nombre":"Flutter",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "flutter-instalacion":{
+            "nombre":"Installation de Flutter",
+            "referenciaBusqueda":"installation, installer",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "descripcionCorta":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        "flutter-elementos":{
+            "nombre":"Éléments de flottement",
+            "referenciaBusqueda":"éléments, parties, description",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "descripcionCorta":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+    },
+    "GIT":{
+        "git":{
+            "nombre":"Git",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "git-errores":{
+            "nombre":"Erreurs courantes dans git",
+            "referenciaBusqueda":"Bugs, bugs, git",
+            "descripcion":{
+                "tx1":"Des erreurs courantes qui nous font patiner pendant un certain temps à la recherche d'une solution."
+            },
+            "descripcionCorta":"Les erreurs courantes qui nous font déraper pendant un certain temps à la recherche d'une solution."
+        }
+    },
+    "HTML":{
+        "html":{
+            "nombre":"HTML",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "html-etiquetas":{
+            "nombre":"Éléments HTML",
+            "referenciaBusqueda":"balises, html",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "descripcionCorta":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+    },
+    "JAVA":{
+        "java":{
+            "nombre":"Java",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "java-glassfish":{
+            "nombre":"Glassfish",
+            "referenciaBusqueda":"glassfish",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "descripcionCorta":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        "java-instalacion":{
+            "nombre":"Installation Java",
+            "referenciaBusqueda":"installation, installer",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "descripcionCorta":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+    },
+    "JAVASCRIPT":{
+        "javascript":{
+            "nombre":"Javascript",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "js-elementos":{
+            "nombre":"Éléments javascript",
+            "referenciaBusqueda":"éléments, parties, description",
+            "descripcion":{
+                "tx1":"Description rapide de l'implémentation des éléments qui font partie de typescript, largement similaire à Javascript, et évidemment l'implémentation de la particularité de typescript que sont les types."
+            },
+            "descripcionCorta":"Détail des éléments qui font partie de Typescript, par opposition à Javascript."
+        },
+        "js-recorrer-arrays-objetos":{
+            "nombre":"Traversée de tableau",
+            "referenciaBusqueda":"traverser, itérer",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "descripcionCorta":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+    },
+    "KOTLIN":{
+        "kotlin":{
+            "nombre":"kotlin",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "kotlin-elementos":{
+            "nombre":"Éléments kotlin",
+            "referenciaBusqueda":"éléments, parties, description",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "descripcionCorta":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+    },
+    "KUBERNETES":{
+        "kubernetes":{
+            "nombre":"Kubernetes",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "kubernetes-elementos":{
+            "nombre":"Éléments kubernetes",
+            "referenciaBusqueda":"elementos, partes",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "descripcionCorta":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+    },
+    "LINUX":{
+        "linux":{
+            "nombre":"Linux",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "lx-comandos":{
+            "nombre":"Comandos más usados",
+            "referenciaBusqueda":"Comandos, codigos",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "descripcionCorta":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+    },
+    "NET":{
+        "net":{
+            "nombre":"Net",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "net-elementos":{
+            "nombre":"Éléments net",
+            "referenciaBusqueda":"éléments, parties, description",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "descripcionCorta":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        "net-instalacion":{
+            "nombre":"Installation NET",
+            "referenciaBusqueda":"installation, installer",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "descripcionCorta":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+    },
+    "PHP":{
+        "php":{
+            "nombre":"Php",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "php-elementos":{
+            "nombre":"Éléments php",
+            "referenciaBusqueda":"éléments, parties, description",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "descripcionCorta":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+    },
+    "REACT":{
+        "react":{
+            "nombre":"React",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "react-elementos":{
+            "nombre":"Éléments React",
+            "referenciaBusqueda":"éléments, parties, description",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "descripcionCorta":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+
+    },
+    "TYPESCRIPT":{
+        "typescript":{
+            "nombre":"Typescript",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "typescript-elementos":{
+            "nombre":"Éléments typescript",
+            "referenciaBusqueda": "éléments, parties, description",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "descripcionCorta":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+    },
+    "WORDPRESS":{
+        "wordpress":{
+            "nombre":"Wordpress",
+            "referenciaBusqueda":"",
+            "descripcion":{
+                "tx1":""
+            },
+            "descripcionCorta":""
+        },
+        "wordpress-elementos":{
+            "nombre":"Éléments Wordpress",
+            "referenciaBusqueda":"éléments, parties, description",
+            "descripcion":{
+                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "descripcionCorta":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         }
     }
 }
