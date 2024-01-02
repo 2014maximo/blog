@@ -55,22 +55,19 @@ export class HeaderHomeComponent implements OnInit {
 	}
 
 	private inicializarVariables() {
-		this.categorias.forEach((e: any, i: number) => {
+/* 		this.categorias.forEach((e: any, i: number) => {
 			e.post.forEach((element: any) => {
 				this.todosLosPost.push(element);
 			});
 		});
-		this.todosLosPost = Object.assign([], this.retirarPostsPrincipalCategoria(this.todosLosPost));
-		this.traducirColeccion(this.idiomaActual);
+		this.todosLosPost = Object.assign([], this.retirarPostsPrincipalCategoria(this.todosLosPost)); */
+		this.todosLosPostTraducidos = this.traduccion.todosLosPostTraducidos;
+		// this.traducirColeccion(this.idiomaActual);
 	}
 
 	public buscar(e: any) {
 		let buscar = this.formBasic.value.busqueda;
 		if (e.key && buscar) {
-
-			console.log(localStorage.getItem('idioma'), 'IDIOMA ACTUAL');
-			console.log(this.idiomaActual, 'this.idiomaActual');
-			console.log(buscar, 'TERMINO2');
 
 			this.mostrarResultados = true;
 			this.encontrados = busquedaGeneral(this.todosLosPostTraducidos, 'referenciaBusqueda', buscar);
@@ -114,26 +111,6 @@ export class HeaderHomeComponent implements OnInit {
 	}
 
 	async traducirColeccion(idioma:string){
-/* 		this.todosLosPostTraducidos = this.todosLosPost.map((res) => ({
-			categoria: res.categoria,
-			componente: res.componente,
-			descripcion: res.descripcion,
-			descripcionCorta: res.descripcionCorta,
-			estado: res.estado,
-			estilos: res.estilos,
-			fechaActualizacion: res.fechaActualizacion,
-			fechaCreacion: res.fechaCreacion,
-			id: res.id,
-			imgCuadro: res.imgCuadro,
-			imgHorizontal: res.imgHorizontal,
-			imgVertical: res.imgVertical,
-			mostrarEnPostHome: res.mostrarEnPostHome,
-			nombre: res.nombre,
-			posicion: res.posicion,
-			referenciaBusqueda: await this.traducirReferencia(res.referenciaBusqueda),
-			ruta: res.ruta,
-			imgSlider: res.imgSlider
-		})) */
 		for(let i=0; i<this.todosLosPost.length; i++){
 			this.todosLosPostTraducidos.push({
 				categoria: this.todosLosPost[i].categoria,
@@ -155,14 +132,12 @@ export class HeaderHomeComponent implements OnInit {
 				ruta: this.todosLosPost[i].ruta,
 				imgSlider: this.todosLosPost[i].imgSlider
 			})
-			console.log(this.todosLosPostTraducidos, 'TODOS LOS POST TRADUCIDOS');
 		}
 	}
 
 	async traducirReferencia(ref:string){
-		let traducion = await firstValueFrom(this.translate.get(ref));
-		console.log(traducion, 'haber');
-		return traducion;
+		let traduccion = await firstValueFrom(this.translate.get(ref));
+		return traduccion;
 	}
 
 }

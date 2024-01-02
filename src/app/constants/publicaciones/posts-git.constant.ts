@@ -28,7 +28,7 @@ export const GIT: DatosPost[] = [
     {
         id: '4871cb38-9831-4099-bd70-c0b540bf47a1',
         nombre: 'GIT.git-errores.nombre',
-        referenciaBusqueda:'',
+        referenciaBusqueda:'GIT.git-errores.referenciaBusqueda',
         descripcion: ['GIT.git-errores.descripcion.tx1'],
         descripcionCorta: 'GIT.git-errores.descripcionCorta',
         ruta: 'git-errores',

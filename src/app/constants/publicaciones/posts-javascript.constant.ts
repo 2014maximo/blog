@@ -50,7 +50,7 @@ export const JAVASCRIPT: DatosPost[] = [
     },
     {
         id: 'bd16e1f4-b3dd-45d6-8400-c9e0a5ced350',
-        nombre: 'JAVASCRIPT.js-recorrer-arrays-objetos',
+        nombre: 'JAVASCRIPT.js-recorrer-arrays-objetos.nombre',
         referenciaBusqueda:'JAVASCRIPT.js-recorrer-arrays-objetos.referenciaBusqueda',
         descripcion: [
             'JAVASCRIPT.js-recorrer-arrays-objetos.descripcion.tx1'

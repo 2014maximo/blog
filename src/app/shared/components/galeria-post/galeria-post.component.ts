@@ -2,6 +2,9 @@ import { Component, Input, OnInit } from '@angular/core';
 import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
 import { DatosPost, CategoriaPostModel, SubCategoriaModel } from '../../models/categorias.model';
 import { datosCategoria } from '../../constants/funciones/funciones-globales';
+import { TraduccionService } from '@app/services/traduccion.service';
+import { firstValueFrom } from 'rxjs';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-galeria-post',
@@ -20,23 +23,23 @@ export class GaleriaPostComponent implements OnInit {
   public ultimosPost: any[] = [];
   public anchoPantalla = window.innerWidth;
 
-  constructor() { }
+  constructor(public translate: TranslateService, private traduccion: TraduccionService) { }
 
   ngOnInit(): void {
     this.agruparPost();
+    this.traduccion.cambioIdioma$.subscribe((idioma) => {
+      this.agruparPost();
+		});
   }
 
   public cargarGrupoGaleria():any[] {
     let grupo: any[] = [];
-
-
-
     return grupo
   }
 
   private agruparPost(){
-
-    this.categorias.forEach( (e:CategoriaPostModel, i:number)=>{
+    this.todosLosPost = this.traduccion.todosLosPostTraducidos;
+/*     this.categorias.forEach( (e:CategoriaPostModel, i:number)=>{
       e.post.forEach((element:any) => {
         this.todosLosPost.push(element);
       });
@@ -44,15 +47,14 @@ export class GaleriaPostComponent implements OnInit {
         s.post.forEach((p: DatosPost) => {
           this.todosLosPost.push(p);
         });
-      })
-      
-/*       e.subcategorias[i].post?.forEach((s:DatosPost) => {
-        this.todosLosPost.push(s);
-      }); */
+      });
     });
 
-    this.todosLosPost = Object.assign([], this.retirarPostsPrincipalCategoria(this.todosLosPost));
-    this.todosLosPost = this.ordenarPostPorFecha(this.todosLosPost);
+    this.todosLosPost = Object.assign([], this.retirarPostsPrincipalCategoria(this.todosLosPost)); */
+    setTimeout(()=>{
+      this.todosLosPost = this.ordenarPostPorFecha(this.todosLosPost);
+      console.log(this.todosLosPost, 'TODOS LOS POSTS');
+    },0)
   }
 
   private retirarPostsPrincipalCategoria(grupo:DatosPost[]):DatosPost[]{
@@ -74,15 +76,12 @@ export class GaleriaPostComponent implements OnInit {
   }
 
 
-
-
   public convertirFechaANumero(fecha:string):number{
     let numero = +(new Date(fecha).getTime());
     return +numero;
   }
 
   public tipoSombra(path: string):string{
-    // let sombra='shadow-two';
     let sombra='marcoFoto shadow-two';
 
     if(path.includes('png')){
@@ -107,5 +106,6 @@ export class GaleriaPostComponent implements OnInit {
     }
     return valorDefecto;
   }
+
 
 }

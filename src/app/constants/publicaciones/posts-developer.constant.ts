@@ -8,9 +8,9 @@ export const ESTILO_DEVELOPER: EstilosPost = {
 export const DEVELOPER: DatosPost[] = [
     {
         id: '441cab09-256e-446f-bb2c-f017dd6d217b',
-        nombre: 'Developer',
-        descripcion: [''],
-        descripcionCorta: '',
+        nombre: 'DEVELOPER.developer.nombre',
+        descripcion: ['DEVELOPER.developer.descripcion.tx1'],
+        descripcionCorta: 'DEVELOPER.developer.descripcionCorta',
         ruta: 'developer',
         componente: 'DeveloperComponent',
         mostrarEnPostHome: false,
@@ -56,8 +56,8 @@ export const DEVELOPER: DatosPost[] = [
         id: 'de48822e-c2f5-4274-a682-535a44456478',
         nombre: 'DEVELOPER.dev-algoritmos-clave.nombre',
         referenciaBusqueda:'DEVELOPER.dev-algoritmos-clave.referenciaBusqueda',
-        descripcion: ['No sabemos que existen ciertos sitios web hasta que alguien nos cuenta lo increíble que son y llegamos a ellos. Esta vez están a la mano un recopilación de unos sitios web recomendados totalmente.'],
-        descripcionCorta: 'Sitios web que se ignora para que puedan ser útiles. Una pequeña descripción.',
+        descripcion: ['DEVELOPER.dev-algoritmos-clave.descripcion.tx1'],
+        descripcionCorta: 'DEVELOPER.dev-algoritmos-clave.descripcionCorta',
         ruta: 'dev-algoritmos-clave',
         componente: 'DevAlgoritmosClaveComponent',
         mostrarEnPostHome: true,

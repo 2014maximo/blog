@@ -8,10 +8,10 @@ export const ESTILO_HTML: EstilosPost = {
 export const HTML: DatosPost[] = [
     {
         id: '8825362007',
-        nombre: 'HTML',
-        referenciaBusqueda:'',
-        descripcion: [],
-        descripcionCorta: '',
+        nombre: 'HTML.html.nombre',
+        referenciaBusqueda:'HTML.html.referenciaBusqueda',
+        descripcion: ['HTML.html.descripcion.tx1'],
+        descripcionCorta: 'HTML.html.descripcionCorta',
         ruta: 'html',
         componente: 'HtmlComponent',
         categoria: 'html',

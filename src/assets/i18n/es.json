@@ -17,7 +17,7 @@
     "ANGULAR":{
         "angular":{
             "nombre": "Angular",
-            "referenciaBusqueda":"",
+            "referenciaBusqueda":"angular",
             "descripcion":{"tx1":"Angular esta en el grupo de los mejores frameworks web, cada 6 meses sin falta entrega una nueva versión y se ha permitido evolucionar."},
             "descripcionCorta":""
         },

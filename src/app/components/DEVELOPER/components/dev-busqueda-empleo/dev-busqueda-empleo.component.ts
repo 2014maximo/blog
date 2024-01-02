@@ -5,7 +5,7 @@ import { cargarBreadcrumb, cargarIndice } from '@shared/constants/funciones/func
 import { CategoriaModel } from '@shared/models';
 import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
 import { IndiceDeContenidosModel } from '@shared/models/indice.model';
-import { AGENCIAS, BLOQUE_LINKS, MARKETING, PREGUNTAS, TEST } from './constants/dev-busqueda.constant';
+import { AGENCIAS, BLOQUE_LINKS, MARKETING, PREGUNTAS } from './constants/dev-busqueda.constant';
 import { PreguntasModel } from '@components/DEVELOPER/models/dev-busqueda.model';
 import { IAgencia } from './models/empleo.model';
 import { TranslateService } from '@ngx-translate/core';
@@ -27,7 +27,6 @@ export class DevBusquedaEmpleoComponent implements OnInit {
 	public preguntas: PreguntasModel[] = [];
 	public agencias: IAgencia[] = [];
 	public bloqueLinks: IndiceDeContenidosModel[] = [];
-	public text = TEST;
 	public textosATraducir: any;
 	public cv:any = {};
 	public marketplace:any = {};

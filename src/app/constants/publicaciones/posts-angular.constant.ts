@@ -9,9 +9,9 @@ export const ANGULAR: DatosPost[] = [
     {
         id: 'eb4011f5-81df-4261-b5c5-8f58d2ba88b5',
         nombre: 'ANGULAR.angular.nombre',
-        referenciaBusqueda:'',
-        descripcion: ['ANGULAR.angular.descripcion'],
-        descripcionCorta: '',
+        referenciaBusqueda:'ANGULAR.angular.referenciaBusqueda',
+        descripcion: ['ANGULAR.angular.descripcion.tx1'],
+        descripcionCorta: 'ANGULAR.angular.descripcionCorta',
         ruta: 'angular',
         componente: 'AngularComponent',
         mostrarEnPostHome: false,
@@ -28,7 +28,7 @@ export const ANGULAR: DatosPost[] = [
     {
         id: '8618eb718b-655b-49a8-9e6e-f3732922b2df',
         nombre: 'ANGULAR.ng-instalacion.nombre',
-        referenciaBusqueda:'ANGULAR.ng-instalacion.referencias',
+        referenciaBusqueda:'ANGULAR.ng-instalacion.referenciaBusqueda',
         descripcion: ['ANGULAR.ng-instalacion.descripcion.tx1'],
         descripcionCorta: 'ANGULAR.ng-instalacion.descripcionCorta',
         ruta: 'ng-instalacion',
@@ -55,7 +55,7 @@ export const ANGULAR: DatosPost[] = [
     {
         id: 'ca5b7f7a-af2e-47ce-a69e-4ccf6ec2a317',
         nombre: 'ANGULAR.ng-elementos.nombre',
-        referenciaBusqueda:'ANGULAR.ng-elementos.referencias',
+        referenciaBusqueda:'ANGULAR.ng-elementos.referenciaBusqueda',
         descripcion: ['ANGULAR.ng-elementos.descripcion.tx1'],
         descripcionCorta: 'ANGULAR.ng-elementos.descripcionCorta',
         ruta: 'ng-descripcion-elementos',
@@ -75,7 +75,7 @@ export const ANGULAR: DatosPost[] = [
     {
         id: '4f414314-8a56-402c-83dc-807b2af9be53',
         nombre: 'ANGULAR.ng-comunicacion-componentes.nombre',
-        referenciaBusqueda:'ANGULAR.ng-comunicacion-componentes.referencias',
+        referenciaBusqueda:'ANGULAR.ng-comunicacion-componentes.referenciaBusqueda',
         descripcion: ['ANGULAR.ng-comunicacion-componentes.descripcion.tx1'],
         descripcionCorta: 'ANGULAR.ng-comunicacion-componentes.descripcionCorta',
         ruta: 'ng-comunicacion-componentes',
@@ -178,7 +178,7 @@ export const ANGULAR: DatosPost[] = [
     {
         id: 'e8512f85-9249-40f0-91d4-1ff9f13db4f0',
         nombre: 'ANGULAR.ng-pruebas-unitarias.nombre',
-        referenciaBusqueda:'ANGULAR.ng-pruebas-unitarias.referencia',
+        referenciaBusqueda:'ANGULAR.ng-pruebas-unitarias.referenciaBusqueda',
         descripcion: ['ANGULAR.ng-pruebas-unitarias.descripcion.tx1'],
         descripcionCorta: 'ANGULAR.ng-pruebas-unitarias.descripcionCorta',
         ruta: 'ng-pruebas-unitarias',
