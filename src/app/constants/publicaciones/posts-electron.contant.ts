@@ -50,7 +50,7 @@ export const ELECTRON: DatosPost[] = [
     {
         id: '0b061731-9966-4aee-b6bd-d334fe6dc2a5',
         nombre: 'ELECTRON.etron-instalacion.nombre',
-        referenciaBusqueda:'',
+        referenciaBusqueda:'ELECTRON.etron-instalacion.referenciaBusqueda',
         descripcion: [
             'ELECTRON.etron-instalacion.descripcion.tx1'
         ],

@@ -52,6 +52,14 @@ export class HeaderHomeComponent implements OnInit {
 	}
 
 	ngOnInit(): void {
+/* 		this.translate.get('ANGULAR.ng-instalacion.descripcionCorta').subscribe({
+			next: (trans)=>{
+				console.log(trans, 'PRUEBA TRADUCCION')
+			},
+			error: (e)=>{
+				console.error(e)
+			}
+		}); */
 	}
 
 	private inicializarVariables() {
@@ -136,8 +144,12 @@ export class HeaderHomeComponent implements OnInit {
 	}
 
 	async traducirReferencia(ref:string){
-		let traduccion = await firstValueFrom(this.translate.get(ref));
-		return traduccion;
+		try{
+			let traduccion = await firstValueFrom(this.translate.get(ref));
+			return traduccion;
+		}catch{
+			return 'NO-TRANSLATE'
+		}
 	}
 
 }

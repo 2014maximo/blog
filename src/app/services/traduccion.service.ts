@@ -17,6 +17,11 @@ export class TraduccionService {
 	public cambioIdioma$ = this.cambioIdiomaSubject.asObservable();
 
 	constructor(private translate: TranslateService) {
+		this.translate.get('ANGULAR.ng-instalacion.descripcionCorta').subscribe({
+			next:(resp)=>{
+				console.log(resp, 'TEST Translate');
+			}
+		});
 		this.cargarPost();
 	}
 
@@ -34,9 +39,9 @@ export class TraduccionService {
 				this.todosLosPost.push(subcat);
 			});
 		});
-		console.log(this.todosLosPost.length, 'CANTIDAD DE POST antes');
+		//console.log(this.todosLosPost.length, 'CANTIDAD DE POST antes');
 		this.todosLosPost = Object.assign([], this.retirarPostsPrincipalCategoria(this.todosLosPost));
-		console.log(this.todosLosPost.length, 'CANTIDAD DE POST DESPUES');
+		//console.log(this.todosLosPost.length, 'CANTIDAD DE POST DESPUES');
 		this.traducirColeccion();
 	}
 
@@ -48,7 +53,7 @@ export class TraduccionService {
 
 	async traducirColeccion() {
 		for (let i = 0; i < this.todosLosPost.length; i++) {
-			this.todosLosPostTraducidos.push({
+			let grupo = {
 				categoria: this.todosLosPost[i].categoria,
 				componente: this.todosLosPost[i].componente,
 				descripcion: this.todosLosPost[i].descripcion,
@@ -67,16 +72,22 @@ export class TraduccionService {
 				referenciaBusqueda: await this.traducirReferencia(this.todosLosPost[i].referenciaBusqueda),
 				ruta: this.todosLosPost[i].ruta,
 				imgSlider: this.todosLosPost[i].imgSlider
-			})
+			}
+			// console.log(grupo, 'EL QUE LE ESTA PASANDO');
+			this.todosLosPostTraducidos.push(grupo)
 		}
 
 		return this.todosLosPostTraducidos
 	}
 
-	public async traducirReferencia(ref: string) {
-		let traduccion = await firstValueFrom(this.translate.get(ref));
-		console.log(traduccion, 'traduccion');
-		return traduccion;
+	public async traducirReferencia(ref: string):Promise<string> {
+
+		try{
+			let traduccion = await firstValueFrom(this.translate.get(ref));
+			return traduccion;
+		}catch{
+			return 'NO-TRASLATE'
+		}
 	}
 
 }

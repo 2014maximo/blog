@@ -39,7 +39,7 @@ export class GaleriaPostComponent implements OnInit {
 
   private agruparPost(){
     this.todosLosPost = this.traduccion.todosLosPostTraducidos;
-/*     this.categorias.forEach( (e:CategoriaPostModel, i:number)=>{
+    /*     this.categorias.forEach( (e:CategoriaPostModel, i:number)=>{
       e.post.forEach((element:any) => {
         this.todosLosPost.push(element);
       });
@@ -49,12 +49,11 @@ export class GaleriaPostComponent implements OnInit {
         });
       });
     });
-
+    
     this.todosLosPost = Object.assign([], this.retirarPostsPrincipalCategoria(this.todosLosPost)); */
     setTimeout(()=>{
       this.todosLosPost = this.ordenarPostPorFecha(this.todosLosPost);
-      console.log(this.todosLosPost, 'TODOS LOS POSTS');
-    },0)
+    },0);
   }
 
   private retirarPostsPrincipalCategoria(grupo:DatosPost[]):DatosPost[]{
