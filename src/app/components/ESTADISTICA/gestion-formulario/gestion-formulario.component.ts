@@ -2,6 +2,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { HeaderPostModel, CategoriaModel } from '../../../shared/models/post.model';
 import { IndiceDeContenidosModel } from '../../../shared/models/indice.model';
 import { ContactFormService } from '../../../services/contact-form.service';
+import { Subject, takeUntil } from 'rxjs';
 
 @Component({
   selector: 'app-gestion-formulario',
@@ -17,6 +18,7 @@ export class GestionFormularioComponent implements OnInit, OnDestroy {
     tituloPost: ''
   }
   public contenidoTabla:any;
+  public ondestroy$: Subject<boolean> = new Subject();
 
   public claseEstadistica = '';
 
@@ -35,7 +37,7 @@ export class GestionFormularioComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    
+    this.ondestroy$.next(true);
   }
 
   private inicializarVariables() {
@@ -54,7 +56,7 @@ export class GestionFormularioComponent implements OnInit, OnDestroy {
       if(response){
 
       
-      response.subscribe( data => {
+      response.pipe(takeUntil(this.ondestroy$)).subscribe( data => {
 
         this.contenidoTabla = data.map( form => {
           let formulario:any = form.payload.doc.data();

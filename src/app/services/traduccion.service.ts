@@ -17,11 +17,6 @@ export class TraduccionService {
 	public cambioIdioma$ = this.cambioIdiomaSubject.asObservable();
 
 	constructor(private translate: TranslateService) {
-		this.translate.get('ANGULAR.ng-instalacion.descripcionCorta').subscribe({
-			next:(resp)=>{
-				console.log(resp, 'TEST Translate');
-			}
-		});
 		this.cargarPost();
 	}
 
@@ -39,16 +34,8 @@ export class TraduccionService {
 				this.todosLosPost.push(subcat);
 			});
 		});
-		//console.log(this.todosLosPost.length, 'CANTIDAD DE POST antes');
-		this.todosLosPost = Object.assign([], this.retirarPostsPrincipalCategoria(this.todosLosPost));
-		//console.log(this.todosLosPost.length, 'CANTIDAD DE POST DESPUES');
-		this.traducirColeccion();
-	}
 
-	private retirarPostsPrincipalCategoria(grupo: DatosPost[]): DatosPost[] {
-		return grupo.filter(element =>
-			element.mostrarEnPostHome
-		)
+		this.traducirColeccion();
 	}
 
 	async traducirColeccion() {
@@ -73,14 +60,17 @@ export class TraduccionService {
 				ruta: this.todosLosPost[i].ruta,
 				imgSlider: this.todosLosPost[i].imgSlider
 			}
-			// console.log(grupo, 'EL QUE LE ESTA PASANDO');
-			this.todosLosPostTraducidos.push(grupo)
+			if(this.todosLosPost[i].mostrarEnPostHome){
+				this.todosLosPostTraducidos.push(grupo)
+			}
 		}
 
-		return this.todosLosPostTraducidos
+		return this.todosLosPostTraducidos;
 	}
 
 	public async traducirReferencia(ref: string):Promise<string> {
+
+
 
 		try{
 			let traduccion = await firstValueFrom(this.translate.get(ref));

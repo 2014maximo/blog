@@ -1,4 +1,4 @@
-import { Component, OnInit, SimpleChanges } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CATEGORIA } from '@constants/index';
 import { postActual } from '@shared/constants';
 import { cargarBreadcrumb, cargarIndice } from '@shared/constants/funciones/funciones-globales';
@@ -10,6 +10,7 @@ import { PreguntasModel } from '@components/DEVELOPER/models/dev-busqueda.model'
 import { IAgencia } from './models/empleo.model';
 import { TranslateService } from '@ngx-translate/core';
 import { TraduccionService } from '@app/services/traduccion.service';
+import { Subject, takeUntil } from 'rxjs';
 
 @Component({
 	selector: 'app-dev-busqueda-empleo',
@@ -32,6 +33,7 @@ export class DevBusquedaEmpleoComponent implements OnInit {
 	public marketplace:any = {};
 	public preguntasComunes:any = {};
 	public categoriaTranslate:any = {};
+	public ondestroy$: Subject<boolean> = new Subject();
 
 	constructor(public translate: TranslateService, private traduccion: TraduccionService) {
 		// translate.setDefaultLang(navigator.language.split('-')[0]);
@@ -48,9 +50,13 @@ export class DevBusquedaEmpleoComponent implements OnInit {
 		this.preguntas = PREGUNTAS;
 		this.bloqueLinks = BLOQUE_LINKS.sort((a: any, b: any) => a.nombre.toLowerCase().charCodeAt(0) - b.nombre.toLowerCase().charCodeAt(0));
 
-		this.traduccion.cambioIdioma$.subscribe((idioma) => {
+		this.traduccion.cambioIdioma$.pipe(takeUntil(this.ondestroy$)).subscribe((idioma) => {
 			this.cargaCv();
 		})
+	}
+
+	ngOnDestroy() {
+		this.ondestroy$.next(true);
 	}
 
 	public scroll(el: HTMLElement) {
@@ -58,7 +64,7 @@ export class DevBusquedaEmpleoComponent implements OnInit {
 	}
 
 	public cargaCv(){
-		this.translate.get('DEVELOPER.dev-busqueda-empleo').subscribe((translated: any) => {
+		this.translate.get('DEVELOPER.dev-busqueda-empleo').pipe(takeUntil(this.ondestroy$)).subscribe((translated: any) => {
 			this.categoriaTranslate = translated;
 			this.cv = translated.cv;
 			this.marketplace = translated.marketplace.linkedin.puntos;

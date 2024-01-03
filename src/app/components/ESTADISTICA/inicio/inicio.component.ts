@@ -22,7 +22,7 @@ export class InicioComponent implements OnInit {
               private usuarioService: PersonService) { }
 
   ngOnInit(): void {
-    this.store.select('usuarios').subscribe( ({ users, loading, error }) =>{
+/*     this.store.select('usuarios').subscribe( ({ users, loading, error }) =>{
       this.usuarios = users;
       this.loading = loading;
       this.error = error;
@@ -30,8 +30,8 @@ export class InicioComponent implements OnInit {
 /*     this.usuarioService.getUser()
         .subscribe( users => {
           this.usuarios = users;
-        }) */
-  this.store.dispatch( cargarUsuarios());
+        }) 
+  this.store.dispatch( cargarUsuarios()); */
     
   }
 

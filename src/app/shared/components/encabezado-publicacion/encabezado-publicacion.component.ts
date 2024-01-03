@@ -2,7 +2,7 @@ import { Component, OnInit, Input, SimpleChanges } from '@angular/core';
 import { datosCategoria, postActual, textoAFecha } from '../../constants/funciones/funciones-globales';
 import { DatosPost } from '../../models/categorias.model';
 import { TranslateService } from '@ngx-translate/core';
-import { firstValueFrom } from 'rxjs';
+import { Subject, firstValueFrom, takeUntil } from 'rxjs';
 import { TraduccionService } from '@app/services/traduccion.service';
 
 @Component({
@@ -18,6 +18,7 @@ export class EncabezadoPublicacionComponent implements OnInit {
 	public publicacion = new DatosPost();
 	public titulo:string = '';
 	public descripcion:string[]=[];
+	public ondestroy$: Subject<boolean> = new Subject();
 
 	constructor(public translate: TranslateService, public traduccion: TraduccionService) {
 		// translate.setDefaultLang(navigator.language.split('-')[0]);
@@ -26,17 +27,18 @@ export class EncabezadoPublicacionComponent implements OnInit {
 	async ngOnInit() {
 		this.inicializarVariables();
 		await this.contenidoEncabezado();
-		this.traduccion.cambioIdioma$.subscribe((idioma) => {
+		this.traduccion.cambioIdioma$.pipe(takeUntil(this.ondestroy$)).subscribe((idioma) => {
 			this.contenidoEncabezado();
 		})
 	}
 
-	ngOnDestroy(): void {
+	ngOnDestroy() {
+		this.ondestroy$.next(true);
 	}
 
 	async contenidoEncabezado(){
 		this.descripcion = [];
-		this.translate.get(this.publicacion.nombre).subscribe((translated: any) => {
+		this.translate.get(this.publicacion.nombre).pipe(takeUntil(this.ondestroy$)).subscribe((translated: any) => {
 			this.titulo = translated
 		});
 		if(this.publicacion){

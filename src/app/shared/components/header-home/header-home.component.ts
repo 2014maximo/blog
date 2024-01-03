@@ -8,7 +8,7 @@ import { busquedaGeneral } from '../../constants/funciones/funciones-globales';
 import { TranslateService } from '@ngx-translate/core';
 import { LenguajeModel } from '@shared/models/traslate.model';
 import { TraduccionService } from '@app/services/traduccion.service';
-import { firstValueFrom } from 'rxjs';
+import { Subject, firstValueFrom } from 'rxjs';
 
 @Component({
 	selector: 'app-header-home',
@@ -26,6 +26,8 @@ export class HeaderHomeComponent implements OnInit {
 	public lang = navigator.language;
 	public lenguajes: string[] = ['es', 'en', 'fr'];
 	public idiomaActual: string = '';
+	public ondestroy$: Subject<boolean> = new Subject();
+
 	@Output() recargarTraduccion: EventEmitter<any> = new EventEmitter();
 
 	@Input() categoria: CategoriaModel = {
@@ -52,26 +54,13 @@ export class HeaderHomeComponent implements OnInit {
 	}
 
 	ngOnInit(): void {
-/* 		this.translate.get('ANGULAR.ng-instalacion.descripcionCorta').subscribe({
-			next: (trans)=>{
-				console.log(trans, 'PRUEBA TRADUCCION')
-			},
-			error: (e)=>{
-				console.error(e)
-			}
-		}); */
 	}
 
 	private inicializarVariables() {
-/* 		this.categorias.forEach((e: any, i: number) => {
-			e.post.forEach((element: any) => {
-				this.todosLosPost.push(element);
-			});
-		});
-		this.todosLosPost = Object.assign([], this.retirarPostsPrincipalCategoria(this.todosLosPost)); */
 		this.todosLosPostTraducidos = this.traduccion.todosLosPostTraducidos;
-		// this.traducirColeccion(this.idiomaActual);
+
 	}
+	
 
 	public buscar(e: any) {
 		let buscar = this.formBasic.value.busqueda;
@@ -82,12 +71,6 @@ export class HeaderHomeComponent implements OnInit {
 		} else {
 			this.mostrarResultados = false;
 		}
-	}
-
-	private retirarPostsPrincipalCategoria(grupo: DatosPost[]): DatosPost[] {
-		return grupo.filter(element =>
-			element.mostrarEnPostHome
-		)
 	}
 
 	public desaparecerTablaBusqueda() {

@@ -1,9 +1,9 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
-import { DatosPost, CategoriaPostModel, SubCategoriaModel } from '../../models/categorias.model';
+import { DatosPost } from '../../models/categorias.model';
 import { datosCategoria } from '../../constants/funciones/funciones-globales';
 import { TraduccionService } from '@app/services/traduccion.service';
-import { firstValueFrom } from 'rxjs';
+import { Subject, takeUntil } from 'rxjs';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -22,14 +22,23 @@ export class GaleriaPostComponent implements OnInit {
   public postPaginar: DatosPost[] = [];
   public ultimosPost: any[] = [];
   public anchoPantalla = window.innerWidth;
+  public ondestroy$: Subject<boolean> = new Subject();
 
   constructor(public translate: TranslateService, private traduccion: TraduccionService) { }
 
   ngOnInit(): void {
     this.agruparPost();
-    this.traduccion.cambioIdioma$.subscribe((idioma) => {
-      this.agruparPost();
-		});
+    this.traduccion.cambioIdioma$.pipe(
+      takeUntil(this.ondestroy$)
+    ).subscribe({
+      next:(tr)=>{
+        location.reload();
+      }
+    });
+  }
+
+  ngOnDestroy() {
+    this.ondestroy$.next(true);
   }
 
   public cargarGrupoGaleria():any[] {
@@ -39,27 +48,10 @@ export class GaleriaPostComponent implements OnInit {
 
   private agruparPost(){
     this.todosLosPost = this.traduccion.todosLosPostTraducidos;
-    /*     this.categorias.forEach( (e:CategoriaPostModel, i:number)=>{
-      e.post.forEach((element:any) => {
-        this.todosLosPost.push(element);
-      });
-      e.subcategorias.forEach((s:SubCategoriaModel) => {
-        s.post.forEach((p: DatosPost) => {
-          this.todosLosPost.push(p);
-        });
-      });
-    });
-    
-    this.todosLosPost = Object.assign([], this.retirarPostsPrincipalCategoria(this.todosLosPost)); */
+
     setTimeout(()=>{
       this.todosLosPost = this.ordenarPostPorFecha(this.todosLosPost);
     },0);
-  }
-
-  private retirarPostsPrincipalCategoria(grupo:DatosPost[]):DatosPost[]{
-    return grupo.filter( element => 
-      element.mostrarEnPostHome
-    )
   }
 
   private ordenarPostPorFecha(grupo: DatosPost[]):DatosPost[]{
