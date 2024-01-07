@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
-import { Subject } from 'rxjs';
-import { takeUntil } from 'rxjs/operators';
-import { FrasesModel } from 'src/app/shared/models/web-service.model';
+import { Subject, firstValueFrom } from 'rxjs';
 import { WebServicesService } from 'src/app/services/web-services.service';
+import { FRASES } from './constants/frases.constant';
+import { TranslateService } from '@ngx-translate/core';
+import { FrasesModel } from '@shared/models/web-service.model';
 
 @Component({
   selector: 'app-frases',
@@ -12,9 +13,9 @@ import { WebServicesService } from 'src/app/services/web-services.service';
 })
 export class FrasesComponent implements OnInit {
 
-  public frases: any;
+  public frases: FrasesModel[]=[];
   private ondestroy$: Subject<boolean> = new Subject();
-  constructor(private webService: WebServicesService) { }
+  constructor(private webService: WebServicesService, private translate: TranslateService) { }
 
   ngOnInit(): void {
     this.inicializarVariables();
@@ -25,10 +26,10 @@ export class FrasesComponent implements OnInit {
   }
 
   private inicializarVariables() {
-    this.cargarFrases();
+    this.procesarCargarFrases();
   }
 
-  private cargarFrases(){
+/*   private cargarFrases(){
     this.webService.consultarFrases()
     .pipe(takeUntil(this.ondestroy$))
     .subscribe({
@@ -36,10 +37,21 @@ export class FrasesComponent implements OnInit {
         this.procesarCargaFrases(resp);
       }
     })
-  }
+  } */
 
-  private procesarCargaFrases(resp: FrasesModel[]){
-    this.frases = resp;
+  async procesarCargarFrases(){
+    // this.frases = resp;
+    for(let i=0; i < FRASES.length; i++){
+      let frase = {
+        frase: await this.traducirReferencia(FRASES[i].frase),
+        autor: await this.traducirReferencia(FRASES[i].autor),
+        borde: FRASES[i].borde,
+        colorText: FRASES[i].colorText,
+        id: FRASES[i].id
+      }
+      this.frases.push(frase);
+    }
+    this.frases.sort((a,b) => { return Math.random() - 0.5})
   }
 
   customOptions: OwlOptions = {
@@ -69,4 +81,13 @@ export class FrasesComponent implements OnInit {
     autoplayTimeout: 20000,
     nav: true
   }
+
+  public async traducirReferencia(ref: string):Promise<string> {
+		try{
+			let traduccion = await firstValueFrom(this.translate.get(ref));
+			return traduccion;
+		}catch{
+			return 'NO-TRASLATE'
+		}
+	}
 }

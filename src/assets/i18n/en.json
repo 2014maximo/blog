@@ -3,7 +3,139 @@
     "Buscar": "Search",
     "Email": "Email",
     "Comentarios": "Comments",
+    "Post":"Post",
+    "Categorias":"Categories",
     "Enviar": "Send",
+    "Frases":{
+        "f1":{
+            "frase":"Busy minds, clean souls and contented hearts never meddle in anyone's life.",
+            "autor":"Pedro Bergman"
+        },
+        "f2":{
+            "frase":"The person who asks is dumb for a minute. The person who stays in doubt remains a fool forever.",
+            "autor":"Albert Einstein"
+        },
+        "f3":{
+            "frase":"Just as iron rusts from lack of use and stagnant water becomes putrid, so does inactivity destroy the intellect.",
+            "autor":"Leonardo Da Vinci"
+        },
+        "f4":{
+            "frase":"Whoever wants to do something, finds the means; whoever doesn't want to, finds a thousand excuses.",
+            "autor":"Proverbio Árabe"
+        },
+        "f5":{
+            "frase":"Logic will take you from A-Z, but imagination will take you everywhere.",
+            "autor":"Albert Einstein"
+        },
+        "f6":{
+            "frase":"Expecting life to treat you well because you are a good person is like expecting a tiger not to attack you because you are a vegetarian.",
+            "autor":"Bruce Lee"
+        },
+        "f7":{
+            "frase": "Watch your thoughts, for they will become your words. Take care of your words, because they will become your actions. Watch your actions, because they will become your habits. watch your habits, because they will become your destiny.",
+            "autor": "Mahatma Gandhi"
+        },
+        "f8":{
+            "frase": "We are architects of our own destiny.",
+            "autor": "Albert Einstein"
+        },
+        "f9":{
+            "frase": "Try not to become a man of success, but a man of courage.",
+            "autor": "Albert Einstein"
+        },
+        "f10":{
+            "frase": "Among the difficulties lies the opportunity.",
+            "autor": "Albert Einstein"
+        },
+        "f11":{
+            "frase": "I don't need to know everything, I just need to know where to find what I need, when I need it.",
+            "autor": "Albert Einstein"
+        },
+        "f12":{
+            "frase": "The mind that opens to a new idea never returns to its original size.",
+            "autor": "Albert Einstein"
+        },
+        "f13":{
+            "frase": "I feel enormous gratitude for all those who said no, thanks to them I did it myself.",
+            "autor": "Albert Einstein"
+        },
+        "f14":{
+            "frase": "We live in a world in which truth is overshadowed by a reality that does not exist.",
+            "autor": "Albert Einstein"
+        },
+        "f15":{
+            "frase": "The intelligent person is not the one who knows everything, but the one who knows how to use the little he knows.",
+            "autor": "Sebastian Cohen Saavedra"
+        },
+        "f16":{
+            "frase": "If you are not grateful with what you have, what makes you think you would be happy if you had more?",
+            "autor": "Anónimo"
+        },
+        "f17":{
+            "frase": "We spend money we don't have, on things we don't need, to impress people who don't care about us.",
+            "autor": "Will Smith"
+        },
+        "f18":{
+            "frase": "May your only vice be to keep learning.",
+            "autor": "Anónimo"
+        },
+        "f19":{
+            "frase": "You have to learn the rules of the game and then play better than anyone else.",
+            "autor": "Albert Einstein"
+        },
+        "f20":{
+            "frase": "The devil whispered in my ear, -You are not strong enough to withstand the storm. Today I whispered in the devil's ear, -I am the storm.",
+            "autor": "Anónimo"
+        },
+        "f21":{
+            "frase": "Everything you want in life is outside your comfort zone.",
+            "autor": "Robert Allen"
+        },
+        "f22":{
+            "frase": "God did not create evil. Evil is the result of the absence of God in the hearts of men.",
+            "autor": "Albert Einstein"
+        },
+        "f23":{
+            "frase": "The biggest obstacle that prevents people from achieving success is having a factory of excuses in their mind.",
+            "autor": "Mauricio Duarte"
+        },
+        "f24":{
+            "frase": "Strength does not come from bodily capacity, but from the will of the soul.",
+            "autor": "Gandhi"
+        },
+        "f25":{
+            "frase": "Remember that just because you hit bottom doesn't mean you have to stay there.",
+            "autor": "Robert Downey Jr."
+        },
+        "f26":{
+            "frase": "If you want to be rich, look at what everyone else is doing and do the opposite.",
+            "autor": "R. Kiyosaki"
+        },
+        "f27":{
+            "frase": "It doesn't matter how slowly you go, as long as you don't stop.",
+            "autor": "Confucio"
+        },
+        "f28":{
+            "frase": "Men lose health to make money, and then lose money to regain health, and by anxiously thinking of the future, they forget the present. They live as if they would never die and die as if they had never lived.",
+            "autor": "Dalai Lama"
+        },
+        "f29":{
+            "frase": "He who denies his impulses is denying everything that makes us human.",
+            "autor": "Mouse - Matrix"
+        },
+        "f30":{
+            "frase": "Living in the world without being aware of its meaning is like wandering through a large library without touching its books.",
+            "autor": "Dan Brown"
+        },
+        "f31":{
+            "frase": "True intelligence acts silently. It is in stillness that we find creativity and solutions to problems.",
+            "autor": "Eckhart Tolle"
+        },
+        "f32":{
+            "frase": "By being true to yourself you cannot be false to others.",
+            "autor": "William Shakespeare"
+        }
+    },
     "ANDROID":{
         "android":{
             "nombre": "Android",

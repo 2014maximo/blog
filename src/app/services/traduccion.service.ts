@@ -64,14 +64,10 @@ export class TraduccionService {
 				this.todosLosPostTraducidos.push(grupo)
 			}
 		}
-
 		return this.todosLosPostTraducidos;
 	}
 
 	public async traducirReferencia(ref: string):Promise<string> {
-
-
-
 		try{
 			let traduccion = await firstValueFrom(this.translate.get(ref));
 			return traduccion;

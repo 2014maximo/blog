@@ -3,7 +3,139 @@
     "Buscar": "Recherche",
     "Email": "Courriel",
     "Comentarios": "Commentaires",
+    "Post":"publications",
+    "Categorias":"Catégories",
     "Enviar": "Envoyer",
+    "Frases":{
+        "f1":{
+            "frase":"Les esprits occupés, les âmes pures et les cœurs satisfaits ne se mêlent jamais de la vie des autres.",
+            "autor":"Pedro Bergman"
+        },
+        "f2":{
+            "frase":"Celui qui demande est un imbécile pour une minute. Celui qui reste dans le doute est un imbécile pour toujours.",
+            "autor":"Albert Einstein"
+        },
+        "f3":{
+            "frase":"Tout comme le fer rouille par manque d'utilisation et l'eau stagnante devient putride, l'inactivité détruit l'intellect.",
+            "autor":"Leonardo Da Vinci"
+        },
+        "f4":{
+            "frase":"Si l'on veut faire quelque chose, on en trouve les moyens, si l'on ne veut pas faire quelque chose, on trouve mille excuses.",
+            "autor":"Proverbio Árabe"
+        },
+        "f5":{
+            "frase":"La logique vous mènera de A à Z, mais l'imagination vous mènera partout.",
+            "autor":"Albert Einstein"
+        },
+        "f6":{
+            "frase":"S'attendre à ce que la vie vous traite bien parce que vous êtes une bonne personne, c'est comme s'attendre à ce qu'un tigre ne vous attaque pas parce que vous êtes végétarien.",
+            "autor":"Bruce Lee"
+        },
+        "f7":{
+            "frase": "Surveillez vos pensées, car elles deviendront vos paroles. Surveillez vos paroles, car elles deviendront vos actes. Surveillez vos actes, car ils deviendront vos habitudes. Surveillez vos habitudes, car elles deviendront votre destin.",
+            "autor": "Mahatma Gandhi"
+        },
+        "f8":{
+            "frase": "Nous sommes les architectes de notre propre destin.",
+            "autor": "Albert Einstein"
+        },
+        "f9":{
+            "frase": "Essayez de ne pas devenir un homme de succès, mais un homme de courage.",
+            "autor": "Albert Einstein"
+        },
+        "f10":{
+            "frase": "Au milieu des difficultés se trouvent des opportunités.",
+            "autor": "Albert Einstein"
+        },
+        "f11":{
+            "frase": "Je n'ai pas besoin de tout savoir, j'ai juste besoin de savoir où trouver ce dont j'ai besoin, quand j'en ai besoin.",
+            "autor": "Albert Einstein"
+        },
+        "f12":{
+            "frase": "L'esprit ouvert à une nouvelle idée ne revient jamais à sa taille initiale.",
+            "autor": "Albert Einstein"
+        },
+        "f13":{
+            "frase": "J'éprouve une immense gratitude pour tous ceux qui ont dit non, car c'est grâce à eux que j'ai pu le faire moi-même.",
+            "autor": "Albert Einstein"
+        },
+        "f14":{
+            "frase": "Nous vivons dans un monde où la vérité est occultée par une réalité qui n'existe pas.",
+            "autor": "Albert Einstein"
+        },
+        "f15":{
+            "frase": "La personne intelligente n'est pas celle qui sait tout, mais celle qui sait utiliser le peu qu'elle sait.",
+            "autor": "Sebastian Cohen Saavedra"
+        },
+        "f16":{
+            "frase": "Si vous n'êtes pas reconnaissant pour ce que vous avez, pourquoi pensez-vous que vous seriez heureux si vous aviez plus ?",
+            "autor": "Anónimo"
+        },
+        "f17":{
+            "frase": "Nous dépensons de l'argent que nous n'avons pas, pour des choses dont nous n'avons pas besoin, afin d'impressionner des personnes qui ne se soucient pas de nous.",
+            "autor": "Will Smith"
+        },
+        "f18":{
+            "frase": "Que votre seul vice soit de continuer à apprendre.",
+            "autor": "Anónimo"
+        },
+        "f19":{
+            "frase": "Il faut apprendre les règles du jeu et jouer mieux que les autres.",
+            "autor": "Albert Einstein"
+        },
+        "f20":{
+            "frase": "Le diable m'a murmuré à l'oreille : \"Tu n'es pas assez fort pour résister à la tempête. Aujourd'hui, j'ai murmuré à l'oreille du diable : \"Je suis la tempête.",
+            "autor": "Anónimo"
+        },
+        "f21":{
+            "frase": "Tout ce que vous voulez dans la vie se trouve en dehors de votre zone de confort.",
+            "autor": "Robert Allen"
+        },
+        "f22":{
+            "frase": "Dieu n'a pas créé le mal. Le mal est le résultat de l'absence de Dieu dans le cœur des hommes.",
+            "autor": "Albert Einstein"
+        },
+        "f23":{
+            "frase": "Le plus grand obstacle qui empêche les gens d'atteindre le succès est d'avoir une usine d'excuses dans leur esprit.",
+            "autor": "Mauricio Duarte"
+        },
+        "f24":{
+            "frase": "La force ne vient pas de la capacité corporelle, mais de la volonté de l'âme.",
+            "autor": "Gandhi"
+        },
+        "f25":{
+            "frase": "N'oubliez pas que ce n'est pas parce que vous avez touché le fond que vous devez y rester.",
+            "autor": "Robert Downey Jr."
+        },
+        "f26":{
+            "frase": "Si vous voulez devenir riche, regardez ce que font les autres et faites le contraire.",
+            "autor": "R. Kiyosaki"
+        },
+        "f27":{
+            "frase": "Peu importe la vitesse à laquelle vous avancez, tant que vous ne vous arrêtez pas.",
+            "autor": "Confucio"
+        },
+        "f28":{
+            "frase": "Les hommes perdent la santé pour gagner de l'argent, puis perdent de l'argent pour retrouver la santé, et en pensant anxieusement à l'avenir, ils oublient le présent. Ils vivent comme s'ils ne devaient jamais mourir et meurent comme s'ils n'avaient jamais vécu.",
+            "autor": "Dalai Lama"
+        },
+        "f29":{
+            "frase": "Celui qui nie ses pulsions nie tout ce qui fait de nous des êtres humains.",
+            "autor": "Mouse - Matrix"
+        },
+        "f30":{
+            "frase": "Vivre dans le monde sans être conscient de son sens, c'est comme se promener dans une grande bibliothèque sans en toucher les livres.",
+            "autor": "Dan Brown"
+        },
+        "f31":{
+            "frase": "La véritable intelligence agit en silence. C'est dans le calme que nous trouvons la créativité et les solutions aux problèmes.",
+            "autor": "Eckhart Tolle"
+        },
+        "f32":{
+            "frase": "En étant vrai avec soi-même, on ne peut pas être faux avec les autres.",
+            "autor": "William Shakespeare"
+        }
+    },
     "ANDROID":{
         "android":{
             "nombre": "Android",
