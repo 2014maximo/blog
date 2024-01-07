@@ -3,6 +3,7 @@ import { CategoriaPostModel, DatosPost, GlosarioModel, SubCategoriaModel } from 
 import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
 import { IndiceDeContenidosModel } from '../../models/indice.model';
 import { postActual } from '../../constants/funciones/funciones-globales';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-encabezado-categoria',
@@ -21,7 +22,7 @@ export class EncabezadoCategoriaComponent implements OnInit {
   public subCategorias:SubCategoriaModel[] = [];
   public publicacion = new DatosPost();
 
-  constructor() {
+  constructor(private translate: TranslateService) {
   }
   
   ngOnInit(): void {
@@ -49,6 +50,10 @@ export class EncabezadoCategoriaComponent implements OnInit {
     this.categoria? this.glosario = this.categoria.glosario : [];
 
     this.publicacion = postActual(this.idPost)[0]
+  }
+
+  traducirTexto(texto: string): string {
+    return this.translate.instant(texto);
   }
 
 }

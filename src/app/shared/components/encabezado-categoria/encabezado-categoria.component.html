@@ -3,11 +3,11 @@
     <div class="col-md-10">
         <div class="row">
             <div class="col-md-8">
-                <h2 class="tituloPost f-bebas p-2">{{ this.categoria.nombre }}</h2>
+                <h2 class="tituloPost f-bebas p-2">{{ traducirTexto(this.categoria.nombre) }}</h2>
                 <app-indice-contenidos [indice]="indice"></app-indice-contenidos>
                 <div class="espacio"></div>
                 <div *ngFor="let subcatego of subCategorias">
-                    <h2 class="tituloPost f-bebas p-2">{{ subcatego.subCategoria }}</h2>
+                    <h2 class="tituloPost f-bebas p-2">{{ traducirTexto(subcatego.subCategoria) }}</h2>
                     <app-indice-contenidos [contenido]="'subcategorias'" [categoria]="'angular'"></app-indice-contenidos>
                 </div>
             </div>
@@ -19,8 +19,8 @@
             </div>
             <div class="col-md-7">
                 <h2 class="f-bebas fs-50 {{ this.categoria.color }} fw-6">Story</h2>
-                <p class="text-light f-open-sans-c fs-20 lh-30">
-                    {{ this.publicacion.descripcion }}
+                <p *ngFor="let descripcion of this.publicacion.descripcion" class="text-light f-open-sans-c fs-20 lh-30">
+                    {{ traducirTexto(descripcion) }}
                 </p>
                 <div *ngFor="let descripciones of this.categoria.descripcion">
                     <p *ngFor="let descripcion of descripciones.descripciones" class="text-light f-open-sans-c fs-20 lh-30">

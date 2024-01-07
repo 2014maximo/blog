@@ -1,10 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { MENU_1, MENU_2, MENU_3, MENU_4, MENU_5 } from '../../../constants/menu-home.constant';
 import { CATEGORIAS } from '../../../constants/categorias.constant';
-import { CategoriasModel, CategoriaPostModel, DatosPost } from '../../models/categorias.model';
+import { CategoriasModel, CategoriaPostModel, DatosPost, SubCategoriaModel } from '../../models/categorias.model';
 import { IndiceDeContenidosModel } from '../../models/indice.model';
 import { CATEGORIA } from '../../../constants/categorias/categoria.constant';
 import { datosCategoria, reduccionTexto } from 'src/app/shared/constants/funciones/funciones-globales';
+import { firstValueFrom } from 'rxjs';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-menu-home',
@@ -18,8 +20,9 @@ export class MenuHomeComponent implements OnInit {
   public pasoDeIndice: IndiceDeContenidosModel [] = []
   public claseContenedor: string = '';
   public posts = CATEGORIA;
+  public postsModelo: DatosPost[] | SubCategoriaModel[] = [];
 
-  constructor() {
+  constructor(private translate: TranslateService) {
     this.inicializarVariables();
   }
 
@@ -53,6 +56,9 @@ export class MenuHomeComponent implements OnInit {
       this.pasoDeIndice.push(grupo);
     });
   }
+
+
+
 
   private extraerMenu(referencias: string[]):any[]{
     let menu:any[]=[];
@@ -92,6 +98,10 @@ export class MenuHomeComponent implements OnInit {
 
   public validarActivo(estado: string):boolean{
     return estado === 'activo'? true : false
+  }
+
+  traducirTexto(texto: string): string {
+    return this.translate.instant(texto);
   }
 
 }

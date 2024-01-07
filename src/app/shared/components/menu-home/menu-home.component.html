@@ -86,10 +86,10 @@
                         </a>
                     </div>
                     <div  class="row m-3">
-                        <div *ngFor="let post of filtrarActivo(categoria.post)" class="col {{ categoria.colorFondo }} {{ post.posicion}} l-menu" data-toggle="tooltip" data-placement="top" title="{{ post.nombre }}">
+                        <div *ngFor="let post of filtrarActivo(categoria.post)" class="col {{ categoria.colorFondo }} {{ post.posicion}} l-menu" data-toggle="tooltip" data-placement="top" title="{{ traducirTexto(post.nombre) }}">
                             <a href="{{ post.ruta }}">
-                                <del *ngIf="!validarActivo(post.estado)" class="text-uppercase">{{ post.nombre.substring(0, 18) }}...</del>
-                                <span *ngIf="validarActivo(post.estado)" class="text-uppercase">{{ post.nombre.substring(0, 18) }}...</span>
+                                <del *ngIf="!validarActivo(post.estado)" class="text-uppercase">{{ traducirTexto(post.nombre).substring(0, 18) }}...</del>
+                                <span *ngIf="validarActivo(post.estado)" class="text-uppercase">{{ traducirTexto(post.nombre).substring(0, 18) }}...</span>
                             </a>
                         </div>
                     </div>
@@ -101,10 +101,10 @@
                 <div class="col-md-10">
                     <h2 class="fuenteSeis text-light mt-5 fs-40 text-uppercase">{{ postMas.subCategoria }}</h2>
                     <div class="row m-3">
-                        <div *ngFor="let postAdd of postMas.post" class="col {{ postAdd.estilos.colorFondo }} {{ postAdd.posicion}} l-menu" data-toggle="tooltip" data-placement="top" title="{{ postAdd.nombre }}">
+                        <div *ngFor="let postAdd of postMas.post" class="col {{ postAdd.estilos.colorFondo }} {{ postAdd.posicion}} l-menu" data-toggle="tooltip" data-placement="top" title="{{ traducirTexto(postAdd.nombre) }}">
                             <a href="{{ postAdd.ruta }}" class="text-uppercase">
-                                <del *ngIf="!validarActivo(postAdd.estado)">{{ postAdd.nombre }}</del>
-                                <span *ngIf="validarActivo(postAdd.estado)">{{ postAdd.nombre }}</span>
+                                <del *ngIf="!validarActivo(postAdd.estado)">{{ traducirTexto(postAdd.nombre).substring(0, 18) }}...</del>
+                                <span *ngIf="validarActivo(postAdd.estado)">{{ traducirTexto(postAdd.nombre).substring(0, 18) }}...</span>
                             </a>
                         </div>
                     </div>
