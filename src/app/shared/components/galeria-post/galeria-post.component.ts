@@ -51,7 +51,7 @@ export class GaleriaPostComponent implements OnInit {
 
     setTimeout(()=>{
       this.todosLosPost = this.ordenarPostPorFecha(this.todosLosPost);
-    },0);
+    },100);
   }
 
   private ordenarPostPorFecha(grupo: DatosPost[]):DatosPost[]{
