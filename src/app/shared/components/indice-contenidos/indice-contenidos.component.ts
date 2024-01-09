@@ -85,10 +85,19 @@ export class IndiceContenidosComponent implements OnInit {
     return grupo.filter( publi => publi.estado === 'activo' )
   }
 
-  traducirTexto(texto: string): string {
+  traducirTexto(texto: string, recortar:number): string {
     let txt: string = texto? this.translate.instant(texto):'';
-    console.log(typeof(txt), txt);
-    return txt;
+    return recortar === 1? this.recortarTexto(txt) : txt;
+  }
+
+  recortarTexto(texto:string):string{
+    let recorte:string='';
+    if(texto.length > 20){
+      recorte = texto.substring(0,22);
+    }else{
+      recorte = texto;
+    }
+    return recorte
   }
 
 }

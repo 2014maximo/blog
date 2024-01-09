@@ -150,7 +150,13 @@
         "angular":{
             "nombre": "Angular",
             "referenciaBusqueda":"",
-            "descripcion":{"tx1":"Angular is in the group of the best web frameworks, every 6 months without fail delivers a new version and has been allowed to evolve."},
+            "descripcion":{
+                "tx1":"Going back to its inception in 2010, Angular was launched in its 'AngularJS' version. Thanks to engineers Misko Hevery and Adam Abrons.",
+                "tx2":"It introduces MVC(Model-View-Controller) for the client side, as well as bidirectional data binding.",
+                "tx3":"The major overhaul of Angular was as of version 2 in 2016, given the major requirement on performance and scalability for large applications.",
+                "tx4":"Angular is in the group of the best web frameworks, every 6 months without fail delivers a new version and has been allowed to evolve. Today it has been adopted in many business projects for the features that make it particular. The community is getting bigger and bigger becoming popular and standing out as an excellent choice in the development world.",
+                "tx5":"Personally it was my start in the world of Development and I have always been hand in hand with this wonderful framework."
+            },
             "descripcionCorta":""
         },
         "ng-instalacion":{

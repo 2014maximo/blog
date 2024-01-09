@@ -150,7 +150,13 @@
         "angular":{
             "nombre": "Angular",
             "referenciaBusqueda":"angular",
-            "descripcion":{"tx1":"Angular esta en el grupo de los mejores frameworks web, cada 6 meses sin falta entrega una nueva versión y se ha permitido evolucionar."},
+            "descripcion":{
+                "tx1":"Remontando su inicio en el año 2010, arrancó Angular en su versión 'AngularJS'. Gracias a los ingenieros Misko Hevery y Adam Abrons.",
+                "tx2":"Introduce MVC(Model-View-Controller) para el lado del cliente, como también la vinculación de datos bidireccional.",
+                "tx3":"La gran reforma de Angular estuvo apartir de la versión 2 en 2016, dado el requerimiento importante sobre el rendimiento y la escalabilidad para aplicaciones grandes.",
+                "tx4":"Angular esta en el grupo de los mejores frameworks web, cada 6 meses sin falta entrega una nueva versión y se ha permitido evolucionar. Hoy en día a sido adoptado en muchos proyectos empresariales por las características que lo hacen particular. La comunidad cada vez se hace más grande volviéndose popular y destacando cómo una excelente opción en el mundo del desarrollo.",
+                "tx5":"Personalmente fue mi inicio en el mundo del Desarrollo y siempre he estado de la mano de este maravilloso framework."
+            },
             "descripcionCorta":""
         },
         "ng-instalacion":{

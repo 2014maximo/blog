@@ -10,7 +10,7 @@ export const ANGULAR: DatosPost[] = [
         id: 'eb4011f5-81df-4261-b5c5-8f58d2ba88b5',
         nombre: 'ANGULAR.angular.nombre',
         referenciaBusqueda:'ANGULAR.angular.referenciaBusqueda',
-        descripcion: ['ANGULAR.angular.descripcion.tx1'],
+        descripcion: ['ANGULAR.angular.descripcion.tx1','ANGULAR.angular.descripcion.tx2','ANGULAR.angular.descripcion.tx3','ANGULAR.angular.descripcion.tx4','ANGULAR.angular.descripcion.tx5'],
         descripcionCorta: 'ANGULAR.angular.descripcionCorta',
         ruta: 'angular',
         componente: 'AngularComponent',
