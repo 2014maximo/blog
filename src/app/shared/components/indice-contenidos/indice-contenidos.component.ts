@@ -86,7 +86,9 @@ export class IndiceContenidosComponent implements OnInit {
   }
 
   traducirTexto(texto: string): string {
-    return this.translate.instant(texto);
+    let txt: string = texto? this.translate.instant(texto):'';
+    console.log(typeof(txt), txt);
+    return txt;
   }
 
 }

@@ -327,14 +327,14 @@
             "descripcionCorta":"Des sites web ignorés pour qu'ils puissent être utiles. Une courte description."
         },
         "dev-busqueda-empleo":{
-            "nombre":"RECHERCHE D'EMPLOI",
+            "nombre":"Recherche d'emploi en tant que développeur",
             "referenciaBusqueda":"trabajo, empleo, labor, trabajar",
             "descripcion": {
                 "tx1":"Recommandations éprouvées dans la recherche d'emploi.",
                 "tx2":"Ce post est une réflexion sur mon propre processus pour obtenir un emploi en tant que développeur frontend. Je suis actuellement à la recherche d'une bonne entreprise pour laquelle travailler, après l'avoir terminée, l'idée est de suggérer les points qui ont fonctionné pour moi.",
                 "tx3":"L'objectif, vu de manière simple, est de nous vendre comme un produit du commerce (dans le contexte uniquement). Voici les points que je suggère de prendre en compte."
             },
-            "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "descripcionCorta":"Recommandations et suggestions pour la recherche d'un emploi. Il présente un processus à garder à l'esprit tout au long de ce parcours.",
             "predisposicion":"PREDISPOSITION",
             "predisposicion1":"Avant de dire au monde que l'on cherche un emploi, il faut d'abord le connaître de l'intérieur. Pour des raisons évidentes, si vous cherchez un emploi, c'est vraisemblablement parce que vous en êtes convaincu.",
             "predisposicion2":"La prédisposition seule finit par être la force majeure qui relie tout.",

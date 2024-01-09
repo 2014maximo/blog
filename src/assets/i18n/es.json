@@ -327,14 +327,14 @@
             "descripcionCorta":"Sitios web que se ignora para que puedan ser útiles. Una pequeña descripción."
         },
         "dev-busqueda-empleo":{
-            "nombre":"BÚSQUEDA EMPLEO",
+            "nombre":"Búsqueda de empleo como desarrollador",
             "referenciaBusqueda":"trabajo, empleo, labor, trabajar",
             "descripcion": {
                 "tx1":"Recomendaciones probadas en la búsqueda de empleo.",
                 "tx2":"Esta publicación es un reflejo de mi propio proceso para ingresar a trabajar como desarrollador frontend. Iniciada la publicación estoy en búsqueda laboral de una buena empresa, al terminarlo la idea es sugerir que puntos funcionaron.",
                 "tx3":"El objetivo visto de simple manera es vendernos como un producto de comercio (Solo en contexto). Estos son los puntos que sugiero se deben tener en cuenta."
             },
-            "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "descripcionCorta":"Recomendaciones y sugerencias en la búsqueda de empleo. Se muestra un proceso para tener en cuenta en este camino.",
             "predisposicion":"PREDISPOSICIÓN",
             "predisposicion1":"Antes de decirle al mundo que buscamos empleo, primero hay que saberlo dentro. Por obvias razones si se esta en la búsqueda es porque presuntamente hay total convencimiento.",
             "predisposicion2":"La sola predisposición termina siendo la mayor fuerza que va a conectar todo.",
