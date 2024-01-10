@@ -141,9 +141,13 @@
             "nombre": "Android",
             "referenciaBusqueda":"sistema operativo, android",
             "descripcion":{
-                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                "tx1":"El inicio de todo es apartir de 2003 cuando se fundó Android Inc por Andy Rubin, Rich Miner, Nick Sears y Chris White. Una búsqueda para desarrollar un sistema operativo avanzado.",
+                "tx2":"Una trayectoria constante de cambios comenzando por la adquición por parte de Google en 2005, en 2007 la Open Handset Alliance (OHA) una alianza de varias compañías tecnológicas para impulsar el desarrollo de estándares abiertos para dispositivos móviles.",
+                "tx3":"En noviembre de 2007, Google lanzó el Software Development Kit (SDK) de Android, permitiendo a los desarrolladores comenzar a crear aplicaciones para la plataforma.",
+                "tx4":"El 23 de septiembre de 2008, se lanzó el primer dispositivo Android comercial, el HTC Dream (también conocido como T-Mobile G1 en EE. UU.).",
+                "tx5":"Hasta el presente se entrega una tras otra versiones cada vez mejorada."
             },
-            "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+            "descripcionCorta":""
         }
     },
     "ANGULAR":{

@@ -67,7 +67,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
                 autor: 'Alex M.',
                 linkAlAutor: '',
                 descripciones: [
-                    'Angular ...'
+                    ''
                 ]
             }
         ],
