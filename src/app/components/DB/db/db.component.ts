@@ -9,7 +9,7 @@ import { IndiceDeContenidosModel } from '../../../shared/models/indice.model';
 })
 export class DbComponent implements OnInit {
 
-  public idPost = 'e0d1b708-45bc-4749-a648-3c41d14ab7cc';
+  public idPost = '6569240889';
 
   constructor() { }
 

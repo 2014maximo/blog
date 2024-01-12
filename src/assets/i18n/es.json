@@ -276,7 +276,10 @@
             "nombre":"DB",
             "referenciaBusqueda":"db, bases de datos",
             "descripcion":{
-                "tx1":""
+                "tx1":"El inicio de las bases de datos, parece estar remontado a épocas más anteriores a las actuales tecnologías, que surgen muchas en estos últimos años.",
+                "tx2":"En 1960, en sus primeros intentos, un módelo de red se había planteado a través de una estructura de grafo. La IBM lanzó el sistema de gestión de bases de datos (DBMS) IMS (Information Management System) en 1966.",
+                "tx3":"En 1960 con la ayuda de Charles Bachman se desarrolló el modelo jerárquico, que organiza los datos en una estructura de árbol.",
+                "tx4":""
             },
             "descripcionCorta":""
         },

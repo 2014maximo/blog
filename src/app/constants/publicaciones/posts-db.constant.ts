@@ -10,7 +10,10 @@ export const DB: DatosPost[] = [
         id: '6569240889',
         nombre: 'DB.db.nombre',
         referenciaBusqueda:'DB.db.referenciaBusqueda',
-        descripcion: ["DB.db.descripcion.tx1"],
+        descripcion: [
+            "DB.db.descripcion.tx1",
+            "DB.db.descripcion.tx2"
+        ],
         descripcionCorta: 'DB.db.descripcionCorta',
         ruta: 'db',
         componente: 'DbComponent',

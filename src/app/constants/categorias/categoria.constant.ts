@@ -134,10 +134,10 @@ export const CATEGORIA: CategoriaPostModel[] = [
         color: 'c-Sql',
         descripcion: [
             {
-                autor:'Dataprix',
-                linkAlAutor: 'https://www.dataprix.com/',
+                autor:'',
+                linkAlAutor: '',
                 descripciones:[
-                    'Las bases de datos ...'
+                    ''
                 ]
             }
         ],

@@ -19,7 +19,7 @@
             </div>
             <div class="col-md-7">
                 <h2 class="f-bebas fs-50 {{ this.categoria.color }} fw-6">Story</h2>
-                <p *ngFor="let descripcion of this.publicacion.descripcion" class="text-light f-open-sans-c fs-20 lh-30">
+                <p *ngFor="let descripcion of this.publicacion.descripcion" class="text-light f-open-sans-c fs-20 lh-25">
                     {{ traducirTexto(descripcion) }}
                 </p>
                 <div *ngFor="let descripciones of this.categoria.descripcion">
