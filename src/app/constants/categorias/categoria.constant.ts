@@ -91,7 +91,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
             autor:'',
             linkAlAutor:'',
             descripciones: [
-                'CSS ...']
+                '']
         }],
         descripcionCorta: '',
         post: CSS,
@@ -113,7 +113,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
             {
                 autor:'',
                 linkAlAutor:'',
-                descripciones: ['Dart ...']
+                descripciones: ['']
             }
         ],
         descripcionCorta: '',

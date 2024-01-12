@@ -141,7 +141,11 @@
             "nombre": "Android",
             "referenciaBusqueda":"système d'exploitation, android",
             "descripcion":{
-                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                "tx1":"Tout a commencé en 2003 avec la création d'Android Inc. par Andy Rubin, Rich Miner, Nick Sears et Chris White. Une quête pour développer un système d'exploitation avancé.",
+                "tx2":"Une trajectoire de changement constante qui a commencé avec l'acquisition de Google en 2005, en 2007 l'Open Handset Alliance (OHA) une alliance de plusieurs entreprises technologiques pour conduire le développement de normes ouvertes pour les appareils mobiles.",
+                "tx3":"En novembre 2007, Google a publié le kit de développement logiciel (SDK) Android, permettant aux développeurs de commencer à créer des applications pour la plateforme.",
+                "tx4":"Le 23 septembre 2008, le premier appareil Android commercial, le HTC Dream (également connu sous le nom de T-Mobile G1 aux États-Unis), a été lancé.",
+                "tx5":"Jusqu'à aujourd'hui, des versions améliorées ont été livrées les unes après les autres."
             },
             "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
         }
@@ -227,7 +231,12 @@
         "css":{
             "nombre":"CSS",
             "referenciaBusqueda":"css",
-            "descripcion":{"tx1":"Lorsque nous commençons à développer des sites web en HTML uniquement, nous pensons qu'il faut pouvoir afficher chaque élément dans une couleur différente ou avec un meilleur style."},
+            "descripcion":{
+                "tx1":"Entre 1994 et 1996, Håkon Wium Lie et Bert Bos ont proposé l'idée de CSS pour la première fois en 1994, dans le cadre d'un besoin de normes de présentation. La version 1.0 a été introduite en 1996 comme solution pour séparer la structure du document HTML de sa présentation.",
+                "tx2":"En décembre 1996, le World Wide Web Consortium (W3C) a publié la première spécification CSS officielle, connue sous le nom de CSS 1. Cette version comprenait des propriétés de base pour la mise en page, telles que la couleur, la police et la marge.",
+                "tx3":"Les changements ont commencé à se faire sentir à partir de 1998, avec des capacités pour les tableaux et des propriétés pour l'impression.",
+                "tx4":"En tant que développeurs, nous savons déjà aujourd'hui que les styles sont soumis aux versions des navigateurs. Dans le passé, il était vraiment compliqué d'écrire du code qui s'adapte aux différents navigateurs. C'est pourquoi la version 2.1 a été publiée en 2004, qui visait à corriger les incohérences qui se présentaient, car une nouvelle version est présentée, et la maturité et l'adaptation se sont accrues, permettant une évolution qui facilite les styles et la présentation."
+            },
             "descripcionCorta":""
         },
         "css-clases":{
@@ -244,7 +253,12 @@
             "nombre":"Dart",
             "referenciaBusqueda":"dart",
             "descripcion":{
-                "tx1":"Dart, avec ses hauts et ses bas, revient sur le devant de la scène avec Flutter, mais il est important de connaître les avantages qu'il offre par rapport aux autres langages pour le choisir."
+                "tx1":"En 2011, Google a annoncé un nouveau langage de programmation, dont l'objectif était de surmonter les limites de Javascript en termes de performances, de maintenabilité et d'évolutivité.",
+                "tx2":"En 2013, la version 1.0 du SDK est apparue, se présentant comme une option adaptable pour la conception de sites web.",
+                "tx3":"De 2011 à 2015, il a mené une carrière axée sur le développement web, où il a introduit un moteur \"Dartium\" utilisé dans le navigateur Chrome pour utiliser directement le langage Dart.",
+                "tx4":"Etonnant une version d'AngularDart, un framework à utiliser dans AngularJS en échange de Javascript en 2013, ainsi qu'en collaboration avec le projet Web Components.",
+                "tx5":"En 2015, il s'est joint à Flutter, où il a trouvé un moyen révélateur de créer des applications mobiles multiplateformes.",
+                "tx6":"Désormais connectés à Flutter, ils commencent à élargir une communauté séduite par les designs attrayants et les performances offertes par la version 2 de ce langage."
             },
             "descripcionCorta":"Dart, avec ses hauts et ses bas, revient sur le devant de la scène avec Flutter, mais il est important de connaître les avantages qu'il offre par rapport aux autres langages pour le choisir."
         },

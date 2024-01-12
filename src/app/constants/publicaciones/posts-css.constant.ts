@@ -10,7 +10,11 @@ export const CSS: DatosPost[] = [
         id: '2234145591',
         nombre: 'CSS.css.nombre',
         referenciaBusqueda:'CSS.css.referenciaBusqueda',
-        descripcion: ['CSS.css.descripcion.tx1'],
+        descripcion: [
+            'CSS.css.descripcion.tx1',
+            'CSS.css.descripcion.tx2',
+            'CSS.css.descripcion.tx3',
+            'CSS.css.descripcion.tx4'],
         descripcionCorta: 'CSS.css.descripcionCorta',
         ruta: 'css',
         componente: 'CssComponent',

@@ -227,7 +227,12 @@
         "css":{
             "nombre":"CSS",
             "referenciaBusqueda":"css",
-            "descripcion":{"tx1":"When we start web development with HTML only, we feel we need to be able to display each element in a different color or with a better style."},
+            "descripcion":{
+                "tx1":"In a need for presentation standards between 1994 and 1996 Håkon Wium Lie and Bert Bos first proposed the idea of CSS in 1994. Version 1.0 was introduced in 1996 as a solution to separate the structure of the HTML document from its presentation.",
+                "tx2":"In December 1996, the World Wide Web Consortium (W3C) published the first official CSS specification, known as CSS 1. This version included basic properties for page layout, such as color, font and margin.",
+                "tx3":"Then the changes started to make a bigger difference from 1998 onwards, with capabilities for tables and printing properties.",
+                "tx4":"As developers today we are already aware that styles are subject to browser versions. In the past, it was really complicated to write code that would adapt to different browsers. That is why version 2.1 was launched in 2004, which sought to correct the inconsistencies that were presented, as a new version is presented, and the maturity and adaptation has grown, allowing an evolution that facilitate the styles and presentation."
+            },
             "descripcionCorta":""
         },
         "css-clases":{
@@ -244,7 +249,12 @@
             "nombre":"Dart",
             "referenciaBusqueda":"dart",
             "descripcion":{
-                "tx1":"Dart, with its ups and downs, enters the arena again with Flutter, however it is important to know what advantages it offers over other languages in order to choose it."
+                "tx1":"In 2011 Google announces a new programming language, where the goal was to overcome the limitations of Javascript in terms of performance, maintainability and scalability.",
+                "tx2":"In 2013, version 1.0 of the SDK appeared, showing itself as an adaptable option for web design.",
+                "tx3":"From 2011 to 2015 he had a career focused on web development, where he introduced a 'Dartium' engine used in the Chrome browser for and can be used directly the Dart language.",
+                "tx4":"Incredible a version of AngularDart, a framework to be used in AngularJS in exchange for Javascript in 2013, as well as being in collaboration with the Web Components project.",
+                "tx5":"Now in 2015 with Flutter, where he found a revealing path towards cross-platform mobile applications.",
+                "tx6":"Now connected to Flutter, they begin to expand a community that is seduced by the attractive designs and performance that comes in version 2 of this language."
             },
             "descripcionCorta":"Dart, with its ups and downs, enters the arena again with Flutter, however it is important to know what advantages it offers over other languages in order to choose it."
         },
