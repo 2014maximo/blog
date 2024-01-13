@@ -12,7 +12,19 @@ export const DB: DatosPost[] = [
         referenciaBusqueda:'DB.db.referenciaBusqueda',
         descripcion: [
             "DB.db.descripcion.tx1",
-            "DB.db.descripcion.tx2"
+            "DB.db.descripcion.tx2",
+            "DB.db.descripcion.tx3",
+            "DB.db.descripcion.tx4",
+            "DB.db.descripcion.tx5",
+            "DB.db.descripcion.tx6",
+            "DB.db.descripcion.tx7",
+            "DB.db.descripcion.tx8",
+            "DB.db.descripcion.tx9",
+            "DB.db.descripcion.tx10",
+            "DB.db.descripcion.tx11",
+            "DB.db.descripcion.tx12",
+            "DB.db.descripcion.tx13",
+            "DB.db.descripcion.tx14"
         ],
         descripcionCorta: 'DB.db.descripcionCorta',
         ruta: 'db',

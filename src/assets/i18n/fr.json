@@ -276,7 +276,20 @@
             "nombre":"DB",
             "referenciaBusqueda":"db, bases de données",
             "descripcion":{
-                "tx1":""
+                "tx1":"Les débuts des bases de données semblent remonter à des époques plus anciennes que les technologies actuelles, dont beaucoup sont apparues ces dernières années.",
+                "tx2":"En 1960, dans ses premières tentatives, un modèle de réseau avait été proposé à travers une structure de réseau. IBM a lancé le système de gestion de base de données (SGBD) IMS (Information Management System) en 1966.",
+                "tx3":"En 1960, avec l'aide de Charles Bachman, a été développé le modèle hiérarchique, qui organise les données dans une structure arborescente.",
+                "tx4":"Au fil du temps, des modifications ont été apportées jusqu'aux versions actuelles des bases de données, en l'occurrence dès 1970. Edgar F. Codd, informaticien chez IBM, a proposé le modèle relationnel dans son article \"A Relational Model of Data for Large Shared Data Banks\" (Un modèle relationnel de données pour les grandes banques de données partagées) en 1970. Ce modèle est basé sur des tables reliées entre elles et constitue la base des bases de données relationnelles modernes.",
+                "tx5":"Dès 1974, IBM a lancé le premier langage d'interrogation structuré (SQL) dans le cadre du système System R (un système de base de données conçu dans le cadre d'un projet de recherche au laboratoire de recherche de San Jose d'IBM).",
+                "tx6":"En 1977, Larry Ellison, Bob Miner et Ed Oates ont fondé Oracle Corporation et lancé leur premier produit de base de données relationnelle, Oracle Database, en 1979.",
+                "tx7":"En 1986, l'ANSI a adopté SQL comme norme, ce qui a stimulé l'interopérabilité entre les systèmes de base de données. Plusieurs systèmes commerciaux de bases de données relationnelles, tels que Microsoft SQL Server, Sybase et Informix, ont été lancés dans les années 1980.",
+                "tx8":"En 1995, la version initiale de MySQL a été publiée, offrant une option de base de données relationnelle open source.",
+                "tx9":"En 1998, le terme \"NoSQL\" a été inventé et au cours de cette décennie, les systèmes de base de données NoSQL, tels que MongoDB, CouchDB et Cassandra, ont gagné en popularité.",
+                "tx10":"Dès les années 2000, le \"Big Data\" fait son apparition avec des solutions telles qu'Apache Hadoop et Apache Spark qui fournissent des outils pour traiter de grands ensembles de données. Émergence des bases de données NoSQL : MongoDB (2009), Couchbase et d'autres bases de données NoSQL sont devenues populaires pour des cas d'utilisation spécifiques, tels que la gestion de grands volumes de données non structurées.",
+                "tx11":"Bases de données en nuage : Les offres de bases de données en nuage, telles que Amazon RDS, Google Cloud Firestore et Azure Cosmos DB, sont devenues des options populaires, permettant aux entreprises d'externaliser la gestion de leurs bases de données.",
+                "tx12":"GraphQL (2012) : Facebook a lancé GraphQL comme alternative pour un accès efficace aux données, permettant aux clients de demander uniquement les informations dont ils ont besoin.",
+                "tx13":"Années 2020 - Poursuite des tendances précédentes : apprentissage automatique et bases de données : L'intégration de l'intelligence artificielle et de l'apprentissage automatique dans les bases de données est devenue plus importante, permettant des analyses plus avancées et l'automatisation des tâches.",
+                "tx14":"Développement de nouvelles technologies : l'évolution se poursuit avec le développement de nouvelles technologies telles que les bases de données distribuées, les bases de données en mémoire et les systèmes de gestion de données fédérés."
             },
             "descripcionCorta":""
         },

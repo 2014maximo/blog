@@ -272,7 +272,20 @@
             "nombre":"DB",
             "referenciaBusqueda":"db, databases",
             "descripcion":{
-                "tx1":""
+                "tx1":"The beginning of databases seems to date back to earlier times than the current technologies, many of which have emerged in recent years.",
+                "tx2":"In 1960, in its first attempts, a network model had been proposed through a network structure. IBM launched the database management system (DBMS) IMS (Information Management System) in 1966.",
+                "tx3":"In 1960, with the help of Charles Bachman, the hierarchical model was developed, which organizes data in a tree structure.",
+                "tx4":"As time went by, changes were applied up to the current database versions, in this case already in 1970, Edgar F. Codd, an IBM computer scientist, proposed the relational model in his article \"A Relational Model of Data for Large Shared Data Banks\" in 1970. This model is based on interrelated tables, and is the basis of modern relational databases.",
+                "tx5":"As early as 1974 IBM released the first structured query language (SQL) as part of the System R system (a database system built as a research project at IBM's San Jose Research Laboratory).",
+                "tx6":"In 1977 Larry Ellison, Bob Miner and Ed Oates founded Oracle Corporation, launching its first relational database product, Oracle Database, in 1979.",
+                "tx7":"In 1986 ANSI adopted SQL as a standard, which boosted interoperability between database systems. Several commercial relational database systems, such as Microsoft SQL Server, Sybase, and Informix, were released in the 1980s.",
+                "tx8":"In 1995 the initial version of MySQL was released, providing an open source relational database option.",
+                "tx9":"In 1998 the term \"NoSQL\" was coined in this decade, NoSQL database systems, such as MongoDB, CouchDB and Cassandra, expand their popularity.",
+                "tx10":"Already in the 2000s comes 'Big Data' with solutions such as Apache Hadoop and Apache Spark provided tools to process large data sets. Emergence of NoSQL Databases: MongoDB (2009), Couchbase, and other NoSQL databases became popular for specific use cases, such as managing large volumes of unstructured data.",
+                "tx11":"Cloud Databases: Cloud database offerings, such as Amazon RDS, Google Cloud Firestore and Azure Cosmos DB, became popular options, allowing companies to outsource their database management.",
+                "tx12":"GraphQL (2012): Facebook launched GraphQL as an alternative for efficient data access, allowing customers to request only the information they need.",
+                "tx13":"2020s - Continuation of Previous Trends: Machine Learning and Databases: The integration of artificial intelligence and machine learning into databases has become more prominent, enabling more advanced analytics and task automation.",
+                "tx14":"Development of New Technologies: The evolution continues with the development of new technologies such as distributed databases, in-memory databases, and federated data management systems."
             },
             "descripcionCorta":""
         },
