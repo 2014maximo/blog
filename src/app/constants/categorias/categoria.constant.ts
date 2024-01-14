@@ -162,7 +162,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
                 autor: '',
                 linkAlAutor: '',
                 descripciones: [
-                    'El término desarrollo ...'
+                    ''
                 ]
             }
         ],

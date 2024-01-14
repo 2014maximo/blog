@@ -323,7 +323,8 @@
             "nombre":"Developer",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"El escenario actual para desarrollar software es a través de un editor de código y la máquina que va a ejecutar las órdenes y la lógica. Siendo así, el origen implica a éstos.",
+                "tx2":"Empezando en la década de 1940, las primeras computadoras electrónicas, como el ENIAC y el UNIVAC, fueron creadas para propósitos específicos. Los programadores escribían instrucciones directamente en el código de máquina."
             },
             "descripcionCorta":""
         },
