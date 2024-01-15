@@ -319,7 +319,20 @@
             "nombre":"Developer",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"The current scenario for developing software is through a code editor and the machine that will execute the commands and logic. This being so, the origin involves these.",
+                "tx2":"Beginning in the 1940s, the first electronic computers, such as the ENIAC and UNIVAC, were created for specific purposes. Programmers wrote instructions directly into machine code.",
+                "tx3":"In the 1950s the first languages starting with 'Fortran' the first high-level programming language, designed for scientific and engineering programming, developed by IBM.",
+                "tx4":"The first programming language designed for artificial intelligence 'Lips' in 1958, developed by John McCarthy.",
+                "tx5":"In the 1960s, 'COBOL' was created for commercial and administrative applications.",
+                "tx6":"In 1969 Ken Thompson and Dennis Ritchie developed the Unix operating system at Bell Labs, which had a significant impact on software development.",
+                "tx7":"In the 1970s structured programming emerged, in 1972 Dennis Ritchie and Brian Kernighan developed the C programming language, which became the basis for the Unix operating system and many other systems. Structured programming, a methodology that emphasizes code clarity and efficiency, became popular.",
+                "tx8":"In 1980 decade for object-oriented programming, in 1983 Bjarne Stroustrup developed C++, a programming language that extended C with object-oriented programming features, later gaining even more popularity with languages such as Smalltalk, C++ and Java.",
+                "tx9":"In the 1990s in 1991 Web development accelerated with the creation of the World Wide Web by Tim Berners-Lee.",
+                "tx10":"In 1995 Java was launched by Sun Microsystems, becoming a key language for the development of enterprise and web applications.",
+                "tx11":"In 2001, the Agile Manifesto was launched, giving rise to agile software development practices that prioritize collaboration, adaptability and continuous delivery.",
+                "tx12":"In 2005 Ruby on Rails simplified web development with its focus on convention over configuration. Cloud computing became more prominent, allowing easy access to infrastructure resources.",
+                "tx13":"In 2010 The rise of mobile applications, driven by iOS and Android, led to an increase in mobile application development. DevOps (Development + Operations): Continuous integration and continuous delivery (CI/CD) became essential with the widespread adoption of DevOps approaches.",
+                "tx14":"In 2020 The integration of artificial intelligence and machine learning in applications became more common. Low-code development platforms emerged that allow users with less technical expertise to create applications without intensive programming."
             },
             "descripcionCorta":""
         },

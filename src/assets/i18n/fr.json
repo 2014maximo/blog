@@ -323,7 +323,20 @@
             "nombre":"Developer",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Le scénario actuel de développement de logiciels passe par un éditeur de code et la machine qui exécutera les commandes et la logique. Dans ces conditions, l'origine est la suivante.",
+                "tx2":"À partir des années 1940, les premiers ordinateurs électroniques, tels que l'ENIAC et l'UNIVAC, ont été créés à des fins spécifiques. Les programmeurs écrivaient des instructions directement dans le code machine.",
+                "tx3":"Dans les années 1950, les premiers langages ont commencé avec 'Fortran', le premier langage de programmation de haut niveau, conçu pour la programmation scientifique et technique, développé par IBM.",
+                "tx4":"El primer lenguaje de programación diseñado para inteligencia artificial 'Lips' en 1958 desarrollado por John McCarthy",
+                "tx5":"Dans les années 1960, le 'COBOL' a été créé pour des applications commerciales et administratives.",
+                "tx6":"En 1969, Ken Thompson et Dennis Ritchie ont développé le système d'exploitation Unix aux Bell Labs, qui a eu un impact significatif sur le développement de logiciels.",
+                "tx7":"En 1972, Dennis Ritchie et Brian Kernighan ont développé le langage de programmation C, qui est devenu la base du système d'exploitation Unix et de nombreux autres systèmes. La programmation structurée, une méthodologie qui met l'accent sur la clarté et l'efficacité du code, est devenue populaire.",
+                "tx8":"En 1983, Bjarne Stroustrup a développé C++, un langage de programmation qui étendait le langage C avec des fonctionnalités de programmation orientée objet, et qui a ensuite gagné en popularité avec des langages tels que Smalltalk, C++ et Java.",
+                "tx9":"Dans les années 1990, en 1991, le développement du web s'est accéléré avec la création du World Wide Web par Tim Berners-Lee.",
+                "tx10":"En 1995, Java a été lancé par Sun Microsystems et est devenu un langage clé pour le développement d'applications d'entreprise et d'applications web.",
+                "tx11":"En 2001, le Manifeste Agile a été lancé, donnant lieu à des pratiques de développement de logiciels agiles qui donnent la priorité à la collaboration, à l'adaptabilité et à la livraison continue.",
+                "tx12":"En 2005, Ruby on Rails a simplifié le développement web en mettant l'accent sur les conventions plutôt que sur la configuration. L'informatique en nuage est devenue plus importante, permettant un accès facile aux ressources d'infrastructure.",
+                "tx13":"En 2010 L'essor des applications mobiles, sous l'impulsion d'iOS et d'Android, a entraîné une augmentation du développement d'applications mobiles. DevOps (développement + opérations) : L'intégration et la livraison continues (CI/CD) sont devenues essentielles avec l'adoption généralisée des approches DevOps.",
+                "tx14":"En 2020 L'intégration de l'intelligence artificielle et de l'apprentissage automatique dans les applications est devenue plus courante. Des plateformes de développement à code bas sont apparues, permettant aux utilisateurs ayant moins d'expertise technique de créer des applications sans programmation intensive."
             },
             "descripcionCorta":""
         },

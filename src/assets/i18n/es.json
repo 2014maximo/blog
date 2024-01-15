@@ -324,7 +324,19 @@
             "referenciaBusqueda":"",
             "descripcion":{
                 "tx1":"El escenario actual para desarrollar software es a través de un editor de código y la máquina que va a ejecutar las órdenes y la lógica. Siendo así, el origen implica a éstos.",
-                "tx2":"Empezando en la década de 1940, las primeras computadoras electrónicas, como el ENIAC y el UNIVAC, fueron creadas para propósitos específicos. Los programadores escribían instrucciones directamente en el código de máquina."
+                "tx2":"Empezando en la década de 1940, las primeras computadoras electrónicas, como el ENIAC y el UNIVAC, fueron creadas para propósitos específicos. Los programadores escribían instrucciones directamente en el código de máquina.",
+                "tx3":"En la década de 1950 los primeros lenguajes empezando por 'Fortran' el primer lenguaje de programación de alto nivel, diseñado para la programación científica y de ingeniería, desarrollado por IBM.",
+                "tx4":"El primer lenguaje de programación diseñado para inteligencia artificial 'Lips' en 1958 desarrollado por John McCarthy",
+                "tx5":"En la década de 1960, 'COBOL' fue creado para aplicaciones comerciales y administrativas.",
+                "tx6":"En 1969 Ken Thompson y Dennis Ritchie desarrollaron el sistema operativo Unix en los laboratorios Bell, que tuvo un impacto significativo en el desarrollo de software.",
+                "tx7":"En la década de 1970 Surge la programación estructurada, en 1972 Dennis Ritchie y Brian Kernighan desarrollaron el lenguaje de programación C, que se convirtió en la base para el sistema operativo Unix y muchos otros sistemas. Se popularizó la programación estructurada, una metodología que enfatiza la claridad y eficiencia del código.",
+                "tx8":"En 1980 década para la programación orientada a objetos, en 1983 Bjarne Stroustrup desarrolló C++, un lenguaje de programación que extendió el C con características de programación orientada a objetos, más adelante ésta gana aun más popularidad con lenguajes como Smalltalk, C++ y Java.",
+                "tx9":"En la década de 1990 en 1991 El desarrollo web se aceleró con la creación del World Wide Web por Tim Berners-Lee.",
+                "tx10":"En 1995 Java fue lanzado por Sun Microsystems, convirtiéndose en un lenguaje clave para el desarrollo de aplicaciones empresariales y web.",
+                "tx11":"En 2001 Se lanzó el Manifiesto Ágil, dando origen a prácticas ágiles de desarrollo de software que priorizan la colaboración, la adaptabilidad y la entrega continua.",
+                "tx12":"En 2005 Ruby on Rails simplificó el desarrollo web con su enfoque en la convención sobre configuración. La computación en la nube se volvió más prominente, permitiendo un acceso fácil a recursos de infraestructura.",
+                "tx13":"En 2010 El auge de las aplicaciones móviles, impulsado por iOS y Android, llevó a un aumento en el desarrollo de aplicaciones móviles. DevOps (Desarrollo + Operaciones): La integración continua y la entrega continua (CI/CD) se volvieron esenciales con la adopción generalizada de enfoques DevOps.",
+                "tx14":"En 2020 La integración de la inteligencia artificial y el machine learning en aplicaciones se volvió más común. Surgieron plataformas de desarrollo bajo código que permiten a usuarios con menos experiencia técnica crear aplicaciones sin programación intensiva."
             },
             "descripcionCorta":""
         },

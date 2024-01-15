@@ -9,7 +9,22 @@ export const DEVELOPER: DatosPost[] = [
     {
         id: '441cab09-256e-446f-bb2c-f017dd6d217b',
         nombre: 'DEVELOPER.developer.nombre',
-        descripcion: ['DEVELOPER.developer.descripcion.tx1'],
+        descripcion: [
+            'DEVELOPER.developer.descripcion.tx1',
+            'DEVELOPER.developer.descripcion.tx2',
+            'DEVELOPER.developer.descripcion.tx3',
+            'DEVELOPER.developer.descripcion.tx4',
+            'DEVELOPER.developer.descripcion.tx5',
+            'DEVELOPER.developer.descripcion.tx6',
+            'DEVELOPER.developer.descripcion.tx7',
+            'DEVELOPER.developer.descripcion.tx8',
+            'DEVELOPER.developer.descripcion.tx9',
+            'DEVELOPER.developer.descripcion.tx10',
+            'DEVELOPER.developer.descripcion.tx11',
+            'DEVELOPER.developer.descripcion.tx12',
+            'DEVELOPER.developer.descripcion.tx13',
+            'DEVELOPER.developer.descripcion.tx14'
+        ],
         descripcionCorta: 'DEVELOPER.developer.descripcionCorta',
         ruta: 'developer',
         componente: 'DeveloperComponent',
