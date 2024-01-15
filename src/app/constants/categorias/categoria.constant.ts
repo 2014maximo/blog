@@ -187,7 +187,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
                 autor:'',
                 linkAlAutor:'',
                 descripciones:[
-                    'El framework electron ...'
+                    ''
                 ]
             }
         ],

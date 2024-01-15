@@ -741,7 +741,7 @@
             "nombre":"Eletron",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Al inicio enterarse de un framework que creaba una aplicación de escritorio a partir de html, css y javascript, sin duda sorprende. Electron fue creado por Cheng Zhao en 2013 como un proyecto interno de GitHub llamado Atom Shell. La intención original era construir el entorno de desarrollo Atom utilizando tecnologías web estándar."
             },
             "descripcionCorta":""
         },
