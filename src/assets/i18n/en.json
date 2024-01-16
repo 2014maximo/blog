@@ -737,7 +737,12 @@
             "nombre":"Eletron",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"At first, it is of much admiration when we learn that a framework creates desktop applications from html, css and javascript, it certainly surprises. Electron was created by Cheng Zhao in 2013 as an internal GitHub project called Atom Shell. The original intention was to build the Atom development environment using standard web technologies.",
+                "tx2":"In 2014, GitHub decided to launch Atom Shell as an open source project, and it soon became Electron.",
+                "tx3":"In May 2015, GitHub officially announced Electron 1.0. This marked the stable release of the framework and its availability to developers worldwide.",
+                "tx4":"Electron enabled developers to build cross-platform desktop applications using web technologies such as HTML, CSS and JavaScript.",
+                "tx5":"In view of the ease of creating desktop applications, it was very tempting for large companies such as Microsoft, which used the framework to create the visual studio code text editor, among others that also stand out today.",
+                "tx6":"As time has progressed, it has been allowed to evolve and implement improvements in performance and security that are undoubtedly at the forefront."
             },
             "descripcionCorta":""
         },
@@ -763,7 +768,11 @@
             "nombre":"Flutter",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Created by Google, this excellent framework focused on mobile applications started in 2015 under the code name 'Sky' as an internal project at Google.",
+                "tx2":"Google officially announced Flutter at the Dart Developer Summit conference in 2017. Flutter was introduced as a framework that would allow developers to create attractive and fluid user interfaces with a single code base for iOS and Android.",
+                "tx3":"Flutter was noted for its fast performance thanks to its custom graphics engine called 'Skia'. In December 2018, Google officially launched Flutter 1.0, it was adopted by several companies and developers to build mobile apps. Some notable companies that used Flutter include Alibaba, Reflectly, and Google Ads.",
+                "tx4":"Throughout 2019, Google expanded Flutter's reach by announcing the ability to develop apps for web and desktop, allowing developers to use Flutter to build cross-platform experiences.",
+                "tx5":"A community that grows every day and an infinity of attractive ways to the user, has put FLUTTER in the top's top."
             },
             "descripcionCorta":""
         },
@@ -789,7 +798,16 @@
             "nombre":"Git",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Already accustomed to their beneficial service, one could not imagine how to control the copies of each of the versions of the programs they produced before. And indeed that was the need that Linus Torvalds, creator of git and the Linux kernel, saw in 2005 in response to the limitations and shortcomings he experienced with the existing distributed version control system, BitKeeper, which was being used for Linux kernel development at the time.",
+                "tx2":"The decision to create Git came after the relationship between the open source community and BitKeeper became strained. When the relationship broke down, Torvalds decided to develop his own distributed version control system.",
+                "tx3":"In April 2005, Linus Torvalds officially announced Git on the Linux kernel development mailing list. The first public version of Git (v0.99) was released shortly thereafter.",
+                "tx4":"As early as 2005-2007, Git's much-needed features quickly spread in the development community due to its speed, efficiency and distributed design. Other open source projects and companies began adopting Git as their version control system of choice.",
+                "tx5":"The community grew, and as Git grew, it benefited greatly from open source contributions. Developers from all over the world contributed to the Git source code, improving its functionality and fixing bugs.",
+                "tx6":"Code hosting platforms, such as GitHub (launched in 2008), GitLab and Bitbucket, adopted Git as the underlying version control system for their services, leading to a significant increase in its popularity.",
+                "tx7":"Due to the rise of Git, parallel ideas to the idea were not long in coming and numerous tools and graphical clients were developed that made Git easier to use for those unfamiliar with the command line. Some of these tools include SourceTree, GitKraken and GitHub Desktop.",
+                "tx8":"Automated cloud-based data backup tools or similar may exist, but Git stood out for key features such as its efficient branching and merging model, the ability to work offline, data integrity through the use of hashes, and its distributed design.",
+                "tx9":"Now highlighting strong changes Git has undergone multiple major releases over the years, each introducing new features and improvements. Some notable releases include Git 1.0 (2005), Git 2.0 (2013), and more recent versions, which continue to improve efficiency and usability.",
+                "tx10":"Already a part of today's development life, Git will continue to grow and deliver great support for all the good things to come."
             },
             "descripcionCorta":""
         },

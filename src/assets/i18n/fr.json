@@ -741,7 +741,12 @@
             "nombre":"Eletron",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Au départ, c'est une véritable surprise d'apprendre qu'un framework qui crée des applications de bureau à partir de html, css et javascript, c'est vraiment surprenant. Electron a été créé par Cheng Zhao en 2013 en tant que projet interne GitHub appelé Atom Shell. L'intention initiale était de construire l'environnement de développement Atom en utilisant des technologies web standard.",
+                "tx2":"En 2014, GitHub a décidé de lancer Atom Shell en tant que projet open source, qui est rapidement devenu Electron.",
+                "tx3":"En mai 2015, GitHub a officiellement annoncé Electron 1.0. Cette annonce a marqué la sortie de la version stable du framework et sa mise à disposition des développeurs du monde entier.",
+                "tx4":"Electron a permis aux développeurs de créer des applications de bureau multiplateformes en utilisant des technologies web telles que HTML, CSS et JavaScript.",
+                "tx5":"Compte tenu de la facilité de création d'applications de bureau, il était très tentant pour de grandes entreprises telles que Microsoft, qui a utilisé le cadre pour créer l'éditeur de texte visual studio code, parmi d'autres qui se distinguent également aujourd'hui.",
+                "tx6":"Au fil du temps, il a pu évoluer et mettre en œuvre des améliorations en matière de performance et de sécurité qui sont sans aucun doute à la pointe du progrès."
             },
             "descripcionCorta":""
         },
@@ -767,7 +772,11 @@
             "nombre":"Flutter",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Créé par Google, cet excellent framework axé sur les applications mobiles a démarré en 2015 sous le nom de code 'Sky' en tant que projet interne à Google.",
+                "tx2":"Google a officiellement annoncé Flutter lors de la conférence Dart Developer Summit en 2017. Flutter a été présenté comme un framework qui permettrait aux développeurs de créer de belles interfaces utilisateur fluides avec une seule base de code pour iOS et Android.",
+                "tx3":"Flutter a été remarqué pour ses performances rapides grâce à son moteur graphique personnalisé appelé 'Skia'. En décembre 2018, Google a officiellement lancé Flutter 1.0, il a été adopté par plusieurs entreprises et développeurs pour construire des applications mobiles. Parmi les entreprises notables qui ont utilisé Flutter, on peut citer Alibaba, Reflectly et Google Ads.",
+                "tx4":"Tout au long de l'année 2019, Google a élargi la portée de Flutter en annonçant la possibilité de développer des apps pour le web et le bureau, permettant ainsi aux développeurs d'utiliser Flutter pour créer des expériences multiplateformes.",
+                "tx5":"Une communauté qui s'agrandit chaque jour et une infinité de moyens attrayants pour l'utilisateur ont placé FLUTTER au sommet."
             },
             "descripcionCorta":""
         },
@@ -793,7 +802,16 @@
             "nombre":"Git",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Déjà habitués à leur service bénéfique, on ne pouvait imaginer comment contrôler les copies de chaque version du logiciel qu'ils produisaient auparavant. C'est en effet le besoin que Linus Torvalds, créateur de git et du noyau Linux, a perçu en 2005 en réponse aux limites et aux lacunes du système de contrôle de version distribué existant, BitKeeper, qui était utilisé à l'époque pour le développement du noyau Linux.",
+                "tx2":"La décision de créer Git a été prise après que les relations entre la communauté du logiciel libre et BitKeeper se soient tendues. Lorsque ces relations se sont détériorées, Torvalds a décidé de développer son propre système de contrôle de version distribué.",
+                "tx3":"En avril 2005, Linus Torvalds a officiellement annoncé Git sur la liste de diffusion du développement du noyau Linux. La première version publique de Git (v0.99) a été publiée peu après.",
+                "tx4":"Dès 2005-2007, les fonctionnalités indispensables de Git se sont rapidement répandues dans la communauté des développeurs en raison de sa rapidité, de son efficacité et de sa conception distribuée. D'autres projets open source et entreprises ont commencé à adopter Git comme système de contrôle de version de choix.",
+                "tx5":"Au fur et à mesure que la communauté s'est développée, Git a énormément bénéficié des contributions de l'open source. Des développeurs du monde entier ont contribué au code source de Git, améliorant ses fonctionnalités et corrigeant les bogues.",
+                "tx6":"Les plateformes d'hébergement de code, telles que GitHub (lancée en 2008), GitLab et Bitbucket, ont adopté Git comme système de contrôle de version sous-jacent pour leurs services, ce qui a entraîné une augmentation significative de sa popularité.",
+                "tx7":"En raison de l'essor de Git, les idées parallèles n'ont pas tardé à voir le jour et de nombreux outils et clients graphiques ont été développés pour faciliter l'utilisation de Git pour ceux qui ne sont pas familiers avec la ligne de commande. Parmi ces outils figurent SourceTree, GitKraken et GitHub Desktop.",
+                "tx8":"Il existe des outils automatisés de sauvegarde des données basés sur le cloud, mais Git se distingue par des caractéristiques essentielles telles que son modèle efficace de branchement et de fusion, la possibilité de travailler hors ligne, l'intégrité des données grâce à l'utilisation de hachages et sa conception distribuée.",
+                "tx9":"Git a fait l'objet de plusieurs versions majeures au fil des ans, chacune introduisant de nouvelles fonctionnalités et améliorations. Parmi les versions les plus importantes, citons Git 1.0 (2005), Git 2.0 (2013) et les versions plus récentes, qui continuent d'améliorer l'efficacité et la convivialité.",
+                "tx10":"Faisant déjà partie de la vie actuelle des développeurs, Git continuera à se développer et à fournir un support de qualité pour toutes les bonnes choses à venir."
             },
             "descripcionCorta":""
         },

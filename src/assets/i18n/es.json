@@ -741,7 +741,12 @@
             "nombre":"Eletron",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":"Al inicio enterarse de un framework que creaba una aplicación de escritorio a partir de html, css y javascript, sin duda sorprende. Electron fue creado por Cheng Zhao en 2013 como un proyecto interno de GitHub llamado Atom Shell. La intención original era construir el entorno de desarrollo Atom utilizando tecnologías web estándar."
+                "tx1":"En un inicio, es de mucha admiración cuando nos enteramos que un framework crea aplicaciones de escritorio a partir de html, css y javascript, sin duda sorprende. Electron fue creado por Cheng Zhao en 2013 como un proyecto interno de GitHub llamado Atom Shell. La intención original era construir el entorno de desarrollo Atom utilizando tecnologías web estándar.",
+                "tx2":"En 2014, GitHub decidió lanzar Atom Shell como un proyecto de código abierto, y pronto se convirtió en Electron.",
+                "tx3":"En mayo de 2015, GitHub anunció oficialmente Electron 1.0. Esto marcó el lanzamiento estable del framework y su disponibilidad para desarrolladores de todo el mundo.",
+                "tx4":"Electron permitió a los desarrolladores construir aplicaciones de escritorio multiplataforma utilizando tecnologías web como HTML, CSS y JavaScript.",
+                "tx5":"En vista de los fácil que puediese resultar crear aplicaciones de escritorio resultó muy tentador para grandes empresas como la Microsoft que utilizó el framework para crear el editor de texto visual studio code, entre otros que tambien destacan en la actualidad.",
+                "tx6":"A medida que avanza el tiempo se ha permitido evolucionar e implementar mejoras en rendimiento y seguridad que sin duda alguna estan a la vanguardia."
             },
             "descripcionCorta":""
         },
@@ -767,7 +772,11 @@
             "nombre":"Flutter",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Creado por Google, este excelente framework enfocado a aplicaciones móviles comenzó en 2015 bajo el nombre en código 'Sky' como un proyecto interno en Google.",
+                "tx2":"Google anunció oficialmente Flutter en la conferencia Dart Developer Summit en 2017. Flutter fue presentado como un framework que permitiría a los desarrolladores crear interfaces de usuario atractivas y fluidas con un solo código base para iOS y Android.",
+                "tx3":"Flutter se destacó por su rendimiento rápido gracias a su motor gráfico personalizado llamado 'Skia'. En diciembre de 2018, Google lanzó oficialmente Flutter 1.0, fue adoptado por varias empresas y desarrolladores para construir aplicaciones móviles. Algunas empresas notables que utilizaron Flutter incluyen Alibaba, Reflectly, y Google Ads.",
+                "tx4":"A lo largo de 2019, Google expandió el alcance de Flutter al anunciar la capacidad de desarrollar aplicaciones para la web y el escritorio, lo que permitió a los desarrolladores utilizar Flutter para construir experiencias multiplataforma.",
+                "tx5":"Una comunidad que crece cada día y una infinidad de formas atractivas al usuario, a puesto a FLUTTER en los top's principales."
             },
             "descripcionCorta":""
         },
@@ -793,7 +802,17 @@
             "nombre":"Git",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Ya acostumbrados a su beneficioso servicio, no pudiera uno imaginarse como controlar las copias de cada una de las versiones de los programas que fabricaban antes. Y de hecho esa fue la necesidad que vió Linus Torvalds, creador del git y del kernel de Linux, en 2005 en respuesta a las limitaciones y deficiencias que experimentó con el sistema de control de versiones distribuido existente, BitKeeper, que estaba siendo utilizado para el desarrollo del kernel de Linux en ese entonces.",
+                "tx2":"La decisión de crear Git surgió después de que la relación entre la comunidad de código abierto y BitKeeper se volviera tensa. Cuando la relación se rompió, Torvalds decidió desarrollar su propio sistema de control de versiones distribuido.",
+                "tx3":"En abril de 2005, Linus Torvalds anunció oficialmente Git en la lista de correo de desarrollo del kernel de Linux. La primera versión pública de Git (v0.99) fue lanzada poco después.",
+                "tx4":"Ya de 2005-2007, por sus muy necesitadas características Git se propagó rápidamente en la comunidad de desarrollo debido a su velocidad, eficiencia y diseño distribuido. Otros proyectos de código abierto y empresas comenzaron a adoptar Git como su sistema de control de versiones preferido.",
+                "tx5":"Crece la comunidad y al crecer Git se benefició enormemente de las contribuciones de código abierto. Desarrolladores de todo el mundo contribuyeron al código fuente de Git, mejorando su funcionalidad y corrigiendo errores.",
+                "tx6":"Plataformas de alojamiento de código, como GitHub (lanzado en 2008), GitLab y Bitbucket, adoptaron Git como el sistema de control de versiones subyacente para sus servicios, lo que llevó a un aumento significativo en su popularidad.",
+                "tx7":"Debido al auge de Git, no se hicieron esperar la ideas paralelas a la idea y se desarrollaron numerosas herramientas y clientes gráficos que facilitaron el uso de Git para aquellos que no estaban familiarizados con la línea de comandos. Algunas de estas herramientas incluyen SourceTree, GitKraken y GitHub Desktop.",
+                "tx8":"Pudieran existir herramientas de respaldo de datos automáticas en nube o similares, pero Git se destacó por características clave como su modelo de ramificación y fusión eficiente, la capacidad de trabajar sin conexión, la integridad de los datos mediante el uso de sumas de comprobación (hashes), y su diseño distribuido.",
+                "tx9":"Ahora destacando cambios fuertes Git ha experimentado múltiples versiones importantes a lo largo de los años, cada una introduciendo nuevas características y mejoras. Algunas versiones notables incluyen Git 1.0 (2005), Git 2.0 (2013), y las versiones más recientes, que continúan mejorando la eficiencia y la usabilidad.",
+                "tx10":"Ya al día de hoy Git hace parte de la vida de los desarrollos actuales, continuará creciendo y entregando una gran ayuda en pro de todo lo bueno que viene por delante."
+
             },
             "descripcionCorta":""
         },

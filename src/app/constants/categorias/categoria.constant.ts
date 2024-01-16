@@ -212,7 +212,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
                 autor:'',
                 linkAlAutor:'',
                 descripciones:[
-                    'Flutter inicialmente ...'
+                    ''
                 ]
             }
         ],
@@ -237,7 +237,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
                 autor:'',
                 linkAlAutor:'',
                 descripciones:[
-                    'Git tuvo sus inicios como ...'
+                    ''
                 ]
             }
         ],

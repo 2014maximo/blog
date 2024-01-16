@@ -10,7 +10,14 @@ export const ELECTRON: DatosPost[] = [
         id: '1bbe7bbd-9f75-44da-8165-a5fde2070e2b',
         nombre: 'ELECTRON.electron.nombre',
         referenciaBusqueda:'ELECTRON.electron.referenciaBusqueda',
-        descripcion: ['ELECTRON.electron.descripcion.tx1'],
+        descripcion: [
+            'ELECTRON.electron.descripcion.tx1',
+            'ELECTRON.electron.descripcion.tx2',
+            'ELECTRON.electron.descripcion.tx3',
+            'ELECTRON.electron.descripcion.tx4',
+            'ELECTRON.electron.descripcion.tx5',
+            'ELECTRON.electron.descripcion.tx6'
+        ],
         descripcionCorta: 'ELECTRON.electron.descripcionCorta',
         ruta: 'electron',
         componente: 'ElectronComponent',

@@ -10,7 +10,13 @@ export const FLUTTER: DatosPost[] = [
         id: '9249441409',
         nombre: 'FLUTTER.flutter.nombre',
         referenciaBusqueda:'FLUTTER.flutter.referenciaBusqueda',
-        descripcion: ['FLUTTER.flutter.descripcion.tx1'],
+        descripcion: [
+            'FLUTTER.flutter.descripcion.tx1',
+            'FLUTTER.flutter.descripcion.tx2',
+            'FLUTTER.flutter.descripcion.tx3',
+            'FLUTTER.flutter.descripcion.tx4',
+            'FLUTTER.flutter.descripcion.tx5'
+        ],
         descripcionCorta: 'FLUTTER.flutter.descripcionCorta',
         ruta: 'flutter',
         componente: 'FlutterComponent',
