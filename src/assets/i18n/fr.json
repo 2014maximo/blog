@@ -829,7 +829,17 @@
             "nombre":"HTML",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Loin d'être considéré comme un langage de programmation, il n'a jamais été envisagé comme tel à l'origine. Ainsi, en 1989, Tim Berners-Lee, physicien britannique travaillant au CERN (Organisation européenne pour la recherche nucléaire), a proposé un système de gestion de l'information basé sur l'idée de liens et de documents interconnectés. En 1990, Berners-Lee a développé le langage de balisage 'Enquire Within Upon Everything', précurseur du HTML.",
+                "tx2":"En 1991, Tim Berners-Lee a créé la première version de HTML (HTML 1.0) alors qu'il travaillait au CERN. Le HTML a été conçu à l'origine comme un langage simple pour structurer des documents scientifiques sur le web. Il n'aurait pas été possible d'envisager l'immense quantité de documents qui existent aujourd'hui.",
+                "tx3":"La première description formelle du langage HTML a été publiée en 1993 dans un document intitulé 'HTML Tags', qui définissait les balises de base et la structure du langage. Ce concept général est encore utilisé aujourd'hui.",
+                "tx4":"Chaque nouvelle version apportait de nouvelles améliorations. En novembre 1995, l'Internet Engineering Task Force (IETF) a publié la spécification HTML 2.0, qui comprenait de nouvelles fonctionnalités et des améliorations par rapport à la version précédente.",
+                "tx5":"Entre 1995 et 1997, les premiers navigateurs ont été lancés, en l'occurrence 'Netscape Navigator' et 'Internet Explorer'. Maintenant que le web se développe, HTLM devient la norme pour la création de pages web.",
+                "tx6":"Entre 1996 et 1997, une nouvelle version a été créée avec les tableaux et les applets de HTML 3.2. La même année, le World Wide Web Consortium (W3C) a pris la responsabilité du développement futur du HTML.",
+                "tx7":"De 1997 à 1999, HTML 4.0 a introduit les feuilles de style en cascade (CSS) et un modèle plus avancé pour les formulaires. HTML 4.01, une version révisée, a été publiée en décembre 1999.",
+                "tx8":"Entre 1998 et 2008, le XHTML (Extensible Hypertext Markup Language), une version plus stricte du HTML basée sur le XML, a été lancé. Le XHTML a été conçu pour être compatible avec le XML et le HTML, mais n'a pas réussi à remplacer complètement le HTML.",
+                "tx9":"Entre 1998 et 2008, le XHTML (Extensible Hypertext Markup Language), une version plus stricte du HTML basée sur le XML, a été lancé. Le XHTML a été conçu pour être compatible avec le XML et le HTML, mais n'a pas réussi à remplacer complètement le HTML.",
+                "tx10":"Après 2014, quelque chose d'incroyable s'est produit : le W3C a adopté une approche différente appelée 'HTML Living Standard', qui implique des mises à jour continues sans fixer de version spécifique. Cela permet une évolution plus rapide du langage.",
+                "tx11":"A partir de 2018, d'autres choses incroyables arrivent, maintenant avec les Web components qui permettent de créer des composants web réutilisables. Depuis ses débuts jusqu'à aujourd'hui, il reste tellement indispensable dans le monde du développement, totale gratitude pour ses apports."
             },
             "descripcionCorta":""
         },

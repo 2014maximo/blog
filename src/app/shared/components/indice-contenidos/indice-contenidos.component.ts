@@ -32,6 +32,8 @@ export class IndiceContenidosComponent implements OnInit {
   constructor(private translate: TranslateService) { }
 
   ngOnInit(): void {
+    console.log(this.indice, 'indice');
+
     CATEGORIA.forEach(( p: CategoriaPostModel ) => {
       if(p.nombre.includes(this.categoria)){this.posts = p.post; this.subcategorias = p.subcategorias}
     });

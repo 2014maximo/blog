@@ -5,8 +5,8 @@
             <span *ngIf="validaEstado(contenido.estado)">{{ traducirTexto(contenido.nombre,1) }} ...</span>
         </a>
         <a *ngIf="validaEstado(contenido.estado) && contenido.ruta" href="{{ contenido.ruta }}" class="{{ contenido.color }} text-uppercase" >
-            <del *ngIf="!validaEstado(contenido.estado)">{{ traducirTexto(contenido.nombre,1) }} ...</del>
-            <span *ngIf="validaEstado(contenido.estado)">{{ traducirTexto(contenido.nombre,1) }} ...</span>
+            <del *ngIf="!validaEstado(contenido.estado)">{{ contenido.nombre }} ...</del>
+            <span *ngIf="validaEstado(contenido.estado)">{{ contenido.nombre }} ...</span>
         </a>
         <a *ngIf="validaEstado(contenido.estado) && contenido.rutaExterna" href="{{ contenido.rutaExterna }}" target="_blank" class="{{ contenido.color }} text-uppercase" >
             <del *ngIf="!validaEstado(contenido.estado)">{{ traducirTexto(contenido.nombre,1) }} ...</del>

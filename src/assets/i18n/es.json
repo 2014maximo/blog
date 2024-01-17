@@ -830,7 +830,17 @@
             "nombre":"HTML",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Lejos de ser considerado un lenguaje de programación, al principio nunca se buscó este fin. Por esto, en 1989, Tim Berners-Lee, un físico británico que trabajaba en el CERN (Organización Europea para la Investigación Nuclear), propuso un sistema de gestión de información basado en la idea de enlaces y documentos interconectados. En 1990, Berners-Lee desarrolló el lenguaje de marcado llamado 'Enquire Within Upon Everything' como precursor de HTML.",
+                "tx2":"En 1991, Tim Berners-Lee creó la primera versión de HTML (HTML 1.0) mientras trabajaba en el CERN. HTML se diseñó originalmente como un lenguaje simple para estructurar documentos científicos en la web. No se hubiera podido considerar la cantidad tan inmensa de documentos que hay en la actualidad.",
+                "tx3":"La primera descripción formal de HTML se publicó en 1993 en un documento llamado 'HTML Tags', donde se definieron las etiquetas básicas y la estructura del lenguaje. Concepto general que se sigue manejando.",
+                "tx4":"Con cada nueva versión vendrían nuevas mejoras. En noviembre de 1995, la Internet Engineering Task Force (IETF) publicó la especificación de HTML 2.0, que incluía nuevas características y mejoras en comparación con la versión anterior.",
+                "tx5":"Entre 1995 y 1997 arrancan los primeros navegadores, en este caso 'Netscape Navigator' e 'Internet Explorer'. Ahora que la web crece, HTLM se convierte en el estándar de creación de páginas web.",
+                "tx6":"Entre 1996-1997 nueva versión con HTML 3.2 tablas y los applets. En ese mismo año, el World Wide Web Consortium (W3C) asumió la responsabilidad del desarrollo futuro de HTML.",
+                "tx7":"Del 1997-1999, HTML en su versión 4.0 que introdujo hojas de estilo CSS (Cascading Style Sheets) y un modelo más avanzado para formularios. HTML 4.01, una versión revisada, se lanzó en diciembre de 1999.",
+                "tx8":"Entre 1998 y 2008, se comienza con XHTML (Extensible Hypertext Markup Language), una versión más estricta y basada en XML de HTML. XHTML se diseñó para ser compatible con XML y HTML, pero no logró reemplazar por completo a HTML.",
+                "tx9":"Ahora entre 2008 y 2014, con HTML 5, una versión más significativa con nuevas etiquetas, API para multimedia, elementos semánticos, y mejoró el soporte para la accesibilidad y la integración de contenido multimedia.",
+                "tx10":"Luego de 2014, entró algo increíble: el W3C adoptó un enfoque diferente llamado 'HTML Living Standard', que implica actualizaciones continuas sin establecer una versión específica. Esto permite una evolución más rápida del lenguaje.",
+                "tx11":"Del 2018 en adelante, más increíbles llegan, ahora con Web components que permiten la creación de componentes web reutilizables. Desde sus inicios hasta el momento, permanece tan inprescindible en el mundo del desarrollo, total gratitud por sus aportes."
             },
             "descripcionCorta":""
         },

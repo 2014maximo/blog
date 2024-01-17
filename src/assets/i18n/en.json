@@ -825,7 +825,17 @@
             "nombre":"HTML",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Far from being considered a programming language, it was never intended as such at the beginning. Therefore, in 1989, Tim Berners-Lee, a British physicist working at CERN (European Organization for Nuclear Research), proposed an information management system based on the idea of interconnected links and documents. In 1990, Berners-Lee developed the markup language called 'Enquire Within Upon Everything' as a precursor to HTML.",
+                "tx2":"In 1991, Tim Berners-Lee created the first version of HTML (HTML 1.0) while working at CERN. HTML was originally designed as a simple language for structuring scientific documents on the web. It would not have been possible to consider the immense amount of documents that exist today.",
+                "tx3":"The first formal description of HTML was published in 1993 in a document called 'HTML Tags', where the basic tags and the structure of the language were defined. This general concept is still used today.",
+                "tx4":"With each new version would come new enhancements. In November 1995, the Internet Engineering Task Force (IETF) released the HTML 2.0 specification, which included new features and improvements over the previous version.",
+                "tx5":"Between 1995 and 1997 the first browsers were launched, in this case 'Netscape Navigator' and 'Internet Explorer'. Now that the web is growing, HTLM becomes the standard for creating web pages.",
+                "tx6":"Between 1996 and 1997 new version with HTML 3.2 tables and applets. In the same year, the World Wide Web Consortium (W3C) assumed responsibility for the future development of HTML.",
+                "tx7":"From 1997-1999, HTML 4.0 introduced CSS (Cascading Style Sheets) and a more advanced model for forms. HTML 4.01, a revised version, was released in December 1999.",
+                "tx8":"From 1997-1999, HTML 4.0 introduced CSS (Cascading Style Sheets) and a more advanced model for forms. HTML 4.01, a revised version, was released in December 1999.",
+                "tx9":"Now between 2008 and 2014, with HTML 5, a more significant version with new tags, API for multimedia, semantic elements, and improved support for accessibility and multimedia content integration.",
+                "tx10":"After 2014, something incredible came in: the W3C adopted a different approach called 'HTML Living Standard', which involves continuous updates without setting a specific version. This allows for a faster evolution of the language.",
+                "tx11":"From 2018 onwards, more incredible arrives, now with Web components that allow the creation of reusable web components. From its beginnings until now, it remains so indispensable in the development world, total gratitude for its contributions."
             },
             "descripcionCorta":""
         },

@@ -260,7 +260,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         descripcion: [{
             autor:'',
             descripciones:[
-                'Html al comienzo ...'
+                ''
             ],
             linkAlAutor: ''
         }],
@@ -285,7 +285,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
                 linkAlAutor:'',
                 autor:'',
                 descripciones:[
-                    'Java inicialmente ...'
+                    ''
                 ]
             }
         ],

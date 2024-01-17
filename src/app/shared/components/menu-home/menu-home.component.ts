@@ -55,6 +55,7 @@ export class MenuHomeComponent implements OnInit {
       }
       this.pasoDeIndice.push(grupo);
     });
+    console.log(this.pasoDeIndice, 'PASO DE INDICE');
   }
 
 
