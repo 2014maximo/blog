@@ -319,7 +319,7 @@
             "nombre":"Developer",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":"The current scenario for developing software is through a code editor and the machine that will execute the commands and logic. This being so, the origin involves these.",
+                "tx1":"The current scenario for developing software is through a code editor and the machine that will execute the commands and logic. This being so, the origin involves these in its beginnings.",
                 "tx2":"Beginning in the 1940s, the first electronic computers, such as the ENIAC and UNIVAC, were created for specific purposes. Programmers wrote instructions directly into machine code.",
                 "tx3":"In the 1950s the first languages starting with 'Fortran' the first high-level programming language, designed for scientific and engineering programming, developed by IBM.",
                 "tx4":"The first programming language designed for artificial intelligence 'Lips' in 1958, developed by John McCarthy.",
@@ -853,7 +853,16 @@
             "nombre":"Java",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"One of the most impactful and acclaimed languages in the history of development, Java was conceived by James Gosling, Mike Sheridan and Patrick Naughton at Sun Microsystems in 1991. Initially, the project was called 'Green' and focused on creating software for home appliances and embedded devices.",
+                "tx2":"In 1992, the development team began work on a platform-independent programming language and runtime environment, known as 'Oak'. In 1995, Oak was officially renamed to Java.",
+                "tx3":"The first Java 1.0 version was officially released in 1995, marking the beginning of the Java era. The Java platform included a programming language, a virtual machine (JVM), and an extensive standard library.",
+                "tx4":"From 1996 to 1998, features such as portability, security and the ability to run on any device with a JVM were integrated. The concept of 'applets', small Java applications embedded in web pages, was also introduced.",
+                "tx5":"The famous Swing library in Java version 2, also known as J2SE 1.2, was released in 1998 and introduced major improvements to the language and platform.",
+                "tx6":"After 2000-2004, many companies adopted it for their ventures and development ideas. The introduction of J2EE (Java 2 Platform, Enterprise Edition) and J2ME (Java 2 Platform, Micro Edition) technologies expanded its scope in web and mobile development.",
+                "tx7":"In 2010, Oracle Corporation acquired Sun Microsystems, and with that, became the new head of Java development and management.",
+                "tx8":"Java 7 was released in 2011 with language and virtual machine enhancements. Java 8, released in 2014, was a major milestone with the introduction of lambda expressions, Streams API, and the new date and time API.",
+                "tx9":"In 2006, with the OpenJDK (Java Development Kit) project, the developer community played an essential role in the continued evolution of Java, making it more accessible to the community.",
+                "tx10":"Many languages follow the path of growth and Java in 2020 and beyond continues to evolve with features such as Records in Java 16 and Instance Patterns in Java 17. Future versions are expected to continue to improve the efficiency and usability of the language."
             },
             "descripcionCorta":""
         },
@@ -879,7 +888,17 @@
             "nombre":"Javascript",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Going back to the starting point when the web was in full growth, JavaScript came in as the ideal complement, created by Brendan Eich in 1995 while working at Netscape Communications Corporation. The goal was to develop a client-side scripting language to improve interactivity on web pages.",
+                "tx2":"Initially, the language was called 'LiveScript', but due to a collaboration agreement between Netscape and Sun Microsystems, the name was changed to 'JavaScript' to capitalize on the popularity of Java at the time.",
+                "tx3":"In pursuit of animation, the first implementation of JavaScript was released with Netscape Navigator 2.0 in September 1995. The inclusion of JavaScript allowed developers to create more dynamic and interactive Web pages.",
+                "tx4":"Arrival of ECMAScript in 1997. To standardize JavaScript and ensure cross-browser compatibility, Netscape presented the language to the European Computer Manufacturers Association (ECMA). The first edition of ECMAScript was published, which is the standard specification that governs JavaScript.",
+                "tx5":"From 1996 to 1999, going down a separate path from JavaScript, Microsoft developed its own implementation of JavaScript called JScript for Internet Explorer. During this period, there was competition between Netscape's and Microsoft's JavaScript implementations, which led to some incompatibilities.",
+                "tx6":"1997-1998. DOM (Document Object Model) and DHTML (Dynamic HTML) entered the scene, allowing developers to manipulate the structure and presentation of web pages dynamically, using JavaScript. This increased the interactivity capacity on the client side.",
+                "tx7":"JavaScript in Web 2.0 Techniques such as AJAX (Asynchronous JavaScript and XML) were used to achieve page updates without reloading the page.",
+                "tx8":"De 2005 en adelante se desarrollaron bibliotecas y frameworks como jQuery, Prototype, y luego, en la década de 2010, frameworks más avanzados como Angular, React y Vue.js.",
+                "tx9":"JavaScript evolved with the advent of Node JS released by Ryan Dahl in 2009, allowing developers to run JavaScript on the server side. This marked an important milestone, as JavaScript was previously primarily a client-side language.",
+                "tx10":"In 2015, ECMAScript 6, also known as ES6 or ECMAScript, was introduced. This introduced important new features to the language, such as classes, arrow functions, let and const, better promise handling, and more, improving the readability and functionality of the code.",
+                "tx11":"JavaScript development continues with regular updates. The latest versions of ECMAScript, known as ESNext, introduce constant improvements and new features to enhance modern application development."
             },
             "descripcionCorta":""
         },

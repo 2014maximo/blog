@@ -11,7 +11,18 @@ export const JAVA: DatosPost[] = [
         id: 'd0210005-c92c-4f2a-8b57-cb22429c3aac',
         nombre: 'JAVA.java.nombre',
         referenciaBusqueda:'JAVA.java.referenciaBusqueda',
-        descripcion: ['JAVA.java.descripcion.tx1'],
+        descripcion: [
+            'JAVA.java.descripcion.tx1',
+            'JAVA.java.descripcion.tx2',
+            'JAVA.java.descripcion.tx3',
+            'JAVA.java.descripcion.tx4',
+            'JAVA.java.descripcion.tx5',
+            'JAVA.java.descripcion.tx6',
+            'JAVA.java.descripcion.tx7',
+            'JAVA.java.descripcion.tx8',
+            'JAVA.java.descripcion.tx9',
+            'JAVA.java.descripcion.tx10'
+        ],
         descripcionCorta: 'JAVA.java.descripcionCorta',
         ruta: 'java',
         componente: 'JavasComponent',
@@ -50,7 +61,10 @@ export const JAVA: DatosPost[] = [
         id: '0326f90f-19cb-4c22-9daf-395c4b71a4b1',
         nombre: 'JAVA.java-instalacion.nombre',
         referenciaBusqueda:'JAVA.java-instalacion.referenciaBusqueda',
-        descripcion: ['JAVA.java-instalacion.descripcion.tx1'],
+        descripcion: [
+            'JAVA.java-instalacion.descripcion.tx1'
+            
+        ],
         descripcionCorta: 'JAVA.java-instalacion.descripcionCorta',
         ruta: 'java-instalacion',
         componente: '',

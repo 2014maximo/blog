@@ -310,7 +310,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
                 linkAlAutor:'',
                 autor:'',
                 descripciones:[
-                    'Javascript anteriormente conocido como ...'
+                    ''
                 ]
             }
         ],

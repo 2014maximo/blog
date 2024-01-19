@@ -323,7 +323,7 @@
             "nombre":"Developer",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":"El escenario actual para desarrollar software es a través de un editor de código y la máquina que va a ejecutar las órdenes y la lógica. Siendo así, el origen implica a éstos.",
+                "tx1":"El escenario actual para desarrollar software es a través de un editor de código y la máquina que va a ejecutar las órdenes y la lógica. Siendo así, el origen implica a estos en sus comienzos.",
                 "tx2":"Empezando en la década de 1940, las primeras computadoras electrónicas, como el ENIAC y el UNIVAC, fueron creadas para propósitos específicos. Los programadores escribían instrucciones directamente en el código de máquina.",
                 "tx3":"En la década de 1950 los primeros lenguajes empezando por 'Fortran' el primer lenguaje de programación de alto nivel, diseñado para la programación científica y de ingeniería, desarrollado por IBM.",
                 "tx4":"El primer lenguaje de programación diseñado para inteligencia artificial 'Lips' en 1958 desarrollado por John McCarthy",
@@ -858,7 +858,16 @@
             "nombre":"Java",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Uno de los lenguajes más impactantes y aclamados en la historia del desarrollo, Java fue concebido por James Gosling, Mike Sheridan y Patrick Naughton en Sun Microsystems en 1991. Inicialmente, el proyecto se llamaba 'Green' y estaba centrado en la creación de software para electrodomésticos y dispositivos integrados.",
+                "tx2":"En 1992, el equipo de desarrollo empezó a trabajar en un lenguaje de programación independiente de la plataforma y en un entorno de ejecución, conocido como 'Oak'. En 1995, Oak fue renombrado oficialmente a Java.",
+                "tx3":"La primera versión Java 1.0 fue lanzada oficialmente en 1995, marcando el inicio de la era Java. La plataforma Java incluía un lenguaje de programación, una máquina virtual (JVM), y una amplia biblioteca estándar.",
+                "tx4":"De 1996 a 1998, se integraron características como portabilidad, seguridad y la capacidad de ejecutarse en cualquier dispositivo con una JVM. También se introdujo el concepto de 'applets', pequeñas aplicaciones Java integradas en páginas web.",
+                "tx5":"La famosa librería Swing en la versión 2 de Java, también conocida como J2SE 1.2, fue lanzado en 1998 e introdujo importantes mejoras en el lenguaje y la plataforma.",
+                "tx6":"Luego de 2000-2004, muchas empresas lo tomaron para sus emprendimientos y las ideas en los desarrollos. La introducción de las tecnologías J2EE (Java 2 Platform, Enterprise Edition) y J2ME (Java 2 Platform, Micro Edition) amplió su alcance en el desarrollo web y móvil.",
+                "tx7":"En 2010, Oracle Corporation adquirió Sun Microsystems, y con ello, se convirtió en el nuevo responsable del desarrollo y la dirección de Java.",
+                "tx8":"Java 7 se lanzó en 2011 con mejoras en el lenguaje y la máquina virtual. Java 8, lanzado en 2014, fue un hito importante con la introducción de expresiones lambda, Streams API, y la nueva API de fecha y hora.",
+                "tx9":"En 2006, con el proyecto OpenJDK (Java Development Kit) la comunidad de desarrolladores desempeñó un papel esencial en la evolución continua de Java, abriéndose quedando más accesible para la comunidad.",
+                "tx10":"Muchos lenguajes siguen el camino del crecimiento y Java en 2020 en adelante sigue evolucionando con características como Records en Java 16 y Patrones en Instancia en Java 17. Se espera que las futuras versiones continúen mejorando la eficiencia y la usabilidad del lenguaje."
             },
             "descripcionCorta":""
         },
@@ -884,7 +893,17 @@
             "nombre":"Javascript",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Remontando al punto inicial cuando la web estaba en su pleno crecimiento, JavaScript entró como el complemento ideal, creado por Brendan Eich en 1995 mientras trabajaba en Netscape Communications Corporation. El objetivo era desarrollar un lenguaje de scripting del lado del cliente para mejorar la interactividad en las páginas web.",
+                "tx2":"Inicialmente, el lenguaje se llamaba 'LiveScript', pero debido a un acuerdo de colaboración entre Netscape y Sun Microsystems, se cambió el nombre a 'JavaScript' para capitalizar la popularidad de Java en ese momento.",
+                "tx3":"En búsqueda de la animación, la primera implementación de JavaScript se lanzó con Netscape Navigator 2.0 en septiembre de 1995. La inclusión de JavaScript permitió a los desarrolladores crear páginas web más dinámicas e interactivas.",
+                "tx4":"Llegada de ECMAScript en 1997. Para estandarizar JavaScript y garantizar su compatibilidad entre navegadores, Netscape presentó el lenguaje al European Computer Manufacturers Association (ECMA). Se publicó la primera edición de ECMAScript, que es la especificación estándar que rige JavaScript.",
+                "tx5":"De 1996 a 1999, incursionando en un camino aparte de JavaScript, Microsoft desarrolló su propia implementación de JavaScript llamada JScript para Internet Explorer. Durante este período, hubo una competencia entre las implementaciones de JavaScript de Netscape y Microsoft, lo que llevó a algunas incompatibilidades.",
+                "tx6":"1997-1998. Ingresan al escenario DOM (Document Object Model) y DHTML (Dinamic HTML), lo que permitió a los desarrolladores manipular la estructura y presentación de las páginas web de manera dinámica, utilizando JavaScript. Esto aumentó la capacidad de interactividad en el lado del cliente.",
+                "tx7":"JavaScript en la web 2.0 Se utilizaron técnicas como AJAX (Asynchronous JavaScript and XML) para lograr actualizaciones de página sin necesidad de recargarla.",
+                "tx8":"De 2005 en adelante se desarrollaron bibliotecas y frameworks como jQuery, Prototype, y luego, en la década de 2010, frameworks más avanzados como Angular, React y Vue.js.",
+                "tx9":"JavaScript evoluciona con la llegada de Node JS lanzada por Ryan Dahl en 2009, permitiendo a los desarrolladores ejecutar JavaScript en el lado del servidor. Esto marcó un hito importante, ya que antes JavaScript era principalmente un lenguaje de cliente.",
+                "tx10":"En 2015 entró ECMAScript 6, también conocido como ES6 o ECMAScript. Este introdujo nuevas características importantes en el lenguaje, como clases, arrow functions, let y const, mejor manejo de promesas, y más, mejorando la legibilidad y funcionalidad del código.",
+                "tx11":"El desarrollo de JavaScript continúa con actualizaciones regulares. Las versiones más recientes de ECMAScript, conocidas como ESNext, introducen constantes mejoras y nuevas características para mejorar el desarrollo de aplicaciones modernas."
             },
             "descripcionCorta":""
         },
