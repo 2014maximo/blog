@@ -929,7 +929,14 @@
             "nombre":"kotlin",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Creado por JetBrains, empresa de desarrollo en la sede en San Petersburgo, Rusia. El proyecto se inició en 2010 con el objetivo de abordar las limitaciones y desafíos que enfrentaban al utilizar Java en el desarrollo de software.",
+                "tx2":"Se presentó Kotlin en julio de 2011 como un nuevo lenguaje de programación interoperable con Java, lo que significa que podía utilizarse junto con el código Java existente.",
+                "tx3":"El desarrollo de Kotlin fue para ser conciso, expresivo, seguro y totalmente interoperable con Java. La sintaxis de Kotlin se inspira en varios lenguajes, incluyendo Java, Groovy, Scala y C#.",
+                "tx4":"Kotlin abrió sus puertas bajo la licencia Apache 2.0, ganó gradualmente popularidad entre los desarrolladores Java, y algunas empresas comenzaron a adoptarlo en sus proyectos.",
+                "tx5":"Con la versión 1.0, Google anunció oficialmente el soporte para Kotlin en Android, elevando aún más su visibilidad y adopción en 2017.",
+                "tx6":"JetBrains continuó mejorando Kotlin con actualizaciones regulares, introduciendo nuevas características y mejoras. Kotlin se convirtió en un lenguaje de programación multifuncional, admitiendo tanto la programación orientada a objetos como la programación funcional.",
+                "tx7":"Del 2017 en adelante, Kotlin no solo se utiliza para el desarrollo de Android, sino que también se ha ampliado para admitir el desarrollo en diversas plataformas, incluyendo el desarrollo del lado del servidor, el desarrollo web y el desarrollo de aplicaciones de escritorio. JetBrains ha trabajado en proyectos como Kotlin/Native y Kotlin Multiplatform, permitiendo a los desarrolladores utilizar Kotlin para crear aplicaciones que se ejecuten en una variedad de plataformas, incluyendo iOS, MacOS y JavaScript.",
+                "tx8":"Es muy notable hasta donde ha llegado el proyecto de JetBrains, especialmente en el contexto del desarrollo de Android. Su crecimiento continuo y su enfoque en la interoperabilidad con Java lo han posicionado como una opción popular en el mundo del desarrollo de software moderno."
             },
             "descripcionCorta":""
         },
@@ -947,7 +954,7 @@
             "nombre":"Kubernetes",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Buscando mejorar la eficiencia en la ejecución de aplicaciones a nivel de producción, Google desarrolló un sistema interno llamado Borg para la gestión de contenedores, desde 2003"
             },
             "descripcionCorta":""
         },

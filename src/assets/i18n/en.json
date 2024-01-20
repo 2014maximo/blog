@@ -924,7 +924,14 @@
             "nombre":"kotlin",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Created by JetBrains, a development company based in St. Petersburg, Russia. The project was initiated in 2010 with the goal of addressing the limitations and challenges they faced when using Java in software development.",
+                "tx2":"Kotlin was introduced in July 2011 as a new programming language interoperable with Java, meaning that it could be used alongside existing Java code.",
+                "tx3":"Kotlin was developed to be concise, expressive, secure and fully interoperable with Java. Kotlin's syntax is inspired by several languages, including Java, Groovy, Scala and C#.",
+                "tx4":"Kotlin opened its doors under the Apache 2.0 license, gradually gained popularity among Java developers, and some companies began to adopt it in their projects.",
+                "tx5":"With version 1.0, Google officially announced support for Kotlin on Android, further elevating its visibility and adoption in 2017.",
+                "tx6":"JetBrains continued to improve Kotlin with regular updates, introducing new features and enhancements. Kotlin became a multifunctional programming language, supporting both object-oriented and functional programming.",
+                "tx7":"From 2017 onwards, Kotlin is not only used for Android development, but has also expanded to support development on a variety of platforms, including server-side development, web development, and desktop application development. JetBrains has worked on projects such as Kotlin/Native and Kotlin Multiplatform, allowing developers to use Kotlin to create applications that run on a variety of platforms, including iOS, macOS and JavaScript.",
+                "tx8":"It is quite remarkable how far the JetBrains project has come, especially in the context of Android development. Its continued growth and focus on Java interoperability has positioned it as a popular choice in the world of modern software development."
             },
             "descripcionCorta":""
         },

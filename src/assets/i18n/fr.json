@@ -928,7 +928,14 @@
             "nombre":"kotlin",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Créé par JetBrains, une société de développement basée à Saint-Pétersbourg, en Russie. Le projet a été initié en 2010 dans le but de répondre aux limitations et aux défis rencontrés lors de l'utilisation de Java dans le développement de logiciels.",
+                "tx2":"Kotlin a été introduit en juillet 2011 en tant que nouveau langage de programmation interopérable avec Java, ce qui signifie qu'il peut être utilisé en même temps que le code Java existant.",
+                "tx3":"Kotlin a été développé pour être concis, expressif, sûr et totalement interopérable avec Java. La syntaxe de Kotlin s'inspire de plusieurs langages, dont Java, Groovy, Scala et C#.",
+                "tx4":"Kotlin a ouvert ses portes sous la licence Apache 2.0, a progressivement gagné en popularité parmi les développeurs Java, et certaines entreprises ont commencé à l'adopter dans leurs projets.",
+                "tx5":"Avec la version 1.0, Google a officiellement annoncé la prise en charge de Kotlin sur Android, augmentant encore sa visibilité et son adoption en 2017.",
+                "tx6":"JetBrains a continué à améliorer Kotlin par des mises à jour régulières, en introduisant de nouvelles fonctionnalités et améliorations. Kotlin est devenu un langage de programmation multifonctionnel, prenant en charge à la fois la programmation orientée objet et la programmation fonctionnelle.",
+                "tx7":"Depuis 2017, Kotlin n'est pas seulement utilisé pour le développement Android, mais s'est également étendu pour prendre en charge le développement sur une variété de plateformes, y compris le développement côté serveur, le développement web et le développement d'applications de bureau. JetBrains a travaillé sur des projets tels que Kotlin/Native et Kotlin Multiplatform, permettant aux développeurs d'utiliser Kotlin pour créer des applications fonctionnant sur diverses plateformes, notamment iOS, MacOS et JavaScript.",
+                "tx8":"Le chemin parcouru par le projet JetBrains est remarquable, en particulier dans le contexte du développement d'Android. Sa croissance continue et l'accent mis sur l'interopérabilité Java l'ont positionné comme un choix populaire dans le monde du développement de logiciels modernes."
             },
             "descripcionCorta":""
         },

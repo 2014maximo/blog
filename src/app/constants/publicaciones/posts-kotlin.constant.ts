@@ -11,7 +11,16 @@ export const KOTLIN: DatosPost[] = [
         id: 'd8b1f94e-7b7e-41c1-a6d7-151e251c2889',
         nombre: 'KOTLIN.kotlin.nombre',
         referenciaBusqueda:'KOTLIN.kotlin.referenciaBusqueda',
-        descripcion: ['KOTLIN.kotlin.descripcion.tx1'],
+        descripcion: [
+            'KOTLIN.kotlin.descripcion.tx1',
+            'KOTLIN.kotlin.descripcion.tx2',
+            'KOTLIN.kotlin.descripcion.tx3',
+            'KOTLIN.kotlin.descripcion.tx4',
+            'KOTLIN.kotlin.descripcion.tx5',
+            'KOTLIN.kotlin.descripcion.tx6',
+            'KOTLIN.kotlin.descripcion.tx7',
+            'KOTLIN.kotlin.descripcion.tx8'
+        ],
         descripcionCorta: 'KOTLIN.kotlin.descripcionCorta',
         ruta: 'kotlin',
         componente: 'KotlinComponent',

@@ -335,7 +335,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
                 autor:'',
                 linkAlAutor:'',
                 descripciones: [
-                    'Kotlin tuvo su origen como ...'
+                    ''
                 ]
             }
         ],
@@ -357,10 +357,10 @@ export const CATEGORIA: CategoriaPostModel[] = [
         color: 'c-Kubernetes',
         descripcion: [
             {
-                autor:'Google',
-                linkAlAutor:'https://research.google/pubs/pub43438/',
+                autor:'',
+                linkAlAutor:'',
                 descripciones: [
-                    'Kubertes en su inicio fue ...'
+                    ''
                 ]
             }
         ],
