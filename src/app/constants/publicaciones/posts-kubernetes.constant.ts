@@ -11,7 +11,14 @@ export const KUBERNETES: DatosPost[] = [
         id: 'b4b3eae9-5f63-4d8e-851b-57bb6982a919',
         nombre: 'KUBERNETES.kubernetes.nombre',
         referenciaBusqueda:'KUBERNETES.kubernetes.referenciaBusqueda',
-        descripcion: ['KUBERNETES.kubernetes.descripcion.tx1'],
+        descripcion: [
+            'KUBERNETES.kubernetes.descripcion.tx1',
+            'KUBERNETES.kubernetes.descripcion.tx2',
+            'KUBERNETES.kubernetes.descripcion.tx3',
+            'KUBERNETES.kubernetes.descripcion.tx4',
+            'KUBERNETES.kubernetes.descripcion.tx5',
+            'KUBERNETES.kubernetes.descripcion.tx6'
+        ],
         descripcionCorta: 'KUBERNETES.kubernetes.descripcionCorta',
         ruta: 'kotlin',
         componente: 'KotlinComponent',
