@@ -11,7 +11,10 @@ export const LINUX: DatosPost[] = [
         id: 'cb344e3e-8b47-4a86-8c26-c7f037ae239a',
         nombre: 'LINUX.linux.nombre',
         referenciaBusqueda:'LINUX.linux.referenciaBusqueda',
-        descripcion: ['LINUX.linux.descripcion.tx1'],
+        descripcion: [
+            'LINUX.linux.descripcion.tx1',
+            'LINUX.linux.descripcion.tx2'
+        ],
         descripcionCorta: 'LINUX.linux.descripcionCorta',
         ruta: 'linux',
         componente: 'LinuxComponent',

@@ -959,7 +959,7 @@
                 "tx3":"En 2013, Docker fue lanzado y proporcionó una forma estandarizada de empaquetar aplicaciones y sus dependencias en contenedores. Esto marcó un hito importante para la adopción de contenedores y contribuyó al interés generalizado en la orquestación de contenedores.",
                 "tx4":"En junio de 2014, Google anunció Kubernetes como un proyecto de código abierto en colaboración con la Linux Foundation. Kubernetes se diseñó para ofrecer una solución de orquestación de contenedores basada en la experiencia acumulada con Borg.",
                 "tx5":"En julio de 2015, Kubernetes lanzó su primera versión estable, la versión 1.0. Poco después, Kubernetes fue transferido a la Cloud Native Computing Foundation (CNCF), una fundación neutral que fomenta el desarrollo de tecnologías nativas de la nube.",
-                "tx6":""
+                "tx6":"De 2020 en adelante Kubernetes ha extendido su alcance para soportar implementaciones en el borde (edge computing) y entornos multi-nube, ofreciendo flexibilidad y portabilidad en diversas configuraciones."
             },
             "descripcionCorta":""
         },
@@ -977,7 +977,8 @@
             "nombre":"Linux",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"El punto de partida en 1991, un estudiante finlandés Linus Torvalds, desarrolló el núcleo del sistema operativo como un proyecto personal, inspirado en Minix (un sistema Unix-like para educación). Publicó el código fuente en Internet, invitando a otros a contribuir y mejorar.",
+                "tx2":""
             },
             "descripcionCorta":""
         },

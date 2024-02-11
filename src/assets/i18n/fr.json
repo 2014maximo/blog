@@ -953,7 +953,12 @@
             "nombre":"Kubernetes",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Cherchant à améliorer l'efficacité de l'exécution des applications de production, Google a développé depuis 2003 un système interne appelé Borg pour la gestion des conteneurs.",
+                "tx2":"Borg est devenu la base sur laquelle Kubernetes a été construit. Pendant plus d'une décennie, Google a perfectionné et utilisé Borg en interne pour orchestrer et gérer les applications dans ses énormes centres de données.",
+                "tx3":"En 2013, Docker a été publié et a fourni une méthode standardisée pour empaqueter les applications et leurs dépendances dans des conteneurs. Cela a marqué une étape importante pour l'adoption des conteneurs et a contribué à l'intérêt généralisé pour l'orchestration des conteneurs.",
+                "tx4":"En juin 2014, Google a annoncé que Kubernetes était un projet open source en collaboration avec la Fondation Linux. Kubernetes a été conçu pour fournir une solution d'orchestration de conteneurs basée sur l'expérience acquise avec Borg.",
+                "tx5":"En juillet 2015, Kubernetes a publié sa première version stable, la version 1.0. Peu après, Kubernetes a été transféré à la Cloud Native Computing Foundation (CNCF), une fondation neutre qui encourage le développement de technologies cloud-natives.",
+                "tx6":"À partir de 2020, Kubernetes a étendu son champ d'action pour prendre en charge les déploiements d'informatique périphérique et les environnements multicloud, offrant flexibilité et portabilité dans diverses configurations."
             },
             "descripcionCorta":""
         },

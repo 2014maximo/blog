@@ -385,7 +385,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
                 autor:'',
                 linkAlAutor:'',
                 descripciones:[
-                    'Linux en su origen ...'
+                    ''
                 ]
             }
         ],
