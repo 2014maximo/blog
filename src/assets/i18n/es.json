@@ -977,9 +977,14 @@
             "nombre":"Linux",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":"Remontando el inicio, desde la creación de 'Unix', en los laboratorios Bell de AT&T a finales de 1960, se crea un sistema operativo para varias tareas, se hace popular en entornos académicos y empresariales.",
-                "tx2":"Ya en 1991, un estudiante finlandés Linus Torvalds, desarrolló el núcleo del sistema operativo como un proyecto personal, inspirado en Minix (un sistema Unix-like para educación). Publicó el código fuente en Internet, invitando a otros a contribuir y mejorar.",
-                "tx3":""
+                "tx1":"Remontando el inicio, desde la creación de 'Unix', en los laboratorios Bell de AT&T a finales de 1960, se crea un sistema operativo para varias tareas que se hace popular en entornos académicos y empresariales.",
+                "tx2":"Richard Stallman y el Proyecto GNU: A principios de la década de 1980, Richard Stallman, un programador y defensor del software libre, inició el Proyecto GNU con el objetivo de crear un sistema operativo completamente libre y de código abierto. A lo largo de la década, se desarrollaron numerosas herramientas y componentes para este sistema operativo, pero faltaba el núcleo.",
+                "tx3":"Ya en 1991, un estudiante finlandés Linus Torvalds desarrolló el núcleo del sistema operativo como un proyecto personal, inspirado en Minix (un sistema Unix-like para educación). Inicialmente se llamaba \"Frea\", luego fue renombrado como \"Linux\" por Ari Lemmke, el administrador del servidor FTP donde se alojaba el código. Linus Torvalds liberó la primera versión del núcleo Linux (versión 0.01) bajo la licencia GPL (Licencia Pública General de GNU) de software libre. Publicó el código fuente en Internet, invitando a otros a contribuir y mejorar.",
+                "tx4":"A medida del transcurso del tiempo se agregaban funcionalidades y mayor estabilidad al sistema operativo, programadores de todo el mundo ponen de su parte ayudando a mejorar y expandirlo.",
+                "tx5":"Empresas como IBM, Oracle, Red Hat y SUSE invirtieron en el desarrollo y soporte de Linux, lo que ayudó a aumentar su legitimidad en entornos empresariales.",
+                "tx6":"En medio de su crecimiento, Linux se expande a otros dispositivos más allá de las computadoras personales y servidores. Se utiliza en dispositivos embebidos, teléfonos inteligentes (a través de Android, una versión modificada de Linux), sistemas embebidos en automóviles, electrodomésticos y más.",
+                "tx7":"Pasando por un sendero lleno de retos y desafíos en el mercado de PC escritorio y dominado por Windows y MacOS. Sin embargo, ha ganado seguidores entre usuarios técnicos y entusiastas, y distribuciones como Ubuntu, Fedora y Linux Mint han hecho que Linux sea más accesible para los usuarios cotidianos.",
+                "tx8":"En nuestro mundo actual en el que la familia de desarrolladores crece cada día, Linux ha significado un gran regalo al desarrollo de software, con todas sus prestaciones y utilidades que se mantienen a la vanguardia. Como desarrolladores esperemos que llegue al podio y supere enormemente a los otros con su cara amable y libre."
             },
             "descripcionCorta":""
         },
