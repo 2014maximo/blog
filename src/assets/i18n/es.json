@@ -977,8 +977,9 @@
             "nombre":"Linux",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":"El punto de partida en 1991, un estudiante finlandés Linus Torvalds, desarrolló el núcleo del sistema operativo como un proyecto personal, inspirado en Minix (un sistema Unix-like para educación). Publicó el código fuente en Internet, invitando a otros a contribuir y mejorar.",
-                "tx2":""
+                "tx1":"Remontando el inicio, desde la creación de 'Unix', en los laboratorios Bell de AT&T a finales de 1960, se crea un sistema operativo para varias tareas, se hace popular en entornos académicos y empresariales.",
+                "tx2":"Ya en 1991, un estudiante finlandés Linus Torvalds, desarrolló el núcleo del sistema operativo como un proyecto personal, inspirado en Minix (un sistema Unix-like para educación). Publicó el código fuente en Internet, invitando a otros a contribuir y mejorar.",
+                "tx3":""
             },
             "descripcionCorta":""
         },
