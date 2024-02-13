@@ -972,7 +972,14 @@
             "nombre":"Linux",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Going back to the beginning, from the creation of 'Unix' at AT&T Bell Labs in the late 1960s, a multi-tasking operating system is created that becomes popular in academic and business environments.",
+                "tx2":"Richard Stallman and the GNU Project: In the early 1980s, Richard Stallman, a programmer and free software advocate, started the GNU Project with the goal of creating a completely free and open source operating system. Throughout the decade, numerous tools and components were developed for this operating system, but the kernel was missing.",
+                "tx3":"As early as 1991, a Finnish student Linus Torvalds developed the operating system kernel as a personal project, inspired by Minix (a Unix-like system for education). Initially called \"Freax\", it was later renamed to \"Linux\" by Ari Lemmke, the administrator of the FTP server where the code was hosted. Linus Torvalds released the first version of the Linux kernel (version 0.01) under the free software GPL (GNU General Public License). He published the source code on the Internet, inviting others to contribute and improve.",
+                "tx4":"As functionality and stability were added to the operating system over time, programmers from all over the world did their part in helping to improve and expand it.",
+                "tx5":"Companies such as IBM, Oracle, Red Hat and SUSE invested in Linux development and support, which helped increase its legitimacy in enterprise environments.",
+                "tx6":"Amid its growth, Linux is expanding to devices beyond personal computers and servers. It is used in embedded devices, smartphones (via Android, a modified version of Linux), embedded systems in automobiles, home appliances and more.",
+                "tx7":"Going through a challenging and challenging path in the desktop PC market and dominated by Windows and MacOS, Linux has gained a following among technical users and enthusiasts, and distributions such as Ubuntu, Fedora and Linux Mint have made it more accessible to everyday users. However, it has gained a following among technical users and enthusiasts, and distributions such as Ubuntu, Fedora and Linux Mint have made Linux more accessible to everyday users.",
+                "tx8":"In our current world where the family of developers is growing every day, Linux has meant a great gift to software development, with all its features and utilities that remain at the forefront. As developers let's hope that it makes it to the podium and greatly surpasses the others with its friendly and free face."
             },
             "descripcionCorta":""
         },

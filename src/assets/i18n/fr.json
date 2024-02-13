@@ -976,7 +976,14 @@
             "nombre":"Linux",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Si l'on revient au début, à la création d'\"Unix\" aux laboratoires AT&T Bell à la fin des années 1960, un système d'exploitation multitâche est créé et devient populaire dans les milieux universitaires et professionnels.",
+                "tx2":"Richard Stallman et le projet GNU : Au début des années 1980, Richard Stallman, programmeur et défenseur des logiciels libres, a lancé le projet GNU dans le but de créer un système d'exploitation entièrement libre et gratuit. Tout au long de la décennie, de nombreux outils et composants ont été développés pour ce système d'exploitation, mais il manquait le noyau.",
+                "tx3":"Dès 1991, un étudiant finlandais, Linus Torvalds, a développé le noyau du système d'exploitation dans le cadre d'un projet personnel, en s'inspirant de Minix (un système de type Unix destiné à l'enseignement). Initialement appelé \"Frea\", il a ensuite été rebaptisé \"Linux\" par Ari Lemmke, l'administrateur du serveur FTP où le code était hébergé. Linus Torvalds a publié la première version du noyau Linux (version 0.01) sous la licence de logiciel libre GNU General Public License (GPL). Il a publié le code source sur l'internet, invitant d'autres personnes à y contribuer et à l'améliorer.",
+                "tx4":"Au fil du temps, le système d'exploitation a gagné en fonctionnalité et en stabilité, et les programmeurs du monde entier ont contribué à l'améliorer et à l'étendre.",
+                "tx5":"Des entreprises telles qu'IBM, Oracle, Red Hat et SUSE ont investi dans le développement et le soutien de Linux, ce qui a contribué à accroître sa légitimité dans les environnements d'entreprise.",
+                "tx6":"Dans le cadre de sa croissance, Linux s'étend à d'autres appareils que les ordinateurs personnels et les serveurs. Il est utilisé dans les appareils embarqués, les smartphones (via Android, une version modifiée de Linux), les systèmes embarqués dans les voitures, les appareils électroménagers, etc.",
+                "tx7":"Il a connu un parcours difficile sur le marché des ordinateurs de bureau dominé par Windows et MacOS. Cependant, il a gagné des adeptes parmi les utilisateurs techniques et les passionnés, et des distributions telles qu'Ubuntu, Fedora et Linux Mint ont rendu Linux plus accessible aux utilisateurs de tous les jours.",
+                "tx8":"Dans le monde d'aujourd'hui où la famille des développeurs s'agrandit chaque jour, Linux a été un grand cadeau pour le développement de logiciels, avec toutes ses fonctionnalités et ses utilitaires qui restent au premier plan. En tant que développeurs, espérons qu'il atteindra le podium et dépassera largement les autres avec son visage amical et libre."
             },
             "descripcionCorta":""
         },
