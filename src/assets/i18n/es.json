@@ -1007,7 +1007,7 @@
                 "tx3":"Junto con el desarrollo de .NET Framework, Microsoft creó un nuevo lenguaje de programación llamado C#. C# fue diseñado para ser un lenguaje moderno y orientado a objetos, que aprovechara las características de la plataforma .NET.",
                 "tx4":"Microsoft anunció .NET Framework en el año 2000 y lo lanzó oficialmente en febrero de 2002 como una plataforma de desarrollo para construir aplicaciones de software en Windows. .NET Framework proporcionó un entorno de ejecución común, una biblioteca de clases unificada y herramientas de desarrollo integradas para varios lenguajes de programación, incluyendo C#, Visual Basic.NET y C++.",
                 "tx5":"Con el paso del tiempo surgían nuevas plataformas, Microsoft extendió .NET Framework para admitir otros sistemas operativos además de Windows. Esto incluyó el desarrollo de .NET Core, una versión modular y multiplataforma de .NET que fue lanzada en 2016.",
-                "tx6":""
+                "tx6":"Ya en noviembre de 2020, Microsoft anunció la unificación de .NET Core, Xamarin y Mono en una sola plataforma llamada .NET 5. Este fue el primer paso hacia la consolidación de la plataforma .NET. Luego, en noviembre de 2021, se lanzó .NET 6, la última versión principal de .NET, que ofrece aún más mejoras y características, así como una mayor convergencia entre diferentes cargas de trabajo y tipos de aplicaciones."
             },
             "descripcionCorta":""
         },
@@ -1033,7 +1033,15 @@
             "nombre":"Php",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"En 1994 creado como una herramienta para rastrear las visitas a su curriculum personal, Rasmus Lerdorf crea un conjunto de scripts CGI escritos en C.",
+                "tx2":"En su forma original, PHP era conocido como 'Personal Home Page Tools' (Herramientas de Página Personal).",
+                "tx3":"En 1995, Lerdorf extendió el conjunto de herramientas y lanzó PHP/FI (Personal Home Page/Forms Interpreter), que incluía capacidades para crear aplicaciones web dinámicas y formularios interactivos. PHP/FI fue la primera versión más reconocible de PHP y permitió a los desarrolladores crear páginas web dinámicas de manera más eficiente.",
+                "tx4":"Lerdorf dió el punto de partida, pero a medida que se hacía popular PHP/FI, la colaboración comunitaria fue fundamental para el crecimiento y la evolución de PHP.",
+                "tx5":"En 1998, Zeev Suraski y Andi Gutmans reescribieron el núcleo de PHP y lanzaron PHP 3. Esta versión introdujo mejoras significativas en el rendimiento y la funcionalidad del lenguaje, incluida una arquitectura de módulos que permitía la expansión y la integración con otros sistemas y tecnologías.",
+                "tx6":"PHP 3 fue un gran éxito y atrajo a una amplia gama de desarrolladores y empresas que buscaban crear aplicaciones web dinámicas. La simplicidad del lenguaje, su integración con HTML y su amplio soporte para bases de datos lo convirtieron en una opción popular para el desarrollo web.",
+                "tx7":"En 2000, se lanzó PHP 4, que incluía mejoras adicionales en rendimiento, estabilidad y características. PHP 4 fue una versión muy exitosa y contribuyó aún más a la adopción generalizada de PHP en la comunidad de desarrollo web.",
+                "tx8":"En 2004, se lanzó PHP 5, que incluía un motor Zend completamente renovado y un soporte mejorado para programación orientada a objetos (POO). Esta versión fue un gran paso adelante en la evolución de PHP y lo estableció como un lenguaje de programación poderoso y versátil para el desarrollo web.",
+                "tx9":"PHP 7, lanzado en 2015, introdujo mejoras significativas en rendimiento y eficiencia de memoria, lo que lo hizo aún más atractivo para el desarrollo web de alto rendimiento. PHP 7.4, PHP 8 y las versiones posteriores continuaron mejorando el lenguaje con nuevas características, optimizaciones y mejoras de seguridad."
             },
             "descripcionCorta":""
         },

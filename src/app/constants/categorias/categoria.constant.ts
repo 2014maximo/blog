@@ -435,7 +435,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
                 autor:'',
                 linkAlAutor:'',
                 descripciones:[
-                    'Php al principio ...'
+                    ''
                 ]
             }
         ],

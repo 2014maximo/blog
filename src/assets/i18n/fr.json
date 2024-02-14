@@ -1001,7 +1001,12 @@
             "nombre":"Net",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"En tant que filiale de Microsoft et société mère ayant joué un rôle dans la création de la plate-forme Windows, Microsoft s'est imposée comme un acteur majeur dans le développement de logiciels pour PC à mesure que l'informatique personnelle prenait de l'importance dans les années 1980.",
+                "tx2":"Microsoft a reconnu la nécessité d'une plate-forme unifiée qui permettrait aux développeurs de créer des applications logicielles de manière plus efficace et plus cohérente. Elle a commencé à travailler sur ce qui allait devenir le cadre .NET.",
+                "tx3":"Parallèlement au développement du cadre .NET, Microsoft a créé un nouveau langage de programmation appelé C#. C# a été conçu pour être un langage moderne, orienté objet, qui tirerait parti des fonctionnalités de la plateforme .NET.",
+                "tx4":"Microsoft a annoncé le .NET Framework en 2000 et l'a officiellement publié en février 2002 en tant que plate-forme de développement pour la création d'applications logicielles sous Windows. Le .NET Framework fournit un environnement d'exécution commun, une bibliothèque de classes unifiée et des outils de développement intégrés pour plusieurs langages de programmation, notamment C#, Visual Basic.NET et C++.",
+                "tx5":"Au fur et à mesure de l'apparition de nouvelles plateformes, Microsoft a étendu le cadre .NET pour prendre en charge des systèmes d'exploitation autres que Windows. Cela s'est traduit par le développement de .NET Core, une version modulaire et multiplateforme de .NET qui a été publiée en 2016.",
+                "tx6":"En novembre 2020, Microsoft a annoncé l'unification de .NET Core, Xamarin et Mono en une seule plateforme appelée .NET 5. Il s'agissait de la première étape vers la consolidation de la plateforme .NET. Puis, en novembre 2021, .NET 6, la dernière version majeure de .NET, a été publiée, offrant encore plus d'améliorations et de fonctionnalités, ainsi qu'une plus grande convergence entre les différentes charges de travail et les différents types d'applications."
             },
             "descripcionCorta":""
         },
@@ -1027,7 +1032,15 @@
             "nombre":"Php",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"En 1994, Rasmus Lerdorf a créé un ensemble de scripts CGI écrits en C pour suivre les visites sur son CV personnel.",
+                "tx2":"À l'origine, PHP était connu sous le nom de \"Personal Home Page Tools\".",
+                "tx3":"En 1995, Lerdorf a étendu la boîte à outils et publié PHP/FI (Personal Home Page/Forms Interpreter), qui incluait des capacités de création d'applications web dynamiques et de formulaires interactifs. PHP/FI a été la première version plus reconnaissable de PHP et a permis aux développeurs de créer des pages web dynamiques plus efficacement.",
+                "tx4":"Lerdorf a fourni le point de départ, mais au fur et à mesure que PHP/FI devenait populaire, la collaboration de la communauté était fondamentale pour la croissance et l'évolution de PHP.",
+                "tx5":"En 1998, Zeev Suraski et Andi Gutmans réécrivent le noyau de PHP et publient PHP 3. Cette version apporte des améliorations significatives en termes de performances et de fonctionnalités du langage, notamment une architecture modulaire qui permet l'expansion et l'intégration avec d'autres systèmes et technologies.",
+                "tx6":"PHP 3 a connu un énorme succès et a attiré un large éventail de développeurs et d'entreprises souhaitant créer des applications web dynamiques. La simplicité du langage, son intégration avec HTML et son support étendu des bases de données en ont fait un choix populaire pour le développement web.",
+                "tx7":"En 2000, PHP 4 a été publié, avec des améliorations supplémentaires en termes de performances, de stabilité et de fonctionnalités. PHP 4 a connu un grand succès et a contribué à l'adoption généralisée de PHP dans la communauté des développeurs web.",
+                "tx8":"En 2004, PHP 5 a été publié, avec un moteur Zend entièrement remanié et une meilleure prise en charge de la programmation orientée objet (POO). Cette version a constitué une étape majeure dans l'évolution de PHP et l'a établi comme un langage de programmation puissant et polyvalent pour le développement web.",
+                "tx9":"PHP 7, publié en 2015, a apporté des améliorations significatives en termes de performances et d'efficacité de la mémoire, le rendant encore plus attractif pour le développement web haute performance. PHP 7.4, PHP 8 et les versions suivantes ont continué à améliorer le langage avec de nouvelles fonctionnalités, des optimisations et des améliorations de la sécurité."
             },
             "descripcionCorta":""
         },

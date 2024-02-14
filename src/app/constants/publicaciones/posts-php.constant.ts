@@ -11,7 +11,17 @@ export const PHP: DatosPost[] = [
         id: 'b7cfec07-e492-400f-9238-f6cf3daba5e9',
         nombre: 'PHP.php.nombre',
         referenciaBusqueda:'PHP.php.referenciaBusqueda',
-        descripcion: ['PHP.php.descripcion.tx1'],
+        descripcion: [
+            'PHP.php.descripcion.tx1',
+            'PHP.php.descripcion.tx2',
+            'PHP.php.descripcion.tx3',
+            'PHP.php.descripcion.tx4',
+            'PHP.php.descripcion.tx5',
+            'PHP.php.descripcion.tx6',
+            'PHP.php.descripcion.tx7',
+            'PHP.php.descripcion.tx8',
+            'PHP.php.descripcion.tx9'
+        ],
         descripcionCorta: 'PHP.php.descripcionCorta',
         ruta: 'php',
         componente: 'PhpComponent',
