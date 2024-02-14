@@ -10,7 +10,14 @@ export const NET: DatosPost[] = [
         id: 'a51c1552-365b-4012-9afd-28637fe5c1d7',
         nombre: 'NET.net.nombre',
         referenciaBusqueda:'NET.net.referenciaBusqueda',
-        descripcion: ['NET.net.descripcion.tx1'],
+        descripcion: [
+            'NET.net.descripcion.tx1',
+            'NET.net.descripcion.tx2',
+            'NET.net.descripcion.tx3',
+            'NET.net.descripcion.tx4',
+            'NET.net.descripcion.tx5',
+            'NET.net.descripcion.tx6'
+        ],
         descripcionCorta: 'NET.net.descripcionCorta',
         ruta: 'net',
         componente: 'NetComponent',

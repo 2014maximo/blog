@@ -410,7 +410,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
                 autor:'',
                 linkAlAutor:'',
                 descripciones:[
-                    'Net se origino como ...'
+                    ''
                 ]
             }
         ],

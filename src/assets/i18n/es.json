@@ -1002,7 +1002,12 @@
             "nombre":"Net",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Como parte de Microsoft y como un padre que hizo parte del origen de la mano de la plataforma Windows, a medida que la informática personal se volvía más prominente en la década de 1980, Microsoft se estableció como uno de los principales jugadores en el desarrollo de software para PC.",
+                "tx2":"Microsoft reconoció la necesidad de una plataforma unificada que permitiera a los desarrolladores crear aplicaciones de software de manera más eficiente y consistente. Comenzó a trabajar en lo que eventualmente se convertiría en .NET Framework.",
+                "tx3":"Junto con el desarrollo de .NET Framework, Microsoft creó un nuevo lenguaje de programación llamado C#. C# fue diseñado para ser un lenguaje moderno y orientado a objetos, que aprovechara las características de la plataforma .NET.",
+                "tx4":"Microsoft anunció .NET Framework en el año 2000 y lo lanzó oficialmente en febrero de 2002 como una plataforma de desarrollo para construir aplicaciones de software en Windows. .NET Framework proporcionó un entorno de ejecución común, una biblioteca de clases unificada y herramientas de desarrollo integradas para varios lenguajes de programación, incluyendo C#, Visual Basic.NET y C++.",
+                "tx5":"Con el paso del tiempo surgían nuevas plataformas, Microsoft extendió .NET Framework para admitir otros sistemas operativos además de Windows. Esto incluyó el desarrollo de .NET Core, una versión modular y multiplataforma de .NET que fue lanzada en 2016.",
+                "tx6":""
             },
             "descripcionCorta":""
         },

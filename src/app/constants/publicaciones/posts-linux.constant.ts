@@ -13,7 +13,13 @@ export const LINUX: DatosPost[] = [
         referenciaBusqueda:'LINUX.linux.referenciaBusqueda',
         descripcion: [
             'LINUX.linux.descripcion.tx1',
-            'LINUX.linux.descripcion.tx2'
+            'LINUX.linux.descripcion.tx2',
+            'LINUX.linux.descripcion.tx3',
+            'LINUX.linux.descripcion.tx4',
+            'LINUX.linux.descripcion.tx5',
+            'LINUX.linux.descripcion.tx6',
+            'LINUX.linux.descripcion.tx7',
+            'LINUX.linux.descripcion.tx8'
         ],
         descripcionCorta: 'LINUX.linux.descripcionCorta',
         ruta: 'linux',
