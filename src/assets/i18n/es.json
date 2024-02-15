@@ -1059,7 +1059,11 @@
             "nombre":"React",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Desarrollado por Facebook, creado por Jordan Walke, un ingeniero de software de Facebook, y se introdujo por primera vez en 2011 en la página de noticias de Facebook (News Feed). El objetivo principal de React era mejorar el rendimiento y la eficiencia de la representación de la interfaz de usuario en aplicaciones web complejas y dinámicas.",
+                "tx2":"React fue lanzado oficialmente como un proyecto de código abierto en GitHub en mayo de 2013. En un principio, fue adoptado internamente por Facebook y luego se extendió a otros productos de la empresa. La simplicidad, la eficiencia y la capacidad de reutilización del código de React atrajeron rápidamente la atención de la comunidad de desarrollo de software.",
+                "tx3":"A medida que React ganaba popularidad, se convirtió en uno de los frameworks de JavaScript más utilizados y ampliamente adoptados en la industria. Grandes empresas como Netflix, Airbnb, Instagram y WhatsApp comenzaron a utilizar React en sus aplicaciones web y móviles debido a su rendimiento, flexibilidad y comunidad activa.",
+                "tx4":"En 2015, Facebook anunció React Native, un marco de desarrollo de aplicaciones móviles basado en React.  React Native permite a los desarrolladores crear aplicaciones móviles nativas para iOS y Android utilizando JavaScript y React. Esto permitió a los equipos de desarrollo compartir código entre las aplicaciones web y móviles, lo que resultó en un desarrollo más eficiente y una experiencia de usuario consistente en múltiples plataformas.",
+                "tx5":"React ha tenido un impacto significativo en el ecosistema de desarrollo web y ha influenciado a otros frameworks y bibliotecas de JavaScript. Muchos otros proyectos, como Redux, Next.js y Gatsby, se han construido sobre React para proporcionar funcionalidades adicionales y mejorar la experiencia de desarrollo."
             },
             "descripcionCorta":""
         },
@@ -1078,7 +1082,7 @@
             "nombre":"Typescript",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"TypeScript fue creado por Anders Hejlsberg, un ingeniero de software danés conocido por su trabajo en Turbo Pascal, Delphi y C#. Hejlsberg y su equipo comenzaron a trabajar en TypeScript en 2010 en Microsoft. El objetivo principal era abordar las limitaciones de JavaScript en el desarrollo de aplicaciones web a gran escala, proporcionando tipos estáticos y otras características de lenguajes de programación modernos."
             },
             "descripcionCorta":""
         },

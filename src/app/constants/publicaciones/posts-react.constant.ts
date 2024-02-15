@@ -10,7 +10,14 @@ export const REACT: DatosPost[] = [
         id: '62a96ee3-75c7-4b01-aba7-d963ffd140bb',
         nombre: 'REACT.react.nombre',
         referenciaBusqueda:'REACT.react.referenciaBusqueda',
-        descripcion: ['REACT.react.descripcion.tx1'],
+        descripcion: [
+            'REACT.react.descripcion.tx1',
+            'REACT.react.descripcion.tx2',
+            'REACT.react.descripcion.tx3',
+            'REACT.react.descripcion.tx4',
+            'REACT.react.descripcion.tx5'
+
+        ],
         descripcionCorta: 'REACT.react.descripcionCorta',
         ruta: 'react',
         componente: 'ReactComponent',

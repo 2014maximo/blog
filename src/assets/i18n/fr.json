@@ -1058,7 +1058,11 @@
             "nombre":"React",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Développé par Facebook, créé par Jordan Walke, ingénieur logiciel chez Facebook, et introduit pour la première fois en 2011 sur le fil d'actualité de Facebook. L'objectif principal de React était d'améliorer les performances et l'efficacité du rendu de l'interface utilisateur dans les applications web complexes et dynamiques.",
+                "tx2":"React a été officiellement lancé en tant que projet open source sur GitHub en mai 2013. Il a d'abord été adopté en interne par Facebook, puis s'est étendu à d'autres produits de l'entreprise. La simplicité, l'efficacité et la réutilisabilité du code React ont rapidement attiré l'attention de la communauté des développeurs de logiciels.",
+                "tx3":"Au fur et à mesure que React gagnait en popularité, il est devenu l'un des frameworks JavaScript les plus utilisés et les plus largement adoptés dans l'industrie. De grandes entreprises telles que Netflix, Airbnb, Instagram et WhatsApp ont commencé à utiliser React dans leurs applications web et mobiles en raison de ses performances, de sa flexibilité et de sa communauté active.",
+                "tx4":"En 2015, Facebook a annoncé React Native, un cadre de développement d'applications mobiles basé sur React.  React Native permet aux développeurs de créer des apps mobiles natives pour iOS et Android à l'aide de JavaScript et de React. Les équipes de développement ont ainsi pu partager le code entre les apps web et mobiles, ce qui s'est traduit par un développement plus efficace et une expérience utilisateur cohérente sur plusieurs plateformes.",
+                "tx5":"React a eu un impact significatif sur l'écosystème du développement web et a influencé d'autres frameworks et bibliothèques JavaScript. De nombreux autres projets, tels que Redux, Next.js et Gatsby, se sont construits au-dessus de React pour fournir des fonctionnalités supplémentaires et améliorer l'expérience de développement."
             },
             "descripcionCorta":""
         },

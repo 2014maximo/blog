@@ -460,7 +460,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
                 autor:'',
                 linkAlAutor:'',
                 descripciones:[
-                    'React se originó ...'
+                    ''
                 ]
             }
         ],
@@ -485,7 +485,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
                 autor:'',
                 linkAlAutor:'',
                 descripciones:[
-                    'Typescript ...'
+                    ''
                 ]
             }
         ],

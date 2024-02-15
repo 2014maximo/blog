@@ -1054,7 +1054,11 @@
             "nombre":"React",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"Developed by Facebook, created by Jordan Walke, a software engineer at Facebook, and first introduced in 2011 on the Facebook News Feed. The main goal of React was to improve the performance and efficiency of UI rendering in complex and dynamic web applications.",
+                "tx2":"React was officially launched as an open source project on GitHub in May 2013. It was initially adopted internally by Facebook and then spread to other company products. React's simplicity, efficiency and code reusability quickly attracted the attention of the software development community.",
+                "tx3":"As React gained popularity, it became one of the most widely used and widely adopted JavaScript frameworks in the industry. Large companies such as Netflix, Airbnb, Instagram and WhatsApp started using React in their web and mobile apps because of its performance, flexibility and active community.",
+                "tx4":"In 2015, Facebook announced React Native, a React-based mobile app development framework.  React Native allows developers to create native mobile apps for iOS and Android using JavaScript and React. This allowed development teams to share code between web and mobile apps, resulting in more efficient development and a consistent user experience across multiple platforms.",
+                "tx5":"React has had a significant impact on the web development ecosystem and has influenced other JavaScript frameworks and libraries. Many other projects, such as Redux, Next.js and Gatsby, have built on top of React to provide additional functionality and enhance the development experience."
             },
             "descripcionCorta":""
         },
