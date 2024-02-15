@@ -111,6 +111,7 @@ export const ROUTES: Routes = [
 // TYPESCRIPT
     { path: 'typescript', component: Ruta.TypescriptComponent },
     { path: 'ts-elementos', component: Ruta.TsElementosComponent },
+    { path: 'ts-instalacion', component: Ruta.TsInstalacionComponent },
 
 // WORDPRESS
     { path: 'wordpress', component: Ruta.WordpressComponent },

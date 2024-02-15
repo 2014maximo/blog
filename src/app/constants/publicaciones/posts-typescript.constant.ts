@@ -12,7 +12,11 @@ export const TYPESCRIPT: DatosPost[] = [
         id: '3574124706',
         nombre: 'TYPESCRIPT.typescript.nombre',
         referenciaBusqueda:'TYPESCRIPT.typescript.referenciaBusqueda',
-        descripcion: ['TYPESCRIPT.typescript.descripcion.tx1'],
+        descripcion: [
+            'TYPESCRIPT.typescript.descripcion.tx1',
+            'TYPESCRIPT.typescript.descripcion.tx2',
+            'TYPESCRIPT.typescript.descripcion.tx3'
+        ],
         descripcionCorta: 'TYPESCRIPT.typescript.descripcionCorta',
         ruta: 'typescript',
         componente: 'TypescriptComponent',
@@ -28,7 +32,7 @@ export const TYPESCRIPT: DatosPost[] = [
         estado: 'inactivo'
     },
     {
-        id: 'c79624d0-b839-465a-9879-461267c01f6b',
+        id: '21616adc-380c-412a-8f14-5d3bb6e9c520',
         nombre: 'TYPESCRIPT.typescript-elementos.nombre',
         referenciaBusqueda:'TYPESCRIPT.typescript-elementos.referenciaBusqueda',
         descripcion: [
@@ -40,6 +44,28 @@ export const TYPESCRIPT: DatosPost[] = [
         mostrarEnPostHome: true,
         estilos: ESTILO_TYPESCRIPT,
         fechaCreacion: '2023-09-06',
+        fechaActualizacion: '',
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
+        imgVertical:'',
+        imgCuadro:'',
+        categoria: 'typescript',
+        posicion: 'rot-2',
+        estado: 'activo',
+        imgSlider: undefined
+    },
+    {
+        id: '81ae9c5f-2fb4-490e-bf10-7c7603fbeee8',
+        nombre: 'TYPESCRIPT.typescript-instalacion.nombre',
+        referenciaBusqueda:'TYPESCRIPT.typescript-instalacion.referenciaBusqueda',
+        descripcion: [
+            'TYPESCRIPT.typescript-instalacion.descripcion.tx1'
+        ],
+        descripcionCorta: 'TYPESCRIPT.typescript-instalacion.descripcionCorta',
+        ruta: 'ts-instalacion',
+        componente: '',
+        mostrarEnPostHome: true,
+        estilos: ESTILO_TYPESCRIPT,
+        fechaCreacion: '2024-02-15',
         fechaActualizacion: '',
         imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
         imgVertical:'',

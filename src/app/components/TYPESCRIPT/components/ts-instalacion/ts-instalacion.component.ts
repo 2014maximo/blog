@@ -1,23 +1,23 @@
 import { Component, OnInit } from '@angular/core';
-import { CATEGORIA } from '@app/constants';
+import { CATEGORIA } from '@constants/index';
 import { postActual } from '@shared/constants';
 import { cargarBreadcrumb, cargarIndice } from '@shared/constants/funciones/funciones-globales';
 import { CategoriaModel } from '@shared/models';
-import {  CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
+import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
 import { IndiceDeContenidosModel } from '@shared/models/indice.model';
 
 @Component({
-  selector: 'app-ts-elementos',
-  templateUrl: './ts-elementos.component.html',
-  styleUrls: ['./ts-elementos.component.css']
+  selector: 'app-ts-instalacion',
+  templateUrl: './ts-instalacion.component.html',
+  styleUrls: ['./ts-instalacion.component.css']
 })
-export class TsElementosComponent implements OnInit {
+export class TsInstalacionComponent implements OnInit {
 
-  public idPublicacion = '21616adc-380c-412a-8f14-5d3bb6e9c520';
-  public indiceTypescript: IndiceDeContenidosModel [] = [];
+  public breadcrumb = new CategoriaModel();
+  public idPublicacion = '81ae9c5f-2fb4-490e-bf10-7c7603fbeee8';
   public publicacion = new DatosPost();
   public categoria = new CategoriaPostModel();
-  public breadcrumb = new CategoriaModel();
+  public indiceTypescript: IndiceDeContenidosModel [] = [];
 
   constructor() { }
 

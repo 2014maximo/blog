@@ -1082,7 +1082,9 @@
             "nombre":"Typescript",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":"TypeScript fue creado por Anders Hejlsberg, un ingeniero de software danés conocido por su trabajo en Turbo Pascal, Delphi y C#. Hejlsberg y su equipo comenzaron a trabajar en TypeScript en 2010 en Microsoft. El objetivo principal era abordar las limitaciones de JavaScript en el desarrollo de aplicaciones web a gran escala, proporcionando tipos estáticos y otras características de lenguajes de programación modernos."
+                "tx1":"TypeScript fue creado por Anders Hejlsberg, un ingeniero de software danés conocido por su trabajo en Turbo Pascal, Delphi y C#. Hejlsberg y su equipo comenzaron a trabajar en TypeScript en 2010 en Microsoft. El objetivo principal era abordar las limitaciones de JavaScript en el desarrollo de aplicaciones web a gran escala, proporcionando tipos estáticos y otras características de lenguajes de programación modernos.",
+                "tx2":"TypeScript fue anunciado por primera vez por Anders Hejlsberg en octubre de 2012 en la conferencia Build de Microsoft. La primera versión pública, TypeScript 0.8, fue lanzada en octubre de 2012. Esta versión inicial incluía soporte para anotaciones de tipos estáticos, clases, módulos y otras características de lenguajes modernos.",
+                "tx3":"TypeScript ha experimentado un crecimiento significativo desde su lanzamiento inicial. Ha ganado una gran popularidad entre los desarrolladores que buscan una manera más segura y estructurada de desarrollar aplicaciones web y móviles. Grandes empresas como Google, Facebook, Netflix y Airbnb utilizan TypeScript en sus proyectos debido a sus beneficios en términos de productividad y mantenibilidad del código."
             },
             "descripcionCorta":""
         },
@@ -1091,6 +1093,14 @@
             "referenciaBusqueda": "elementos, partes",
             "descripcion":{
                 "tx1":"Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos."
+            },
+            "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
+        },
+        "typescript-instalacion":{
+            "nombre":"Instalación typescript",
+            "referenciaBusqueda": "instalacion",
+            "descripcion":{
+                "tx1":"La instalación es omitible para desarrollar en frameworks que relacionan a typescript, en caso de aplicar a un entorno de desarrollo y pruebas directas como trabajar con vanilla js y referentes se muestran diferentes ejemplos y como usarlos muy descriptivamente."
             },
             "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
         }

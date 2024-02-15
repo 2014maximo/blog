@@ -1077,7 +1077,9 @@
             "nombre":"Typescript",
             "referenciaBusqueda":"",
             "descripcion":{
-                "tx1":""
+                "tx1":"TypeScript was created by Anders Hejlsberg, a Danish software engineer known for his work in Turbo Pascal, Delphi and C#. Hejlsberg and his team started working on TypeScript in 2010 at Microsoft. The main goal was to address the limitations of JavaScript in large-scale web application development by providing static types and other features of modern programming languages.",
+                "tx2":"TypeScript was first announced by Anders Hejlsberg in October 2012 at Microsoft's Build conference. The first public version, TypeScript 0.8, was released in October 2012. This initial version included support for static type annotations, classes, modules and other features of modern languages.",
+                "tx3":"TypeScript has experienced significant growth since its initial release. It has gained huge popularity among developers looking for a more secure and structured way to develop web and mobile applications. Large companies such as Google, Facebook, Netflix and Airbnb use TypeScript in their projects because of its benefits in terms of productivity and code maintainability."
             },
             "descripcionCorta":""
         },

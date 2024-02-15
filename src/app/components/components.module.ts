@@ -21,6 +21,7 @@ import { DevContentComponent } from './DEVELOPER/components/dev-content/dev-cont
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
+import { TsInstalacionComponent } from './TYPESCRIPT/components/ts-instalacion/ts-instalacion.component';
 
 
 
@@ -99,6 +100,7 @@ export function HttpLoaderFactory (httpClient:HttpClient){
     NgPruebasUnitariasComponent,
     NetComponent,
     DevContentComponent,
+    TsInstalacionComponent,
   ],
   imports: [
     CommonModule,

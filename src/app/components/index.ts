@@ -99,6 +99,7 @@ export * from '@components/REACT/components/react-elementos/react-elementos.comp
 // TYPESCRIPT
 export * from '@components/TYPESCRIPT/typescript/typescript.component';
 export * from '@components/TYPESCRIPT/components/ts-elementos/ts-elementos.component';
+export * from '@components/TYPESCRIPT/components/ts-instalacion/ts-instalacion.component'
 
 // WORDPRESS
 export * from '@components/WORDPRESS/wordpress/wordpress.component';
