@@ -1097,12 +1097,13 @@
             "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
         },
         "typescript-instalacion":{
-            "nombre":"Instalación typescript",
+            "nombre":"Instalación typescript para pruebas",
             "referenciaBusqueda": "instalacion",
             "descripcion":{
-                "tx1":"La instalación es omitible para desarrollar en frameworks que relacionan a typescript, en caso de aplicar a un entorno de desarrollo y pruebas directas como trabajar con vanilla js y referentes se muestran diferentes ejemplos y como usarlos muy descriptivamente."
+                "tx1":"Miremos como ejecutar archivos typescript directamente desde las diferentes consolas de los Sistemas operativos.",
+                "tx2":"Es un proceso simple, sin embargo miremos estas maneras."
             },
-            "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
+            "descripcionCorta":"Paso a paso para correr archivos typescript directamente en los diferentes sistemas operativos."
         }
     },
     "WORDPRESS":{

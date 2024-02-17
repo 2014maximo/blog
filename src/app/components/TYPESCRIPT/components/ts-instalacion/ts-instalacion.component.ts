@@ -5,6 +5,7 @@ import { cargarBreadcrumb, cargarIndice } from '@shared/constants/funciones/func
 import { CategoriaModel } from '@shared/models';
 import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
 import { IndiceDeContenidosModel } from '@shared/models/indice.model';
+import { TS_INSTALACION_TEMPLATE_1 } from './constants/instalacion.constant';
 
 @Component({
   selector: 'app-ts-instalacion',
@@ -18,6 +19,7 @@ export class TsInstalacionComponent implements OnInit {
   public publicacion = new DatosPost();
   public categoria = new CategoriaPostModel();
   public indiceTypescript: IndiceDeContenidosModel [] = [];
+  public template = TS_INSTALACION_TEMPLATE_1;
 
   constructor() { }
 

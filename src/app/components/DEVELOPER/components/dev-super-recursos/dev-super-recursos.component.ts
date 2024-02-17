@@ -110,7 +110,7 @@ export class DevSuperRecursosComponent implements OnInit {
         estado: 'activo'
       },
       {
-        nombre: 'CSS',
+        nombre: '"CSS"',
         posicion: 'rot-2',
         ruta: '',
         rutaInterna: 'css',
@@ -164,7 +164,7 @@ export class DevSuperRecursosComponent implements OnInit {
         estado: 'activo'
       },
       {
-        nombre: 'LINUX',
+        nombre: '"LINUX"',
         posicion: 'pos-z',
         ruta: '',
         rutaInterna: 'linux',

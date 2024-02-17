@@ -1090,6 +1090,15 @@
                 "tx1":"Quick description of the application of the elements that make part of typescript, similar in great part to Javascript, and obviously the application of the particular of typescript that are the types."
             },
             "descripcionCorta":"Detail of the elements that are part of Typescript, detailing in contrast to Javascript."
+        },
+        "typescript-instalacion":{
+            "nombre":"Typescript installation for testing",
+            "referenciaBusqueda": "installation",
+            "descripcion":{
+                "tx1":"Let's look at how to run typescript files directly from the different operating system consoles.",
+                "tx2":"It is a simple process, however let's look at these ways."
+            },
+            "descripcionCorta":"Step by step to run typescript files directly on different operating systems."
         }
     },
     "WORDPRESS":{
