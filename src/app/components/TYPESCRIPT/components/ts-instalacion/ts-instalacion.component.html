@@ -6,28 +6,96 @@
 <app-encabezado-publicacion [idPublicacion]="idPublicacion" [rutaIconoSugerido]="categoria.rutaIcono"></app-encabezado-publicacion>
 <div class="espaciado"></div>
 
+
 <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-8">
+                <h4 class="text-light f-shadow-into-l fs-35 lh-35">EN LINUX</h4>
+                <p class="c7 f-open-sans-c fs-20 lh-25">Al tratar de ejecutar <b>'tsc app.ts'</b> o <b>'node app.ts'</b> de un archivo typescript, linux solicita instalar una dependencia.<br>
+                <br>
+                INSTALAR ESTA DEPENDENCIA:</p>
                 <app-print-code
-                [code]="template"
+                [ObjectCode]="installNodeTypescript"
                 [categoria]="categoria"
                 [categoriaCorta]="'TERMINAL'"
                 [lineas]="3"
-                [lenguaje]="'typescript'"
+                [lenguaje]="'linux'"
+                [tipoCode]="'linux'"
                 [colorTextoBase]="'text-light'"
                 [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
                 [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
                 </app-print-code>
             </div>
-            <div class="col-md-6"></div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="espacio"></div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+                <p class="c7 f-open-sans-c lh-25 fs-20">
+                    Archivo app.ts
+                </p>
+                <app-print-code
+                [code]="archivoTypescript"
+                [categoria]="categoria"
+                [categoriaCorta]="'TYPESCRIPT'"
+                [lineas]="1"
+                [lenguaje]="'typescript'"
+                [tipoCode]="'lenguajes'"
+                [colorTextoBase]="'text-light'"
+                [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
+                </app-print-code>
+            </div>
+        </div>
+        <div class="espacio"></div>
+        <div class="row">
+            <div class="col-md-8">
+                <p class="c7 f-open-sans-c lh-25 fs-20">
+                    Una vez instalada la dependencia, el archivo anterior se corren tranquilamente:
+                </p>
+                <app-print-code
+                [ObjectCode]="correrNodeTypescript"
+                [categoria]="categoria"
+                [categoriaCorta]="'TERMINAL'"
+                [lineas]="3"
+                [lenguaje]="'linux'"
+                [tipoCode]="'linux'"
+                [colorTextoBase]="'text-light'"
+                [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
+                </app-print-code>
+
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="espaciado"></div>
+
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+                <h4 class="text-light f-shadow-into-l fs-35 lh-35">EN WINDOWS</h4>
+                <p class="c7 f-open-sans-c fs-20 lh-25">Al tratar de ejecutar <b>'tsc app.ts'</b> o <b>'node app.ts'</b> de un archivo typescript, en windows aparece: 'no se reconoce como un comando inerno o externo, programa o archivo por lotes ejecutable.'<br>
+                <br>
+                INSTALAR ESTA DEPENDENCIA:</p>
+                <app-print-code
+                [ObjectCode]="consolaWindows"
+                [categoria]="categoria"
+                [categoriaCorta]="'TERMINAL'"
+                [lineas]="3"
+                [lenguaje]="'linux'"
+                [tipoCode]="'windows'"
+                [colorTextoBase]="'c-Typescript'"
+                [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
+                </app-print-code>
+            </div>
         </div>
     </div>
     <div class="col-md-1"></div>
 </div>
-
 
 <div class="espaciado"></div>
 

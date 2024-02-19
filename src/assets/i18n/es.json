@@ -1098,10 +1098,11 @@
         },
         "typescript-instalacion":{
             "nombre":"Instalación typescript para pruebas",
-            "referenciaBusqueda": "instalacion",
+            "referenciaBusqueda": "instalacion, correr archivos typescript, archivos typescript",
             "descripcion":{
-                "tx1":"Miremos como ejecutar archivos typescript directamente desde las diferentes consolas de los Sistemas operativos.",
-                "tx2":"Es un proceso simple, sin embargo miremos estas maneras."
+                "tx1":"No es necesario cargarse un framework completo como Angular o React para ejecutar las pruebas que solemos hacer de funciones o algún elemento del lenguaje con los archivos typescript.",
+                "tx2":"Miremos como ejecutarlos directamente desde las diferentes consolas de los Sistemas operativos.",
+                "tx3":"Es un proceso simple, sin embargo miremos estas maneras."
             },
             "descripcionCorta":"Paso a paso para correr archivos typescript directamente en los diferentes sistemas operativos."
         }

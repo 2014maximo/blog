@@ -1,4 +1,4 @@
-<div class="row container-code shadow-two bg-lenguaje">
+<div *ngIf="tipoCode == 'lenguajes'" class="row container-code shadow-two bg-lenguaje">
     <div class="col-md-12 ml-1">
         <div class="d-flex justify-content-end">
             <div class="lenguaje shadow text-center text-light fuenteSeis fs-30 fw-6 bg-{{ lenguaje.charAt(0).toUpperCase() + lenguaje.slice(1) }}">{{ categoriaCorta }}</div>
@@ -22,5 +22,28 @@
                   </pre>
             </div>
         </div>
+    </div>
+</div>
+
+<div *ngIf="tipoCode == 'linux'" class="barra-linux shadow-two text-right text-light pr-2">
+    <i class="fa fa-clone cursor-p mr-4" title="Copiar" (click)="copiarAlPortapapeles(clipboard)"></i>X
+</div>
+<div *ngIf="tipoCode == 'linux'" class="row container-code shadow-two bg-terminal-linux">
+    <div *ngFor="let code of ObjectCode" class="col-md-12 fuenteTres">
+        <span *ngIf="code.mostrarRuta" class="c-terminal-linux">
+            user-dev@user-dev</span>
+        <span *ngIf="code.mostrarRuta" class="text-light">:~$ </span>
+        <span class="text-light">{{ code.code }}</span>
+    </div>
+</div>
+
+<div *ngIf="tipoCode == 'windows'" class="barra-windows shadow-two text-right text-light pr-2">
+    <i class="fa fa-clone cursor-p mr-4" title="Copiar" (click)="copiarAlPortapapeles(clipboard)"></i>X
+</div>
+<div *ngIf="tipoCode == 'windows'" class="row container-code shadow-two bg-terminal-windows">
+    <div *ngFor="let code of ObjectCode" class="col-md-12 fuenteTres">
+        <span *ngIf="code.mostrarRuta" class="{{colorTextoBase}}">
+            {{code.textRuta}}</span>
+        <span class="text-light">{{ code.code }}</span>
     </div>
 </div>

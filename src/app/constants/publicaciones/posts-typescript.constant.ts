@@ -59,7 +59,8 @@ export const TYPESCRIPT: DatosPost[] = [
         referenciaBusqueda:'TYPESCRIPT.typescript-instalacion.referenciaBusqueda',
         descripcion: [
             'TYPESCRIPT.typescript-instalacion.descripcion.tx1',
-            'TYPESCRIPT.typescript-instalacion.descripcion.tx2'
+            'TYPESCRIPT.typescript-instalacion.descripcion.tx2',
+            'TYPESCRIPT.typescript-instalacion.descripcion.tx3'
         ],
         descripcionCorta: 'TYPESCRIPT.typescript-instalacion.descripcionCorta',
         ruta: 'ts-instalacion',
