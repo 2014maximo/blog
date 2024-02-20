@@ -1104,7 +1104,14 @@
                 "tx2":"Miremos como ejecutarlos directamente desde las diferentes consolas de los Sistemas operativos.",
                 "tx3":"Es un proceso simple, sin embargo miremos estas maneras."
             },
-            "descripcionCorta":"Paso a paso para correr archivos typescript directamente en los diferentes sistemas operativos."
+            "descripcionCorta":"Paso a paso para correr archivos typescript directamente en los diferentes sistemas operativos.",
+            "titulo1":"EN LINUX",
+            "enLinux":"Al tratar de ejecutar 'tsc app.ts' o 'node app.ts' de un archivo typescript, linux solicita instalar una dependencia.",
+            "instalar":"INSTALAR ESTA DEPENDENCIA:",
+            "archivo":"Archivo app.ts",
+            "correrArchivo":"Una vez instalada la dependencia, el archivo anterior se corre tranquilamente:",
+            "titulo2":"EN WINDOWS",
+            "enWindows":"Al tratar de ejecutar 'tsc app.ts' o 'node app.ts' de un archivo typescript, en windows aparece: 'no se reconoce como un comando inerno o externo, programa o archivo por lotes ejecutable.'"
         }
     },
     "WORDPRESS":{

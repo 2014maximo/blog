@@ -69,7 +69,7 @@ export const TYPESCRIPT: DatosPost[] = [
         estilos: ESTILO_TYPESCRIPT,
         fechaCreacion: '2024-02-15',
         fechaActualizacion: '',
-        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/typescript/instalacion-typescript-poster.jpg'),
         imgVertical:'',
         imgCuadro:'',
         categoria: 'typescript',

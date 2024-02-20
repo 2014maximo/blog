@@ -14,12 +14,12 @@ export const TS_INSTALACION_TEMPLATE_2: CodeModel[]=[
     },
     {
         mostrarRuta: false,
-        code: 'Hola Mundo'
+        code: 'Hello World'
     }
 ]
 
 export const TS_INSTALACION_TEMPLATE_3 = `
-console.log('Hola Mundo')`;
+console.log('Hello World')`;
 
 export const TS_INSTALACION_TEMPLATE_4: CodeModel [] = [
     {
@@ -32,3 +32,23 @@ export const TS_INSTALACION_TEMPLATE_4: CodeModel [] = [
         mostrarRuta:false
     }
 ]
+
+export const TS_INSTALACION_TEMPLATE_5: CodeModel []=[
+    {
+        mostrarRuta:true,
+        code:'node app.ts',
+        textRuta:'C:/Users/Dev/Documents/Typescript> '
+    },
+    {
+        mostrarRuta:false,
+        code:'77'
+    }
+]
+
+export const TS_INSTALACION_TEMPLATE_6 = `
+function added (numOne, numTwo){
+    return numOne + numTwo
+}
+let add = added(70,7)
+console.log(add);
+`;

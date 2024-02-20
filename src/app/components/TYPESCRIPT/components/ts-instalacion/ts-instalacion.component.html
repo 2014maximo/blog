@@ -12,10 +12,10 @@
     <div class="col-md-10">
         <div class="row">
             <div class="col-md-8">
-                <h4 class="text-light f-shadow-into-l fs-35 lh-35">EN LINUX</h4>
-                <p class="c7 f-open-sans-c fs-20 lh-25">Al tratar de ejecutar <b>'tsc app.ts'</b> o <b>'node app.ts'</b> de un archivo typescript, linux solicita instalar una dependencia.<br>
+                <h4 class="f-shadow-into-l fs-35 lh-35 {{ publicacion.estilos.color }}"> {{ 'TYPESCRIPT.typescript-instalacion.titulo1' | translate }}</h4>
+                <p class="c7 f-open-sans-c fs-20 lh-25"> {{ 'TYPESCRIPT.typescript-instalacion.enLinux' | translate }}<br>
                 <br>
-                INSTALAR ESTA DEPENDENCIA:</p>
+                {{ 'TYPESCRIPT.typescript-instalacion.instalar' | translate }}</p>
                 <app-print-code
                 [ObjectCode]="installNodeTypescript"
                 [categoria]="categoria"
@@ -32,10 +32,10 @@
         </div>
         <div class="espacio"></div>
         <div class="row">
-            <div class="col-md-4"></div>
+            
             <div class="col-md-8">
                 <p class="c7 f-open-sans-c lh-25 fs-20">
-                    Archivo app.ts
+                    {{ 'TYPESCRIPT.typescript-instalacion.archivo' | translate }}
                 </p>
                 <app-print-code
                 [code]="archivoTypescript"
@@ -49,12 +49,13 @@
                 [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
                 </app-print-code>
             </div>
+            <div class="col-md-4"></div>
         </div>
         <div class="espacio"></div>
         <div class="row">
             <div class="col-md-8">
                 <p class="c7 f-open-sans-c lh-25 fs-20">
-                    Una vez instalada la dependencia, el archivo anterior se corren tranquilamente:
+                    {{ 'TYPESCRIPT.typescript-instalacion.correrArchivo' | translate }}
                 </p>
                 <app-print-code
                 [ObjectCode]="correrNodeTypescript"
@@ -76,12 +77,44 @@
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-8">
-                <h4 class="text-light f-shadow-into-l fs-35 lh-35">EN WINDOWS</h4>
-                <p class="c7 f-open-sans-c fs-20 lh-25">Al tratar de ejecutar <b>'tsc app.ts'</b> o <b>'node app.ts'</b> de un archivo typescript, en windows aparece: 'no se reconoce como un comando inerno o externo, programa o archivo por lotes ejecutable.'<br>
+                <h4 class="f-shadow-into-l fs-35 lh-35 {{ publicacion.estilos.color }}">{{ 'TYPESCRIPT.typescript-instalacion.titulo2' | translate }}</h4>
+                <p class="c7 f-open-sans-c fs-20 lh-25">{{ 'TYPESCRIPT.typescript-instalacion.enWindows' | translate }}<br>
                 <br>
-                INSTALAR ESTA DEPENDENCIA:</p>
+                {{ 'TYPESCRIPT.typescript-instalacion.instalar' | translate }}</p>
                 <app-print-code
                 [ObjectCode]="consolaWindows"
+                [categoria]="categoria"
+                [categoriaCorta]="'TERMINAL'"
+                [lineas]="3"
+                [lenguaje]="'linux'"
+                [tipoCode]="'windows'"
+                [colorTextoBase]="'c-Typescript'"
+                [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
+                </app-print-code>
+                <div class="espacio"></div>
+
+                <p class="c7 f-open-sans-c lh-25 fs-20">
+                    {{ 'TYPESCRIPT.typescript-instalacion.archivo' | translate }}
+                </p>
+                <app-print-code
+                [code]="archivoTypescriptWindows"
+                [categoria]="categoria"
+                [categoriaCorta]="'TYPESCRIPT'"
+                [lineas]="1"
+                [lenguaje]="'typescript'"
+                [tipoCode]="'lenguajes'"
+                [colorTextoBase]="'text-light'"
+                [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
+                </app-print-code>
+                <div class="espacio"></div>
+
+                <p class="c7 f-open-sans-c lh-25 fs-20">
+                    Una vez instalada la dependencia, el archivo anterior se corre tranquilamente:
+                </p>
+                <app-print-code
+                [ObjectCode]="consolaWindowsCorrer"
                 [categoria]="categoria"
                 [categoriaCorta]="'TERMINAL'"
                 [lineas]="3"

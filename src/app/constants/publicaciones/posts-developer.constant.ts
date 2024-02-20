@@ -165,7 +165,7 @@ export const DEVELOPER: DatosPost[] = [
         estilos: ESTILO_DEVELOPER,
         fechaCreacion: '2023-09-18',
         fechaActualizacion: '',
-        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/developer/glosario-general.png','Glosario general','auto','220'),
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/developer/glosario-terminos.jpg','Glosario general','auto','220'),
         imgVertical:'',
         imgCuadro:'',
         categoria: 'developer',
