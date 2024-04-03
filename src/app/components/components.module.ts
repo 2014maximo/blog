@@ -22,6 +22,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
 import { TsInstalacionComponent } from './TYPESCRIPT/components/ts-instalacion/ts-instalacion.component';
+import { JavaElementosComponent } from './JAVA/components/java-elementos/java-elementos.component';
 
 
 
@@ -101,6 +102,7 @@ export function HttpLoaderFactory (httpClient:HttpClient){
     NetComponent,
     DevContentComponent,
     TsInstalacionComponent,
+    JavaElementosComponent,
   ],
   imports: [
     CommonModule,

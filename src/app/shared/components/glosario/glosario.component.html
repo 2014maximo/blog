@@ -2,50 +2,60 @@
     <div class="col-md-1"></div>
     <div class="col-md-10">
         <h3 class="text-center f-bebas fs-50 {{ this.datosCategoria.color }} fw-6">GLOSARIO</h3>
-<div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
-        <input type="search" (click)="borrarBusqueda($event)" (keydown)="buscarTermino($event)" class="fs-20 pl-2 pr-2 w-100 bg-transparent border border-white f-shadow-into-l {{ this.datosCategoria.color }}" placeholder="Buscar">
-    </div>
-    <div class="col-md-2"></div>
-</div>
-<div class="espacio"></div>
-
-<div class="row" *ngFor="let termino of this.glosario; let i = index">
-    <div *ngIf="!esPar(i)" class="col-md-5"></div>
-    <div class="col-md-7 pb-5">
-        <h3 class="f-shadow-into-l {{ this.datosCategoria.color }} fs-30">{{ termino.titulo }}</h3>
-        <p class="f-shadow-into-l text-light fs-12 m-0">{{ termino.fechaActualizacion }}</p>
-        <div *ngIf="termino.descripcion.listaTexto">
-            <p *ngFor="let listaTexto of termino.descripcion.listaTexto" class="text-light f-open-sans-c fs-20">{{ listaTexto }}</p>
-        </div>
-        <div *ngIf="termino.descripcion.listaTituloTexto">
-            <div *ngFor="let titulos of termino.descripcion.listaTituloTexto" class="mb-4">
-                <p *ngFor="let titulo of titulos.titulo" class="text-light f-open-sans-c fs-20 m-0"><b>{{ titulo }}</b></p>
-                <p *ngFor="let descripcion of titulos.descripciones" class="text-light f-open-sans-c fs-20 m-0 pl-3">
-                    <i class="fa fa-circle fs-10 {{ this.datosCategoria.color }}" aria-hidden="true"></i>
-                    &nbsp;{{ descripcion }}
-                </p>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <input type="search" (click)="borrarBusqueda($event)" (keydown)="buscarTermino($event)"
+                    class="fs-20 pl-2 pr-2 w-100 bg-transparent border border-white f-shadow-into-l {{ this.datosCategoria.color }}"
+                    placeholder="Buscar">
             </div>
+            <div class="col-md-2"></div>
         </div>
-        <div *ngFor="let termino of termino.linksReferencia">
-            <a *ngIf="termino.urlLink" href="{{ termino.urlLink }}" class="text-secondary f-open-sans-c fs-20">{{ termino.titulo }}</a>
+        <div class="espacio"></div>
+
+        <div class="row" *ngFor="let termino of this.glosario; let i = index">
+            <div *ngIf="!esPar(i)" class="col-md-5"></div>
+            <div class="col-md-7 pb-5">
+                <h3 class="f-shadow-into-l {{ this.datosCategoria.color }} fs-30">{{ termino.titulo }}</h3>
+                <p class="f-shadow-into-l text-light fs-12 m-0">{{ termino.fechaActualizacion }}</p>
+                <div *ngIf="termino.descripcion.listaTexto">
+                    <p *ngFor="let listaTexto of termino.descripcion.listaTexto" class="text-light f-open-sans-c fs-20">
+                        {{ listaTexto }}</p>
+                </div>
+                <div *ngIf="termino.descripcion.listaTituloTexto">
+                    <div *ngFor="let titulos of termino.descripcion.listaTituloTexto" class="mb-4">
+                        <p *ngFor="let titulo of titulos.titulo" class="text-light f-open-sans-c fs-20 m-0"><b>{{ titulo
+                                }}</b></p>
+                        <p *ngFor="let descripcion of titulos.descripciones"
+                            class="text-light f-open-sans-c fs-20 m-0 pl-3">
+                            <i class="fa fa-circle fs-10 {{ this.datosCategoria.color }}" aria-hidden="true"></i>
+                            &nbsp;{{ descripcion }}
+                        </p>
+                    </div>
+                </div>
+                <div *ngFor="let termino of termino.linksReferencia">
+                    <a *ngIf="termino.urlLink" href="{{ termino.urlLink }}"
+                        class="text-secondary f-open-sans-c fs-20">
+                        <p *ngIf="termino.titulo">{{ termino.titulo }}</p>
+                        <img src="{{ termino.img.ulrImagen }}"
+                            title="{{ termino.img.nombre }}"
+                            alt="{{ termino.img.nombre }}"
+                            height="{{ termino.img.altura }}"
+                            class="{{ termino.img.clase }}" width="auto">
+                    </a>
+                </div>
+            </div>
+            <div *ngIf="esPar(i)" class="col-md-5"></div>
         </div>
-    </div>
-    <div *ngIf="esPar(i)" class="col-md-5"></div>
-</div>
-<div class="row">
-    <div class="col-md-4"></div>
-    <div class="col-md-4">
-        <app-paginador (paginados)="recibirCantidadElementos($event)"
-                        [contenedor]="this.glosario"
-                        [itemsPorPantalla]="postPorPantalla"
-                        [mostrarItemsPorPantalla]="false"
-                        [itemIniciales]="anchoPantalla > 768? 4:3"></app-paginador>
-    </div>
-    <div class="col-md-4"></div>
-</div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <app-paginador (paginados)="recibirCantidadElementos($event)" [contenedor]="this.glosario"
+                    [itemsPorPantalla]="postPorPantalla" [mostrarItemsPorPantalla]="false"
+                    [itemIniciales]="anchoPantalla > 768? 4:3"></app-paginador>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
     </div>
     <div class="col-md-1"></div>
 </div>
-

@@ -1,10 +1,12 @@
-import { GlosarioModel } from '../../shared/models/categorias.model';
+import { Categoria, GlosarioModel } from '../../shared/models/categorias.model';
 
 
 export const TERMINOS_DEVELOPER: GlosarioModel [] = [
     {
         id: '30a65b08-641d-4ae4-914d-e283d5f774d6',
+        categoria: Categoria.DEVELOPER,
         titulo: 'Servicios SOAP',
+        subtitulo:'',
         fechaActualizacion: '2023-07-25',
         mostrar:true,
         linksReferencia: [],
@@ -18,7 +20,9 @@ export const TERMINOS_DEVELOPER: GlosarioModel [] = [
     },
     {
         id: 'f0d6a106-e823-4659-b6f7-dbdcd4d9d687',
+        categoria: Categoria.DEVELOPER,
         titulo: 'CÓDIGOS HTTP',
+        subtitulo:'',
         fechaActualizacion: '2023-07-26',
         mostrar:true,
         linksReferencia: [],
@@ -108,7 +112,9 @@ export const TERMINOS_DEVELOPER: GlosarioModel [] = [
     },
     {
         id:'31f37ed0-50de-4595-9cf8-c64580261951',
+        categoria: Categoria.DEVELOPER,
         titulo: 'Polimorfismo',
+        subtitulo:'',
         fechaActualizacion: '2023-07-26',
         mostrar: true,
         linksReferencia: [],
@@ -134,7 +140,9 @@ export const TERMINOS_DEVELOPER: GlosarioModel [] = [
     },
     {
         id: '09bdf9b3-104a-412e-abd7-0d083abad6b9',
+        categoria: Categoria.DEVELOPER,
         titulo: 'Modificadores de acceso',
+        subtitulo:'',
         fechaActualizacion: '2023-07-26',
         mostrar: true,
         linksReferencia: [],
@@ -157,7 +165,9 @@ export const TERMINOS_DEVELOPER: GlosarioModel [] = [
     },
     {
         id:'10fc20c5-a6d8-4860-94b7-36e52fa5f926',
+        categoria: Categoria.DEVELOPER,
         titulo: 'PATRONES',
+        subtitulo:'',
         fechaActualizacion: '2023-07-26',
         mostrar: true,
         linksReferencia: [],
@@ -183,7 +193,9 @@ export const TERMINOS_DEVELOPER: GlosarioModel [] = [
     },
     {
         id: '2326e34b-1854-4ad4-966e-34c5026b21d8',
+        categoria: Categoria.DEVELOPER,
         titulo: 'Patrones de creación',
+        subtitulo:'',
         fechaActualizacion: '2023-07-26',
         mostrar: true,
         linksReferencia: [],
@@ -214,7 +226,9 @@ export const TERMINOS_DEVELOPER: GlosarioModel [] = [
     },
     {
         id: 'da634ea1-e151-4cca-875b-26ce6116b821',
+        categoria: Categoria.DEVELOPER,
         titulo: 'Patrones de comportamiento',
+        subtitulo:'',
         fechaActualizacion: '2023-07-26',
         mostrar: true,
         linksReferencia: [],
@@ -269,7 +283,9 @@ export const TERMINOS_DEVELOPER: GlosarioModel [] = [
     },
     {
         id: 'd020111b-13a6-4fda-8234-8f5a388e2f66',
+        categoria: Categoria.DEVELOPER,
         titulo: 'Patrones estructurales',
+        subtitulo:'',
         fechaActualizacion: '2023-07-26',
         mostrar: true,
         linksReferencia: [],
@@ -307,7 +323,9 @@ export const TERMINOS_DEVELOPER: GlosarioModel [] = [
     },
     {
         id: '13365d8f-c2cd-4f05-b427-6816a5ea1fa6',
+        categoria: Categoria.DEVELOPER,
         titulo: 'ERPs (Enterprise Resource Planning)',
+        subtitulo:'',
         fechaActualizacion: '2023-08-25',
         mostrar: true,
         linksReferencia: [],
@@ -320,7 +338,9 @@ export const TERMINOS_DEVELOPER: GlosarioModel [] = [
     },
     {
         id: 'aeb02344-6ec4-4b2d-81d0-c678fb577831',
+        categoria: Categoria.DEVELOPER,
         titulo: 'A/B TESTING',
+        subtitulo:'',
         fechaActualizacion: '2023-09-06',
         mostrar: true,
         linksReferencia: [],
@@ -336,7 +356,9 @@ export const TERMINOS_DEVELOPER: GlosarioModel [] = [
     },
     {
         id: '606b7250-55a9-4089-84b3-7c52c88ca35b',
+        categoria: Categoria.DEVELOPER,
         titulo: 'ANALYTICS',
+        subtitulo:'',
         fechaActualizacion: '2023-09-06',
         mostrar: true,
         linksReferencia: [],
@@ -351,7 +373,9 @@ export const TERMINOS_DEVELOPER: GlosarioModel [] = [
     },
     {
         id: 'd1c6979e-2268-4b35-aeb8-1a20e4234584',
+        categoria: Categoria.DEVELOPER,
         titulo: 'ARQUITECTURA',
+        subtitulo:'',
         fechaActualizacion: '2023-09-06',
         mostrar: true,
         linksReferencia: [],
@@ -361,7 +385,9 @@ export const TERMINOS_DEVELOPER: GlosarioModel [] = [
     },
     {
         id: '1c9a7ea8-182b-4823-8481-0db63dcf5b12',
+        categoria: Categoria.DEVELOPER,
         titulo: 'ARQUITECTURA DE SOFTWARE',
+        subtitulo:'',
         fechaActualizacion: '2023-09-06',
         mostrar: true,
         linksReferencia: [],
@@ -414,7 +440,9 @@ export const TERMINOS_DEVELOPER: GlosarioModel [] = [
     },
     {
         id: '2991b412-5b3e-49ba-8b55-ff1a1ba99175',
+        categoria: Categoria.DEVELOPER,
         titulo: 'WEBPACK',
+        subtitulo:'',
         fechaActualizacion: '2023-09-15',
         mostrar: true,
         linksReferencia: [],

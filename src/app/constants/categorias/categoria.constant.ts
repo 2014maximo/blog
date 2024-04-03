@@ -20,7 +20,6 @@ import { KOTLIN } from '@constants/publicaciones/posts-kotlin.constant';
 import { PHP } from '@constants/publicaciones/posts-php.constant';
 import { REACT } from '@constants/publicaciones/posts-react.constant';
 import { WORDPRESS } from '@constants/publicaciones/posts-wordpress.constant';
-import { TERMINOS_LINUX } from '@constants/glosarios/terminos.linux.constant';
 import { KUBERNETES } from '@constants/publicaciones/posts-kubernetes.constant';
 import { NET } from '@constants/publicaciones/posts-net.constant';
 
@@ -376,7 +375,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         rutaIcono: 'assets/img/categorias/linux-white.png',
         alturaIcono: '60',
         estado:'activo',
-        glosario: TERMINOS_LINUX,
+        glosario: [],
         ruta: 'linux',
         colorFondo: 'bg-Linux',
         color: 'c-Linux',

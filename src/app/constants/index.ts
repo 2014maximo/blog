@@ -11,5 +11,4 @@ export { LINKS } from '../components/DEVELOPER/components/dev-super-recursos/sup
 
 // TÉRMINOS
 export { TERMINOS_ANGULAR } from './glosarios/terminos.angular.constant';
-export { TERMINOS_JAVASCRIPT } from './glosarios/terminos.javascript.constant';
 

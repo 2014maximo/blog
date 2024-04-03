@@ -117,7 +117,9 @@ export class DatosPost{
 
 export class GlosarioModel {
     id: string;
+    categoria: Categoria;
     titulo: string;
+    subtitulo:string;
     linksReferencia: linkReferenciaI[];
     mostrar: boolean;
     fechaActualizacion: string;
@@ -126,12 +128,36 @@ export class GlosarioModel {
     constructor(){
         this.id = '';
         this.titulo = '';
+        this.subtitulo = '';
         this.linksReferencia = [];
         this.descripcion = new DescripcionesI();
         this.mostrar = false;
         this.fechaActualizacion = '';
+        this.categoria = Categoria.ANGULAR
     }
 }
+
+export enum Categoria {
+    ANGULAR = "Angular",
+    CSS = "CSS",
+    DART = "Dart",
+    DB = "DB",
+    DEVELOPER = "Developer",
+    ELECTRON = "Electron",
+    FLUTTER = "Flutter",
+    GIT = "Git",
+    HTML = "HTML",
+    JAVA = "Java",
+    JAVASCRIPT = "Javascript",
+    KOTLIN = "Kotlin",
+    KUBERNETES = "Kubernetes",
+    LINUX = "Linux",
+    NET = "NET",
+    PHP = "Php",
+    REACT = "React",
+    TYPESCRIPT = "Typescript",
+    WORDPRESS = "Wordpress"
+  }
 
 export class DescripcionesI{
     listaTexto?: string[];
@@ -145,7 +171,23 @@ export class DescripcionesI{
 
 export interface linkReferenciaI {
     titulo: string,
-    urlLink: string
+    urlLink: string,
+    textos?:string[],
+    img:IImagen
+}
+
+export class IImagen {
+    nombre: string;
+    ulrImagen: string;
+    altura: string;
+    clase: string;
+
+    constructor(){
+        this.nombre = '';
+        this.ulrImagen = '';
+        this.altura = '';
+        this.clase = '';
+    }
 }
 
 export interface ListasTituloTextoI {

@@ -823,5 +823,25 @@ export const BLOQUE_LINKS: IndiceDeContenidosModel[] = [
         rutaInterna:'',
         rutaExterna:'https://neoris.com/'
     },
+    {
+        nombre: 'Freelancermap',
+        posicion: 'rot-1',
+        ruta: '',
+        colorFondo: 'bg-Developer',
+        color: 'text-dark',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://www.freelancermap.com/'
+    },
+    {
+        nombre: 'Remote',
+        posicion: 'rot-1',
+        ruta: '',
+        colorFondo: 'bg-Developer',
+        color: 'text-dark',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://remote.com/'
+    },
 ]
 

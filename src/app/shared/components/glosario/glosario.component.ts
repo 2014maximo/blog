@@ -17,12 +17,32 @@ export class GlosarioComponent implements OnInit {
   public glosarioCache:GlosarioModel[] = [];
   public anchoPantalla = window.innerWidth;
   public postPorPantalla: string[] = ['9','18'];
+  public categoriasBuscar: string[]=['angular','developer'];
 
   constructor() { }
 
   ngOnInit(): void {
+    let gruposCategorias: CategoriaPostModel[] = []; 
+    this.categoriasBuscar.forEach((e)=>{
+      let grupo = CATEGORIA.filter((cat:CategoriaPostModel) => cat.nombre === e)[0];
+      gruposCategorias.push(grupo);
+    });
+    console.log(gruposCategorias, 'GRUPOS CATEGORIAS');
+    let prueba:GlosarioModel[]=[];
+
+    for(let i=0; i < gruposCategorias.length; i++){
+     this.glosario.push(...gruposCategorias[i].glosario);
+    }
+
+    // let grupoDatos = f.glosario.filter((ref) => ref.mostrar);
+    // console.log(grupoDatos, 'GRUPO DATOS');
+    // this.glosario = this.glosario.concat(f.glosario);
+    
+    console.log(this.glosario, 'GLOSARIO');
+
     this.datosCategoria = CATEGORIA.filter((cat:CategoriaPostModel) => cat.nombre === this.categoria)[0];
-    this.glosario = this.glosarioCache = this.datosCategoria.glosario.filter(referencias => referencias.mostrar);
+
+    this.glosarioCache = this.glosario;
   }
 
   public esPar(numero: any): boolean{
@@ -45,6 +65,6 @@ export class GlosarioComponent implements OnInit {
   }
 
   public recibirCantidadElementos(e:any){
-    this.glosario = Object.assign([], e);
+    this.glosario = this.glosarioCache = Object.assign([], e);
   }
 }
