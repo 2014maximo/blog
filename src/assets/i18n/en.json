@@ -725,7 +725,7 @@
         },
         "dev-glosario":{
             "nombre":"General Glossary",
-            "referenciaBusqueda":"terms",
+            "referenciaBusqueda":"terms, glossary, search, find",
             "descripcion":{
                 "tx1":"General terms in programming, this glossary will be updated as more terms and their meaning are added."
             },

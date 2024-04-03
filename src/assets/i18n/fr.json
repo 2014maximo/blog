@@ -729,7 +729,7 @@
         },
         "dev-glosario":{
             "nombre":"Glossaire général",
-            "referenciaBusqueda":"termes",
+            "referenciaBusqueda":"termes, glossaire, recherche, trouver",
             "descripcion":{
                 "tx1":"Termes généraux de programmation, ce glossaire sera mis à jour au fur et à mesure de l'ajout de nouveaux termes et de leur signification."
             },

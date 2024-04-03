@@ -19,7 +19,7 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
                 img:{
                     ulrImagen:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/firstValueFrom.png',
                     altura:'350',
-                    clase:'',
+                    clase:'img-fluid',
                     nombre:''
                 },
                 urlLink:'ng-rxjs-first-value-from',
