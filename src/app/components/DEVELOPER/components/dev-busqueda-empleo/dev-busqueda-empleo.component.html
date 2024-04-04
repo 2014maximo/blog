@@ -153,13 +153,15 @@
         <div class="row">
             <div class="col-md-5"></div>
             <div class="col-md-7">
+                <div class="bord p-4">
+                    <p class="c7 fuenteDos fs-20 lh-25">
+                        {{ 'DEVELOPER.dev-busqueda-empleo.marketplace.tx4' | translate }}
+                    </p>
+                </div>
                 <span >
                     <img src="assets/img/memes/mem3.png" alt="Que elegancia" height="75" width="auto">
                 </span>
-                <p class="c7 fuenteDos fs-20 lh-25">
-                    {{ 'DEVELOPER.dev-busqueda-empleo.marketplace.tx4' | translate }}
-                </p>
-                <div class="espacio"></div>
+                <div class="espaciado"></div>
 
                 <a href="https://www.linkedin.com/" target="_blank">
                     <img src="https://plantillas_dev.gitlab.io/assets/img/posts/developer/logo-linkedin.png" alt="logo linkedin" height="60" width="auto" class="drop">
@@ -168,6 +170,11 @@
                     {{ 'DEVELOPER.dev-busqueda-empleo.marketplace.linkedin.tx1' | translate }}<br>
                     <br>{{ 'DEVELOPER.dev-busqueda-empleo.marketplace.linkedin.tx2' | translate }}
                 </p>
+
+                <div class="espacio"></div>
+
+                <p class="c7 f-shadow-into-l {{ this.categoria.color }} fs-35 lh-25">RECOMENDACIONES</p>
+
                 <div *ngFor="let market of marketing" class="row">
                     <div class="col-md-1">
                         <i class="fa fa-plus {{ publicacion.estilos.color }}" aria-hidden="true"></i>
@@ -178,6 +185,10 @@
                         </p>
                     </div>
                 </div>
+                <div class="espacio"></div>
+                <p class="c7 fuenteDos fs-20 lh-25">
+                    Encuentra empleo con linkedin
+                </p>
                 <div class="espacio"></div>
                 <p class="c7 fuenteDos fs-20 lh-25">
                     {{ 'DEVELOPER.dev-busqueda-empleo.marketplace.linkedin.tx3' | translate }}

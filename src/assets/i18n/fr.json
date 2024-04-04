@@ -6,6 +6,7 @@
     "Post":"publications",
     "Categorias":"Catégories",
     "Enviar": "Envoyer",
+    "Glosario":"Glossaire",
     "Frases":{
         "f1":{
             "frase":"Les esprits occupés, les âmes pures et les cœurs satisfaits ne se mêlent jamais de la vie des autres.",
@@ -731,9 +732,10 @@
             "nombre":"Glossaire général",
             "referenciaBusqueda":"termes, glossaire, recherche, trouver",
             "descripcion":{
-                "tx1":"Termes généraux de programmation, ce glossaire sera mis à jour au fur et à mesure de l'ajout de nouveaux termes et de leur signification."
+                "tx1":"Recherchez n'importe quel terme dans le domaine du développement.",
+                "tx2":"L'idée de ce glossaire est de trouver rapidement une description simplifiée des termes en développement qui sont parfois perdus dans notre esprit. À l'heure actuelle, il n'est généralement pas nécessaire de disposer d'autant d'informations sur un sujet spécifique."
             },
-            "descripcionCorta":"Recommandations testées à partir de ma propre expérience de la recherche d'emploi."
+            "descripcionCorta":"Recherchez n'importe quel terme dans le domaine du développement."
         }
     },
     "ELECTRON":{

@@ -6,6 +6,7 @@
     "Post":"Post",
     "Categorias":"Categories",
     "Enviar": "Send",
+    "Glosario":"Glosary",
     "Frases":{
         "f1":{
             "frase":"Busy minds, clean souls and contented hearts never meddle in anyone's life.",
@@ -727,9 +728,10 @@
             "nombre":"General Glossary",
             "referenciaBusqueda":"terms, glossary, search, find",
             "descripcion":{
-                "tx1":"General terms in programming, this glossary will be updated as more terms and their meaning are added."
+                "tx1":"Search for any term within the development field.",
+                "tx2":"The idea of this glossary is to quickly find a simplified description of developing terms that are sometimes lost from our minds. For the time being, there is usually no need for so much information on a specific topic."
             },
-            "descripcionCorta":"Proven recommendations from my own job search experience."
+            "descripcionCorta":"Find a quick description of terms in development."
         }
     },
     "ELECTRON":{

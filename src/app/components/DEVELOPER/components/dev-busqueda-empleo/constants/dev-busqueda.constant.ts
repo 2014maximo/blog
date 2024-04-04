@@ -843,5 +843,35 @@ export const BLOQUE_LINKS: IndiceDeContenidosModel[] = [
         rutaInterna:'',
         rutaExterna:'https://remote.com/'
     },
+    {
+        nombre: 'Empleo grupo bancolombia',
+        posicion: 'rot-1',
+        ruta: '',
+        colorFondo: 'bg-Developer',
+        color: 'text-dark',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://empleo.grupobancolombia.com/'
+    },
+    {
+        nombre: 'SENA',
+        posicion: 'rot-3',
+        ruta: '',
+        colorFondo: 'bg-white',
+        color: 'text-dark',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://agenciapublicadeempleo.sena.edu.co/Personas/Paginas/Inicio.aspx'
+    },
+    {
+        nombre: 'BAIRES',
+        posicion: 'rot-3',
+        ruta: '',
+        colorFondo: 'bg-white',
+        color: 'text-dark',
+        estado: 'activo',
+        rutaInterna:'',
+        rutaExterna:'https://applicants.bairesdev.com/'
+    }
 ]
 

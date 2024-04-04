@@ -6,6 +6,7 @@
     "Post":"Post",
     "Categorias":"Categorías",
     "Enviar": "Enviar",
+    "Glosario":"Glosario",
     "Frases":{
         "f1":{
             "frase":"Las mentes ocupadas, las almas limpias y los corazones satisfechos, no se meten jamás en las vida de nadie.",
@@ -731,9 +732,10 @@
             "nombre":"Glosario general",
             "referenciaBusqueda":"terminos, glosario, buscar, encontrar",
             "descripcion":{
-                "tx1":"Terminos en general en la programación, este glosario a medida reciba actualizaciones se ingresan más términos y su significado."
+                "tx1":"Busca cualquier término dentro del campo de desarrollo.",
+                "tx2":"La idea de este glosario es encontrar rápidamente una descripción simplificada de los términos en desarrollo que a veces se nos pierde del mente. De momento no suele necesitarse tanta información de algún tema en específico."
             },
-            "descripcionCorta":"Recomendaciones probadas en mi propia experiencia de búsqueda laboral."
+            "descripcionCorta":"Encuentra una descripción rápida de términos en desarrollo."
         }
     },
     "ELECTRON":{

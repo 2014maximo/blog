@@ -156,7 +156,8 @@ export const DEVELOPER: DatosPost[] = [
         nombre: 'DEVELOPER.dev-glosario.nombre',
         referenciaBusqueda:'DEVELOPER.dev-glosario.referenciaBusqueda',
         descripcion: [
-            'DEVELOPER.dev-glosario.descripcion.tx1'
+            'DEVELOPER.dev-glosario.descripcion.tx1',
+            'DEVELOPER.dev-glosario.descripcion.tx2'
         ],
         descripcionCorta: 'DEVELOPER.dev-glosario.descripcionCorta',
         ruta: 'dev-glosario-general',

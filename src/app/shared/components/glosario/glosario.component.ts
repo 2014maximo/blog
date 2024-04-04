@@ -25,6 +25,7 @@ export class GlosarioComponent implements OnInit {
     let gruposCategorias: CategoriaPostModel[] = []; 
     this.categoriasBuscar.forEach((e)=>{
       let grupo = CATEGORIA.filter((cat:CategoriaPostModel) => cat.nombre === e)[0];
+
       gruposCategorias.push(grupo);
     });
     console.log(gruposCategorias, 'GRUPOS CATEGORIAS');
@@ -34,15 +35,11 @@ export class GlosarioComponent implements OnInit {
      this.glosario.push(...gruposCategorias[i].glosario);
     }
 
-    // let grupoDatos = f.glosario.filter((ref) => ref.mostrar);
-    // console.log(grupoDatos, 'GRUPO DATOS');
-    // this.glosario = this.glosario.concat(f.glosario);
-    
-    console.log(this.glosario, 'GLOSARIO');
+    let grupoDatos = this.glosario.filter((ref) => ref.mostrar);
 
     this.datosCategoria = CATEGORIA.filter((cat:CategoriaPostModel) => cat.nombre === this.categoria)[0];
 
-    this.glosarioCache = this.glosario;
+    this.glosarioCache = this.glosario = grupoDatos;
   }
 
   public esPar(numero: any): boolean{
