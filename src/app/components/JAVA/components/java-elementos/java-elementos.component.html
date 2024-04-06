@@ -1,1 +1,55 @@
-<p>java-elementos works!</p>
+<div #target></div>
+<app-header-home [categoria]="breadcrumb"></app-header-home>
+<div class="espaciado"></div>
+<app-encabezado-publicacion [idPublicacion]="idPublicacion" [rutaIconoSugerido]="categoria.rutaIcono"></app-encabezado-publicacion>
+<div class="espaciado"></div>
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="row">
+            <div class="col-md-8">
+                <h2 class="f-yanone fs-30 lh-30 text-light p-0 text-uppercase mb-2">ESTRUCTURA DE ARCHIVOS</h2>
+                <p class="c7 fuenteDos fs-20 lh-25">
+                    Los proyectos de Java presentan numerosas estructuras de archivos que varían según el editor de texto, el tipo de arquitectura o el enfoque de aplicativo. Miremos algunas y para que todo eso.
+                </p>
+                <h5 class="{{ this.publicacion.estilos.color }} f-shadow-into-l fs-20">Básico de IntellijIdea</h5>
+                <img src="https://plantillas_dev.gitlab.io/assets/img/posts/java/estructura de archivos basica intelljIdea.png" alt="estructura de archivos basica intelljIdea" class="img-fluid drop">
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="espacio"></div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="f-yanone fs-30 lh-30 text-light p-0 text-uppercase mb-2">SINTAXIS DE LAS VARIABLES</h2>
+                <p class="c7 fuenteDos fs-20 lh-25">
+                    Tipo / nombreVariable / Asignación del valor
+                </p>
+                <img src="https://plantillas_dev.gitlab.io/assets/img/posts/java/sintaxis-variables.png" alt="" height="50" width="auto" class="img-fluid">
+                <p class="c7 fuenteDos fs-20 lh-25">
+                    <b>Normas para nombrar:</b><br>
+                    - Letra minúscula al principio.<br>
+                    - No nombrar con palabras reservadas (class, number, etc.).<br>
+                    - No pueden llevar un numero en el primer dígito del nombre de la variable.<br>
+                    <br>
+                    <br>
+                    En Java es muy importante manejar los conceptos capacidad de almacenamiento para cada tipo, en este caso este esta es la capacidad de cada uno:
+                    
+                </p>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+
+
+
+
+
+<div class="espaciado"></div>
+
+<app-footer-home></app-footer-home>
+<div class="go-up" (click)="scroll(target)">
+    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+</div>

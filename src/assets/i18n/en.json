@@ -883,6 +883,14 @@
                 "tx1":"To begin with, there is the installation of Angular, you can take into account what is special in each version, obviously the latest version shows us how far the Framework has evolved. There are also the startup commands, creation and options, that when we start we do not have them at hand."
             },
             "descripcionCorta":"Angular installation. What the versions bring from the js and all the angular commands you didn't know."
+        },
+        "java-elementos":{
+            "nombre":"Java Elements",
+            "referenciaBusqueda":"elements, java",
+            "descripcion":{
+                "tx1":"The structure of C-based languages, such as Java, is very similar. In addition, there are other important elements and parts, their description, operation and implications within it."
+            },
+            "descripcionCorta":"Here are the most outstanding elements of our beloved Java."
         }
     },
     "JAVASCRIPT":{

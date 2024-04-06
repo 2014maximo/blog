@@ -80,4 +80,27 @@ export const JAVA: DatosPost[] = [
         estado: 'activo',
         imgSlider: undefined
     },
+    {
+        id: '14adc124-a3ad-4b92-a56d-06b069dcdd8c',
+        nombre: 'JAVA.java-elementos.nombre',
+        referenciaBusqueda:'JAVA.java-elementos.referenciaBusqueda',
+        descripcion: [
+            'JAVA.java-elementos.descripcion.tx1'
+            
+        ],
+        descripcionCorta: 'JAVA.java-elementos.descripcionCorta',
+        ruta: 'java-elementos',
+        componente: '',
+        mostrarEnPostHome: true,
+        estilos: ESTILO_JAVA,
+        fechaCreacion: '2024-04-04',
+        fechaActualizacion: '',
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
+        imgVertical:'',
+        imgCuadro:'',
+        categoria: 'java',
+        posicion: 'rot-2',
+        estado: 'activo',
+        imgSlider: undefined
+    },
 ]

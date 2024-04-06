@@ -76,6 +76,7 @@ export const ROUTES: Routes = [
     { path: 'java', component: Ruta.JavaComponent},
     { path: 'java-instalacion', component: Ruta.JavaInstalacionComponent},
     { path: 'java-glassfish', component: Ruta.JavaGlassfishComponent},
+    { path: 'java-elementos', component: Ruta.JavaElementosComponent},
 
 // JAVASCRIPT
     { path: 'javascript', component: Ruta.JavascriptComponent },

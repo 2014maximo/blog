@@ -64,6 +64,7 @@ export * from '@components/HTML/components/html-etiquetas/html-etiquetas.compone
 export * from '@components/JAVA/java/java.component';
 export * from '@components/JAVA/components/java-instalacion/java-instalacion.component';
 export * from '@components/JAVA/components/java-glassfish/java-glassfish.component';
+export * from '@components/JAVA/components/java-elementos/java-elementos.component';
 
 // JAVASCRIPT
 export * from '@components/JAVASCRIPT/javascript/javascript.component';

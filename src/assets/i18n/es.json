@@ -888,6 +888,15 @@
                 "tx1":"Para empezar esta la instalación de angular simplemente, se puede tener en cuenta que trae de especial cada versión, obviamente la última versión nos muestra hasta donde a evolucionado el Framework. También estan los comandos de inicio, de creación y las opciones, que cuando empezamos no los tenemos a la mano."
             },
             "descripcionCorta":"Instalación angular. Qué traen las versiones desde la js y todos los comandos del angular que desconocías."
+        },
+        "java-elementos":{
+            "nombre":"Elementos java",
+            "referenciaBusqueda":"elementos, java",
+            "descripcion":{
+                "tx1":"La estructura de los lenguajes basados en 'C', como Java, es muy similar. Adicional estan otros elementos y partes destacables, su descripción, funcionamiento e implicaciones dentro del mismo.",
+                "tx2":""
+            },
+            "descripcionCorta":"Aquí estan los elementos más destacables nuestro querido Java."
         }
     },
     "JAVASCRIPT":{
