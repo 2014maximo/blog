@@ -135,6 +135,12 @@ export const PREGUNTAS: PreguntasModel[] = [
                 pregunta:'¿Cuál es tu enfoque en cuanto a la calidad del código y las prácticas de desarrollo sostenible?',
                 sugerencia:' Los entrevistadores pueden estar interesados en tu compromiso con la calidad y la mejora continua.',
                 respuestaEjemplo:''
+            },
+            {
+                id:11,
+                pregunta:'¿Por qué quieres ser parte de este reto?',
+                sugerencia:' Están interesados en saber cuáles son tus motivaciones específicas para unirte a su equipo y enfrentar los desafíos que ofrece el puesto de trabajo o proyecto en cuestión. Quieren entender cómo tus objetivos personales y profesionales se alinean con lo que la empresa tiene para ofrecer y cómo planeas contribuir al éxito del equipo.',
+                respuestaEjemplo:'Es una gran oportunidad hacer parte de su equipo de trabajo pues son una empresa que esta en constante crecimiento a nivel tecnológico, se atreven a empreder en soluciones actuales en las que en el día a día, se aprende de los errores, se descubren maneras de hacer las cosas por caminos más cortos y efectivos. Esa es la ficha clave en mi camino de aprendizaje con la cual puedo entregar mi pasión.'
             }
 
         ]

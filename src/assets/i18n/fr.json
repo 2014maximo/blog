@@ -490,6 +490,11 @@
                                 "pregunta":"QUELLE EST VOTRE APPROCHE DE LA QUALITÉ DU CODE ET DES PRATIQUES DE DÉVELOPPEMENT DURABLE ?",
                                 "sugerencia":"Les enquêteurs peuvent être intéressés par votre engagement en faveur de la qualité et de l'amélioration continue.",
                                 "ejemplo":""
+                            },
+                            "bl11":{
+                                "pregunta":"POURQUOI VOULEZ-VOUS PARTICIPER À CE DÉFI ?",
+                                "sugerencia":"Ils souhaitent savoir quelles sont vos motivations spécifiques pour rejoindre leur équipe et relever les défis offerts par le poste ou le projet en question. Ils veulent comprendre comment vos objectifs personnels et professionnels s'alignent sur ce que l'entreprise a à offrir et comment vous comptez contribuer au succès de l'équipe.",
+                                "ejemplo":"C'est une grande opportunité de faire partie de leur équipe parce que c'est une entreprise qui se développe constamment au niveau technologique, qui ose s'aventurer dans des solutions actuelles dans lesquelles, sur une base quotidienne, nous apprenons de nos erreurs, nous découvrons des façons de faire les choses de manière plus courte et plus efficace. C'est l'élément clé de mon parcours d'apprentissage qui me permet de transmettre ma passion."
                             }
                             
                         }

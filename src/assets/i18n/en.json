@@ -486,8 +486,12 @@
                                 "pregunta":"WHAT IS YOUR APPROACH TO CODE QUALITY AND SUSTAINABLE DEVELOPMENT PRACTICES?",
                                 "sugerencia":"Interviewers may be interested in your commitment to quality and continuous improvement.",
                                 "ejemplo":""
+                            },
+                            "bl11":{
+                                "pregunta":"WHY DO YOU WANT TO BE PART OF THIS CHALLENGE?",
+                                "sugerencia":"They are interested in knowing what your specific motivations are for joining their team and meeting the challenges offered by the job or project in question. They want to understand how your personal and professional goals align with what the company has to offer and how you plan to contribute to the success of the team.",
+                                "ejemplo":"It is a great opportunity to be part of their team because they are a company that is constantly growing at a technological level, they dare to venture into current solutions in which on a daily basis, you learn from mistakes, discover ways to do things in shorter and more effective ways. That is the key token in my learning path with which I can deliver my passion."
                             }
-                            
                         }
                     },
                     "ctn2":{
