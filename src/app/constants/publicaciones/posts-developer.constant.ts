@@ -75,7 +75,7 @@ export const DEVELOPER: DatosPost[] = [
         descripcionCorta: 'DEVELOPER.dev-algoritmos-clave.descripcionCorta',
         ruta: 'dev-algoritmos-clave',
         componente: 'DevAlgoritmosClaveComponent',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_DEVELOPER,
         fechaCreacion: '2023-03-20',
         fechaActualizacion: '',
@@ -84,7 +84,7 @@ export const DEVELOPER: DatosPost[] = [
         imgCuadro:'',
         categoria: 'developer',
         posicion: 'rot-1',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
     {
@@ -95,7 +95,7 @@ export const DEVELOPER: DatosPost[] = [
         descripcionCorta: 'DEVELOPER.dev-diagramas-secuencia.descripcionCorta',
         ruta: 'dev-diagramas-secuencia',
         componente: 'DevDiagramasSecuenciaComponent',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_DEVELOPER,
         fechaCreacion: '2023-03-20',
         fechaActualizacion: '',
@@ -104,7 +104,7 @@ export const DEVELOPER: DatosPost[] = [
         imgCuadro:'',
         categoria: 'developer',
         posicion: 'rot-3',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
     {
@@ -115,7 +115,7 @@ export const DEVELOPER: DatosPost[] = [
         descripcionCorta: 'DEVELOPER.dev-controles-visual.descripcionCorta',
         ruta: 'dev-controles-visual',
         componente: 'DevControlesVisualStudio',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_DEVELOPER,
         fechaCreacion: '2023-03-20',
         fechaActualizacion: '',
@@ -124,7 +124,7 @@ export const DEVELOPER: DatosPost[] = [
         imgCuadro:'',
         categoria: 'developer',
         posicion: 'rot-3',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
     {

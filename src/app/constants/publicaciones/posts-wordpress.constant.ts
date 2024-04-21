@@ -35,7 +35,7 @@ export const WORDPRESS: DatosPost[] = [
         descripcionCorta: 'WORDPRESS.wordpress-elementos.descripcionCorta',
         ruta: 'wordpress-elementos',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_WORDPRESS,
         fechaCreacion: '2023-09-15',
         fechaActualizacion: '',
@@ -44,7 +44,7 @@ export const WORDPRESS: DatosPost[] = [
         imgCuadro:'',
         categoria: 'wordpress',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     }
 ]

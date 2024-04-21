@@ -45,7 +45,7 @@ export const LINUX: DatosPost[] = [
         descripcionCorta: 'LINUX.lx-comandos.descripcionCorta',
         ruta: 'lx-co-m-u',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_LINUX,
         fechaCreacion: '2023-09-15',
         fechaActualizacion: '',
@@ -54,7 +54,7 @@ export const LINUX: DatosPost[] = [
         imgCuadro:'',
         categoria: 'linux',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     }
 ]

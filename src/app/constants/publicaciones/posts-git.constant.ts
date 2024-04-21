@@ -45,7 +45,7 @@ export const GIT: DatosPost[] = [
         ruta: 'git-errores',
         componente: 'GitErroresComponent',
         categoria: 'git',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_GIT,
         fechaCreacion: '2023-25-07',
         fechaActualizacion: '2023-23-08',
@@ -53,7 +53,7 @@ export const GIT: DatosPost[] = [
         imgVertical:'',
         imgCuadro:'',
         posicion: 'rot-1',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: {
             alt: 'Errores git',
             height: '600',

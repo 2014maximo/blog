@@ -41,7 +41,7 @@ export const TYPESCRIPT: DatosPost[] = [
         descripcionCorta: 'TYPESCRIPT.typescript-elementos.descripcionCorta',
         ruta: 'ts-elementos',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_TYPESCRIPT,
         fechaCreacion: '2023-09-06',
         fechaActualizacion: '',
@@ -50,7 +50,7 @@ export const TYPESCRIPT: DatosPost[] = [
         imgCuadro:'',
         categoria: 'typescript',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
     {

@@ -28,8 +28,8 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         ],
         descripcion: {
             listaTexto: [
-                'No nos va a aparecer antes de la versión 7 de la libreria rxjs, esta función viene a reemplazar a "toPromise()", quedando en el abismo de los obsoletos.',
-                'Su característica de operar es la de convertir un observable en una promesa que se cumple cuando devuelve el primer valor.'
+                'No nos va a aparecer antes de la versión 7 de la libreria RxJS, esta función viene a reemplazar a "toPromise()", quedando en el abismo de los obsoletos.',
+                'Se suele debatir si se usa un observable o una promesa dependiendo se requiera una sola petición o estar escuchando un emisor, en este caso su característica de operar es la de convertir un observable en una promesa que se cumple cuando devuelve el primer valor.'
             ]
         }
     },
@@ -114,7 +114,8 @@ export const TERMINOS_ANGULAR: GlosarioModel [] = [
         linksReferencia: [],
         descripcion: {
             listaTexto:[
-                'Cuando se conoce o se ha trabajado frecuentemente con éste, se sabe que puede traer comportamientos inesperados en situaciones no controladas. No es muy recomendable.'
+                'Una particularidad de este observable es que permite una comunicación constante entre varios componentes. O sea, tengo 4 componentes conectados a un behavior Subject, cuando alguno emite un cambio, los otros escuchan y también si uno de esos otros emite algún valor, los otros tendrán ese nuevo cambio almacenado en la variable suscrita. Puede usarse esa particularidad de ambos sentidos para recibir y enviar información a través de la misma variable suscrita.',
+                'Cuando se conoce o se ha trabajado frecuentemente con este, se sabe que puede traer comportamientos inesperados en situaciones no controladas. Como, por ejemplo, tener escapes de memoria por un uso exagerado de este operador.',
             ]
         }
     },

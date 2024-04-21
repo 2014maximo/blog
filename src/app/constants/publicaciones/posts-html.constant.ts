@@ -47,7 +47,7 @@ export const HTML: DatosPost[] = [
         descripcionCorta: 'HTML.html-etiquetas.descripcionCorta',
         ruta: 'html-etiquetas',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_HTML,
         fechaCreacion: '2023-09-14',
         fechaActualizacion: '',
@@ -56,7 +56,7 @@ export const HTML: DatosPost[] = [
         imgCuadro:'',
         categoria: 'html',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     }
 ]

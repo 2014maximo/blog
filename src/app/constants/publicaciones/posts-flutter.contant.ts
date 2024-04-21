@@ -41,7 +41,7 @@ export const FLUTTER: DatosPost[] = [
         descripcionCorta: 'FLUTTER.flutter-instalacion.descripcionCorta',
         ruta: 'flutter-instalacion',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_FLUTTER,
         fechaCreacion: '2023-09-14',
         fechaActualizacion: '',
@@ -50,7 +50,7 @@ export const FLUTTER: DatosPost[] = [
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         categoria: 'flutter',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
     {
@@ -63,7 +63,7 @@ export const FLUTTER: DatosPost[] = [
         descripcionCorta: 'FLUTTER.flutter-elementos.descripcionCorta',
         ruta: 'flutter-elementos',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_FLUTTER,
         fechaCreacion: '2023-09-14',
         fechaActualizacion: '',
@@ -72,7 +72,7 @@ export const FLUTTER: DatosPost[] = [
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         categoria: 'flutter',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     }
 ]

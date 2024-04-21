@@ -45,7 +45,7 @@ export const KOTLIN: DatosPost[] = [
         descripcionCorta: 'KOTLIN.kotlin-elementos.descripcionCorta',
         ruta: 'kotlin-elementos',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_KOTLIN,
         fechaCreacion: '2023-09-15',
         fechaActualizacion: '',
@@ -54,6 +54,6 @@ export const KOTLIN: DatosPost[] = [
         imgCuadro:'',
         categoria: 'kotlin',
         posicion: 'rot-2',
-        estado: 'activo'
+        estado: 'inactivo'
     }
 ]

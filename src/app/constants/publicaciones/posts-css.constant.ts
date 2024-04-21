@@ -39,7 +39,7 @@ export const CSS: DatosPost[] = [
         descripcionCorta: 'CSS.css-clases.descripcionCorta',
         ruta: 'css-atributos',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_CSS,
         fechaCreacion: '2023-09-14',
         fechaActualizacion: '',
@@ -48,7 +48,7 @@ export const CSS: DatosPost[] = [
         imgCuadro:'',
         categoria: 'css',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     }
 ]

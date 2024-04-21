@@ -42,7 +42,7 @@ export const ELECTRON: DatosPost[] = [
         descripcionCorta: 'ELECTRON.etron-elementos.descripcionCorta',
         ruta: 'etron-elementos',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_ELECTRON,
         fechaCreacion: '2023-09-14',
         fechaActualizacion: '',
@@ -51,7 +51,7 @@ export const ELECTRON: DatosPost[] = [
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         categoria: 'electron',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
     {
@@ -64,7 +64,7 @@ export const ELECTRON: DatosPost[] = [
         descripcionCorta: 'ELECTRON.etron-instalacion.descripcionCorta',
         ruta: 'etron-instalacion',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_ELECTRON,
         fechaCreacion: '2023-09-14',
         fechaActualizacion: '',
@@ -73,7 +73,7 @@ export const ELECTRON: DatosPost[] = [
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         categoria: 'electron',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
 ]

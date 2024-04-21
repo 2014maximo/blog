@@ -60,7 +60,7 @@ export const ANGULAR: DatosPost[] = [
         descripcionCorta: 'ANGULAR.ng-elementos.descripcionCorta',
         ruta: 'ng-descripcion-elementos',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_ANGULAR,
         fechaCreacion: '2023-03-17',
         fechaActualizacion: '2023-09-14',
@@ -69,7 +69,7 @@ export const ANGULAR: DatosPost[] = [
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         categoria: 'angular',
         posicion: 'post-z',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
     {
@@ -80,7 +80,7 @@ export const ANGULAR: DatosPost[] = [
         descripcionCorta: 'ANGULAR.ng-comunicacion-componentes.descripcionCorta',
         ruta: 'ng-comunicacion-componentes',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_ANGULAR,
         fechaCreacion: '2023-03-17',
         fechaActualizacion: '2023-09-14',
@@ -89,7 +89,7 @@ export const ANGULAR: DatosPost[] = [
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         categoria: 'angular',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
     {
@@ -103,7 +103,7 @@ export const ANGULAR: DatosPost[] = [
         descripcionCorta: 'ANGULAR.ng-arquitectura.descripcionCorta',
         ruta: 'ng-arquitecturas',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_ANGULAR,
         fechaCreacion: '2023-03-17',
         fechaActualizacion: '2023-09-14',
@@ -112,7 +112,7 @@ export const ANGULAR: DatosPost[] = [
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         categoria: 'angular',
         posicion: 'post-z',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
     {
@@ -123,7 +123,7 @@ export const ANGULAR: DatosPost[] = [
         descripcionCorta: 'ANGULAR.ng-manejo-rutas.descripcionCorta',
         ruta: 'ng-manejo-rutas',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_ANGULAR,
         fechaCreacion: '2023-03-17',
         fechaActualizacion: '2023-09-14',
@@ -132,7 +132,7 @@ export const ANGULAR: DatosPost[] = [
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         categoria: 'angular',
         posicion: 'post-z',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
     {
@@ -143,7 +143,7 @@ export const ANGULAR: DatosPost[] = [
         descripcionCorta: 'ANGULAR.ng-microservicios.descripcionCorta',
         ruta: 'ng-microservicios',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_ANGULAR,
         fechaCreacion: '2023-03-17',
         fechaActualizacion: '2023-09-14',
@@ -152,7 +152,7 @@ export const ANGULAR: DatosPost[] = [
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         categoria: 'angular',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
     {
@@ -163,7 +163,7 @@ export const ANGULAR: DatosPost[] = [
         descripcionCorta: 'ANGULAR.ng-modulos.descripcionCorta',
         ruta: 'ng-modulos',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_ANGULAR,
         fechaCreacion: '2023-03-17',
         fechaActualizacion: '2023-09-14',
@@ -172,7 +172,7 @@ export const ANGULAR: DatosPost[] = [
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         categoria: 'angular',
         posicion: 'rot-3',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
     {
@@ -183,7 +183,7 @@ export const ANGULAR: DatosPost[] = [
         descripcionCorta: 'ANGULAR.ng-pruebas-unitarias.descripcionCorta',
         ruta: 'ng-pruebas-unitarias',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_ANGULAR,
         fechaCreacion: '2023-03-17',
         fechaActualizacion: '2023-09-14',
@@ -192,7 +192,7 @@ export const ANGULAR: DatosPost[] = [
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         categoria: 'angular',
         posicion: 'rot-1',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
 ]

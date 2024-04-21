@@ -42,7 +42,7 @@ export const NET: DatosPost[] = [
         descripcionCorta: 'NET.net-elementos.descripcionCorta',
         ruta: 'net-elementos',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_NET,
         fechaCreacion: '2023-09-15',
         fechaActualizacion: '',
@@ -51,7 +51,7 @@ export const NET: DatosPost[] = [
         imgCuadro:'',
         categoria: 'net',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
     {
@@ -64,7 +64,7 @@ export const NET: DatosPost[] = [
         descripcionCorta: 'NET.net-instalacion.descripcionCorta',
         ruta: 'net-instalacion',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_NET,
         fechaCreacion: '2023-09-15',
         fechaActualizacion: '',
@@ -73,7 +73,7 @@ export const NET: DatosPost[] = [
         imgCuadro:'',
         categoria: 'net',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     }
 ]

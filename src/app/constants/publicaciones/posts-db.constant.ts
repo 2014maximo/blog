@@ -50,7 +50,7 @@ export const DB: DatosPost[] = [
         descripcionCorta: 'DB.db-firebase.descripcionCorta',
         ruta: 'db-firebase',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_DB,
         fechaCreacion: '2023-09-14',
         fechaActualizacion: '',
@@ -59,7 +59,7 @@ export const DB: DatosPost[] = [
         imgCuadro:'',
         categoria: 'db',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
     {
@@ -72,7 +72,7 @@ export const DB: DatosPost[] = [
         descripcionCorta: 'DB.db-sql.descripcionCorta',
         ruta: 'db-sql',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_DB,
         fechaCreacion: '2023-09-14',
         fechaActualizacion: '',
@@ -81,7 +81,7 @@ export const DB: DatosPost[] = [
         imgCuadro:'',
         categoria: 'db',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
     {
@@ -94,7 +94,7 @@ export const DB: DatosPost[] = [
         descripcionCorta: 'DB.db-sql-server.descripcionCorta',
         ruta: 'db-sql-server',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_DB,
         fechaCreacion: '2023-09-14',
         fechaActualizacion: '',
@@ -103,7 +103,7 @@ export const DB: DatosPost[] = [
         imgCuadro:'',
         categoria: 'db',
         posicion: 'rot-1',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
 ]

@@ -43,7 +43,7 @@ export const KUBERNETES: DatosPost[] = [
         descripcionCorta: 'KUBERNETES.kubernetes-elementos.descripcionCorta',
         ruta: 'kotlin-elementos',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_KUBERNETES,
         fechaCreacion: '2023-09-15',
         fechaActualizacion: '',
@@ -52,7 +52,7 @@ export const KUBERNETES: DatosPost[] = [
         imgCuadro:'',
         categoria: 'kotlin',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     }
 ]

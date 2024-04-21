@@ -48,7 +48,7 @@ export const JAVASCRIPT: DatosPost[] = [
         descripcionCorta: 'JAVASCRIPT.js-elementos.descripcionCorta',
         ruta: 'js-elementos',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_JAVASCRIPT,
         fechaCreacion: '2023-09-06',
         fechaActualizacion: '2023-09-14',
@@ -57,7 +57,7 @@ export const JAVASCRIPT: DatosPost[] = [
         imgCuadro:'',
         categoria: 'javascript',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
     {
@@ -70,7 +70,7 @@ export const JAVASCRIPT: DatosPost[] = [
         descripcionCorta: 'JAVASCRIPT.js-recorrer-arrays-objetos.descripcionCorta',
         ruta: 'js-recorrer-arrays-objetos',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_JAVASCRIPT,
         fechaCreacion: '2023-09-06',
         fechaActualizacion: '2023-09-14',
@@ -79,7 +79,7 @@ export const JAVASCRIPT: DatosPost[] = [
         imgCuadro:'',
         categoria: 'javascript',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
 ]

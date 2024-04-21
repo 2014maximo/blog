@@ -41,7 +41,7 @@ export const DART: DatosPost[] = [
         descripcionCorta: 'DART.dart-elementos.descripcionCorta',
         ruta: 'dart-elementos',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_DART,
         fechaCreacion: '2023-09-11',
         fechaActualizacion: '',
@@ -50,7 +50,7 @@ export const DART: DatosPost[] = [
         imgCuadro:'',
         categoria: 'dart',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: {
             alt: 'Elementos dart',
             height: '600',

@@ -45,7 +45,7 @@ export const JAVA: DatosPost[] = [
         descripcionCorta: 'JAVA.java-glassfish.descripcionCorta',
         ruta: 'java-glassfish',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_JAVA,
         fechaCreacion: '2023-03-17',
         fechaActualizacion: '2023-09-14',
@@ -54,7 +54,7 @@ export const JAVA: DatosPost[] = [
         imgCuadro:'',
         categoria: 'java',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
     {
@@ -68,7 +68,7 @@ export const JAVA: DatosPost[] = [
         descripcionCorta: 'JAVA.java-instalacion.descripcionCorta',
         ruta: 'java-instalacion',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_JAVA,
         fechaCreacion: '2023-03-17',
         fechaActualizacion: '2023-09-14',
@@ -77,7 +77,7 @@ export const JAVA: DatosPost[] = [
         imgCuadro:'',
         categoria: 'java',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     },
     {

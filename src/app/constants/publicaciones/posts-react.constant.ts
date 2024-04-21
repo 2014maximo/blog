@@ -42,7 +42,7 @@ export const REACT: DatosPost[] = [
         descripcionCorta: 'REACT.react-elementos.descripcionCorta',
         ruta: 'react-elementos',
         componente: '',
-        mostrarEnPostHome: true,
+        mostrarEnPostHome: false,
         estilos: ESTILO_REACT,
         fechaCreacion: '2023-09-15',
         fechaActualizacion: '',
@@ -51,7 +51,7 @@ export const REACT: DatosPost[] = [
         imgCuadro:'',
         categoria: 'react',
         posicion: 'rot-2',
-        estado: 'activo',
+        estado: 'inactivo',
         imgSlider: undefined
     }
 ]
