@@ -222,6 +222,14 @@
                 "tx1":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
             },
             "descripcionCorta":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+        },
+        "ng-gh-pages":{
+            "nombre":"Upload Angular project to GithubPages",
+            "referenciaBusqueda":"github pages, github, githubpages, subir a github",
+            "descripcion":{
+                "tx1":"Github allows you to upload your Angular frontend project through the 'angular-github-pages' library."
+            },
+            "descripcionCorta":"Upload your angular project to a domain provided by github."
         }
     },
     "CSS":{
