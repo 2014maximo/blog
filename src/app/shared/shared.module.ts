@@ -27,6 +27,7 @@ import { IndiceLinksComponent } from './components/indice-links/indice-links.com
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
+import { ImagenModalComponent } from './components/imagen-modal/imagen-modal.component';
 
 export function HttpLoaderFactory (httpClient:HttpClient){
   return new TranslateHttpLoader(httpClient,'assets/i18n/','.json');
@@ -54,6 +55,7 @@ export function HttpLoaderFactory (httpClient:HttpClient){
     GlosarioComponent,
     EncabezadoPublicacionComponent,
     IndiceLinksComponent,
+    ImagenModalComponent,
   ],
   imports: [
     CommonModule,
@@ -86,7 +88,8 @@ export function HttpLoaderFactory (httpClient:HttpClient){
     PaginadorComponent,
     EncabezadoPublicacionComponent,
     GlosarioComponent,
-    IndiceLinksComponent
+    IndiceLinksComponent,
+    ImagenModalComponent
   ]
 })
 export class SharedModule { }

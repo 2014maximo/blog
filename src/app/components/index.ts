@@ -14,6 +14,7 @@ export * from '@components/ANGULAR/components/ng-microservicios/ng-microservicio
 export * from '@components/ANGULAR/components/ng-modulos/ng-modulos.component';
 export * from '@components/ANGULAR/components/ng-pruebas-unitarias/ng-pruebas-unitarias.component';
 export * from '@components/ANGULAR/components/ng-arquitecturas/ng-arquitecturas.component';
+export * from '@components/ANGULAR/components/ng-gh-pages/ng-gh-pages.component';
 
 // CSS
 export * from '@components/CSS/css/css.component';

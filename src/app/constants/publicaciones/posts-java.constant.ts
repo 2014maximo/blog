@@ -86,7 +86,6 @@ export const JAVA: DatosPost[] = [
         referenciaBusqueda:'JAVA.java-elementos.referenciaBusqueda',
         descripcion: [
             'JAVA.java-elementos.descripcion.tx1'
-            
         ],
         descripcionCorta: 'JAVA.java-elementos.descripcionCorta',
         ruta: 'java-elementos',
@@ -95,12 +94,19 @@ export const JAVA: DatosPost[] = [
         estilos: ESTILO_JAVA,
         fechaCreacion: '2024-04-04',
         fechaActualizacion: '',
-        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/java/elementos-java.jpg'),
         imgVertical:'',
         imgCuadro:'',
         categoria: 'java',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: undefined
+        imgSlider: {
+            alt: 'Elementos Java',
+            height: '600',
+            id: '2',
+            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/java/slider-elementos-java.jpg',
+            width: 'auto',
+            post: 'java-elementos'
+        }
     },
 ]

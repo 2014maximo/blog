@@ -23,6 +23,7 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
 import { TsInstalacionComponent } from './TYPESCRIPT/components/ts-instalacion/ts-instalacion.component';
 import { JavaElementosComponent } from './JAVA/components/java-elementos/java-elementos.component';
+import { NgGhPagesComponent } from './ANGULAR/components/ng-gh-pages/ng-gh-pages.component';
 
 
 
@@ -103,6 +104,7 @@ export function HttpLoaderFactory (httpClient:HttpClient){
     DevContentComponent,
     TsInstalacionComponent,
     JavaElementosComponent,
+    NgGhPagesComponent,
   ],
   imports: [
     CommonModule,

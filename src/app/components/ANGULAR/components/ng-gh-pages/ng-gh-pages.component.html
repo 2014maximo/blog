@@ -1,0 +1,183 @@
+<div #target></div>
+<app-header-home [categoria]="breadcrumb"></app-header-home>
+<div class="espaciado"></div>
+<app-encabezado-publicacion [idPublicacion]="idPublicacion" [rutaIconoSugerido]="categoria.rutaIcono"></app-encabezado-publicacion>
+<div class="espaciado"></div>
+
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <h2 class="f-bebas fs-50 text-light">CREAR REPO EN GITHUB</h2>
+        <div class="espacio"></div>
+        <div class="row">
+            <div class="col-md-7">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h2 class="f-bebas fs-160 text-light m-0 p-0">1</h2>
+                    </div>
+                    <div class="col-md-10">
+                        <p class="text-light f-open-sans-c fs-18 lh-20">
+                            En nuestro Github personal, crear un nuevo repositorio con solamente el nombre:
+                        </p>
+
+                        <app-imagen-modal [imageUrl]="imageUrl"
+                        [imageRef]="'modalRepo'"></app-imagen-modal>
+
+                        <p class="text-light f-open-sans-c fs-18 lh-20">
+                            Para el ejercicio actual no se requieren características especiales o configuraciones adicionales. Solo el nombre del proyecto y crear.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+        <div class="espacio"></div>
+        <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-7">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h2 class="f-bebas fs-160 text-light m-0 p-0">2</h2>
+                    </div>
+                    <div class="col-md-10">
+                        <p class="text-light f-open-sans-c fs-18 lh-20">
+                            Copiar toda esta lista de comandos con el botón copiar de Github:
+                        </p>
+                        <app-imagen-modal
+                            [imageUrl]="'https://plantillas_dev.gitlab.io/assets/img/posts/angular/procesoGit.png'"
+                            [imageRef]="'modalProceso'">
+                    </app-imagen-modal>
+                        
+                        <p class="text-light f-open-sans-c fs-18 lh-20">
+                            En esta parte la idea es subir en simple el proyecto Angular al repositorio recién creado. Se sugiere copiar el grupo de comandos, o, tranquilamente, se puede trabajar por ramas o con Github aplicación de escritorio.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="espaciado"></div>
+        <h2 class="f-bebas fs-50 text-light">CREAR PROYECTO ANGULAR EN LOCAL</h2>
+        
+        <div class="row">
+            <div class="col-md-7">
+                <div class="row">
+                    <div class="col-md-2">
+                        
+                        <h2 class="f-bebas fs-160 text-light m-0 p-0">3</h2>
+                    </div>
+                    <div class="col-md-10">
+                        <p class="text-light f-open-sans-c fs-18 lh-20">
+                            Con el comando angular@cli para crear nuevo proyecto, construimos uno en local para subir a Github, cualquier nombre esta bien:
+                        </p>
+                        <app-print-code
+                            [ObjectCode]="nuevoProyectoAngular"
+                            [categoria]="categoria"
+                            [categoriaCorta]="'TERMINAL'"
+                            [lineas]="3"
+                            [lenguaje]="'linux'"
+                            [tipoCode]="'windows'"
+                            [colorTextoBase]="'c-Typescript'"
+                            [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                            [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
+                        </app-print-code>
+
+                        <p class="text-light f-open-sans-c fs-18 lh-20 mt-4">
+                            En el ejercicio actual se utilizó Angular en versión 16.0.0. - Node Js en versión 16.17.1
+                        </p>
+                        <img src="https://plantillas_dev.gitlab.io/assets/img/posts/angular/archivosAngular.png" alt="new proceso inicial Git" height="400" width="auto" class="shadow-two mb-3 img-fluid" title="Zoom">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+        <div class="espaciado"></div>
+        
+        <div class="row">
+            <div class="col-md-5">
+                
+            </div>
+            <div class="col-md-7">
+                <div class="row">
+                    <div class="col-md-2">
+                        
+                        <h2 class="f-bebas fs-160 text-light m-0 p-0">4</h2>
+                    </div>
+                    <div class="col-md-10">
+                        <p class="text-light f-open-sans-c fs-18 lh-20">
+                            Con este comando, por consola agregar la librería angular-ghpages:
+                        </p>
+                        <app-print-code
+                            [ObjectCode]="agregarLibreria"
+                            [categoria]="categoria"
+                            [categoriaCorta]="'TERMINAL'"
+                            [lineas]="3"
+                            [lenguaje]="'linux'"
+                            [tipoCode]="'windows'"
+                            [colorTextoBase]="'c-Typescript'"
+                            [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                            [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
+                        </app-print-code>
+
+                        <p class="text-light f-open-sans-c fs-18 lh-20 mt-4">
+                            En el ejercicio actual se utilizó Angular en versión 16.0.0. - Node Js en versión 16.17.1
+                        </p>
+                        <img src="https://plantillas_dev.gitlab.io/assets/img/posts/angular/libreria-ghpages.png" alt="new proceso inicial Git" height="400" width="auto" class="shadow-two mb-3 img-fluid" title="Zoom">
+                        <!-- The Modal -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="espaciado"></div>
+
+        <div class="row">
+            <div class="col-md-7">
+                <div class="row">
+                    <div class="col-md-2">
+                        
+                        <h2 class="f-bebas fs-160 text-light m-0 p-0">5</h2>
+                    </div>
+                    <div class="col-md-10">
+                        <p class="text-light f-open-sans-c fs-18 lh-20">
+                            Con este comando, por consola se ejecuta el constructor de proyecto, que se construye en base al repositorio que esta en github. En la parte de 'project-gh-pages' colocar el nombre del repositorio recien creado:
+                        </p>
+                        <app-print-code
+                            [ObjectCode]="construirProyecto"
+                            [categoria]="categoria"
+                            [categoriaCorta]="'TERMINAL'"
+                            [lineas]="3"
+                            [lenguaje]="'linux'"
+                            [tipoCode]="'windows'"
+                            [colorTextoBase]="'c-Typescript'"
+                            [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                            [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
+                        </app-print-code>
+
+                        <div class="espacio"></div>
+                        <app-imagen-modal
+                            [imageUrl]="'https://plantillas_dev.gitlab.io/assets/img/posts/angular/construccion-completa.png'"
+                            [imageRef]="'modalConstruccion'">
+                        </app-imagen-modal>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-1"></div>
+</div>
+
+
+
+
+
+
+<div class="espaciado"></div>
+
+<app-footer-home></app-footer-home>
+<div class="go-up" (click)="scroll(target)">
+    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+</div>

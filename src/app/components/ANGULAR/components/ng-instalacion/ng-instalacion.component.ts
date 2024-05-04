@@ -17,6 +17,7 @@ export class NgInstalacionComponent implements OnInit {
   public publicacion = new DatosPost();
   public comandosAngularCli = COMANDOS_ANGULAR_CLI;
   public versiones = VERSIONES_ANGULAR;
+  public showImageModal = false;
 
   public breadcrumb: CategoriaModel = {
     activo: true,

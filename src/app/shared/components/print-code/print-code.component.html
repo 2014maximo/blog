@@ -43,7 +43,7 @@
 <div *ngIf="tipoCode == 'windows'" class="row container-code shadow-two bg-terminal-windows">
     <div *ngFor="let code of ObjectCode" class="col-md-12 fuenteTres">
         <span *ngIf="code.mostrarRuta" class="{{colorTextoBase}}">
-            {{code.textRuta}}</span>
+            {{code.textRuta}}</span><br>
         <span class="text-light">{{ code.code }}</span>
     </div>
 </div>

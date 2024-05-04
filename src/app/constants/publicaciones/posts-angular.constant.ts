@@ -195,4 +195,31 @@ export const ANGULAR: DatosPost[] = [
         estado: 'inactivo',
         imgSlider: undefined
     },
+    {
+        id: '306dc20e-eee2-43de-8f2a-c69f0acd9f82',
+        nombre: 'ANGULAR.ng-gh-pages.nombre',
+        referenciaBusqueda:'ANGULAR.ng-gh-pages.referenciaBusqueda',
+        descripcion: ['ANGULAR.ng-gh-pages.descripcion.tx1'],
+        descripcionCorta: 'ANGULAR.ng-gh-pages.descripcionCorta',
+        ruta: 'ng-gh-pages',
+        componente: '',
+        mostrarEnPostHome: true,
+        estilos: ESTILO_ANGULAR,
+        fechaCreacion: '2024-05-01',
+        fechaActualizacion: '',
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/githubpages.jpg'),
+        imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
+        categoria: 'angular',
+        posicion: 'rot-1',
+        estado: 'activo',
+        imgSlider: {
+            alt: 'Subir proyecto angular a GithubPages',
+            height: '600',
+            id: '2',
+            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/slider-ghpages.jpg',
+            width: 'auto',
+            post: 'ng-gh-pages'
+        }
+    },
 ]

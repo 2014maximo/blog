@@ -24,6 +24,7 @@ export const ROUTES: Routes = [
     { path: 'ng-microservicios', component: Ruta.NgMicroserviciosComponent },
     { path: 'ng-modulos', component: Ruta.NgModulosComponent },
     { path: 'ng-pruebas-unitarias', component: Ruta.NgPruebasUnitariasComponent },
+    { path: 'ng-gh-pages', component: Ruta.NgGhPagesComponent },
 
 // CSS
     { path: 'css', component: Ruta.CssComponent },
