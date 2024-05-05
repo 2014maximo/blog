@@ -206,7 +206,7 @@ export const ANGULAR: DatosPost[] = [
         mostrarEnPostHome: true,
         estilos: ESTILO_ANGULAR,
         fechaCreacion: '2024-05-01',
-        fechaActualizacion: '',
+        fechaActualizacion: '2024-05-05',
         imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/githubpages.jpg'),
         imgVertical:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',
         imgCuadro:'https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-cuadro.jpg',

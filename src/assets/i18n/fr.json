@@ -251,6 +251,11 @@
                 "tx1":"Avec cette commande, la console ajoute la bibliothèque angular-ghpages :",
                 "tx2":"Puisque seule la bibliothèque angulaire 'githubpages' est requise dans l'environnement de développement, la commande ci-dessus l'installera dans 'devDependencies'."
             },
+            "primer-commit":{
+                "titulo":"PREMIER ENGAGEMENT",
+                "tx1":"Les données copiées à l'étape 2 sont maintenant collées et exécutées dans le projet Angular nouvellement créé.",
+                "tx2":"C'est ainsi que l'on télécharge le premier engagement avec l'ensemble de la structure du cadre."
+            },
             "construir-compilado":{
                 "titulo":"BUILD COMPILÉ",
                 "tx1":"Exécutez cette commande pour construire. Dans la partie 'project-gh-pages' mettez le nom du dépôt créé dans Github :",
