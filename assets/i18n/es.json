@@ -251,6 +251,11 @@
                 "tx1":"Con este comando, por consola agregar la librería angular-ghpages:",
                 "tx2":"Debido a que solamente se requiere la librería angular 'githubpages' en entorno de desarrollo, el comando anterior lo instalará en 'devDependencies'."
             },
+            "primer-commit":{
+                "titulo":"PRIMER COMMIT",
+                "tx1":"Ahora los datos copiados en el paso 2, se pegan y se ejecutan dentro del proyecto nuevo de Angular creado.",
+                "tx2":"Y así de esta forma subir el primer commit con toda la estructura del framework."
+            },
             "construir-compilado":{
                 "titulo":"CONSTRUIR COMPILADO",
                 "tx1":"Ejecutar este comando para construir. En la parte de 'project-gh-pages' colocar el nombre del repositorio creado en Github:",

@@ -247,6 +247,11 @@
                 "tx1":"With this command, by console add the angular-ghpages library:",
                 "tx2":"Since only the 'githubpages' angular library is required in development environment, the above command will install it in 'devDependencies'."
             },
+            "primer-commit":{
+                "titulo":"FIRST COMMIT",
+                "tx1":"Now the data copied in step 2 is pasted and executed inside the new Angular project created.",
+                "tx2":"And in this way upload the first commit with all the framework structure."
+            },
             "construir-compilado":{
                 "titulo":"BUILD COMPILED",
                 "tx1":"Execute this command to build. In the 'project-gh-pages' part put the name of the repository created in Github:",
