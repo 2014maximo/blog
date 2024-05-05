@@ -5,7 +5,7 @@ import { cargarBreadcrumb, cargarIndice } from '@shared/constants/funciones/func
 import { CategoriaModel } from '@shared/models';
 import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
 import { IndiceDeContenidosModel } from '@shared/models/indice.model';
-import { NG_GH_PAGES, NG_GH_PAGES_AGREGAR_LIBERIA, NG_GH_PAGES_CONSTRUIR_PROYECTO } from './constants/ng-gh-pages.constant';
+import { NG_GH_PAGES, NG_GH_PAGES_AGREGAR_LIBERIA, NG_GH_PAGES_CONSTRUIR_PROYECTO, NG_GH_PAGES_SUBIR_COMPILADO } from './constants/ng-gh-pages.constant';
 
 @Component({
   selector: 'app-ng-gh-pages',
@@ -22,6 +22,7 @@ export class NgGhPagesComponent implements OnInit {
   public nuevoProyectoAngular = NG_GH_PAGES;
   public agregarLibreria = NG_GH_PAGES_AGREGAR_LIBERIA;
   public construirProyecto = NG_GH_PAGES_CONSTRUIR_PROYECTO;
+  public subirCompilado = NG_GH_PAGES_SUBIR_COMPILADO;
 
   public imageUrl = 'https://plantillas_dev.gitlab.io/assets/img/posts/angular/nuevoRepo.png';
 

@@ -17,7 +17,15 @@ export const NG_GH_PAGES_AGREGAR_LIBERIA: CodeModel []=[
 export const NG_GH_PAGES_CONSTRUIR_PROYECTO: CodeModel []=[
     {
         mostrarRuta:true,
-        code:'ng build --base-href "https://2014maximo.github.io/project-gh-pages/',
+        code:'ng build --base-href "https://2014maximo.github.io/project-gh-pages/"',
+        textRuta:'User@DESKTOP-NR9Q26J MINGW64 ~/project-gh-pages> '
+    }
+]
+
+export const NG_GH_PAGES_SUBIR_COMPILADO: CodeModel []=[
+    {
+        mostrarRuta:true,
+        code:'npx angular-cli-ghpages --dir=dist/project-gh-pages',
         textRuta:'User@DESKTOP-NR9Q26J MINGW64 ~/project-gh-pages> '
     }
 ]

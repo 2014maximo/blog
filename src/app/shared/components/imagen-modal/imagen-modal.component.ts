@@ -13,6 +13,7 @@ export class ImagenModalComponent implements OnInit {
 
   @Input() imageUrl: string = '';
   @Input() imageRef: string = '';
+  @Input() alt: string = '';
 
   ngOnInit(): void {
   }

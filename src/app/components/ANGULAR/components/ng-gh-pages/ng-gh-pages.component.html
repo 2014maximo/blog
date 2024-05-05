@@ -7,7 +7,7 @@
 <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10">
-        <h2 class="f-bebas fs-50 text-light">CREAR REPO EN GITHUB</h2>
+        <h2 class="f-bebas fs-50 text-light"> {{ 'ANGULAR.ng-gh-pages.crear-repo.titulo' | translate }}</h2>
         <div class="espacio"></div>
         <div class="row">
             <div class="col-md-7">
@@ -17,14 +17,17 @@
                     </div>
                     <div class="col-md-10">
                         <p class="text-light f-open-sans-c fs-18 lh-20">
-                            En nuestro Github personal, crear un nuevo repositorio con solamente el nombre:
+                            {{ 'ANGULAR.ng-gh-pages.crear-repo.tx1' | translate }}
                         </p>
 
-                        <app-imagen-modal [imageUrl]="imageUrl"
-                        [imageRef]="'modalRepo'"></app-imagen-modal>
+                        <app-imagen-modal
+                            [imageUrl]="imageUrl"
+                            [alt]="'Repositorio nuevo'"
+                            [imageRef]="'modalRepo'">
+                        </app-imagen-modal>
 
-                        <p class="text-light f-open-sans-c fs-18 lh-20">
-                            Para el ejercicio actual no se requieren características especiales o configuraciones adicionales. Solo el nombre del proyecto y crear.
+                        <p class="text-light f-open-sans-c fs-18 lh-20 mt-3">
+                            {{ 'ANGULAR.ng-gh-pages.crear-repo.tx2' | translate }}
                         </p>
                     </div>
                 </div>
@@ -41,22 +44,23 @@
                     </div>
                     <div class="col-md-10">
                         <p class="text-light f-open-sans-c fs-18 lh-20">
-                            Copiar toda esta lista de comandos con el botón copiar de Github:
+                            {{ 'ANGULAR.ng-gh-pages.crear-repo.tx3' | translate }}
                         </p>
                         <app-imagen-modal
                             [imageUrl]="'https://plantillas_dev.gitlab.io/assets/img/posts/angular/procesoGit.png'"
+                            [alt]="'Comandos Github primer commit'"
                             [imageRef]="'modalProceso'">
                     </app-imagen-modal>
                         
-                        <p class="text-light f-open-sans-c fs-18 lh-20">
-                            En esta parte la idea es subir en simple el proyecto Angular al repositorio recién creado. Se sugiere copiar el grupo de comandos, o, tranquilamente, se puede trabajar por ramas o con Github aplicación de escritorio.
+                        <p class="text-light f-open-sans-c fs-18 lh-20 mt-3">
+                            {{ 'ANGULAR.ng-gh-pages.crear-repo.tx4' | translate }}
                         </p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="espaciado"></div>
-        <h2 class="f-bebas fs-50 text-light">CREAR PROYECTO ANGULAR EN LOCAL</h2>
+        <h2 class="f-bebas fs-50 text-light">{{ 'ANGULAR.ng-gh-pages.crear-proyecto-local.titulo' | translate }}</h2>
         
         <div class="row">
             <div class="col-md-7">
@@ -67,7 +71,7 @@
                     </div>
                     <div class="col-md-10">
                         <p class="text-light f-open-sans-c fs-18 lh-20">
-                            Con el comando angular@cli para crear nuevo proyecto, construimos uno en local para subir a Github, cualquier nombre esta bien:
+                            {{ 'ANGULAR.ng-gh-pages.crear-proyecto-local.tx1' | translate }}
                         </p>
                         <app-print-code
                             [ObjectCode]="nuevoProyectoAngular"
@@ -82,7 +86,7 @@
                         </app-print-code>
 
                         <p class="text-light f-open-sans-c fs-18 lh-20 mt-4">
-                            En el ejercicio actual se utilizó Angular en versión 16.0.0. - Node Js en versión 16.17.1
+                            {{ 'ANGULAR.ng-gh-pages.crear-proyecto-local.tx2' | translate }}
                         </p>
                         <img src="https://plantillas_dev.gitlab.io/assets/img/posts/angular/archivosAngular.png" alt="new proceso inicial Git" height="400" width="auto" class="shadow-two mb-3 img-fluid" title="Zoom">
                     </div>
@@ -91,12 +95,11 @@
             <div class="col-md-5"></div>
         </div>
         <div class="espaciado"></div>
-        
         <div class="row">
             <div class="col-md-5">
-                
             </div>
             <div class="col-md-7">
+                <h2 class="f-bebas fs-50 text-light">{{ 'ANGULAR.ng-gh-pages.agregar-libreria.titulo' | translate }}</h2>
                 <div class="row">
                     <div class="col-md-2">
                         
@@ -104,7 +107,7 @@
                     </div>
                     <div class="col-md-10">
                         <p class="text-light f-open-sans-c fs-18 lh-20">
-                            Con este comando, por consola agregar la librería angular-ghpages:
+                            {{ 'ANGULAR.ng-gh-pages.agregar-libreria.tx1' | translate }}
                         </p>
                         <app-print-code
                             [ObjectCode]="agregarLibreria"
@@ -119,7 +122,7 @@
                         </app-print-code>
 
                         <p class="text-light f-open-sans-c fs-18 lh-20 mt-4">
-                            En el ejercicio actual se utilizó Angular en versión 16.0.0. - Node Js en versión 16.17.1
+                            {{ 'ANGULAR.ng-gh-pages.agregar-libreria.tx2' | translate }} 
                         </p>
                         <img src="https://plantillas_dev.gitlab.io/assets/img/posts/angular/libreria-ghpages.png" alt="new proceso inicial Git" height="400" width="auto" class="shadow-two mb-3 img-fluid" title="Zoom">
                         <!-- The Modal -->
@@ -128,8 +131,9 @@
             </div>
         </div>
         <div class="espaciado"></div>
-
+        <h2 class="f-bebas fs-50 text-light">{{ 'ANGULAR.ng-gh-pages.construir-compilado.titulo' | translate }}</h2>
         <div class="row">
+
             <div class="col-md-7">
                 <div class="row">
                     <div class="col-md-2">
@@ -138,7 +142,7 @@
                     </div>
                     <div class="col-md-10">
                         <p class="text-light f-open-sans-c fs-18 lh-20">
-                            Con este comando, por consola se ejecuta el constructor de proyecto, que se construye en base al repositorio que esta en github. En la parte de 'project-gh-pages' colocar el nombre del repositorio recien creado:
+                            {{ 'ANGULAR.ng-gh-pages.construir-compilado.tx1' | translate }}
                         </p>
                         <app-print-code
                             [ObjectCode]="construirProyecto"
@@ -151,18 +155,112 @@
                             [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
                             [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
                         </app-print-code>
-
-                        <div class="espacio"></div>
+                        <p class="text-light f-open-sans-c fs-18 lh-20 mt-3">
+                            {{ 'ANGULAR.ng-gh-pages.construir-compilado.tx2' | translate }} 
+                        </p>
                         <app-imagen-modal
                             [imageUrl]="'https://plantillas_dev.gitlab.io/assets/img/posts/angular/construccion-completa.png'"
+                            [alt]="'Compilado Angular'"
                             [imageRef]="'modalConstruccion'">
                         </app-imagen-modal>
+                        <p class="text-light f-open-sans-c fs-18 lh-20 mt-3">
+                            <b>{{ 'ANGULAR.ng-gh-pages.construir-compilado.nota' | translate }}</b><br>
+                            {{ 'ANGULAR.ng-gh-pages.construir-compilado.tx3' | translate }}
+                        </p>
 
                     </div>
                 </div>
             </div>
             <div class="col-md-5">
 
+            </div>
+        </div>
+        <div class="espaciado"></div>
+
+        <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-7">
+                <h2 class="f-bebas fs-50 text-light">{{ 'ANGULAR.ng-gh-pages.subir-compilado.titulo' | translate }}</h2>
+                <div class="row">
+                    <div class="col-md-2">
+                        
+                        <h2 class="f-bebas fs-160 text-light m-0 p-0">6</h2>
+                    </div>
+                    <div class="col-md-10">
+                        <p class="text-light f-open-sans-c fs-18 lh-20">
+                            {{ 'ANGULAR.ng-gh-pages.subir-compilado.tx1' | translate }}
+                        </p>
+                        <app-print-code
+                        [ObjectCode]="subirCompilado"
+                        [categoria]="categoria"
+                        [categoriaCorta]="'TERMINAL'"
+                        [lineas]="3"
+                        [lenguaje]="'linux'"
+                        [tipoCode]="'windows'"
+                        [colorTextoBase]="'c-Typescript'"
+                        [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                        [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
+                        </app-print-code>
+                        <p class="text-light f-open-sans-c fs-18 lh-20 mt-3">
+                            {{ 'ANGULAR.ng-gh-pages.subir-compilado.tx2' | translate }}
+                        </p>
+                        <app-imagen-modal
+                            [imageUrl]="'https://plantillas_dev.gitlab.io/assets/img/posts/angular/angular-githubpages-final.png'"
+                            [alt]="'Respuesta subir proyecto githubpages'"
+                            [imageRef]="'modalProcesoFinal'">
+                        </app-imagen-modal>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="espaciado"></div>
+
+        <div class="row">
+            <div class="col-md-7">
+                <h2 class="f-bebas fs-50 text-light">{{ 'ANGULAR.ng-gh-pages.deploy-github.titulo' | translate }}</h2>
+                <div class="row">
+                    <div class="col-md-2">
+                        
+                        <h2 class="f-bebas fs-160 text-light m-0 p-0">7</h2>
+                    </div>
+                    <div class="col-md-10">
+                        <p class="text-light f-open-sans-c fs-18 lh-20 mt-3">
+                            {{ 'ANGULAR.ng-gh-pages.deploy-github.tx1' | translate }}<br>
+                            {{ 'ANGULAR.ng-gh-pages.deploy-github.tx2' | translate }}<b>{{ 'ANGULAR.ng-gh-pages.deploy-github.tx3' | translate }}</b>{{ 'ANGULAR.ng-gh-pages.deploy-github.tx4' | translate }}<b>{{ 'ANGULAR.ng-gh-pages.deploy-github.tx5' | translate }}</b>
+                        </p>
+                        <app-imagen-modal
+                            [imageUrl]="'https://plantillas_dev.gitlab.io/assets/img/posts/angular/deploy.png'"
+                            [alt]="'Proyecto deploy'"
+                            [imageRef]="'deploy'">
+                        </app-imagen-modal>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+        <div class="espaciado"></div>
+
+        <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-7">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="assets/img/memes/mem4.png" alt="" height="70" width="auto" class="drop">
+                        
+                    </div>
+                    <div class="col-md-10">
+                        <p class="text-light f-open-sans-c fs-18 lh-20">
+                            {{ 'ANGULAR.ng-gh-pages.deploy-github.tx6' | translate }}<br>
+                            <a href="https://www.npmjs.com/package/angular-cli-ghpages" target="_blank"> <b>angular-githubpages</b> </a><br>
+                            <br>
+                            {{ 'ANGULAR.ng-gh-pages.deploy-github.tx7' | translate }}<br>
+                            <br>
+                            {{ 'ANGULAR.ng-gh-pages.deploy-github.tx8' | translate }}
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
 

@@ -52,7 +52,7 @@ export const DEVELOPER: DatosPost[] = [
         estilos: ESTILO_DEVELOPER,
         fechaCreacion: '2023-03-20',
         fechaActualizacion: '',
-        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/developer/Una-gran-agrupacion-de-sitios-web-con-muchos-recursos.webp'),
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/developer/webs-recomendadas.jpg'),
         imgVertical:'',
         imgCuadro:'',
         categoria: 'developer',
@@ -62,7 +62,7 @@ export const DEVELOPER: DatosPost[] = [
             alt: 'Agrupación de sitios web recomendados',
             height: '600',
             id: '3',
-            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/poster/slide-1900x800.jpg',
+            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/developer/webs-recomendadas-slider.jpg',
             width: 'auto',
             post: 'dev-super-recursos'
         }

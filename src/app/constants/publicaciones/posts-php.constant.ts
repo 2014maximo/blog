@@ -50,12 +50,19 @@ export const PHP: DatosPost[] = [
         estilos: ESTILO_PHP,
         fechaCreacion: '2023-09-15',
         fechaActualizacion: '',
-        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/php/elementos-php.jpg'),
         imgVertical:'',
         imgCuadro:'',
         categoria: 'php',
         posicion: 'rot-2',
         estado: 'activo',
-        imgSlider: undefined
+        imgSlider: {
+            alt: 'Elementos php',
+            height: '600',
+            id: '3',
+            ruta: 'https://plantillas_dev.gitlab.io/assets/img/posts/php/elementos-php-slider.jpg',
+            width: 'auto',
+            post: 'php-elementos'
+        }
     }
 ]

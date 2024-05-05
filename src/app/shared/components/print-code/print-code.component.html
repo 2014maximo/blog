@@ -40,8 +40,8 @@
 <div *ngIf="tipoCode == 'windows'" class="barra-windows shadow-two text-right text-light pr-2">
     <i class="fa fa-clone cursor-p mr-4" title="Copiar" (click)="copiarAlPortapapeles(clipboard)"></i>X
 </div>
-<div *ngIf="tipoCode == 'windows'" class="row container-code shadow-two bg-terminal-windows">
-    <div *ngFor="let code of ObjectCode" class="col-md-12 fuenteTres">
+<div *ngIf="tipoCode == 'windows'" class="row container-code shadow-two bg-terminal-windows ">
+    <div *ngFor="let code of ObjectCode" class="col-md-12 fuenteTres overflow-auto">
         <span *ngIf="code.mostrarRuta" class="{{colorTextoBase}}">
             {{code.textRuta}}</span><br>
         <span class="text-light">{{ code.code }}</span>
