@@ -231,9 +231,49 @@
             "nombre":"Subir proyecto angular a GithubPages",
             "referenciaBusqueda":"github pages, github, githubpages, subir a github",
             "descripcion":{
-                "tx1":"Github permite subir nuestro proyecto frontend Angular a través de la librería 'angular-github-pages'"
+                "tx1":"Github permite subir nuestro proyecto frontend Angular a través de la librería 'angular-github-pages'. Básicamente son 4 archivos Javascript y una hoja de estilos CSS, los compilados para realizar el deploy en el dominio github.io. "
             },
-            "descripcionCorta":"Sube tu proyecto angular a un dominio prestado por github."
+            "descripcionCorta":"Subir proyecto angular a un dominio prestado por Github. Una manera de compartir un diseño personal creado con el framework Angular.",
+            "crear-repo":{
+                "titulo":"CREAR REPO EN GITHUB",
+                "tx1":"En nuestro Github personal, crear un nuevo repositorio con solamente el nombre:",
+                "tx2":"Para el ejercicio actual no se requieren características especiales o configuraciones adicionales. Solo el nombre del proyecto y crear.",
+                "tx3":"Copiar toda esta lista de comandos con el botón copiar de Github:",
+                "tx4":"En esta parte la idea es subir en simple el proyecto Angular al repositorio recién creado. Se sugiere copiar el grupo de comandos, o, tranquilamente, se puede trabajar por ramas o con Github aplicación de escritorio."
+            },
+            "crear-proyecto-local":{
+                "titulo":"CREAR PROYECTO ANGULAR EN LOCAL",
+                "tx1":"Por consola o terminal, crear proyecto nuevo de angular en local:",
+                "tx2":"Con el comando angular@cli para crear nuevo proyecto, construimos uno en local para subir a Github, cualquier nombre esta bien: En el ejercicio actual se utilizó Angular en versión 16.0.0. - Node Js en versión 16.17.1"
+            },
+            "agregar-libreria":{
+                "titulo":"AGREGAR LIBRERÍA",
+                "tx1":"Con este comando, por consola agregar la librería angular-ghpages:",
+                "tx2":"Debido a que solamente se requiere la librería angular 'githubpages' en entorno de desarrollo, el comando anterior lo instalará en 'devDependencies'."
+            },
+            "construir-compilado":{
+                "titulo":"CONSTRUIR COMPILADO",
+                "tx1":"Ejecutar este comando para construir. En la parte de 'project-gh-pages' colocar el nombre del repositorio creado en Github:",
+                "tx2":"Con este comando por consola, se ejecuta el constructor de proyecto, el cual funciona en base al repositorio que esta en Github.",
+                "nota":"NOTA:",
+                "tx3":"Cada que hacemos cambios al proyecto, se suben a Github y luego se ejecuta el anterior comando."
+            },
+            "subir-compilado":{
+                "titulo":"SUBIR COMPILADO",
+                "tx1":"Ahora ejecutamos el siguiente comando para terminar:",
+                "tx2":"Este comando toma la carpeta construida con 'ng build --base-href 'https://2014maximo.github.io/project-gh-pages/', la sube a github y ejecuta un 'Deploy' en el dominio"
+            },
+            "deploy-github":{
+                "titulo":"DEPLOY EN GITHUB",
+                "tx1":"El proyecto local queda en el dominio de github:",
+                "tx2":"https://",
+                "tx3":"GithubPersonal",
+                "tx4":".github.io/",
+                "tx5":"nombreRepositorio",
+                "tx6":"Se uso como referencia la documentación de la librería oficial :",
+                "tx7":"No se tuvo el éxito esperado con la documentación oficial. Debido a esto sugiero estos pasos que en la prueba resultaron exitosos y simples.",
+                "tx8":"Cualquier sugerencia es bienvenida."
+            }
         }
     },
     "CSS":{

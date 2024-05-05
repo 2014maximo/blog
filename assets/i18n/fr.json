@@ -229,11 +229,51 @@
         },
         "ng-gh-pages":{
             "nombre":"Télécharger le projet Angular sur GithubPages",
-            "referenciaBusqueda":"github pages, github, githubpages, subir a github",
+            "referenciaBusqueda":"github pages, github, githubpages, télécharger sur github",
             "descripcion":{
-                "tx1":"Github vous permet de télécharger votre projet Angular frontend via la bibliothèque 'angular-github-pages'."
+                "tx1":"Github vous permet de télécharger votre projet frontend Angular via la bibliothèque 'angular-github-pages'. A la base, il y a 4 fichiers Javascript et une feuille de style CSS, compilés pour être déployés dans le domaine github.io. "
             },
-            "descripcionCorta":"Téléchargez votre projet angulaire sur un domaine fourni par github."
+            "descripcionCorta":"Télécharger un projet Angular sur un domaine fourni par Github. Une façon de partager un design personnel créé avec le framework Angular.",
+            "crear-repo":{
+                "titulo":"CRÉER UN REPO GITHUB",
+                "tx1":"Dans notre Github personnel, créez un nouveau dépôt avec seulement le nom :",
+                "tx2":"Pour l'exercice en cours, aucune caractéristique spéciale ni aucun paramètre supplémentaire n'est nécessaire. Il suffit de nommer le projet et de le créer.",
+                "tx3":"Copiez toute cette liste de commandes avec le bouton de copie de Github :",
+                "tx4":"Dans cette partie, l'idée est de simplement télécharger le projet Angular dans le dépôt nouvellement créé. Il est suggéré de copier le groupe de commandes, ou, tranquillement, vous pouvez travailler par branches ou avec l'application de bureau Github."
+            },
+            "crear-proyecto-local":{
+                "titulo":"CRÉER UN PROJET ANGULAIRE LOCALEMENT",
+                "tx1":"Par console ou terminal, créez un nouveau projet angulaire localement :",
+                "tx2":"Avec la commande angular@cli pour créer un nouveau projet, nous construisons un projet localement pour le télécharger sur Github, n'importe quel nom convient : Dans l'exercice actuel, nous avons utilisé Angular dans la version 16.0.0. - Node Js en version 16.17.1"
+            },
+            "agregar-libreria":{
+                "titulo":"ADD LIBRARY",
+                "tx1":"Avec cette commande, la console ajoute la bibliothèque angular-ghpages :",
+                "tx2":"Puisque seule la bibliothèque angulaire 'githubpages' est requise dans l'environnement de développement, la commande ci-dessus l'installera dans 'devDependencies'."
+            },
+            "construir-compilado":{
+                "titulo":"BUILD COMPILÉ",
+                "tx1":"Exécutez cette commande pour construire. Dans la partie 'project-gh-pages' mettez le nom du dépôt créé dans Github :",
+                "tx2":"Avec cette commande de la console, vous lancez le constructeur de projet, qui travaille sur la base du dépôt sur Github.",
+                "nota":"NOTE:",
+                "tx3":"Chaque fois que nous apportons des modifications au projet, celles-ci sont téléchargées sur Github, puis la commande ci-dessus est exécutée."
+            },
+            "subir-compilado":{
+                "titulo":"TÉLÉCHARGEMENT COMPILÉ",
+                "tx1":"Exécutez maintenant la commande suivante pour terminer :",
+                "tx2":"Cette commande prend le dossier construit avec 'ng build --base-href 'https://2014maximo.github.io/project-gh-pages/', le télécharge sur github et exécute un 'Deploy' sur le domaine."
+            },
+            "deploy-github":{
+                "titulo":"DÉPLOYER SUR GITHUB",
+                "tx1":"Le projet local reste dans le domaine github :",
+                "tx2":"https://",
+                "tx3":"personnelGithub",
+                "tx4":".github.io/",
+                "tx5":"nomDuDepot",
+                "tx6":"La documentation officielle de la bibliothèque a été utilisée comme référence :",
+                "tx7":"La documentation officielle n'a pas donné les résultats escomptés. C'est pourquoi je propose les étapes suivantes, qui se sont avérées simples et efficaces lors du test.",
+                "tx8":"Toutes les suggestions sont les bienvenues."
+            }
         }
     },
     "CSS":{
