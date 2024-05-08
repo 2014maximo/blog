@@ -7,6 +7,7 @@ import 'prismjs/components/prism-java';
 import 'prismjs/components/prism-css';
 import 'prismjs/components/prism-typescript';
 import 'prismjs/components/prism-dart';
+import 'prismjs/components/prism-kotlin';
 import { CategoriaPostModel } from '@shared/models/categorias.model';
 import { CodeModel } from '@shared/components/print-code/models/ts-instalacion.model';
 
@@ -38,7 +39,6 @@ export class PrintCodeComponent implements OnInit {
 
   ngOnInit(): void {
     this.clipboard = this.code? this.code : this.ObjectCode[0].code;
-    console.log(this.categoria);
     Prism.highlightAll();
   }
 

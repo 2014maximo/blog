@@ -5,6 +5,7 @@ import { cargarBreadcrumb, cargarIndice } from '@shared/constants/funciones/func
 import { CategoriaModel } from '@shared/models';
 import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
 import { IndiceDeContenidosModel } from '@shared/models/indice.model';
+import { KOTLIN_ELEMENTOS_ARRAYS, KOTLIN_ELEMENTOS_COERCION_IMPLICIT, KOTLIN_ELEMENTOS_C_VACIAS, KOTLIN_ELEMENTOS_INTER_CADENAS, KOTLIN_ELEMENTOS_MAPS, KOTLIN_ELEMENTOS_OPER_RANGO, KOTLIN_ELEMENTOS_OPER_RANGO_INCLUS, KOTLIN_ELEMENTOS_VAR, KOTLIN_ELEMENTOS_VAR_IMPLICIT } from './constants/kotlin-elementos.constant';
 
 @Component({
   selector: 'app-kotlin-elementos',
@@ -18,6 +19,15 @@ export class KotlinElementosComponent implements OnInit {
   public publicacion = new DatosPost();
   public categoria = new CategoriaPostModel();
   public breadcrumb = new CategoriaModel();
+  public variablesCode = KOTLIN_ELEMENTOS_VAR;
+  public variablesImplicitos = KOTLIN_ELEMENTOS_VAR_IMPLICIT;
+  public coercionImplicita = KOTLIN_ELEMENTOS_COERCION_IMPLICIT;
+  public interpolacion = KOTLIN_ELEMENTOS_INTER_CADENAS;
+  public operadorRango = KOTLIN_ELEMENTOS_OPER_RANGO;
+  public operadorRangoInclusivo = KOTLIN_ELEMENTOS_OPER_RANGO_INCLUS;
+  public arrays = KOTLIN_ELEMENTOS_ARRAYS;
+  public maps = KOTLIN_ELEMENTOS_MAPS;
+  public coleccionesVacias = KOTLIN_ELEMENTOS_C_VACIAS;
 
   constructor() { }
 

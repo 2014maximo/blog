@@ -47,3 +47,13 @@
         <span class="text-light">{{ code.code }}</span>
     </div>
 </div>
+
+<div *ngIf="tipoCode == 'transparente'" class="transparente">
+    <div class="minborder shadow-three">
+        <pre>
+            <code class="language-{{lenguaje}} fuenteTres fs-17 lh-23 m-0 {{colorTextoBase}}">
+              {{ code }}
+            </code>
+          </pre>
+    </div>
+</div>

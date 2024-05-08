@@ -25,6 +25,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://anijs.github.io/lib/anicollection/anicollection.css');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
 
 /* ESTILOS GENÉRICOS PARA TODO --------------------------------------*/
 .row,.col{
@@ -43,6 +44,7 @@ html{
     --fuente-cuatro: 'Alex Brush', cursive;
     --fuente-cinco: 'Patua One', cursive;
     --fuente-seis: 'Shadows Into Light', cursive;
+    --fuente-siete: "Cutive Mono", monospace;
     --color-uno: #f6921e;
     --color-dos:#262626;
     --color-tres:#24a9df;
@@ -89,6 +91,9 @@ html{
 }
 .fuenteSeis {
     font-family: var(--fuente-seis);
+}
+.fuenteSiete {
+    font-family: var(--fuente-siete);
 }
 .f-yanone{
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -605,4 +610,26 @@ a:hover {
 }
 .language-dart span.operator{
     color:#f6a855;
+}
+
+/* KOTLIN */
+.language-kotlin span.operator{
+    color:#bb92ea;
+}
+.language-kotlin span.keyword{
+    color:#bb92ea;
+}
+.language-kotlin span.number{
+    color:#f78c6c;
+}
+.language-kotlin span.comment{
+    color:#697086;
+}
+.language-kotlin span.string{
+    color:#c3e86b;
+}
+
+.minborder{
+    border: 0.7px solid #464141;
+    padding-left: 30px;
 }

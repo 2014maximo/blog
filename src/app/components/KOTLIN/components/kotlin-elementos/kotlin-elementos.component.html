@@ -3,6 +3,218 @@
 <div class="espaciado"></div>
 <app-encabezado-publicacion [idPublicacion]="idPublicacion" [rutaIconoSugerido]="categoria.rutaIcono"></app-encabezado-publicacion>
 <div class="espaciado"></div>
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="row">
+            <div class="col-md-8">
+                <h2 class="f-yanone fs-30 lh-30 text-light p-0 text-uppercase mb-2">ESTRUCTURA DE ARCHIVOS EN PROYECTOS KOTLIN</h2>
+                <p class="c7 fuenteDos fs-20 lh-25">
+                    Los proyectos de Java presentan numerosas estructuras de archivos que varían según el editor de texto, el tipo de arquitectura o el enfoque de aplicativo. Miremos algunas y para que todo eso.
+                </p>
+                <img src="https://plantillas_dev.gitlab.io/assets/img/posts/kotlin/estructura-archivos.png" alt="Extructura archivos" height="auto" width="224" class="shadow-three">
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="espacio"></div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+                <h2 class="f-yanone fs-30 lh-30 text-light p-0 text-uppercase mb-2">VARIABLES</h2>
+                <div class="d-flex">
+                    <p class="c7 fuenteDos fs-20 lh-25">
+                        Pero porque las constantes se llaman 'val'?
+                    </p>
+                    <img src="assets/img/memes/mem4.png" alt="" height="50" width="auto" class="drop">
+                </div>
+                <img src="assets/img/memes/mem5.png" alt="" height="90" width="auto" class="drop">
+                <p class="c7 fuenteDos fs-20 lh-25">
+                    Muy similar a las variables. De todas formas tener en cuenta para evitar confusiones.
+                </p>
+
+                <app-print-code
+                            [code]="variablesCode"
+                            [categoria]="categoria"
+                            [categoriaCorta]="'KOTLIN'"
+                            [tipoCode]="'transparente'"
+                            [lineas]="5"
+                            [lenguaje]="'kotlin'"
+                            [colorTextoBase]="'text-light'"
+                            [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                            [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
+                </app-print-code>
+                <div class="espacio"></div>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <p class="c7 fuenteDos fs-20 lh-25">
+                    Implicando el tipo:
+                </p>
+                <app-print-code
+                            [code]="variablesImplicitos"
+                            [categoria]="categoria"
+                            [categoriaCorta]="'KOTLIN'"
+                            [lineas]="0"
+                            [tipoCode]="'transparente'"
+                            [lenguaje]="'kotlin'"
+                            [colorTextoBase]="'text-light'"
+                            [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                            [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
+                </app-print-code>
+                <div class="espacio"></div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+                <p class="c7 fuenteDos fs-20 lh-25">
+                    Coerción implícita:
+                </p>
+                <app-print-code
+                            [code]="coercionImplicita"
+                            [categoria]="categoria"
+                            [categoriaCorta]="'KOTLIN'"
+                            [lineas]="0"
+                            [tipoCode]="'transparente'"
+                            [lenguaje]="'kotlin'"
+                            [colorTextoBase]="'text-light'"
+                            [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                            [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
+                </app-print-code>
+                <div class="espacio"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <p class="c7 fuenteDos fs-20 lh-25">
+                    Interpolación de cadenas:
+                </p>
+                <app-print-code
+                            [code]="interpolacion"
+                            [categoria]="categoria"
+                            [categoriaCorta]="'KOTLIN'"
+                            [lineas]="0"
+                            [tipoCode]="'transparente'"
+                            [lenguaje]="'kotlin'"
+                            [colorTextoBase]="'text-light'"
+                            [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                            [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
+                </app-print-code>
+                <div class="espacio"></div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+                <p class="c7 fuenteDos fs-20 lh-25">
+                    Operador de rango:
+                </p>
+                <app-print-code
+                            [code]="operadorRango"
+                            [categoria]="categoria"
+                            [categoriaCorta]="'KOTLIN'"
+                            [lineas]="0"
+                            [tipoCode]="'transparente'"
+                            [lenguaje]="'kotlin'"
+                            [colorTextoBase]="'text-light'"
+                            [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                            [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
+                </app-print-code>
+                <div class="espacio"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <p class="c7 fuenteDos fs-20 lh-25">
+                    Operador de rango inclusivo:
+                </p>
+                <app-print-code
+                            [code]="operadorRangoInclusivo"
+                            [categoria]="categoria"
+                            [categoriaCorta]="'KOTLIN'"
+                            [lineas]="0"
+                            [tipoCode]="'transparente'"
+                            [lenguaje]="'kotlin'"
+                            [colorTextoBase]="'text-light'"
+                            [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                            [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
+                </app-print-code>
+                <div class="espaciado"></div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+                <h2 class="f-yanone fs-30 lh-30 text-light p-0 text-uppercase mb-2">COLLECIONES</h2>
+                <p class="c7 fuenteDos fs-20 lh-25">
+                    Arrays:
+                </p>
+
+                <app-print-code
+                            [code]="arrays"
+                            [categoria]="categoria"
+                            [categoriaCorta]="'KOTLIN'"
+                            [tipoCode]="'transparente'"
+                            [lineas]="5"
+                            [lenguaje]="'kotlin'"
+                            [colorTextoBase]="'text-light'"
+                            [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                            [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
+                </app-print-code>
+                <div class="espacio"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <p class="c7 fuenteDos fs-20 lh-25">
+                    Maps:
+                </p>
+
+                <app-print-code
+                            [code]="maps"
+                            [categoria]="categoria"
+                            [categoriaCorta]="'KOTLIN'"
+                            [tipoCode]="'transparente'"
+                            [lineas]="5"
+                            [lenguaje]="'kotlin'"
+                            [colorTextoBase]="'text-light'"
+                            [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                            [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
+                </app-print-code>
+                <div class="espacio"></div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+                <p class="c7 fuenteDos fs-20 lh-25">
+                    Colecciones vacías:
+                </p>
+
+                <app-print-code
+                            [code]="coleccionesVacias"
+                            [categoria]="categoria"
+                            [categoriaCorta]="'KOTLIN'"
+                            [tipoCode]="'transparente'"
+                            [lineas]="5"
+                            [lenguaje]="'kotlin'"
+                            [colorTextoBase]="'text-light'"
+                            [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                            [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
+                </app-print-code>
+                <div class="espacio"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
 
 
 

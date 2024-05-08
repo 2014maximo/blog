@@ -45,15 +45,15 @@ export const KOTLIN: DatosPost[] = [
         descripcionCorta: 'KOTLIN.kotlin-elementos.descripcionCorta',
         ruta: 'kotlin-elementos',
         componente: '',
-        mostrarEnPostHome: false,
+        mostrarEnPostHome: true,
         estilos: ESTILO_KOTLIN,
-        fechaCreacion: '2023-09-15',
+        fechaCreacion: '2024-05-08',
         fechaActualizacion: '',
         imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
         imgVertical:'',
         imgCuadro:'',
         categoria: 'kotlin',
         posicion: 'rot-2',
-        estado: 'inactivo'
+        estado: 'activo'
     }
 ]
