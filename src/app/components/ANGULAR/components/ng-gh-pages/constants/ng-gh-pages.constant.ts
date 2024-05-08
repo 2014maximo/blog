@@ -25,7 +25,7 @@ export const NG_GH_PAGES_CONSTRUIR_PROYECTO: CodeModel []=[
 export const NG_GH_PAGES_SUBIR_COMPILADO: CodeModel []=[
     {
         mostrarRuta:true,
-        code:'npx angular-cli-ghpages --dir=dist/project-gh-pages',
+        code:'npx angular-cli-ghpages --dir=dist/project-gh-pages/browser/',
         textRuta:'User@DESKTOP-NR9Q26J MINGW64 ~/project-gh-pages> '
     }
 ]
