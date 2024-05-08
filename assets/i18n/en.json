@@ -262,7 +262,8 @@
             "subir-compilado":{
                 "titulo":"UPLOAD COMPILED",
                 "tx1":"Now we execute the following command to finish:",
-                "tx2":"This command takes the folder built with 'ng build --base-href 'https://2014maximo.github.io/project-gh-pages/', uploads it to github and executes a 'Deploy' on the domain"
+                "tx2":"Replace the part of",
+                "tx3":"By the path where the following files created in the compilation are located:"
             },
             "deploy-github":{
                 "titulo":"DEPLOY TO GITHUB",
