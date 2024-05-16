@@ -54,3 +54,14 @@ occupations["Jayne"] = "Public Relations"`;
 export const KOTLIN_ELEMENTOS_C_VACIAS = `
 val emptyArray = arrayOf<String>()
 val emptyMap = mapOf<String, Float>()`;
+
+export const KOTLIN_ELEMENTOS_FUNCIONES = `
+fun greet(name: String, day: String): String {
+    return "Hello $name, today is $day."
+}
+greet("Bob", "Tuesday")`;
+
+export const KOTLIN_ELEMENTOS_RETURN_TUPLA = `
+data class GasPrices(val a: Double, val b: Double,
+    val c: Double)
+fun getGasPrices() = GasPrices(3.59, 3.69, 3.79)`;

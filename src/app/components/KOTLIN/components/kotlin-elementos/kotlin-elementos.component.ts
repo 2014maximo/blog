@@ -5,7 +5,7 @@ import { cargarBreadcrumb, cargarIndice } from '@shared/constants/funciones/func
 import { CategoriaModel } from '@shared/models';
 import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
 import { IndiceDeContenidosModel } from '@shared/models/indice.model';
-import { KOTLIN_ELEMENTOS_ARRAYS, KOTLIN_ELEMENTOS_COERCION_IMPLICIT, KOTLIN_ELEMENTOS_C_VACIAS, KOTLIN_ELEMENTOS_INTER_CADENAS, KOTLIN_ELEMENTOS_MAPS, KOTLIN_ELEMENTOS_OPER_RANGO, KOTLIN_ELEMENTOS_OPER_RANGO_INCLUS, KOTLIN_ELEMENTOS_VAR, KOTLIN_ELEMENTOS_VAR_IMPLICIT } from './constants/kotlin-elementos.constant';
+import { KOTLIN_ELEMENTOS_ARRAYS, KOTLIN_ELEMENTOS_COERCION_IMPLICIT, KOTLIN_ELEMENTOS_C_VACIAS, KOTLIN_ELEMENTOS_FUNCIONES, KOTLIN_ELEMENTOS_INTER_CADENAS, KOTLIN_ELEMENTOS_MAPS, KOTLIN_ELEMENTOS_OPER_RANGO, KOTLIN_ELEMENTOS_OPER_RANGO_INCLUS, KOTLIN_ELEMENTOS_RETURN_TUPLA, KOTLIN_ELEMENTOS_VAR, KOTLIN_ELEMENTOS_VAR_IMPLICIT } from './constants/kotlin-elementos.constant';
 
 @Component({
   selector: 'app-kotlin-elementos',
@@ -28,6 +28,8 @@ export class KotlinElementosComponent implements OnInit {
   public arrays = KOTLIN_ELEMENTOS_ARRAYS;
   public maps = KOTLIN_ELEMENTOS_MAPS;
   public coleccionesVacias = KOTLIN_ELEMENTOS_C_VACIAS;
+  public funciones = KOTLIN_ELEMENTOS_FUNCIONES;
+  public returnTupla = KOTLIN_ELEMENTOS_RETURN_TUPLA;
 
   constructor() { }
 

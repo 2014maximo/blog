@@ -29,7 +29,8 @@
                 </div>
                 <img src="assets/img/memes/mem5.png" alt="" height="90" width="auto" class="drop">
                 <p class="c7 fuenteDos fs-20 lh-25">
-                    Muy similar a las variables. De todas formas tener en cuenta para evitar confusiones.
+                    Muy similar a las variables. De todas formas tener en cuenta para evitar confusiones.<br>
+                    <span style="color:#bb92ea">Palabra reservada para constante o variable</span> | <span class="text-light">nombreVariable</span> | <span class="text-light">Tipado</span> | <span style="color:#f78c6c;">Valor</span>
                 </p>
 
                 <app-print-code
@@ -50,7 +51,7 @@
         <div class="row">
             <div class="col-md-8">
                 <p class="c7 fuenteDos fs-20 lh-25">
-                    Implicando el tipo:
+                    <b>Implicando el tipo</b> - la buena práctica de tipar:
                 </p>
                 <app-print-code
                             [code]="variablesImplicitos"
@@ -71,7 +72,7 @@
             <div class="col-md-4"></div>
             <div class="col-md-8">
                 <p class="c7 fuenteDos fs-20 lh-25">
-                    Coerción implícita:
+                    <b>Coerción implícita</b> - el paso del valor aplica el tipado.
                 </p>
                 <app-print-code
                             [code]="coercionImplicita"
@@ -90,7 +91,7 @@
         <div class="row">
             <div class="col-md-8">
                 <p class="c7 fuenteDos fs-20 lh-25">
-                    Interpolación de cadenas:
+                    <b>Interpolación de cadenas</b> - Concatenaciones dentro de strings:
                 </p>
                 <app-print-code
                             [code]="interpolacion"
@@ -111,7 +112,7 @@
             <div class="col-md-4"></div>
             <div class="col-md-8">
                 <p class="c7 fuenteDos fs-20 lh-25">
-                    Operador de rango:
+                    <b>Operador de rango</b>:
                 </p>
                 <app-print-code
                             [code]="operadorRango"
@@ -130,7 +131,7 @@
         <div class="row">
             <div class="col-md-8">
                 <p class="c7 fuenteDos fs-20 lh-25">
-                    Operador de rango inclusivo:
+                    <b>Operador de rango inclusivo</b>:
                 </p>
                 <app-print-code
                             [code]="operadorRangoInclusivo"
@@ -153,7 +154,7 @@
             <div class="col-md-8">
                 <h2 class="f-yanone fs-30 lh-30 text-light p-0 text-uppercase mb-2">COLLECIONES</h2>
                 <p class="c7 fuenteDos fs-20 lh-25">
-                    Arrays:
+                    <b>Arrays:</b>
                 </p>
 
                 <app-print-code
@@ -173,7 +174,7 @@
         <div class="row">
             <div class="col-md-8">
                 <p class="c7 fuenteDos fs-20 lh-25">
-                    Maps:
+                    <b>Maps:</b>
                 </p>
 
                 <app-print-code
@@ -195,11 +196,48 @@
             <div class="col-md-4"></div>
             <div class="col-md-8">
                 <p class="c7 fuenteDos fs-20 lh-25">
-                    Colecciones vacías:
+                    <b>Colecciones vacías:</b>
                 </p>
-
                 <app-print-code
                             [code]="coleccionesVacias"
+                            [categoria]="categoria"
+                            [categoriaCorta]="'KOTLIN'"
+                            [tipoCode]="'transparente'"
+                            [lineas]="5"
+                            [lenguaje]="'kotlin'"
+                            [colorTextoBase]="'text-light'"
+                            [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                            [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
+                </app-print-code>
+                <div class="espacio"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <h2 class="f-yanone fs-30 lh-30 text-light p-0 text-uppercase mb-2">FUNCIONES</h2>
+                <app-print-code
+                            [code]="funciones"
+                            [categoria]="categoria"
+                            [categoriaCorta]="'KOTLIN'"
+                            [tipoCode]="'transparente'"
+                            [lineas]="5"
+                            [lenguaje]="'kotlin'"
+                            [colorTextoBase]="'text-light'"
+                            [refDocumentacion]="'https://rxjs.dev/api/index/function/firstValueFrom'"
+                            [urlStackBlitz]="'https://developer.stackblitz.com/platform/api/javascript-sdk'">
+                </app-print-code>
+                <div class="espacio"></div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+                <p class="c7 fuenteDos fs-20 lh-25">
+                    <b>Retorno de tupla:</b>
+                </p>
+                <app-print-code
+                            [code]="returnTupla"
                             [categoria]="categoria"
                             [categoriaCorta]="'KOTLIN'"
                             [tipoCode]="'transparente'"

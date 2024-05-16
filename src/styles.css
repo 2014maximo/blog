@@ -628,6 +628,12 @@ a:hover {
 .language-kotlin span.string{
     color:#c3e86b;
 }
+.language-kotlin span.function{
+    color:#73aaff;
+}
+.language-kotlin span.punctuation{
+    color: #ffc708;
+}
 
 .minborder{
     border: 0.7px solid #464141;
