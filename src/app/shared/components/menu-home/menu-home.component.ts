@@ -17,7 +17,7 @@ export class MenuHomeComponent implements OnInit {
 
   public menus: any;
   public categorias: CategoriaPostModel[] = [];
-  public pasoDeIndice: IndiceDeContenidosModel [] = []
+  public pasoDeIndice: IndiceDeContenidosModel [] = [];
   public claseContenedor: string = '';
   public posts = CATEGORIA;
   public postsModelo: DatosPost[] | SubCategoriaModel[] = [];
@@ -56,6 +56,7 @@ export class MenuHomeComponent implements OnInit {
       this.pasoDeIndice.push(grupo);
     });
     console.log(this.pasoDeIndice, 'PASO DE INDICE');
+    console.log(this.categorias, 'CATEGORIAS');
   }
 
 

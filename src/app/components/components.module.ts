@@ -24,6 +24,8 @@ import { HttpClient } from '@angular/common/http';
 import { TsInstalacionComponent } from './TYPESCRIPT/components/ts-instalacion/ts-instalacion.component';
 import { JavaElementosComponent } from './JAVA/components/java-elementos/java-elementos.component';
 import { NgGhPagesComponent } from './ANGULAR/components/ng-gh-pages/ng-gh-pages.component';
+import { HtmlElementosComponent } from './HTML/components/html-elementos/html-elementos.component';
+import { CssElementosComponent } from './CSS/components/css-elementos/css-elementos.component';
 
 
 
@@ -105,6 +107,8 @@ export function HttpLoaderFactory (httpClient:HttpClient){
     TsInstalacionComponent,
     JavaElementosComponent,
     NgGhPagesComponent,
+    HtmlElementosComponent,
+    CssElementosComponent,
   ],
   imports: [
     CommonModule,

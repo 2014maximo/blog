@@ -221,7 +221,7 @@ html{
     background-color: #f37001;
 }
 .c-Html{
-    color: #f37001;
+    color: #f37001 !important;
 }
 .bg-Ionic{
     background-color: #377ffe;
@@ -633,6 +633,41 @@ a:hover {
 }
 .language-kotlin span.punctuation{
     color: #ffc708;
+}
+
+/* HTML */
+.language-html span.punctuation{
+    color: #89ddff;
+}
+.language-html .token.tag{
+    color: #ff5572;
+}
+
+.language-html .token.attr-name{
+    color: #ffcb53;
+}
+.language-html .token.attr-value{
+    color: #c3e88d;
+}
+.language-html .comment{
+    color:  #888c8f;
+}
+code.language-html {
+    color:  #888c8f;
+}
+
+/* CSS */
+.language-css .selector{
+    color: #2299c4;
+}
+.language-css .punctuation{
+    color: #e8c709;
+}
+.language-css .property{
+    color: #2299c4;
+}
+.language-css {
+    color: #c3a6ff;
 }
 
 .minborder{

@@ -29,6 +29,7 @@ export const ROUTES: Routes = [
 // CSS
     { path: 'css', component: Ruta.CssComponent },
     { path: 'css-atributos', component: Ruta.CssAtributosComponent },
+    { path: 'css-elementos', component: Ruta.CssElementosComponent },
 
 // DART
     { path: 'dart', component: Ruta.DartComponent },
@@ -72,6 +73,7 @@ export const ROUTES: Routes = [
 // HTML
     { path: 'html', component: Ruta.HtmlComponent },
     { path: 'html-etiquetas', component: Ruta.HtmlEtiquetasComponent },
+    { path: 'html-elementos', component: Ruta.HtmlElementosComponent },
 
 // JAVA
     { path: 'java', component: Ruta.JavaComponent},

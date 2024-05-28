@@ -8,6 +8,9 @@ import 'prismjs/components/prism-css';
 import 'prismjs/components/prism-typescript';
 import 'prismjs/components/prism-dart';
 import 'prismjs/components/prism-kotlin';
+import 'prismjs/components/prism-cshtml';
+import 'prismjs/components/prism-css';
+
 import { CategoriaPostModel } from '@shared/models/categorias.model';
 import { CodeModel } from '@shared/components/print-code/models/ts-instalacion.model';
 

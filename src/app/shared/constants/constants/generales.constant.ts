@@ -1,0 +1,1 @@
+export const URL = 'https://plantillas_dev.gitlab.io/assets/img/posts/';

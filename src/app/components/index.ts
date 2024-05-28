@@ -19,6 +19,7 @@ export * from '@components/ANGULAR/components/ng-gh-pages/ng-gh-pages.component'
 // CSS
 export * from '@components/CSS/css/css.component';
 export * from '@components/CSS/components/css-atributos/css-atributos.component';
+export * from '@components/CSS/components/css-elementos/css-elementos.component';
 
 // DART
 export * from '@components/DART/dart/dart.component';
@@ -60,6 +61,7 @@ export * from '@components/GIT/components/git-errores/git-errores.component';
 // HTML
 export * from '@components/HTML/html/html.component';
 export * from '@components/HTML/components/html-etiquetas/html-etiquetas.component';
+export * from '@components/HTML/components/html-elementos/html-elementos.component';
 
 // JAVA
 export * from '@components/JAVA/java/java.component';

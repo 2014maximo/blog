@@ -1,0 +1,311 @@
+<div #target></div>
+<app-header-home [categoria]="breadcrumb"></app-header-home>
+<div class="espaciado"></div>
+<app-encabezado-publicacion [idPublicacion]="idPublicacion"
+	[rutaIconoSugerido]="categoria.rutaIcono"></app-encabezado-publicacion>
+
+
+<div class="espaciado"></div>
+<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
+		<div class="row">
+			<div class="col-md-12">
+				<app-indice-contenidos [indice]="pasoDeIndice" [clase]="claseContenedor"></app-indice-contenidos>
+			</div>
+		</div>
+		<div class="espaciado"></div>
+
+		<div class="row">
+			<div class="col-md-7">
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;!DOCTYPE&gt;</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Define la versión de HTML utilizada en el documento. Lo más seguro es que con varios años de
+					desarrollo en HTML, como desarrollador web no se haya considerado hacerle algo a esta etiqueta. Hoy
+					en día solo permite la referencia 'html', anteriormente se utilizaban otras.
+					<br>
+					<br>
+					<b>HTML:5</b><br>
+				</p>
+				<ul class="c7 fuenteDos fs-20 lh-25">
+					<li>Esta declaración es crucial para la validación de documentos, el modo de documento estándar y la
+						compatibilidad con HTML5.</li>
+					<li>Las versiones modernas de HTML solo permiten de esta forma.</li>
+					<li>Permite que el navegador valide el documento HTML y detecte errores de sintaxis o semántica.
+					</li>
+				</ul>
+				<app-print-code [code]="html" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="5" [lenguaje]="'kotlin'" [colorTextoBase]="'text-light'">
+				</app-print-code>
+				<div class="espacio"></div>
+
+				<p class="c7 fuenteDos fs-20 lh-25">
+					<b>HTML 4.01:</b><br>
+					Ya no se utiliza y puede generar errores al tratar de correr sobre los navegadores actuales.
+				</p>
+				<app-print-code [code]="html4" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="5" [lenguaje]="'kotlin'" [colorTextoBase]="'text-light'">
+				</app-print-code>
+				<div class="espacio"></div>
+
+				<p class="c7 fuenteDos fs-20 lh-25">
+					<b>XHTML 1.0 Strict:</b><br>
+					Ya no se utiliza.
+				</p>
+				<app-print-code [code]="html_XHTML" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="5" [lenguaje]="'kotlin'" [colorTextoBase]="'text-light'">
+				</app-print-code>
+				<div class="espaciado" id="idHtml"></div>
+			</div>
+			<div class="col-md-5"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-5"></div>
+			<div class="col-md-7">
+
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;html&gt;</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">Abre la página. Después de la etiqueta de cierre (&lt;/html&gt;) no
+					debe aparecer ninguna marca. No trae ninguna configuración dentro de la etiqueta que sea
+					configurable, exceptuando la opción de idioma.</p>
+
+				<app-print-code [code]="html_html" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espaciado" id="idHead"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-7">
+
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;head&gt;</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					No tiene atributos propios, pero sirve como contenedor para diversos elementos HTML que proporcionan
+					información meta y enlaces a recursos externos. Estos elementos, a su vez, poseen sus propios
+					atributos para configurar su comportamiento y características.
+				</p>
+				<app-print-code [code]="HTML_head_example" [categoria]="categoria" [categoriaCorta]="'CSS'"
+					[tipoCode]="'transparente'" [lineas]="2" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espacio"></div>
+
+				<p class="c7 fuenteDos fs-20 lh-25">Por defecto solo trae
+					esta característica en los estilos:</p>
+				<app-print-code [code]="head" [categoria]="categoria" [categoriaCorta]="'CSS'"
+					[tipoCode]="'transparente'" [lineas]="2" [lenguaje]="'css'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espaciado" id="idMeta"></div>
+			</div>
+			<div class="col-md-5"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-5"></div>
+			<div class="col-md-7">
+
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;meta&gt;</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Las etiquetas &lt;meta&gt; son herramientas esenciales para optimizar el rendimiento de una página
+					web, mejorar su visibilidad en los motores de búsqueda y proporcionar información crucial a los
+					navegadores y otros programas. Al utilizar correctamente las etiquetas &lt;meta&gt; y sus atributos,
+					puedes asegurarte de que tu sitio web funcione de manera eficiente y cumpla con sus objetivos.<br>
+					<br>
+					El atributo charset declara la codificación de caracteres.
+				</p>
+				<app-print-code [code]="HTML_meta_example_1" [categoria]="categoria" [categoriaCorta]="'CSS'"
+					[tipoCode]="'transparente'" [lineas]="2" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espacio"></div>
+
+				<p class="c7 fuenteDos fs-20 lh-25">Los documentos HTML modernos deberían usar siempre UTF-8, aunque no
+					sea un requisito.
+					En
+					HTML, la etiqueta &lt;meta&gt; no requiere una etiqueta de cierre.<br>
+					<br>
+					Son cruciales para varios aspectos del funcionamiento de una página web:
+				<ul class="c7 fuenteDos fs-20 lh-25">
+					<li>1. El atributo <b class="c-Html">name</b> es obligatorio para todas las etiquetas &lt;meta&gt; y
+						define el tipo de información meta que se proporciona. Algunos valores comunes para el atributo
+						<b class="c-Html">name</b> incluyen:<br>
+						<ul>
+							<li><b>author:</b> Especifica el autor del documento web.</li>
+							<li><b>description:</b> Proporciona una breve descripción del contenido de la página.</li>
+							<li><b>keywords:</b>
+								<p>Define palabras clave relevantes para el contenido de la página.</p><br>
+								<app-print-code [code]="HTML_meta_example_3" [categoria]="categoria"
+									[categoriaCorta]="'CSS'" [tipoCode]="'transparente'" [lineas]="2"
+									[lenguaje]="'html'" [colorTextoBase]="''">
+								</app-print-code>
+								<div class="espacio"></div>
+							</li>
+							<li><b>charset:</b> Indica la codificación de caracteres del documento web.</li>
+							<li><b>viewport:</b> Controla cómo se representa la página web en dispositivos móviles.</li>
+							<li><b>robots:</b> Instruye a los motores de búsqueda sobre cómo indexar y rastrear la
+								página.<br>
+								<app-print-code [code]="HTML_meta_example_4" [categoria]="categoria"
+									[categoriaCorta]="'CSS'" [tipoCode]="'transparente'" [lineas]="2"
+									[lenguaje]="'html'" [colorTextoBase]="''">
+								</app-print-code>
+								<div class="espacio"></div>
+							</li>
+						</ul>
+						<div class="espacio"></div>
+					</li>
+					<li>
+						<p>
+							2. Atributo <b class="c-Html">content: </b>
+							<br>proporciona el valor de la información meta
+							especificada por el atributo name. Por ejemplo, para una etiqueta &lt;meta&gt; con
+							name="description", el atributo content contendría la descripción de la página por ejemplo:
+						</p>
+						<app-print-code [code]="HTML_meta_example_2" [categoria]="categoria" [categoriaCorta]="'CSS'"
+							[tipoCode]="'transparente'" [lineas]="2" [lenguaje]="'html'" [colorTextoBase]="''">
+						</app-print-code>
+						<div class="espacio"></div>
+					</li>
+					<li>3. Atributos adicionales:<br>
+						Además de los atributos name y content, las etiquetas &lt;meta&gt; pueden tener varios atributos
+						opcionales que proporcionan información adicional, como:
+						<ul>
+							<li><b>http-equiv: </b>Especifica un metadato HTTP equivalente para navegadores más
+								antiguos.<br>
+								<app-print-code [code]="HTML_meta_example_5" [categoria]="categoria"
+									[categoriaCorta]="'CSS'" [tipoCode]="'transparente'" [lineas]="2"
+									[lenguaje]="'html'" [colorTextoBase]="''">
+								</app-print-code>
+								<div class="espacio"></div>
+							</li>
+							<li><b>scheme: </b>Define el esquema de identificación para el metadato.</li>
+							<li><b>lang: </b>Indica el idioma del metadato.</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="espaciado" id="idEncabezados"></div>
+
+
+
+		<div class="row">
+			<div class="col-md-7">
+				<h2 class="f-bebas fs-50 text-light">Encabezados</h2>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Los títulos tienen 6 variaciones en tamaño empezando por el más grande con 'h1' terminando en 'h6':
+				</p>
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">
+					&lt;h1&gt;,&lt;h2&gt;,&lt;h3&gt;,&lt;h4&gt;,&lt;h5&gt;,&lt;h6&gt;</h4>
+				<app-print-code [code]="h1Html" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espacio"></div>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Contiene estos estilos por defecto.
+				</p>
+
+				<app-print-code [code]="h1" [categoriaCorta]="'CSS'" [tipoCode]="'transparente'" [lineas]="5"
+					[lenguaje]="'css'" [colorTextoBase]="''">
+				</app-print-code>
+
+				<div class="espaciado" id="idP"></div>
+			</div>
+			<div class="col-md-5"></div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-5"></div>
+			<div class="col-md-7">
+				<h2 class="f-bebas fs-50 text-light">Párrafos</h2>
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;p&gt;</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Contenido en general de texto, párrafos.
+				</p>
+				<app-print-code [code]="HTML_p" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espacio"></div>
+
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Estilos por defecto.
+				</p>
+				<app-print-code [code]="HTML_p_s" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espacio" id="idBr"></div>
+
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;br&gt;</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Inserta un único salto de línea.
+				</p>
+				<app-print-code [code]="HTML_p_br" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+
+				<div class="bg-dark p-3 mt-3 shadow-three">
+					<p class="c7 fuenteDos fs-20 lh-25">Lorem ipsum <br> sit amet consectetur adipisicing elit.</p>
+				</div>
+				<div class="espacio" id="idPre"></div>
+
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;pre&gt;</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Define el texto preformateado.
+				</p>
+				<div class="row">
+					<div class="col-md-6">
+						<p class="c7 fuenteDos fs-20 lh-25">
+							Si se hace con '&lt;pre&gt;'
+						</p>
+						<app-print-code [code]="HTML_pre" [categoria]="categoria" [categoriaCorta]="'HTML'"
+							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+						</app-print-code>
+						<p class="c7 fuenteDos fs-20 lh-25 mt-2">Mantiene el formato con los espacios y saltos que se agreguen.</p>
+						<div class="bg-dark p-3 mt-3 shadow-three">
+							<p class="c7 fuenteDos fs-20 lh-25">
+								Lorem ipsum<br>
+								dolor sit amet<br>
+								consectetur<br>
+								adipisicing<br>
+								elit.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<p class="c7 fuenteDos fs-20 lh-25">
+							Si se hace con '&lt;p&gt;'
+						</p>
+						<app-print-code [code]="HTML_pre_" [categoria]="categoria" [categoriaCorta]="'HTML'"
+							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+						</app-print-code>
+						<p class="c7 fuenteDos fs-20 lh-25 mt-2">
+							Lo adapta como una línea plana de texto.
+						</p>
+						<div class="bg-dark p-3 mt-3 shadow-three">
+							<p class="c7 fuenteDos fs-20 lh-25">
+								Lorem ipsum	dolor sit ametconsectetur adipisicing elit.
+							</p>
+						</div>
+
+					</div>
+				</div>
+				<div class="espacio" id="idMark"></div>
+
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;mark&gt;</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Define el texto preformateado.
+				</p>
+				
+			</div>
+
+		</div>
+	</div>
+	<div class="col-md-1"></div>
+</div>
+
+
+
+
+
+
+<div class="espaciado"></div>
+
+<app-footer-home></app-footer-home>
+<div class="go-up" (click)="scroll(target)">
+	<i class="fa fa-chevron-up" aria-hidden="true"></i>
+</div>

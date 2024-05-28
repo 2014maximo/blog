@@ -49,7 +49,7 @@ export const KOTLIN: DatosPost[] = [
         estilos: ESTILO_KOTLIN,
         fechaCreacion: '2024-05-08',
         fechaActualizacion: '',
-        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/angular/instalacion-angular-horizontal.jpg'),
+        imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/kotlin/elementos-kotlin.jpg'),
         imgVertical:'',
         imgCuadro:'',
         categoria: 'kotlin',
