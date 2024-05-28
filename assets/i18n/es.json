@@ -1014,7 +1014,7 @@
             "nombre":"Elementos kotlin",
             "referenciaBusqueda":"elementos, partes",
             "descripcion":{
-                "tx1":"Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos."
+                "tx1":"Tal vez más de los mismo... Kotlin variables, funciones, sistemas de archivo, clases, tipados, etc."
             },
             "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
         }
