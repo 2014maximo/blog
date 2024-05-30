@@ -41,11 +41,12 @@
     <div class="pos-f-t mobile fixed-top">
         <div class="collapse" id="navbarToggleExternalContent">
         <div class="bg-dark p-4">
-            <form class="formUno mb-2" [formGroup]="formBasic">
+            <form *ngIf="!categoriasMenu" class="formUno mb-2" [formGroup]="formBasic">
                 <input (blur)="desaparecerTablaBusqueda()" class="inputUno text-light fuente bg-transparent" type="search" placeholder="Buscar" aria-label="Search" formControlName="busqueda" (keyup)="buscar($event)">
             </form>
 
-            <i class="bi bi-menu-app text-light" (click)="categoriasMenu=!categoriasMenu"></i>
+            <i *ngIf="!categoriasMenu" class="bi bi-menu-app text-light" (click)="categoriasMenu =! categoriasMenu"></i>
+            <i *ngIf="categoriasMenu" class="bi bi-search text-light" (click)="categoriasMenu =! categoriasMenu"></i>
 
             <div *ngIf="categoriasMenu">
                 <app-indice-contenidos [indice]="pasoDeIndice" [clase]="claseContenedor"></app-indice-contenidos>
