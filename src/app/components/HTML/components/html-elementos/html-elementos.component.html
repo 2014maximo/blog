@@ -356,9 +356,9 @@
 			<div class="col-md-7">
 				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;em&gt; o &lt;i&gt;</h4>
 				<p class="c7 fuenteDos fs-20 lh-25">
-					Define el texto preformateado.
+					¿Cuál es la diferencia? La semántica. <b>'&lt;em&gt;'</b> se utiliza para indicar que el texto debe tener un énfasis adicional que debe acentuarse, mientras que <b>'&lt;i&gt;'</b> representa simplemente un texto que debe destacarse del texto normal que lo rodea.
 				</p>
-				<app-print-code [code]="HTML_strong" [categoria]="categoria" [categoriaCorta]="'HTML'"
+				<app-print-code [code]="HTML_italic" [categoria]="categoria" [categoriaCorta]="'HTML'"
 							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
 				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
@@ -366,17 +366,44 @@
 				</p>
 				<div class="bg-dark p-3 mt-3 shadow-three">
 					<p class="c7 fuenteDos fs-20 lh-25">
-						Lorem ipsum dolor sit amet <b>consectetur</b> <strong> adipisicing</strong> elit.
+						Lorem ipsum dolor sit amet <em>consectetur</em> <i> adipisicing</i> elit.
 					</p>
 				</div>
 				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
 					Estilos por defecto:
 				</p>
-				<app-print-code [code]="HTML_strong_styles" [categoria]="categoria" [categoriaCorta]="'HTML'"
+				<app-print-code [code]="HTML_italic_style" [categoria]="categoria" [categoriaCorta]="'HTML'"
+							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espacio" id="idU"></div>
+			</div>
+			<div class="col-md-5"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-5"></div>
+			<div class="col-md-7">
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;u&gt;</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					¿Cuál es la diferencia? La semántica. <b>'&lt;em&gt;'</b> se utiliza para indicar que el texto debe tener un énfasis adicional que debe acentuarse, mientras que <b>'&lt;i&gt;'</b> representa simplemente un texto que debe destacarse del texto normal que lo rodea.
+				</p>
+				<app-print-code [code]="HTML_italic" [categoria]="categoria" [categoriaCorta]="'HTML'"
+							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
+					Salida:
+				</p>
+				<div class="bg-dark p-3 mt-3 shadow-three">
+					<p class="c7 fuenteDos fs-20 lh-25">
+						Lorem ipsum dolor sit amet <u>consectetur</u> adipisicing elit.
+					</p>
+				</div>
+				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
+					Estilos por defecto:
+				</p>
+				<app-print-code [code]="HTML_italic_style" [categoria]="categoria" [categoriaCorta]="'HTML'"
 							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
 				</app-print-code>
 			</div>
-			<div class="col-md-5"></div>
 		</div>
 	</div>
 	<div class="col-md-1"></div>

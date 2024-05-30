@@ -268,7 +268,7 @@
             "deploy-github":{
                 "titulo":"DEPLOY TO GITHUB",
                 "tx1":"The local project remains in the github domain:",
-                "tx2":"https://",
+                "tx2":"",
                 "tx3":"personalGithub",
                 "tx4":".github.io/",
                 "tx5":"repositoryName",

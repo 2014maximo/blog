@@ -66,6 +66,7 @@ export const HTML_html = `
 </head>
 <body></body> -->
 </html>`;
+
 export const HTML_meta_example_1 = `
 <meta charset="UTF-8">`;
 
@@ -77,6 +78,7 @@ export const HTML_meta_example_3 = `
 
 export const HTML_meta_example_4 = `
 <meta name="robots" content="index, follow">`;
+
 export const HTML_meta_example_5 = `
 <meta http-equiv="cache-control" content="no-cache">`;
 
@@ -127,6 +129,7 @@ consectetur
 adipisicing
 elit.
 </p>`;
+
 export const HTML_text_mark = `
 <p>
     Lorem ipsum dolor sit amet <mark>consectetur</mark> adipisicing elit.
@@ -134,12 +137,26 @@ export const HTML_text_mark = `
 
 export const HTML_text_strong = `
 <p>
-Lorem ipsum dolor sit amet <b>consectetur</b> <strong>adipisicing</strong> elit.
-</p>`;
+    Lorem ipsum dolor sit amet <b>consectetur</b> <strong>adipisicing</strong> elit.
+</p>`
+
 export const HTML_text_styles = `
 b {
     font-weight: bold;
 }
 strong {
     font-weight: bold;
+}`;
+
+export const HTML_text_italic = `
+<p>
+    Lorem ipsum dolor sit amet <em>consectetur</em> <i>adipisicing</i> elit.
+</p>`
+
+export const HTML_italic_style = `
+i {
+    font-style: italic;
+}
+em {
+    font-style: italic;
 }`;

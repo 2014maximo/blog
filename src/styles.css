@@ -98,6 +98,10 @@ html{
 .f-yanone{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+.marcaMobile{
+    font-family: var(--fuente-dos);
+    font-size: 2rem;
+}
 .fondoNegro {
     background-color: #1d1d1d;
     /*background-color: #292929;

@@ -44,6 +44,8 @@ export class HtmlElementosComponent implements OnInit {
   public HTML_mark = HTML.HTML_text_mark;
   public HTML_strong = HTML.HTML_text_strong;
   public HTML_strong_styles = HTML.HTML_text_styles;
+  public HTML_italic = HTML.HTML_text_italic;
+  public HTML_italic_style = HTML.HTML_italic_style;
 
   public pasoDeIndice: IndiceDeContenidosModel [] = [];
   public claseContenedor: string = '';
