@@ -2,13 +2,14 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { CategoriaModel } from '../../models/post.model';
 import { FormControl, FormGroup } from '@angular/forms';
 import { CATEGORIA } from '@constants/categorias/categoria.constant';
-import { DatosPost } from '../../models/categorias.model';
+import { CategoriaPostModel, DatosPost } from '../../models/categorias.model';
 import { Router } from '@angular/router';
 import { busquedaGeneral } from '../../constants/funciones/funciones-globales';
 import { TranslateService } from '@ngx-translate/core';
 import { LenguajeModel } from '@shared/models/traslate.model';
 import { TraduccionService } from '@app/services/traduccion.service';
 import { Subject, firstValueFrom } from 'rxjs';
+import { IndiceDeContenidosModel } from '@shared/models/indice.model';
 
 @Component({
 	selector: 'app-header-home',
@@ -27,6 +28,9 @@ export class HeaderHomeComponent implements OnInit {
 	public lenguajes: string[] = ['es', 'en', 'fr'];
 	public idiomaActual: string = '';
 	public ondestroy$: Subject<boolean> = new Subject();
+	public categoriasMenu = false;
+	public pasoDeIndice: IndiceDeContenidosModel [] = [];
+	public claseContenedor: string = '';
 
 	@Output() recargarTraduccion: EventEmitter<any> = new EventEmitter();
 
@@ -58,9 +62,19 @@ export class HeaderHomeComponent implements OnInit {
 
 	private inicializarVariables() {
 		this.todosLosPostTraducidos = this.traduccion.todosLosPostTraducidos;
-
+		CATEGORIA.forEach( (cat:CategoriaPostModel, i:number) => {
+			let grupo: IndiceDeContenidosModel = {
+			  color: '',
+			  colorFondo: cat.colorFondo,
+			  estado: cat.estado,
+			  nombre: cat.nombre.toUpperCase(),
+			  posicion: cat.posicion,
+			  ruta: cat.ruta,
+			  rutaInterna: ''
+			}
+			this.pasoDeIndice.push(grupo);
+		  });
 	}
-	
 
 	public buscar(e: any) {
 		let buscar = this.formBasic.value.busqueda;
