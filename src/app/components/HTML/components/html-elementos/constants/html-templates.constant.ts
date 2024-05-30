@@ -127,3 +127,19 @@ consectetur
 adipisicing
 elit.
 </p>`;
+export const HTML_text_mark = `
+<p>
+    Lorem ipsum dolor sit amet <mark>consectetur</mark> adipisicing elit.
+</p>`;
+
+export const HTML_text_strong = `
+<p>
+Lorem ipsum dolor sit amet <b>consectetur</b> <strong>adipisicing</strong> elit.
+</p>`;
+export const HTML_text_styles = `
+b {
+    font-weight: bold;
+}
+strong {
+    font-weight: bold;
+}`;

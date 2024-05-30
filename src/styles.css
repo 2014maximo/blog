@@ -674,3 +674,6 @@ code.language-html {
     border: 0.7px solid #464141;
     padding-left: 30px;
 }
+.minborder-bottom{
+    border-bottom: 0.7px solid #464141;
+}

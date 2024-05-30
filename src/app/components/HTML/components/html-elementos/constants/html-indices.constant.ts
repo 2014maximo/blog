@@ -51,8 +51,8 @@ export const INDICES_HTML:IndiceDeContenidosModel[] = [
         posicion: 'pos-z',
         ruta: '',
         rutaInterna: 'idBr',
-        colorFondo: 'bg-Html',
-        color: 'text-light',
+        colorFondo: 'bg-Dark',
+        color: 'c-Html',
         estado: 'activo'
     },
     {
@@ -69,8 +69,26 @@ export const INDICES_HTML:IndiceDeContenidosModel[] = [
         posicion: 'pos-z',
         ruta: '',
         rutaInterna: 'idMark',
+        colorFondo: 'bg-light',
+        color: 'c-Html',
+        estado: 'activo'
+    },
+    {
+        nombre: '<b>, <strong>',
+        posicion: 'pos-z',
+        ruta: '',
+        rutaInterna: 'idStrong',
         colorFondo: 'bg-Html',
         color: 'text-light',
+        estado: 'activo'
+    },
+    {
+        nombre: '<i>, <em>',
+        posicion: 'pos-z',
+        ruta: '',
+        rutaInterna: 'idEm',
+        colorFondo: 'bg-Dark',
+        color: 'c-Html',
         estado: 'activo'
     },
 ]

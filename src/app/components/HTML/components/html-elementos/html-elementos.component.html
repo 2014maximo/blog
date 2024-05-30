@@ -17,7 +17,7 @@
 		<div class="espaciado"></div>
 
 		<div class="row">
-			<div class="col-md-7">
+			<div class="col-md-6">
 				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;!DOCTYPE&gt;</h4>
 				<p class="c7 fuenteDos fs-20 lh-25">
 					Define la versión de HTML utilizada en el documento. Lo más seguro es que con varios años de
@@ -39,6 +39,9 @@
 				</app-print-code>
 				<div class="espacio"></div>
 
+			</div>
+			<div class="col-md-6">
+				<div class="espacio"></div>
 				<p class="c7 fuenteDos fs-20 lh-25">
 					<b>HTML 4.01:</b><br>
 					Ya no se utiliza y puede generar errores al tratar de correr sobre los navegadores actuales.
@@ -55,13 +58,12 @@
 				<app-print-code [code]="html_XHTML" [categoria]="categoria" [categoriaCorta]="'HTML'"
 					[tipoCode]="'transparente'" [lineas]="5" [lenguaje]="'kotlin'" [colorTextoBase]="'text-light'">
 				</app-print-code>
-				<div class="espaciado" id="idHtml"></div>
+				<div class="espacio" id="idHtml"></div>
 			</div>
-			<div class="col-md-5"></div>
 		</div>
+		<div class="espacio"></div>
 		<div class="row">
-			<div class="col-md-5"></div>
-			<div class="col-md-7">
+			<div class="col-md-6">
 
 				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;html&gt;</h4>
 				<p class="c7 fuenteDos fs-20 lh-25">Abre la página. Después de la etiqueta de cierre (&lt;/html&gt;) no
@@ -71,12 +73,9 @@
 				<app-print-code [code]="html_html" [categoria]="categoria" [categoriaCorta]="'HTML'"
 					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
-				<div class="espaciado" id="idHead"></div>
+				<div class="espacio" id="idHead"></div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-7">
-
+			<div class="col-md-6">
 				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;head&gt;</h4>
 				<p class="c7 fuenteDos fs-20 lh-25">
 					No tiene atributos propios, pero sirve como contenedor para diversos elementos HTML que proporcionan
@@ -93,13 +92,12 @@
 				<app-print-code [code]="head" [categoria]="categoria" [categoriaCorta]="'CSS'"
 					[tipoCode]="'transparente'" [lineas]="2" [lenguaje]="'css'" [colorTextoBase]="''">
 				</app-print-code>
-				<div class="espaciado" id="idMeta"></div>
+				<div class="espacio" id="idMeta"></div>
 			</div>
-			<div class="col-md-5"></div>
 		</div>
+
 		<div class="row">
-			<div class="col-md-5"></div>
-			<div class="col-md-7">
+			<div class="col-md-6">
 
 				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;meta&gt;</h4>
 				<p class="c7 fuenteDos fs-20 lh-25">
@@ -121,8 +119,10 @@
 					HTML, la etiqueta &lt;meta&gt; no requiere una etiqueta de cierre.<br>
 					<br>
 					Son cruciales para varios aspectos del funcionamiento de una página web:
+				</p>
 				<ul class="c7 fuenteDos fs-20 lh-25">
-					<li>1. El atributo <b class="c-Html">name</b> es obligatorio para todas las etiquetas &lt;meta&gt; y
+					<h2 class="f-bebas fs-200 text-light m-0 p-0">1</h2>
+					<li>El atributo <b class="c-Html">name</b> es obligatorio para todas las etiquetas &lt;meta&gt; y
 						define el tipo de información meta que se proporciona. Algunos valores comunes para el atributo
 						<b class="c-Html">name</b> incluyen:<br>
 						<ul>
@@ -149,9 +149,16 @@
 						</ul>
 						<div class="espacio"></div>
 					</li>
+				</ul>
+				
+			</div>
+			<div class="col-md-6">
+				<div class="espacio"></div>
+				<ul class="c7 fuenteDos fs-20 lh-25">
+					<h2 class="f-bebas fs-200 text-light m-0 p-0">2</h2>
 					<li>
 						<p>
-							2. Atributo <b class="c-Html">content: </b>
+							Atributo <b class="c-Html">content: </b>
 							<br>proporciona el valor de la información meta
 							especificada por el atributo name. Por ejemplo, para una etiqueta &lt;meta&gt; con
 							name="description", el atributo content contendría la descripción de la página por ejemplo:
@@ -161,7 +168,9 @@
 						</app-print-code>
 						<div class="espacio"></div>
 					</li>
-					<li>3. Atributos adicionales:<br>
+					<h2 class="f-bebas fs-200 text-light m-0 p-0">3</h2>
+					<li>
+						Atributos adicionales:<br>
 						Además de los atributos name y content, las etiquetas &lt;meta&gt; pueden tener varios atributos
 						opcionales que proporcionan información adicional, como:
 						<ul>
@@ -180,12 +189,12 @@
 				</ul>
 			</div>
 		</div>
-		<div class="espaciado" id="idEncabezados"></div>
+		<div class="espacio" id="idEncabezados"></div>
 
 
 
 		<div class="row">
-			<div class="col-md-7">
+			<div class="col-md-6">
 				<h2 class="f-bebas fs-50 text-light">Encabezados</h2>
 				<p class="c7 fuenteDos fs-20 lh-25">
 					Los títulos tienen 6 variaciones en tamaño empezando por el más grande con 'h1' terminando en 'h6':
@@ -206,12 +215,7 @@
 
 				<div class="espaciado" id="idP"></div>
 			</div>
-			<div class="col-md-5"></div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-5"></div>
-			<div class="col-md-7">
+			<div class="col-md-6">
 				<h2 class="f-bebas fs-50 text-light">Párrafos</h2>
 				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;p&gt;</h4>
 				<p class="c7 fuenteDos fs-20 lh-25">
@@ -237,7 +241,9 @@
 				<app-print-code [code]="HTML_p_br" [categoria]="categoria" [categoriaCorta]="'HTML'"
 					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
-
+				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
+					Salida:
+				</p>
 				<div class="bg-dark p-3 mt-3 shadow-three">
 					<p class="c7 fuenteDos fs-20 lh-25">Lorem ipsum <br> sit amet consectetur adipisicing elit.</p>
 				</div>
@@ -255,7 +261,11 @@
 						<app-print-code [code]="HTML_pre" [categoria]="categoria" [categoriaCorta]="'HTML'"
 							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 						</app-print-code>
-						<p class="c7 fuenteDos fs-20 lh-25 mt-2">Mantiene el formato con los espacios y saltos que se agreguen.</p>
+						<p class="c7 fuenteDos fs-20 lh-25 mt-2">
+							Mantiene el formato con los espacios y saltos que se 	agreguen.<br>
+							<br>
+							Salida:
+						</p>
 						<div class="bg-dark p-3 mt-3 shadow-three">
 							<p class="c7 fuenteDos fs-20 lh-25">
 								Lorem ipsum<br>
@@ -274,7 +284,9 @@
 							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 						</app-print-code>
 						<p class="c7 fuenteDos fs-20 lh-25 mt-2">
-							Lo adapta como una línea plana de texto.
+							Lo adapta como una línea plana de texto.<br>
+							<br>
+							Salida:
 						</p>
 						<div class="bg-dark p-3 mt-3 shadow-three">
 							<p class="c7 fuenteDos fs-20 lh-25">
@@ -285,14 +297,86 @@
 					</div>
 				</div>
 				<div class="espacio" id="idMark"></div>
+			</div>
+		</div>
 
+		<div class="row">
+			<div class="col-md-7">
 				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;mark&gt;</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Se utiliza para marcar o resaltar texto en un documento debido a su relevancia en otro contexto.<br>
+					El ejemplo más común sería en los resultados de una búsqueda, donde el usuario ha introducido una consulta de búsqueda y los resultados se muestran resaltando la consulta deseada.
+				</p>
+				<app-print-code [code]="HTML_mark" [categoria]="categoria" [categoriaCorta]="'HTML'"
+							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
+					Salida:
+				</p>
+				<div class="bg-dark p-3 mt-3 shadow-three">
+					<p class="c7 fuenteDos fs-20 lh-25">
+						Lorem ipsum dolor sit amet <mark>consectetur</mark> adipisicing elit.
+					</p>
+				</div>
+				<div class="espacio" id="idStrong"></div>
+			</div>
+			<div class="col-md-5"></div>
+
+		</div>
+		<div class="row">
+			<div class="col-md-5"></div>
+			<div class="col-md-7">
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;b&gt; o &lt;strong&gt;</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					¿Cuál es la diferencia?<br> La semántica. <b>'&lt;strong&gt;'</b> se utiliza para indicar que el texto es fundamental o semánticamente importante para el texto que lo rodea, mientras que <b>'&lt;b&gt;'</b> no indica tal importancia y simplemente representa texto que debe ir en negrita.<br>
+					<br>
+					Si utilizara <b>'&lt;b&gt;'</b>, un programa de conversión de texto a voz no pronunciaría la(s) palabra(s) de forma diferente a las demás palabras que la(s) rodean: simplemente está llamando la atención sobre ellas sin añadirles ninguna importancia adicional.<br> Sin embargo, al utilizar <b>'&lt;strong&gt;'</b>, el mismo programa querría pronunciar esas palabras con un tono de voz diferente para transmitir que el texto es importante de alguna manera.
+				</p>
+				<app-print-code [code]="HTML_strong" [categoria]="categoria" [categoriaCorta]="'HTML'"
+							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
+					Salida:
+				</p>
+				<div class="bg-dark p-3 mt-3 shadow-three">
+					<p class="c7 fuenteDos fs-20 lh-25">
+						Lorem ipsum dolor sit amet <b>consectetur</b> <strong> adipisicing</strong> elit.
+					</p>
+				</div>
+				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
+					Estilos por defecto:
+				</p>
+				<app-print-code [code]="HTML_strong_styles" [categoria]="categoria" [categoriaCorta]="'HTML'"
+							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espacio" id="idEm"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-7">
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;em&gt; o &lt;i&gt;</h4>
 				<p class="c7 fuenteDos fs-20 lh-25">
 					Define el texto preformateado.
 				</p>
-				
+				<app-print-code [code]="HTML_strong" [categoria]="categoria" [categoriaCorta]="'HTML'"
+							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
+					Salida:
+				</p>
+				<div class="bg-dark p-3 mt-3 shadow-three">
+					<p class="c7 fuenteDos fs-20 lh-25">
+						Lorem ipsum dolor sit amet <b>consectetur</b> <strong> adipisicing</strong> elit.
+					</p>
+				</div>
+				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
+					Estilos por defecto:
+				</p>
+				<app-print-code [code]="HTML_strong_styles" [categoria]="categoria" [categoriaCorta]="'HTML'"
+							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
+				</app-print-code>
 			</div>
-
+			<div class="col-md-5"></div>
 		</div>
 	</div>
 	<div class="col-md-1"></div>

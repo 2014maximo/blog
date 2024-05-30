@@ -41,6 +41,9 @@ export class HtmlElementosComponent implements OnInit {
   public HTML_p_br = HTML.HTML_text_br;
   public HTML_pre = HTML.HTML_text_pre;
   public HTML_pre_ = HTML.HTML_text_pre_;
+  public HTML_mark = HTML.HTML_text_mark;
+  public HTML_strong = HTML.HTML_text_strong;
+  public HTML_strong_styles = HTML.HTML_text_styles;
 
   public pasoDeIndice: IndiceDeContenidosModel [] = [];
   public claseContenedor: string = '';
