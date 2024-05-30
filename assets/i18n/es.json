@@ -272,7 +272,7 @@
             "deploy-github":{
                 "titulo":"DEPLOY EN GITHUB",
                 "tx1":"El proyecto local queda en el dominio de github:",
-                "tx2":"https://",
+                "tx2":"",
                 "tx3":"GithubPersonal",
                 "tx4":".github.io/",
                 "tx5":"nombreRepositorio",
