@@ -47,6 +47,14 @@
 
             <i *ngIf="!categoriasMenu" class="bi bi-menu-app text-light" (click)="categoriasMenu =! categoriasMenu"></i>
             <i *ngIf="categoriasMenu" class="bi bi-search text-light" (click)="categoriasMenu =! categoriasMenu"></i>
+            <div class="dropdown f-open-sans-c text-right">
+                    <a type="button" data-toggle="dropdown" aria-expanded="false">
+                        <img src="assets/img/icons/traduccion.png" alt="icon png" height="40px" width="auto" class="drop">
+                    </a>
+                    <div class="dropdown-menu bg-light border c7">
+                      <a *ngFor="let lenguaje of lenguajes" class="dropdown-item cursor-p translate-item" (click)="procesoCambioLenguaje(lenguaje)">{{lenguaje}}</a>
+                    </div>
+                  </div>
 
             <div *ngIf="categoriasMenu">
                 <app-indice-contenidos [indice]="pasoDeIndice" [clase]="claseContenedor"></app-indice-contenidos>
