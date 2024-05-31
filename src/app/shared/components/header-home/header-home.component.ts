@@ -45,6 +45,8 @@ export class HeaderHomeComponent implements OnInit {
 
 		if (localStorage.getItem("idioma")) {
 			this.idiomaActual = localStorage.getItem('idioma') ?? '';
+		} else {
+			this.idiomaActual = navigator.language.split('-')[0];
 		}
 		translate.setDefaultLang(navigator.language.split('-')[0]);
 		translate.use(this.idiomaActual);
