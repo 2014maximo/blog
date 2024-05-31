@@ -479,7 +479,13 @@ a:hover {
 @media (min-width: 600px) {
     .mobile {
         display: none;
+    }
 }
+@media (max-width: 600px) {
+    .categorias {
+        font-size: 4rem !important;
+        border-bottom: 2px solid #dc9047;
+    }
 }
 .ancho {
     width: 415px;
