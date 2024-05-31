@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'blog';
+  public lang = navigator.language;
 
   constructor(){
     let aleatorio =Math.round( Math.random() * (9999999999 - 1000000000) + 1000000000);
