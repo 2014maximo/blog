@@ -39,7 +39,7 @@ h6{
 }
 `;
 
-export const HTML_head = `
+export const HTML_head_style = `
 head {
     display: none;
 }`;
@@ -67,22 +67,22 @@ export const HTML_html = `
 <body></body> -->
 </html>`;
 
-export const HTML_meta_example_1 = `
+export const HTML_meta_charset = `
 <meta charset="UTF-8">`;
 
-export const HTML_meta_example_2 = `
+export const HTML_meta_description = `
 <meta name="description" content="Esta página trata sobre...">`;
 
-export const HTML_meta_example_3 = `
+export const HTML_meta_keywords = `
 <meta name="keywords" content="palabra1, palabra2, palabra3">`;
 
-export const HTML_meta_example_4 = `
+export const HTML_meta_robots = `
 <meta name="robots" content="index, follow">`;
 
-export const HTML_meta_example_5 = `
+export const HTML_meta_http = `
 <meta http-equiv="cache-control" content="no-cache">`;
 
-export const HTML_head_example = `
+export const HTML_head_code = `
 <head>
   <meta charset="utf-8">
   <title>Trucos pa' desarrollo</title>
@@ -96,10 +96,10 @@ export const HTML_head_example = `
     crossorigin="anonymous"></script>
 </head>`;
 
-export const HTML_text = `
+export const HTML_p = `
 <p>Text</p>`;
 
-export const HTML_text_style = `
+export const HTML_p_style = `
 p {
     display: block;
     margin-block-start: 1em;
@@ -109,10 +109,10 @@ p {
     unicode-bidi: isolate;
 }`;
 
-export const HTML_text_br = `
+export const HTML_p_br = `
 <p>Lorem ipsum <br> sit amet consectetur adipisicing elit.</p>`;
 
-export const HTML_text_pre = `
+export const HTML_p_pre = `
 <pre>
 Lorem ipsum
 dolor sit amet
@@ -121,7 +121,7 @@ adipisicing
 elit.
 </pre>`;
 
-export const HTML_text_pre_ = `
+export const HTML_p_pre_ = `
 <p>
 Lorem ipsum
 dolor sit amet
@@ -130,17 +130,17 @@ adipisicing
 elit.
 </p>`;
 
-export const HTML_text_mark = `
+export const HTML_p_mark = `
 <p>
     Lorem ipsum dolor sit amet <mark>consectetur</mark> adipisicing elit.
 </p>`;
 
-export const HTML_text_strong = `
+export const HTML_p_strong = `
 <p>
     Lorem ipsum dolor sit amet <b>consectetur</b> <strong>adipisicing</strong> elit.
 </p>`
 
-export const HTML_text_styles = `
+export const HTML_p_styles = `
 b {
     font-weight: bold;
 }
@@ -148,10 +148,11 @@ strong {
     font-weight: bold;
 }`;
 
-export const HTML_text_italic = `
+export const HTML_p_italic = `
 <p>
     Lorem ipsum dolor sit amet <em>consectetur</em> <i>adipisicing</i> elit.
-</p>`
+</p>`;
+
 
 export const HTML_italic_style = `
 i {
@@ -159,4 +160,24 @@ i {
 }
 em {
     font-style: italic;
+}`;
+
+export const HTML_underline_style = `
+u {
+    text-decoration: underline;
+}`;
+
+export const HTML_p_underline = `
+<p>
+Lorem ipsum dolor sit amet <u>consectetur</u> adipisicing elit.
+</p>`;
+
+export const HTML_p_abbr = `
+<p>
+I like to write <abbr title="Hypertext Markup Language">HTML</abbr>!
+</p>`;
+
+export const HTML_abbr_style = `
+abbr[title] {
+    text-decoration: underline dotted;
 }`;

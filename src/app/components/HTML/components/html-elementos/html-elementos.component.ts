@@ -6,9 +6,9 @@ import { CategoriaModel } from '@shared/models';
 import { CategoriaPostModel, DatosPost } from '@shared/models/categorias.model';
 import { IndiceDeContenidosModel } from '@shared/models/indice.model';
 import * as HTML from './constants/html-templates.constant';
-import { HTML_meta_example_1 } from './constants/html-templates.constant';
 import { URL } from '@shared/constants/constants/generales.constant';
 import { INDICES_HTML } from './constants/html-indices.constant';
+import { HtmlModel } from './models/html-general.model';
 
 @Component({
   selector: 'app-html-elementos',
@@ -23,29 +23,7 @@ export class HtmlElementosComponent implements OnInit {
   public categoria = new CategoriaPostModel();
   public breadcrumb = new CategoriaModel();
   public url = URL;
-  public h1 = HTML.HTML_H1;
-  public h1Html = HTML.HTML_1;
-  public head = HTML.HTML_head;
-  public html = HTML.HTML;
-  public html4 = HTML.HTML_4;
-  public html_XHTML = HTML.HTML_XHTML;
-  public html_html = HTML.HTML_html;
-  public HTML_head_example = HTML.HTML_head_example;
-  public HTML_meta_example_1 = HTML.HTML_meta_example_1;
-  public HTML_meta_example_2 = HTML.HTML_meta_example_2;
-  public HTML_meta_example_3 = HTML.HTML_meta_example_3;
-  public HTML_meta_example_4 = HTML.HTML_meta_example_4;
-  public HTML_meta_example_5 = HTML.HTML_meta_example_5;
-  public HTML_p = HTML.HTML_text;
-  public HTML_p_s = HTML.HTML_text_style;
-  public HTML_p_br = HTML.HTML_text_br;
-  public HTML_pre = HTML.HTML_text_pre;
-  public HTML_pre_ = HTML.HTML_text_pre_;
-  public HTML_mark = HTML.HTML_text_mark;
-  public HTML_strong = HTML.HTML_text_strong;
-  public HTML_strong_styles = HTML.HTML_text_styles;
-  public HTML_italic = HTML.HTML_text_italic;
-  public HTML_italic_style = HTML.HTML_italic_style;
+  public HTML = new HtmlModel();
 
   public pasoDeIndice: IndiceDeContenidosModel [] = [];
   public claseContenedor: string = '';

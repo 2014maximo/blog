@@ -34,7 +34,7 @@
 					<li>Permite que el navegador valide el documento HTML y detecte errores de sintaxis o semántica.
 					</li>
 				</ul>
-				<app-print-code [code]="html" [categoria]="categoria" [categoriaCorta]="'HTML'"
+				<app-print-code [code]="HTML.doctypeCode" [categoria]="categoria" [categoriaCorta]="'HTML'"
 					[tipoCode]="'transparente'" [lineas]="5" [lenguaje]="'kotlin'" [colorTextoBase]="'text-light'">
 				</app-print-code>
 				<div class="espacio"></div>
@@ -46,7 +46,7 @@
 					<b>HTML 4.01:</b><br>
 					Ya no se utiliza y puede generar errores al tratar de correr sobre los navegadores actuales.
 				</p>
-				<app-print-code [code]="html4" [categoria]="categoria" [categoriaCorta]="'HTML'"
+				<app-print-code [code]="HTML.doctype4Code" [categoria]="categoria" [categoriaCorta]="'HTML'"
 					[tipoCode]="'transparente'" [lineas]="5" [lenguaje]="'kotlin'" [colorTextoBase]="'text-light'">
 				</app-print-code>
 				<div class="espacio"></div>
@@ -55,7 +55,7 @@
 					<b>XHTML 1.0 Strict:</b><br>
 					Ya no se utiliza.
 				</p>
-				<app-print-code [code]="html_XHTML" [categoria]="categoria" [categoriaCorta]="'HTML'"
+				<app-print-code [code]="HTML.doctypeHxtml" [categoria]="categoria" [categoriaCorta]="'HTML'"
 					[tipoCode]="'transparente'" [lineas]="5" [lenguaje]="'kotlin'" [colorTextoBase]="'text-light'">
 				</app-print-code>
 				<div class="espacio" id="idHtml"></div>
@@ -70,7 +70,7 @@
 					debe aparecer ninguna marca. No trae ninguna configuración dentro de la etiqueta que sea
 					configurable, exceptuando la opción de idioma.</p>
 
-				<app-print-code [code]="html_html" [categoria]="categoria" [categoriaCorta]="'HTML'"
+				<app-print-code [code]="HTML.htmlCode" [categoria]="categoria" [categoriaCorta]="'HTML'"
 					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
 				<div class="espacio" id="idHead"></div>
@@ -82,14 +82,14 @@
 					información meta y enlaces a recursos externos. Estos elementos, a su vez, poseen sus propios
 					atributos para configurar su comportamiento y características.
 				</p>
-				<app-print-code [code]="HTML_head_example" [categoria]="categoria" [categoriaCorta]="'CSS'"
+				<app-print-code [code]="HTML.headCode" [categoria]="categoria" [categoriaCorta]="'CSS'"
 					[tipoCode]="'transparente'" [lineas]="2" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
 				<div class="espacio"></div>
 
 				<p class="c7 fuenteDos fs-20 lh-25">Por defecto solo trae
 					esta característica en los estilos:</p>
-				<app-print-code [code]="head" [categoria]="categoria" [categoriaCorta]="'CSS'"
+				<app-print-code [code]="HTML.headStyle" [categoria]="categoria" [categoriaCorta]="'CSS'"
 					[tipoCode]="'transparente'" [lineas]="2" [lenguaje]="'css'" [colorTextoBase]="''">
 				</app-print-code>
 				<div class="espacio" id="idMeta"></div>
@@ -108,7 +108,7 @@
 					<br>
 					El atributo charset declara la codificación de caracteres.
 				</p>
-				<app-print-code [code]="HTML_meta_example_1" [categoria]="categoria" [categoriaCorta]="'CSS'"
+				<app-print-code [code]="HTML.metaCharset" [categoria]="categoria" [categoriaCorta]="'CSS'"
 					[tipoCode]="'transparente'" [lineas]="2" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
 				<div class="espacio"></div>
@@ -130,7 +130,7 @@
 							<li><b>description:</b> Proporciona una breve descripción del contenido de la página.</li>
 							<li><b>keywords:</b>
 								<p>Define palabras clave relevantes para el contenido de la página.</p><br>
-								<app-print-code [code]="HTML_meta_example_3" [categoria]="categoria"
+								<app-print-code [code]="HTML.metaKeywords" [categoria]="categoria"
 									[categoriaCorta]="'CSS'" [tipoCode]="'transparente'" [lineas]="2"
 									[lenguaje]="'html'" [colorTextoBase]="''">
 								</app-print-code>
@@ -140,7 +140,7 @@
 							<li><b>viewport:</b> Controla cómo se representa la página web en dispositivos móviles.</li>
 							<li><b>robots:</b> Instruye a los motores de búsqueda sobre cómo indexar y rastrear la
 								página.<br>
-								<app-print-code [code]="HTML_meta_example_4" [categoria]="categoria"
+								<app-print-code [code]="HTML.metaRobots" [categoria]="categoria"
 									[categoriaCorta]="'CSS'" [tipoCode]="'transparente'" [lineas]="2"
 									[lenguaje]="'html'" [colorTextoBase]="''">
 								</app-print-code>
@@ -163,7 +163,7 @@
 							especificada por el atributo name. Por ejemplo, para una etiqueta &lt;meta&gt; con
 							name="description", el atributo content contendría la descripción de la página por ejemplo:
 						</p>
-						<app-print-code [code]="HTML_meta_example_2" [categoria]="categoria" [categoriaCorta]="'CSS'"
+						<app-print-code [code]="HTML.metaDescription" [categoria]="categoria" [categoriaCorta]="'CSS'"
 							[tipoCode]="'transparente'" [lineas]="2" [lenguaje]="'html'" [colorTextoBase]="''">
 						</app-print-code>
 						<div class="espacio"></div>
@@ -176,7 +176,7 @@
 						<ul>
 							<li><b>http-equiv: </b>Especifica un metadato HTTP equivalente para navegadores más
 								antiguos.<br>
-								<app-print-code [code]="HTML_meta_example_5" [categoria]="categoria"
+								<app-print-code [code]="HTML.metaHttp" [categoria]="categoria"
 									[categoriaCorta]="'CSS'" [tipoCode]="'transparente'" [lineas]="2"
 									[lenguaje]="'html'" [colorTextoBase]="''">
 								</app-print-code>
@@ -201,7 +201,7 @@
 				</p>
 				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">
 					&lt;h1&gt;,&lt;h2&gt;,&lt;h3&gt;,&lt;h4&gt;,&lt;h5&gt;,&lt;h6&gt;</h4>
-				<app-print-code [code]="h1Html" [categoria]="categoria" [categoriaCorta]="'HTML'"
+				<app-print-code [code]="HTML.hCode" [categoria]="categoria" [categoriaCorta]="'HTML'"
 					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
 				<div class="espacio"></div>
@@ -209,7 +209,7 @@
 					Contiene estos estilos por defecto.
 				</p>
 
-				<app-print-code [code]="h1" [categoriaCorta]="'CSS'" [tipoCode]="'transparente'" [lineas]="5"
+				<app-print-code [code]="HTML.h1Styles" [categoriaCorta]="'CSS'" [tipoCode]="'transparente'" [lineas]="5"
 					[lenguaje]="'css'" [colorTextoBase]="''">
 				</app-print-code>
 
@@ -221,7 +221,7 @@
 				<p class="c7 fuenteDos fs-20 lh-25">
 					Contenido en general de texto, párrafos.
 				</p>
-				<app-print-code [code]="HTML_p" [categoria]="categoria" [categoriaCorta]="'HTML'"
+				<app-print-code [code]="HTML.pCode" [categoria]="categoria" [categoriaCorta]="'HTML'"
 					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
 				<div class="espacio"></div>
@@ -229,7 +229,7 @@
 				<p class="c7 fuenteDos fs-20 lh-25">
 					Estilos por defecto.
 				</p>
-				<app-print-code [code]="HTML_p_s" [categoria]="categoria" [categoriaCorta]="'HTML'"
+				<app-print-code [code]="HTML.pStyle" [categoria]="categoria" [categoriaCorta]="'HTML'"
 					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
 				</app-print-code>
 				<div class="espacio" id="idBr"></div>
@@ -238,7 +238,7 @@
 				<p class="c7 fuenteDos fs-20 lh-25">
 					Inserta un único salto de línea.
 				</p>
-				<app-print-code [code]="HTML_p_br" [categoria]="categoria" [categoriaCorta]="'HTML'"
+				<app-print-code [code]="HTML.pBr" [categoria]="categoria" [categoriaCorta]="'HTML'"
 					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
 				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
@@ -258,7 +258,7 @@
 						<p class="c7 fuenteDos fs-20 lh-25">
 							Si se hace con '&lt;pre&gt;'
 						</p>
-						<app-print-code [code]="HTML_pre" [categoria]="categoria" [categoriaCorta]="'HTML'"
+						<app-print-code [code]="HTML.pPre" [categoria]="categoria" [categoriaCorta]="'HTML'"
 							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 						</app-print-code>
 						<p class="c7 fuenteDos fs-20 lh-25 mt-2">
@@ -280,7 +280,7 @@
 						<p class="c7 fuenteDos fs-20 lh-25">
 							Si se hace con '&lt;p&gt;'
 						</p>
-						<app-print-code [code]="HTML_pre_" [categoria]="categoria" [categoriaCorta]="'HTML'"
+						<app-print-code [code]="HTML.pPreP" [categoria]="categoria" [categoriaCorta]="'HTML'"
 							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 						</app-print-code>
 						<p class="c7 fuenteDos fs-20 lh-25 mt-2">
@@ -307,7 +307,7 @@
 					Se utiliza para marcar o resaltar texto en un documento debido a su relevancia en otro contexto.<br>
 					El ejemplo más común sería en los resultados de una búsqueda, donde el usuario ha introducido una consulta de búsqueda y los resultados se muestran resaltando la consulta deseada.
 				</p>
-				<app-print-code [code]="HTML_mark" [categoria]="categoria" [categoriaCorta]="'HTML'"
+				<app-print-code [code]="HTML.pMark" [categoria]="categoria" [categoriaCorta]="'HTML'"
 							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
 				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
@@ -332,7 +332,7 @@
 					<br>
 					Si utilizara <b>'&lt;b&gt;'</b>, un programa de conversión de texto a voz no pronunciaría la(s) palabra(s) de forma diferente a las demás palabras que la(s) rodean: simplemente está llamando la atención sobre ellas sin añadirles ninguna importancia adicional.<br> Sin embargo, al utilizar <b>'&lt;strong&gt;'</b>, el mismo programa querría pronunciar esas palabras con un tono de voz diferente para transmitir que el texto es importante de alguna manera.
 				</p>
-				<app-print-code [code]="HTML_strong" [categoria]="categoria" [categoriaCorta]="'HTML'"
+				<app-print-code [code]="HTML.pStrong" [categoria]="categoria" [categoriaCorta]="'HTML'"
 							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
 				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
@@ -346,7 +346,7 @@
 				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
 					Estilos por defecto:
 				</p>
-				<app-print-code [code]="HTML_strong_styles" [categoria]="categoria" [categoriaCorta]="'HTML'"
+				<app-print-code [code]="HTML.pStrongStyles" [categoria]="categoria" [categoriaCorta]="'HTML'"
 							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
 				</app-print-code>
 				<div class="espacio" id="idEm"></div>
@@ -358,7 +358,7 @@
 				<p class="c7 fuenteDos fs-20 lh-25">
 					¿Cuál es la diferencia? La semántica. <b>'&lt;em&gt;'</b> se utiliza para indicar que el texto debe tener un énfasis adicional que debe acentuarse, mientras que <b>'&lt;i&gt;'</b> representa simplemente un texto que debe destacarse del texto normal que lo rodea.
 				</p>
-				<app-print-code [code]="HTML_italic" [categoria]="categoria" [categoriaCorta]="'HTML'"
+				<app-print-code [code]="HTML.pItalicCode" [categoria]="categoria" [categoriaCorta]="'HTML'"
 							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
 				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
@@ -372,7 +372,7 @@
 				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
 					Estilos por defecto:
 				</p>
-				<app-print-code [code]="HTML_italic_style" [categoria]="categoria" [categoriaCorta]="'HTML'"
+				<app-print-code [code]="HTML.pItalicStyles" [categoria]="categoria" [categoriaCorta]="'HTML'"
 							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
 				</app-print-code>
 				<div class="espacio" id="idU"></div>
@@ -384,9 +384,9 @@
 			<div class="col-md-7">
 				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;u&gt;</h4>
 				<p class="c7 fuenteDos fs-20 lh-25">
-					¿Cuál es la diferencia? La semántica. <b>'&lt;em&gt;'</b> se utiliza para indicar que el texto debe tener un énfasis adicional que debe acentuarse, mientras que <b>'&lt;i&gt;'</b> representa simplemente un texto que debe destacarse del texto normal que lo rodea.
+					Quedó obsoleto en HTML 4, se reintrodujo con un significado semántico alternativo en HTML 5, para representar una anotación no articulada y no textual. Puede utilizarse para indicar un texto mal escrito en la página o para marcar un nombre propio.
 				</p>
-				<app-print-code [code]="HTML_italic" [categoria]="categoria" [categoriaCorta]="'HTML'"
+				<app-print-code [code]="HTML.pUnderline" [categoria]="categoria" [categoriaCorta]="'HTML'"
 							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
 				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
@@ -400,10 +400,36 @@
 				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
 					Estilos por defecto:
 				</p>
-				<app-print-code [code]="HTML_italic_style" [categoria]="categoria" [categoriaCorta]="'HTML'"
+				<app-print-code [code]="HTML.pUnderlineStyles" [categoria]="categoria" [categoriaCorta]="'HTML'"
 							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
 				</app-print-code>
 			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-7">
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;abbr&gt;</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Para marcar una expresión como abreviatura. Dentro de la etiqueta, en el atributo 'title' se utiliza para la descripción completa de dicha abreviatura.
+				</p>
+				<app-print-code [code]="HTML.pAbbrCode" [categoria]="categoria" [categoriaCorta]="'HTML'"
+							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
+					Salida:
+				</p>
+				<div class="bg-dark p-3 mt-3 shadow-three">
+					<p class="c7 fuenteDos fs-20 lh-25">
+						I like to write <abbr title="Hypertext Markup Language">HTML!</abbr>
+					</p>
+				</div>
+				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
+					Estilos por defecto:
+				</p>
+				<app-print-code [code]="HTML.pAbbrStyles" [categoria]="categoria" [categoriaCorta]="'HTML'"
+							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
+				</app-print-code>
+			</div>
+			<div class="col-md-5"></div>
 		</div>
 	</div>
 	<div class="col-md-1"></div>
