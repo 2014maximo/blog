@@ -51,7 +51,7 @@ export const DEVELOPER: DatosPost[] = [
         referenciaBusqueda:'sitios web - links - web recomendados',
         estilos: ESTILO_DEVELOPER,
         fechaCreacion: '2023-03-20',
-        fechaActualizacion: '',
+        fechaActualizacion: '2024-06-09',
         imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/developer/webs-recomendadas.jpg'),
         imgVertical:'',
         imgCuadro:'',

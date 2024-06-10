@@ -100,4 +100,40 @@ export const INDICES_HTML:IndiceDeContenidosModel[] = [
         color: 'text-light',
         estado: 'activo'
     },
+    {
+        nombre: '<abbr>',
+        posicion: 'pos-z',
+        ruta: '',
+        rutaInterna: 'idAbbr',
+        colorFondo: 'bg-light',
+        color: 'c-Html',
+        estado: 'activo'
+    },
+    {
+        nombre: '<ins>',
+        posicion: 'pos-z',
+        ruta: '',
+        rutaInterna: 'idIns',
+        colorFondo: 'bg-Dark',
+        color: 'c-Html',
+        estado: 'activo'
+    },
+    {
+        nombre: '<del>, <s>',
+        posicion: 'pos-z',
+        ruta: '',
+        rutaInterna: 'idDel',
+        colorFondo: 'bg-Html',
+        color: 'text-light',
+        estado: 'activo'
+    },
+    {
+        nombre: '<sub>, <sup>',
+        posicion: 'pos-z',
+        ruta: '',
+        rutaInterna: 'idSub',
+        colorFondo: 'bg-light',
+        color: 'c-Html',
+        estado: 'activo'
+    },
 ]

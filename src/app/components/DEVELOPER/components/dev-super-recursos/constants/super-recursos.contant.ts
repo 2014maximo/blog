@@ -1,5 +1,5 @@
 import { BloqueContenidoModel } from '../../../../../shared/models/bloque-contenidos.model';
-import { repositorioContenidoImagenes, rutaCatego, rutaImgIcons } from '../../../../../constants/generales/globales.constant';
+import { repositorioContenidoImagenes, rutaCatego, rutaGeneralImagenes, rutaImgIcons } from '../../../../../constants/generales/globales.constant';
 
 
 export const LINKS: BloqueContenidoModel[] = [
@@ -388,6 +388,25 @@ export const LINKS: BloqueContenidoModel[] = [
                     },
                 ]
             },
+            {
+                index:'8',
+                links:[
+                    {
+                        img:`${rutaGeneralImagenes}posts/developer/recursos/mockaroo.png`,
+                        nombreRecurso:'',
+                        height:'55',
+                        rutaRecurso:'https://www.mockaroo.com/',
+                        descripcion:'¿Busca generar datos falsos basados ​​en sus datos de producción? Imita tus bases de datos con una cuenta de prueba de TONIC, ¿Necesita algunos datos simulados para probar su aplicación? Mockaroo le permite generar hasta 1000 filas de datos de prueba realistas en formatos CSV, JSON, SQL y Excel. ¿Necesitas más datos? Los planes comienzan en sólo $60 al año. Mockaroo también está disponible como una imagen acoplable que puedes implementar en tu propia nube privada.'
+                    },
+                    {
+                        img:`${rutaGeneralImagenes}posts/developer/recursos/storybook.png`,
+                        nombreRecurso:'',
+                        height:'55',
+                        rutaRecurso:'https://storybook.js.org/',
+                        descripcion:'Cree interfaces de usuario sin el trabajo duro Storybook es un taller de interfaz para crear componentes y páginas de interfaz de usuario de forma aislada. Miles de equipos lo utilizan para el desarrollo, las pruebas y la documentación de la interfaz de usuario. Es de código abierto y gratuito.'
+                    }
+                ]
+            }
         ]
     },
     {
@@ -1393,12 +1412,6 @@ export const LINKS: BloqueContenidoModel[] = [
                         red: '',
                         clipBoard: ''
                     },
-                ]
-            },
-            {
-                index: '5',
-                links: [
-
                     {
                         img: '',
                         nombreRecurso: 'DEVDOCS',
@@ -1407,6 +1420,18 @@ export const LINKS: BloqueContenidoModel[] = [
                         descripcion: 'DevDocs combina varias documentaciones de API en una interfaz rápida, organizada y con capacidad de búsqueda.',
                         red: '',
                         clipBoard: ''
+                    }
+                ]
+            },
+            {
+                index: '5',
+                links: [
+                    {
+                        img:`${rutaGeneralImagenes}posts/developer/recursos/insomnia.png`,
+                        nombreRecurso:'',
+                        height:'70',
+                        rutaRecurso:'https://insomnia.rest/',
+                        descripcion:'Diseñar, depurar, probar y simular API localmente, en Git o en la nube Cree mejores API de forma colaborativa para los protocolos más populares con una interfaz de usuario fácil de desarrollar, automatización integrada y un ecosistema de complementos extensible.',
                     }
                 ]
             }

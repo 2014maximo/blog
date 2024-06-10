@@ -28,6 +28,12 @@ export class HtmlModel {
     pUnderlineStyles:string;
     pAbbrCode:string;
     pAbbrStyles:string;
+    pIns:string;
+    pInsStyle:string
+    pDel:string;
+    pDelStyle:string;
+    pSub:string;
+    pSubStyle:string;
 
     constructor(){
 
@@ -58,6 +64,12 @@ export class HtmlModel {
         this.pUnderlineStyles = HTML.HTML_underline_style;
         this.pAbbrCode = HTML.HTML_p_abbr;
         this.pAbbrStyles = HTML.HTML_abbr_style;
+        this.pIns = HTML.HTML_ins;
+        this.pInsStyle = HTML.HTML_ins_style;
+        this.pDel = HTML.HTML_p_del;
+        this.pDelStyle = HTML.HTML_del_style;
+        this.pSub = HTML.HTML_p_sub;
+        this.pSubStyle = HTML.HTML_sub_style;
     }
 
 }

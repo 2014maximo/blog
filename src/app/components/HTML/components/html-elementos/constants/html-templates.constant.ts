@@ -169,15 +169,54 @@ u {
 
 export const HTML_p_underline = `
 <p>
-Lorem ipsum dolor sit amet <u>consectetur</u> adipisicing elit.
+    Lorem ipsum dolor sit amet <u>consectetur</u> adipisicing elit.
 </p>`;
 
 export const HTML_p_abbr = `
 <p>
-I like to write <abbr title="Hypertext Markup Language">HTML</abbr>!
+    I like to write <abbr title='Hypertext Markup Language'>HTML</abbr>!
 </p>`;
 
 export const HTML_abbr_style = `
-abbr[title] {
+abbr {
     text-decoration: underline dotted;
 }`;
+
+export const HTML_ins_style = `
+ins {
+    text-decoration: underline;
+}`;
+
+export const HTML_ins = `
+<p>
+    Lorem ipsum dolor sit amet <ins>consectetur</ins> adipisicing elit.
+</p>
+<p>
+    Lorem ipsum dolor sit amet <ins datetime="2024-06-06T12:00:00Z">consectetur</ins> adipisicing elit.
+</p>`;
+
+export const HTML_p_del = `
+<p>
+    Lorem ipsum dolor sit amet <del>consectetur</del> adipisicing elit.
+</p>`;
+
+export const HTML_del_style = `
+del {
+    text-decoration: line-through;
+    }`;
+
+export const HTML_sub_style = `
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+    
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}`;
+
+export const HTML_p_sub = `
+<p>El agua tiene la fórmula química H<sub>2</sub>O.</p>
+<p>Einstein propuso la famosa ecuación E = mc<sup>2</sup>.</p>
+<p>El precio es de 10 m<sup>2</sup>.</p>`;

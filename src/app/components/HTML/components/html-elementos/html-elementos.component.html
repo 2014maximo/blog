@@ -150,7 +150,7 @@
 						<div class="espacio"></div>
 					</li>
 				</ul>
-				
+
 			</div>
 			<div class="col-md-6">
 				<div class="espacio"></div>
@@ -176,9 +176,8 @@
 						<ul>
 							<li><b>http-equiv: </b>Especifica un metadato HTTP equivalente para navegadores más
 								antiguos.<br>
-								<app-print-code [code]="HTML.metaHttp" [categoria]="categoria"
-									[categoriaCorta]="'CSS'" [tipoCode]="'transparente'" [lineas]="2"
-									[lenguaje]="'html'" [colorTextoBase]="''">
+								<app-print-code [code]="HTML.metaHttp" [categoria]="categoria" [categoriaCorta]="'CSS'"
+									[tipoCode]="'transparente'" [lineas]="2" [lenguaje]="'html'" [colorTextoBase]="''">
 								</app-print-code>
 								<div class="espacio"></div>
 							</li>
@@ -262,7 +261,7 @@
 							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 						</app-print-code>
 						<p class="c7 fuenteDos fs-20 lh-25 mt-2">
-							Mantiene el formato con los espacios y saltos que se 	agreguen.<br>
+							Mantiene el formato con los espacios y saltos que se agreguen.<br>
 							<br>
 							Salida:
 						</p>
@@ -290,7 +289,7 @@
 						</p>
 						<div class="bg-dark p-3 mt-3 shadow-three">
 							<p class="c7 fuenteDos fs-20 lh-25">
-								Lorem ipsum	dolor sit ametconsectetur adipisicing elit.
+								Lorem ipsum dolor sit ametconsectetur adipisicing elit.
 							</p>
 						</div>
 
@@ -305,10 +304,11 @@
 				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;mark&gt;</h4>
 				<p class="c7 fuenteDos fs-20 lh-25">
 					Se utiliza para marcar o resaltar texto en un documento debido a su relevancia en otro contexto.<br>
-					El ejemplo más común sería en los resultados de una búsqueda, donde el usuario ha introducido una consulta de búsqueda y los resultados se muestran resaltando la consulta deseada.
+					El ejemplo más común sería en los resultados de una búsqueda, donde el usuario ha introducido una
+					consulta de búsqueda y los resultados se muestran resaltando la consulta deseada.
 				</p>
 				<app-print-code [code]="HTML.pMark" [categoria]="categoria" [categoriaCorta]="'HTML'"
-							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
 				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
 					Salida:
@@ -326,14 +326,21 @@
 		<div class="row">
 			<div class="col-md-5"></div>
 			<div class="col-md-7">
-				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;b&gt; o &lt;strong&gt;</h4>
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;b&gt; ó &lt;strong&gt;</h4>
 				<p class="c7 fuenteDos fs-20 lh-25">
-					¿Cuál es la diferencia?<br> La semántica. <b>'&lt;strong&gt;'</b> se utiliza para indicar que el texto es fundamental o semánticamente importante para el texto que lo rodea, mientras que <b>'&lt;b&gt;'</b> no indica tal importancia y simplemente representa texto que debe ir en negrita.<br>
+					¿Cuál es la diferencia?<br> La semántica. <b>'&lt;strong&gt;'</b> se utiliza para indicar que el
+					texto es fundamental o semánticamente importante para el texto que lo rodea, mientras que
+					<b>'&lt;b&gt;'</b> no indica tal importancia y simplemente representa texto que debe ir en
+					negrita.<br>
 					<br>
-					Si utilizara <b>'&lt;b&gt;'</b>, un programa de conversión de texto a voz no pronunciaría la(s) palabra(s) de forma diferente a las demás palabras que la(s) rodean: simplemente está llamando la atención sobre ellas sin añadirles ninguna importancia adicional.<br> Sin embargo, al utilizar <b>'&lt;strong&gt;'</b>, el mismo programa querría pronunciar esas palabras con un tono de voz diferente para transmitir que el texto es importante de alguna manera.
+					Si utilizara <b>'&lt;b&gt;'</b>, un programa de conversión de texto a voz no pronunciaría la(s)
+					palabra(s) de forma diferente a las demás palabras que la(s) rodean: simplemente está llamando la
+					atención sobre ellas sin añadirles ninguna importancia adicional.<br> Sin embargo, al utilizar
+					<b>'&lt;strong&gt;'</b>, el mismo programa querría pronunciar esas palabras con un tono de voz
+					diferente para transmitir que el texto es importante de alguna manera.
 				</p>
 				<app-print-code [code]="HTML.pStrong" [categoria]="categoria" [categoriaCorta]="'HTML'"
-							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
 				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
 					Salida:
@@ -347,19 +354,21 @@
 					Estilos por defecto:
 				</p>
 				<app-print-code [code]="HTML.pStrongStyles" [categoria]="categoria" [categoriaCorta]="'HTML'"
-							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
 				</app-print-code>
 				<div class="espacio" id="idEm"></div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-7">
-				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;em&gt; o &lt;i&gt;</h4>
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;em&gt; ó &lt;i&gt;</h4>
 				<p class="c7 fuenteDos fs-20 lh-25">
-					¿Cuál es la diferencia? La semántica. <b>'&lt;em&gt;'</b> se utiliza para indicar que el texto debe tener un énfasis adicional que debe acentuarse, mientras que <b>'&lt;i&gt;'</b> representa simplemente un texto que debe destacarse del texto normal que lo rodea.
+					¿Cuál es la diferencia? La semántica. <b>'&lt;em&gt;'</b> se utiliza para indicar que el texto debe
+					tener un énfasis adicional que debe acentuarse, mientras que <b>'&lt;i&gt;'</b> representa
+					simplemente un texto que debe destacarse del texto normal que lo rodea.
 				</p>
 				<app-print-code [code]="HTML.pItalicCode" [categoria]="categoria" [categoriaCorta]="'HTML'"
-							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
 				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
 					Salida:
@@ -373,7 +382,7 @@
 					Estilos por defecto:
 				</p>
 				<app-print-code [code]="HTML.pItalicStyles" [categoria]="categoria" [categoriaCorta]="'HTML'"
-							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
 				</app-print-code>
 				<div class="espacio" id="idU"></div>
 			</div>
@@ -384,10 +393,12 @@
 			<div class="col-md-7">
 				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;u&gt;</h4>
 				<p class="c7 fuenteDos fs-20 lh-25">
-					Quedó obsoleto en HTML 4, se reintrodujo con un significado semántico alternativo en HTML 5, para representar una anotación no articulada y no textual. Puede utilizarse para indicar un texto mal escrito en la página o para marcar un nombre propio.
+					Quedó obsoleto en HTML 4, se reintrodujo con un significado semántico alternativo en HTML 5, para
+					representar una anotación no articulada y no textual. Puede utilizarse para indicar un texto mal
+					escrito en la página o para marcar un nombre propio.
 				</p>
 				<app-print-code [code]="HTML.pUnderline" [categoria]="categoria" [categoriaCorta]="'HTML'"
-							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
 				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
 					Salida:
@@ -401,18 +412,20 @@
 					Estilos por defecto:
 				</p>
 				<app-print-code [code]="HTML.pUnderlineStyles" [categoria]="categoria" [categoriaCorta]="'HTML'"
-							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
 				</app-print-code>
+				<div class="espacio" id="idAbbr"></div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-7">
 				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;abbr&gt;</h4>
 				<p class="c7 fuenteDos fs-20 lh-25">
-					Para marcar una expresión como abreviatura. Dentro de la etiqueta, en el atributo 'title' se utiliza para la descripción completa de dicha abreviatura.
+					Para marcar una expresión como abreviatura. Dentro de la etiqueta, en el atributo 'title' se utiliza
+					para la descripción completa de dicha abreviatura.
 				</p>
 				<app-print-code [code]="HTML.pAbbrCode" [categoria]="categoria" [categoriaCorta]="'HTML'"
-							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
 				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
 					Salida:
@@ -426,10 +439,140 @@
 					Estilos por defecto:
 				</p>
 				<app-print-code [code]="HTML.pAbbrStyles" [categoria]="categoria" [categoriaCorta]="'HTML'"
-							[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
 				</app-print-code>
+				<div class="espacio" id="idIns"></div>
 			</div>
 			<div class="col-md-5"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-5"></div>
+			<div class="col-md-7">
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;ins&gt;</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Para marcar un texto como insertado, también puede aceptar atributos como datetime, que especifica
+					la fecha y hora en que el texto fue añadido.<br>
+					Se utiliza para resaltar adiciones a un documento HTML, facilitando la visualización de cambios o
+					nuevas inserciones de contenido.
+				</p>
+				<app-print-code [code]="HTML.pIns" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
+					Salida:
+				</p>
+				<div class="bg-dark p-3 mt-3 shadow-three">
+					<p class="c7 fuenteDos fs-20 lh-25">
+						Lorem ipsum dolor sit amet <ins>consectetur</ins> adipisicing elit.
+					</p>
+				</div>
+				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
+					Estilos por defecto:
+				</p>
+				<app-print-code [code]="HTML.pInsStyle" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espacio" id="idDel"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-7">
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;del&gt; ó &lt;s&gt;</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					En cuanto a la apariencia visual (ambas muestran texto tachado), pero difieren en su semántica y
+					propósito de uso.<br>
+					<br>
+					<b>Diferencias:</b>
+				</p>
+				<ul class="c7 fuenteDos fs-20 lh-25">
+					<li class="mb-4">
+						Semántica:
+						<ul>
+							<li>'&lt;s&gt;': Indica texto tachado que ya no es relevante o correcto, pero sin implicar
+								una eliminación formal.</li>
+							<li>'&lt;del&gt;': Indica texto que ha sido eliminado del documento, normalmente en el
+								contexto de revisiones o ediciones.</li>
+						</ul>
+
+					</li>
+					<li class="mb-4">
+						Uso común:
+						<ul>
+							<li>'&lt;s&gt;': Para precios anteriores, correcciones, o contenido desactualizado.</li>
+							<li>'&lt;del&gt;': Para mostrar texto eliminado en versiones revisadas de documentos o
+								contenido.</li>
+						</ul>
+					</li>
+					<li class="mb-4">
+						Atributos:
+						<ul>
+							<li>'&lt;s&gt;': Generalmente no se utilizan atributos adicionales.</li>
+							<li>'&lt;del&gt;': Puede incluir el atributo datetime para especificar cuándo fue eliminado
+								el texto.</li>
+						</ul>
+					</li>
+				</ul>
+				<app-print-code [code]="HTML.pDel" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
+					Salida:
+				</p>
+				<div class="bg-dark p-3 mt-3 shadow-three">
+					<p class="c7 fuenteDos fs-20 lh-25">
+						Lorem ipsum dolor sit amet <del>consectetur</del> adipisicing elit.
+					</p>
+				</div>
+				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
+					Estilos por defecto:
+				</p>
+				<app-print-code [code]="HTML.pDelStyle" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espacio" id="idSub"></div>
+			</div>
+			<div class="col-md-5"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-5"></div>
+			<div class="col-md-7">
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;sup&gt; ó &lt;sub&gt;</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Se utilizan para formatear texto como superíndice y subíndice, respectivamente. Estas etiquetas son útiles para representar exponentes, notaciones científicas, fórmulas matemáticas, referencias y otros tipos de texto especializado que requieren una posición elevada o inferior en relación con el texto normal.
+				</p>
+				<h4 class="c7 fuenteDos fs-20 lh-25 fw-6">
+					&lt;sup&gt; (Superscript / Superíndice)
+				</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Se utiliza para elevar el texto ligeramente por encima de la línea base del texto normal. Es comúnmente usada para representar exponentes en matemáticas y ciencias, así como para notaciones específicas como marcas registradas o referencias bibliográficas.
+				</p>
+				<h4 class="c7 fuenteDos fs-20 lh-25 fw-6">
+					&lt;sub&gt; (Subscript / Subíndice)
+				</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Se utiliza para bajar el texto ligeramente por debajo de la línea base del texto normal. Es comúnmente usada para notaciones químicas, índices matemáticos y cualquier otro contexto donde se necesiten subíndices.
+				</p>
+				<app-print-code [code]="HTML.pSub" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
+					Salida:
+				</p>
+				<div class="bg-dark p-3 mt-3 shadow-three">
+					<p class="c7 fuenteDos fs-20 lh-25">
+						El agua tiene la fórmula química H<sub>2</sub>O.</p>
+						<p class="c7 fuenteDos fs-20 lh-25">Einstein propuso la famosa ecuación E = mc<sup>2</sup>.</p>
+						<p class="c7 fuenteDos fs-20 lh-25">El precio es de 10 m<sup>2</sup>.</p>
+				</div>
+				
+				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
+					Estilos por defecto:
+				</p>
+				<app-print-code [code]="HTML.pSubStyle" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espacio"></div>
+			</div>
 		</div>
 	</div>
 	<div class="col-md-1"></div>
