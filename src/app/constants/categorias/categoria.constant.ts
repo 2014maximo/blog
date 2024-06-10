@@ -22,6 +22,7 @@ import { REACT } from '@constants/publicaciones/posts-react.constant';
 import { WORDPRESS } from '@constants/publicaciones/posts-wordpress.constant';
 import { KUBERNETES } from '@constants/publicaciones/posts-kubernetes.constant';
 import { NET } from '@constants/publicaciones/posts-net.constant';
+import { TERMINOS_HTML } from '@constants/glosarios/terminos.html.constant';
 
 export const CATEGORIA: CategoriaPostModel[] = [
     {
@@ -253,7 +254,7 @@ export const CATEGORIA: CategoriaPostModel[] = [
         alturaIcono: '80',
         estado:'activo',
         ruta: 'html',
-        glosario: [],
+        glosario: TERMINOS_HTML,
         colorFondo: 'bg-Html',
         color: 'c-Html',
         descripcion: [{

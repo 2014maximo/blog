@@ -17,7 +17,7 @@ export class GlosarioComponent implements OnInit {
   public glosarioCache:GlosarioModel[] = [];
   public anchoPantalla = window.innerWidth;
   public postPorPantalla: string[] = ['9','18'];
-  public categoriasBuscar: string[]=['angular','developer'];
+  public categoriasBuscar: string[]=['angular','developer','html'];
 
   constructor() { }
 
