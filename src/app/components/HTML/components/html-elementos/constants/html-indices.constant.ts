@@ -136,4 +136,13 @@ export const INDICES_HTML:IndiceDeContenidosModel[] = [
         color: 'c-Html',
         estado: 'activo'
     },
+    {
+        nombre: 'href',
+        posicion: 'pos-z',
+        ruta: '',
+        rutaInterna: 'idHref',
+        colorFondo: 'bg-Dark',
+        color: 'c-Html',
+        estado: 'activo'
+    },
 ]

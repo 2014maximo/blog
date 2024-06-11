@@ -571,15 +571,20 @@
 				<app-print-code [code]="HTML.pSubStyle" [categoria]="categoria" [categoriaCorta]="'HTML'"
 					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
 				</app-print-code>
-				<div class="espacio"></div>
+				<div class="espacio" id="idHref"></div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-7">
 				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">href</h4>
 				<p class="c7 fuenteDos fs-20 lh-25">
-					Se utiliza para redirigir o apuntar a un url absoluta o relativa.
+					Se utiliza para redirigir o apuntar a un URL absoluta o relativa. Como ejemplo una URL Absoluta: https://example.com, y una relativa se refiere a otra sección o directorio dentro del mismo sitio web que la expone.
 				</p>
+				<app-print-code [code]="HTML.href" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espacio"></div>
+
 				
 				<div class="espacio"></div>
 			</div>

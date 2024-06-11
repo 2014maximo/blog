@@ -34,6 +34,7 @@ export class HtmlModel {
     pDelStyle:string;
     pSub:string;
     pSubStyle:string;
+    href:string;
 
     constructor(){
 
@@ -70,6 +71,7 @@ export class HtmlModel {
         this.pDelStyle = HTML.HTML_del_style;
         this.pSub = HTML.HTML_p_sub;
         this.pSubStyle = HTML.HTML_sub_style;
+        this.href = HTML.HTML_href;
     }
 
 }

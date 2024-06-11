@@ -72,7 +72,7 @@ export const HTML: DatosPost[] = [
         mostrarEnPostHome: true,
         estilos: ESTILO_HTML,
         fechaCreacion: '2023-09-14',
-        fechaActualizacion: '',
+        fechaActualizacion: '2024-06-10',
         imgHorizontal: new RefImg('https://plantillas_dev.gitlab.io/assets/img/posts/html/etiquetas-html.jpg'),
         imgVertical:'',
         imgCuadro:'',

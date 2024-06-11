@@ -220,3 +220,32 @@ export const HTML_p_sub = `
 <p>El agua tiene la fórmula química H<sub>2</sub>O.</p>
 <p>Einstein propuso la famosa ecuación E = mc<sup>2</sup>.</p>
 <p>El precio es de 10 m<sup>2</sup>.</p>`;
+
+export const HTML_href = `
+<!-- EXTERNO ABSOLUTA -->
+<a href="http://example.com/" rel="external">example site</a>
+
+<!-- RELATIVA INTERNA -->
+<a href="/example">Text Here</a>
+
+<!-- A UNA ANCLA -->
+<a href="#Topic1">Click para saltar a una referencia id</a>
+
+<!-- ENLASE QUE MARCA UN NÚMERO -->
+<a href="tel:11234567890">Call me</a>
+
+<!-- LINK EN UNA NUEVA PESTAÑA -->
+<a href="example.com" target="_blank">Text Here</a>
+
+<!-- Basta con utilizar el protocolo javascript:
+para ejecutar el texto como JavaScript en lugar de abrirlo
+como un enlace normal -->
+<a href="javascript:myFunction();">Run Code</a>
+
+<!-- También puede conseguir lo mismo utilizando el atributo onclick: -->
+<a href="#" onclick="myFunction(); return false;">Run Code</a>
+
+<!-- Además, puede incluir un signo de exclamación !
+después del hashtag para evitar que la página se desplace a la parte superior. -->
+<a href="#!" onclick="myFunction();">Run Code</a>
+`
