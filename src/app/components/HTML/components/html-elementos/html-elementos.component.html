@@ -538,19 +538,26 @@
 			<div class="col-md-7">
 				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;sup&gt; ó &lt;sub&gt;</h4>
 				<p class="c7 fuenteDos fs-20 lh-25">
-					Se utilizan para formatear texto como superíndice y subíndice, respectivamente. Estas etiquetas son útiles para representar exponentes, notaciones científicas, fórmulas matemáticas, referencias y otros tipos de texto especializado que requieren una posición elevada o inferior en relación con el texto normal.
+					Se utilizan para formatear texto como superíndice y subíndice, respectivamente. Estas etiquetas son
+					útiles para representar exponentes, notaciones científicas, fórmulas matemáticas, referencias y
+					otros tipos de texto especializado que requieren una posición elevada o inferior en relación con el
+					texto normal.
 				</p>
 				<h4 class="c7 fuenteDos fs-20 lh-25 fw-6">
 					&lt;sup&gt; (Superscript / Superíndice)
 				</h4>
 				<p class="c7 fuenteDos fs-20 lh-25">
-					Se utiliza para elevar el texto ligeramente por encima de la línea base del texto normal. Es comúnmente usada para representar exponentes en matemáticas y ciencias, así como para notaciones específicas como marcas registradas o referencias bibliográficas.
+					Se utiliza para elevar el texto ligeramente por encima de la línea base del texto normal. Es
+					comúnmente usada para representar exponentes en matemáticas y ciencias, así como para notaciones
+					específicas como marcas registradas o referencias bibliográficas.
 				</p>
 				<h4 class="c7 fuenteDos fs-20 lh-25 fw-6">
 					&lt;sub&gt; (Subscript / Subíndice)
 				</h4>
 				<p class="c7 fuenteDos fs-20 lh-25">
-					Se utiliza para bajar el texto ligeramente por debajo de la línea base del texto normal. Es comúnmente usada para notaciones químicas, índices matemáticos y cualquier otro contexto donde se necesiten subíndices.
+					Se utiliza para bajar el texto ligeramente por debajo de la línea base del texto normal. Es
+					comúnmente usada para notaciones químicas, índices matemáticos y cualquier otro contexto donde se
+					necesiten subíndices.
 				</p>
 				<app-print-code [code]="HTML.pSub" [categoria]="categoria" [categoriaCorta]="'HTML'"
 					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
@@ -561,10 +568,10 @@
 				<div class="bg-dark p-3 mt-3 shadow-three">
 					<p class="c7 fuenteDos fs-20 lh-25">
 						El agua tiene la fórmula química H<sub>2</sub>O.</p>
-						<p class="c7 fuenteDos fs-20 lh-25">Einstein propuso la famosa ecuación E = mc<sup>2</sup>.</p>
-						<p class="c7 fuenteDos fs-20 lh-25">El precio es de 10 m<sup>2</sup>.</p>
+					<p class="c7 fuenteDos fs-20 lh-25">Einstein propuso la famosa ecuación E = mc<sup>2</sup>.</p>
+					<p class="c7 fuenteDos fs-20 lh-25">El precio es de 10 m<sup>2</sup>.</p>
 				</div>
-				
+
 				<p class="c7 fuenteDos fs-20 lh-25 mt-3">
 					Estilos por defecto:
 				</p>
@@ -578,17 +585,122 @@
 			<div class="col-md-7">
 				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">href</h4>
 				<p class="c7 fuenteDos fs-20 lh-25">
-					Se utiliza para redirigir o apuntar a un URL absoluta o relativa. Como ejemplo una URL Absoluta: https://example.com, y una relativa se refiere a otra sección o directorio dentro del mismo sitio web que la expone.
+					Se utiliza para redirigir o apuntar a un URL absoluta o relativa. Como ejemplo una URL Absoluta:
+					https://example.com, y una relativa se refiere a otra sección o directorio dentro del mismo sitio
+					web que la expone.
 				</p>
 				<app-print-code [code]="HTML.href" [categoria]="categoria" [categoriaCorta]="'HTML'"
 					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
 				<div class="espacio"></div>
-
-				
-				<div class="espacio"></div>
+				<p class="c7 fuenteDos fs-20 lh-25">Estilos por defecto:</p>
+				<app-print-code [code]="HTML.hrefStyle" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espacio" id="idHrefLang"></div>
 			</div>
 			<div class="col-md-5"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-5"></div>
+			<div class="col-md-7">
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">hreflang</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					El atributo <strong>hreflang</strong> en HTML se utiliza para especificar el idioma y la región de
+					un documento vinculado. Es especialmente útil en el contexto de SEO (Optimización para Motores de
+					Búsqueda) y de sitios web multilingües, ya que ayuda a los motores de búsqueda a entender qué
+					versión de una página mostrar a los usuarios en función de su idioma y región preferidos.<br>
+					<br>
+					Se utiliza dentro de etiquetas <strong>'&lt;link&gt;'</strong> en la sección
+					<strong>'&lt;head&gt;'</strong> de un documento HTML para indicar la relación entre diferentes
+					versiones lingüísticas de una página. A continuación se muestra la estructura básica:
+				</p>
+				<app-print-code [code]="HTML.hrefLang" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espacio" id="idRel"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-7">
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">rel</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					El atributo rel en etiquetas HTML se utiliza para definir la relación entre el documento actual y el
+					recurso vinculado. Es comúnmente utilizado en la etiqueta <strong>'&lt;link&gt;'</strong> para
+					enlaces a recursos externos, como hojas de estilo, iconos, o archivos de diferentes versiones del
+					mismo documento, y también en la etiqueta <strong>'&lt;a&gt;'</strong> para describir la relación
+					entre el documento actual y la URL destino.
+				</p>
+				<app-print-code [code]="HTML.rel" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espacio" id="idTarget"></div>
+			</div>
+			<div class="col-md-5"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-5"></div>
+			<div class="col-md-7">
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">target</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Se utiliza para especificar dónde se abrirá el documento vinculado cuando el usuario haga clic en un
+					enlace o envíe un formulario. Este atributo es comúnmente usado en las etiquetas
+					<strong>'&lt;a&gt;'</strong> (para enlaces) y <strong>'&lt;form&gt;'</strong> (para formularios).<br>
+					<br>
+					Es útil para controlar cómo se abren los enlaces y formularios, proporcionando flexibilidad en la navegación y en la presentación de contenido. Su uso adecuado puede mejorar la experiencia del usuario y contribuir a la seguridad del sitio web.
+				</p>
+				<app-print-code [code]="HTML.target" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espacio"></div>
+
+				<p class="c7 fuenteDos fs-20 lh-25">
+					<b>NOTA:</b><br>
+					Cuando se utiliza <strong>target="_blank"</strong>, es recomendable añadir <strong>rel="noopener
+						noreferrer"</strong> al enlace para mejorar la seguridad. Esto evita que la nueva página tenga
+					acceso a la ventana original a través de <i>window.opener</i>, lo que puede prevenir ataques de tipo
+					<strong>"tabnabbing"</strong>.
+				</p>
+				<div class="espacio" id="idTitle"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-7">
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">title</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Se utiliza para proporcionar información adicional sobre un elemento. Este atributo se puede añadir a casi cualquier etiqueta HTML y suele ser empleado para mostrar un texto emergente (tooltip) cuando el usuario pasa el cursor sobre el elemento. El texto del atributo title aparece como un cuadro emergente en la mayoría de los navegadores.
+				</p>
+				<app-print-code [code]="HTML.title" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espacio" id="idDownload"></div>
+			</div>
+			<div class="col-md-5"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-5"></div>
+			<div class="col-md-7">
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">download</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Se utiliza en la etiqueta <strong>'&lt;a&gt;'</strong> para indicar que el navegador debe descargar el archivo enlazado en lugar de navegar hacia él. Este atributo permite especificar un nombre de archivo sugerido para guardar el archivo descargado.
+				</p>
+				<app-print-code [code]="HTML.title" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espacio"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-5"></div>
+			<div class="col-md-7">
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;ol&gt; & &lt;li&gt;</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					<b>LISTAS ORDENADAS</b>
+				</p>
+				<app-print-code [code]="HTML.href" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+			</div>
 		</div>
 	</div>
 	<div class="col-md-1"></div>

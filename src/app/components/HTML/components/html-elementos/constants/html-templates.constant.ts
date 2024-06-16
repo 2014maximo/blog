@@ -235,9 +235,15 @@ export const HTML_href = `
 <a href="tel:11234567890">Call me</a>
 
 <!-- LINK EN UNA NUEVA PESTAÑA -->
-<a href="example.com" target="_blank">Text Here</a>
-
-<!-- Basta con utilizar el protocolo javascript:
+<!-- Cuando utilice esta opción para páginas que 'no'
+controle, añada 'rel=«noopener»' a su enlace para evitar que el objeto
+window.opener se envíe con la solicitud.
+ Actualmente, Firefox 'no' es compatible con noopener,
+ por lo que tendrá que utilizar rel=«noopener noreferrer»
+ para obtener el máximo efecto -->
+ <a href="example.com" target="_blank">Text Here</a>
+ 
+ <!-- Basta con utilizar el protocolo javascript:
 para ejecutar el texto como JavaScript en lugar de abrirlo
 como un enlace normal -->
 <a href="javascript:myFunction();">Run Code</a>
@@ -248,4 +254,95 @@ como un enlace normal -->
 <!-- Además, puede incluir un signo de exclamación !
 después del hashtag para evitar que la página se desplace a la parte superior. -->
 <a href="#!" onclick="myFunction();">Run Code</a>
+
+<!-- Si el valor del atributo href empieza por mailto:
+intentará abrir un cliente de correo electrónico al hacer clic: -->
+<a href="mailto:example@example.com">Send email</a>
+<!-- Pondrá la dirección de correo electrónico
+'example@example.com' como destinatario para el correo electrónico recién creado. -->
+
+<!-- También puede añadir direcciones para destinatarios cc o bcc
+utilizando la siguiente sintaxis: -->
+<a href="mailto:example@example.com?cc=john@example.com&bcc=jane@example.com">Send email</a>
+
+<!-- También puede rellenar el asunto y el cuerpo del nuevo correo electrónico: -->
+<a href="mailto:example@example.com?subject=Example+subject&body=Message+text">Send email</a>
 `
+export const HTML_href_style = `
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}`;
+
+export const HTML_hreflang = `
+<!-- Páginas en Diferentes Idiomas: -->
+<link rel="alternate" href="https://example.com/es/" hreflang="es" />
+<link rel="alternate" href="https://example.com/en/" hreflang="en" />
+<link rel="alternate" href="https://example.com/fr/" hreflang="fr" />
+
+<!-- Páginas en Diferentes Idiomas y Regiones: -->
+<link rel="alternate" href="https://example.com/es-mx/" hreflang="es-MX" />
+<link rel="alternate" href="https://example.com/es-es/" hreflang="es-ES" />
+<link rel="alternate" href="https://example.com/en-us/" hreflang="en-US" />
+<link rel="alternate" href="https://example.com/en-gb/" hreflang="en-GB" />
+
+<!-- Página Predeterminada: -->
+<link rel="alternate" href="https://example.com/" hreflang="x-default" />
+`;
+
+export const HTML_rel = `
+<!-- Hoja de Estilo -->
+<link rel="stylesheet" href="styles.css">
+
+<!-- Icono de Sitio -->
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<!-- Indica una versión alternativa del documento en otro idioma o formato. -->
+<link rel="alternate" href="https://example.com/alternate-page" hreflang="es">
+
+<!-- Vincula un archivo de manifiesto para aplicaciones web progresivas. -->
+<link rel="manifest" href="/manifest.json">
+
+<!-- Indica a los motores de búsqueda que no deben seguir el enlace o pasar "link juice" para SEO.-->
+<a href="https://example.com" rel="nofollow">Enlace</a>
+
+<!-- Estas relaciones se usan para mejorar la seguridad al abrir enlaces en nuevas pestañas. noopener evita que la nueva página tenga acceso a la página que la abrió a través de window.opener, y noreferrer evita que la nueva página reciba información del referente. -->
+<a href="https://example.com" target="_blank" rel="noopener noreferrer">Abrir en nueva pestaña</a>
+
+<!-- Indica que el enlace apunta a la página del autor del documento.-->
+<a href="https://example.com/autor" rel="author">Autor</a>
+
+<!-- Indica que el enlace apunta a una licencia de derechos de autor. -->
+<link rel="license" href="https://example.com/licencia">
+
+<!-- Indican la relación de paginación.-->
+<link rel="prev" href="https://example.com/page1">
+<link rel="next" href="https://example.com/page3">`;
+
+export const HTML_target = `
+<!--  _blank  -->
+<a href="https://example.com" target="_blank">Abrir en nueva pestaña</a>
+<!-- Abre el enlace en una nueva pestaña o ventana del navegador. -->
+
+<!--  _self  -->
+<a href="https://example.com" target="_self">Abrir en la misma pestaña</a>
+<!-- Abre el enlace en el mismo marco o ventana (comportamiento predeterminado si el atributo target no está especificado).-->
+
+<!-- _parent -->
+<a href="https://example.com" target="_parent">Abrir en el marco padre</a>
+
+<!--  _top -->
+<a href="https://example.com" target="_top">Abrir en el marco superior</a>
+<!-- Abre el enlace en el marco superior, eliminando todos los marcos anidados. -->
+`;
+
+export const HTML_title = `
+<!-- Proporciona una descripción adicional del enlace -->
+<a href="https://example.com" title="Ir al sitio web de Example">Example</a>
+
+<!-- Proporciona una descripción adicional de la imagen -->
+<img src="imagen.jpg" alt="Descripción de la imagen" title="Imagen de un paisaje">
+
+<!-- Añade información adicional sobre la acción del botón -->
+<button title="Haz clic para enviar el formulario">Enviar</button>`;

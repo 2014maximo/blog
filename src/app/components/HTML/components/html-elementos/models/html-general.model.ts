@@ -35,6 +35,11 @@ export class HtmlModel {
     pSub:string;
     pSubStyle:string;
     href:string;
+    hrefStyle:string;
+    hrefLang: string;
+    rel:string;
+    target:string;
+    title:string;
 
     constructor(){
 
@@ -72,6 +77,11 @@ export class HtmlModel {
         this.pSub = HTML.HTML_p_sub;
         this.pSubStyle = HTML.HTML_sub_style;
         this.href = HTML.HTML_href;
+        this.hrefStyle = HTML.HTML_href_style;
+        this.hrefLang = HTML.HTML_hreflang;
+        this.rel = HTML.HTML_rel;
+        this.target = HTML.HTML_target;
+        this.title = HTML.HTML_title;
     }
 
 }

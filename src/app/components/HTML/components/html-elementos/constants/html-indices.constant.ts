@@ -137,11 +137,56 @@ export const INDICES_HTML:IndiceDeContenidosModel[] = [
         estado: 'activo'
     },
     {
-        nombre: 'href',
+        nombre: 'href, <a>',
         posicion: 'pos-z',
         ruta: '',
         rutaInterna: 'idHref',
         colorFondo: 'bg-Dark',
+        color: 'c-Html',
+        estado: 'activo'
+    },
+    {
+        nombre: 'hreflang, <link>',
+        posicion: 'pos-z',
+        ruta: '',
+        rutaInterna: 'idHrefLang',
+        colorFondo: 'bg-Html',
+        color: 'text-light',
+        estado: 'activo'
+    },
+    {
+        nombre: 'rel',
+        posicion: 'pos-z',
+        ruta: '',
+        rutaInterna: 'idRel',
+        colorFondo: 'bg-light',
+        color: 'c-Html',
+        estado: 'activo'
+    },
+    {
+        nombre: 'target',
+        posicion: 'pos-z',
+        ruta: '',
+        rutaInterna: 'idTarget',
+        colorFondo: 'bg-Dark',
+        color: 'c-Html',
+        estado: 'activo'
+    },
+    {
+        nombre: 'title',
+        posicion: 'pos-z',
+        ruta: '',
+        rutaInterna: 'idTitle',
+        colorFondo: 'bg-Html',
+        color: 'text-light',
+        estado: 'activo'
+    },
+    {
+        nombre: 'download',
+        posicion: 'pos-z',
+        ruta: '',
+        rutaInterna: 'idDownload',
+        colorFondo: 'bg-light',
         color: 'c-Html',
         estado: 'activo'
     },
