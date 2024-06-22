@@ -60,7 +60,6 @@ export * from '@components/GIT/components/git-errores/git-errores.component';
 
 // HTML
 export * from '@components/HTML/html/html.component';
-export * from '@components/HTML/components/html-etiquetas/html-etiquetas.component';
 export * from '@components/HTML/components/html-elementos/html-elementos.component';
 
 // JAVA

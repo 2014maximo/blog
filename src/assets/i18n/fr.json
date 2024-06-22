@@ -905,13 +905,13 @@
             },
             "descripcionCorta":""
         },
-        "html-etiquetas":{
-            "nombre":"Éléments HTML",
-            "referenciaBusqueda":"balises, html",
+        "html-elementos":{
+            "nombre":"ÉLÉMENTS HTML",
+            "referenciaBusqueda":"étiquettes, html",
             "descripcion":{
-                "tx1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "tx1":"Aussi important que les colonnes d'un bâtiment, c'est un élément essentiel du développement d'une application. Il existe des propriétés, voire des balises qui sont souvent disponibles et négligées. Voici de manière aussi détaillée que possible chacun des éléments qui composent les éléments HTML."
             },
-            "descripcionCorta":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "descripcionCorta":"Une vérification détaillée des balises et des propriétés html qui ne sont pas couramment utilisées."
         }
     },
     "JAVA":{

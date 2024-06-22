@@ -346,3 +346,15 @@ export const HTML_title = `
 
 <!-- Añade información adicional sobre la acción del botón -->
 <button title="Haz clic para enviar el formulario">Enviar</button>`;
+
+export const HTML_download = `
+<a href="path/to/file.pdf" download>Download PDF</a>
+
+<a href="path/to/file.pdf" download="documento.pdf">Descargar PDF</a>
+
+`;
+
+export function htmlDownload(textos:string[]):string{
+    return`
+<a href="path/to/file.pdf" download>${textos[0]}</a>`;
+}

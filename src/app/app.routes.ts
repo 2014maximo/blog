@@ -72,7 +72,6 @@ export const ROUTES: Routes = [
 
 // HTML
     { path: 'html', component: Ruta.HtmlComponent },
-    { path: 'html-etiquetas', component: Ruta.HtmlEtiquetasComponent },
     { path: 'html-elementos', component: Ruta.HtmlElementosComponent },
 
 // JAVA

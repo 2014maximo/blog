@@ -73,7 +73,6 @@ export function HttpLoaderFactory (httpClient:HttpClient){
     Ruta.JsElementosComponent,
     Ruta.KubernetesComponent,
     Ruta.DbComponent,
-    Ruta.HtmlEtiquetasComponent,
     Ruta.JavaInstalacionComponent,
     Ruta.AndroidComponent,
     Ruta.DbFirebaseComponent,
