@@ -906,13 +906,13 @@
             },
             "descripcionCorta":""
         },
-        "html-etiquetas":{
-            "nombre":"Elementos HTML",
+        "html-elementos":{
+            "nombre":"HTML ELEMENTOS",
             "referenciaBusqueda":"etiquetas, html",
             "descripcion":{
-                "tx1":"Descripción rápida de la aplicación de lo elementos que hacen parte de typescript, similares en gran parte a Javascript, ya obviamente la aplicación de lo particular de typescript que son los tipos."
+                "tx1":"Tan importante como las columnas de un edificio, hace parte primordial en la elaboración de aplicaciones. Existen propiedades, incluso etiquetas que suelen estar disponibles y se pasan por alto. Aquí estan lo más detallada posible cada uno de los elementos que hacen parte de los elementos HTML."
             },
-            "descripcionCorta":"Detalle de los elementos que hacen parte de Typescript, detallando en contraparte a Javascript."
+            "descripcionCorta":"Una chequeo detallado a las etiquetas html y propiedades que no se suelen utilizar."
         }
     },
     "JAVA":{
