@@ -688,23 +688,52 @@
 				<app-print-code [code]="HTML.download" [categoria]="categoria" [categoriaCorta]="'HTML'"
 					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
-				<div class="espacio"></div>
+				<div class="espacio" id="idOl"></div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-5"></div>
 			<div class="col-md-7">
 				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;ol&gt; & &lt;li&gt;</h4>
 				<p class="c7 fuenteDos fs-20 lh-25">
 					<b>LISTAS ORDENADAS</b>
 				</p>
 				<p class="c7 fuenteDos fs-20 lh-25">
-					Las listas ordenadas hacen referencia a la lista de elementos que se inician con números o letras, es decir cada elemento de la lista, tiene mucha importancia en su ubicación consecutiva.
+					Las listas ordenadas hacen referencia a la lista de elementos que se inician con números o letras, es decir cada elemento de la lista, tiene mucha importancia en su ubicación consecutiva. Por defecto se ordenan con números.
 				</p>
-				<app-print-code [code]="HTML.href" [categoria]="categoria" [categoriaCorta]="'HTML'"
+				<app-print-code [code]="HTML.ol" [categoria]="categoria" [categoriaCorta]="'HTML'"
 					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
+
+				<div class="bg-dark p-3 mt-3 shadow-three">
+					<ol class="c7 fuenteDos fs-20 lh-25">
+						<li>Item</li>
+						<li>Another Item</li>
+						<li>Yet Another Item</li>
+					</ol>
+					<p class="c7 fuenteDos fs-20 lh-25">--------------------------------------------------</p>
+					<ol  class="c7 fuenteDos fs-20 lh-25"start="3">
+						<li>Item</li>
+						<li>Some Other Item</li>
+						<li>Yet Another Item</li>
+					</ol>
+					<p class="c7 fuenteDos fs-20 lh-25">--------------------------------------------------</p>
+					<ol class="c7 fuenteDos fs-20 lh-25"start="5">
+						<li>Item</li>
+						<li>Some Other Item</li>
+						<li value="4">A Reset Item</li>
+						<li>Another Item</li>
+						<li>Yet Another Item</li>
+					</ol>
+					<p class="c7 fuenteDos fs-20 lh-25">--------------------------------------------------</p>
+
+					<ol type="I" class="c7 fuenteDos fs-20 lh-25">
+						<li>Item</li>
+						<li>Some Other Item</li>
+						<li>Yet Another Item</li>
+					  </ol>
+				</div>
 			</div>
+			<div class="col-md-5"></div>
 		</div>
 	</div>
 	<div class="col-md-1"></div>

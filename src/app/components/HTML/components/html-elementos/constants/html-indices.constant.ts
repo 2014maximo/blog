@@ -190,4 +190,13 @@ export const INDICES_HTML:IndiceDeContenidosModel[] = [
         color: 'c-Html',
         estado: 'activo'
     },
+    {
+        nombre: '<ol>, <li>',
+        posicion: 'pos-z',
+        ruta: '',
+        rutaInterna: 'idOl',
+        colorFondo: 'bg-Dark',
+        color: 'c-Html',
+        estado: 'activo'
+    },
 ]

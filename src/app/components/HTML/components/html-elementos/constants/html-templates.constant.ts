@@ -358,3 +358,35 @@ export function htmlDownload(textos:string[]):string{
     return`
 <a href="path/to/file.pdf" download>${textos[0]}</a>`;
 }
+
+export const HTML_ol = `
+<ol>
+    <li>Item</li>
+    <li>Another Item</li>
+    <li>Yet Another Item</li>
+</ol>
+<!----------------------------------------------------->
+
+<ol start="3">
+    <li>Item</li>
+    <li>Some Other Item</li>
+    <li>Yet Another Item</li>
+</ol>
+<!----------------------------------------------------->
+
+<ol class="c7 fuenteDos fs-20 lh-25"start="5">
+   <li>Item</li>
+   <li>Some Other Item</li>
+   <li value="4">A Reset Item</li>
+   <li>Another Item</li>
+   <li>Yet Another Item</li>
+</ol>
+<!----------------------------------------------------->
+
+<!---- type="1|a|A|i|I" -------->
+<ol type="I">
+  <li>Item</li>
+  <li>Some Other Item</li>
+  <li>Yet Another Item</li>
+</ol>
+`
