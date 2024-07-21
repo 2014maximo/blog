@@ -732,8 +732,27 @@
 						<li>Yet Another Item</li>
 					  </ol>
 				</div>
+				<div class="espaciado"></div>
 			</div>
 			<div class="col-md-5"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-5"></div>
+			<div class="col-md-7">
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;ul&gt; & &lt;li&gt;</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					<b>LISTAS DESORDENADAS</b>
+				</p>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					A diferencia de las listas ordenadas, esta vez las desordenadas tienen solo tienen una decoración inicial, pueden contener sublistas ordenadas o desordenadas.
+				</p>
+				<app-print-code [code]="HTML.ul" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<app-print-code [code]="HTML.ulStyles" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
+				</app-print-code>
+			</div>
 		</div>
 	</div>
 	<div class="col-md-1"></div>

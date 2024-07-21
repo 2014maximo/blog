@@ -41,7 +41,9 @@ export class HtmlModel {
     target:string;
     title:string;
     download:string;
-    ol:string
+    ol:string;
+    ul:string;
+    ulStyles:string;
 
     constructor(){
 
@@ -86,6 +88,8 @@ export class HtmlModel {
         this.title = HTML.HTML_title;
         this.download = HTML.htmlDownload([]);
         this.ol = HTML.HTML_ol;
+        this.ul = HTML.HTML_ul;
+        this.ulStyles = HTML.HTML_ul_styles;
     }
 
 }

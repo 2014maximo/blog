@@ -389,4 +389,22 @@ export const HTML_ol = `
   <li>Some Other Item</li>
   <li>Yet Another Item</li>
 </ol>
-`
+`;
+
+export const HTML_ul = `
+<ul>
+    <li>item 1</li>
+    <li>item 2
+        <ul>
+            <li>sub-item 2.1</li>
+            <li>sub-item 2.2</li>
+        </ul>
+    </li>
+    <li>item 3</li>
+</ul>`;
+
+export const HTML_ul_styles = `
+/* STYLES DEFAULT */
+.listStyles{
+    list-style-type: lower-latin;
+}`;
