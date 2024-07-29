@@ -407,5 +407,22 @@ export const HTML_ul = `
 export const HTML_ul_styles = `
 /* STYLES DEFAULT */
 .listStyles{
-    list-style-type: lower-latin;
+    list-style: none;
+    list-style: lower-latin;
+    list-style: lower-roman;
+    list-style: circle;
+    list-style: square;
+    list-style: decimal;
 }`;
+
+export const HTML_dl_dt_dd = `
+<dl>
+    <dt>HTML</dt>
+    <dd>Lenguaje de marcado para la creación de páginas web.</dd>
+
+    <dt>CSS</dt>
+    <dd>Lenguaje de estilos usado para describir la presentación de un documento escrito en HTML o XML.</dd>
+
+    <dt>JavaScript</dt>
+    <dd>Lenguaje de programación que permite crear contenido dinámico en las páginas web.</dd>
+</dl>`;

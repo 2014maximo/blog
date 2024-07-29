@@ -44,6 +44,7 @@ export class HtmlModel {
     ol:string;
     ul:string;
     ulStyles:string;
+    dlDtDd:string;
 
     constructor(){
 
@@ -90,6 +91,7 @@ export class HtmlModel {
         this.ol = HTML.HTML_ol;
         this.ul = HTML.HTML_ul;
         this.ulStyles = HTML.HTML_ul_styles;
+        this.dlDtDd = HTML.HTML_dl_dt_dd;
     }
 
 }

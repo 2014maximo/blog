@@ -682,7 +682,7 @@
 			<div class="col-md-7">
 				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">download</h4>
 				<p class="c7 fuenteDos fs-20 lh-25">
-					Se utiliza en la etiqueta <strong>'&lt;a&gt;'</strong> para indicar que el navegador debe descargar el archivo enlazado en lugar de navegar hacia él. Este atributo permite especificar un nombre de archivo sugerido para guardar el archivo descargado.<br>
+					Atributo de etiqueta utilizado dentro de la etiqueta <strong>'&lt;a&gt;'</strong> para indicar que el navegador debe descargar el archivo enlazado en lugar de navegar hacia él. Este atributo permite especificar un nombre de archivo sugerido para guardar el archivo descargado.<br>
 					Proporciona un enlace que permite a los usuarios descargar un archivo directamente en lugar de abrirlo en una nueva pestaña o ventana del navegador.
 				</p>
 				<app-print-code [code]="HTML.download" [categoria]="categoria" [categoriaCorta]="'HTML'"
@@ -731,7 +731,7 @@
 						<li>Item</li>
 						<li>Some Other Item</li>
 						<li>Yet Another Item</li>
-					  </ol>
+					</ol>
 				</div>
 				<div class="espaciado"></div>
 			</div>
@@ -750,10 +750,59 @@
 				<app-print-code [code]="HTML.ul" [categoria]="categoria" [categoriaCorta]="'HTML'"
 					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
 				</app-print-code>
+				<div class="espacio"></div>
+				<p class="c7 fuenteDos fs-20 lh-25">Este es un ejemplo que no sería tan funcional si se usa como esta, solo es para mostrar la definición que trae CSS dentro de 'list-style'. Solo se usaría uno solo.</p>
 				<app-print-code [code]="HTML.ulStyles" [categoria]="categoria" [categoriaCorta]="'HTML'"
 					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
 				</app-print-code>
+				<div class="espacio"></div>
+				<p class="c7 fuenteDos fs-20 lh-25">Y estos son los 'previews', claro que tambien a través de un '::before' o '::after' se puede agregar una decoración diferente.</p>
+				<div class="bg-dark p-4 mt-3 shadow-three">
+					<p class="c7 fuenteDos fs-20 lh-25 fw-6">none</p>
+					<ul class="c7 fuenteDos fs-20 lh-25 listNone mb-5">
+						<li>Item</li>
+						<li>Some Other Item</li>
+					</ul>
+					<p class="c7 fuenteDos fs-20 lh-25 fw-6">lower-latin</p>
+					<ul class="c7 fuenteDos fs-20 lh-25 listLowerLatin mb-5">
+						<li>Item</li>
+						<li>Some Other Item</li>
+					</ul>
+					<p class="c7 fuenteDos fs-20 lh-25 fw-6">lower-roman</p>
+					<ul class="c7 fuenteDos fs-20 lh-25 listLowerRoman mb-5">
+						<li>Item</li>
+						<li>Some Other Item</li>
+					</ul>
+					<p class="c7 fuenteDos fs-20 lh-25 fw-6">circle</p>
+					<ul class="c7 fuenteDos fs-20 lh-25 listCircle mb-5">
+						<li>Item</li>
+						<li>Some Other Item</li>
+					</ul>
+					<p class="c7 fuenteDos fs-20 lh-25 fw-6">square</p>
+					<ul class="c7 fuenteDos fs-20 lh-25 listSquare mb-5">
+						<li>Item</li>
+						<li>Some Other Item</li>
+					</ul>
+					<p class="c7 fuenteDos fs-20 lh-25 fw-6">Decimal</p>
+					<ul class="c7 fuenteDos fs-20 lh-25 listDecimal mb-5">
+						<li>Item</li>
+						<li>Some Other Item</li>
+					</ul>
+				</div>
+				<div class="espaciado"></div>
 			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-7">
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;dl&gt; & &lt;dt&gt; & &lt;dd&gt;</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					<b>LISTAS DESCRIPTIVAS</b>
+				</p>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Utilizadas para mostrar pares de términos y descripciones. Estas listas son útiles para definir términos, proporcionar descripciones o detalles, y son frecuentemente utilizadas en glosarios, FAQs (Preguntas Frecuentes), o para listar características y especificaciones de productos.
+				</p>
+			</div>
+			<div class="col-md-5"></div>
 		</div>
 	</div>
 	<div class="col-md-1"></div>
