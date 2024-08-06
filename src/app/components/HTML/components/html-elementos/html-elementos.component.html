@@ -190,7 +190,16 @@
 		</div>
 		<div class="espacio" id="idEncabezados"></div>
 
-
+		<div class="row">
+			<div class="col-md-5"></div>
+			<div class="col-md-7">
+				<h4 class="c-Html f-operator-m fs-60 text-shadow-one">&lt;link&gt;</h4>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Se utiliza para definir la relación entre el documento actual y un recurso externo. Es comúnmente utilizada para enlazar hojas de estilo externas, pero también puede ser usada para otras tareas, como vincular iconos de sitios web (favicon) y fuentes web. La etiqueta <b>&lt;link&gt;</b> se coloca dentro de la sección <b>&lt;head&gt;</b> del documento HTML.
+				</p>
+				<div class="espaciado"></div>
+			</div>
+		</div>
 
 		<div class="row">
 			<div class="col-md-6">
@@ -733,7 +742,7 @@
 						<li>Yet Another Item</li>
 					</ol>
 				</div>
-				<div class="espaciado"></div>
+				<div class="espaciado" id="idUl"></div>
 			</div>
 			<div class="col-md-5"></div>
 		</div>
@@ -789,7 +798,7 @@
 						<li>Some Other Item</li>
 					</ul>
 				</div>
-				<div class="espaciado"></div>
+				<div class="espaciado" id="idDl"></div>
 			</div>
 		</div>
 		<div class="row">
@@ -801,8 +810,42 @@
 				<p class="c7 fuenteDos fs-20 lh-25">
 					Utilizadas para mostrar pares de términos y descripciones. Estas listas son útiles para definir términos, proporcionar descripciones o detalles, y son frecuentemente utilizadas en glosarios, FAQs (Preguntas Frecuentes), o para listar características y especificaciones de productos.
 				</p>
+				<app-print-code [code]="HTML.dlDtDd" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espacio"></div>
+
+				<div class="bg-dark p-4 mt-3 shadow-three">
+					<dl class="c7 fuenteDos fs-20 lh-25">
+						<dt>name 1</dt>
+						<dt>name 2</dt>
+							<dd>value for 1 and 2</dd>
+							
+						<dt>name 3</dt>
+							<dd>value for 3</dd>
+							<dd>value for 3</dd>
+					</dl>
+				</div>
+				<div class="espacio"></div>
+				<p class="c7 fuenteDos fs-20 lh-25">Estilos por defecto:</p>
+				<app-print-code [code]="HTML.dlDtDdStyles" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'css'" [colorTextoBase]="''">
+				</app-print-code>
+				<div class="espaciado"></div>
 			</div>
 			<div class="col-md-5"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-5"></div>
+			<div class="col-md-7">
+				<h2 class="f-bebas fs-50 text-light">TABLAS</h2>
+				<p class="c7 fuenteDos fs-20 lh-25">
+					Con la particularidad de mostrar información en columnas y filas. Contiene varios tipos de etiquetas que permiten hacer las divisiones del contenido.
+				</p>
+				<app-print-code [code]="HTML.table" [categoria]="categoria" [categoriaCorta]="'HTML'"
+					[tipoCode]="'transparente'" [lineas]="1" [lenguaje]="'html'" [colorTextoBase]="''">
+				</app-print-code>
+			</div>
 		</div>
 	</div>
 	<div class="col-md-1"></div>

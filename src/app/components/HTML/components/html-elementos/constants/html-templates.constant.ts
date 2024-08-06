@@ -416,13 +416,52 @@ export const HTML_ul_styles = `
 }`;
 
 export const HTML_dl_dt_dd = `
+<!-- 'dl' Container -->
+<!-- 'dt' Terms -->
+<!-- 'dd' Description -->
 <dl>
-    <dt>HTML</dt>
-    <dd>Lenguaje de marcado para la creación de páginas web.</dd>
-
-    <dt>CSS</dt>
-    <dd>Lenguaje de estilos usado para describir la presentación de un documento escrito en HTML o XML.</dd>
-
-    <dt>JavaScript</dt>
-    <dd>Lenguaje de programación que permite crear contenido dinámico en las páginas web.</dd>
+    <dt>name 1</dt>
+    <dt>name 2</dt>
+        <dd>value for 1 and 2</dd>
+        
+    <dt>name 3</dt>
+        <dd>value for 3</dd>
+        <dd>value for 3</dd>
 </dl>`;
+
+export const HTML_dl_dt_dd_Styles = `
+dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+dt {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+dd {
+    display: block;
+    margin-inline-start: 40px;
+    unicode-bidi: isolate;
+}`;
+
+export const HTML_table = `
+<table>
+    <tr>
+        <th>Heading 1/Column 1</th>
+        <th>Heading 2/Column 2</th>
+    </tr>
+    <tr>
+        <td>Row 1 Data Column 1</td>
+        <td>Row 1 Data Column 2</td>
+    </tr>
+    <tr>
+        <td>Row 2 Data Column 1</td>
+        <td>Row 2 Data Column 2</td>
+    </tr>
+</table>`;

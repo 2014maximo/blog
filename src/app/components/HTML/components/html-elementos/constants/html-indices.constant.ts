@@ -199,4 +199,22 @@ export const INDICES_HTML:IndiceDeContenidosModel[] = [
         color: 'c-Html',
         estado: 'activo'
     },
+    {
+        nombre: '<ul>, <li>',
+        posicion: 'pos-z',
+        ruta: '',
+        rutaInterna: 'idUl',
+        colorFondo: 'bg-Html',
+        color: 'text-light',
+        estado: 'activo'
+    },
+    {
+        nombre: '<dl>, <dt>, <dd>',
+        posicion: 'pos-z',
+        ruta: '',
+        rutaInterna: 'idDl',
+        colorFondo: 'bg-light',
+        color: 'c-Html',
+        estado: 'activo'
+    },
 ]
