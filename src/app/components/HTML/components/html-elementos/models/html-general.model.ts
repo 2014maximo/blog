@@ -47,6 +47,7 @@ export class HtmlModel {
     dlDtDd:string;
     dlDtDdStyles:string;
     table:string;
+    link:string;
 
     constructor(){
 
@@ -96,6 +97,7 @@ export class HtmlModel {
         this.dlDtDd = HTML.HTML_dl_dt_dd;
         this.dlDtDdStyles = HTML.HTML_dl_dt_dd_Styles;
         this.table = HTML.HTML_table;
+        this.link = HTML.HTML_link;
     }
 
 }

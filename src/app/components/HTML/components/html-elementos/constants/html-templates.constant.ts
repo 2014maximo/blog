@@ -451,17 +451,42 @@ dd {
 }`;
 
 export const HTML_table = `
-<table>
+<table class="table">
     <tr>
         <th>Heading 1/Column 1</th>
         <th>Heading 2/Column 2</th>
+        <th>Heading 3/Column 3</th>
     </tr>
     <tr>
-        <td>Row 1 Data Column 1</td>
-        <td>Row 1 Data Column 2</td>
+        <td>row 1 col 1</td>
+        <td>row 1 col 2</td>
+        <td>row 1 col 3</td>
     </tr>
     <tr>
-        <td>Row 2 Data Column 1</td>
-        <td>Row 2 Data Column 2</td>
+        <td colspan="3">This second row spans all three columns</td>
     </tr>
-</table>`;
+    <tr>
+        <td rowspan="2">This cell spans two rows</td>
+        <td>row 3 col 2</td>
+        <td>row 3 col 3</td>
+    </tr>
+    <tr>
+        <td>row 4 col 2</td>
+        <td>row 4 col 3</td>
+    </tr>
+</table>
+`;
+
+export const HTML_link = `
+<head>
+
+    <!-- EXTERNAL -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- INTERNAL -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="assets/img/icons/favicon.ico">
+
+</head>`;
