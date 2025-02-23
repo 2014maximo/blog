@@ -20,6 +20,15 @@ export const INDICES_HTML:IndiceDeContenidosModel[] = [
         estado: 'activo'
     },
     {
+        nombre: '<link>',
+        posicion: 'pos-z',
+        ruta: '',
+        rutaInterna: 'idLink',
+        colorFondo: 'bg-light',
+        color: 'c-Html',
+        estado: 'activo'
+    },
+    {
         nombre: '<meta>',
         posicion: 'pos-z',
         ruta: '',
@@ -199,4 +208,41 @@ export const INDICES_HTML:IndiceDeContenidosModel[] = [
         color: 'c-Html',
         estado: 'activo'
     },
+    {
+        nombre: '<ul>, <li>',
+        posicion: 'pos-z',
+        ruta: '',
+        rutaInterna: 'idUl',
+        colorFondo: 'bg-Html',
+        color: 'text-light',
+        estado: 'activo'
+    },
+    {
+        nombre: '<dl>, <dt>, <dd>',
+        posicion: 'pos-z',
+        ruta: '',
+        rutaInterna: 'idDl',
+        colorFondo: 'bg-light',
+        color: 'c-Html',
+        estado: 'activo'
+    },
+    {
+        nombre: '<table>, <tr>, <th>, <td>',
+        posicion: 'pos-z',
+        ruta: '',
+        rutaInterna: 'idTable',
+        colorFondo: 'bg-Dark',
+        color: 'c-Html',
+        estado: 'activo'
+    },
+    {
+        nombre: '<table>, <colgroup>, <col>',
+        posicion: 'pos-z',
+        ruta: '',
+        rutaInterna: 'idTableCol',
+        colorFondo: 'bg-Html',
+        color: 'text-light',
+        estado: 'activo'
+    },
+
 ]

@@ -360,30 +360,31 @@ export function htmlDownload(textos:string[]):string{
 }
 
 export const HTML_ol = `
+<!-- 1 -->
 <ol>
     <li>Item</li>
     <li>Another Item</li>
     <li>Yet Another Item</li>
 </ol>
-<!----------------------------------------------------->
 
+<!-- 2 -->
 <ol start="3">
     <li>Item</li>
     <li>Some Other Item</li>
     <li>Yet Another Item</li>
 </ol>
-<!----------------------------------------------------->
 
-<ol class="c7 fuenteDos fs-20 lh-25"start="5">
+<!-- 3 -->
+<ol start="5">
    <li>Item</li>
    <li>Some Other Item</li>
    <li value="4">A Reset Item</li>
    <li>Another Item</li>
    <li>Yet Another Item</li>
 </ol>
-<!----------------------------------------------------->
 
-<!---- type="1|a|A|i|I" -------->
+<!-- 4 -->
+<!-- type="1|a|A|i|I" -->
 <ol type="I">
   <li>Item</li>
   <li>Some Other Item</li>
@@ -406,5 +407,86 @@ export const HTML_ul = `
 export const HTML_ul_styles = `
 /* STYLES DEFAULT */
 .listStyles{
-    list-style-type: lower-latin;
+    list-style: none;
+    list-style: lower-latin;
+    list-style: lower-roman;
+    list-style: circle;
+    list-style: square;
+    list-style: decimal;
 }`;
+
+export const HTML_dl_dt_dd = `
+<!-- 'dl' Container -->
+<!-- 'dt' Terms -->
+<!-- 'dd' Description -->
+<dl>
+    <dt>name 1</dt>
+    <dt>name 2</dt>
+        <dd>value for 1 and 2</dd>
+        
+    <dt>name 3</dt>
+        <dd>value for 3</dd>
+        <dd>value for 3</dd>
+</dl>`;
+
+export const HTML_dl_dt_dd_Styles = `
+dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+dt {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+dd {
+    display: block;
+    margin-inline-start: 40px;
+    unicode-bidi: isolate;
+}`;
+
+export const HTML_table = `
+<table class="table">
+    <tr>
+        <th>Heading 1/Column 1</th>
+        <th>Heading 2/Column 2</th>
+        <th>Heading 3/Column 3</th>
+    </tr>
+    <tr>
+        <td>row 1 col 1</td>
+        <td>row 1 col 2</td>
+        <td>row 1 col 3</td>
+    </tr>
+    <tr>
+        <td colspan="3">This second row spans all three columns</td>
+    </tr>
+    <tr>
+        <td rowspan="2">This cell spans two rows</td>
+        <td>row 3 col 2</td>
+        <td>row 3 col 3</td>
+    </tr>
+    <tr>
+        <td>row 4 col 2</td>
+        <td>row 4 col 3</td>
+    </tr>
+</table>
+`;
+
+export const HTML_link = `
+<head>
+
+    <!-- EXTERNAL -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- INTERNAL -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="assets/img/icons/favicon.ico">
+
+</head>`;

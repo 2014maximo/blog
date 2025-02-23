@@ -1,0 +1,18 @@
+.listNone{
+    list-style: none;
+}
+.listLowerLatin{
+    list-style:lower-latin;
+}
+.listLowerRoman{
+    list-style: lower-roman;
+}
+.listCircle{
+    list-style: circle;
+}
+.listSquare{
+    list-style: square;
+}
+.listDecimal{
+    list-style: decimal;
+}
